@@ -1,4 +1,5 @@
 // CBT Exam Application - Robust functionality with proper error handling
+// Import database functionality
 
 class CBTExamApp {
     constructor() {
@@ -7,131 +8,97 @@ class CBTExamApp {
         this.answers = {};
         this.examTime = 3600; // 60 minutes in seconds
         this.timerInterval = null;
-        this.questions = [
-            {
-                id: 1,
-                question: "What is the capital of France?",
-                options: [
-                    { id: 'A', text: "London" },
-                    { id: 'B', text: "Berlin" },
-                    { id: 'C', text: "Paris" },
-                    { id: 'D', text: "Madrid" }
-                ],
-                correctAnswer: 'C',
-                explanation: "Paris is the capital and most populous city of France."
-            },
-            {
-                id: 2,
-                question: "Which planet is known as the Red Planet?",
-                options: [
-                    { id: 'A', text: "Venus" },
-                    { id: 'B', text: "Mars" },
-                    { id: 'C', text: "Jupiter" },
-                    { id: 'D', text: "Saturn" }
-                ],
-                correctAnswer: 'B',
-                explanation: "Mars is known as the Red Planet due to iron oxide (rust) on its surface, giving it a reddish appearance."
-            },
-            {
-                id: 3,
-                question: "What is the largest mammal in the world?",
-                options: [
-                    { id: 'A', text: "Elephant" },
-                    { id: 'B', text: "Blue Whale" },
-                    { id: 'C', text: "Giraffe" },
-                    { id: 'D', text: "Hippopotamus" }
-                ],
-                correctAnswer: 'B',
-                explanation: "The Blue Whale is the largest mammal and the largest animal ever known to have existed, reaching up to 100 feet in length."
-            },
-            {
-                id: 4,
-                question: "Which programming language is known as the language of the web?",
-                options: [
-                    { id: 'A', text: "Python" },
-                    { id: 'B', text: "Java" },
-                    { id: 'C', text: "JavaScript" },
-                    { id: 'D', text: "C++" }
-                ],
-                correctAnswer: 'C',
-                explanation: "JavaScript is known as the language of the web because it runs in web browsers and is essential for creating interactive web pages."
-            },
-            {
-                id: 5,
-                question: "What is the chemical symbol for gold?",
-                options: [
-                    { id: 'A', text: "Go" },
-                    { id: 'B', text: "Gd" },
-                    { id: 'C', text: "Au" },
-                    { id: 'D', text: "Ag" }
-                ],
-                correctAnswer: 'C',
-                explanation: "The chemical symbol for gold is Au, derived from the Latin word 'aurum' meaning gold."
-            },
-            {
-                id: 6,
-                question: "Who painted the Mona Lisa?",
-                options: [
-                    { id: 'A', text: "Vincent van Gogh" },
-                    { id: 'B', text: "Pablo Picasso" },
-                    { id: 'C', text: "Leonardo da Vinci" },
-                    { id: 'D', text: "Michelangelo" }
-                ],
-                correctAnswer: 'C',
-                explanation: "Leonardo da Vinci painted the Mona Lisa in the early 16th century, and it's now displayed at the Louvre Museum in Paris."
-            },
-            {
-                id: 7,
-                question: "What is the smallest prime number?",
-                options: [
-                    { id: 'A', text: "0" },
-                    { id: 'B', text: "1" },
-                    { id: 'C', text: "2" },
-                    { id: 'D', text: "3" }
-                ],
-                correctAnswer: 'C',
-                explanation: "2 is the smallest prime number. It's also the only even prime number, as all other even numbers are divisible by 2."
-            },
-            {
-                id: 8,
-                question: "Which ocean is the largest?",
-                options: [
-                    { id: 'A', text: "Atlantic Ocean" },
-                    { id: 'B', text: "Indian Ocean" },
-                    { id: 'C', text: "Arctic Ocean" },
-                    { id: 'D', text: "Pacific Ocean" }
-                ],
-                correctAnswer: 'D',
-                explanation: "The Pacific Ocean is the largest and deepest ocean, covering about 46% of Earth's water surface and about 32% of its total surface area."
-            },
-            {
-                id: 9,
-                question: "What is the main component of the Sun?",
-                options: [
-                    { id: 'A', text: "Helium" },
-                    { id: 'B', text: "Hydrogen" },
-                    { id: 'C', text: "Oxygen" },
-                    { id: 'D', text: "Carbon" }
-                ],
-                correctAnswer: 'B',
-                explanation: "The Sun is composed of about 74% hydrogen and 24% helium by mass, with hydrogen being the primary component used in nuclear fusion reactions."
-            },
-            {
-                id: 10,
-                question: "Which country is known as the Land of the Rising Sun?",
-                options: [
-                    { id: 'A', text: "China" },
-                    { id: 'B', text: "Thailand" },
-                    { id: 'C', text: "Japan" },
-                    { id: 'D', text: "South Korea" }
-                ],
-                correctAnswer: 'C',
-                explanation: "Japan is known as the Land of the Rising Sun because it is located in the far east in the Pacific Ocean, where the sun rises."
-            }
-        ];
+        this.questions = [];
+        this.selectedSubject = '';
+        this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+        
+        // Initialize database
+        this.initDatabase();
         
         this.initializeEventListeners();
-        this.renderQuestionList();
+        this.renderSubjectSelection();
+    }
+    
+    async initDatabase() {
+        try {
+            await examDB.init();
+            console.log('Database initialized successfully');
+            // Load questions into database if not already present
+            this.loadQuestionsToDatabase();
+        } catch (error) {
+            console.error('Error initializing database:', error);
+            // Fallback to JSON file if database fails
+            console.log('Falling back to JSON file for questions');
+        }
+    }
+    
+    async loadQuestionsToDatabase() {
+        // This would load questions from the JSON file to the database
+        // For now, we'll just load from the JSON file as before
+        // In a production environment, this would populate the database
+    }
+    
+    renderSubjectSelection() {
+        const subjectContainer = document.getElementById('subject-container');
+        if (!subjectContainer) return;
+        
+        subjectContainer.innerHTML = '';
+        
+        this.subjects.forEach(subject => {
+            const subjectBtn = document.createElement('button');
+            subjectBtn.className = 'subject-btn';
+            subjectBtn.textContent = subject.replace('_', ' ');
+            subjectBtn.addEventListener('click', () => {
+                this.selectedSubject = subject;
+                this.loadQuestionsForSubject(subject);
+            });
+            subjectContainer.appendChild(subjectBtn);
+        });
+    }
+    
+    async loadQuestionsForSubject(subject) {
+        try {
+            // Try to load from database first
+            if (examDB && examDB.db) {
+                try {
+                    this.questions = await examDB.getQuestionsBySubject(subject);
+                    if (this.questions.length > 0) {
+                        console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
+                        this.renderQuestionList(); // Initialize the question list after loading questions
+                        this.showScreen('login-screen');
+                        return;
+                    }
+                } catch (dbError) {
+                    console.error('Error loading questions from database:', dbError);
+                    // Continue to fallback method
+                }
+            }
+            
+            // Fallback to JSON file if database fails or no questions found
+            const response = await fetch('exams.json');
+            const examsData = await response.json();
+            
+            if (examsData[subject]) {
+                this.questions = examsData[subject];
+                // Optionally, add questions to database for future use
+                if (examDB && examDB.db) {
+                    try {
+                        await examDB.addQuestions(subject, examsData[subject]);
+                        console.log(`Added ${examsData[subject].length} questions to database for ${subject}`);
+                    } catch (addError) {
+                        console.error('Error adding questions to database:', addError);
+                    }
+                }
+                this.renderQuestionList(); // Initialize the question list after loading questions
+                this.showScreen('login-screen');
+            } else {
+                console.error(`Subject ${subject} not found in exams data`);
+                alert(`Questions for ${subject} are not available.`);
+            }
+        } catch (error) {
+            console.error('Error loading questions:', error);
+            alert('There was an error loading the exam questions. Please try again.');
+        }
     }
 
     initializeEventListeners() {
@@ -228,6 +195,7 @@ class CBTExamApp {
     startExam() {
         this.showScreen('exam-screen');
         this.startTimer();
+        this.currentQuestionIndex = 0; // Reset to first question
         this.loadQuestion(this.currentQuestionIndex);
     }
 
@@ -277,6 +245,9 @@ class CBTExamApp {
         
         // Update question list highlighting
         this.updateQuestionList();
+        
+        // Update navigation buttons
+        this.updateNavigationButtons();
         
         // Add animation class for smooth transition
         const questionContainer = document.querySelector('.question-body');
@@ -346,6 +317,21 @@ class CBTExamApp {
     nextQuestion() {
         if (this.currentQuestionIndex < this.questions.length - 1) {
             this.loadQuestion(this.currentQuestionIndex + 1);
+        }
+    }
+    
+    updateNavigationButtons() {
+        const nextBtn = document.getElementById('next-btn');
+        const submitBtn = document.getElementById('submit-btn');
+        
+        if (nextBtn) {
+            // Disable next button if on the last question
+            nextBtn.disabled = this.currentQuestionIndex === this.questions.length - 1;
+        }
+        
+        if (submitBtn) {
+            // Always show submit button so student can submit at any time
+            submitBtn.style.display = 'inline-block';
         }
     }
 

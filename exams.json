@@ -1,0 +1,978 @@
+{
+  "English": [
+    {
+      "id": 1,
+      "question": "Choose the word that is nearest in meaning to the word underlined: The principal was absent from the meeting.",
+      "options": [
+        {"id": "A", "text": "present"},
+        {"id": "B", "text": "away"},
+        {"id": "C", "text": "missing"},
+        {"id": "D", "text": "available"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Absent means not present in a place, so the nearest meaning is 'away'."
+    },
+    {
+      "id": 2,
+      "question": "Choose the word that is opposite in meaning to the word underlined: The weather was pleasant.",
+      "options": [
+        {"id": "A", "text": "nice"},
+        {"id": "B", "text": "unpleasant"},
+        {"id": "C", "text": "beautiful"},
+        {"id": "D", "text": "fine"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The opposite of pleasant is unpleasant."
+    },
+    {
+      "id": 3,
+      "question": "Choose the correct form of the verb in the sentence: The children _____ playing in the garden.",
+      "options": [
+        {"id": "A", "text": "is"},
+        {"id": "B", "text": "was"},
+        {"id": "C", "text": "are"},
+        {"id": "D", "text": "were"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The subject 'children' is plural, so the correct verb form is 'are'."
+    },
+    {
+      "id": 4,
+      "question": "Choose the correct preposition to complete the sentence: She is good _____ mathematics.",
+      "options": [
+        {"id": "A", "text": "at"},
+        {"id": "B", "text": "in"},
+        {"id": "C", "text": "on"},
+        {"id": "D", "text": "with"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct preposition is 'at' when referring to being good at a subject."
+    },
+    {
+      "id": 5,
+      "question": "Choose the word that is nearest in meaning to the word underlined: The old man was very weak.",
+      "options": [
+        {"id": "A", "text": "strong"},
+        {"id": "B", "text": "powerful"},
+        {"id": "C", "text": "frail"},
+        {"id": "D", "text": "healthy"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Weak and frail have similar meanings, referring to a lack of strength."
+    },
+    {
+      "id": 6,
+      "question": "Choose the correct punctuation mark to end the sentence: What is your name",
+      "options": [
+        {"id": "A", "text": "."},
+        {"id": "B", "text": "!"},
+        {"id": "C", "text": "?"},
+        {"id": "D", "text": ","}
+      ],
+      "correctAnswer": "C",
+      "explanation": "This is a question, so it should end with a question mark."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct form of the noun: There are many _____ in the zoo.",
+      "options": [
+        {"id": "A", "text": "deers"},
+        {"id": "B", "text": "deer"},
+        {"id": "C", "text": "deeries"},
+        {"id": "D", "text": "deermen"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The word 'deer' is the same in both singular and plural forms."
+    },
+    {
+      "id": 8,
+      "question": "Choose the correct pronoun to complete the sentence: _____ is my friend.",
+      "options": [
+        {"id": "A", "text": "He"},
+        {"id": "B", "text": "His"},
+        {"id": "C", "text": "Him"},
+        {"id": "D", "text": "Her"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct pronoun to use as a subject is 'he'."
+    },
+    {
+      "id": 9,
+      "question": "Choose the correct conjunction to complete the sentence: I will go to school _____ it rains.",
+      "options": [
+        {"id": "A", "text": "and"},
+        {"id": "B", "text": "but"},
+        {"id": "C", "text": "or"},
+        {"id": "D", "text": "if"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct conjunction to express a condition is 'if'."
+    },
+    {
+      "id": 10,
+      "question": "Choose the correct form of the adjective: This is the _____ book I have ever read.",
+      "options": [
+        {"id": "A", "text": "good"},
+        {"id": "B", "text": "better"},
+        {"id": "C", "text": "best"},
+        {"id": "D", "text": "well"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The superlative form of 'good' is 'best' when comparing more than two things."
+    }
+  ],
+  "Mathematics": [
+    {
+      "id": 1,
+      "question": "Simplify: 3x + 2x - 5x",
+      "options": [
+        {"id": "A", "text": "0"},
+        {"id": "B", "text": "x"},
+        {"id": "C", "text": "2x"},
+        {"id": "D", "text": "5x"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "3x + 2x - 5x = 5x - 5x = 0"
+    },
+    {
+      "id": 2,
+      "question": "What is the value of 2^3?",
+      "options": [
+        {"id": "A", "text": "6"},
+        {"id": "B", "text": "8"},
+        {"id": "C", "text": "9"},
+        {"id": "D", "text": "12"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "2^3 = 2 × 2 × 2 = 8"
+    },
+    {
+      "id": 3,
+      "question": "Find the area of a rectangle with length 8cm and width 5cm.",
+      "options": [
+        {"id": "A", "text": "13cm²"},
+        {"id": "B", "text": "40cm²"},
+        {"id": "C", "text": "26cm²"},
+        {"id": "D", "text": "35cm²"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Area of rectangle = length × width = 8cm × 5cm = 40cm²"
+    },
+    {
+      "id": 4,
+      "question": "Solve for x: 2x + 5 = 15",
+      "options": [
+        {"id": "A", "text": "5"},
+        {"id": "B", "text": "10"},
+        {"id": "C", "text": "7.5"},
+        {"id": "D", "text": "20"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "2x + 5 = 15 → 2x = 15 - 5 → 2x = 10 → x = 5"
+    },
+    {
+      "id": 5,
+      "question": "What is the perimeter of a square with side length 6cm?",
+      "options": [
+        {"id": "A", "text": "12cm"},
+        {"id": "B", "text": "24cm"},
+        {"id": "C", "text": "36cm"},
+        {"id": "D", "text": "30cm"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Perimeter of square = 4 × side length = 4 × 6cm = 24cm"
+    },
+    {
+      "id": 6,
+      "question": "Convert 0.75 to a fraction.",
+      "options": [
+        {"id": "A", "text": "1/2"},
+        {"id": "B", "text": "3/4"},
+        {"id": "C", "text": "2/3"},
+        {"id": "D", "text": "1/4"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "0.75 = 75/100 = 3/4 when simplified"
+    },
+    {
+      "id": 7,
+      "question": "What is the sum of angles in a triangle?",
+      "options": [
+        {"id": "A", "text": "90°"},
+        {"id": "B", "text": "180°"},
+        {"id": "C", "text": "270°"},
+        {"id": "D", "text": "360°"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The sum of angles in any triangle is always 180°"
+    },
+    {
+      "id": 8,
+      "question": "Find the value of x in the equation: x/4 = 3",
+      "options": [
+        {"id": "A", "text": "7"},
+        {"id": "B", "text": "12"},
+        {"id": "C", "text": "1"},
+        {"id": "D", "text": "4"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "x/4 = 3 → x = 3 × 4 → x = 12"
+    },
+    {
+      "id": 9,
+      "question": "What is the square root of 64?",
+      "options": [
+        {"id": "A", "text": "6"},
+        {"id": "B", "text": "7"},
+        {"id": "C", "text": "8"},
+        {"id": "D", "text": "9"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The square root of 64 is 8, because 8 × 8 = 64"
+    },
+    {
+      "id": 10,
+      "question": "Calculate: 15% of 200",
+      "options": [
+        {"id": "A", "text": "15"},
+        {"id": "B", "text": "20"},
+        {"id": "C", "text": "30"},
+        {"id": "D", "text": "40"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "15% of 200 = (15/100) × 200 = 30"
+    }
+  ],
+  "Physics": [
+    {
+      "id": 1,
+      "question": "What is the SI unit of force?",
+      "options": [
+        {"id": "A", "text": "Joule"},
+        {"id": "B", "text": "Newton"},
+        {"id": "C", "text": "Watt"},
+        {"id": "D", "text": "Pascal"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The SI unit of force is Newton (N), named after Sir Isaac Newton."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a scalar quantity?",
+      "options": [
+        {"id": "A", "text": "Velocity"},
+        {"id": "B", "text": "Acceleration"},
+        {"id": "C", "text": "Force"},
+        {"id": "D", "text": "Speed"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "Speed is a scalar quantity as it only has magnitude, not direction, unlike velocity, acceleration, and force which are vector quantities."
+    },
+    {
+      "id": 3,
+      "question": "What is the acceleration due to gravity on Earth?",
+      "options": [
+        {"id": "A", "text": "9.8 m/s²"},
+        {"id": "B", "text": "10 m/s²"},
+        {"id": "C", "text": "8.9 m/s²"},
+        {"id": "D", "text": "9.5 m/s²"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "The standard value for acceleration due to gravity on Earth is approximately 9.8 m/s²."
+    },
+    {
+      "id": 4,
+      "question": "Which law states that 'for every action, there is an equal and opposite reaction'?",
+      "options": [
+        {"id": "A", "text": "Newton's First Law"},
+        {"id": "B", "text": "Newton's Second Law"},
+        {"id": "C", "text": "Newton's Third Law"},
+        {"id": "D", "text": "Law of Gravitation"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction."
+    },
+    {
+      "id": 5,
+      "question": "What is the speed of light in vacuum?",
+      "options": [
+        {"id": "A", "text": "3 × 10⁶ m/s"},
+        {"id": "B", "text": "3 × 10⁷ m/s"},
+        {"id": "C", "text": "3 × 10⁸ m/s"},
+        {"id": "D", "text": "3 × 10⁹ m/s"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ m/s (or 300,000 km/s)."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is NOT a fundamental unit in the SI system?",
+      "options": [
+        {"id": "A", "text": "Meter"},
+        {"id": "B", "text": "Kilogram"},
+        {"id": "C", "text": "Second"},
+        {"id": "D", "text": "Newton"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "Newton is a derived unit (kg·m/s²), while meter, kilogram, and second are fundamental units."
+    },
+    {
+      "id": 7,
+      "question": "What is the energy possessed by a body due to its motion called?",
+      "options": [
+        {"id": "A", "text": "Potential energy"},
+        {"id": "B", "text": "Kinetic energy"},
+        {"id": "C", "text": "Chemical energy"},
+        {"id": "D", "text": "Thermal energy"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kinetic energy is the energy possessed by a body due to its motion."
+    },
+    {
+      "id": 8,
+      "question": "In which medium does sound travel fastest?",
+      "options": [
+        {"id": "A", "text": "Air"},
+        {"id": "B", "text": "Water"},
+        {"id": "C", "text": "Vacuum"},
+        {"id": "D", "text": "Steel"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "Sound travels fastest in solids like steel, then in liquids, and slowest in gases like air."
+    },
+    {
+      "id": 9,
+      "question": "What is the phenomenon of light bending when it passes from one medium to another?",
+      "options": [
+        {"id": "A", "text": "Reflection"},
+        {"id": "B", "text": "Diffraction"},
+        {"id": "C", "text": "Refraction"},
+        {"id": "D", "text": "Interference"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Refraction is the bending of light when it passes from one medium to another of different optical densities."
+    },
+    {
+      "id": 10,
+      "question": "What is the unit of electric current?",
+      "options": [
+        {"id": "A", "text": "Volt"},
+        {"id": "B", "text": "Ampere"},
+        {"id": "C", "text": "Ohm"},
+        {"id": "D", "text": "Watt"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The unit of electric current is Ampere (A), named after André-Marie Ampère."
+    }
+  ],
+  "Biology": [
+    {
+      "id": 1,
+      "question": "What is the basic structural and functional unit of all living organisms?",
+      "options": [
+        {"id": "A", "text": "Tissue"},
+        {"id": "B", "text": "Organ"},
+        {"id": "C", "text": "Cell"},
+        {"id": "D", "text": "Organ system"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The cell is the basic structural and functional unit of all living organisms, as stated in cell theory."
+    },
+    {
+      "id": 2,
+      "question": "Which organelle is known as the 'powerhouse' of the cell?",
+      "options": [
+        {"id": "A", "text": "Nucleus"},
+        {"id": "B", "text": "Ribosome"},
+        {"id": "C", "text": "Mitochondria"},
+        {"id": "D", "text": "Endoplasmic reticulum"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mitochondria are known as the 'powerhouse' of the cell because they produce ATP, the cell's energy currency."
+    },
+    {
+      "id": 3,
+      "question": "What is the process by which plants make their own food called?",
+      "options": [
+        {"id": "A", "text": "Respiration"},
+        {"id": "B", "text": "Photosynthesis"},
+        {"id": "C", "text": "Digestion"},
+        {"id": "D", "text": "Transpiration"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Photosynthesis is the process by which plants convert light energy, carbon dioxide, and water into glucose and oxygen."
+    },
+    {
+      "id": 4,
+      "question": "Which gas is released during photosynthesis?",
+      "options": [
+        {"id": "A", "text": "Carbon dioxide"},
+        {"id": "B", "text": "Nitrogen"},
+        {"id": "C", "text": "Oxygen"},
+        {"id": "D", "text": "Hydrogen"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Oxygen is released as a byproduct during the photosynthesis process in plants."
+    },
+    {
+      "id": 5,
+      "question": "What is the scientific name for humans?",
+      "options": [
+        {"id": "A", "text": "Homo erectus"},
+        {"id": "B", "text": "Homo habilis"},
+        {"id": "C", "text": "Homo sapiens"},
+        {"id": "D", "text": "Homo neanderthalensis"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The scientific name for modern humans is Homo sapiens, which means 'wise human'."
+    },
+    {
+      "id": 6,
+      "question": "Which blood group is known as the 'universal donor'?",
+      "options": [
+        {"id": "A", "text": "A"},
+        {"id": "B", "text": "B"},
+        {"id": "C", "text": "AB"},
+        {"id": "D", "text": "O"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "Blood group O is known as the 'universal donor' because it lacks A and B antigens, making it compatible with all other blood groups."
+    },
+    {
+      "id": 7,
+      "question": "What is the largest organ in the human body?",
+      "options": [
+        {"id": "A", "text": "Liver"},
+        {"id": "B", "text": "Brain"},
+        {"id": "C", "text": "Skin"},
+        {"id": "D", "text": "Heart"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The skin is the largest organ in the human body, covering approximately 20 square feet in adults."
+    },
+    {
+      "id": 8,
+      "question": "Which part of the brain controls balance and coordination?",
+      "options": [
+        {"id": "A", "text": "Cerebrum"},
+        {"id": "B", "text": "Cerebellum"},
+        {"id": "C", "text": "Medulla"},
+        {"id": "D", "text": "Hypothalamus"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The cerebellum is responsible for balance, coordination, and fine motor control."
+    },
+    {
+      "id": 9,
+      "question": "What is the process by which organisms produce offspring called?",
+      "options": [
+        {"id": "A", "text": "Metabolism"},
+        {"id": "B", "text": "Growth"},
+        {"id": "C", "text": "Reproduction"},
+        {"id": "D", "text": "Evolution"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Reproduction is the biological process by which organisms produce offspring to ensure the continuation of their species."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is NOT a characteristic of living organisms?",
+      "options": [
+        {"id": "A", "text": "Growth"},
+        {"id": "B", "text": "Reproduction"},
+        {"id": "C", "text": "Respiration"},
+        {"id": "D", "text": "Crystallization"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "Crystallization is not a characteristic of living organisms; it's a physical process. Growth, reproduction, and respiration are all characteristics of living organisms."
+    }
+  ],
+  "Chemistry": [
+    {
+      "id": 1,
+      "question": "What is the chemical symbol for gold?",
+      "options": [
+        {"id": "A", "text": "Go"},
+        {"id": "B", "text": "Gd"},
+        {"id": "C", "text": "Au"},
+        {"id": "D", "text": "Ag"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The chemical symbol for gold is Au, derived from the Latin word 'aurum' meaning gold."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an example of a chemical change?",
+      "options": [
+        {"id": "A", "text": "Melting of ice"},
+        {"id": "B", "text": "Dissolving sugar in water"},
+        {"id": "C", "text": "Burning of wood"},
+        {"id": "D", "text": "Cutting paper"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Burning of wood is a chemical change because it produces new substances (ash, smoke, gases) that are different from the original wood."
+    },
+    {
+      "id": 3,
+      "question": "What is the atomic number of carbon?",
+      "options": [
+        {"id": "A", "text": "4"},
+        {"id": "B", "text": "6"},
+        {"id": "C", "text": "8"},
+        {"id": "D", "text": "12"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The atomic number of carbon is 6, meaning it has 6 protons in its nucleus."
+    },
+    {
+      "id": 4,
+      "question": "Which gas is most abundant in the Earth's atmosphere?",
+      "options": [
+        {"id": "A", "text": "Oxygen"},
+        {"id": "B", "text": "Carbon dioxide"},
+        {"id": "C", "text": "Nitrogen"},
+        {"id": "D", "text": "Hydrogen"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas."
+    },
+    {
+      "id": 5,
+      "question": "What is the pH value of a neutral solution?",
+      "options": [
+        {"id": "A", "text": "0"},
+        {"id": "B", "text": "7"},
+        {"id": "C", "text": "14"},
+        {"id": "D", "text": "10"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "A neutral solution has a pH value of 7. Values below 7 are acidic, and values above 7 are basic/alkaline."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a noble gas?",
+      "options": [
+        {"id": "A", "text": "Oxygen"},
+        {"id": "B", "text": "Helium"},
+        {"id": "C", "text": "Nitrogen"},
+        {"id": "D", "text": "Hydrogen"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Helium is a noble gas, characterized by having a complete outer electron shell, making it chemically inert."
+    },
+    {
+      "id": 7,
+      "question": "What is the chemical formula for water?",
+      "options": [
+        {"id": "A", "text": "HO"},
+        {"id": "B", "text": "H₂O₂"},
+        {"id": "C", "text": "H₂O"},
+        {"id": "D", "text": "HO₂"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The chemical formula for water is H₂O, indicating it contains two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "id": 8,
+      "question": "Which element has the highest electronegativity?",
+      "options": [
+        {"id": "A", "text": "Oxygen"},
+        {"id": "B", "text": "Fluorine"},
+        {"id": "C", "text": "Chlorine"},
+        {"id": "D", "text": "Nitrogen"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Fluorine has the highest electronegativity of all elements (value of 4.0 on the Pauling scale)."
+    },
+    {
+      "id": 9,
+      "question": "What type of bond is formed when electrons are shared between atoms?",
+      "options": [
+        {"id": "A", "text": "Ionic bond"},
+        {"id": "B", "text": "Covalent bond"},
+        {"id": "C", "text": "Metallic bond"},
+        {"id": "D", "text": "Hydrogen bond"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "A covalent bond is formed when atoms share electrons, typically between non-metal atoms."
+    },
+    {
+      "id": 10,
+      "question": "Which acid is found in lemons?",
+      "options": [
+        {"id": "A", "text": "Acetic acid"},
+        {"id": "B", "text": "Citric acid"},
+        {"id": "C", "text": "Lactic acid"},
+        {"id": "D", "text": "Tartaric acid"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Citric acid is the primary acid found in lemons and other citrus fruits, giving them their sour taste."
+    }
+  ],
+  "Government": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a function of government?",
+      "options": [
+        {"id": "A", "text": "Maintaining law and order"},
+        {"id": "B", "text": "Providing public services"},
+        {"id": "C", "text": "Ensuring personal happiness"},
+        {"id": "D", "text": "Protecting citizens' rights"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "While governments may create conditions for happiness, ensuring personal happiness is not a direct function of government."
+    },
+    {
+      "id": 2,
+      "question": "What is the primary purpose of a constitution?",
+      "options": [
+        {"id": "A", "text": "To list all laws"},
+        {"id": "B", "text": "To establish government structure and protect citizens' rights"},
+        {"id": "C", "text": "To describe the country's history"},
+        {"id": "D", "text": "To promote economic growth"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "A constitution establishes the structure of government, defines powers and limitations, and protects citizens' fundamental rights."
+    },
+    {
+      "id": 3,
+      "question": "In a federal system of government, power is:",
+      "options": [
+        {"id": "A", "text": "Concentrated in one central authority"},
+        {"id": "B", "text": "Divided between central and regional governments"},
+        {"id": "C", "text": "Held by local communities only"},
+        {"id": "D", "text": "Controlled by the military"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a federal system, power is divided between a central (federal) government and regional (state/provincial) governments."
+    },
+    {
+      "id": 4,
+      "question": "What is the main function of the legislative branch?",
+      "options": [
+        {"id": "A", "text": "To enforce laws"},
+        {"id": "B", "text": "To interpret laws"},
+        {"id": "C", "text": "To make laws"},
+        {"id": "D", "text": "To implement policies"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The legislative branch is responsible for making laws, while the executive branch enforces them and the judicial branch interprets them."
+    },
+    {
+      "id": 5,
+      "question": "Which political system allows citizens to participate directly in decision-making?",
+      "options": [
+        {"id": "A", "text": "Authoritarianism"},
+        {"id": "B", "text": "Direct democracy"},
+        {"id": "C", "text": "Oligarchy"},
+        {"id": "D", "text": "Monarchy"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Direct democracy allows citizens to participate directly in decision-making rather than through elected representatives."
+    },
+    {
+      "id": 6,
+      "question": "What is the term for a government ruled by a single person with absolute power?",
+      "options": [
+        {"id": "A", "text": "Democracy"},
+        {"id": "B", "text": "Oligarchy"},
+        {"id": "C", "text": "Dictatorship"},
+        {"id": "D", "text": "Republic"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "A dictatorship is a form of government where a single person (the dictator) has absolute power."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is a fundamental right in most democratic societies?",
+      "options": [
+        {"id": "A", "text": "Right to unlimited wealth"},
+        {"id": "B", "text": "Right to freedom of speech"},
+        {"id": "C", "text": "Right to ignore laws"},
+        {"id": "D", "text": "Right to absolute power"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Freedom of speech is a fundamental right in democratic societies, allowing citizens to express their opinions."
+    },
+    {
+      "id": 8,
+      "question": "What is the main purpose of checks and balances in government?",
+      "options": [
+        {"id": "A", "text": "To eliminate corruption"},
+        {"id": "B", "text": "To ensure no single branch becomes too powerful"},
+        {"id": "C", "text": "To increase government efficiency"},
+        {"id": "D", "text": "To reduce government expenses"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Checks and balances prevent any single branch of government from becoming too powerful by allowing each branch to limit the others."
+    },
+    {
+      "id": 9,
+      "question": "In which system of government do citizens elect representatives to make decisions on their behalf?",
+      "options": [
+        {"id": "A", "text": "Direct democracy"},
+        {"id": "B", "text": "Representative democracy"},
+        {"id": "C", "text": "Autocracy"},
+        {"id": "D", "text": "Anarchy"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a representative democracy, citizens elect representatives who make political decisions on their behalf."
+    },
+    {
+      "id": 10,
+      "question": "What is the term for a formal change to a constitution?",
+      "options": [
+        {"id": "A", "text": "Law"},
+        {"id": "B", "text": "Decree"},
+        {"id": "C", "text": "Amendment"},
+        {"id": "D", "text": "Ordinance"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "An amendment is a formal change or addition to a constitution, typically requiring a special procedure to be passed."
+    }
+  ],
+  "Economics": [
+    {
+      "id": 1,
+      "question": "What is the basic economic problem?",
+      "options": [
+        {"id": "A", "text": "How to make money"},
+        {"id": "B", "text": "Scarcity of resources relative to unlimited wants"},
+        {"id": "C", "text": "How to eliminate poverty"},
+        {"id": "D", "text": "How to increase production"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The basic economic problem is scarcity - resources are limited while human wants are unlimited, requiring choices about what, how, and for whom to produce."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a factor of production?",
+      "options": [
+        {"id": "A", "text": "Land"},
+        {"id": "B", "text": "Labor"},
+        {"id": "C", "text": "Money"},
+        {"id": "D", "text": "Capital"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The traditional factors of production are land, labor, capital, and entrepreneurship. Money is a medium of exchange, not a factor of production."
+    },
+    {
+      "id": 3,
+      "question": "What is the law of demand?",
+      "options": [
+        {"id": "A", "text": "As price increases, quantity demanded increases"},
+        {"id": "B", "text": "As price decreases, quantity demanded decreases"},
+        {"id": "C", "text": "As price increases, quantity demanded decreases"},
+        {"id": "D", "text": "Price and quantity demanded are unrelated"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The law of demand states that there is an inverse relationship between price and quantity demanded: as price increases, quantity demanded decreases, ceteris paribus."
+    },
+    {
+      "id": 4,
+      "question": "What does GDP stand for?",
+      "options": [
+        {"id": "A", "text": "Gross Domestic Product"},
+        {"id": "B", "text": "Gross Development Program"},
+        {"id": "C", "text": "Government Development Plan"},
+        {"id": "D", "text": "General Domestic Production"}
+      ],
+      "correctAnswer": "A",
+      "explanation": "GDP stands for Gross Domestic Product, which measures the total value of all goods and services produced in a country during a specific period."
+    },
+    {
+      "id": 5,
+      "question": "Which market structure has many sellers offering identical products?",
+      "options": [
+        {"id": "A", "text": "Monopoly"},
+        {"id": "B", "text": "Oligopoly"},
+        {"id": "C", "text": "Monopolistic competition"},
+        {"id": "D", "text": "Perfect competition"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "Perfect competition is characterized by many sellers offering identical products, with perfect information and easy entry/exit."
+    },
+    {
+      "id": 6,
+      "question": "What is inflation?",
+      "options": [
+        {"id": "A", "text": "A decrease in the general price level"},
+        {"id": "B", "text": "An increase in the general price level"},
+        {"id": "C", "text": "A decrease in unemployment"},
+        {"id": "D", "text": "An increase in production"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Inflation is the rate at which the general level of prices for goods and services rises, leading to a decrease in purchasing power."
+    },
+    {
+      "id": 7,
+      "question": "What is opportunity cost?",
+      "options": [
+        {"id": "A", "text": "The actual money spent on something"},
+        {"id": "B", "text": "The next best alternative forgone when making a choice"},
+        {"id": "C", "text": "The cost of production"},
+        {"id": "D", "text": "The cost of raw materials"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Opportunity cost is the value of the next best alternative that is given up when making a choice."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is a characteristic of a public good?",
+      "options": [
+        {"id": "A", "text": "Rivalry"},
+        {"id": "B", "text": "Excludability"},
+        {"id": "C", "text": "Non-rivalry and non-excludability"},
+        {"id": "D", "text": "High cost"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Public goods are characterized by non-rivalry (one person's consumption doesn't reduce availability for others) and non-excludability (people can't be prevented from using them)."
+    },
+    {
+      "id": 9,
+      "question": "What is the main function of money as a medium of exchange?",
+      "options": [
+        {"id": "A", "text": "To store value"},
+        {"id": "B", "text": "To measure value"},
+        {"id": "C", "text": "To eliminate the need for double coincidence of wants"},
+        {"id": "D", "text": "To create wealth"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Money as a medium of exchange eliminates the need for double coincidence of wants, which was a major problem in barter systems."
+    },
+    {
+      "id": 10,
+      "question": "What is the difference between microeconomics and macroeconomics?",
+      "options": [
+        {"id": "A", "text": "Microeconomics studies large economies, macroeconomics studies small ones"},
+        {"id": "B", "text": "Microeconomics studies individual economic units, macroeconomics studies the economy as a whole"},
+        {"id": "C", "text": "Microeconomics is more important than macroeconomics"},
+        {"id": "D", "text": "There is no difference between them"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Microeconomics studies individual economic units (consumers, firms), while macroeconomics studies the economy as a whole (national income, inflation, unemployment)."
+    }
+  ],
+  "Financial_Account": [
+    {
+      "id": 1,
+      "question": "What is the basic accounting equation?",
+      "options": [
+        {"id": "A", "text": "Assets = Income - Expenses"},
+        {"id": "B", "text": "Assets = Liabilities + Capital"},
+        {"id": "C", "text": "Assets = Revenue - Costs"},
+        {"id": "D", "text": "Assets = Capital - Liabilities"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The basic accounting equation is Assets = Liabilities + Capital (or Owner's Equity), which must always balance."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a current asset?",
+      "options": [
+        {"id": "A", "text": "Building"},
+        {"id": "B", "text": "Machinery"},
+        {"id": "C", "text": "Inventory"},
+        {"id": "D", "text": "Furniture"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Inventory is a current asset as it's expected to be converted to cash within one year. Buildings, machinery, and furniture are fixed assets."
+    },
+    {
+      "id": 3,
+      "question": "What is the purpose of a trial balance?",
+      "options": [
+        {"id": "A", "text": "To show the profit or loss"},
+        {"id": "B", "text": "To check the arithmetical accuracy of ledger accounts"},
+        {"id": "C", "text": "To show the financial position"},
+        {"id": "D", "text": "To record transactions"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "A trial balance is prepared to check the arithmetical accuracy of ledger accounts by ensuring that debits equal credits."
+    },
+    {
+      "id": 4,
+      "question": "Which accounting concept states that business transactions should be recorded in monetary terms?",
+      "options": [
+        {"id": "A", "text": "Business entity concept"},
+        {"id": "B", "text": "Money measurement concept"},
+        {"id": "C", "text": "Going concern concept"},
+        {"id": "D", "text": "Accrual concept"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The money measurement concept states that only transactions that can be measured in monetary terms should be recorded in accounting books."
+    },
+    {
+      "id": 5,
+      "question": "What is depreciation?",
+      "options": [
+        {"id": "A", "text": "A decrease in the market value of an asset"},
+        {"id": "B", "text": "A systematic allocation of the cost of a fixed asset over its useful life"},
+        {"id": "C", "text": "A loss from selling an asset"},
+        {"id": "D", "text": "An increase in the value of an asset"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Depreciation is the systematic allocation of the cost of a fixed asset over its estimated useful life to match expenses with revenues."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a liability?",
+      "options": [
+        {"id": "A", "text": "Cash"},
+        {"id": "B", "text": "Accounts Receivable"},
+        {"id": "C", "text": "Equipment"},
+        {"id": "D", "text": "Accounts Payable"}
+      ],
+      "correctAnswer": "D",
+      "explanation": "Accounts Payable is a liability representing money owed to creditors. Cash, accounts receivable, and equipment are assets."
+    },
+    {
+      "id": 7,
+      "question": "What does the term 'capital' refer to in accounting?",
+      "options": [
+        {"id": "A", "text": "Fixed assets"},
+        {"id": "B", "text": "Owner's equity or net worth"},
+        {"id": "C", "text": "Working capital"},
+        {"id": "D", "text": "Cash"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "Capital refers to the owner's equity or net worth in the business, representing the owner's claim on the assets of the business."
+    },
+    {
+      "id": 8,
+      "question": "Which book of original entry records credit sales?",
+      "options": [
+        {"id": "A", "text": "Cash Book"},
+        {"id": "B", "text": "Purchases Journal"},
+        {"id": "C", "text": "Sales Journal"},
+        {"id": "D", "text": "General Journal"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "Credit sales are recorded in the Sales Journal (also called Sales Day Book), which is a book of original entry for credit sales transactions."
+    },
+    {
+      "id": 9,
+      "question": "What is the purpose of the profit and loss account?",
+      "options": [
+        {"id": "A", "text": "To show the financial position at a point in time"},
+        {"id": "B", "text": "To show the results of operations for a period"},
+        {"id": "C", "text": "To list all assets and liabilities"},
+        {"id": "D", "text": "To record all transactions"}
+      ],
+      "correctAnswer": "B",
+      "explanation": "The profit and loss account (income statement) shows the results of operations for a specific period by matching revenues with expenses."
+    },
+    {
+      "id": 10,
+      "question": "Which accounting principle requires that revenues and expenses be recorded in the period in which they are earned or incurred?",
+      "options": [
+        {"id": "A", "text": "Consistency principle"},
+        {"id": "B", "text": "Full disclosure principle"},
+        {"id": "C", "text": "Accrual principle"},
+        {"id": "D", "text": "Conservatism principle"}
+      ],
+      "correctAnswer": "C",
+      "explanation": "The accrual principle requires that revenues and expenses be recorded in the period in which they are earned or incurred, regardless of when cash is received or paid."
+    }
+  ]
+}

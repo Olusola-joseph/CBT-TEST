@@ -19,6 +19,57 @@ body {
     padding: 20px;
 }
 
+/* Subject Selection Screen */
+.subject-selection-card {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.subject-selection-card h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+    font-size: 2rem;
+}
+
+.subject-selection-card p {
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.subject-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.subject-btn {
+    padding: 20px 15px;
+    border: 2px solid #3498db;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3498db;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+}
+
+.subject-btn:hover {
+    background: #3498db;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
 /* Header Styles */
 header {
     text-align: center;

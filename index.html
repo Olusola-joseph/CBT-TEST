@@ -13,8 +13,19 @@
         </header>
         
         <main id="main-content">
+            <!-- Subject Selection Screen -->
+            <section id="subject-selection-screen" class="screen active">
+                <div class="subject-selection-card">
+                    <h2>Select Subject</h2>
+                    <p>Please choose the subject you would like to take the exam for:</p>
+                    <div id="subject-container" class="subject-grid">
+                        <!-- Subject buttons will be populated dynamically -->
+                    </div>
+                </div>
+            </section>
+            
             <!-- Login Screen -->
-            <section id="login-screen" class="screen active">
+            <section id="login-screen" class="screen">
                 <div class="login-card">
                     <h2>Student Login</h2>
                     <form id="login-form">
@@ -125,6 +136,7 @@
         </main>
     </div>
     
+    <script src="database.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
