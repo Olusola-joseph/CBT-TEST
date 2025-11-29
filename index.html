@@ -28,14 +28,14 @@
             <section id="login-screen" class="screen">
                 <div class="login-card">
                     <h2>Student Login</h2>
-                    <form id="login-form">
+                    <form id="login-form" autocomplete="off">
                         <div class="form-group">
                             <label for="student-id">Student ID:</label>
-                            <input type="text" id="student-id" placeholder="Enter your Student ID" required>
+                            <input type="text" id="student-id" name="student-id" placeholder="Enter your Student ID" required autocomplete="off">
                         </div>
                         <div class="form-group">
                             <label for="exam-code">Exam Code:</label>
-                            <input type="password" id="exam-code" placeholder="Enter your Exam Code" required>
+                            <input type="password" id="exam-code" name="exam-code" placeholder="Enter your Exam Code" required autocomplete="off">
                         </div>
                         <button type="submit" class="btn btn-primary">Start Exam</button>
                     </form>

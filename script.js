@@ -64,6 +64,7 @@ class CBTExamApp {
                     this.questions = await examDB.getQuestionsBySubject(subject);
                     if (this.questions.length > 0) {
                         console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
+                        this.selectRandomQuestions(); // Select 10 random questions
                         this.renderQuestionList(); // Initialize the question list after loading questions
                         this.showScreen('login-screen');
                         return;
@@ -89,6 +90,7 @@ class CBTExamApp {
                         console.error('Error adding questions to database:', addError);
                     }
                 }
+                this.selectRandomQuestions(); // Select 10 random questions
                 this.renderQuestionList(); // Initialize the question list after loading questions
                 this.showScreen('login-screen');
             } else {
@@ -99,6 +101,31 @@ class CBTExamApp {
             console.error('Error loading questions:', error);
             alert('There was an error loading the exam questions. Please try again.');
         }
+    }
+
+    // Select 10 random questions from the available questions
+    selectRandomQuestions() {
+        if (this.questions.length <= 10) {
+            // If there are 10 or fewer questions, use all of them
+            return;
+        }
+        
+        // Create a copy of the questions array to avoid modifying the original
+        const allQuestions = [...this.questions];
+        const selectedQuestions = [];
+        
+        // Randomly select 10 questions
+        for (let i = 0; i < 10; i++) {
+            if (allQuestions.length === 0) break;
+            
+            const randomIndex = Math.floor(Math.random() * allQuestions.length);
+            selectedQuestions.push(allQuestions[randomIndex]);
+            // Remove the selected question to avoid duplicates
+            allQuestions.splice(randomIndex, 1);
+        }
+        
+        this.questions = selectedQuestions;
+        console.log(`Selected ${this.questions.length} random questions from original pool`);
     }
 
     initializeEventListeners() {
@@ -210,6 +237,10 @@ class CBTExamApp {
             alert('Exam Code must be at least 4 characters long');
             return;
         }
+
+        // Clear the form inputs after successful validation to prevent remembering
+        document.getElementById('student-id').value = '';
+        document.getElementById('exam-code').value = '';
 
         // If validation passes, show instructions screen
         this.showScreen('instructions-screen');
@@ -573,6 +604,8 @@ class CBTExamApp {
         this.currentQuestionIndex = 0;
         this.answers = {};
         this.examTime = 3600; // Reset to 60 minutes
+        this.questions = []; // Clear questions to force reload
+        this.selectedSubject = ''; // Clear selected subject
         
         // Clear timer if it exists
         if (this.timerInterval) {
@@ -583,7 +616,10 @@ class CBTExamApp {
         this.updateTimerDisplay();
         
         // Remove warning class from timer
-        document.getElementById('timer').classList.remove('warning');
+        const timerElement = document.getElementById('timer');
+        if (timerElement) {
+            timerElement.classList.remove('warning');
+        }
         
         // Show subject selection screen again
         this.showScreen('subject-selection-screen');

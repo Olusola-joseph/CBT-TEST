@@ -2,7 +2,7 @@
 class ExamDatabase {
     constructor() {
         this.dbName = 'CBTExamDB';
-        this.version = 1;
+        this.version = 2; // Updated version to handle schema changes
         this.db = null;
     }
 
@@ -62,12 +62,30 @@ class ExamDatabase {
         const transaction = this.db.transaction(['questions'], 'readwrite');
         const store = transaction.objectStore('questions');
 
+        // Clear existing questions for this subject to avoid duplicates
+        const subjectIndex = store.index('subject');
+        const getRequest = subjectIndex.getAllKeys(IDBKeyRange.only(subject));
+        
+        await new Promise((resolve) => {
+            getRequest.onsuccess = () => {
+                const keys = getRequest.result;
+                keys.forEach(key => {
+                    store.delete(key);
+                });
+                resolve();
+            };
+        });
+
         // Add each question to the database
         for (const question of questions) {
             const questionData = {
                 ...question,
                 subject: subject
             };
+            // Ensure each question has a unique id
+            if (!questionData.id) {
+                questionData.id = Date.now() + Math.floor(Math.random() * 10000);
+            }
             store.add(questionData);
         }
 

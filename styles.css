@@ -473,6 +473,43 @@ header h1 {
     font-weight: bold;
 }
 
+/* Styling for review answers */
+.option-review {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.option-review.correct-answer {
+    background-color: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.option-review.user-wrong-answer {
+    background-color: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.option-review.user-correct-answer {
+    background-color: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.user-selection {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.correct-indicator {
+    color: #28a745;
+    font-weight: bold;
+}
+
 @keyframes pulse {
     0% { opacity: 1; }
     50% { opacity: 0.7; }
