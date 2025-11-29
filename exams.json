@@ -132,7 +132,7 @@
         {"id": "D", "text": "5x"}
       ],
       "correctAnswer": "A",
-      "explanation": "3x + 2x - 5x = 5x - 5x = 0"
+      "explanation": "This problem involves combining like terms in algebra. Like terms are terms that have the same variable raised to the same power. In this case, 3x, 2x, and 5x are all like terms because they all contain the variable x to the first power. To combine like terms, we add or subtract their coefficients (the numbers in front of the variables) while keeping the variable part the same. So, 3x + 2x - 5x = (3 + 2 - 5)x = 0x = 0. The fundamental principle here is that when we add or subtract like terms, we're essentially counting how many of the same variable we have. In this case, we start with 3 x's, add 2 more x's (giving us 5 x's), and then subtract 5 x's, leaving us with 0 x's, or simply 0."
     },
     {
       "id": 2,
@@ -144,7 +144,7 @@
         {"id": "D", "text": "12"}
       ],
       "correctAnswer": "B",
-      "explanation": "2^3 = 2 × 2 × 2 = 8"
+      "explanation": "This question tests your understanding of exponents (or powers). An exponent tells us how many times to multiply the base number by itself. In 2^3, the base is 2 and the exponent is 3, which means we multiply 2 by itself 3 times: 2^3 = 2 × 2 × 2 = 8. The fundamental principle of exponents is that a^n means multiplying 'a' by itself 'n' times. It's important to note that this is different from 2×3, which would be 6. The exponentiation operation (raising to a power) is a fundamental operation in mathematics that represents repeated multiplication. Understanding exponents is crucial for more advanced mathematical concepts and is used in many real-world applications like computing compound interest, population growth, and scientific notation."
     },
     {
       "id": 3,
@@ -156,7 +156,7 @@
         {"id": "D", "text": "35cm²"}
       ],
       "correctAnswer": "B",
-      "explanation": "Area of rectangle = length × width = 8cm × 5cm = 40cm²"
+      "explanation": "This problem involves calculating the area of a rectangle, which is a fundamental concept in geometry. The formula for the area of a rectangle is Area = length × width. This formula works because area measures the amount of space inside a two-dimensional shape, and multiplying length by width gives us the total number of square units that fit inside the rectangle. For this problem: Area = 8cm × 5cm = 40cm². The units become cm² (square centimeters) because we're multiplying two measurements that are in centimeters. The fundamental principle here is that area is a measure of surface coverage, and for rectangles, it's calculated by multiplying the two perpendicular dimensions. Understanding this concept is important for real-world applications like calculating how much paint is needed for a wall, how much carpet is needed for a floor, or how much land is in a plot."
     },
     {
       "id": 4,
@@ -168,7 +168,7 @@
         {"id": "D", "text": "20"}
       ],
       "correctAnswer": "A",
-      "explanation": "2x + 5 = 15 → 2x = 15 - 5 → 2x = 10 → x = 5"
+      "explanation": "This problem demonstrates the fundamental principles of solving linear equations. The goal is to isolate the variable x on one side of the equation. To do this, we perform the same operations on both sides of the equation to maintain balance. Starting with 2x + 5 = 15, we first subtract 5 from both sides to eliminate the constant term on the left: 2x + 5 - 5 = 15 - 5, which simplifies to 2x = 10. Next, we divide both sides by 2 to isolate x: 2x ÷ 2 = 10 ÷ 2, which gives us x = 5. The fundamental principle in solving equations is maintaining equality - whatever operation you perform on one side of the equation, you must perform on the other side as well. This ensures the equation remains balanced. The concept of inverse operations is key here: subtraction is the inverse of addition, and division is the inverse of multiplication. By applying inverse operations, we can systematically undo operations to isolate the variable."
     },
     {
       "id": 5,
@@ -180,7 +180,7 @@
         {"id": "D", "text": "30cm"}
       ],
       "correctAnswer": "B",
-      "explanation": "Perimeter of square = 4 × side length = 4 × 6cm = 24cm"
+      "explanation": "This problem involves calculating the perimeter of a square, which is a fundamental concept in geometry. The perimeter is the total distance around the outside of a shape. For a square, all four sides are equal in length, so the formula for the perimeter of a square is Perimeter = 4 × side length. This is because we need to add up all four equal sides: side + side + side + side = 4 × side. For this problem: Perimeter = 4 × 6cm = 24cm. The fundamental principle here is that perimeter measures the boundary of a shape, and for regular polygons (shapes with equal sides), we can multiply the number of sides by the length of one side. Understanding this concept is important for real-world applications like determining how much fencing is needed for a square garden, how much trim is needed for a square room, or how far you would walk around the edge of a square field."
     },
     {
       "id": 6,
@@ -192,7 +192,7 @@
         {"id": "D", "text": "1/4"}
       ],
       "correctAnswer": "B",
-      "explanation": "0.75 = 75/100 = 3/4 when simplified"
+      "explanation": "This problem involves converting a decimal to a fraction, which demonstrates the relationship between different representations of numbers. To convert 0.75 to a fraction, we can recognize that 0.75 means 75 hundredths, or 75/100. This is because the decimal 0.75 has two digits after the decimal point, which represents the hundredths place. To simplify 75/100, we find the greatest common divisor (GCD) of 75 and 100, which is 25. Dividing both numerator and denominator by 25 gives us: 75÷25 / 100÷25 = 3/4. The fundamental principle here is that decimals and fractions are different ways of representing the same value. Decimals represent parts of a whole using powers of 10, while fractions represent parts of a whole as a ratio of two integers. Understanding how to convert between these forms is important for mathematical operations and real-world applications where different forms may be more convenient or required."
     },
     {
       "id": 7,
@@ -204,7 +204,7 @@
         {"id": "D", "text": "360°"}
       ],
       "correctAnswer": "B",
-      "explanation": "The sum of angles in any triangle is always 180°"
+      "explanation": "This question tests a fundamental theorem in geometry: the sum of interior angles in any triangle is always 180°. This is a proven geometric property that holds true for all triangles, regardless of their shape or size - whether they are equilateral, isosceles, scalene, acute, right, or obtuse triangles. This property can be proven by drawing a line parallel to one side of the triangle through the opposite vertex, which creates alternate interior angles that are equal. When you add up the angles along the straight line, they must equal 180°, which is the same as the sum of the triangle's interior angles. The fundamental principle here is that this is an invariant property of triangles in Euclidean geometry. Understanding this concept is crucial for solving more complex geometric problems and is foundational for trigonometry. This property is used in many real-world applications, such as construction, engineering, and navigation, where triangular structures and relationships are common."
     },
     {
       "id": 8,
@@ -216,7 +216,7 @@
         {"id": "D", "text": "4"}
       ],
       "correctAnswer": "B",
-      "explanation": "x/4 = 3 → x = 3 × 4 → x = 12"
+      "explanation": "This problem involves solving a simple linear equation where the variable is divided by a number. To isolate x, we need to eliminate the division by 4. We do this by multiplying both sides of the equation by 4, which is the inverse operation of division. Starting with x/4 = 3, we multiply both sides by 4: (x/4) × 4 = 3 × 4. On the left side, the 4's cancel out, leaving us with x = 12. The fundamental principle here is that to solve for a variable, we need to perform inverse operations to 'undo' what has been done to the variable. Since x was divided by 4, we multiply by 4 to get x by itself. This maintains the equality because we're performing the same operation on both sides of the equation. This concept is essential for solving more complex equations and is a fundamental skill in algebra."
     },
     {
       "id": 9,
@@ -228,7 +228,7 @@
         {"id": "D", "text": "9"}
       ],
       "correctAnswer": "C",
-      "explanation": "The square root of 64 is 8, because 8 × 8 = 64"
+      "explanation": "This question tests your understanding of square roots, which is the inverse operation of squaring a number. The square root of a number is a value that, when multiplied by itself, gives the original number. In this case, we need to find a number that, when multiplied by itself, equals 64. We can verify that 8 × 8 = 64, so the square root of 64 is 8. The fundamental principle of square roots is that if a² = b, then √b = a (when a is positive). Square roots are important in many mathematical applications, including solving quadratic equations, calculating distances using the Pythagorean theorem, and working with areas of squares. It's helpful to memorize common perfect squares and their square roots, such as 1, 4, 9, 16, 25, 36, 49, 64, 81, and 100, as these appear frequently in mathematical problems."
     },
     {
       "id": 10,
@@ -240,7 +240,7 @@
         {"id": "D", "text": "40"}
       ],
       "correctAnswer": "C",
-      "explanation": "15% of 200 = (15/100) × 200 = 30"
+      "explanation": "This problem involves calculating a percentage of a number, which is a fundamental mathematical skill used in many real-world situations. The word 'percent' means 'per hundred,' so 15% literally means 15 per hundred or 15/100. To find a percentage of a number, we convert the percentage to a decimal and multiply it by the number. To convert 15% to a decimal, we divide by 100: 15% = 15/100 = 0.15. Then we multiply: 0.15 × 200 = 30. The fundamental principle here is that percentages represent parts of a whole, where the whole is considered as 100 parts. Understanding percentages is crucial for applications such as calculating discounts, taxes, interest rates, test scores, and statistical data. An alternative approach is to recognize that 15% = 10% + 5%, so 10% of 200 is 20 and 5% of 200 is 10, giving us 20 + 10 = 30."
     }
   ],
   "Physics": [
@@ -254,7 +254,7 @@
         {"id": "D", "text": "Pascal"}
       ],
       "correctAnswer": "B",
-      "explanation": "The SI unit of force is Newton (N), named after Sir Isaac Newton."
+      "explanation": "The SI unit of force is the Newton (N), named after Sir Isaac Newton, who made fundamental contributions to our understanding of forces and motion. The Newton is defined as the force required to accelerate a mass of one kilogram at a rate of one meter per second squared (1 N = 1 kg·m/s²). This definition comes from Newton's Second Law of Motion, which states that Force = Mass × Acceleration (F = ma). The fundamental principle here is that force is any interaction that, when unopposed, will change the motion of an object. Understanding units is crucial in physics because they help ensure calculations are dimensionally consistent. Other options represent different physical quantities: Joule is the unit of energy/work, Watt is the unit of power, and Pascal is the unit of pressure. The Newton is fundamental to understanding mechanics and appears in many important physics equations."
     },
     {
       "id": 2,
@@ -266,7 +266,7 @@
         {"id": "D", "text": "Speed"}
       ],
       "correctAnswer": "D",
-      "explanation": "Speed is a scalar quantity as it only has magnitude, not direction, unlike velocity, acceleration, and force which are vector quantities."
+      "explanation": "This question tests the fundamental distinction between scalar and vector quantities in physics. A scalar quantity has only magnitude (size), while a vector quantity has both magnitude and direction. Speed is a scalar quantity because it only tells us how fast an object is moving, without specifying the direction of motion. For example, '60 km/h' is a speed that tells us nothing about direction. In contrast, velocity is a vector quantity that includes both speed and direction (e.g., '60 km/h north'). Similarly, acceleration and force are vector quantities because they have both magnitude and direction. Acceleration describes how velocity changes over time, including the direction of that change, while force describes the push or pull on an object, including the direction of the push or pull. Understanding this distinction is crucial in physics because vector quantities require special mathematical techniques for addition and subtraction that account for direction, while scalar quantities can be manipulated with regular arithmetic. This concept is fundamental to mechanics, electricity, magnetism, and many other areas of physics."
     },
     {
       "id": 3,
@@ -278,7 +278,7 @@
         {"id": "D", "text": "9.5 m/s²"}
       ],
       "correctAnswer": "A",
-      "explanation": "The standard value for acceleration due to gravity on Earth is approximately 9.8 m/s²."
+      "explanation": "The acceleration due to gravity on Earth is approximately 9.8 m/s² (meters per second squared), which is often rounded to 10 m/s² for simpler calculations. This value represents the rate at which objects accelerate toward Earth when in free fall, assuming no air resistance. The fundamental principle behind this is Newton's Law of Universal Gravitation, which states that every particle in the universe attracts every other particle with a force proportional to the product of their masses and inversely proportional to the square of the distance between them. The value of 9.8 m/s² is an average at Earth's surface and can vary slightly depending on altitude and location on Earth due to the planet's shape and rotation. This constant is crucial in physics calculations involving falling objects, projectile motion, and weight (Weight = Mass × Gravity). Understanding this value is essential for problems in mechanics and helps explain why all objects, regardless of mass, fall at the same rate in the absence of air resistance, as demonstrated by Galileo's famous experiment."
     },
     {
       "id": 4,
@@ -290,7 +290,7 @@
         {"id": "D", "text": "Law of Gravitation"}
       ],
       "correctAnswer": "C",
-      "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction."
+      "explanation": "Newton's Third Law of Motion states that for every action, there is an equal and opposite reaction. This fundamental principle describes the nature of forces as interactions between objects. When object A exerts a force on object B, object B simultaneously exerts a force of equal magnitude but opposite direction on object A. These forces always occur in pairs and act on different objects. The fundamental principle here is that forces are always mutual interactions - they cannot exist in isolation. This law explains many everyday phenomena: when you walk, you push backward on the ground and the ground pushes you forward; when a bird flies, it pushes air downward and the air pushes the bird upward; when a rocket launches, it expels gas downward and the reaction force pushes the rocket upward. Understanding Newton's Third Law is essential for analyzing systems involving multiple objects and is crucial in engineering applications, from designing vehicles to understanding how rockets work. It's important to note that this is different from Newton's First Law (Law of Inertia) and Second Law (F=ma), which describe how forces affect motion."
     },
     {
       "id": 5,
@@ -302,7 +302,7 @@
         {"id": "D", "text": "3 × 10⁹ m/s"}
       ],
       "correctAnswer": "C",
-      "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ m/s (or 300,000 km/s)."
+      "explanation": "The speed of light in vacuum is approximately 3 × 10⁸ m/s (or 300,000,000 m/s, or about 186,000 miles per second). This is one of the most important fundamental constants in physics and is denoted by the letter 'c'. The fundamental principle here is that this speed represents the maximum possible speed at which all energy, matter, and information can travel in the universe according to Einstein's Theory of Relativity. This speed is constant regardless of the motion of the source or the observer, which was a revolutionary concept that led to the development of special relativity. The speed of light is crucial in many areas of physics and technology, including electromagnetism, quantum mechanics, and modern telecommunications. It appears in Einstein's famous equation E=mc², which shows the relationship between mass and energy. Understanding this value is important for calculations in optics, astronomy, and high-energy physics. Light travels slower in materials like air, water, or glass, but in a perfect vacuum, it always travels at this maximum speed."
     },
     {
       "id": 6,
@@ -314,7 +314,7 @@
         {"id": "D", "text": "Newton"}
       ],
       "correctAnswer": "D",
-      "explanation": "Newton is a derived unit (kg·m/s²), while meter, kilogram, and second are fundamental units."
+      "explanation": "This question tests your understanding of the International System of Units (SI) and the distinction between fundamental (base) units and derived units. The seven fundamental SI units are: meter (length), kilogram (mass), second (time), ampere (electric current), kelvin (temperature), mole (amount of substance), and candela (luminous intensity). The Newton is a derived unit, defined as kg·m/s², which combines the fundamental units of mass, length, and time. The fundamental principle here is that fundamental units are independent and cannot be expressed in terms of other units, while derived units are formed by combining fundamental units according to physical relationships. For example, force (measured in Newtons) is defined by Newton's Second Law as mass times acceleration, which is why 1 Newton equals 1 kg·m/s². Understanding this distinction is important for dimensional analysis and ensuring that equations are physically consistent. The Newton is named after Sir Isaac Newton and is used to measure force, weight, and other quantities related to the interaction between objects."
     },
     {
       "id": 7,
@@ -326,7 +326,7 @@
         {"id": "D", "text": "Thermal energy"}
       ],
       "correctAnswer": "B",
-      "explanation": "Kinetic energy is the energy possessed by a body due to its motion."
+      "explanation": "The energy possessed by a body due to its motion is called kinetic energy. The word 'kinetic' comes from the Greek word 'kinesis,' meaning motion. The fundamental principle is that any object in motion has the ability to do work due to its motion, and this is quantified as kinetic energy. The formula for kinetic energy is KE = ½mv², where m is the mass of the object and v is its velocity. This means that kinetic energy depends on both the mass and the square of the velocity of the object. Understanding kinetic energy is crucial because it's one of the fundamental forms of energy that appears in many physical processes. It's important to distinguish kinetic energy from potential energy, which is the energy stored in an object due to its position or configuration (like an object held at a height or a compressed spring). The concept of kinetic energy is fundamental to understanding motion, collisions, and energy conservation. When objects collide, kinetic energy can be transferred between them or converted to other forms of energy like heat or sound. This concept is essential in mechanics, thermodynamics, and many real-world applications from vehicle safety to sports science."
     },
     {
       "id": 8,
@@ -338,7 +338,7 @@
         {"id": "D", "text": "Steel"}
       ],
       "correctAnswer": "D",
-      "explanation": "Sound travels fastest in solids like steel, then in liquids, and slowest in gases like air."
+      "explanation": "Sound travels fastest in steel (a solid), followed by water (a liquid), and then air (a gas). Sound cannot travel in a vacuum at all. This is because sound is a mechanical wave that requires a medium to propagate - it travels by particles vibrating and transferring energy to neighboring particles. The fundamental principle is that the speed of sound depends on the density and elasticity of the medium. In solids like steel, particles are closely packed and strongly bonded, allowing sound waves to propagate very efficiently and quickly (about 5,000-6,000 m/s in steel). In liquids like water, particles are less tightly packed than in solids but more so than in gases, so sound travels faster than in air but slower than in solids (about 1,500 m/s in water). In gases like air, particles are far apart and have weak interactions, so sound travels relatively slowly (about 343 m/s in air at room temperature). Understanding this concept is important for applications like sonar, medical ultrasound, and structural engineering. The fact that sound cannot travel in a vacuum is why there is no sound in space, as space is essentially a vacuum with very few particles to carry sound waves."
     },
     {
       "id": 9,
@@ -350,7 +350,7 @@
         {"id": "D", "text": "Interference"}
       ],
       "correctAnswer": "C",
-      "explanation": "Refraction is the bending of light when it passes from one medium to another of different optical densities."
+      "explanation": "The phenomenon of light bending when it passes from one medium to another is called refraction. This occurs because light travels at different speeds in different media. The fundamental principle behind refraction is described by Snell's Law, which states that the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant for a given pair of media. When light enters a medium where it travels slower (like from air into water or glass), it bends toward the normal (an imaginary line perpendicular to the surface). When light enters a medium where it travels faster, it bends away from the normal. This happens because the wavefronts of light change speed at the boundary between media, causing the direction of propagation to change. Refraction is responsible for many everyday phenomena: why a straw appears bent in a glass of water, how lenses in eyeglasses correct vision, how prisms separate white light into colors, and how our eyes focus light. Understanding refraction is crucial for optics, vision correction, fiber optics, and many other applications in science and technology. It's important to distinguish refraction from reflection (light bouncing off a surface), diffraction (light bending around obstacles), and interference (light waves combining to form patterns)."
     },
     {
       "id": 10,
@@ -362,7 +362,7 @@
         {"id": "D", "text": "Watt"}
       ],
       "correctAnswer": "B",
-      "explanation": "The unit of electric current is Ampere (A), named after André-Marie Ampère."
+      "explanation": "The unit of electric current is the Ampere (A), named after André-Marie Ampère, a French physicist who made significant contributions to the study of electromagnetism. Electric current is the flow of electric charge through a conductor, and one Ampere is defined as one Coulomb of charge passing through a cross-sectional area per second (1 A = 1 C/s). The fundamental principle is that electric current is the rate of flow of electric charge, typically carried by electrons in a wire. Understanding electric current is essential because it's one of the fundamental quantities in electricity and electronics. It's important to distinguish current from other electrical quantities: voltage (measured in Volts) is the potential difference that drives current, resistance (measured in Ohms) opposes current flow, and power (measured in Watts) is the rate at which electrical energy is transferred. The relationship between these quantities is described by Ohm's Law (V = IR) and other fundamental electrical principles. The Ampere is one of the seven base SI units and is crucial for understanding circuits, electronics, and all applications of electricity."
     }
   ],
   "Biology": [
@@ -376,7 +376,7 @@
         {"id": "D", "text": "Organ system"}
       ],
       "correctAnswer": "C",
-      "explanation": "The cell is the basic structural and functional unit of all living organisms, as stated in cell theory."
+      "explanation": "The cell is the basic structural and functional unit of all living organisms, as stated in cell theory. This fundamental principle of biology was established by scientists like Matthias Schleiden, Theodor Schwann, and Rudolf Virchow in the 19th century. The cell theory states that all living things are composed of cells, all cells come from pre-existing cells, and the cell is the basic unit of structure and function in living things. The fundamental principle here is that all life processes occur at the cellular level - metabolism, growth, reproduction, and response to stimuli all happen within cells or through the coordinated activity of cells. Even organisms that appear to be single-celled, like bacteria and some protists, are complex systems with all the components necessary for life. More complex organisms are composed of many cells working together. Understanding this concept is crucial because it provides the foundation for all biological studies. Cells contain organelles that perform specific functions (like the nucleus controlling cell activities, mitochondria producing energy, and ribosomes making proteins), and these functions are essential for the survival of the organism. The cell concept is fundamental to understanding health, disease, development, and evolution."
     },
     {
       "id": 2,
@@ -388,7 +388,7 @@
         {"id": "D", "text": "Endoplasmic reticulum"}
       ],
       "correctAnswer": "C",
-      "explanation": "Mitochondria are known as the 'powerhouse' of the cell because they produce ATP, the cell's energy currency."
+      "explanation": "Mitochondria are known as the 'powerhouse' of the cell because they produce ATP (adenosine triphosphate), which is the cell's primary energy currency. The fundamental principle behind this is cellular respiration, a process that occurs in mitochondria where glucose and other nutrients are broken down in the presence of oxygen to release energy. This energy is then captured and stored in the high-energy bonds of ATP molecules. ATP can be thought of as a rechargeable battery that provides energy for virtually all cellular processes, including muscle contraction, protein synthesis, active transport across membranes, and many other life-sustaining activities. Mitochondria have their own DNA and are believed to have originated from ancient bacteria that formed a symbiotic relationship with early eukaryotic cells. Understanding mitochondrial function is crucial because it connects nutrition (glucose and other fuels) with energy production, and many diseases are related to mitochondrial dysfunction. The double-membrane structure of mitochondria is specifically adapted for their role in energy production, with the inner membrane folded into cristae to increase surface area for the chemical reactions of cellular respiration. This concept is fundamental to understanding how cells maintain life processes and respond to energy demands."
     },
     {
       "id": 3,
@@ -400,7 +400,7 @@
         {"id": "D", "text": "Transpiration"}
       ],
       "correctAnswer": "B",
-      "explanation": "Photosynthesis is the process by which plants convert light energy, carbon dioxide, and water into glucose and oxygen."
+      "explanation": "The process by which plants make their own food is called photosynthesis. This fundamental biological process allows plants to convert light energy (usually from the sun) into chemical energy stored in glucose molecules. The overall equation for photosynthesis is: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂. The fundamental principle is that plants use chlorophyll (the green pigment in leaves) to capture light energy, which is then used to combine carbon dioxide from the air with water from the soil to produce glucose and oxygen. This process occurs primarily in the chloroplasts of plant cells. Photosynthesis is crucial for life on Earth because it produces oxygen as a byproduct, which most living organisms need for cellular respiration, and it forms the base of most food chains. Understanding photosynthesis connects chemistry, physics, and biology - it involves light energy (physics), chemical reactions (chemistry), and biological structures (biology). The process has two main stages: the light-dependent reactions (where light energy is captured and converted to chemical energy) and the light-independent reactions (Calvin cycle, where CO₂ is fixed into glucose). This concept is fundamental to understanding ecosystems, energy flow in nature, and the relationship between plants and animals."
     },
     {
       "id": 4,
@@ -412,7 +412,7 @@
         {"id": "D", "text": "Hydrogen"}
       ],
       "correctAnswer": "C",
-      "explanation": "Oxygen is released as a byproduct during the photosynthesis process in plants."
+      "explanation": "Oxygen is released as a byproduct during the photosynthesis process in plants. This occurs during the light-dependent reactions of photosynthesis, which take place in the thylakoids of chloroplasts. The fundamental principle is that during the process of converting light energy to chemical energy, water molecules (H₂O) are split in a process called photolysis. When water molecules are split, electrons are released for the photosynthetic electron transport chain, hydrogen ions (protons) are used to create a gradient for ATP synthesis, and oxygen gas (O₂) is released as a waste product. This oxygen release is crucial for life on Earth as it provides the oxygen that most living organisms need for cellular respiration. The overall equation for photosynthesis is: 6CO₂ + 6H₂O + light energy → C₆H₁₂O₆ + 6O₂, showing that oxygen is produced from the water used in the process. Understanding this process helps explain why plants are essential for maintaining atmospheric oxygen levels and why deforestation can have significant impacts on global oxygen-carbon dioxide balance. The oxygen released during photosynthesis is the same oxygen that we breathe, connecting plant biology directly to human and animal survival."
     },
     {
       "id": 5,
@@ -424,7 +424,7 @@
         {"id": "D", "text": "Homo neanderthalensis"}
       ],
       "correctAnswer": "C",
-      "explanation": "The scientific name for modern humans is Homo sapiens, which means 'wise human'."
+      "explanation": "The scientific name for modern humans is Homo sapiens, which means 'wise human' or 'knowing human' in Latin. This binomial nomenclature system was developed by Carl Linnaeus and is used to classify all living organisms with a genus name (Homo) followed by a species name (sapiens). The fundamental principle behind this naming system is to provide a universal, standardized way to identify organisms that transcends language barriers. Homo sapiens are distinguished from other species in the genus Homo by their advanced cognitive abilities, complex language, and sophisticated tool use. The other options represent extinct human species or subspecies: Homo erectus ('upright man') was an early human species that lived from about 2 million to 100,000 years ago; Homo habilis ('handy man') is considered one of the earliest members of the genus Homo; and Homo neanderthalensis (Neanderthals) were a species that lived in Europe and Asia until about 40,000 years ago. Understanding taxonomic classification is important in biology because it helps us understand evolutionary relationships and organize the diversity of life. The genus Homo includes modern humans and our closest extinct relatives, all of whom share common ancestral features like bipedalism and increased brain size compared to other primates."
     },
     {
       "id": 6,
@@ -436,7 +436,7 @@
         {"id": "D", "text": "O"}
       ],
       "correctAnswer": "D",
-      "explanation": "Blood group O is known as the 'universal donor' because it lacks A and B antigens, making it compatible with all other blood groups."
+      "explanation": "Blood group O is known as the 'universal donor' because it lacks A and B antigens on the surface of red blood cells, making it compatible with all other blood groups (A, B, AB, and O). The fundamental principle behind blood compatibility is based on the ABO blood group system, which depends on the presence or absence of specific antigens (A and B) on red blood cells and corresponding antibodies in the plasma. Type O blood has no A or B antigens, so it won't trigger an immune response when transfused into people with other blood types. However, type O blood does contain both anti-A and anti-B antibodies in the plasma, which is why O-type donors can only receive O-type blood themselves. Understanding blood typing is crucial for safe blood transfusions and organ transplants. The immune system recognizes foreign antigens and attacks them, so matching blood types prevents potentially fatal transfusion reactions. There's also the Rh factor (positive or negative) that adds another layer of complexity to blood compatibility. While O is the universal donor, AB is considered the universal recipient because people with AB blood type have both A and B antigens and no anti-A or anti-B antibodies, so they can receive any ABO blood type. This concept is fundamental to medical practice and emergency medicine."
     },
     {
       "id": 7,
@@ -448,7 +448,7 @@
         {"id": "D", "text": "Heart"}
       ],
       "correctAnswer": "C",
-      "explanation": "The skin is the largest organ in the human body, covering approximately 20 square feet in adults."
+      "explanation": "The skin is the largest organ in the human body, covering approximately 20 square feet (about 1.8-2 square meters) in adults and weighing about 8-10 pounds (3.6-4.5 kg). The fundamental principle here is that an organ is a structure composed of different types of tissues that work together to perform specific functions, and the skin meets this definition while also being the body's largest by both surface area and weight. The skin serves multiple vital functions: it acts as a protective barrier against pathogens and environmental hazards, regulates body temperature through sweating and blood vessel dilation/constriction, synthesizes vitamin D when exposed to sunlight, houses sensory receptors for touch, pressure, temperature, and pain, and helps maintain water balance in the body. Understanding the skin as an organ is important because it emphasizes its complex structure and multiple functions beyond just being a covering. The skin has three main layers: the epidermis (outer protective layer), dermis (middle layer containing blood vessels, hair follicles, and glands), and hypodermis (subcutaneous layer of fat and connective tissue). This concept is fundamental to understanding human anatomy and physiology, as well as medical conditions affecting the integumentary system (the organ system that includes skin, hair, nails, and associated glands)."
     },
     {
       "id": 8,
@@ -460,7 +460,7 @@
         {"id": "D", "text": "Hypothalamus"}
       ],
       "correctAnswer": "B",
-      "explanation": "The cerebellum is responsible for balance, coordination, and fine motor control."
+      "explanation": "The cerebellum is responsible for balance, coordination, and fine motor control. Located at the back of the brain beneath the cerebrum, the cerebellum receives information from the sensory systems, spinal cord, and other parts of the brain to fine-tune motor movements. The fundamental principle is that while the cerebrum initiates voluntary movements, the cerebellum acts like a 'quality control center' that monitors and adjusts these movements to ensure smooth, coordinated actions. The cerebellum helps maintain balance by processing information from the inner ear (vestibular system) that detects head position and movement, as well as from proprioceptors in muscles and joints that report body position. Understanding cerebellar function is important because it explains why damage to this area results in problems with coordination (ataxia), balance, and precise movements. The cerebellum also plays a role in motor learning - helping us improve our skills with practice. The other brain parts have different functions: the cerebrum controls higher functions like thinking and voluntary movements, the medulla controls vital functions like breathing and heart rate, and the hypothalamus regulates hormones and homeostasis. This concept is fundamental to understanding how the nervous system controls movement and maintains equilibrium in the body."
     },
     {
       "id": 9,
@@ -472,7 +472,7 @@
         {"id": "D", "text": "Evolution"}
       ],
       "correctAnswer": "C",
-      "explanation": "Reproduction is the biological process by which organisms produce offspring to ensure the continuation of their species."
+      "explanation": "The process by which organisms produce offspring is called reproduction. This is one of the fundamental characteristics of life, as all living organisms have the ability to reproduce and pass on their genetic material to the next generation. The fundamental principle is that reproduction ensures the continuation of species and allows genetic information to be transmitted from parents to offspring. There are two main types of reproduction: asexual reproduction (where one organism produces offspring that are genetically identical to itself) and sexual reproduction (where two organisms contribute genetic material to create offspring with a combination of traits from both parents). Understanding reproduction is crucial because it connects to genetics, evolution, and the continuation of life on Earth. In asexual reproduction, processes like binary fission, budding, or vegetative propagation create genetically identical offspring. In sexual reproduction, specialized reproductive cells (gametes) combine during fertilization to form a zygote that develops into a new organism. Reproduction is essential for the survival of species and is the mechanism by which genetic variation is introduced and passed on, providing the raw material for evolution by natural selection. This concept is fundamental to understanding biology at the organismal, population, and evolutionary levels."
     },
     {
       "id": 10,
@@ -484,7 +484,7 @@
         {"id": "D", "text": "Crystallization"}
       ],
       "correctAnswer": "D",
-      "explanation": "Crystallization is not a characteristic of living organisms; it's a physical process. Growth, reproduction, and respiration are all characteristics of living organisms."
+      "explanation": "Crystallization is not a characteristic of living organisms; it's a physical process that occurs in non-living systems. The fundamental characteristics of living organisms include growth (increasing in size through cell division and enlargement), reproduction (producing offspring to continue the species), respiration (the process of obtaining energy by breaking down nutrients, often involving oxygen), metabolism (all the chemical reactions that occur in an organism), response to stimuli (reacting to changes in the environment), homeostasis (maintaining a stable internal environment), and excretion (removing waste products from metabolic processes). Crystallization is a physical process where atoms, ions, or molecules arrange themselves into a highly ordered, repeating structure called a crystal lattice. This process follows physical and chemical laws but does not involve the complex biological processes that define life. Understanding the characteristics of life is fundamental to biology because it helps us distinguish between living and non-living things, which is essential for studying organisms, ecosystems, and the processes that sustain life. Living organisms show all of these characteristics to some degree, while non-living things like crystals may show some physical organization but lack the biological processes that define life."
     }
   ],
   "Chemistry": [
@@ -498,7 +498,7 @@
         {"id": "D", "text": "Ag"}
       ],
       "correctAnswer": "C",
-      "explanation": "The chemical symbol for gold is Au, derived from the Latin word 'aurum' meaning gold."
+      "explanation": "The chemical symbol for gold is Au, derived from the Latin word 'aurum' meaning gold. The fundamental principle behind chemical symbols is that they provide a standardized, universal system for representing chemical elements, regardless of the language being used. Most symbols are derived from the element's English name (like H for hydrogen, O for oxygen), but many symbols come from their Latin, Greek, or other historical names. For example, Au from 'aurum' (gold), Fe from 'ferrum' (iron), Na from 'natrium' (sodium), and K from 'kalium' (potassium). Understanding chemical symbols is crucial for writing chemical formulas and equations. The symbol Au specifically identifies gold on the periodic table and represents one atom of gold. Ag is the symbol for silver (from Latin 'argentum'), Gd is the symbol for gadolinium, and Go is not a valid chemical symbol. This system of symbols, established by Jons Jacob Berzelius in the early 1800s, allows scientists worldwide to communicate chemical information clearly and unambiguously."
     },
     {
       "id": 2,
@@ -510,7 +510,7 @@
         {"id": "D", "text": "Cutting paper"}
       ],
       "correctAnswer": "C",
-      "explanation": "Burning of wood is a chemical change because it produces new substances (ash, smoke, gases) that are different from the original wood."
+      "explanation": "Burning of wood is an example of a chemical change because it results in the formation of new substances with different chemical properties. The fundamental principle distinguishing chemical changes from physical changes is that chemical changes involve the breaking and forming of chemical bonds, resulting in new substances with different molecular compositions, while physical changes only alter the physical state or appearance without changing the chemical composition. When wood burns, it undergoes combustion, a chemical reaction with oxygen that produces new substances like carbon dioxide, water vapor, ash, and other gases. The original wood cannot be recovered from these products, which is a key indicator of a chemical change. In contrast, melting ice is a physical change (solid to liquid, same H₂O molecules), dissolving sugar in water is a physical change (sugar molecules are just dispersed in water, recoverable by evaporation), and cutting paper is a physical change (only the shape is altered, chemical composition remains the same). Understanding the difference between physical and chemical changes is fundamental to chemistry because it helps us understand whether new substances are being formed, which involves energy changes, and how matter transforms. Chemical changes are often indicated by color changes, temperature changes, gas production, formation of precipitates, or the emission of light."
     },
     {
       "id": 3,
@@ -522,7 +522,7 @@
         {"id": "D", "text": "12"}
       ],
       "correctAnswer": "B",
-      "explanation": "The atomic number of carbon is 6, meaning it has 6 protons in its nucleus."
+      "explanation": "The atomic number of carbon is 6, meaning it has 6 protons in its nucleus. The fundamental principle behind atomic numbers is that they define the identity of an element - the number of protons in an atom's nucleus determines what element it is. All carbon atoms have exactly 6 protons, regardless of how many neutrons or electrons they have. In a neutral atom, the number of electrons equals the number of protons, so carbon also has 6 electrons. The atomic number is fundamental to understanding the periodic table because it determines an element's position and its chemical properties. Carbon is particularly important because it's the basis of organic chemistry and all known life - its ability to form four covalent bonds allows it to create a vast array of complex molecules. The atomic number should not be confused with the atomic mass, which for carbon is approximately 12 (the sum of protons and neutrons in the most common isotope). Understanding atomic structure is crucial for chemistry because it explains how atoms interact, bond, and form compounds. The periodic table is arranged by atomic number, which reveals periodic trends in properties like reactivity, electronegativity, and atomic radius."
     },
     {
       "id": 4,
@@ -534,7 +534,7 @@
         {"id": "D", "text": "Hydrogen"}
       ],
       "correctAnswer": "C",
-      "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas."
+      "explanation": "Nitrogen makes up about 78% of the Earth's atmosphere, making it the most abundant gas. The fundamental principle behind atmospheric composition is that it reflects the balance between various geological, biological, and chemical processes over Earth's history. The Earth's atmosphere consists of approximately 78% nitrogen, 21% oxygen, 0.9% argon, 0.04% carbon dioxide, and trace amounts of other gases. Nitrogen is so abundant because it's relatively unreactive under Earth's surface conditions, so it has accumulated over billions of years. Oxygen is the second most abundant at about 21%, primarily produced by photosynthesis in plants and other photosynthetic organisms. Carbon dioxide, though only about 0.04%, is crucial for life and climate regulation. Understanding atmospheric composition is important for environmental science, meteorology, and understanding climate change. The relative abundance of these gases affects everything from respiration to weather patterns to the greenhouse effect. Hydrogen, despite being the most abundant element in the universe, is only present in trace amounts in our atmosphere because it's so light that it escapes to space. This composition has been relatively stable for millions of years, allowing life as we know it to evolve and thrive."
     },
     {
       "id": 5,
