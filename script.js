@@ -386,6 +386,13 @@ class CBTExamApp {
             
             optionsContainer.appendChild(optionElement);
         });
+        
+        // Trigger MathJax to re-render mathematical expressions in the options
+        if (window.MathJax) {
+            MathJax.typesetPromise([optionsContainer]).catch(function (err) {
+                console.error('MathJax error in options:', err);
+            });
+        }
     }
 
     selectOption(questionId, optionId) {
@@ -569,15 +576,18 @@ class CBTExamApp {
         let cleanExplanation = question.explanation || 'No explanation available.';
         cleanExplanation = cleanExplanation.replace(/BODMAS/gi, '');
         
-        // Add diagram if available
-        let diagramHtml = '';
+        // Process explanation to extract only one image (prioritizing non-SVG over SVG)
+        let processedExplanation = cleanExplanation;
+        let diagramButtonHtml = '';
+        
         if (question.diagram) {
-            diagramHtml = `
-                <div class="diagram-container">
-                    <h5>Diagram:</h5>
-                    <div class="diagram-content">${question.diagram}</div>
-                </div>
-            `;
+            // Decode the URL-encoded SVG if it's a data URL
+            let diagramContent = question.diagram;
+            if (question.diagram.startsWith('data:image/svg+xml;utf8,')) {
+                // Decode the URL-encoded SVG content
+                diagramContent = decodeURIComponent(question.diagram.substring(24)); // Remove 'data:image/svg+xml;utf8,' prefix
+            }
+            diagramButtonHtml = `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(diagramContent)}')">Show Diagram</button>`;
         }
         
         reviewContainer.innerHTML = `
@@ -610,11 +620,11 @@ class CBTExamApp {
                     }).join('')}
                 </div>
                 
-                ${diagramHtml}
+                ${diagramButtonHtml}
                 
                 <div class="explanation">
                     <h5>Explanation:</h5>
-                    <p>${cleanExplanation}</p>
+                    <p>${processedExplanation}</p>
                 </div>
             </div>
         `;
@@ -717,6 +727,54 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('There was an error initializing the exam application. Please refresh the page.');
     }
 });
+
+// Function to show diagram in a modal
+function showDiagram(content, isImageUrl = false) {
+    // Create modal container if it doesn't exist
+    let modal = document.getElementById('diagram-modal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'diagram-modal';
+        modal.innerHTML = `
+            <div class="modal-overlay" onclick="closeDiagramModal()"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Question Diagram</h3>
+                    <button class="modal-close" onclick="closeDiagramModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="diagram-display"></div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="closeDiagramModal()">Close</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+    }
+    
+    // Set the diagram content
+    const diagramDisplay = document.getElementById('diagram-display');
+    if (isImageUrl) {
+        // If it's an image URL, create an img element
+        diagramDisplay.innerHTML = `<img src="${content}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto;">`;
+    } else {
+        // If it's SVG content, decode and display it
+        const decodedContent = decodeURIComponent(content);
+        diagramDisplay.innerHTML = decodedContent;
+    }
+    
+    // Show the modal
+    modal.style.display = 'block';
+}
+
+// Function to close the diagram modal
+function closeDiagramModal() {
+    const modal = document.getElementById('diagram-modal');
+    if (modal) {
+        modal.style.display = 'none';
+    }
+}
 
 // Handle page unload to warn user
 window.addEventListener('beforeunload', (e) => {
