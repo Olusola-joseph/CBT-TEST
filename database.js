@@ -19,7 +19,14 @@ class ExamDatabase {
             request.onsuccess = (event) => {
                 this.db = event.target.result;
                 console.log('Database opened successfully');
-                resolve(this.db);
+                
+                // Check if database is empty and populate with questions if needed
+                this.populateDatabaseIfEmpty().then(() => {
+                    resolve(this.db);
+                }).catch(error => {
+                    console.error('Error populating database:', error);
+                    resolve(this.db); // Still resolve as database is opened
+                });
             };
 
             request.onupgradeneeded = (event) => {
@@ -49,6 +56,46 @@ class ExamDatabase {
                     resultStore.createIndex('examId', 'examId', { unique: false });
                     resultStore.createIndex('questionId', 'questionId', { unique: false });
                 }
+            };
+        });
+    }
+
+    // Populate database with questions if it's empty
+    async populateDatabaseIfEmpty() {
+        // Check if questions exist for any subject
+        const transaction = this.db.transaction(['questions'], 'readonly');
+        const store = transaction.objectStore('questions');
+        const request = store.count();
+        
+        return new Promise((resolve, reject) => {
+            request.onsuccess = async () => {
+                if (request.result === 0) {
+                    console.log('Database is empty, populating with questions...');
+                    try {
+                        // Load questions from the new JSON file
+                        const response = await fetch('new_exams.json');
+                        const examsData = await response.json();
+                        
+                        // Add questions for each subject
+                        for (const [subject, questions] of Object.entries(examsData)) {
+                            await this.addQuestions(subject, questions);
+                        }
+                        
+                        console.log('Database populated with questions from new_exams.json');
+                        resolve();
+                    } catch (error) {
+                        console.error('Error loading questions from JSON:', error);
+                        reject(error);
+                    }
+                } else {
+                    console.log('Database already has questions, skipping population');
+                    resolve();
+                }
+            };
+            
+            request.onerror = () => {
+                console.error('Error counting questions:', request.error);
+                reject(request.error);
             };
         });
     }
