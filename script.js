@@ -76,7 +76,7 @@ class CBTExamApp {
             }
             
             // Fallback to JSON file if database fails or no questions found
-            const response = await fetch('exams.json');
+            const response = await fetch('new_exams.json');
             const examsData = await response.json();
             
             if (examsData[subject]) {
@@ -124,8 +124,15 @@ class CBTExamApp {
             allQuestions.splice(randomIndex, 1);
         }
         
-        this.questions = selectedQuestions;
-        console.log(`Selected ${this.questions.length} random questions from original pool`);
+        // Assign new sequential IDs to the selected questions (1 to 10)
+        this.questions = selectedQuestions.map((question, index) => {
+            return {
+                ...question,
+                id: index + 1  // Sequential numbering from 1 to 10
+            };
+        });
+        
+        console.log(`Selected ${this.questions.length} random questions from original pool with new sequential IDs`);
     }
 
     initializeEventListeners() {
@@ -306,7 +313,10 @@ class CBTExamApp {
         
         // Update question display - using innerHTML to support HTML tags like <u>
         document.getElementById('q-number').textContent = question.id;
-        document.getElementById('question-text').innerHTML = question.question; // Changed to innerHTML to support HTML tags
+        // Clean up the question text to remove BODMAS references and fix underlines
+        let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
+        cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
+        document.getElementById('question-text').innerHTML = cleanQuestion; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
         
@@ -529,6 +539,14 @@ class CBTExamApp {
         const correctOption = question.options.find(opt => opt.id === question.correctAnswer);
         const correctAnswerText = correctOption ? `${question.correctAnswer}. ${correctOption.text}` : 'Unknown';
         
+        // Clean up the question text to remove BODMAS references and fix underlines
+        let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
+        cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
+        
+        // Clean up explanation too
+        let cleanExplanation = question.explanation || 'No explanation available.';
+        cleanExplanation = cleanExplanation.replace(/BODMAS/gi, '');
+        
         reviewContainer.innerHTML = `
             <div class="review-header">
                 <h3>Question ${this.currentQuestionIndex + 1} of ${this.questions.length}</h3>
@@ -537,7 +555,7 @@ class CBTExamApp {
                 </div>
             </div>
             <div class="review-question">
-                <h4>${question.question}</h4>  <!-- Using question.question directly to render HTML -->
+                <h4>${cleanQuestion}</h4>  <!-- Using cleaned question to render HTML -->
                 
                 <div class="options-review">
                     ${question.options.map(option => {
@@ -561,7 +579,7 @@ class CBTExamApp {
                 
                 <div class="explanation">
                     <h5>Explanation:</h5>
-                    <p>${question.explanation || 'No explanation available.'}</p>
+                    <p>${cleanExplanation}</p>
                 </div>
             </div>
         `;
