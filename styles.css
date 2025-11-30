@@ -464,13 +464,14 @@ header h1 {
     animation: pulse 1s infinite;
 }
 
-/* Underline style for questions */
+/* Underline style for questions - black underline for emphasis */
 .question-body p u,
 .review-question h4 u {
     text-decoration: underline;
-    text-decoration-color: #e74c3c;
-    text-decoration-style: double; /* Makes it more noticeable */
+    text-decoration-color: #000; /* Black underline */
+    text-decoration-style: solid;
     font-weight: bold;
+    color: #000; /* Ensure text is black */
 }
 
 /* Styling for review answers */
