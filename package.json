@@ -19,11 +19,11 @@
   "author": "CBT Development Team",
   "license": "MIT",
   "devDependencies": {
-    "serve": "^14.2.1"
+    "serve": "^14.2.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/CBT-TEST.git"
+    "url": "git+https://github.com/your-username/CBT-TEST.git"
   },
   "bugs": {
     "url": "https://github.com/your-username/CBT-TEST/issues"
