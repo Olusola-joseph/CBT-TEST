@@ -1,1 +1,4 @@
-(mathematics_questions.json is a source/config file, and there are no build artifacts, dependencies, or temp files in the changes, so output nothing)
+```
+# JSON data files
+*.json
+```
