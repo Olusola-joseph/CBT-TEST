@@ -1,27 +1,17 @@
 ```
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Backup files
-*.backup
+# JSON data files that were deleted (avoid recreating)
+math_new_fixed.json
+math_old_fixed.json
+math_questions_clean.json
+math_questions_clean_jq.json
+math_questions_cleaned.json
+math_questions_extracted.json
+math_questions_fixed.json
+math_questions_fixed_strings.json
+math_questions_strings.json
+mathematics_questions_clean.json
+mathematics_questions_final.json
+mathematics_questions_fixed.json
+mathematics_questions_new.json
+mathematics_questions_new_clean.json
 ```
