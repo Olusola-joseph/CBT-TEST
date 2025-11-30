@@ -323,8 +323,15 @@ class CBTExamApp {
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
+        
+        // Add diagram if available
+        let questionHtml = cleanQuestion;
+        if (question.diagram) {
+            questionHtml += `<div class="diagram-container"><h5>Diagram:</h5><div class="diagram-content">${question.diagram}</div></div>`;
+        }
+        
         // The questions are already using proper MathJax delimiters \\\\( ... \\\\) which is correct
-        document.getElementById('question-text').innerHTML = cleanQuestion; // Changed to innerHTML to support HTML tags
+        document.getElementById('question-text').innerHTML = questionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
         
@@ -562,6 +569,17 @@ class CBTExamApp {
         let cleanExplanation = question.explanation || 'No explanation available.';
         cleanExplanation = cleanExplanation.replace(/BODMAS/gi, '');
         
+        // Add diagram if available
+        let diagramHtml = '';
+        if (question.diagram) {
+            diagramHtml = `
+                <div class="diagram-container">
+                    <h5>Diagram:</h5>
+                    <div class="diagram-content">${question.diagram}</div>
+                </div>
+            `;
+        }
+        
         reviewContainer.innerHTML = `
             <div class="review-header">
                 <h3>Question ${this.currentQuestionIndex + 1} of ${this.questions.length}</h3>
@@ -591,6 +609,8 @@ class CBTExamApp {
                         `;
                     }).join('')}
                 </div>
+                
+                ${diagramHtml}
                 
                 <div class="explanation">
                     <h5>Explanation:</h5>

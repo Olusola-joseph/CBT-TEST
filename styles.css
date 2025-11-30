@@ -532,6 +532,33 @@ header h1 {
     to { transform: rotate(360deg); }
 }
 
+/* Diagram Styles */
+.diagram-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.diagram-container h5 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.diagram-content {
+    display: inline-block;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.diagram-content svg {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Modal Styles */
 .modal-overlay {
     display: none;
