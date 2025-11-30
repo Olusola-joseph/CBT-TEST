@@ -70,3 +70,12 @@
 8. Financial_Account (15 questions)
 
 Total: 120 unique, subject-appropriate questions
+
+## MathJax Integration for Mathematical Expressions
+
+- Added MathJax CDN links to the `<head>` section of `index.html` to enable mathematical expression rendering
+- Updated the `loadQuestion` function in `script.js` to trigger MathJax rendering when displaying questions with mathematical expressions
+- Verified that mathematical expressions in the mathematics JSON file use proper MathJax delimiters
+- Updated the `renderOptions` function to properly render mathematical expressions in answer options
+- Updated the `renderQuestionList` function to properly render mathematical expressions in the question navigation list
+- Updated the `renderReviewQuestion` function to properly render mathematical expressions in the review section, including questions, options, and explanations
