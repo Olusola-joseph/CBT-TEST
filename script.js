@@ -75,17 +75,24 @@ class CBTExamApp {
                 }
             }
             
-            // Fallback to JSON file if database fails or no questions found
-            const response = await fetch('new_exams.json');
-            const examsData = await response.json();
+            // Fallback to subject-specific JSON files
+            // Convert subject name to lowercase and replace underscores with hyphens for filename
+            const fileName = `${subject.toLowerCase()}_questions.json`;
+            const response = await fetch(fileName);
             
-            if (examsData[subject]) {
-                this.questions = examsData[subject];
+            if (!response.ok) {
+                throw new Error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
+            }
+            
+            const subjectData = await response.json();
+            
+            if (subjectData && subjectData.questions) {
+                this.questions = subjectData.questions;
                 // Optionally, add questions to database for future use
                 if (examDB && examDB.db) {
                     try {
-                        await examDB.addQuestions(subject, examsData[subject]);
-                        console.log(`Added ${examsData[subject].length} questions to database for ${subject}`);
+                        await examDB.addQuestions(subject, subjectData.questions);
+                        console.log(`Added ${subjectData.questions.length} questions to database for ${subject}`);
                     } catch (addError) {
                         console.error('Error adding questions to database:', addError);
                     }

@@ -72,19 +72,35 @@ class ExamDatabase {
                 if (request.result === 0) {
                     console.log('Database is empty, populating with questions...');
                     try {
-                        // Load questions from the new JSON file
-                        const response = await fetch('new_exams.json');
-                        const examsData = await response.json();
+                        // Load questions from the new subject-specific JSON files
+                        const subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
                         
-                        // Add questions for each subject
-                        for (const [subject, questions] of Object.entries(examsData)) {
-                            await this.addQuestions(subject, questions);
+                        for (const subject of subjects) {
+                            const fileName = `${subject.toLowerCase()}_questions.json`;
+                            try {
+                                const response = await fetch(fileName);
+                                if (!response.ok) {
+                                    console.error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
+                                    continue; // Skip to next subject
+                                }
+                                
+                                const subjectData = await response.json();
+                                
+                                if (subjectData && subjectData.questions) {
+                                    await this.addQuestions(subject, subjectData.questions);
+                                    console.log(`Added ${subjectData.questions.length} questions for ${subject} to database`);
+                                }
+                            } catch (error) {
+                                console.error(`Error loading questions for ${subject}:`, error);
+                                // Continue with other subjects
+                                continue;
+                            }
                         }
                         
-                        console.log('Database populated with questions from new_exams.json');
+                        console.log('Database populated with questions from subject-specific files');
                         resolve();
                     } catch (error) {
-                        console.error('Error loading questions from JSON:', error);
+                        console.error('Error loading questions from JSON files:', error);
                         reject(error);
                     }
                 } else {

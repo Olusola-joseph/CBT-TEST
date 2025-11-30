@@ -44,34 +44,22 @@ A robust Computer-Based Test (CBT) examination platform with comprehensive funct
 - `index.html` - Main HTML structure
 - `styles.css` - Responsive styling with animations
 - `script.js` - Core functionality and exam logic
+- `database.js` - IndexedDB functionality for local storage
 - `package.json` - Project dependencies and scripts
+- `exams.json` - Original combined questions file
+- `english_questions.json` - English subject questions
+- `mathematics_questions.json` - Mathematics subject questions
+- `physics_questions.json` - Physics subject questions
+- `biology_questions.json` - Biology subject questions
+- `chemistry_questions.json` - Chemistry subject questions
+- `government_questions.json` - Government subject questions
+- `economics_questions.json` - Economics subject questions
+- `financial_account_questions.json` - Financial Accounting subject questions
 
-## Robust Features
+## Database and Question Management
 
-- Input validation and error handling
-- Timer with warning animation
-- Prevent accidental page refresh during exam
-- Smooth animations and transitions
-- Accessible form elements
-- Cross-browser compatibility
-- Mobile-responsive design
-- Question tracking and status indicators
+The application now supports loading questions from individual subject-specific JSON files, improving organization and maintainability. Questions are loaded dynamically based on the selected subject, and the IndexedDB is used for caching questions locally for faster access.
 
 ## Sample Questions
 
-The application includes 10 sample questions covering various topics to demonstrate functionality. In a real implementation, questions would be loaded from a database or API.
-
-## Security Considerations
-
-- Client-side validation (server-side validation recommended for production)
-- Session management (would need server-side implementation for production)
-- Time-based exam completion
-- Prevention of back-button navigation during exam
-
-## Customization
-
-The application can be customized by:
-- Adding more questions to the questions array
-- Adjusting the exam time limit
-- Modifying the styling in styles.css
-- Extending functionality in script.js
+The application includes comprehensive questions for 8 subjects (English, Mathematics, Physics, Biology, Chemistry, Government, Economics, and Financial Accounting) with 100 questions each, organized in subject-specific JSON files. This structure allows for easy maintenance and expansion of question sets.
