@@ -323,9 +323,17 @@ class CBTExamApp {
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
+        // The questions are already using proper MathJax delimiters \\\\( ... \\\\) which is correct
         document.getElementById('question-text').innerHTML = cleanQuestion; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
+        
+        // Trigger MathJax to re-render the mathematical expressions
+        if (window.MathJax) {
+            MathJax.typesetPromise([document.getElementById('question-text')]).catch(function (err) {
+                console.error('MathJax error:', err);
+            });
+        }
         
         // Render options
         this.renderOptions(question);
