@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Diagram Modal</title>
+    <style>
+        /* Diagram Modal Styles */
+        #diagram-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1000;
+        }
+
+        #diagram-modal .modal-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: block;
+        }
+
+        #diagram-modal .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            max-width: 90%;
+            max-height: 90%;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            width: auto;
+            height: auto;
+            padding: 0;
+        }
+
+        #diagram-modal .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background-color: #f5f5f5;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #diagram-modal .modal-header h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        #diagram-modal .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #666;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #diagram-modal .modal-close:hover {
+            color: #000;
+            background-color: #e0e0e0;
+            border-radius: 50%;
+        }
+
+        #diagram-modal .modal-body {
+            padding: 20px;
+            overflow-y: auto;
+            max-height: 60vh;
+        }
+
+        #diagram-modal .modal-footer {
+            padding: 15px 20px;
+            background-color: #f5f5f5;
+            border-top: 1px solid #ddd;
+            text-align: right;
+        }
+
+        #diagram-modal .modal-footer button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        #diagram-modal .modal-footer button:hover {
+            background-color: #45a049;
+        }
+        
+        .diagram-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .diagram-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test Diagram Modal</h1>
+    <button class="diagram-btn" onclick="showDiagram(diagramSVG)">Show Diagram</button>
+    
+    <div id="diagram-modal">
+        <div class="modal-overlay" onclick="closeDiagramModal()"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Question Diagram</h3>
+                <button class="modal-close" onclick="closeDiagramModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="diagram-display"></div>
+            </div>
+            <div class="modal-footer">
+                <button onclick="closeDiagramModal()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const diagramSVG = `<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+          <!-- Circle representing compass -->
+          <circle cx="150" cy="150" r="120" stroke="black" stroke-width="2" fill="white"/>
+          
+          <!-- North, South, East, West labels -->
+          <text x="150" y="40" text-anchor="middle" font-size="14" font-weight="bold">N</text>
+          <text x="150" y="275" text-anchor="middle" font-size="14" font-weight="bold">S</text>
+          <text x="265" y="155" text-anchor="middle" font-size="14" font-weight="bold">E</text>
+          <text x="35" y="155" text-anchor="middle" font-size="14" font-weight="bold">W</text>
+          
+          <!-- Cardinal direction lines -->
+          <line x1="150" y1="30" x2="150" y2="270" stroke="gray" stroke-width="1" stroke-dasharray="5,5"/>
+          <line x1="30" y1="150" x2="270" y2="150" stroke="gray" stroke-width="1" stroke-dasharray="5,5"/>
+          <line x1="60" y1="60" x2="240" y2="240" stroke="gray" stroke-width="1" stroke-dasharray="5,5"/>
+          <line x1="240" y1="60" x2="60" y2="240" stroke="gray" stroke-width="1" stroke-dasharray="5,5"/>
+          
+          <!-- Bearing line -->
+          <line x1="150" y1="150" x2="220.71067811865476" y2="220.71067811865476" stroke="red" stroke-width="3"/>
+          
+          <!-- Bearing angle arc -->
+          <path d="M160,140 A10 10 0 0 1 164.14213562373095,164.14213562373095" fill="none" stroke="blue" stroke-width="2"/>
+          
+          <!-- Bearing label -->
+          <text x="186.95518130045147" y="134.6926627053964" font-size="12" fill="blue">135°</text>
+        </svg>`;
+
+        function showDiagram(content, isImageUrl = false) {
+            const modal = document.getElementById('diagram-modal');
+            const diagramDisplay = document.getElementById('diagram-display');
+            
+            if (isImageUrl) {
+                // If it's an image URL, create an img element
+                diagramDisplay.innerHTML = `<img src="${content}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto;">`;
+            } else {
+                // If it's SVG content, decode and display it
+                diagramDisplay.innerHTML = content;
+            }
+            
+            // Show the modal
+            modal.style.display = 'block';
+        }
+
+        function closeDiagramModal() {
+            const modal = document.getElementById('diagram-modal');
+            modal.style.display = 'none';
+        }
+    </script>
+</body>
+</html>
