@@ -610,12 +610,12 @@ class CBTExamApp {
                     }).join('')}
                 </div>
                 
-                ${diagramHtml}
-                
                 <div class="explanation">
                     <h5>Explanation:</h5>
                     <p>${cleanExplanation}</p>
                 </div>
+                
+                ${diagramHtml}
             </div>
         `;
 
