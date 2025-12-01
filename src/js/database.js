@@ -75,27 +75,31 @@ class ExamDatabase {
                         // Load questions from the new subject-specific JSON files
                         const subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
                         
+                        // Define all available years
+                        const years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015'];
+                        
                         for (const subject of subjects) {
-                            // For now, load the default year (2010) for database population
-                            // In a full implementation, we might want to store the year as well
-                            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
-                            try {
-                                const response = await fetch(fileName);
-                                if (!response.ok) {
-                                    console.error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
-                                    continue; // Skip to next subject
+                            for (const year of years) {
+                                // Load questions for each year
+                                const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
+                                try {
+                                    const response = await fetch(fileName);
+                                    if (!response.ok) {
+                                        console.error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
+                                        continue; // Skip to next file
+                                    }
+                                    
+                                    const subjectData = await response.json();
+                                    
+                                    if (subjectData && subjectData.questions) {
+                                        await this.addQuestions(subject, subjectData.questions);
+                                        console.log(`Added ${subjectData.questions.length} questions for ${subject} (${year}) to database`);
+                                    }
+                                } catch (error) {
+                                    console.error(`Error loading questions for ${subject} (${year}):`, error);
+                                    // Continue with other years
+                                    continue;
                                 }
-                                
-                                const subjectData = await response.json();
-                                
-                                if (subjectData && subjectData.questions) {
-                                    await this.addQuestions(subject, subjectData.questions);
-                                    console.log(`Added ${subjectData.questions.length} questions for ${subject} to database`);
-                                }
-                            } catch (error) {
-                                console.error(`Error loading questions for ${subject}:`, error);
-                                // Continue with other subjects
-                                continue;
                             }
                         }
                         

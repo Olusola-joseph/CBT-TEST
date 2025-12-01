@@ -12,7 +12,7 @@ class CBTExamApp {
         this.selectedSubject = '';
         this.selectedYear = 'jamb_2010'; // Default year
         this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
-        this.years = ['jamb_2010', 'jamb_2011']; // Available years
+        this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015']; // Available years
         
         // Initialize database
         this.initDatabase();
@@ -293,6 +293,22 @@ class CBTExamApp {
             });
         }
 
+        // Year selection back button
+        const yearBackBtn = document.getElementById('year-back-btn');
+        if (yearBackBtn) {
+            yearBackBtn.addEventListener('click', () => {
+                this.showScreen('subject-selection-screen');
+            });
+        }
+        
+        // Instructions screen back button
+        const instructionsBackBtn = document.getElementById('instructions-back-btn');
+        if (instructionsBackBtn) {
+            instructionsBackBtn.addEventListener('click', () => {
+                this.showScreen('year-selection-screen');
+            });
+        }
+        
         // Restart button
         const restartBtn = document.getElementById('restart-btn');
         if (restartBtn) {
