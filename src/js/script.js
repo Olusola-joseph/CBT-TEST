@@ -77,7 +77,7 @@ class CBTExamApp {
             
             // Fallback to subject-specific JSON files
             // Convert subject name to lowercase and replace underscores with hyphens for filename
-            const fileName = `${subject.toLowerCase()}_questions.json`;
+            const fileName = `subjects/${subject.toLowerCase()}_questions.json`;
             const response = await fetch(fileName);
             
             if (!response.ok) {
@@ -140,6 +140,56 @@ class CBTExamApp {
         });
         
         console.log(`Selected ${this.questions.length} random questions from original pool with new sequential IDs`);
+    }
+
+    // Determine if a question needs a diagram based on keywords
+    questionNeedsDiagram(questionText) {
+        const diagramKeywords = [
+            'chord', 'circle', 'triangle', 'rectangle', 'square', 'polygon', 
+            'angle', 'diagram', 'figure', 'graph', 'plot', 'coordinate',
+            'geometry', 'trigonometry', 'bearing', 'distance', 'length',
+            'area', 'perimeter', 'volume', 'pythagoras', 'theorem',
+            'sin', 'cos', 'tan', 'sine', 'cosine', 'tangent',
+            'angle of elevation', 'angle of depression',
+            'construct', 'draw', 'sketch', 'shape', 'diagram',
+            'right-angled', 'isosceles', 'equilateral', 'scalene',
+            'parallelogram', 'trapezium', 'rhombus', 'kite',
+            'sector', 'arc', 'diameter', 'radius', 'circumference',
+            'tangent to', 'chord of', 'segment', 'sector',
+            'coordinates of', 'line segment', 'parallel lines',
+            'perpendicular', 'bisector', 'midpoint', 'intersection',
+            'area of', 'perimeter of', 'volume of', 'surface area',
+            'pyramid', 'prism', 'cylinder', 'cone', 'sphere'
+        ];
+        
+        const lowerQuestion = questionText.toLowerCase();
+        return diagramKeywords.some(keyword => lowerQuestion.includes(keyword.toLowerCase()));
+    }
+
+    // Process explanation to extract only one image/diagram
+    processExplanationForDiagrams(explanation) {
+        // Remove duplicate diagram containers, keeping only the first one
+        const diagramContainerRegex = /<div class="diagram-container">[\s\S]*?<\/svg>\s*<\/div>/g;
+        const allDiagrams = explanation.match(diagramContainerRegex);
+        
+        if (allDiagrams && allDiagrams.length > 1) {
+            // Keep only the first diagram container and remove the rest
+            let firstDiagramFound = false;
+            let processedExplanation = explanation.replace(diagramContainerRegex, (match) => {
+                if (!firstDiagramFound) {
+                    firstDiagramFound = true;
+                    return match; // Keep the first diagram
+                }
+                // Remove subsequent diagrams by returning empty string
+                return '';
+            });
+            
+            // Clean up any extra spaces or line breaks left by removed diagrams
+            processedExplanation = processedExplanation.replace(/\s*\n\s*\n\s*/g, '\n');
+            return processedExplanation.trim();
+        }
+        
+        return explanation;
     }
 
     initializeEventListeners() {
@@ -323,17 +373,26 @@ class CBTExamApp {
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
-        // Replace MathJax delimiters: \\\\( ... \\\\) with $ ... $ for inline math
-        cleanQuestion = cleanQuestion.replace(/\\\\\\(/g, '\\(').replace(/\\\\\\)/g, '\\)');
-        // Also replace \\\\frac with \\frac for proper fraction rendering
-        cleanQuestion = cleanQuestion.replace(/\\\\frac/g, '\\frac');
-        document.getElementById('question-text').innerHTML = cleanQuestion; // Changed to innerHTML to support HTML tags
+        
+        // Add diagram button if available and question needs it
+        let questionHtml = cleanQuestion;
+        if (question.diagram && this.questionNeedsDiagram(question.question)) {
+            questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
+        }
+        
+        // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
+        const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+        document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
         
         // Trigger MathJax to re-render the mathematical expressions
         if (window.MathJax) {
-            MathJax.typesetPromise([document.getElementById('question-text')]).catch(function (err) {
+            MathJax.typesetPromise([document.getElementById('question-text')]).then(function() {
+                if (typeof typesetMath === 'function') {
+                    typesetMath();
+                }
+            }).catch(function (err) {
                 console.error('MathJax error:', err);
             });
         }
@@ -370,10 +429,12 @@ class CBTExamApp {
                 optionElement.classList.add('selected');
             }
             
+            // Fix MathJax delimiters in option text before rendering
+            const fixedOptionText = option.text.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
             optionElement.innerHTML = `
                 <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
                     value="${option.id}" ${isSelected ? 'checked' : ''}>
-                <label for="opt-${question.id}-${option.id}">${option.id}. ${option.text}</label>
+                <label for="opt-${question.id}-${option.id}">${option.id}. ${fixedOptionText}</label>
             `;
             
             optionElement.addEventListener('click', () => {
@@ -382,6 +443,17 @@ class CBTExamApp {
             
             optionsContainer.appendChild(optionElement);
         });
+        
+        // Trigger MathJax to re-render mathematical expressions in the options
+        if (window.MathJax) {
+            MathJax.typesetPromise([optionsContainer]).then(function() {
+                if (typeof typesetMath === 'function') {
+                    typesetMath();
+                }
+            }).catch(function (err) {
+                console.error('MathJax error in options:', err);
+            });
+        }
     }
 
     selectOption(questionId, optionId) {
@@ -565,6 +637,9 @@ class CBTExamApp {
         let cleanExplanation = question.explanation || 'No explanation available.';
         cleanExplanation = cleanExplanation.replace(/BODMAS/gi, '');
         
+        // Process explanation to extract only one image (prioritizing non-SVG over SVG)
+        let processedExplanation = this.processExplanationForDiagrams(cleanExplanation);
+        
         reviewContainer.innerHTML = `
             <div class="review-header">
                 <h3>Question ${this.currentQuestionIndex + 1} of ${this.questions.length}</h3>
@@ -597,10 +672,21 @@ class CBTExamApp {
                 
                 <div class="explanation">
                     <h5>Explanation:</h5>
-                    <p>${cleanExplanation}</p>
+                    <p>${processedExplanation}</p>
                 </div>
             </div>
         `;
+
+        // Trigger MathJax to re-render the mathematical expressions in the review section
+        if (window.MathJax) {
+            MathJax.typesetPromise([reviewContainer]).then(function() {
+                if (typeof typesetMath === 'function') {
+                    typesetMath();
+                }
+            }).catch(function (err) {
+                console.error('MathJax error in review section:', err);
+            });
+        }
     }
     
     updateReviewNavigation() {
@@ -693,6 +779,76 @@ document.addEventListener('DOMContentLoaded', () => {
         alert('There was an error initializing the exam application. Please refresh the page.');
     }
 });
+
+// Function to show diagram in a modal
+function showDiagram(content, isImageUrl = false) {
+    // Create modal container if it doesn't exist
+    let modal = document.getElementById('diagram-modal');
+    if (!modal) {
+        modal = document.createElement('div');
+        modal.id = 'diagram-modal';
+        modal.innerHTML = `
+            <div class="modal-overlay" onclick="closeDiagramModal()"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Question Diagram</h3>
+                    <button class="modal-close" onclick="closeDiagramModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="diagram-display"></div>
+                </div>
+                <div class="modal-footer">
+                    <button onclick="closeDiagramModal()">Close</button>
+                </div>
+            </div>
+        `;
+        document.body.appendChild(modal);
+    }
+    
+    // Set the diagram content
+    const diagramDisplay = document.getElementById('diagram-display');
+    if (isImageUrl) {
+        // If it's an image URL, create an img element
+        diagramDisplay.innerHTML = `<img src="${content}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto; width: auto; height: auto;">`;
+    } else {
+        // If it's SVG content, decode and display it
+        let decodedContent = content;
+        try {
+            decodedContent = decodeURIComponent(content);
+        } catch (e) {
+            // If decoding fails, use the content as is
+            decodedContent = content;
+        }
+        
+        // Check if the content is an SVG data URL
+        if (decodedContent.startsWith('<svg')) {
+            diagramDisplay.innerHTML = decodedContent;
+        } else if (content.startsWith('data:image/svg+xml')) {
+            // Handle SVG data URLs
+            let svgContent = content;
+            if (content.startsWith('data:image/svg+xml;utf8,')) {
+                svgContent = decodeURIComponent(content.substring(24));
+            } else if (content.startsWith('data:image/svg+xml;base64,')) {
+                svgContent = atob(content.substring(26));
+            }
+            diagramDisplay.innerHTML = svgContent;
+        } else {
+            // For regular image URLs
+            diagramDisplay.innerHTML = `<img src="${decodedContent}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto; width: auto; height: auto;">`;
+        }
+    }
+    
+    // Show the modal
+    modal.style.display = 'block';
+}
+
+// Function to close the diagram modal
+function closeDiagramModal() {
+    const modal = document.getElementById('diagram-modal');
+    if (modal) {
+        modal.style.display = 'none';
+    }
+}
 
 // Handle page unload to warn user
 window.addEventListener('beforeunload', (e) => {

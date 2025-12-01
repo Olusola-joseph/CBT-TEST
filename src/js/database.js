@@ -76,7 +76,7 @@ class ExamDatabase {
                         const subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
                         
                         for (const subject of subjects) {
-                            const fileName = `${subject.toLowerCase()}_questions.json`;
+                            const fileName = `subjects/${subject.toLowerCase()}_questions.json`;
                             try {
                                 const response = await fetch(fileName);
                                 if (!response.ok) {
