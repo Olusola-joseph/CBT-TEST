@@ -1,0 +1,165 @@
+/* Enhanced CSS for Mathematical Expressions and SVG Diagrams */
+
+/* Container for mathematical questions */
+.math-question {
+  font-family: 'Times New Roman', serif;
+  line-height: 1.6;
+}
+
+/* Style for mathematical expressions rendered by MathJax */
+.math-expression {
+  font-family: 'Latin Modern Roman', 'Times New Roman', serif;
+  font-size: 1.1em;
+  color: #2c3e50;
+}
+
+/* SVG diagram container */
+.diagram-container {
+  margin: 15px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: center;
+  overflow: auto;
+}
+
+.diagram-container h5 {
+  margin-top: 0;
+  color: #34495e;
+  font-size: 1rem;
+}
+
+.diagram-container svg {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #eee;
+  background: white;
+}
+
+/* Style for options containing mathematical expressions */
+.option-item .math-expression {
+  display: inline-block;
+  margin: 5px 0;
+  padding: 2px 5px;
+  background-color: #f8f9fa;
+  border-radius: 3px;
+}
+
+/* Style for review section mathematical expressions */
+.review-question .math-expression {
+  font-size: 1.2em;
+  padding: 5px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border-left: 3px solid #3498db;
+}
+
+/* Explanation section styling */
+.explanation .math-expression {
+  font-size: 1.1em;
+  line-height: 1.6;
+  padding: 8px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border-left: 3px solid #2ecc71;
+}
+
+/* Special styling for mathematical diagrams */
+.math-diagram {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+}
+
+/* Responsive adjustments for mathematical content */
+@media (max-width: 768px) {
+  .math-expression {
+    font-size: 1em;
+  }
+  
+  .diagram-container svg {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Specific styling for MathJax elements */
+.MathJax {
+  outline: none;
+}
+
+.MathJax_Display {
+  text-align: center;
+  margin: 1em 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+/* Styling for SVG diagrams in questions */
+.question-body .diagram-container {
+  margin-top: 20px;
+  border: 1px solid #bdc3c7;
+  background-color: #ecf0f1;
+}
+
+.question-body .diagram-container svg {
+  margin: 10px auto;
+  display: block;
+}
+
+/* Button for showing diagrams */
+.diagram-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.diagram-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Special styling for mathematical fractions */
+.math-fraction {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.math-fraction .numerator {
+  border-bottom: 1px solid #000;
+  padding-bottom: 1px;
+}
+
+.math-fraction .denominator {
+  padding-top: 1px;
+}
+
+/* Styling for mathematical equations */
+.math-equation {
+  display: block;
+  text-align: center;
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  overflow-x: auto;
+}
+
+/* Style for mathematical variables */
+.math-var {
+  font-style: italic;
+}
+
+/* Style for mathematical constants */
+.math-constant {
+  font-weight: bold;
+}

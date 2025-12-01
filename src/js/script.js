@@ -374,10 +374,23 @@ class CBTExamApp {
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
         
-        // Add diagram button if available and question needs it
+        // Add diagram container if available and question needs it
         let questionHtml = cleanQuestion;
         if (question.diagram && this.questionNeedsDiagram(question.question)) {
-            questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
+            // Check if the question text already contains an SVG diagram
+            if (!questionHtml.includes('<svg')) {
+                // Decode the diagram data and add it directly to the question
+                try {
+                    const decodedDiagram = decodeURIComponent(question.diagram);
+                    if (decodedDiagram.startsWith('<svg')) {
+                        questionHtml += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
+                    } else {
+                        questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
+                    }
+                } catch (e) {
+                    questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
+                }
+            }
         }
         
         // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
@@ -632,6 +645,24 @@ class CBTExamApp {
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
+        
+        // Add diagram to the question if available
+        if (question.diagram && this.questionNeedsDiagram(question.question)) {
+            // Check if the question text already contains an SVG diagram
+            if (!cleanQuestion.includes('<svg')) {
+                // Decode the diagram data and add it directly to the question
+                try {
+                    const decodedDiagram = decodeURIComponent(question.diagram);
+                    if (decodedDiagram.startsWith('<svg')) {
+                        cleanQuestion += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
+                    } else {
+                        cleanQuestion += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
+                    }
+                } catch (e) {
+                    cleanQuestion += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
+                }
+            }
+        }
         
         // Clean up explanation too
         let cleanExplanation = question.explanation || 'No explanation available.';
