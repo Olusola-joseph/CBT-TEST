@@ -380,14 +380,19 @@ class CBTExamApp {
             questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
         }
         
-        // The questions are already using proper MathJax delimiters \\\\( ... \\\\) which is correct
-        document.getElementById('question-text').innerHTML = questionHtml; // Changed to innerHTML to support HTML tags
+        // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
+        const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+        document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
         
         // Trigger MathJax to re-render the mathematical expressions
         if (window.MathJax) {
-            MathJax.typesetPromise([document.getElementById('question-text')]).catch(function (err) {
+            MathJax.typesetPromise([document.getElementById('question-text')]).then(function() {
+                if (typeof typesetMath === 'function') {
+                    typesetMath();
+                }
+            }).catch(function (err) {
                 console.error('MathJax error:', err);
             });
         }
@@ -424,10 +429,12 @@ class CBTExamApp {
                 optionElement.classList.add('selected');
             }
             
+            // Fix MathJax delimiters in option text before rendering
+            const fixedOptionText = option.text.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
             optionElement.innerHTML = `
                 <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
                     value="${option.id}" ${isSelected ? 'checked' : ''}>
-                <label for="opt-${question.id}-${option.id}">${option.id}. ${option.text}</label>
+                <label for="opt-${question.id}-${option.id}">${option.id}. ${fixedOptionText}</label>
             `;
             
             optionElement.addEventListener('click', () => {
@@ -439,7 +446,11 @@ class CBTExamApp {
         
         // Trigger MathJax to re-render mathematical expressions in the options
         if (window.MathJax) {
-            MathJax.typesetPromise([optionsContainer]).catch(function (err) {
+            MathJax.typesetPromise([optionsContainer]).then(function() {
+                if (typeof typesetMath === 'function') {
+                    typesetMath();
+                }
+            }).catch(function (err) {
                 console.error('MathJax error in options:', err);
             });
         }
@@ -668,7 +679,11 @@ class CBTExamApp {
 
         // Trigger MathJax to re-render the mathematical expressions in the review section
         if (window.MathJax) {
-            MathJax.typesetPromise([reviewContainer]).catch(function (err) {
+            MathJax.typesetPromise([reviewContainer]).then(function() {
+                if (typeof typesetMath === 'function') {
+                    typesetMath();
+                }
+            }).catch(function (err) {
                 console.error('MathJax error in review section:', err);
             });
         }
