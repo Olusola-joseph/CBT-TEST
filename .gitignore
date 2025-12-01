@@ -1,7 +1,4 @@
-```json
-{
-  "question": "What is the capital of France?",
-  "options": ["London", "Berlin", "Paris", "Madrid"],
-  "answer": "Paris"
-}
+```
+node_modules/
+*.log
 ```

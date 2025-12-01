@@ -303,7 +303,7 @@ function processMathematicsQuestions() {
     return new Promise((resolve, reject) => {
         try {
             // Read the mathematics questions file
-            const questionsData = fs.readFileSync('/workspace/subjects/mathematics_questions.json', 'utf8');
+            const questionsData = fs.readFileSync('/workspace/src/data/subjects/mathematics_questions.json', 'utf8');
             const questions = JSON.parse(questionsData);
             
             // Identify diagram-related questions
@@ -358,7 +358,7 @@ function updateQuestionsWithDiagramRefs(questions, diagramQuestions) {
         questions: updatedQuestions
     };
     
-    fs.writeFileSync('/workspace/subjects/mathematics_questions_updated.json', JSON.stringify(updatedData, null, 2));
+    fs.writeFileSync('/workspace/src/data/subjects/mathematics_questions_updated.json', JSON.stringify(updatedData, null, 2));
     console.log('Updated questions file with diagram references');
 }
 

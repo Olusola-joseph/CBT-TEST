@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 class MathDiagramProcessor {
-    constructor(questionsFilePath = '/workspace/subjects/mathematics_questions.json') {
+    constructor(questionsFilePath = '/workspace/src/data/subjects/mathematics_questions.json') {
         this.questionsFilePath = questionsFilePath;
         this.diagramMapPath = '/workspace/math_diagram_map.json';
         this.centralizedSVGPath = '/workspace/math_diagrams_centralized.svg';
