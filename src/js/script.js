@@ -77,7 +77,7 @@ class CBTExamApp {
             
             // Fallback to subject-specific JSON files
             // Convert subject name to lowercase and replace underscores with hyphens for filename
-            const fileName = `subjects/${subject.toLowerCase()}_questions.json`;
+            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
             const response = await fetch(fileName);
             
             if (!response.ok) {
