@@ -166,6 +166,27 @@ class CBTExamApp {
         return diagramKeywords.some(keyword => lowerQuestion.includes(keyword.toLowerCase()));
     }
 
+    // Fetch diagram from centralized file based on question ID
+    async fetchDiagramForQuestion(questionId) {
+        try {
+            const response = await fetch(`/api/diagram/${questionId}`);
+            if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const diagramData = await response.json();
+            return diagramData;
+        } catch (error) {
+            console.error(`Error fetching diagram for question ${questionId}:`, error);
+            // Return a default response if the API call fails
+            return {
+                success: true,
+                questionId: questionId,
+                diagram: null,
+                hasDiagram: false
+            };
+        }
+    }
+
     // Process explanation to extract only one image/diagram
     processExplanationForDiagrams(explanation) {
         // Remove duplicate diagram containers, keeping only the first one
@@ -359,7 +380,7 @@ class CBTExamApp {
         document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
     }
 
-    loadQuestion(index) {
+    async loadQuestion    index) {(index) {
         if (index < 0 || index >= this.questions.length) {
             console.error('Invalid question index:', index);
             return;
