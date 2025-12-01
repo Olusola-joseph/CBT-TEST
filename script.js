@@ -142,6 +142,56 @@ class CBTExamApp {
         console.log(`Selected ${this.questions.length} random questions from original pool with new sequential IDs`);
     }
 
+    // Determine if a question needs a diagram based on keywords
+    questionNeedsDiagram(questionText) {
+        const diagramKeywords = [
+            'chord', 'circle', 'triangle', 'rectangle', 'square', 'polygon', 
+            'angle', 'diagram', 'figure', 'graph', 'plot', 'coordinate',
+            'geometry', 'trigonometry', 'bearing', 'distance', 'length',
+            'area', 'perimeter', 'volume', 'pythagoras', 'theorem',
+            'sin', 'cos', 'tan', 'sine', 'cosine', 'tangent',
+            'angle of elevation', 'angle of depression',
+            'construct', 'draw', 'sketch', 'shape', 'diagram',
+            'right-angled', 'isosceles', 'equilateral', 'scalene',
+            'parallelogram', 'trapezium', 'rhombus', 'kite',
+            'sector', 'arc', 'diameter', 'radius', 'circumference',
+            'tangent to', 'chord of', 'segment', 'sector',
+            'coordinates of', 'line segment', 'parallel lines',
+            'perpendicular', 'bisector', 'midpoint', 'intersection',
+            'area of', 'perimeter of', 'volume of', 'surface area',
+            'pyramid', 'prism', 'cylinder', 'cone', 'sphere'
+        ];
+        
+        const lowerQuestion = questionText.toLowerCase();
+        return diagramKeywords.some(keyword => lowerQuestion.includes(keyword.toLowerCase()));
+    }
+
+    // Process explanation to extract only one image/diagram
+    processExplanationForDiagrams(explanation) {
+        // Remove duplicate diagram containers, keeping only the first one
+        const diagramContainerRegex = /<div class="diagram-container">[\s\S]*?<\/svg>\s*<\/div>/g;
+        const allDiagrams = explanation.match(diagramContainerRegex);
+        
+        if (allDiagrams && allDiagrams.length > 1) {
+            // Keep only the first diagram container and remove the rest
+            let firstDiagramFound = false;
+            let processedExplanation = explanation.replace(diagramContainerRegex, (match) => {
+                if (!firstDiagramFound) {
+                    firstDiagramFound = true;
+                    return match; // Keep the first diagram
+                }
+                // Remove subsequent diagrams by returning empty string
+                return '';
+            });
+            
+            // Clean up any extra spaces or line breaks left by removed diagrams
+            processedExplanation = processedExplanation.replace(/\s*\n\s*\n\s*/g, '\n');
+            return processedExplanation.trim();
+        }
+        
+        return explanation;
+    }
+
     initializeEventListeners() {
         // Login form submission
         const loginForm = document.getElementById('login-form');
@@ -324,9 +374,9 @@ class CBTExamApp {
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
         
-        // Add diagram button if available
+        // Add diagram button if available and question needs it
         let questionHtml = cleanQuestion;
-        if (question.diagram) {
+        if (question.diagram && this.questionNeedsDiagram(question.question)) {
             questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
         }
         
@@ -577,7 +627,7 @@ class CBTExamApp {
         cleanExplanation = cleanExplanation.replace(/BODMAS/gi, '');
         
         // Process explanation to extract only one image (prioritizing non-SVG over SVG)
-        let processedExplanation = cleanExplanation;
+        let processedExplanation = this.processExplanationForDiagrams(cleanExplanation);
         
         reviewContainer.innerHTML = `
             <div class="review-header">

@@ -1,5 +1,4 @@
-(script.js and styles.css are source files, no build artifacts, dependencies, or temp files in the changes)
-
-```javascript
-
+```
+# Backup files
+*.bak
 ```
