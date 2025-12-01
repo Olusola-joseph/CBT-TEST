@@ -380,7 +380,7 @@ class CBTExamApp {
         document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
     }
 
-    async loadQuestion    index) {(index) {
+    async loadQuestion(index) {
         if (index < 0 || index >= this.questions.length) {
             console.error('Invalid question index:', index);
             return;
