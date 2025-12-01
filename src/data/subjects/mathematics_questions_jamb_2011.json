@@ -1251,9 +1251,7 @@
       ],
       "correctAnswer": "B",
       "explanation": "When a chord subtends an angle of 60° at the center of a circle, and we draw two radii to the ends of the chord, we form an isosceles triangle with two sides equal to the radius and the angle between them being 60°.\n\nSince the triangle has two equal sides (the radii) and the angle between them is 60°, the other two angles must also be 60° each (since the sum of angles in a triangle is 180°).\n\nThis means we have an equilateral triangle, where all three sides are equal.\n\nTherefore, the length of the chord equals the length of the radius, which is 14 cm.\n\nThe answer is B."
-    },
-   
-   
+    }
    
   ]
 }
