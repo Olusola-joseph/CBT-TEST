@@ -76,7 +76,9 @@ class ExamDatabase {
                         const subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
                         
                         for (const subject of subjects) {
-                            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
+                            // For now, load the default year (2010) for database population
+                            // In a full implementation, we might want to store the year as well
+                            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
                             try {
                                 const response = await fetch(fileName);
                                 if (!response.ok) {

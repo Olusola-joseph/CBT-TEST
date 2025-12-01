@@ -10,13 +10,16 @@ class CBTExamApp {
         this.timerInterval = null;
         this.questions = [];
         this.selectedSubject = '';
+        this.selectedYear = 'jamb_2010'; // Default year
         this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+        this.years = ['jamb_2010', 'jamb_2011']; // Available years
         
         // Initialize database
         this.initDatabase();
         
         this.initializeEventListeners();
         this.renderSubjectSelection();
+        this.renderYearSelection();
     }
     
     async initDatabase() {
@@ -50,9 +53,27 @@ class CBTExamApp {
             subjectBtn.textContent = subject.replace('_', ' ');
             subjectBtn.addEventListener('click', () => {
                 this.selectedSubject = subject;
-                this.loadQuestionsForSubject(subject);
+                this.showScreen('year-selection-screen'); // Show year selection after subject selection
             });
             subjectContainer.appendChild(subjectBtn);
+        });
+    }
+    
+    renderYearSelection() {
+        const yearContainer = document.getElementById('year-container');
+        if (!yearContainer) return;
+        
+        yearContainer.innerHTML = '';
+        
+        this.years.forEach(year => {
+            const yearBtn = document.createElement('button');
+            yearBtn.className = 'year-btn';
+            yearBtn.textContent = year.replace('jamb_', 'JAMB ');
+            yearBtn.addEventListener('click', () => {
+                this.selectedYear = year;
+                this.loadQuestionsForSubject(this.selectedSubject);
+            });
+            yearContainer.appendChild(yearBtn);
         });
     }
     
@@ -75,9 +96,10 @@ class CBTExamApp {
                 }
             }
             
-            // Fallback to subject-specific JSON files
+            // Fallback to subject-specific JSON files with year selection
             // Convert subject name to lowercase and replace underscores with hyphens for filename
-            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
+            // Use the selected year for the filename
+            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${this.selectedYear}.json`;
             const response = await fetch(fileName);
             
             if (!response.ok) {
