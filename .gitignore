@@ -1,46 +1,4 @@
 ```
-# Dependencies
-node_modules/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# Logs
+# Logs and temp files
 *.log
-
-# Environment
-.env
-.env.local
-*.env.*
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
-env/
-.venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Build artifacts
-dist/
-build/
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-.coverage
-htmlcov/
-
-# System files
-.DS_Store
-Thumbs.db
 ```

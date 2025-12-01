@@ -12,20 +12,32 @@ let allSubjectsFound = true;
 let totalQuestions = 0;
 
 for (const subject of expectedSubjects) {
-    const fileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
+    // Check for year-specific files first
+    const fileName2010 = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
+    const fileName2011 = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2011.json`;
     
-    if (fs.existsSync(fileName)) {
+    if (fs.existsSync(fileName2010)) {
         try {
-            const data = JSON.parse(fs.readFileSync(fileName, 'utf8'));
+            const data = JSON.parse(fs.readFileSync(fileName2010, 'utf8'));
             const questionCount = data.questions ? data.questions.length : 0;
             totalQuestions += questionCount;
-            console.log(`✓ ${subject}: Found ${questionCount} questions`);
+            console.log(`✓ ${subject} (2010): Found ${questionCount} questions`);
         } catch (error) {
-            console.log(`✗ ${subject}: Error parsing JSON - ${error.message}`);
+            console.log(`✗ ${subject} (2010): Error parsing JSON - ${error.message}`);
+            allSubjectsFound = false;
+        }
+    } else if (fs.existsSync(fileName2011)) {
+        try {
+            const data = JSON.parse(fs.readFileSync(fileName2011, 'utf8'));
+            const questionCount = data.questions ? data.questions.length : 0;
+            totalQuestions += questionCount;
+            console.log(`✓ ${subject} (2011): Found ${questionCount} questions`);
+        } catch (error) {
+            console.log(`✗ ${subject} (2011): Error parsing JSON - ${error.message}`);
             allSubjectsFound = false;
         }
     } else {
-        console.log(`✗ ${subject}: File not found (${fileName})`);
+        console.log(`✗ ${subject}: File not found (${fileName2010} or ${fileName2011})`);
         allSubjectsFound = false;
     }
 }
