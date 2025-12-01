@@ -324,10 +324,10 @@ class CBTExamApp {
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
         
-        // Add diagram if available
+        // Add diagram button if available
         let questionHtml = cleanQuestion;
         if (question.diagram) {
-            questionHtml += `<div class="diagram-container"><h5>Diagram:</h5><div class="diagram-content">${question.diagram}</div></div>`;
+            questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
         }
         
         // The questions are already using proper MathJax delimiters \\\\( ... \\\\) which is correct
@@ -578,17 +578,6 @@ class CBTExamApp {
         
         // Process explanation to extract only one image (prioritizing non-SVG over SVG)
         let processedExplanation = cleanExplanation;
-        let diagramButtonHtml = '';
-        
-        if (question.diagram) {
-            // Decode the URL-encoded SVG if it's a data URL
-            let diagramContent = question.diagram;
-            if (question.diagram.startsWith('data:image/svg+xml;utf8,')) {
-                // Decode the URL-encoded SVG content
-                diagramContent = decodeURIComponent(question.diagram.substring(24)); // Remove 'data:image/svg+xml;utf8,' prefix
-            }
-            diagramButtonHtml = `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(diagramContent)}')">Show Diagram</button>`;
-        }
         
         reviewContainer.innerHTML = `
             <div class="review-header">
@@ -619,8 +608,6 @@ class CBTExamApp {
                         `;
                     }).join('')}
                 </div>
-                
-                ${diagramButtonHtml}
                 
                 <div class="explanation">
                     <h5>Explanation:</h5>
@@ -757,11 +744,33 @@ function showDiagram(content, isImageUrl = false) {
     const diagramDisplay = document.getElementById('diagram-display');
     if (isImageUrl) {
         // If it's an image URL, create an img element
-        diagramDisplay.innerHTML = `<img src="${content}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto;">`;
+        diagramDisplay.innerHTML = `<img src="${content}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto; width: auto; height: auto;">`;
     } else {
         // If it's SVG content, decode and display it
-        const decodedContent = decodeURIComponent(content);
-        diagramDisplay.innerHTML = decodedContent;
+        let decodedContent = content;
+        try {
+            decodedContent = decodeURIComponent(content);
+        } catch (e) {
+            // If decoding fails, use the content as is
+            decodedContent = content;
+        }
+        
+        // Check if the content is an SVG data URL
+        if (decodedContent.startsWith('<svg')) {
+            diagramDisplay.innerHTML = decodedContent;
+        } else if (content.startsWith('data:image/svg+xml')) {
+            // Handle SVG data URLs
+            let svgContent = content;
+            if (content.startsWith('data:image/svg+xml;utf8,')) {
+                svgContent = decodeURIComponent(content.substring(24));
+            } else if (content.startsWith('data:image/svg+xml;base64,')) {
+                svgContent = atob(content.substring(26));
+            }
+            diagramDisplay.innerHTML = svgContent;
+        } else {
+            // For regular image URLs
+            diagramDisplay.innerHTML = `<img src="${decodedContent}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto; width: auto; height: auto;">`;
+        }
     }
     
     // Show the modal
