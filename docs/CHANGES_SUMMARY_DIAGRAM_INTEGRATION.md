@@ -13,7 +13,7 @@ Successfully implemented comprehensive diagram support for mathematical and scie
 - `generate_diagrams.js` - Added physics and chemistry diagram generation functions
 - `script.js` - Added diagram rendering logic for both exam and review sections
 - `styles.css` - Added CSS styling for diagrams
-- `mathematics_questions.json` - Updated with 6 questions having diagrams
+- `mathematics_questions_jamb_2010.json` - Updated with 6 questions having diagrams
 - `physics_questions.json` - Updated with 33 questions having diagrams
 - `chemistry_questions.json` - Updated with 2 questions having diagrams
 

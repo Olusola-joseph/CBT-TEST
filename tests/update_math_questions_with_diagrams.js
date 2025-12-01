@@ -8,7 +8,7 @@ const {
 } = require('./generate_diagrams');
 
 // Read the current mathematics questions file
-const questionsData = JSON.parse(fs.readFileSync('/workspace/mathematics_questions.json', 'utf8'));
+const questionsData = JSON.parse(fs.readFileSync('/workspace/src/data/subjects/mathematics_questions_jamb_2010.json', 'utf8'));
 
 // Function to add diagrams to relevant questions
 function addDiagramsToQuestions(questions) {
@@ -88,7 +88,7 @@ const updatedData = {
 };
 
 // Write the updated questions back to the file
-fs.writeFileSync('/workspace/mathematics_questions.json', JSON.stringify(updatedData, null, 2));
+fs.writeFileSync('/workspace/src/data/subjects/mathematics_questions_jamb_2010.json', JSON.stringify(updatedData, null, 2));
 
 console.log('Mathematics questions updated with diagrams where appropriate.');
 console.log(`Updated ${updatedQuestions.filter(q => q.diagram).length} questions with diagrams out of ${updatedQuestions.length} total questions.`);

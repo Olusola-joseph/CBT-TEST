@@ -208,7 +208,7 @@ function createCentralizedDiagramFile(diagramQuestions) {
     // Create a centralized SVG file with all diagrams organized by question ID
     let svgContent = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Centralized Mathematics Diagrams File -->
-<!-- Generated from mathematics_questions.json -->
+<!-- Generated from mathematics_questions_jamb_2010.json -->
 <svg width="800" height="${diagramQuestions.length * 350}" xmlns="http://www.w3.org/2000/svg">
   <style>
     .question-title { font: bold 16px sans-serif; fill: #333; }
@@ -303,7 +303,7 @@ function processMathematicsQuestions() {
     return new Promise((resolve, reject) => {
         try {
             // Read the mathematics questions file
-            const questionsData = fs.readFileSync('/workspace/src/data/subjects/mathematics_questions.json', 'utf8');
+            const questionsData = fs.readFileSync('/workspace/src/data/subjects/mathematics_questions_jamb_2010.json', 'utf8');
             const questions = JSON.parse(questionsData);
             
             // Identify diagram-related questions

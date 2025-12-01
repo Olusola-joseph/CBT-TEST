@@ -103,7 +103,7 @@ Potential diagram types to add:
 - `update_math_questions_with_diagrams.js`: Mathematics-specific processor
 
 ### Data Files
-- `mathematics_questions.json`: Updated with diagrams
+- `mathematics_questions_jamb_2010.json`: Updated with diagrams
 - `physics_questions.json`: Updated with diagrams
 - `chemistry_questions.json`: Updated with diagrams
 

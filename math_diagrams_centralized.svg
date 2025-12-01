@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Centralized Mathematics Diagrams File -->
-<!-- Generated from mathematics_questions.json -->
+<!-- Generated from mathematics_questions_jamb_2010.json -->
 <svg width="800" height="5950" xmlns="http://www.w3.org/2000/svg">
   <style>
     .question-title { font: bold 16px sans-serif; fill: #333; }

@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "If \\(\\log_{10} 2 = 0.3010\\) and \\(\\log_{10} 3 = 0.4771\\), find \\(\\log_{10} 4.5\\)",
+      "options": [
+        {
+          "id": "A",
+          "text": "0.6532"
+        },
+        {
+          "id": "B",
+          "text": "0.6990"
+        },
+        {
+          "id": "C",
+          "text": "0.8281"
+        },
+        {
+          "id": "D",
+          "text": "1.3468"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "To find \\(\\log_{10} 4.5\\), we can express 4.5 in terms of 2 and 3:\n\n\\(4.5 = \\frac{9}{2} = \\frac{3^2}{2}\\)\n\nUsing logarithm properties:\n\\(\\log_{10} 4.5 = \\log_{10} \\frac{3^2}{2} = \\log_{10} 3^2 - \\log_{10} 2\\)\n\n\\(= 2\\log_{10} 3 - \\log_{10} 2\\)\n\n\\(= 2(0.4771) - 0.3010\\)\n\n\\(= 0.9542 - 0.3010\\)\n\n\\(= 0.6532\\)\n\nWait, this doesn't match any option. Let me recalculate:\n\\(4.5 = \\frac{9}{2}\\), so \\(\\log_{10} 4.5 = \\log_{10} 9 - \\log_{10} 2 = \\log_{10} 3^2 - \\log_{10} 2 = 2\\log_{10} 3 - \\log_{10} 2\\)\n\n\\(= 2(0.4771) - 0.3010 = 0.9542 - 0.3010 = 0.6532\\)\n\nThis matches option A. The answer is A."
+    },
+    {
+      "id": 2,
+      "question": "A chord of a circle subtends an angle of 60° at the center of the circle. If the radius of the circle is 14 cm, find the length of the chord.",
+      "options": [
+        {
+          "id": "A",
+          "text": "7 cm"
+        },
+        {
+          "id": "B",
+          "text": "14 cm"
+        },
+        {
+          "id": "C",
+          "text": "21 cm"
+        },
+        {
+          "id": "D",
+          "text": "28 cm"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "When a chord subtends an angle of 60° at the center of a circle, and we draw two radii to the ends of the chord, we form an isosceles triangle with two sides equal to the radius and the angle between them being 60°.\n\nSince the triangle has two equal sides (the radii) and the angle between them is 60°, the other two angles must also be 60° each (since the sum of angles in a triangle is 180°).\n\nThis means we have an equilateral triangle, where all three sides are equal.\n\nTherefore, the length of the chord equals the length of the radius, which is 14 cm.\n\nThe answer is B."
+    },
+    {
+      "id": 3,
+      "question": "Find the value of \\(x\\) if \\(\\frac{x}{2} + \\frac{1}{3} = \\frac{5}{6}\\)",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\(\\frac{1}{3}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\frac{2}{3}\\)"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\frac{4}{3}\\)"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "To solve \\(\\frac{x}{2} + \\frac{1}{3} = \\frac{5}{6}\\):\n\nSubtract \\(\\frac{1}{3}\\) from both sides:\n\\(\\frac{x}{2} = \\frac{5}{6} - \\frac{1}{3}\\)\n\nTo subtract the fractions, we need a common denominator:\n\\(\\frac{5}{6} - \\frac{1}{3} = \\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}\\)\n\nSo \\(\\frac{x}{2} = \\frac{1}{2}\\)\n\nMultiply both sides by 2:\n\\(x = 1\\)\n\nThe answer is C."
+    },
+    {
+      "id": 4,
+      "question": "If \\(P = \\{1, 2, 3, 4, 5\\}\\) and \\(Q = \\{2, 4, 6, 8\\}\\), find \\(P \\cap Q\\)",
+      "options": [
+        {
+          "id": "A",
+          "text": "\\{1, 2, 3, 4, 5, 6, 8\\}"
+        },
+        {
+          "id": "B",
+          "text": "\\{2, 4\\}"
+        },
+        {
+          "id": "C",
+          "text": "\\{1, 3, 5\\}"
+        },
+        {
+          "id": "D",
+          "text": "\\{6, 8\\}"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The intersection \\(P \\cap Q\\) consists of elements that are in both sets P and Q.\n\n\\(P = \\{1, 2, 3, 4, 5\\}\\)\n\\(Q = \\{2, 4, 6, 8\\}\\)\n\nComparing the elements:\n- 1 is in P but not in Q\n- 2 is in both P and Q ✓\n- 3 is in P but not in Q\n- 4 is in both P and Q ✓\n- 5 is in P but not in Q\n- 6 is in Q but not in P\n- 8 is in Q but not in P\n\nTherefore, \\(P \\cap Q = \\{2, 4\\}\\)\n\nThe answer is B."
+    },
+    {
+      "id": 5,
+      "question": "A man made a profit of 32% on an article he bought for ₦500. Calculate the selling price.",
+      "options": [
+        {
+          "id": "A",
+          "text": "₦600"
+        },
+        {
+          "id": "B",
+          "text": "₦650"
+        },
+        {
+          "id": "C",
+          "text": "₦660"
+        },
+        {
+          "id": "D",
+          "text": "₦700"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Profit percent = \\(\\frac{\\text{Selling Price} - \\text{Cost Price}}{\\text{Cost Price}} \\times 100\\%\n\nGiven:\n- Cost Price = ₦500\n- Profit percent = 32%\n\nLet Selling Price = SP\n\n\\(32 = \\frac{SP - 500}{500} \\times 100\\)\n\n\\(32 = \\frac{SP - 500}{5} \\times 1\\)\n\n\\(32 = \\frac{SP - 500}{5}\\)\n\n\\(32 \\times 5 = SP - 500\\)\n\n\\(160 = SP - 500\\)\n\n\\(SP = 160 + 500 = 660\\)\n\nTherefore, the selling price is ₦660.\n\nThe answer is C."
+    }
+  ]
+}

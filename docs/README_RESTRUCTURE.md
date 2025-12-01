@@ -9,7 +9,7 @@ The CBT-TEST application has been restructured to improve organization and maint
 - **Before**: All questions were stored in a single `exams.json` file containing all subjects
 - **After**: Each subject now has its own dedicated JSON file:
   - `english_questions.json`
-  - `mathematics_questions.json`
+  - `mathematics_questions_jamb_2010.json`
   - `physics_questions.json`
   - `biology_questions.json`
   - `chemistry_questions.json`

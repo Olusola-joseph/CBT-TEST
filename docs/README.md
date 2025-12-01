@@ -48,7 +48,7 @@ A robust Computer-Based Test (CBT) examination platform with comprehensive funct
 - `package.json` - Project dependencies and scripts
 - `exams.json` - Original combined questions file
 - `english_questions.json` - English subject questions
-- `mathematics_questions.json` - Mathematics subject questions
+- `mathematics_questions_jamb_2010.json` - Mathematics subject questions
 - `physics_questions.json` - Physics subject questions
 - `biology_questions.json` - Biology subject questions
 - `chemistry_questions.json` - Chemistry subject questions

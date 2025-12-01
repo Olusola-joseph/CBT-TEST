@@ -86,7 +86,7 @@ def merge_unique_questions(file1_path, file2_path, output_path):
 if __name__ == "__main__":
     # Merge the mathematics question files
     merge_unique_questions(
-        '/workspace/mathematics_questions.json',
+        '/workspace/src/data/subjects/mathematics_questions_jamb_2010.json',
         '/workspace/mathematics_questions_new.json', 
         '/workspace/mathematics_questions_final.json'
     )

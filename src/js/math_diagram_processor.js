@@ -7,7 +7,7 @@ const fs = require('fs');
 const path = require('path');
 
 class MathDiagramProcessor {
-    constructor(questionsFilePath = '/workspace/src/data/subjects/mathematics_questions.json') {
+    constructor(questionsFilePath = '/workspace/src/data/subjects/mathematics_questions_jamb_2010.json') {
         this.questionsFilePath = questionsFilePath;
         this.diagramMapPath = '/workspace/math_diagram_map.json';
         this.centralizedSVGPath = '/workspace/math_diagrams_centralized.svg';
@@ -388,7 +388,7 @@ class MathDiagramProcessor {
     createCentralizedDiagramFile(diagramQuestions) {
         let svgContent = `<?xml version="1.0" encoding="UTF-8"?>
 <!-- Centralized Mathematics Diagrams File -->
-<!-- Generated from mathematics_questions.json -->
+<!-- Generated from mathematics_questions_jamb_2010.json -->
 <svg width="800" height="${diagramQuestions.length * 350}" xmlns="http://www.w3.org/2000/svg">
   <style>
     .question-title { font: bold 16px sans-serif; fill: #333; }

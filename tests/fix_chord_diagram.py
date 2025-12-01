@@ -3,7 +3,7 @@
 import json
 
 # Read the file
-with open('/workspace/mathematics_questions.json', 'r', encoding='utf-8') as f:
+with open('/workspace/src/data/subjects/mathematics_questions_jamb_2010.json', 'r', encoding='utf-8') as f:
     content = f.read()
 
 # Define the old and new SVG content
@@ -57,7 +57,7 @@ new_svg = '''<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://w
 updated_content = content.replace(old_svg, new_svg)
 
 # Write the updated content back to the file
-with open('/workspace/mathematics_questions.json', 'w', encoding='utf-8') as f:
+with open('/workspace/src/data/subjects/mathematics_questions_jamb_2010.json', 'w', encoding='utf-8') as f:
     f.write(updated_content)
 
 print("Chord diagram updated successfully!")

@@ -151,5 +151,5 @@ def process_questions_file(input_file, output_file):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    process_questions_file('/workspace/mathematics_questions.json', '/workspace/mathematics_questions_diagrams_fixed.json')
+    process_questions_file('/workspace/src/data/subjects/mathematics_questions_jamb_2010.json', '/workspace/mathematics_questions_diagrams_fixed.json')
     print("Processing complete. Output saved to mathematics_questions_diagrams_fixed.json")

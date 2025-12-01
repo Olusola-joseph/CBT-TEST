@@ -7,7 +7,7 @@ The CBT-TEST application has been successfully restructured to improve organizat
 
 1. **Subject-specific question files** (8 files):
    - `english_questions.json`
-   - `mathematics_questions.json`
+   - `mathematics_questions_jamb_2010.json`
    - `physics_questions.json`
    - `biology_questions.json`
    - `chemistry_questions.json`
