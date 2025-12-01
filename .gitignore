@@ -1,52 +1,36 @@
 ```
-# Logs
-*.log
+# Backup files
+*.backup
 
-# Environment files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
 .env
 .env.local
 *.env.*
 
+# Editors
+.vscode/
+.idea/
+
 # Dependencies
 node_modules/
-venv/
 .venv/
+venv/
 __pycache__/
 .mypy_cache/
 .pytest_cache/
-pip-log.txt
-pip-selfcheck.json
 
-# Build directories
+# Build artifacts
 dist/
 build/
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.egg-info/
-.coverage
-htmlcov/
-coverage/
 target/
-.gradle/
-.cargo/
 
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# System files
 .DS_Store
-Thumbs.db
-
-# OS generated files
-.DS_Store
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
 # Compressed files
