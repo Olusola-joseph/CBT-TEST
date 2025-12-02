@@ -1,0 +1,2404 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 2,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 3,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 4,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 5,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 6,
+      "question": "Choose the word that is <u>opposite</u> in meaning to the underlined word: The <u>ancient</u> building stood for centuries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "old"
+        },
+        {
+          "id": "B",
+          "text": "modern"
+        },
+        {
+          "id": "C",
+          "text": "beautiful"
+        },
+        {
+          "id": "D",
+          "text": "tall"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ancient means very old, so the opposite is modern."
+    },
+    {
+      "id": 7,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 8,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 9,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 10,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 11,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 12,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 13,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 14,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 15,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 16,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 17,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 18,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 19,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 20,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 21,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 22,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 23,
+      "question": "Choose the word that is <u>opposite</u> in meaning to the underlined word: The <u>ancient</u> building stood for centuries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "old"
+        },
+        {
+          "id": "B",
+          "text": "modern"
+        },
+        {
+          "id": "C",
+          "text": "beautiful"
+        },
+        {
+          "id": "D",
+          "text": "tall"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ancient means very old, so the opposite is modern."
+    },
+    {
+      "id": 24,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 25,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 26,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 27,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 28,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 29,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 30,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 31,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 32,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 33,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 34,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 35,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 36,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 37,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 38,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 39,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 40,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 41,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 42,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 43,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 44,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 45,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 46,
+      "question": "Choose the word that is <u>opposite</u> in meaning to the underlined word: The <u>ancient</u> building stood for centuries.",
+      "options": [
+        {
+          "id": "A",
+          "text": "old"
+        },
+        {
+          "id": "B",
+          "text": "modern"
+        },
+        {
+          "id": "C",
+          "text": "beautiful"
+        },
+        {
+          "id": "D",
+          "text": "tall"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ancient means very old, so the opposite is modern."
+    },
+    {
+      "id": 47,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 48,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 49,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 50,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 51,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 52,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 53,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 54,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 55,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 56,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 57,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 58,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 59,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 60,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 61,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 62,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 63,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 64,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 65,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 66,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 67,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 68,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 69,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 70,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 71,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 72,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 73,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 74,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 75,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 76,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 77,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 78,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 79,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 80,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 81,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 82,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 83,
+      "question": "Identify the sentence type: <u>What a beautiful day!</u>",
+      "options": [
+        {
+          "id": "A",
+          "text": "Declarative"
+        },
+        {
+          "id": "B",
+          "text": "Interrogative"
+        },
+        {
+          "id": "C",
+          "text": "Imperative"
+        },
+        {
+          "id": "D",
+          "text": "Exclamatory"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence expresses strong emotion and ends with an exclamation mark."
+    },
+    {
+      "id": 84,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 85,
+      "question": "Choose the correct punctuation: <u>She said I will go tomorrow</u>.",
+      "options": [
+        {
+          "id": "A",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "B",
+          "text": "She said 'I will go tomorrow'."
+        },
+        {
+          "id": "C",
+          "text": "She said, 'I will go tomorrow.'"
+        },
+        {
+          "id": "D",
+          "text": "She said: I will go tomorrow."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When quoting speech, use commas and proper quotation marks."
+    },
+    {
+      "id": 86,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 87,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 88,
+      "question": "Choose the correct form of the verb: The committee _____ decided on the matter.",
+      "options": [
+        {
+          "id": "A",
+          "text": "have"
+        },
+        {
+          "id": "B",
+          "text": "has"
+        },
+        {
+          "id": "C",
+          "text": "were"
+        },
+        {
+          "id": "D",
+          "text": "was"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Committee is a collective noun treated as singular, so 'has' is correct."
+    },
+    {
+      "id": 89,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 90,
+      "question": "Choose the word nearest in meaning to the <u>underlined</u> word: The <u>generous</u> donor gave much to charity.",
+      "options": [
+        {
+          "id": "A",
+          "text": "selfish"
+        },
+        {
+          "id": "B",
+          "text": "kind"
+        },
+        {
+          "id": "C",
+          "text": "wealthy"
+        },
+        {
+          "id": "D",
+          "text": "happy"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Generous means willing to give, which is similar to kind."
+    },
+    {
+      "id": 91,
+      "question": "The <u>separation of powers</u> refers to the division of government into:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two branches"
+        },
+        {
+          "id": "B",
+          "text": "Three branches"
+        },
+        {
+          "id": "C",
+          "text": "Four branches"
+        },
+        {
+          "id": "D",
+          "text": "Five branches"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Separation of powers divides government into three branches: executive, legislative, and judicial."
+    },
+    {
+      "id": 92,
+      "question": "The <u>separation of powers</u> refers to the division of government into:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two branches"
+        },
+        {
+          "id": "B",
+          "text": "Three branches"
+        },
+        {
+          "id": "C",
+          "text": "Four branches"
+        },
+        {
+          "id": "D",
+          "text": "Five branches"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Separation of powers divides government into three branches: executive, legislative, and judicial."
+    },
+    {
+      "id": 93,
+      "question": "The <u>constitution</u> of a country is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "A list of laws"
+        },
+        {
+          "id": "B",
+          "text": "The supreme law of the land"
+        },
+        {
+          "id": "C",
+          "text": "A political party document"
+        },
+        {
+          "id": "D",
+          "text": "A tax document"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A constitution is the fundamental law that establishes the structure and functions of government."
+    },
+    {
+      "id": 94,
+      "question": "In a <u>democracy</u>, the ultimate source of power is the:",
+      "options": [
+        {
+          "id": "A",
+          "text": "President"
+        },
+        {
+          "id": "B",
+          "text": "Parliament"
+        },
+        {
+          "id": "C",
+          "text": "People"
+        },
+        {
+          "id": "D",
+          "text": "Judiciary"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a democracy, power is derived from the people who elect their representatives."
+    },
+    {
+      "id": 95,
+      "question": "In a <u>federal system</u> of government, power is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentrated in one central government"
+        },
+        {
+          "id": "B",
+          "text": "Divided between central and regional governments"
+        },
+        {
+          "id": "C",
+          "text": "Held by local governments only"
+        },
+        {
+          "id": "D",
+          "text": "Given to international organizations"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Federalism divides power between a central government and regional (state/local) governments."
+    },
+    {
+      "id": 96,
+      "question": "The <u>separation of powers</u> refers to the division of government into:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two branches"
+        },
+        {
+          "id": "B",
+          "text": "Three branches"
+        },
+        {
+          "id": "C",
+          "text": "Four branches"
+        },
+        {
+          "id": "D",
+          "text": "Five branches"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Separation of powers divides government into three branches: executive, legislative, and judicial."
+    },
+    {
+      "id": 97,
+      "question": "The <u>separation of powers</u> refers to the division of government into:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two branches"
+        },
+        {
+          "id": "B",
+          "text": "Three branches"
+        },
+        {
+          "id": "C",
+          "text": "Four branches"
+        },
+        {
+          "id": "D",
+          "text": "Five branches"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Separation of powers divides government into three branches: executive, legislative, and judicial."
+    },
+    {
+      "id": 98,
+      "question": "<u>Universal adult suffrage</u> means:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Only men can vote"
+        },
+        {
+          "id": "B",
+          "text": "Only educated people can vote"
+        },
+        {
+          "id": "C",
+          "text": "All adult citizens can vote"
+        },
+        {
+          "id": "D",
+          "text": "Only the wealthy can vote"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Universal adult suffrage means all adult citizens have the right to vote regardless of status."
+    },
+    {
+      "id": 99,
+      "question": "In a <u>federal system</u> of government, power is:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Concentrated in one central government"
+        },
+        {
+          "id": "B",
+          "text": "Divided between central and regional governments"
+        },
+        {
+          "id": "C",
+          "text": "Held by local governments only"
+        },
+        {
+          "id": "D",
+          "text": "Given to international organizations"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Federalism divides power between a central government and regional (state/local) governments."
+    },
+    {
+      "id": 100,
+      "question": "The <u>separation of powers</u> refers to the division of government into:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Two branches"
+        },
+        {
+          "id": "B",
+          "text": "Three branches"
+        },
+        {
+          "id": "C",
+          "text": "Four branches"
+        },
+        {
+          "id": "D",
+          "text": "Five branches"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Separation of powers divides government into three branches: executive, legislative, and judicial."
+    }
+  ]
+}
