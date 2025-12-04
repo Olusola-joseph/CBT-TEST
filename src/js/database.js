@@ -75,10 +75,11 @@ class ExamDatabase {
                         // Load questions from the new subject-specific JSON files
                         const subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
                         
-                        // Define all available years
-                        const years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015'];
-                        
                         for (const subject of subjects) {
+                            // Define available years for each subject
+                            // For English, only load 2010 questions as per requirements
+                            const years = subject === 'English' ? ['jamb_2010'] : ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015'];
+                            
                             for (const year of years) {
                                 // Load questions for each year
                                 const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
