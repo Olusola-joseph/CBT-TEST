@@ -53,7 +53,14 @@ class CBTExamApp {
             subjectBtn.textContent = subject.replace('_', ' ');
             subjectBtn.addEventListener('click', () => {
                 this.selectedSubject = subject;
-                this.showScreen('year-selection-screen'); // Show year selection after subject selection
+                // For English, automatically set year to 2010 since only 2010 questions are available
+                if (subject === 'English') {
+                    this.selectedYear = 'jamb_2010';
+                    this.loadQuestionsForSubject(subject);
+                    this.showScreen('exam-screen'); // Go directly to exam screen for English
+                } else {
+                    this.showScreen('year-selection-screen'); // Show year selection for other subjects
+                }
             });
             subjectContainer.appendChild(subjectBtn);
         });
@@ -65,7 +72,10 @@ class CBTExamApp {
         
         yearContainer.innerHTML = '';
         
-        this.years.forEach(year => {
+        // Determine which years to show based on subject
+        const availableYears = this.selectedSubject === 'English' ? ['jamb_2010'] : this.years;
+        
+        availableYears.forEach(year => {
             const yearBtn = document.createElement('button');
             yearBtn.className = 'year-btn';
             yearBtn.textContent = year.replace('jamb_', 'JAMB ');
