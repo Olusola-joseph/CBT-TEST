@@ -11,15 +11,70 @@ class CBTExamApp {
         this.questions = [];
         this.selectedSubject = '';
         this.selectedYear = 'jamb_2010'; // Default year
-        this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+        this.subjects = []; // Will be populated dynamically
         this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']; // Available years
         
         // Initialize database
         this.initDatabase();
         
         this.initializeEventListeners();
-        this.renderSubjectSelection();
-        this.renderYearSelection();
+        this.loadAvailableSubjects().then(() => {
+            this.renderSubjectSelection();
+            this.renderYearSelection();
+        });
+    }
+    
+    async loadAvailableSubjects() {
+        try {
+            const possibleSubjects = [
+                'English', 'Mathematics', 'Physics', 'Biology', 
+                'Chemistry', 'Government', 'Economics', 'Financial_Account'
+            ];
+            
+            // Test which subjects have available files by checking for at least one year file
+            const availableSubjects = [];
+            for (const subject of possibleSubjects) {
+                // Check if this subject has at least one year file available
+                let hasFiles = false;
+                
+                // Check for jamb_2010 as it's commonly available
+                const testFileName = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
+                
+                try {
+                    const testResponse = await fetch(testFileName);
+                    if (testResponse.ok) {
+                        hasFiles = true;
+                    }
+                } catch (error) {
+                    // Try other common years if 2010 doesn't exist
+                    for (const year of ['jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']) {
+                        const altFileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
+                        try {
+                            const altResponse = await fetch(altFileName);
+                            if (altResponse.ok) {
+                                hasFiles = true;
+                                break;
+                            }
+                        } catch {
+                            continue;
+                        }
+                    }
+                }
+                
+                if (hasFiles) {
+                    availableSubjects.push(subject);
+                } else {
+                    console.log(`Subject ${subject} not available - no question files found`);
+                }
+            }
+            
+            this.subjects = availableSubjects;
+            console.log('Available subjects loaded:', this.subjects);
+        } catch (error) {
+            console.error('Error loading available subjects:', error);
+            // Fallback to default subjects if detection fails
+            this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+        }
     }
     
     async initDatabase() {
@@ -51,7 +106,7 @@ class CBTExamApp {
             const subjectBtn = document.createElement('button');
             subjectBtn.className = 'subject-btn';
             subjectBtn.textContent = subject.replace('_', ' ');
-            subjectBtn.addEventListener('click', () => {
+            subjectBtn.addEventListener('click', async () => {
                 this.selectedSubject = subject;
                 // For English, automatically set year to 2010 since only 2010 questions are available
                 if (subject === 'English') {
@@ -60,6 +115,8 @@ class CBTExamApp {
                         this.showScreen('login-screen'); // Show login screen for English
                     });
                 } else {
+                    // For other subjects, show year selection screen with appropriate years
+                    await this.renderYearSelection(); // Re-render years for the selected subject
                     this.showScreen('year-selection-screen'); // Show year selection for other subjects
                 }
             });
@@ -67,14 +124,14 @@ class CBTExamApp {
         });
     }
     
-    renderYearSelection() {
+    async renderYearSelection() {
         const yearContainer = document.getElementById('year-container');
         if (!yearContainer) return;
         
         yearContainer.innerHTML = '';
         
         // Determine which years to show based on subject
-        const availableYears = this.selectedSubject === 'English' ? ['jamb_2010'] : this.years;
+        const availableYears = await this.getAvailableYearsForSubject(this.selectedSubject);
         
         availableYears.forEach(year => {
             const yearBtn = document.createElement('button');
@@ -86,6 +143,31 @@ class CBTExamApp {
             });
             yearContainer.appendChild(yearBtn);
         });
+    }
+    
+    async getAvailableYearsForSubject(subject) {
+        // For English, only return 2010 as it has special handling
+        if (subject === 'English') {
+            return ['jamb_2010'];
+        }
+        
+        // Check which years have available files for this subject
+        const availableYears = [];
+        for (const year of this.years) {
+            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
+            try {
+                const response = await fetch(fileName);
+                if (response.ok) {
+                    availableYears.push(year);
+                }
+            } catch (error) {
+                // Skip this year if fetch fails
+                continue;
+            }
+        }
+        
+        // If no specific years found, return default years
+        return availableYears.length > 0 ? availableYears : this.years;
     }
     
     async loadQuestionsForSubject(subject) {
