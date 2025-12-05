@@ -37,27 +37,18 @@ class CBTExamApp {
                 // Check if this subject has at least one year file available
                 let hasFiles = false;
                 
-                // Check for jamb_2010 as it's commonly available
-                const testFileName = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
-                
-                try {
-                    const testResponse = await fetch(testFileName);
-                    if (testResponse.ok) {
-                        hasFiles = true;
-                    }
-                } catch (error) {
-                    // Try other common years if 2010 doesn't exist
-                    for (const year of ['jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']) {
-                        const altFileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
-                        try {
-                            const altResponse = await fetch(altFileName);
-                            if (altResponse.ok) {
-                                hasFiles = true;
-                                break;
-                            }
-                        } catch {
-                            continue;
+                // Check all available years for this subject
+                for (const year of this.years) {
+                    const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
+                    try {
+                        const response = await fetch(fileName);
+                        if (response.ok) {
+                            hasFiles = true;
+                            break; // Found a valid file, no need to check other years for this subject
                         }
+                    } catch (error) {
+                        // Continue to next year if fetch fails
+                        continue;
                     }
                 }
                 
