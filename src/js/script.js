@@ -56,8 +56,9 @@ class CBTExamApp {
                 // For English, automatically set year to 2010 since only 2010 questions are available
                 if (subject === 'English') {
                     this.selectedYear = 'jamb_2010';
-                    this.loadQuestionsForSubject(subject);
-                    this.showScreen('exam-screen'); // Go directly to exam screen for English
+                    this.loadQuestionsForSubject(subject).then(() => {
+                        this.showScreen('login-screen'); // Show login screen for English
+                    });
                 } else {
                     this.showScreen('year-selection-screen'); // Show year selection for other subjects
                 }
@@ -97,7 +98,7 @@ class CBTExamApp {
                         console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
                         this.selectRandomQuestions(); // Select 10 random questions (or all for English)
                         this.renderQuestionList(); // Initialize the question list after loading questions
-                        this.showScreen('login-screen');
+                        // Don't show login screen here, let the caller decide when to show it
                         return;
                     }
                 } catch (dbError) {
@@ -151,7 +152,7 @@ class CBTExamApp {
                 
                 this.selectRandomQuestions(); // Select 10 random questions (or all for English)
                 this.renderQuestionList(); // Initialize the question list after loading questions
-                this.showScreen('login-screen');
+                // Don't show login screen here, let the caller decide when to show it
             } else {
                 console.error(`Subject ${subject} not found in exams data`);
                 alert(`Questions for ${subject} are not available.`);
