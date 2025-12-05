@@ -563,50 +563,33 @@ class CBTExamApp {
         const question = this.questions[index];
         
         // Update question display - using innerHTML to support HTML tags like <u>
-        // Update question display - using innerHTML to support HTML tags like <u>
         document.getElementById('q-number').textContent = question.id;
+        // Clean up the question text to remove BODMAS references and fix underlines
+        let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
+        cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
         
-        let questionHtml = '';
-        
-        // Handle different types of items: passage, instruction, or regular question
-        if (question.isPassage) {
-            // Display passage content
-            document.getElementById('q-number').textContent = question.title;
-            questionHtml = `<div class="passage-content"><h4>${question.title}</h4><p>${question.content.replace(/\n/g, '<br>')}</p></div>`;
-        } else if (question.isInstruction) {
-            // Display instruction content
-            document.getElementById('q-number').textContent = question.title;
-            questionHtml = `<div class="instruction-content"><h4>${question.title}</h4><p>${question.content}</p></div>`;
-        } else {
-            // Handle regular question
-            // Clean up the question text to remove BODMAS references and fix underlines
-            let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
-            cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
-            
-            // Add diagram container if available and question needs it
-            questionHtml = cleanQuestion;
-            if (question.diagram && this.questionNeedsDiagram(question.question)) {
-                // Check if the question text already contains an SVG diagram
-                if (!questionHtml.includes('<svg')) {
-                    // Decode the diagram data and add it directly to the question
-                    try {
-                        const decodedDiagram = decodeURIComponent(question.diagram);
-                        if (decodedDiagram.startsWith('<svg')) {
-                            questionHtml += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
-                        } else {
-                            questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
-                        }
-                    } catch (e) {
+        // Add diagram container if available and question needs it
+        let questionHtml = cleanQuestion;
+        if (question.diagram && this.questionNeedsDiagram(question.question)) {
+            // Check if the question text already contains an SVG diagram
+            if (!questionHtml.includes('<svg')) {
+                // Decode the diagram data and add it directly to the question
+                try {
+                    const decodedDiagram = decodeURIComponent(question.diagram);
+                    if (decodedDiagram.startsWith('<svg')) {
+                        questionHtml += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
+                    } else {
                         questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
                     }
+                } catch (e) {
+                    questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
                 }
             }
-            
-            // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
-            questionHtml = questionHtml.replace(/\\\\\\\\\\\\\\(/g, '\\\\(').replace(/\\\\\\\\\\\\\\)/g, '\\\\)').replace(/\\\\\\\\\\\\[/g, '\\\\[').replace(/\\\\\\\\\\\\]/g, '\\\\]');
         }
         
-        document.getElementById('question-text').innerHTML = questionHtml; // Changed to innerHTML to support HTML tags
+        // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
+        const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+        document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
         
@@ -621,15 +604,8 @@ class CBTExamApp {
             });
         }
         
-        // Render options only for regular questions (not passages or instructions)
-        if (!question.isPassage && !question.isInstruction) {
-            this.renderOptions(question);
-        } else {
-            // Show options container for passages and instructions (but it will be empty)
-            const optionsContainer = document.getElementById('options-container');
-            optionsContainer.innerHTML = '';
-            optionsContainer.style.display = 'block'; // Keep it visible but empty
-        }
+        // Render options
+        this.renderOptions(question);
         
         // Update question list highlighting
         this.updateQuestionList();
