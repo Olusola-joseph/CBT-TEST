@@ -6,6 +6,7 @@
     padding: 15px;
     margin: 10px 0;
     border-radius: 0 4px 4px 0;
+    animation: fadeIn 0.5s ease-in;
 }
 
 .english-instruction h4 {
@@ -21,6 +22,7 @@
     padding: 20px;
     margin: 15px 0;
     line-height: 1.6;
+    animation: fadeIn 0.5s ease-in;
 }
 
 .english-passage h4 {
@@ -46,6 +48,12 @@
     font-weight: 500;
 }
 
+/* Animation for content pages */
+@keyframes fadeIn {
+    from { opacity: 0.6; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 /* Special styling for question navigation when it includes instructions and passages */
 .question-btn.instruction {
     background-color: #e7f3ff;
@@ -63,4 +71,14 @@
 
 .question-btn.passage.answered {
     background-color: #c3e6c3;
+}
+
+/* Highlight for passage/instruction pages - using a class-based approach instead of :has for better browser support */
+.question-container.passage-content-page .question-header,
+.question-container.instruction-content-page .question-header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 3px solid #007bff;
+    transition: all 0.3s ease;
 }

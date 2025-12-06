@@ -242,14 +242,9 @@ class CBTExamApp {
     selectRandomQuestions() {
         // Check if the selected subject is English
         if (this.selectedSubject.toLowerCase() === 'english') {
-            // For English, use ALL questions (passages, instructions, and actual questions) instead of limiting to 100
-            // This allows for the proper page structure with passages/instructions followed by related questions
-            this.questions = this.questions.map((question, index) => {
-                return {
-                    ...question,
-                    id: index + 1  // Sequential numbering from 1 to total
-                };
-            });
+            // For English, use ALL questions (passages, instructions, and actual questions) 
+            // This maintains the proper page structure with passages/instructions followed by related questions
+            // The reorganizeEnglishQuestions method already assigns sequential IDs
             console.log(`Using all ${this.questions.length} English content items (passages, instructions, and questions) with sequential IDs`);
             return;
         }
@@ -555,7 +550,14 @@ class CBTExamApp {
         const question = this.questions[index];
         
         // Update question display - using innerHTML to support HTML tags like <u>
-        document.getElementById('q-number').textContent = question.id;
+        // For passages and instructions, show more descriptive labels
+        if (question.type === 'passage') {
+            document.getElementById('q-number').textContent = `Passage ${question.title}`;
+        } else if (question.type === 'instruction') {
+            document.getElementById('q-number').textContent = `Instruction ${question.title.split(' ')[1] || question.id}`;
+        } else {
+            document.getElementById('q-number').textContent = question.id;
+        }
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
@@ -584,6 +586,20 @@ class CBTExamApp {
         document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
+        
+        // Update question container class based on content type for better styling
+        const questionContainer = document.querySelector('.question-container');
+        if (questionContainer) {
+            // Remove previous content type classes
+            questionContainer.classList.remove('passage-content-page', 'instruction-content-page');
+            
+            // Add appropriate class based on question type
+            if (question.type === 'passage') {
+                questionContainer.classList.add('passage-content-page');
+            } else if (question.type === 'instruction') {
+                questionContainer.classList.add('instruction-content-page');
+            }
+        }
         
         // Trigger MathJax to re-render the mathematical expressions
         if (window.MathJax) {
@@ -679,11 +695,30 @@ class CBTExamApp {
         // Auto-advance to next question if this is a content page (passage/instruction) with CONTINUE option
         const currentQuestion = this.questions[this.currentQuestionIndex];
         if (currentQuestion && (currentQuestion.type === 'passage' || currentQuestion.type === 'instruction') && optionId === 'CONTINUE') {
+            // Show a brief visual feedback that we're moving to questions
+            const nextBtn = document.getElementById('next-btn');
+            if (nextBtn) {
+                nextBtn.textContent = 'Loading Questions...';
+                nextBtn.disabled = true;
+            }
+            
             setTimeout(() => {
                 if (this.currentQuestionIndex < this.questions.length - 1) {
                     this.nextQuestion();
                 }
-            }, 300); // Small delay to allow UI update
+                // Restore button text after navigation
+                if (nextBtn) {
+                    nextBtn.textContent = 'Next';
+                    nextBtn.disabled = false;
+                }
+                // Update navigation buttons state after moving to the next question
+                this.updateNavigationButtons();
+                // Update question list to highlight current question
+                this.updateQuestionList();
+                // Update progress indicators
+                document.getElementById('current-q').textContent = this.currentQuestionIndex + 1;
+                document.getElementById('total-q').textContent = this.questions.length;
+            }, 800); // Slightly longer delay to make transition clear
         }
     }
 
