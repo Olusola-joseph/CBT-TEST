@@ -153,17 +153,18 @@ class CBTExamApp {
         // First, add all instructions as questions
         if (subjectData.instructions && subjectData.instructions.length > 0) {
             subjectData.instructions.forEach(instruction => {
-                const instructionQuestion = {
+                // Add the instruction as a content page
+                const instructionContent = {
                     id: currentId++,
                     type: 'instruction',
                     title: instruction.id,
                     text: instruction.text,
                     question: `<div class="english-instruction"><h4>${instruction.id}</h4><p>${instruction.text}</p></div>`,
-                    options: [{ id: "NONE", text: "Continue to questions" }],
-                    correctAnswer: "NONE",
+                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
+                    correctAnswer: "CONTINUE",
                     explanation: "Please read the instructions carefully before attempting the questions that follow."
                 };
-                reorganizedQuestions.push(instructionQuestion);
+                reorganizedQuestions.push(instructionContent);
                 
                 // Add questions related to this instruction
                 if (subjectData.questions) {
@@ -186,18 +187,18 @@ class CBTExamApp {
         // Then, for each passage, add the passage followed by its related questions
         if (subjectData.passages && subjectData.passages.length > 0) {
             subjectData.passages.forEach(passage => {
-                // Add the passage as a content item
-                const passageQuestion = {
+                // Add the passage as a content page
+                const passageContent = {
                     id: currentId++,
                     type: 'passage',
                     title: passage.id,
                     text: passage.text,
                     question: `<div class="english-passage"><h4>${passage.id}</h4><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
-                    options: [{ id: "NONE", text: "Continue to questions" }],
-                    correctAnswer: "NONE",
+                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
+                    correctAnswer: "CONTINUE",
                     explanation: "This is a passage. Please read carefully before answering the questions that follow."
                 };
-                reorganizedQuestions.push(passageQuestion);
+                reorganizedQuestions.push(passageContent);
 
                 // Add questions related to this passage
                 if (subjectData.questions) {
@@ -237,35 +238,19 @@ class CBTExamApp {
         return reorganizedQuestions;
     }
 
-    // Select questions based on subject - English gets all 100, others get 10 random
+    // Select questions based on subject - English gets all questions (passages, instructions, and questions), others get 10 random
     selectRandomQuestions() {
         // Check if the selected subject is English
         if (this.selectedSubject.toLowerCase() === 'english') {
-            // For English, use all questions (up to 100) instead of random selection
-            if (this.questions.length <= 100) {
-                // If there are 100 or fewer questions, use all of them with sequential IDs
-                this.questions = this.questions.map((question, index) => {
-                    return {
-                        ...question,
-                        id: index + 1  // Sequential numbering from 1 to total
-                    };
-                });
-                console.log(`Using all ${this.questions.length} English questions with sequential IDs`);
-                return;
-            }
-            
-            // If there are more than 100 questions, select first 100
-            const first100Questions = this.questions.slice(0, 100);
-            
-            // Assign sequential IDs from 1 to 100
-            this.questions = first100Questions.map((question, index) => {
+            // For English, use ALL questions (passages, instructions, and actual questions) instead of limiting to 100
+            // This allows for the proper page structure with passages/instructions followed by related questions
+            this.questions = this.questions.map((question, index) => {
                 return {
                     ...question,
-                    id: index + 1  // Sequential numbering from 1 to 100
+                    id: index + 1  // Sequential numbering from 1 to total
                 };
             });
-            
-            console.log(`Selected first 100 English questions with sequential IDs`);
+            console.log(`Using all ${this.questions.length} English content items (passages, instructions, and questions) with sequential IDs`);
             return;
         }
         
@@ -690,6 +675,16 @@ class CBTExamApp {
         
         // Update question list to show answered state
         this.updateQuestionList();
+        
+        // Auto-advance to next question if this is a content page (passage/instruction) with CONTINUE option
+        const currentQuestion = this.questions[this.currentQuestionIndex];
+        if (currentQuestion && (currentQuestion.type === 'passage' || currentQuestion.type === 'instruction') && optionId === 'CONTINUE') {
+            setTimeout(() => {
+                if (this.currentQuestionIndex < this.questions.length - 1) {
+                    this.nextQuestion();
+                }
+            }, 300); // Small delay to allow UI update
+        }
     }
 
     previousQuestion() {
