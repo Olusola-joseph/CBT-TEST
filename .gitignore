@@ -1,3 +1,1 @@
-```
-*.log
-```
+Nothing should be ignored based on the provided file changes. The changes only involve a JavaScript test file being deleted, which doesn't require any new ignore rules.
