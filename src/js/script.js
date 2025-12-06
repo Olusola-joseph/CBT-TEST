@@ -132,10 +132,47 @@ class CBTExamApp {
         }
     }
 
-    // Select 10 random questions from the available questions
+    // Select questions based on subject - English gets all 100, others get 10 random
     selectRandomQuestions() {
+        // Check if the selected subject is English
+        if (this.selectedSubject.toLowerCase() === 'english') {
+            // For English, use all questions (up to 100) instead of random selection
+            if (this.questions.length <= 100) {
+                // If there are 100 or fewer questions, use all of them with sequential IDs
+                this.questions = this.questions.map((question, index) => {
+                    return {
+                        ...question,
+                        id: index + 1  // Sequential numbering from 1 to total
+                    };
+                });
+                console.log(`Using all ${this.questions.length} English questions with sequential IDs`);
+                return;
+            }
+            
+            // If there are more than 100 questions, select first 100
+            const first100Questions = this.questions.slice(0, 100);
+            
+            // Assign sequential IDs from 1 to 100
+            this.questions = first100Questions.map((question, index) => {
+                return {
+                    ...question,
+                    id: index + 1  // Sequential numbering from 1 to 100
+                };
+            });
+            
+            console.log(`Selected first 100 English questions with sequential IDs`);
+            return;
+        }
+        
+        // For non-English subjects, select 10 random questions as before
         if (this.questions.length <= 10) {
             // If there are 10 or fewer questions, use all of them
+            this.questions = this.questions.map((question, index) => {
+                return {
+                    ...question,
+                    id: index + 1  // Sequential numbering from 1 to total
+                };
+            });
             return;
         }
         
