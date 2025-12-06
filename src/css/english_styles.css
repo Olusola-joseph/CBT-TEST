@@ -1,0 +1,50 @@
+/* English subject specific styles for instructions and passages */
+
+.english-instruction {
+    background-color: #f0f8ff;
+    border-left: 4px solid #007bff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.english-instruction h4 {
+    color: #007bff;
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.english-passage {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.english-passage h4 {
+    color: #2c3e50;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+/* Special styling for question navigation when it includes instructions and passages */
+.question-btn.instruction {
+    background-color: #e7f3ff;
+    border: 1px solid #007bff;
+}
+
+.question-btn.passage {
+    background-color: #f0f8f0;
+    border: 1px solid #28a745;
+}
+
+.question-btn.instruction.answered {
+    background-color: #b3d7ff;
+}
+
+.question-btn.passage.answered {
+    background-color: #c3e6c3;
+}
