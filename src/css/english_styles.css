@@ -82,3 +82,56 @@
     border-left: 3px solid #007bff;
     transition: all 0.3s ease;
 }
+
+/* Additional styling for better visual distinction of content pages */
+.passage-content-page .question-body,
+.instruction-content-page .question-body {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+}
+
+.passage-content-page .options-container,
+.instruction-content-page .options-container {
+    display: none; /* Hide options for content pages since they only have a CONTINUE option */
+}
+
+/* Show continue button prominently for content pages */
+.passage-content-page .option-item,
+.instruction-content-page .option-item {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.passage-content-page .option-item:hover,
+.instruction-content-page .option-item:hover {
+    background-color: #218838;
+}
+
+/* Continue button for content pages */
+.continue-btn {
+    width: 100%;
+    padding: 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.continue-btn:hover {
+    background-color: #218838;
+}

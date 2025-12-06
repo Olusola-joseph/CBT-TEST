@@ -150,7 +150,7 @@ class CBTExamApp {
         let reorganizedQuestions = [];
         let currentId = 1;
 
-        // First, add all instructions as questions
+        // First, add all instructions as content pages followed by their related questions
         if (subjectData.instructions && subjectData.instructions.length > 0) {
             subjectData.instructions.forEach(instruction => {
                 // Add the instruction as a content page
@@ -173,7 +173,7 @@ class CBTExamApp {
                     );
                     
                     instructionQuestions.forEach(question => {
-                        // Update the question ID to the sequential ID
+                        // Update the question ID to the sequential ID and preserve passageId if it exists
                         const modifiedQuestion = {
                             ...question,
                             id: currentId++
@@ -184,7 +184,7 @@ class CBTExamApp {
             });
         }
 
-        // Then, for each passage, add the passage followed by its related questions
+        // Then, for each passage, add the passage as a content page followed by its related questions
         if (subjectData.passages && subjectData.passages.length > 0) {
             subjectData.passages.forEach(passage => {
                 // Add the passage as a content page
@@ -552,11 +552,11 @@ class CBTExamApp {
         // Update question display - using innerHTML to support HTML tags like <u>
         // For passages and instructions, show more descriptive labels
         if (question.type === 'passage') {
-            document.getElementById('q-number').textContent = `Passage ${question.title}`;
+            document.getElementById('q-number').textContent = question.title; // "Passage I", "Passage II", etc.
         } else if (question.type === 'instruction') {
-            document.getElementById('q-number').textContent = `Instruction ${question.title.split(' ')[1] || question.id}`;
+            document.getElementById('q-number').textContent = question.title; // "Instruction 1", "Instruction 2", etc.
         } else {
-            document.getElementById('q-number').textContent = question.id;
+            document.getElementById('q-number').textContent = `Question ${question.id}`;
         }
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
@@ -633,31 +633,56 @@ class CBTExamApp {
         const optionsContainer = document.getElementById('options-container');
         optionsContainer.innerHTML = '';
 
-        question.options.forEach(option => {
-            const optionElement = document.createElement('div');
-            optionElement.className = 'option-item';
-            optionElement.dataset.optionId = option.id;
-            
-            // Check if this option was previously selected
-            const isSelected = this.answers[question.id] === option.id;
-            if (isSelected) {
-                optionElement.classList.add('selected');
-            }
-            
-            // Fix MathJax delimiters in option text before rendering
-            const fixedOptionText = option.text.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
-            optionElement.innerHTML = `
-                <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
-                    value="${option.id}" ${isSelected ? 'checked' : ''}>
-                <label for="opt-${question.id}-${option.id}">${option.id}. ${fixedOptionText}</label>
-            `;
-            
-            optionElement.addEventListener('click', () => {
-                this.selectOption(question.id, option.id);
+        // For content pages (passages and instructions), render a prominent continue button
+        if (question.type === 'passage' || question.type === 'instruction') {
+            question.options.forEach(option => {
+                const optionElement = document.createElement('div');
+                optionElement.className = 'option-item';
+                optionElement.dataset.optionId = option.id;
+                
+                // Check if this option was previously selected
+                const isSelected = this.answers[question.id] === option.id;
+                if (isSelected) {
+                    optionElement.classList.add('selected');
+                }
+                
+                // For content pages, create a button-style element instead of radio button
+                optionElement.innerHTML = `
+                    <button type="button" class="continue-btn" onclick="app.selectOption(${question.id}, '${option.id}')">
+                        ${option.text}
+                    </button>
+                `;
+                
+                optionsContainer.appendChild(optionElement);
             });
-            
-            optionsContainer.appendChild(optionElement);
-        });
+        } else {
+            // For regular questions, render standard radio button options
+            question.options.forEach(option => {
+                const optionElement = document.createElement('div');
+                optionElement.className = 'option-item';
+                optionElement.dataset.optionId = option.id;
+                
+                // Check if this option was previously selected
+                const isSelected = this.answers[question.id] === option.id;
+                if (isSelected) {
+                    optionElement.classList.add('selected');
+                }
+                
+                // Fix MathJax delimiters in option text before rendering
+                const fixedOptionText = option.text.replace(/\\\\\\\\\\\\\\(/g, '\\\\(').replace(/\\\\\\\\\\\\\\)/g, '\\\\)').replace(/\\\\\\\\\\\\[/g, '\\\\[').replace(/\\\\\\\\\\\\]/g, '\\\\]');
+                optionElement.innerHTML = `
+                    <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
+                        value="${option.id}" ${isSelected ? 'checked' : ''}>
+                    <label for="opt-${question.id}-${option.id}">${option.id}. ${fixedOptionText}</label>
+                `;
+                
+                optionElement.addEventListener('click', () => {
+                    this.selectOption(question.id, option.id);
+                });
+                
+                optionsContainer.appendChild(optionElement);
+            });
+        }
         
         // Trigger MathJax to re-render mathematical expressions in the options
         if (window.MathJax) {
@@ -670,7 +695,6 @@ class CBTExamApp {
             });
         }
     }
-
     selectOption(questionId, optionId) {
         // Update answers object
         this.answers[questionId] = optionId;
