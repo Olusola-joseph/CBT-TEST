@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Subject Loading</title>
+</head>
+<body>
+    <h1>Test Subject Loading</h1>
+    <div id="subjects-list"></div>
+    <button onclick="testSubjects()">Test Subjects</button>
+    <button onclick="testEnglishFile()">Test English File</button>
+    <button onclick="testBiologyFile()">Test Biology File</button>
+    
+    <script>
+        async function testFile(fileName) {
+            try {
+                console.log(`Testing file: ${fileName}`);
+                const response = await fetch(fileName);
+                console.log(`Response status: ${response.status}, ok: ${response.ok}`);
+                
+                if (response.ok) {
+                    try {
+                        const data = await response.json();
+                        console.log(`JSON parsing successful for ${fileName}`);
+                        console.log(`Data keys:`, Object.keys(data));
+                        console.log(`Has questions: ${!!data.questions}, passages: ${!!data.passages}, instructions: ${!!data.instructions}`);
+                        return { success: true, data: data, status: response.status };
+                    } catch (jsonError) {
+                        console.log(`JSON parsing failed for ${fileName}:`, jsonError);
+                        return { success: false, error: jsonError.message, status: response.status };
+                    }
+                } else {
+                    console.log(`File not found: ${fileName}`);
+                    return { success: false, error: 'File not found', status: response.status };
+                }
+            } catch (error) {
+                console.log(`Fetch failed for ${fileName}:`, error);
+                return { success: false, error: error.message };
+            }
+        }
+
+        async function testSubjects() {
+            const potentialSubjects = [
+                'English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 
+                'Government', 'Economics', 'Financial_Account'
+            ];
+            
+            const availableSubjects = [];
+            
+            for (const subject of potentialSubjects) {
+                const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
+                const result = await testFile(fileName);
+                
+                if (result.success && result.data && (result.data.questions || result.data.passages || result.data.instructions)) {
+                    availableSubjects.push(subject);
+                } else {
+                    // Try the generic file
+                    const genericFileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
+                    const genericResult = await testFile(genericFileName);
+                    
+                    if (genericResult.success && genericResult.data && (genericResult.data.questions || genericResult.data.passages || genericResult.data.instructions)) {
+                        availableSubjects.push(subject);
+                    }
+                }
+            }
+            
+            document.getElementById('subjects-list').innerHTML = `<h3>Available Subjects: ${availableSubjects.join(', ')}</h3>`;
+            console.log('Available subjects:', availableSubjects);
+        }
+
+        async function testEnglishFile() {
+            const result = await testFile('src/data/subjects/english_questions_jamb_2010.json');
+            console.log('English file result:', result);
+        }
+
+        async function testBiologyFile() {
+            const result = await testFile('src/data/subjects/biology_questions_jamb_2010.json');
+            console.log('Biology file result:', result);
+        }
+    </script>
+</body>
+</html>

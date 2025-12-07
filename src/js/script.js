@@ -11,15 +11,112 @@ class CBTExamApp {
         this.questions = [];
         this.selectedSubject = '';
         this.selectedYear = 'jamb_2010'; // Default year
-        this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+        this.subjects = []; // Will be populated dynamically
         this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']; // Available years
         
         // Initialize database
         this.initDatabase();
         
         this.initializeEventListeners();
-        this.renderSubjectSelection();
-        this.renderYearSelection();
+        this.loadAvailableSubjects().then(() => {
+            this.renderSubjectSelection();
+            this.renderYearSelection();
+        });
+    }
+    
+    async loadAvailableSubjects() {
+        try {
+            // Instead of trying to list files, let's check for the existence of the most common subject files
+            // by attempting to fetch them and checking if they exist
+            const potentialSubjects = [
+                'English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 
+                'Government', 'Economics', 'Financial_Account'
+            ];
+            
+            const availableSubjects = [];
+            
+            // Check for each subject by trying to fetch the jamb_2010 file (most common)
+            for (const subject of potentialSubjects) {
+                try {
+                    // Try to fetch the subject file to check if it exists
+                    const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
+                    const response = await fetch(fileName);
+                    
+                    if (response.ok) {
+                        // Check if the response has content before parsing
+                        const contentLength = response.headers.get('content-length');
+                        if (contentLength === '0' || contentLength === null) {
+                            // If the file is empty, try the generic file
+                            const genericFileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
+                            const genericResponse = await fetch(genericFileName);
+                            
+                            if (genericResponse.ok) {
+                                try {
+                                    const data = await genericResponse.json();
+                                    // If JSON is valid and has content, add the subject
+                                    if (data && (data.questions || data.passages || data.instructions)) {
+                                        if (!availableSubjects.includes(subject)) {
+                                            availableSubjects.push(subject);
+                                        }
+                                    }
+                                } catch (jsonError) {
+                                    console.debug(`Invalid JSON in file: ${genericFileName}`, jsonError);
+                                }
+                            }
+                        } else {
+                            // Try to parse the JSON to make sure it's valid
+                            try {
+                                const data = await response.json();
+                                // If JSON is valid and has content, add the subject
+                                if (data && (data.questions || data.passages || data.instructions)) {
+                                    if (!availableSubjects.includes(subject)) {
+                                        availableSubjects.push(subject);
+                                    }
+                                }
+                            } catch (jsonError) {
+                                console.debug(`Invalid JSON in file: ${fileName}`, jsonError);
+                            }
+                        }
+                    } else {
+                        // If the year-specific file doesn't exist, try the generic subject file
+                        const genericFileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
+                        const genericResponse = await fetch(genericFileName);
+                        
+                        if (genericResponse.ok) {
+                            try {
+                                const data = await genericResponse.json();
+                                // If JSON is valid and has content, add the subject
+                                if (data && (data.questions || data.passages || data.instructions)) {
+                                    if (!availableSubjects.includes(subject)) {
+                                        availableSubjects.push(subject);
+                                    }
+                                }
+                            } catch (jsonError) {
+                                console.debug(`Invalid JSON in file: ${genericFileName}`, jsonError);
+                            }
+                        }
+                    }
+                } catch (error) {
+                    // If fetch fails for this subject, continue to the next one
+                    console.debug(`Could not load subject: ${subject}`, error);
+                }
+            }
+            
+            // If no subjects were found through fetch, use a fallback list
+            if (availableSubjects.length === 0) {
+                console.warn('Could not dynamically load subjects, using fallback list');
+                this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+            } else {
+                this.subjects = availableSubjects;
+            }
+            
+            console.log('Available subjects:', this.subjects);
+            
+        } catch (error) {
+            console.error('Error loading available subjects:', error);
+            // Fallback to default subjects if there's an error
+            this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+        }
     }
     
     async initDatabase() {
