@@ -46,23 +46,7 @@ class CBTExamApp {
                         // Check if the response has content before parsing
                         const contentLength = response.headers.get('content-length');
                         if (contentLength === '0' || contentLength === null) {
-                            // If the file is empty, try the generic file
-                            const genericFileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
-                            const genericResponse = await fetch(genericFileName);
-                            
-                            if (genericResponse.ok) {
-                                try {
-                                    const data = await genericResponse.json();
-                                    // If JSON is valid and has content, add the subject
-                                    if (data && (data.questions || data.passages || data.instructions)) {
-                                        if (!availableSubjects.includes(subject)) {
-                                            availableSubjects.push(subject);
-                                        }
-                                    }
-                                } catch (jsonError) {
-                                    console.debug(`Invalid JSON in file: ${genericFileName}`, jsonError);
-                                }
-                            }
+                            console.debug(`File is empty: ${fileName}`);
                         } else {
                             // Try to parse the JSON to make sure it's valid
                             try {
@@ -75,24 +59,6 @@ class CBTExamApp {
                                 }
                             } catch (jsonError) {
                                 console.debug(`Invalid JSON in file: ${fileName}`, jsonError);
-                            }
-                        }
-                    } else {
-                        // If the year-specific file doesn't exist, try the generic subject file
-                        const genericFileName = `src/data/subjects/${subject.toLowerCase()}_questions.json`;
-                        const genericResponse = await fetch(genericFileName);
-                        
-                        if (genericResponse.ok) {
-                            try {
-                                const data = await genericResponse.json();
-                                // If JSON is valid and has content, add the subject
-                                if (data && (data.questions || data.passages || data.instructions)) {
-                                    if (!availableSubjects.includes(subject)) {
-                                        availableSubjects.push(subject);
-                                    }
-                                }
-                            } catch (jsonError) {
-                                console.debug(`Invalid JSON in file: ${genericFileName}`, jsonError);
                             }
                         }
                     }
