@@ -1,7 +1,5 @@
 Loaded diagram map with 0 diagrams
 Server running at http://localhost:8080/
-Request received: HEAD /src/js/script.js
-Request received: HEAD /src/js/database.js
-Request received: HEAD /src/js/mathjax-config.js
-Request received: HEAD /
-Request received: HEAD /src/css/styles.css
+Request received: GET /
+Request received: GET /mathematics.html
+Request received: GET /english.html

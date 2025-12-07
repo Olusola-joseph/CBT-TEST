@@ -3,42 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CBT Exam Platform - Subject Selection</title>
+    <title>Mathematics - CBT Exam Platform</title>
     <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/math_styles.css">
+    <!-- MathJax for mathematical expression rendering -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script src="src/js/mathjax-config.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Computer-Based Test (CBT) Platform</h1>
+            <h1>Mathematics - Computer-Based Test (CBT) Platform</h1>
         </header>
         
         <main id="main-content">
-            <!-- Subject Selection Screen -->
-            <section id="subject-selection-screen" class="screen active">
-                <div class="subject-selection-card">
-                    <h2>Select Subject</h2>
-                    <p>Please choose the subject you would like to take the exam for:</p>
-                    <div id="subject-container" class="subject-grid">
-                        <button id="mathematics-btn" class="subject-btn">Mathematics</button>
-                        <button id="english-btn" class="subject-btn">English Language</button>
+            <!-- Year Selection Screen -->
+            <section id="year-selection-screen" class="screen active">
+                <div class="year-selection-card">
+                    <h2>Select JAMB Year</h2>
+                    <p>Please choose the year of JAMB CBT test you would like to attempt:</p>
+                    <div id="year-container" class="year-grid">
+                        <!-- Year buttons will be populated dynamically -->
                     </div>
                 </div>
             </section>
-        </main>
-    </div>
-
-    <script>
-        // Redirect to the appropriate subject page when buttons are clicked
-        document.getElementById('mathematics-btn').addEventListener('click', () => {
-            window.location.href = 'mathematics.html';
-        });
-
-        document.getElementById('english-btn').addEventListener('click', () => {
-            window.location.href = 'english.html';
-        });
-    </script>
-</body>
-</html>
             
             <!-- Login Screen -->
             <section id="login-screen" class="screen">
@@ -64,7 +52,7 @@
                     <div class="back-button-container">
                         <button id="instructions-back-btn" class="btn btn-secondary">← Back to Year Selection</button>
                     </div>
-                    <h2>Exam Instructions</h2>
+                    <h2>Mathematics Exam Instructions</h2>
                     <div class="instructions-list">
                         <p><strong>Read carefully before starting the exam:</strong></p>
                         <ul>
@@ -73,6 +61,7 @@
                             <li>You can navigate between questions using the buttons below</li>
                             <li>All answers will be saved automatically</li>
                             <li>Click "Submit Exam" when you're finished</li>
+                            <li>Mathematical expressions will be rendered using MathJax</li>
                         </ul>
                     </div>
                     <button id="start-exam-btn" class="btn btn-primary">Start Exam</button>
@@ -168,6 +157,6 @@
     </div>
 
     <script src="src/js/database.js"></script>
-    <script src="src/js/script.js"></script>
+    <script src="src/js/mathematics-script.js"></script>
 </body>
 </html>

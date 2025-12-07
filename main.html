@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Exam Platform - Subject Selection</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Computer-Based Test (CBT) Platform</h1>
+        </header>
+        
+        <main id="main-content">
+            <!-- Subject Selection Screen -->
+            <section id="subject-selection-screen" class="screen active">
+                <div class="subject-selection-card">
+                    <h2>Select Subject</h2>
+                    <p>Please choose the subject you would like to take the exam for:</p>
+                    <div id="subject-container" class="subject-grid">
+                        <button id="mathematics-btn" class="subject-btn">Mathematics</button>
+                        <button id="english-btn" class="subject-btn">English Language</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        // Redirect to the appropriate subject page when buttons are clicked
+        document.getElementById('mathematics-btn').addEventListener('click', () => {
+            window.location.href = 'mathematics.html';
+        });
+
+        document.getElementById('english-btn').addEventListener('click', () => {
+            window.location.href = 'english.html';
+        });
+    </script>
+</body>
+</html>
