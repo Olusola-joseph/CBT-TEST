@@ -40,7 +40,11 @@ document.addEventListener('DOMContentLoaded', function() {
     // Wait for MathJax to be fully loaded before typesetting
     if (MathJax.startup && typeof MathJax.startup.promise !== 'undefined') {
       MathJax.startup.promise.then(() => {
-        MathJax.typeset();
+        if (typeof MathJax.typeset === 'function') {
+          MathJax.typeset();
+        } else if (typeof MathJax.typesetPromise === 'function') {
+          MathJax.typesetPromise();
+        }
       });
     } else {
       // Fallback for older versions
@@ -55,11 +59,19 @@ function typesetMath() {
     // Wait for MathJax to be fully loaded before typesetting
     if (MathJax.startup && typeof MathJax.startup.promise !== 'undefined') {
       MathJax.startup.promise.then(() => {
-        MathJax.typeset();
+        if (typeof MathJax.typeset === 'function') {
+          MathJax.typeset();
+        } else if (typeof MathJax.typesetPromise === 'function') {
+          MathJax.typesetPromise();
+        }
       });
     } else {
       // Fallback for older versions
-      MathJax.typeset();
+      if (typeof MathJax.typeset === 'function') {
+        MathJax.typeset();
+      } else if (typeof MathJax.typesetPromise === 'function') {
+        MathJax.typesetPromise();
+      }
     }
   }
 }

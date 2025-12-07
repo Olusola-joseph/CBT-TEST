@@ -1,3 +1,4 @@
 ```
-*.tmp
+# Backup files
+*.backup
 ```
