@@ -11,7 +11,7 @@ class CBTExamApp {
         this.questions = [];
         this.selectedSubject = '';
         this.selectedYear = 'jamb_2010'; // Default year
-        this.subjects = []; // Will be populated dynamically
+        this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account']; // Will be populated dynamically
         this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']; // Available years
         
         // Initialize database
@@ -679,10 +679,10 @@ class CBTExamApp {
         }
         
         // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
-        const fixedQuestionHtml = questionHtml.replace(/\\\(/g, '\\(').replace(/\\\)/g, '\\)').replace(/\\\]/g, '\\[').replace(/\\\]/g, '\\]');
-        document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
-        document.getElementById('current-q').textContent = index + 1;
-        document.getElementById('total-q').textContent = this.questions.length;
+       // const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+       // document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
+        //document.getElementById('current-q').textContent = index + 1;
+       // document.getElementById('total-q').textContent = this.questions.length;
         
         // Update question container class based on content type for better styling
         const questionContainer = document.querySelector('.question-container');

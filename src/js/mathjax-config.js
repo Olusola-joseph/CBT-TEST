@@ -48,11 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     } else {
       // Fallback for older versions
-      if (typeof MathJax.typeset === 'function') {
-        MathJax.typeset();
-      } else if (typeof MathJax.typesetPromise === 'function') {
-        MathJax.typesetPromise();
-      }
+     // MathJax.typeset();
     }
   }
 });
