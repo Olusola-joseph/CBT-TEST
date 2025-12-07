@@ -2,7 +2,7 @@
 class ExamDatabase {
     constructor() {
         this.dbName = 'CBTExamDB';
-        this.version = 2; // Updated version to handle schema changes
+        this.version = 3; // Updated version to handle schema changes
         this.db = null;
     }
 
@@ -56,6 +56,14 @@ class ExamDatabase {
                     resultStore.createIndex('examId', 'examId', { unique: false });
                     resultStore.createIndex('questionId', 'questionId', { unique: false });
                 }
+                
+                // Add a new object store for subject content (passages, instructions, etc.)
+                if (!db.objectStoreNames.contains('subjectContent')) {
+                    const contentStore = db.createObjectStore('subjectContent', { keyPath: 'id', autoIncrement: true });
+                    contentStore.createIndex('subject', 'subject', { unique: false });
+                    contentStore.createIndex('contentType', 'contentType', { unique: false });
+                    contentStore.createIndex('subject_content_type', ['subject', 'contentType'], { unique: false });
+                }
             };
         });
     }
@@ -92,9 +100,24 @@ class ExamDatabase {
                                     
                                     const subjectData = await response.json();
                                     
-                                    if (subjectData && subjectData.questions) {
-                                        await this.addQuestions(subject, subjectData.questions);
-                                        console.log(`Added ${subjectData.questions.length} questions for ${subject} (${year}) to database`);
+                                    if (subjectData) {
+                                        // Add questions to database
+                                        if (subjectData.questions) {
+                                            await this.addQuestions(subject, subjectData.questions);
+                                            console.log(`Added ${subjectData.questions.length} questions for ${subject} (${year}) to database`);
+                                        }
+                                        
+                                        // Add passages to database if they exist
+                                        if (subjectData.passages && subjectData.passages.length > 0) {
+                                            await this.addSubjectContent(subject, 'passage', subjectData.passages);
+                                            console.log(`Added ${subjectData.passages.length} passages for ${subject} (${year}) to database`);
+                                        }
+                                        
+                                        // Add instructions to database if they exist
+                                        if (subjectData.instructions && subjectData.instructions.length > 0) {
+                                            await this.addSubjectContent(subject, 'instruction', subjectData.instructions);
+                                            console.log(`Added ${subjectData.instructions.length} instructions for ${subject} (${year}) to database`);
+                                        }
                                     }
                                 } catch (error) {
                                     console.error(`Error loading questions for ${subject} (${year}):`, error);
@@ -243,6 +266,100 @@ class ExamDatabase {
 
             request.onsuccess = () => {
                 resolve(request.result);
+            };
+
+            request.onerror = () => {
+                reject(request.error);
+            };
+        });
+    }
+    
+    // Add subject content (passages, instructions, etc.)
+    async addSubjectContent(subject, contentType, content) {
+        if (!this.db) {
+            throw new Error('Database not initialized');
+        }
+
+        const transaction = this.db.transaction(['subjectContent'], 'readwrite');
+        const store = transaction.objectStore('subjectContent');
+
+        // Clear existing content of this type for the subject to avoid duplicates
+        const subjectIndex = store.index('subject_content_type');
+        const getRequest = subjectIndex.getAllKeys(IDBKeyRange.only([subject, contentType]));
+        
+        await new Promise((resolve) => {
+            getRequest.onsuccess = () => {
+                const keys = getRequest.result;
+                keys.forEach(key => {
+                    store.delete(key);
+                });
+                resolve();
+            };
+        });
+
+        // Add content items to the database
+        for (const item of content) {
+            const contentData = {
+                subject: subject,
+                contentType: contentType,
+                contentItem: item
+            };
+            store.add(contentData);
+        }
+
+        return new Promise((resolve, reject) => {
+            transaction.oncomplete = () => resolve();
+            transaction.onerror = () => reject(transaction.error);
+        });
+    }
+
+    // Get subject content (passages, instructions, etc.)
+    async getSubjectContentBySubjectAndType(subject, contentType) {
+        if (!this.db) {
+            throw new Error('Database not initialized');
+        }
+
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction(['subjectContent'], 'readonly');
+            const store = transaction.objectStore('subjectContent');
+            const index = store.index('subject_content_type');
+            const request = index.getAll(IDBKeyRange.only([subject, contentType]));
+
+            request.onsuccess = () => {
+                // Extract the contentItem from each record
+                const result = request.result.map(record => record.contentItem);
+                resolve(result);
+            };
+
+            request.onerror = () => {
+                reject(request.error);
+            };
+        });
+    }
+    
+    // Get all subject content for a subject
+    async getAllSubjectContent(subject) {
+        if (!this.db) {
+            throw new Error('Database not initialized');
+        }
+
+        return new Promise((resolve, reject) => {
+            const transaction = this.db.transaction(['subjectContent'], 'readonly');
+            const store = transaction.objectStore('subjectContent');
+            const index = store.index('subject');
+            const request = index.getAll(IDBKeyRange.only(subject));
+
+            request.onsuccess = () => {
+                // Group the content by type
+                const result = { passages: [], instructions: [] };
+                request.result.forEach(record => {
+                    if (record.contentType === 'passage') {
+                        result.passages.push(record.contentItem);
+                    } else if (record.contentType === 'instruction') {
+                        result.instructions.push(record.contentItem);
+                    }
+                });
+                resolve(result);
             };
 
             request.onerror = () => {
