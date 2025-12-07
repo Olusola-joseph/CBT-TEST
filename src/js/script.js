@@ -11,7 +11,7 @@ class CBTExamApp {
         this.questions = [];
         this.selectedSubject = '';
         this.selectedYear = 'jamb_2010'; // Default year
-        this.subjects = []; // Will be populated dynamically
+        this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account']; // Will be populated dynamically
         this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']; // Available years
         
         // Initialize database
