@@ -659,10 +659,10 @@ class CBTExamApp {
         }
         
         // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
-       // const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
-       // document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
-        //document.getElementById('current-q').textContent = index + 1;
-       // document.getElementById('total-q').textContent = this.questions.length;
+       const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+       document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
+        document.getElementById('current-q').textContent = index + 1;
+       document.getElementById('total-q').textContent = this.questions.length;
         
         // Update question container class based on content type for better styling
         const questionContainer = document.querySelector('.question-container');
