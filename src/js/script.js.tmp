@@ -633,42 +633,36 @@ class CBTExamApp {
         } else if (question.type === 'instruction') {
             document.getElementById('q-number').textContent = question.title; // "Instruction 1", "Instruction 2", etc.
         } else {
-            document.getElementById("q-number").textContent = `Question ${question.id}`;
+            document.getElementById('q-number').textContent = `Question ${question.id}`;
         }
-        // For passages and instructions, use the pre-formatted question HTML which already contains the content
-        if (question.type === "passage" || question.type === "instruction") {
-            // Use the question field directly as it contains formatted HTML for passages and instructions
-            document.getElementById("question-text").innerHTML = question.question;
-        } else {
-            // Clean up the question text to remove BODMAS references and fix underlines for regular questions
-            let cleanQuestion = question.question.replace(/using BODMAS rule/gi, "");
-            cleanQuestion = cleanQuestion.replace(/BODMAS/gi, "");
-            
-            // Add diagram container if available and question needs it
-            let questionHtml = cleanQuestion;
-            if (question.diagram && this.questionNeedsDiagram(question.question)) {
-                // Check if the question text already contains an SVG diagram
-                if (!questionHtml.includes("<svg")) {
-                    // Decode the diagram data and add it directly to the question
-                    try {
-                        const decodedDiagram = decodeURIComponent(question.diagram);
-                        if (decodedDiagram.startsWith("<svg")) {
-                            questionHtml += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
-                        } else {
-                            questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
-                        }
-                    } catch (e) {
+        // Clean up the question text to remove BODMAS references and fix underlines
+        let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
+        cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
+        
+        // Add diagram container if available and question needs it
+        let questionHtml = cleanQuestion;
+        if (question.diagram && this.questionNeedsDiagram(question.question)) {
+            // Check if the question text already contains an SVG diagram
+            if (!questionHtml.includes('<svg')) {
+                // Decode the diagram data and add it directly to the question
+                try {
+                    const decodedDiagram = decodeURIComponent(question.diagram);
+                    if (decodedDiagram.startsWith('<svg')) {
+                        questionHtml += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
+                    } else {
                         questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
                     }
+                } catch (e) {
+                    questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
                 }
             }
-            
-            // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
-           const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, "\\(").replace(/\\\\\\\)/g, "\\)").replace(/\\\\\\[/g, "\\[).replace(/\\\\\\]/g, "\\]");
-           document.getElementById("question-text").innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         }
-        document.getElementById("current-q").textContent = index + 1;
-       document.getElementById("total-q").textContent = this.questions.length;
+        
+        // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
+       // const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+       // document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
+        //document.getElementById('current-q').textContent = index + 1;
+       // document.getElementById('total-q').textContent = this.questions.length;
         
         // Update question container class based on content type for better styling
         const questionContainer = document.querySelector('.question-container');
