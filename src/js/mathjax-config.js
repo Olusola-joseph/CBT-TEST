@@ -37,13 +37,29 @@ window.MathJax = {
 // Initialize MathJax when the page is loaded
 document.addEventListener('DOMContentLoaded', function() {
   if (window.MathJax) {
-    MathJax.typeset();
+    // Wait for MathJax to be fully loaded before typesetting
+    if (MathJax.startup && typeof MathJax.startup.promise !== 'undefined') {
+      MathJax.startup.promise.then(() => {
+        MathJax.typeset();
+      });
+    } else {
+      // Fallback for older versions
+      MathJax.typeset();
+    }
   }
 });
 
 // Function to typeset specific elements after dynamic content is added
 function typesetMath() {
   if (window.MathJax) {
-    MathJax.typeset();
+    // Wait for MathJax to be fully loaded before typesetting
+    if (MathJax.startup && typeof MathJax.startup.promise !== 'undefined') {
+      MathJax.startup.promise.then(() => {
+        MathJax.typeset();
+      });
+    } else {
+      // Fallback for older versions
+      MathJax.typeset();
+    }
   }
 }
