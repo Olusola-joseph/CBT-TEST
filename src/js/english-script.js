@@ -67,9 +67,18 @@ class EnglishCBTExamApp {
                         console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
                         
                         // For English from database, we need to load the original subject data to get passages and instructions
-                        // For now, we'll just use the questions as-is since we don't have the original passages/instructions in the database
-                        // In a real implementation, you'd want to store passages and instructions in the database too
-                        console.log(`Loaded ${this.questions.length} English questions from database`);
+                        // Get the passages and instructions from the database
+                        const subjectContent = await examDB.getAllSubjectContent(subject);
+                        
+                        // Reorganize the questions using the passages and instructions from the database
+                        const subjectData = {
+                            questions: this.questions,
+                            passages: subjectContent.passages,
+                            instructions: subjectContent.instructions
+                        };
+                        
+                        this.questions = this.reorganizeEnglishQuestions(subjectData);
+                        console.log(`Reorganized ${this.questions.length} English questions (with passages and instructions) from database`);
                         
                         this.renderQuestionList(); // Initialize the question list after loading questions
                         this.showScreen('login-screen');
@@ -104,8 +113,19 @@ class EnglishCBTExamApp {
                 // Optionally, add questions to database for future use
                 if (examDB && examDB.db) {
                     try {
-                        await examDB.addQuestions(subject, this.questions);
-                        console.log(`Added ${this.questions.length} questions to database for ${subject}`);
+                        await examDB.addQuestions(subject, subjectData.questions || []);
+                        console.log(`Added ${subjectData.questions ? subjectData.questions.length : 0} questions to database for ${subject}`);
+                        
+                        // Add passages and instructions to database if they exist
+                        if (subjectData.passages && subjectData.passages.length > 0) {
+                            await examDB.addSubjectContent(subject, 'passage', subjectData.passages);
+                            console.log(`Added ${subjectData.passages.length} passages to database for ${subject}`);
+                        }
+                        
+                        if (subjectData.instructions && subjectData.instructions.length > 0) {
+                            await examDB.addSubjectContent(subject, 'instruction', subjectData.instructions);
+                            console.log(`Added ${subjectData.instructions.length} instructions to database for ${subject}`);
+                        }
                     } catch (addError) {
                         console.error('Error adding questions to database:', addError);
                     }
