@@ -679,7 +679,7 @@ class CBTExamApp {
         }
         
         // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
-        const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+        const fixedQuestionHtml = questionHtml.replace(/\\\(/g, '\\(').replace(/\\\)/g, '\\)').replace(/\\\]/g, '\\[').replace(/\\\]/g, '\\]');
         document.getElementById('question-text').innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById('current-q').textContent = index + 1;
         document.getElementById('total-q').textContent = this.questions.length;
@@ -768,7 +768,7 @@ class CBTExamApp {
                 }
                 
                 // Fix MathJax delimiters in option text before rendering
-                const fixedOptionText = option.text.replace(/\\\\\\(/g, '\\(').replace(/\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
+                const fixedOptionText = option.text.replace(/\\\(/g, '\\(').replace(/\\\)/g, '\\)').replace(/\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
                 optionElement.innerHTML = `
                     <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
                         value="${option.id}" ${isSelected ? 'checked' : ''}>
