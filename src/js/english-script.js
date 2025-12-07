@@ -49,9 +49,10 @@ class EnglishCBTExamApp {
             const yearBtn = document.createElement('button');
             yearBtn.className = 'year-btn';
             yearBtn.textContent = year.replace('jamb_', 'JAMB ');
-            yearBtn.addEventListener('click', () => {
+            yearBtn.addEventListener('click', async () => {
                 this.selectedYear = year;
-                this.loadQuestionsForSubject(this.selectedSubject);
+                await this.loadQuestionsForSubject(this.selectedSubject);
+                this.showScreen('login-screen');
             });
             yearContainer.appendChild(yearBtn);
         });
@@ -81,7 +82,6 @@ class EnglishCBTExamApp {
                         console.log(`Reorganized ${this.questions.length} English questions (with passages and instructions) from database`);
                         
                         this.renderQuestionList(); // Initialize the question list after loading questions
-                        this.showScreen('login-screen');
                         return;
                     }
                 } catch (dbError) {
@@ -283,7 +283,12 @@ class EnglishCBTExamApp {
         // Start exam button
         const startExamBtn = document.getElementById('start-exam-btn');
         if (startExamBtn) {
-            startExamBtn.addEventListener('click', () => {
+            startExamBtn.addEventListener('click', async () => {
+                // Ensure questions are loaded before starting exam
+                if (this.questions.length === 0) {
+                    // If questions haven't been loaded yet, load them using the selected year
+                    await this.loadQuestionsForSubject(this.selectedSubject);
+                }
                 this.startExam();
             });
         }
@@ -367,7 +372,7 @@ class EnglishCBTExamApp {
         }
     }
 
-    handleLogin() {
+    async handleLogin() {
         const studentId = document.getElementById('student-id').value.trim();
         const examCode = document.getElementById('exam-code').value.trim();
 
@@ -375,6 +380,11 @@ class EnglishCBTExamApp {
         if (!studentId || !examCode) {
             alert('Please enter both Student ID and Exam Code');
             return;
+        }
+
+        // Ensure questions are loaded before proceeding
+        if (this.questions.length === 0) {
+            await this.loadQuestionsForSubject(this.selectedSubject);
         }
 
         // Simulate login validation
