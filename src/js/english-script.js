@@ -132,7 +132,38 @@ class EnglishCBTExamApp {
         let reorganizedQuestions = [];
         let currentId = 1;
 
-        // First, add all instructions as content pages followed by their related questions
+        // First, for each passage, add the passage as a content page followed by its related questions
+        if (subjectData.passages && subjectData.passages.length > 0) {
+            subjectData.passages.forEach(passage => {
+                // Add the passage as a content page
+                const passageContent = {
+                    id: currentId++,
+                    type: 'passage',
+                    title: passage.id,
+                    text: passage.text,
+                    question: `<div class="english-passage"><h4>${passage.id}</h4><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
+                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
+                    correctAnswer: "CONTINUE",
+                    explanation: "This is a passage. Please read carefully before answering the questions that follow."
+                };
+                reorganizedQuestions.push(passageContent);
+
+                // Add questions related to this passage
+                if (subjectData.questions) {
+                    const passageQuestions = subjectData.questions.filter(q => q.passageId === passage.id);
+                    passageQuestions.forEach(question => {
+                        // Update the question ID to the sequential ID
+                        const modifiedQuestion = {
+                            ...question,
+                            id: currentId++
+                        };
+                        reorganizedQuestions.push(modifiedQuestion);
+                    });
+                }
+            });
+        }
+
+        // Then, add all instructions as content pages followed by their related questions
         if (subjectData.instructions && subjectData.instructions.length > 0) {
             subjectData.instructions.forEach(instruction => {
                 // Add the instruction as a content page
@@ -156,37 +187,6 @@ class EnglishCBTExamApp {
                     
                     instructionQuestions.forEach(question => {
                         // Update the question ID to the sequential ID and preserve passageId if it exists
-                        const modifiedQuestion = {
-                            ...question,
-                            id: currentId++
-                        };
-                        reorganizedQuestions.push(modifiedQuestion);
-                    });
-                }
-            });
-        }
-
-        // Then, for each passage, add the passage as a content page followed by its related questions
-        if (subjectData.passages && subjectData.passages.length > 0) {
-            subjectData.passages.forEach(passage => {
-                // Add the passage as a content page
-                const passageContent = {
-                    id: currentId++,
-                    type: 'passage',
-                    title: passage.id,
-                    text: passage.text,
-                    question: `<div class="english-passage"><h4>${passage.id}</h4><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
-                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
-                    correctAnswer: "CONTINUE",
-                    explanation: "This is a passage. Please read carefully before answering the questions that follow."
-                };
-                reorganizedQuestions.push(passageContent);
-
-                // Add questions related to this passage
-                if (subjectData.questions) {
-                    const passageQuestions = subjectData.questions.filter(q => q.passageId === passage.id);
-                    passageQuestions.forEach(question => {
-                        // Update the question ID to the sequential ID
                         const modifiedQuestion = {
                             ...question,
                             id: currentId++
