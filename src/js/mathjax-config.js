@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     } else {
       // Fallback for older versions
-      MathJax.typeset();
+     // MathJax.typeset();
     }
   }
 });
