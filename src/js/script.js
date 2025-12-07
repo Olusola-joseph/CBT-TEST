@@ -148,7 +148,17 @@ class CBTExamApp {
                     this.questions = await examDB.getQuestionsBySubject(subject);
                     if (this.questions.length > 0) {
                         console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
-                        this.selectRandomQuestions(); // Select 10 random questions
+                        
+                        // For English subject, handle passages, instructions, and questions differently
+                        if (subject.toLowerCase() === 'english') {
+                            // For English from database, we need to load the original subject data to get passages and instructions
+                            // For now, we'll just use the questions as-is since we don't have the original passages/instructions in the database
+                            // In a real implementation, you'd want to store passages and instructions in the database too
+                            console.log(`Loaded ${this.questions.length} English questions from database`);
+                        } else {
+                            this.selectRandomQuestions(); // Select 10 random questions for non-English subjects
+                        }
+                        
                         this.renderQuestionList(); // Initialize the question list after loading questions
                         this.showScreen('login-screen');
                         return;
@@ -197,7 +207,8 @@ class CBTExamApp {
                 }
                 
                 this.renderQuestionList(); // Initialize the question list after loading questions
-                this.showScreen('login-screen');
+                // Questions are loaded, but don't change the screen - let the normal flow continue
+                // The user should still go through login and instructions as normal
             } else {
                 console.error(`Subject ${subject} not found in exams data`);
                 alert(`Questions for ${subject} are not available.`);
@@ -298,6 +309,9 @@ class CBTExamApp {
         }
 
         console.log(`Reorganized English questions: ${reorganizedQuestions.length} total items`);
+        console.log(`Original question count: ${subjectData.questions ? subjectData.questions.length : 0}`);
+        console.log(`Passages count: ${subjectData.passages ? subjectData.passages.length : 0}`);
+        console.log(`Instructions count: ${subjectData.instructions ? subjectData.instructions.length : 0}`);
         return reorganizedQuestions;
     }
 
