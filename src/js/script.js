@@ -768,7 +768,7 @@ class CBTExamApp {
                 }
                 
                 // Fix MathJax delimiters in option text before rendering
-                const fixedOptionText = option.text.replace(/\\\\\\\\\\\\\\(/g, '\\\\(').replace(/\\\\\\\\\\\\\\)/g, '\\\\)').replace(/\\\\\\\\\\\\[/g, '\\\\[').replace(/\\\\\\\\\\\\]/g, '\\\\]');
+                const fixedOptionText = option.text.replace(/\\\\\\(/g, '\\(').replace(/\\\\\\)/g, '\\)').replace(/\\\\\\[/g, '\\[').replace(/\\\\\\]/g, '\\]');
                 optionElement.innerHTML = `
                     <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
                         value="${option.id}" ${isSelected ? 'checked' : ''}>
@@ -1044,8 +1044,8 @@ class CBTExamApp {
         let processedExplanation = this.processExplanationForDiagrams(cleanExplanation);
         
         // Fix MathJax delimiters in question text, options, and explanation for review section
-        const fixedCleanQuestion = cleanQuestion.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\\\]/g, '\\]');
-        const fixedProcessedExplanation = processedExplanation.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\\\]/g, '\\]');
+        const fixedCleanQuestion = cleanQuestion.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
+        const fixedProcessedExplanation = processedExplanation.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
         
         reviewContainer.innerHTML = `
             <div class="review-header">
