@@ -719,11 +719,13 @@ class CBTExamApp {
         this.updateNavigationButtons();
         
         // Add animation class for smooth transition
-        const questionContainer = document.querySelector('.question-body');
-        questionContainer.classList.add('question-transition');
-        setTimeout(() => {
-            questionContainer.classList.remove('question-transition');
-        }, 300);
+        const questionBody = document.querySelector('.question-body');
+        if (questionBody) {
+            questionBody.classList.add('question-transition');
+            setTimeout(() => {
+                questionBody.classList.remove('question-transition');
+            }, 300);
+        }
     }
 
     renderOptions(question) {
