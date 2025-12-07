@@ -127,86 +127,113 @@ class EnglishCBTExamApp {
         }
     }
 
-    // Reorganize English questions to follow the sequence: instructions, then passages with their questions
+    // Reorganize English questions to follow the sequence: passage -> questions, instruction -> questions
     reorganizeEnglishQuestions(subjectData) {
         let reorganizedQuestions = [];
         let currentId = 1;
 
-        // First, for each passage, add the passage as a content page followed by its related questions
-        if (subjectData.passages && subjectData.passages.length > 0) {
-            subjectData.passages.forEach(passage => {
-                // Add the passage as a content page
-                const passageContent = {
-                    id: currentId++,
-                    type: 'passage',
-                    title: passage.id,
-                    text: passage.text,
-                    question: `<div class="english-passage"><h4>${passage.id}</h4><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
-                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
-                    correctAnswer: "CONTINUE",
-                    explanation: "This is a passage. Please read carefully before answering the questions that follow."
-                };
-                reorganizedQuestions.push(passageContent);
-
-                // Add questions related to this passage
-                if (subjectData.questions) {
-                    const passageQuestions = subjectData.questions.filter(q => q.passageId === passage.id);
-                    passageQuestions.forEach(question => {
-                        // Update the question ID to the sequential ID
-                        const modifiedQuestion = {
-                            ...question,
-                            id: currentId++
-                        };
-                        reorganizedQuestions.push(modifiedQuestion);
-                    });
-                }
-            });
-        }
-
-        // Then, add all instructions as content pages followed by their related questions
-        if (subjectData.instructions && subjectData.instructions.length > 0) {
-            subjectData.instructions.forEach(instruction => {
-                // Add the instruction as a content page
-                const instructionContent = {
-                    id: currentId++,
-                    type: 'instruction',
-                    title: instruction.id,
-                    text: instruction.text,
-                    question: `<div class="english-instruction"><h4>${instruction.id}</h4><p>${instruction.text}</p></div>`,
-                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
-                    correctAnswer: "CONTINUE",
-                    explanation: "Please read the instructions carefully before attempting the questions that follow."
-                };
-                reorganizedQuestions.push(instructionContent);
-                
-                // Add questions related to this instruction
-                if (subjectData.questions) {
-                    const instructionQuestions = subjectData.questions.filter(q => 
-                        q.instructionId === instruction.id
-                    );
-                    
-                    instructionQuestions.forEach(question => {
-                        // Update the question ID to the sequential ID and preserve passageId if it exists
-                        const modifiedQuestion = {
-                            ...question,
-                            id: currentId++
-                        };
-                        reorganizedQuestions.push(modifiedQuestion);
-                    });
-                }
-            });
-        }
-
-        // Add any remaining questions that are not associated with passages or instructions
+        // Process questions in the order they appear in the original questions array
+        // For each question, check if it belongs to a passage or instruction and handle accordingly
         if (subjectData.questions) {
-            const allPassageIds = subjectData.passages ? subjectData.passages.map(p => p.id) : [];
-            const allInstructionIds = subjectData.instructions ? subjectData.instructions.map(i => i.id) : [];
-            const standaloneQuestions = subjectData.questions.filter(q => {
-                const hasPassageId = q.passageId && allPassageIds.includes(q.passageId);
-                const hasInstructionId = q.instructionId && allInstructionIds.includes(q.instructionId);
-                return !hasPassageId && !hasInstructionId;
+            // Create maps of passage and instruction questions to process them in the intended order
+            const passageQuestionMap = {};
+            const instructionQuestionMap = {};
+            const standaloneQuestions = [];
+
+            // Group questions by their associated passage or instruction
+            subjectData.questions.forEach(question => {
+                if (question.passageId) {
+                    if (!passageQuestionMap[question.passageId]) {
+                        passageQuestionMap[question.passageId] = [];
+                    }
+                    passageQuestionMap[question.passageId].push(question);
+                } else if (question.instructionId) {
+                    if (!instructionQuestionMap[question.instructionId]) {
+                        instructionQuestionMap[question.instructionId] = [];
+                    }
+                    instructionQuestionMap[question.instructionId].push(question);
+                } else {
+                    standaloneQuestions.push(question);
+                }
             });
-            
+
+            // Process passages in order (I, II, III, IV, etc.)
+            if (subjectData.passages && subjectData.passages.length > 0) {
+                // Sort passages to ensure correct order
+                const sortedPassages = [...subjectData.passages].sort((a, b) => {
+                    // Sort by Roman numerals: I, II, III, IV, etc.
+                    const romanToNum = { 'I': 1, 'II': 2, 'III': 3, 'IV': 4, 'V': 5, 'VI': 6, 'VII': 7, 'VIII': 8, 'IX': 9, 'X': 10 };
+                    const numA = romanToNum[a.id.replace('Passage ', '')];
+                    const numB = romanToNum[b.id.replace('Passage ', '')];
+                    return (numA || 0) - (numB || 0);
+                });
+
+                sortedPassages.forEach(passage => {
+                    if (passageQuestionMap[passage.id] && passageQuestionMap[passage.id].length > 0) {
+                        // Add the passage as a content page
+                        const passageContent = {
+                            id: currentId++,
+                            type: 'passage',
+                            title: passage.id,
+                            text: passage.text,
+                            question: `<div class="english-passage"><h4>${passage.id}</h4><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
+                            options: [{ id: "CONTINUE", text: "Continue to questions" }],
+                            correctAnswer: "CONTINUE",
+                            explanation: "This is a passage. Please read carefully before answering the questions that follow."
+                        };
+                        reorganizedQuestions.push(passageContent);
+
+                        // Add questions related to this passage
+                        passageQuestionMap[passage.id].forEach(question => {
+                            // Update the question ID to the sequential ID
+                            const modifiedQuestion = {
+                                ...question,
+                                id: currentId++
+                            };
+                            reorganizedQuestions.push(modifiedQuestion);
+                        });
+                    }
+                });
+            }
+
+            // Process instructions in order (1, 2, 3, etc.)
+            if (subjectData.instructions && subjectData.instructions.length > 0) {
+                // Sort instructions to ensure correct order
+                const sortedInstructions = [...subjectData.instructions].sort((a, b) => {
+                    const numA = parseInt(a.id.replace('Instruction ', ''));
+                    const numB = parseInt(b.id.replace('Instruction ', ''));
+                    return numA - numB;
+                });
+
+                sortedInstructions.forEach(instruction => {
+                    if (instructionQuestionMap[instruction.id] && instructionQuestionMap[instruction.id].length > 0) {
+                        // Add the instruction as a content page
+                        const instructionContent = {
+                            id: currentId++,
+                            type: 'instruction',
+                            title: instruction.id,
+                            text: instruction.text,
+                            question: `<div class="english-instruction"><h4>${instruction.id}</h4><p>${instruction.text}</p></div>`,
+                            options: [{ id: "CONTINUE", text: "Continue to questions" }],
+                            correctAnswer: "CONTINUE",
+                            explanation: "Please read the instructions carefully before attempting the questions that follow."
+                        };
+                        reorganizedQuestions.push(instructionContent);
+                        
+                        // Add questions related to this instruction
+                        instructionQuestionMap[instruction.id].forEach(question => {
+                            // Update the question ID to the sequential ID and preserve passageId if it exists
+                            const modifiedQuestion = {
+                                ...question,
+                                id: currentId++
+                            };
+                            reorganizedQuestions.push(modifiedQuestion);
+                        });
+                    }
+                });
+            }
+
+            // Add any remaining standalone questions
             standaloneQuestions.forEach(question => {
                 const modifiedQuestion = {
                     ...question,
