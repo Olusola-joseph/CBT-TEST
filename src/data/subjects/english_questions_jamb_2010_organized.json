@@ -2,7 +2,7 @@
   "passages": [
     {
       "id": "Passage I",
-      "text": "One of the interesting things to me about spaceship is that it is a mechanical vehicle, just as an automobile. If you own a car, you realize that you must put oil and gas into it, and you must put water in the radiator and take care of the care as a whole.\n\nYou begin to develop quite a little thermodynamic sense. You know that you are either going to have to keep the machine in a good order or it is going to be in trouble and fail to function.\n\nWe have not been seeing our Spaceship Earth as an integrally designed machine which to be persistently successful, must be comprehended and serviced in total.\n\nNow there is one outstanding important fact regarding Spaceship Earth, and this is that no instruction book came with it. I think it is very significant that there is no instruction book, for successfully operating of our ship, in view of the infinite attention to all other details displayed by our ship.\n\nIt must be taken as deliberate and purposeful that an instruction book was omitted. Lack of instruction has forces us to find out that there are two kinds of mangoes \u2013 unripe mangoes that will kill us and ripped mangoes which will nourish us.\n\nAnd we had to find out ways of telling which-was-which mangoes before we ate it or otherwise we would die. So we were forced, because of this to devise scientific experimental procedures and to interpret effectively the significance of the experimental findings. Thus, because the instruction manual was missing, we are learning how we can safely survive on the planet.\n\nQuite clearly, all living being are utterly helpless at the moment of birth. The human child stays helpless longer than the young of any species.\n\nApparently, it is part of 'invention' that man is meant to be utterly helpless through certain anthropological phases. When he begins to be able to get on a little better, he is meant to discover some of the physical principles inherent in the universe as well as the many recourses around him which will further multiply his knowledge.\n\nDesigned into this Spaceship Earth's total wealth was a big safety factor. This allowed man to be very ignorant for a long time until he had amassed enough experiences from which to extract progressively the system of generalized principles governing increase of energy. The design omission of the instruction book forced man to discover retrospectively just what his most important capabilities are. He learned to generalize fundamental principles of universe."
+      "text": "One of the interesting things to me about spaceship is that it is a mechanical vehicle, just as an automobile. If you own a car, you realize that you must put oil and gas into it, and you must put water in the radiator and take care of the care as a whole.\n\nYou begin to develop quite a little thermodynamic sense. You know that you are either going to have to keep the machine in a good order or it is going to be in trouble and fail to function.\n\nWe have not been seeing our Spaceship Earth as an integrally designed machine which to be persistently successful, must be comprehended and serviced in total.\n\nNow there is one outstanding important fact regarding Spaceship Earth, and this is that no instruction book came with it. I think it is very significant that there is no instruction book, for successfully operating of our ship, in view of the infinite attention to all other details displayed by our ship.\n\nIt must be taken as deliberate and purposeful that an instruction book was omitted. Lack of instruction has forces us to find out that there are two kinds of mangoes – unripe mangoes that will kill us and ripped mangoes which will nourish us.\n\nAnd we had to find out ways of telling which-was-which mangoes before we ate it or otherwise we would die. So we were forced, because of this to devise scientific experimental procedures and to interpret effectively the significance of the experimental findings. Thus, because the instruction manual was missing, we are learning how we can safely survive on the planet.\n\nQuite clearly, all living being are utterly helpless at the moment of birth. The human child stays helpless longer than the young of any species.\n\nApparently, it is part of 'invention' that man is meant to be utterly helpless through certain anthropological phases. When he begins to be able to get on a little better, he is meant to discover some of the physical principles inherent in the universe as well as the many recourses around him which will further multiply his knowledge.\n\nDesigned into this Spaceship Earth's total wealth was a big safety factor. This allowed man to be very ignorant for a long time until he had amassed enough experiences from which to extract progressively the system of generalized principles governing increase of energy. The design omission of the instruction book forced man to discover retrospectively just what his most important capabilities are. He learned to generalize fundamental principles of universe."
     },
     {
       "id": "Passage II",
@@ -14,7 +14,7 @@
     },
     {
       "id": "Passage IV",
-      "text": "Drought is a word that invokes strong emotions. This is not surprising as the ... 16 ... [A. ideology B. phenomenon C. idea D. component] is usually accompanied by a number of unpleasant developments. These developments have ... 17 ... [A. feedback B. Results C. Implications D. outcomes] for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crises situations which, if not successfully ...18... [A. managed B. examined C. studied] could result in social unrest.\n\nThe timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become ...19... [A. objects B. subjects C. issues D. topics] of considerable anxiety to all people.\n\nThe fact, however, is that periodic reduction in normal ...20... [A. amount B. supply C. size D. flood] of rainfall in the country is not new.\n\nSince large areas of the country are drought prone, the consequences are ...21... [A. effective B. disastrous C. evident D. inevitable]. Dry spells can be very severe. There are two aspects of coping with drought.\n\nOne has to do with emergency measures and the other with ...22... [A. routine B. organized C. urgent D. delayed] measures. An immediate consequence of any drought would be famine.\n\nIn addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and ...23... [A. longitudinal B. objective C. simultaneous D. parallel] consequences such as distress, sales of cattle by livestock owners in order to buy food.\n\nGovernment should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief ...24... [A. action B. process C. scheme D. plan].\n\nEmergency measures will be much more ...25... [A. normal B. correct C. idealistic D. effective] if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought."
+      "text": "Drought is a word that invokes strong emotions. This is not surprising as the ... 16 ... is usually accompanied by a number of unpleasant developments. These developments have ... 17 ... for all citizens, starting from the peasant farmers to the state and federal governments which may be plunged into emergency and crises situations which, if not successfully ...18... could result in social unrest.\n\nThe timeliness of the onset of the rains in various regions of the country and their adequate distribution thereafter have become ...19... of considerable anxiety to all people.\n\nThe fact, however, is that periodic reduction in normal ...20... of rainfall in the country is not new.\n\nSince large areas of the country are drought prone, the consequences are ...21.... Dry spells can be very severe. There are two aspects of coping with drought.\n\nOne has to do with emergency measures and the other with ...22... measures. An immediate consequence of any drought would be famine.\n\nIn addition, where whole populations are forced to abandon their lands or pastures in search of food, there are bound to be other lasting and ...23... consequences such as distress, sales of cattle by livestock owners in order to buy food.\n\nGovernment should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief ...24....\n\nEmergency measures will be much more ...25... if a mechanism is established to ensure adequate preparedness and defence against the occurrence of drought."
     }
   ],
   "instructions": [
@@ -61,22 +61,10 @@
       "passageId": "Passage I",
       "question": "Which Use of English Paper Type is given to you?",
       "options": [
-        {
-          "id": "A",
-          "text": "Type A"
-        },
-        {
-          "id": "B",
-          "text": "Type B"
-        },
-        {
-          "id": "C",
-          "text": "Type C"
-        },
-        {
-          "id": "D",
-          "text": "Type D"
-        }
+        { "id": "A", "text": "Type A" },
+        { "id": "B", "text": "Type B" },
+        { "id": "C", "text": "Type C" },
+        { "id": "D", "text": "Type D" }
       ],
       "correctAnswer": "None",
       "explanation": "This is a standard administrative instruction found at the beginning of JAMB Use of English papers. It is not a content-based question derived from the passage but rather a directive for the candidate to confirm they are using the correct paper type (A, B, C, or D). As such, it does not have a correct answer based on the passage content, and the correct response depends on the physical paper the student received."
@@ -86,22 +74,10 @@
       "passageId": "Passage I",
       "question": "According to the writer, the exciting thing about Spaceship Earth is that",
       "options": [
-        {
-          "id": "A",
-          "text": "has no instruction manual"
-        },
-        {
-          "id": "B",
-          "text": "it is not difficult to maintain"
-        },
-        {
-          "id": "C",
-          "text": "is peculiar to other automobiles"
-        },
-        {
-          "id": "D",
-          "text": "is relatively easy to operate"
-        }
+        { "id": "A", "text": "has no instruction manual" },
+        { "id": "B", "text": "it is not difficult to maintain" },
+        { "id": "C", "text": "is peculiar to other automobiles" },
+        { "id": "D", "text": "is relatively easy to operate" }
       ],
       "correctAnswer": "A",
       "explanation": "The passage states: \"One of the interesting things to me about spaceship is that it is a mechanical vehicle, just as an automobile.\" It then immediately follows with: \"Now there is one outstanding important fact regarding Spaceship Earth, and this is that no instruction book came with it.\" This is presented as the key, exciting, and significant fact. Therefore, the correct answer is A."
@@ -111,22 +87,10 @@
       "passageId": "Passage I",
       "question": "The absence of instruction manual in Spaceship Earth has",
       "options": [
-        {
-          "id": "A",
-          "text": "made the operation of the Spaceship Earth difficult"
-        },
-        {
-          "id": "B",
-          "text": "forced man to devise other means of travelling in spacecraft"
-        },
-        {
-          "id": "C",
-          "text": "challenged man's inquisitiveness"
-        },
-        {
-          "id": "D",
-          "text": "made man helpless"
-        }
+        { "id": "A", "text": "made the operation of the Spaceship Earth difficult" },
+        { "id": "B", "text": "forced man to devise other means of travelling in spacecraft" },
+        { "id": "C", "text": "challenged man's inquisitiveness" },
+        { "id": "D", "text": "made man helpless" }
       ],
       "correctAnswer": "C",
       "explanation": "The passage explains that the lack of an instruction manual was \"deliberate and purposeful\" and that it \"has forces us to find out\" things, leading humans to \"devise scientific experimental procedures\" and \"discover retrospectively just what his most important capabilities are.\" This indicates that the absence challenged and stimulated man's curiosity and inquisitiveness, making C the best answer."
@@ -136,22 +100,10 @@
       "passageId": "Passage I",
       "question": "From the passage, it can be deduced that man",
       "options": [
-        {
-          "id": "A",
-          "text": "learns by experiment and education"
-        },
-        {
-          "id": "B",
-          "text": "learns by chance and accidentally"
-        },
-        {
-          "id": "C",
-          "text": "is incapable of solving all his problems"
-        },
-        {
-          "id": "D",
-          "text": "by his nature is in constant search of knowledge"
-        }
+        { "id": "A", "text": "learns by experiment and education" },
+        { "id": "B", "text": "learns by chance and accidentally" },
+        { "id": "C", "text": "is incapable of solving all his problems" },
+        { "id": "D", "text": "by his nature is in constant search of knowledge" }
       ],
       "correctAnswer": "D",
       "explanation": "The passage describes how the absence of an instruction manual forced humans to \"devise scientific experimental procedures\" and to \"learn to generalize fundamental principles of universe.\" It also mentions that man is meant to \"discover some of the physical principles inherent in the universe.\" This points to a natural, driven inclination to seek and acquire knowledge, making D the most accurate deduction."
@@ -161,22 +113,10 @@
       "passageId": "Passage I",
       "question": "The writer's mood in the passage is that of",
       "options": [
-        {
-          "id": "A",
-          "text": "non-committal"
-        },
-        {
-          "id": "B",
-          "text": "pessimism"
-        },
-        {
-          "id": "C",
-          "text": "optimism"
-        },
-        {
-          "id": "D",
-          "text": "frustration"
-        }
+        { "id": "A", "text": "non-committal" },
+        { "id": "B", "text": "pessimism" },
+        { "id": "C", "text": "optimism" },
+        { "id": "D", "text": "frustration" }
       ],
       "correctAnswer": "C",
       "explanation": "The writer presents the lack of an instruction manual not as a flaw, but as a \"deliberate and purposeful\" design that ultimately led to human progress. Phrases like \"we are learning how we can safely survive,\" \"he is meant to discover,\" and \"He learned to generalize fundamental principles\" convey a positive, hopeful, and optimistic view of humanity's ability to adapt and grow. Therefore, the mood is optimism."
@@ -186,22 +126,10 @@
       "passageId": "Passage II",
       "question": "The expression, ... stress is an issue everybody can relate to experimentally, means that",
       "options": [
-        {
-          "id": "A",
-          "text": "it is better understood when experienced"
-        },
-        {
-          "id": "B",
-          "text": "its problem can be solved by everybody"
-        },
-        {
-          "id": "C",
-          "text": "everybody avoids it"
-        },
-        {
-          "id": "D",
-          "text": "everybody encounters it."
-        }
+        { "id": "A", "text": "it is better understood when experienced" },
+        { "id": "B", "text": "its problem can be solved by everybody" },
+        { "id": "C", "text": "everybody avoids it" },
+        { "id": "D", "text": "everybody encounters it." }
       ],
       "correctAnswer": "A",
       "explanation": "The phrase \"relate to experimentally\" suggests that people understand stress through their own personal, lived experience (experiment). The passage reinforces this by stating that stress is the \"most common cause of ill health\" and that \"every doctor shares\" the problem with patients, implying it is a universal, experiential phenomenon. Therefore, it is better understood through direct experience, making A the correct answer."
@@ -211,22 +139,10 @@
       "passageId": "Passage II",
       "question": "Which of the following is true according to the passage?",
       "options": [
-        {
-          "id": "A",
-          "text": "Stress is mostly caused by internal factors"
-        },
-        {
-          "id": "B",
-          "text": "Stress can only be avoided during relaxation"
-        },
-        {
-          "id": "C",
-          "text": "Stress is better handled by the individual"
-        },
-        {
-          "id": "D",
-          "text": "The issues of stress can be solved with no effort"
-        }
+        { "id": "A", "text": "Stress is mostly caused by internal factors" },
+        { "id": "B", "text": "Stress can only be avoided during relaxation" },
+        { "id": "C", "text": "Stress is better handled by the individual" },
+        { "id": "D", "text": "The issues of stress can be solved with no effort" }
       ],
       "correctAnswer": "A",
       "explanation": "The passage explicitly states: \"However, most of the stress people experience is self-generated.\" This directly supports option A, indicating that internal factors are the primary source of stress. While the passage discusses handling stress individually, it emphasizes effort and change, ruling out D. It does not claim stress can *only* be avoided during relaxation, ruling out B. Option C is partially true but less directly supported than A."
@@ -236,47 +152,23 @@
       "passageId": "Passage II",
       "question": "According to the passage, the major step in controlling stress is",
       "options": [
-        {
-          "id": "A",
-          "text": "changing one's attitude to stressors"
-        },
-        {
-          "id": "B",
-          "text": "understanding the history of disease"
-        },
-        {
-          "id": "C",
-          "text": "visiting family doctors for check-up and treatment"
-        },
-        {
-          "id": "D",
-          "text": "constant exercise to dissipate every energy"
-        }
+        { "id": "A", "text": "changing one's attitude to stressors" },
+        { "id": "B", "text": "understanding the history of disease" },
+        { "id": "C", "text": "visiting family doctors for check-up and treatment" },
+        { "id": "D", "text": "constant exercise to dissipate every energy" }
       ],
       "correctAnswer": "A",
-      "explanation": "The passage states, \"To master stress-change, you have to figure out what you are doing that is contributing to your problem, and change it.\" It further clarifies that these changes fall into behavior, thinking, and lifestyle choices \u2014 all of which relate to one's attitude and response to stressors. While exercise is mentioned as a way to dissipate energy, it is presented as a method, not the *major step*, which is identifying and changing one's own contribution to the problem. Therefore, A is the best answer."
+      "explanation": "The passage states, \"To master stress-change, you have to figure out what you are doing that is contributing to your problem, and change it.\" It further clarifies that these changes fall into behavior, thinking, and lifestyle choices — all of which relate to one's attitude and response to stressors. While exercise is mentioned as a way to dissipate energy, it is presented as a method, not the *major step*, which is identifying and changing one's own contribution to the problem. Therefore, A is the best answer."
     },
     {
       "id": 9,
       "passageId": "Passage II",
       "question": "The experts feel one can control one's stress because",
       "options": [
-        {
-          "id": "A",
-          "text": "its causes are understandable"
-        },
-        {
-          "id": "B",
-          "text": "it is not difficult to control"
-        },
-        {
-          "id": "C",
-          "text": "external factors contribute less stress"
-        },
-        {
-          "id": "D",
-          "text": "it is individually initiated"
-        }
+        { "id": "A", "text": "its causes are understandable" },
+        { "id": "B", "text": "it is not difficult to control" },
+        { "id": "C", "text": "external factors contribute less stress" },
+        { "id": "D", "text": "it is individually initiated" }
       ],
       "correctAnswer": "D",
       "explanation": "The passage states, \"Experts tell us that we create the majority of our upset indicating that because we cause most of our own stress, we can do something about it.\" This directly implies that since stress is largely self-generated (individually initiated), it is therefore within one's power to control it. This makes D the most accurate answer."
@@ -286,22 +178,10 @@
       "passageId": "Passage II",
       "question": "From the passage, it can be deduced that stress is",
       "options": [
-        {
-          "id": "A",
-          "text": "hormonal disorder in the body system"
-        },
-        {
-          "id": "B",
-          "text": "individually induced problems"
-        },
-        {
-          "id": "C",
-          "text": "bodily reaction to internal factors"
-        },
-        {
-          "id": "D",
-          "text": "bodily reaction to external factors"
-        }
+        { "id": "A", "text": "hormonal disorder in the body system" },
+        { "id": "B", "text": "individually induced problems" },
+        { "id": "C", "text": "bodily reaction to internal factors" },
+        { "id": "D", "text": "bodily reaction to external factors" }
       ],
       "correctAnswer": "D",
       "explanation": "The passage defines stress as \"the body reaction to factors such as these\" (referring to external triggers like work pressure, a demanding boss, etc.). It further describes it as \"the fight-or-flight response in the body, mediated be adrenaline and other stress hormones,\" which is a physiological reaction triggered by external stimuli. While it acknowledges self-generated stress, the core definition provided is a bodily reaction to external factors, making D the best answer based on the passage's explicit description."
@@ -311,22 +191,10 @@
       "passageId": "Passage III",
       "question": "According to the writer, corruption is triggered off by",
       "options": [
-        {
-          "id": "A",
-          "text": "unnecessary affluence"
-        },
-        {
-          "id": "B",
-          "text": "selfish interest"
-        },
-        {
-          "id": "C",
-          "text": "private officials"
-        },
-        {
-          "id": "D",
-          "text": "public officers"
-        }
+        { "id": "A", "text": "unnecessary affluence" },
+        { "id": "B", "text": "selfish interest" },
+        { "id": "C", "text": "private officials" },
+        { "id": "D", "text": "public officers" }
       ],
       "correctAnswer": "B",
       "explanation": "The passage defines corruption as occurring when a public official expects to be induced to perform an act they are ordinarily required to do by law. This inducement implies a personal gain or selfish interest on the part of the official. The entire passage discusses the negative consequences of this self-interest, such as misappropriation of funds and abuse of power. Therefore, selfish interest is the trigger."
@@ -336,22 +204,10 @@
       "passageId": "Passage III",
       "question": "From the passage, one of the consequences of corruption is that",
       "options": [
-        {
-          "id": "A",
-          "text": "large projects are executed"
-        },
-        {
-          "id": "B",
-          "text": "it is beneficial to wealth people whole stole public wealth"
-        },
-        {
-          "id": "C",
-          "text": "it impedes the progress of a nation"
-        },
-        {
-          "id": "D",
-          "text": "people get what they want with so much money to spend"
-        }
+        { "id": "A", "text": "large projects are executed" },
+        { "id": "B", "text": "it is beneficial to wealth people whole stole public wealth" },
+        { "id": "C", "text": "it impedes the progress of a nation" },
+        { "id": "D", "text": "people get what they want with so much money to spend" }
       ],
       "correctAnswer": "C",
       "explanation": "The passage states, \"Corruption can slow down development\" and that it \"impoverishes countries and deprives their citizens of good governance.\" It also mentions that it \"destabilizes economic systems\" and erodes public functions. All these points indicate that corruption hinders national progress, making C the correct answer."
@@ -361,22 +217,10 @@
       "passageId": "Passage III",
       "question": "Who, according to the writer should prevent corruption?",
       "options": [
-        {
-          "id": "A",
-          "text": "Lawyers and Police"
-        },
-        {
-          "id": "B",
-          "text": "Corrupt public officers"
-        },
-        {
-          "id": "C",
-          "text": "The government"
-        },
-        {
-          "id": "D",
-          "text": "The people"
-        }
+        { "id": "A", "text": "Lawyers and Police" },
+        { "id": "B", "text": "Corrupt public officers" },
+        { "id": "C", "text": "The government" },
+        { "id": "D", "text": "The people" }
       ],
       "correctAnswer": "D",
       "explanation": "The passage concludes by stating that fighting corruption requires \"broad-based preventive measures, and the involvement of the society at large.\" It also mentions that \"redesigning political and regulatory structures\" is needed, which implies collective societal action. The final sentence of the passage implies that the solution lies with the people, making D the most comprehensive and correct answer."
@@ -386,22 +230,10 @@
       "passageId": "Passage III",
       "question": "Which of the following is an indication of ethical standard of governance?",
       "options": [
-        {
-          "id": "A",
-          "text": "Fundamental human right"
-        },
-        {
-          "id": "B",
-          "text": "Socio-economic instability"
-        },
-        {
-          "id": "C",
-          "text": "Democratic governance"
-        },
-        {
-          "id": "D",
-          "text": "Bloated expenditure"
-        }
+        { "id": "A", "text": "Fundamental human right" },
+        { "id": "B", "text": "Socio-economic instability" },
+        { "id": "C", "text": "Democratic governance" },
+        { "id": "D", "text": "Bloated expenditure" }
       ],
       "correctAnswer": "A",
       "explanation": "The passage links raising the \"ethical standard of governance\" to benefits for the \"economic, political and social development of a country.\" Fundamental human rights are a cornerstone of ethical governance and are intrinsically linked to social development. The other options (instability, bloated expenditure) are negative outcomes associated with *poor* governance, not indicators of ethical standards. Democratic governance is a system, but the passage specifically ties ethics to development and rights."
@@ -411,22 +243,10 @@
       "passageId": "Passage III",
       "question": "The essence of fighting corruption, according to the passage, is to",
       "options": [
-        {
-          "id": "A",
-          "text": "send the corrupt to yell"
-        },
-        {
-          "id": "B",
-          "text": "promote good governance"
-        },
-        {
-          "id": "C",
-          "text": "punish corrupt politicians"
-        },
-        {
-          "id": "D",
-          "text": "make people richer"
-        }
+        { "id": "A", "text": "send the corrupt to yell" },
+        { "id": "B", "text": "promote good governance" },
+        { "id": "C", "text": "punish corrupt politicians" },
+        { "id": "D", "text": "make people richer" }
       ],
       "correctAnswer": "B",
       "explanation": "The passage states, \"Fighting corruption and promoting governance is therefore crucial to developing an environment that facilitates the social, political and economic development of the people.\" The ultimate goal is not just punishment but the promotion of good governance, which enables development. This makes B the correct answer."
@@ -436,22 +256,10 @@
       "passageId": "Passage IV",
       "question": "Drought is a word that invokes strong emotions. This is not surprising as the ... 16 ... is usually accompanied by a number of unpleasant developments.",
       "options": [
-        {
-          "id": "A",
-          "text": "ideology"
-        },
-        {
-          "id": "B",
-          "text": "phenomenon"
-        },
-        {
-          "id": "C",
-          "text": "idea"
-        },
-        {
-          "id": "D",
-          "text": "component"
-        }
+        { "id": "A", "text": "ideology" },
+        { "id": "B", "text": "phenomenon" },
+        { "id": "C", "text": "idea" },
+        { "id": "D", "text": "component" }
       ],
       "correctAnswer": "B",
       "explanation": "The blank refers to \"drought\" itself. Drought is a natural event or occurrence, which is best described as a \"phenomenon.\" An ideology is a system of beliefs, an idea is a thought, and a component is a part of a whole. None of these fit as well as \"phenomenon,\" which accurately describes a natural event like drought."
@@ -461,22 +269,10 @@
       "passageId": "Passage IV",
       "question": "These developments have ... 17 ... for all citizens, starting from the peasant farmers to the state and federal governments...",
       "options": [
-        {
-          "id": "A",
-          "text": "feedback"
-        },
-        {
-          "id": "B",
-          "text": "Results"
-        },
-        {
-          "id": "C",
-          "text": "Implications"
-        },
-        {
-          "id": "D",
-          "text": "outcomes"
-        }
+        { "id": "A", "text": "feedback" },
+        { "id": "B", "text": "Results" },
+        { "id": "C", "text": "Implications" },
+        { "id": "D", "text": "outcomes" }
       ],
       "correctAnswer": "C",
       "explanation": "The sentence discusses the effects or consequences of drought-related developments on citizens and governments. \"Implications\" refers to the potential consequences or effects of an action or event, which fits perfectly here. While \"results\" and \"outcomes\" are close, \"implications\" is more appropriate for describing the wide-ranging, often complex, consequences for different groups in society."
@@ -486,22 +282,10 @@
       "passageId": "Passage IV",
       "question": "...which, if not successfully ...18... could result in social unrest.",
       "options": [
-        {
-          "id": "A",
-          "text": "managed"
-        },
-        {
-          "id": "B",
-          "text": "examined"
-        },
-        {
-          "id": "C",
-          "text": "studied"
-        },
-        {
-          "id": "D",
-          "text": "controlled"
-        }
+        { "id": "A", "text": "managed" },
+        { "id": "B", "text": "examined" },
+        { "id": "C", "text": "studied" },
+        { "id": "D", "text": "controlled" }
       ],
       "correctAnswer": "A",
       "explanation": "The context is about dealing with \"emergency and crises situations.\" The verb that best fits managing or handling such situations to prevent negative outcomes like social unrest is \"managed.\" While \"controlled\" is plausible, \"managed\" is the standard term used in crisis management contexts."
@@ -511,22 +295,10 @@
       "passageId": "Passage IV",
       "question": "The timeliness of the onset of the rains... have become ...19... of considerable anxiety to all people.",
       "options": [
-        {
-          "id": "A",
-          "text": "objects"
-        },
-        {
-          "id": "B",
-          "text": "subjects"
-        },
-        {
-          "id": "C",
-          "text": "issues"
-        },
-        {
-          "id": "D",
-          "text": "topics"
-        }
+        { "id": "A", "text": "objects" },
+        { "id": "B", "text": "subjects" },
+        { "id": "C", "text": "issues" },
+        { "id": "D", "text": "topics" }
       ],
       "correctAnswer": "C",
       "explanation": "The sentence refers to matters of concern or problems that cause anxiety. \"Issues\" is the most appropriate word for topics of public concern or debate, especially those causing anxiety. \"Subjects\" and \"topics\" are too general, and \"objects\" is incorrect in this context."
@@ -536,22 +308,10 @@
       "passageId": "Passage IV",
       "question": "The fact, however, is that periodic reduction in normal ...20... of rainfall in the country is not new.",
       "options": [
-        {
-          "id": "A",
-          "text": "amount"
-        },
-        {
-          "id": "B",
-          "text": "supply"
-        },
-        {
-          "id": "C",
-          "text": "size"
-        },
-        {
-          "id": "D",
-          "text": "flood"
-        }
+        { "id": "A", "text": "amount" },
+        { "id": "B", "text": "supply" },
+        { "id": "C", "text": "size" },
+        { "id": "D", "text": "flood" }
       ],
       "correctAnswer": "A",
       "explanation": "The phrase \"reduction in normal ... of rainfall\" refers to the quantity or volume of rain. \"Amount\" is the correct word to describe the quantity of rainfall. \"Supply\" is more often used for resources, \"size\" is inappropriate for measuring rainfall, and \"flood\" is a specific event, not a measure of quantity."
@@ -561,22 +321,10 @@
       "passageId": "Passage IV",
       "question": "Since large areas of the country are drought prone, the consequences are ...21....",
       "options": [
-        {
-          "id": "A",
-          "text": "effective"
-        },
-        {
-          "id": "B",
-          "text": "disastrous"
-        },
-        {
-          "id": "C",
-          "text": "evident"
-        },
-        {
-          "id": "D",
-          "text": "inevitable"
-        }
+        { "id": "A", "text": "effective" },
+        { "id": "B", "text": "disastrous" },
+        { "id": "C", "text": "evident" },
+        { "id": "D", "text": "inevitable" }
       ],
       "correctAnswer": "D",
       "explanation": "The passage states that large areas are \"drought prone,\" meaning they are susceptible to drought. The consequences of this susceptibility are presented as a natural, unavoidable outcome. \"Inevitable\" means unavoidable or certain to happen, which fits the context. \"Disastrous\" describes the nature of the consequence, but \"inevitable\" describes its certainty given the condition of being drought-prone."
@@ -586,22 +334,10 @@
       "passageId": "Passage IV",
       "question": "One has to do with emergency measures and the other with ...22... measures.",
       "options": [
-        {
-          "id": "A",
-          "text": "routine"
-        },
-        {
-          "id": "B",
-          "text": "organized"
-        },
-        {
-          "id": "C",
-          "text": "urgent"
-        },
-        {
-          "id": "D",
-          "text": "delayed"
-        }
+        { "id": "A", "text": "routine" },
+        { "id": "B", "text": "organized" },
+        { "id": "C", "text": "urgent" },
+        { "id": "D", "text": "delayed" }
       ],
       "correctAnswer": "A",
       "explanation": "The passage contrasts \"emergency measures\" (immediate, short-term actions) with another type of measure. The logical contrast is with \"routine\" or long-term, planned measures. \"Routine\" measures are those that are regularly implemented as part of a standard plan, which fits the context of coping with drought over time. \"Urgent\" is synonymous with emergency, and \"delayed\" is illogical in this context."
@@ -611,22 +347,10 @@
       "passageId": "Passage IV",
       "question": "In addition, where whole populations are forced to abandon their lands... there are bound to be other lasting and ...23... consequences...",
       "options": [
-        {
-          "id": "A",
-          "text": "longitudinal"
-        },
-        {
-          "id": "B",
-          "text": "objective"
-        },
-        {
-          "id": "C",
-          "text": "simultaneous"
-        },
-        {
-          "id": "D",
-          "text": "parallel"
-        }
+        { "id": "A", "text": "longitudinal" },
+        { "id": "B", "text": "objective" },
+        { "id": "C", "text": "simultaneous" },
+        { "id": "D", "text": "parallel" }
       ],
       "correctAnswer": "D",
       "explanation": "The sentence describes consequences that occur alongside the primary consequence (abandoning land), such as distress and selling cattle. \"Parallel\" consequences are those that happen at the same time or alongside the main event. \"Simultaneous\" is close but implies happening at the exact same instant, while \"parallel\" better captures the idea of concurrent, related outcomes. \"Longitudinal\" refers to length or duration, and \"objective\" refers to being unbiased."
@@ -636,22 +360,10 @@
       "passageId": "Passage IV",
       "question": "Government should provide farmers with agricultural inputs and ensure that they have easy access to these inputs under the relief ...24....",
       "options": [
-        {
-          "id": "A",
-          "text": "action"
-        },
-        {
-          "id": "B",
-          "text": "process"
-        },
-        {
-          "id": "C",
-          "text": "scheme"
-        },
-        {
-          "id": "D",
-          "text": "plan"
-        }
+        { "id": "A", "text": "action" },
+        { "id": "B", "text": "process" },
+        { "id": "C", "text": "scheme" },
+        { "id": "D", "text": "plan" }
       ],
       "correctAnswer": "C",
       "explanation": "In the context of government aid, a \"relief scheme\" is a specific program or initiative designed to provide assistance. While \"plan\" is possible, \"scheme\" is the more precise term used for structured government programs, especially in British English, which is the standard for JAMB. \"Action\" and \"process\" are too vague."
@@ -661,22 +373,10 @@
       "passageId": "Passage IV",
       "question": "Emergency measures will be much more ...25... if a mechanism is established to ensure adequate preparedness...",
       "options": [
-        {
-          "id": "A",
-          "text": "normal"
-        },
-        {
-          "id": "B",
-          "text": "correct"
-        },
-        {
-          "id": "C",
-          "text": "idealistic"
-        },
-        {
-          "id": "D",
-          "text": "effective"
-        }
+        { "id": "A", "text": "normal" },
+        { "id": "B", "text": "correct" },
+        { "id": "C", "text": "idealistic" },
+        { "id": "D", "text": "effective" }
       ],
       "correctAnswer": "D",
       "explanation": "The sentence is discussing the success or efficiency of emergency measures. The word \"effective\" means producing the intended result, which is exactly what is being described: measures that work well because of preparedness. \"Normal\" and \"correct\" are not relevant to efficacy, and \"idealistic\" implies impracticality, which contradicts the point."
@@ -686,22 +386,10 @@
       "instructionId": "Instruction 1",
       "question": "Though Mr. Iro is a new chairman, he views other members with jaundiced eye.",
       "options": [
-        {
-          "id": "A",
-          "text": "He takes a rather forceful position on dealing with his members"
-        },
-        {
-          "id": "B",
-          "text": "He takes an unfavourable position concerning his members"
-        },
-        {
-          "id": "C",
-          "text": "He takes a sickly view of his members"
-        },
-        {
-          "id": "D",
-          "text": "He takes a rather hazy view of his members"
-        }
+        { "id": "A", "text": "He takes a rather forceful position on dealing with his members" },
+        { "id": "B", "text": "He takes an unfavourable position concerning his members" },
+        { "id": "C", "text": "He takes a sickly view of his members" },
+        { "id": "D", "text": "He takes a rather hazy view of his members" }
       ],
       "correctAnswer": "B",
       "explanation": "The phrase \"views other members with a jaundiced eye\" is an idiom meaning to look at something with suspicion, bitterness, or prejudice. It implies an unfavourable or negative attitude. Therefore, option B, which states he takes an unfavourable position, is the correct interpretation."
@@ -711,22 +399,10 @@
       "instructionId": "Instruction 1",
       "question": "People are not interested in who rules.",
       "options": [
-        {
-          "id": "A",
-          "text": "People are not ruled by the leaders they want"
-        },
-        {
-          "id": "B",
-          "text": "People are not concerned about who rules them"
-        },
-        {
-          "id": "C",
-          "text": "The rulers are not concerned about the people"
-        },
-        {
-          "id": "D",
-          "text": "People who rule are not interested in the ruled"
-        }
+        { "id": "A", "text": "People are not ruled by the leaders they want" },
+        { "id": "B", "text": "People are not concerned about who rules them" },
+        { "id": "C", "text": "The rulers are not concerned about the people" },
+        { "id": "D", "text": "People who rule are not interested in the ruled" }
       ],
       "correctAnswer": "B",
       "explanation": "The sentence \"People are not interested in who rules\" is a straightforward statement about the apathy or lack of concern of the populace regarding their leadership. Option B directly paraphrases this meaning. The other options introduce concepts not present in the original sentence, such as the rulers' concerns or the mismatch between desired and actual leaders."
@@ -736,22 +412,10 @@
       "instructionId": "Instruction 1",
       "question": "It was good to steer a middle course in whatever one does.",
       "options": [
-        {
-          "id": "A",
-          "text": "It is always good to get midway in anything one does"
-        },
-        {
-          "id": "B",
-          "text": "It is always good to act with moderation"
-        },
-        {
-          "id": "C",
-          "text": "It is always good to move away from the forefront"
-        },
-        {
-          "id": "D",
-          "text": "It is always good to work very hard."
-        }
+        { "id": "A", "text": "It is always good to get midway in anything one does" },
+        { "id": "B", "text": "It is always good to act with moderation" },
+        { "id": "C", "text": "It is always good to move away from the forefront" },
+        { "id": "D", "text": "It is always good to work very hard." }
       ],
       "correctAnswer": "B",
       "explanation": "The phrase \"steer a middle course\" is an idiom that means to avoid extremes and adopt a moderate or balanced position. Therefore, the correct interpretation is that it is good to act with moderation, as stated in option B. The other options misinterpret the idiom."
@@ -761,22 +425,10 @@
       "instructionId": "Instruction 1",
       "question": "The witness said he had no axe to grind with his brothers.",
       "options": [
-        {
-          "id": "A",
-          "text": "He had no hatred for the brothers"
-        },
-        {
-          "id": "B",
-          "text": "He had no axe and therefore stole the matchet"
-        },
-        {
-          "id": "C",
-          "text": "He had no axe and therefore borrowed their matchet"
-        },
-        {
-          "id": "D",
-          "text": "He had no vested interest in the brothers"
-        }
+        { "id": "A", "text": "He had no hatred for the brothers" },
+        { "id": "B", "text": "He had no axe and therefore stole the matchet" },
+        { "id": "C", "text": "He had no axe and therefore borrowed their matchet" },
+        { "id": "D", "text": "He had no vested interest in the brothers" }
       ],
       "correctAnswer": "D",
       "explanation": "The idiom \"have no axe to grind\" means to have no personal stake, bias, or grudge in a matter. The witness is asserting impartiality, specifically that he holds no resentment or personal interest against his brothers. Therefore, D is the most accurate explanation."
@@ -786,22 +438,10 @@
       "instructionId": "Instruction 1",
       "question": "The footballers moved with their tails between their legs.",
       "options": [
-        {
-          "id": "A",
-          "text": "they moved happily because they won the match"
-        },
-        {
-          "id": "B",
-          "text": "they were unhappy because they had been despised by their opponents"
-        },
-        {
-          "id": "C",
-          "text": "they were ashamed because they had been defeated"
-        },
-        {
-          "id": "D",
-          "text": "they moved with their tails between their legs."
-        }
+        { "id": "A", "text": "they moved happily because they won the match" },
+        { "id": "B", "text": "they were unhappy because they had been despised by their opponents" },
+        { "id": "C", "text": "they were ashamed because they had been defeated" },
+        { "id": "D", "text": "they moved with their tails between their legs." }
       ],
       "correctAnswer": "C",
       "explanation": "The idiom \"moved with their tails between their legs\" is used to describe someone moving in a shameful, defeated, or humiliated manner. This is a direct match with option C. The other options do not capture the idiomatic meaning of shame and defeat."
@@ -811,22 +451,10 @@
       "instructionId": "Instruction 1",
       "question": "The headmaster managed to talk his way out of having to give a speech",
       "options": [
-        {
-          "id": "A",
-          "text": "he delivered a speech despite the difficulty"
-        },
-        {
-          "id": "B",
-          "text": "he managed to give a speech out of a difficult situation"
-        },
-        {
-          "id": "C",
-          "text": "he managed to get himself out of a difficult situation"
-        },
-        {
-          "id": "D",
-          "text": "he managed to talk on his way."
-        }
+        { "id": "A", "text": "he delivered a speech despite the difficulty" },
+        { "id": "B", "text": "he managed to give a speech out of a difficult situation" },
+        { "id": "C", "text": "he managed to get himself out of a difficult situation" },
+        { "id": "D", "text": "he managed to talk on his way." }
       ],
       "correctAnswer": "C",
       "explanation": "The phrase \"talk his way out of\" means to use conversation or persuasion to escape a situation. The headmaster did not give the speech; he avoided it. Therefore, option C, which states he got himself out of a difficult situation (the obligation to speak), is the correct interpretation."
@@ -836,22 +464,10 @@
       "instructionId": "Instruction 1",
       "question": "As regards the matter, we have crossed the rubicon",
       "options": [
-        {
-          "id": "A",
-          "text": "we are completely at a loss"
-        },
-        {
-          "id": "B",
-          "text": "we are irrevocably committed"
-        },
-        {
-          "id": "C",
-          "text": "we are already qualified"
-        },
-        {
-          "id": "D",
-          "text": "we are perfectly committed"
-        }
+        { "id": "A", "text": "we are completely at a loss" },
+        { "id": "B", "text": "we are irrevocably committed" },
+        { "id": "C", "text": "we are already qualified" },
+        { "id": "D", "text": "we are perfectly committed" }
       ],
       "correctAnswer": "B",
       "explanation": "The idiom \"crossed the Rubicon\" means to pass a point of no return; to commit oneself irrevocably to a course of action. Therefore, option B is the correct interpretation."
@@ -861,22 +477,10 @@
       "instructionId": "Instruction 1",
       "question": "Uche is full of himself",
       "options": [
-        {
-          "id": "A",
-          "text": "He is conceited"
-        },
-        {
-          "id": "B",
-          "text": "He is complete"
-        },
-        {
-          "id": "C",
-          "text": "He is a rich man"
-        },
-        {
-          "id": "D",
-          "text": "He is careful."
-        }
+        { "id": "A", "text": "He is conceited" },
+        { "id": "B", "text": "He is complete" },
+        { "id": "C", "text": "He is a rich man" },
+        { "id": "D", "text": "He is careful." }
       ],
       "correctAnswer": "A",
       "explanation": "The phrase \"full of himself\" is an idiom meaning to be conceited or excessively proud of oneself. Therefore, option A is the correct interpretation."
@@ -886,22 +490,10 @@
       "instructionId": "Instruction 1",
       "question": "As debutants in that tournament, the Super Eagles were up against their first opponents by three goals to nil",
       "options": [
-        {
-          "id": "A",
-          "text": "The Super Eagles were playing in the tournament for the first time, but they won their match by three goals to nothing"
-        },
-        {
-          "id": "B",
-          "text": "Though the Super Eagles were rated as the weakest side in the tournament, they won their first match by three goals to nil"
-        },
-        {
-          "id": "C",
-          "text": "Even though the Super Eagles were playing without some of their regulars, they won their match by three goals to nil."
-        },
-        {
-          "id": "D",
-          "text": "As the best attackers in the match, the Super Eagles easily defeated their opponents by three goals to nothing."
-        }
+        { "id": "A", "text": "The Super Eagles were playing in the tournament for the first time, but they won their match by three goals to nothing" },
+        { "id": "B", "text": "Though the Super Eagles were rated as the weakest side in the tournament, they won their first match by three goals to nil" },
+        { "id": "C", "text": "Even though the Super Eagles were playing without some of their regulars, they won their match by three goals to nil." },
+        { "id": "D", "text": "As the best attackers in the match, the Super Eagles easily defeated their opponents by three goals to nothing." }
       ],
       "correctAnswer": "A",
       "explanation": "The sentence states they were \"debutants,\" meaning they were playing in the tournament for the first time. It also states they \"were up against their first opponents by three goals to nil,\" which means they won that first match 3-0. Option A is the only one that accurately reflects both parts of the sentence."
@@ -911,22 +503,10 @@
       "instructionId": "Instruction 1",
       "question": "The woman was mournful as her husband was found dead drunk",
       "options": [
-        {
-          "id": "A",
-          "text": "She was sad because of her husband was absolutely drunk"
-        },
-        {
-          "id": "B",
-          "text": "She was apprehensive that her husband would drink again as soon as he recovered from the drunken stupor"
-        },
-        {
-          "id": "C",
-          "text": "She was sad because her husband was drunk and always as helpless as a dead man"
-        },
-        {
-          "id": "D",
-          "text": "She was mourning because her husband drank and died"
-        }
+        { "id": "A", "text": "She was sad because of her husband was absolutely drunk" },
+        { "id": "B", "text": "She was apprehensive that her husband would drink again as soon as he recovered from the drunken stupor" },
+        { "id": "C", "text": "She was sad because her husband was drunk and always as helpless as a dead man" },
+        { "id": "D", "text": "She was mourning because her husband drank and died" }
       ],
       "correctAnswer": "D",
       "explanation": "The sentence says the husband \"was found dead drunk.\" In common usage, \"dead drunk\" means extremely intoxicated, not literally deceased. However, the woman is described as \"mournful,\" which typically means grieving for a death. The most logical interpretation, given the wording, is that she is mourning because her husband died as a result of drinking. This makes D the best answer, as it aligns with the emotional state (mournful) and the final outcome (found dead)."
@@ -936,22 +516,10 @@
       "instructionId": "Instruction 2",
       "question": "I am optimistic about the interview though it was a mind-bending exercise",
       "options": [
-        {
-          "id": "A",
-          "text": "An enervating"
-        },
-        {
-          "id": "B",
-          "text": "A debilitating"
-        },
-        {
-          "id": "C",
-          "text": "A difficult"
-        },
-        {
-          "id": "D",
-          "text": "An easy"
-        }
+        { "id": "A", "text": "An enervating" },
+        { "id": "B", "text": "A debilitating" },
+        { "id": "C", "text": "A difficult" },
+        { "id": "D", "text": "An easy" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"mind-bending.\" \"Mind-bending\" means extremely difficult or confusing. The opposite of this is \"easy.\" Therefore, D is the correct answer."
@@ -961,22 +529,10 @@
       "instructionId": "Instruction 2",
       "question": "The trader was amused by the cut-throat rush for the goods",
       "options": [
-        {
-          "id": "A",
-          "text": "Worrisome"
-        },
-        {
-          "id": "B",
-          "text": "Strange"
-        },
-        {
-          "id": "C",
-          "text": "Lacklustre"
-        },
-        {
-          "id": "D",
-          "text": "Mad"
-        }
+        { "id": "A", "text": "Worrisome" },
+        { "id": "B", "text": "Strange" },
+        { "id": "C", "text": "Lacklustre" },
+        { "id": "D", "text": "Mad" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized phrase \"cut-throat.\" \"Cut-throat\" means ruthless, fierce, or highly competitive. The opposite would be something lacking intensity or enthusiasm, such as \"lacklustre.\" Therefore, C is the correct answer."
@@ -986,22 +542,10 @@
       "instructionId": "Instruction 2",
       "question": "The teacher said that Ali's essay was full of many redundant details",
       "options": [
-        {
-          "id": "A",
-          "text": "Unexplained"
-        },
-        {
-          "id": "B",
-          "text": "Strange"
-        },
-        {
-          "id": "C",
-          "text": "Necessary"
-        },
-        {
-          "id": "D",
-          "text": "Useful"
-        }
+        { "id": "A", "text": "Unexplained" },
+        { "id": "B", "text": "Strange" },
+        { "id": "C", "text": "Necessary" },
+        { "id": "D", "text": "Useful" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"redundant.\" \"Redundant\" means unnecessary or superfluous. The opposite is \"necessary.\" Therefore, C is the correct answer."
@@ -1011,22 +555,10 @@
       "instructionId": "Instruction 2",
       "question": "His father surmounted the myriad of obstacles on his way",
       "options": [
-        {
-          "id": "A",
-          "text": "Most"
-        },
-        {
-          "id": "B",
-          "text": "Few"
-        },
-        {
-          "id": "C",
-          "text": "All"
-        },
-        {
-          "id": "D",
-          "text": "Many"
-        }
+        { "id": "A", "text": "Most" },
+        { "id": "B", "text": "Few" },
+        { "id": "C", "text": "All" },
+        { "id": "D", "text": "Many" }
       ],
       "correctAnswer": "B",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"myriad.\" \"Myriad\" means a very large number. The opposite is \"few.\" Therefore, B is the correct answer."
@@ -1036,47 +568,23 @@
       "instructionId": "Instruction 2",
       "question": "Her ingenuous smile drew our attention",
       "options": [
-        {
-          "id": "A",
-          "text": "Witty"
-        },
-        {
-          "id": "B",
-          "text": "Na\u00efve"
-        },
-        {
-          "id": "C",
-          "text": "Clever"
-        },
-        {
-          "id": "D",
-          "text": "Arrogant"
-        }
+        { "id": "A", "text": "Witty" },
+        { "id": "B", "text": "Naïve" },
+        { "id": "C", "text": "Clever" },
+        { "id": "D", "text": "Arrogant" }
       ],
       "correctAnswer": "None",
-      "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"ingenuous.\" \"Ingenuous\" means innocent and unsuspecting, or naive. The opposite would be cunning or sophisticated. However, among the given options, \"na\u00efve\" is a synonym, not an antonym. This appears to be an error in the question or options. Given the choices, none are true antonyms. Therefore, the correct answer is \"None\"."
+      "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"ingenuous.\" \"Ingenuous\" means innocent and unsuspecting, or naive. The opposite would be cunning or sophisticated. However, among the given options, \"naïve\" is a synonym, not an antonym. This appears to be an error in the question or options. Given the choices, none are true antonyms. Therefore, the correct answer is \"None\"."
     },
     {
       "id": 41,
       "instructionId": "Instruction 2",
       "question": "Ndeni gave a flawless speech at the party",
       "options": [
-        {
-          "id": "A",
-          "text": "A wonderful"
-        },
-        {
-          "id": "B",
-          "text": "A careless"
-        },
-        {
-          "id": "C",
-          "text": "An interesting"
-        },
-        {
-          "id": "D",
-          "text": "An imperfect"
-        }
+        { "id": "A", "text": "A wonderful" },
+        { "id": "B", "text": "A careless" },
+        { "id": "C", "text": "An interesting" },
+        { "id": "D", "text": "An imperfect" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"flawless.\" \"Flawless\" means perfect, without any defects. The opposite is \"imperfect.\" Therefore, D is the correct answer."
@@ -1086,22 +594,10 @@
       "instructionId": "Instruction 2",
       "question": "Beneath Ado's guff exterior, he's really very kind-hearted",
       "options": [
-        {
-          "id": "A",
-          "text": "Nice"
-        },
-        {
-          "id": "B",
-          "text": "Harsh"
-        },
-        {
-          "id": "C",
-          "text": "Rough"
-        },
-        {
-          "id": "D",
-          "text": "Gentle"
-        }
+        { "id": "A", "text": "Nice" },
+        { "id": "B", "text": "Harsh" },
+        { "id": "C", "text": "Rough" },
+        { "id": "D", "text": "Gentle" }
       ],
       "correctAnswer": "A",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"guff.\" \"Guff\" is slang for nonsense or insincere talk, but in this context, it likely means a rough, tough, or harsh exterior. The opposite of a harsh exterior is a kind-hearted one, so the antonym for \"guff\" in this context would be \"nice.\" Therefore, A is the correct answer."
@@ -1111,22 +607,10 @@
       "instructionId": "Instruction 2",
       "question": "The captain says sports is being debased by commercial sponsorship",
       "options": [
-        {
-          "id": "A",
-          "text": "Localized"
-        },
-        {
-          "id": "B",
-          "text": "Perverted"
-        },
-        {
-          "id": "C",
-          "text": "Elevated"
-        },
-        {
-          "id": "D",
-          "text": "Overvalued"
-        }
+        { "id": "A", "text": "Localized" },
+        { "id": "B", "text": "Perverted" },
+        { "id": "C", "text": "Elevated" },
+        { "id": "D", "text": "Overvalued" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"debased.\" \"Debased\" means to lower in quality, value, or dignity. The opposite is \"elevated.\" Therefore, C is the correct answer."
@@ -1136,22 +620,10 @@
       "instructionId": "Instruction 2",
       "question": "Governing a country is not always as straightforward as people sometimes imagine",
       "options": [
-        {
-          "id": "A",
-          "text": "Complicated"
-        },
-        {
-          "id": "B",
-          "text": "Troublesome"
-        },
-        {
-          "id": "C",
-          "text": "Untoward"
-        },
-        {
-          "id": "D",
-          "text": "Irksome"
-        }
+        { "id": "A", "text": "Complicated" },
+        { "id": "B", "text": "Troublesome" },
+        { "id": "C", "text": "Untoward" },
+        { "id": "D", "text": "Irksome" }
       ],
       "correctAnswer": "A",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"straightforward.\" \"Straightforward\" means simple or easy to understand. The opposite is \"complicated.\" Therefore, A is the correct answer."
@@ -1161,22 +633,10 @@
       "instructionId": "Instruction 2",
       "question": "The crowd was very receptive to the speaker's suggestion",
       "options": [
-        {
-          "id": "A",
-          "text": "Disobedient"
-        },
-        {
-          "id": "B",
-          "text": "Repellent"
-        },
-        {
-          "id": "C",
-          "text": "Alert"
-        },
-        {
-          "id": "D",
-          "text": "Hostile"
-        }
+        { "id": "A", "text": "Disobedient" },
+        { "id": "B", "text": "Repellent" },
+        { "id": "C", "text": "Alert" },
+        { "id": "D", "text": "Hostile" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"receptive.\" \"Receptive\" means willing to accept or consider new ideas. The opposite is \"hostile\" or unwilling. Therefore, D is the correct answer."
@@ -1186,22 +646,10 @@
       "instructionId": "Instruction 2",
       "question": "There was a general acquiescence on the new drug law",
       "options": [
-        {
-          "id": "A",
-          "text": "Resistance"
-        },
-        {
-          "id": "B",
-          "text": "Discrepancy"
-        },
-        {
-          "id": "C",
-          "text": "Compromise"
-        },
-        {
-          "id": "D",
-          "text": "Agreement"
-        }
+        { "id": "A", "text": "Resistance" },
+        { "id": "B", "text": "Discrepancy" },
+        { "id": "C", "text": "Compromise" },
+        { "id": "D", "text": "Agreement" }
       ],
       "correctAnswer": "A",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"acquiescence.\" \"Acquiescence\" means acceptance or compliance without protest. The opposite is \"resistance.\" Therefore, A is the correct answer."
@@ -1211,22 +659,10 @@
       "instructionId": "Instruction 2",
       "question": "Aisha seems to feel ambivalent about her future",
       "options": [
-        {
-          "id": "A",
-          "text": "Decisive"
-        },
-        {
-          "id": "B",
-          "text": "Anxious"
-        },
-        {
-          "id": "C",
-          "text": "Ambitious"
-        },
-        {
-          "id": "D",
-          "text": "Inconsiderate"
-        }
+        { "id": "A", "text": "Decisive" },
+        { "id": "B", "text": "Anxious" },
+        { "id": "C", "text": "Ambitious" },
+        { "id": "D", "text": "Inconsiderate" }
       ],
       "correctAnswer": "A",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"ambivalent.\" \"Ambivalent\" means having mixed feelings or contradictory ideas about something. The opposite is \"decisive,\" meaning clear and firm in one's decision. Therefore, A is the correct answer."
@@ -1236,22 +672,10 @@
       "instructionId": "Instruction 2",
       "question": "The report of the committee contained a plethora of details",
       "options": [
-        {
-          "id": "A",
-          "text": "Shortage"
-        },
-        {
-          "id": "B",
-          "text": "Simplicity"
-        },
-        {
-          "id": "C",
-          "text": "Multitude"
-        },
-        {
-          "id": "D",
-          "text": "Spectrum"
-        }
+        { "id": "A", "text": "Shortage" },
+        { "id": "B", "text": "Simplicity" },
+        { "id": "C", "text": "Multitude" },
+        { "id": "D", "text": "Spectrum" }
       ],
       "correctAnswer": "A",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"plethora.\" \"Plethora\" means an excessive amount. The opposite is \"shortage.\" Therefore, A is the correct answer."
@@ -1261,22 +685,10 @@
       "instructionId": "Instruction 2",
       "question": "The weather was still very heavy and sultry",
       "options": [
-        {
-          "id": "A",
-          "text": "Wintry and shadowy"
-        },
-        {
-          "id": "B",
-          "text": "Cold and friendly"
-        },
-        {
-          "id": "C",
-          "text": "Cloudy and thundery"
-        },
-        {
-          "id": "D",
-          "text": "Hot and uncomfortable"
-        }
+        { "id": "A", "text": "Wintry and shadowy" },
+        { "id": "B", "text": "Cold and friendly" },
+        { "id": "C", "text": "Cloudy and thundery" },
+        { "id": "D", "text": "Hot and uncomfortable" }
       ],
       "correctAnswer": "B",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized phrase \"heavy and sultry.\" \"Heavy and sultry\" describes hot, humid, and oppressive weather. The opposite would be cool and pleasant. Option B, \"Cold and friendly,\" is the best antonym among the choices. \"Friendly\" is not a weather descriptor, but \"cold\" is the direct opposite of \"hot/sultry.\" Therefore, B is the correct answer."
@@ -1286,22 +698,10 @@
       "instructionId": "Instruction 2",
       "question": "Ada gave her husband a look that made words superfluous",
       "options": [
-        {
-          "id": "A",
-          "text": "Redundant"
-        },
-        {
-          "id": "B",
-          "text": "Spurious"
-        },
-        {
-          "id": "C",
-          "text": "Unnecessary"
-        },
-        {
-          "id": "D",
-          "text": "Scanty"
-        }
+        { "id": "A", "text": "Redundant" },
+        { "id": "B", "text": "Spurious" },
+        { "id": "C", "text": "Unnecessary" },
+        { "id": "D", "text": "Scanty" }
       ],
       "correctAnswer": "None",
       "explanation": "The instruction is to choose the option *opposite* in meaning to the italicized word \"superfluous.\" \"Superfluous\" means unnecessary or exceeding what is sufficient. The opposite is \"necessary.\" However, \"necessary\" is not an option. The options are for the antonym. Among the given options, \"unnecessary\" is a synonym, not an antonym. This appears to be an error. The correct antonym is \"necessary,\" which is not listed. Therefore, the correct answer is \"None\"."
@@ -1311,22 +711,10 @@
       "instructionId": "Instruction 3",
       "question": "A political Impasse does not offer the best opportunity for merrymaking",
       "options": [
-        {
-          "id": "A",
-          "text": "manifesto"
-        },
-        {
-          "id": "B",
-          "text": "party"
-        },
-        {
-          "id": "C",
-          "text": "gridlock"
-        },
-        {
-          "id": "D",
-          "text": "rally"
-        }
+        { "id": "A", "text": "manifesto" },
+        { "id": "B", "text": "party" },
+        { "id": "C", "text": "gridlock" },
+        { "id": "D", "text": "rally" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"Impasse.\" \"Impasse\" means a situation in which no progress is possible; a deadlock. The nearest synonym is \"gridlock.\" Therefore, C is the correct answer."
@@ -1336,22 +724,10 @@
       "instructionId": "Instruction 3",
       "question": "We were all enthusiastic as we awaited the result of the election",
       "options": [
-        {
-          "id": "A",
-          "text": "bemused"
-        },
-        {
-          "id": "B",
-          "text": "agitated"
-        },
-        {
-          "id": "C",
-          "text": "elated"
-        },
-        {
-          "id": "D",
-          "text": "nervous"
-        }
+        { "id": "A", "text": "bemused" },
+        { "id": "B", "text": "agitated" },
+        { "id": "C", "text": "elated" },
+        { "id": "D", "text": "nervous" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"enthusiastic.\" \"Enthusiastic\" means showing intense and eager enjoyment, interest, or approval. The nearest synonym is \"elated,\" which means ecstatically happy. Therefore, C is the correct answer."
@@ -1361,22 +737,10 @@
       "instructionId": "Instruction 3",
       "question": "The uniform makes the guards look absurd",
       "options": [
-        {
-          "id": "A",
-          "text": "dirty"
-        },
-        {
-          "id": "B",
-          "text": "smart"
-        },
-        {
-          "id": "C",
-          "text": "sensible"
-        },
-        {
-          "id": "D",
-          "text": "ridiculous"
-        }
+        { "id": "A", "text": "dirty" },
+        { "id": "B", "text": "smart" },
+        { "id": "C", "text": "sensible" },
+        { "id": "D", "text": "ridiculous" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"absurd.\" \"Absurd\" means wildly unreasonable, illogical, or inappropriate. The nearest synonym is \"ridiculous.\" Therefore, D is the correct answer."
@@ -1386,22 +750,10 @@
       "instructionId": "Instruction 3",
       "question": "The law is often tardy in reacting to changing attitude",
       "options": [
-        {
-          "id": "A",
-          "text": "quick"
-        },
-        {
-          "id": "B",
-          "text": "slow"
-        },
-        {
-          "id": "C",
-          "text": "exclusive"
-        },
-        {
-          "id": "D",
-          "text": "generous"
-        }
+        { "id": "A", "text": "quick" },
+        { "id": "B", "text": "slow" },
+        { "id": "C", "text": "exclusive" },
+        { "id": "D", "text": "generous" }
       ],
       "correctAnswer": "B",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"tardy.\" \"Tardy\" means slow or late. The nearest synonym is \"slow.\" Therefore, B is the correct answer."
@@ -1411,22 +763,10 @@
       "instructionId": "Instruction 3",
       "question": "Isa and Ilu ate sumptuous meal on their brother's wedding day",
       "options": [
-        {
-          "id": "A",
-          "text": "Unemployment"
-        },
-        {
-          "id": "B",
-          "text": "Trench mentality"
-        },
-        {
-          "id": "C",
-          "text": "Luxurious"
-        },
-        {
-          "id": "D",
-          "text": "Frugal"
-        }
+        { "id": "A", "text": "Unemployment" },
+        { "id": "B", "text": "Trench mentality" },
+        { "id": "C", "text": "Luxurious" },
+        { "id": "D", "text": "Frugal" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"sumptuous.\" \"Sumptuous\" means lavish, rich, or expensive. The nearest synonym is \"luxurious.\" Therefore, C is the correct answer."
@@ -1436,22 +776,10 @@
       "instructionId": "Instruction 3",
       "question": "Kaltume crouched over the paper on her desk",
       "options": [
-        {
-          "id": "A",
-          "text": "wrote on"
-        },
-        {
-          "id": "B",
-          "text": "stood on"
-        },
-        {
-          "id": "C",
-          "text": "walked over"
-        },
-        {
-          "id": "D",
-          "text": "bent over"
-        }
+        { "id": "A", "text": "wrote on" },
+        { "id": "B", "text": "stood on" },
+        { "id": "C", "text": "walked over" },
+        { "id": "D", "text": "bent over" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"crouched.\" \"Crouched\" means to stoop or bend low. The nearest synonym is \"bent over.\" Therefore, D is the correct answer."
@@ -1461,22 +789,10 @@
       "instructionId": "Instruction 3",
       "question": "The panacea for a country's economic mess lies in systematic planning and hardwork",
       "options": [
-        {
-          "id": "A",
-          "text": "cure"
-        },
-        {
-          "id": "B",
-          "text": "hope"
-        },
-        {
-          "id": "C",
-          "text": "foresight"
-        },
-        {
-          "id": "D",
-          "text": "trouble"
-        }
+        { "id": "A", "text": "cure" },
+        { "id": "B", "text": "hope" },
+        { "id": "C", "text": "foresight" },
+        { "id": "D", "text": "trouble" }
       ],
       "correctAnswer": "A",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"panacea.\" \"Panacea\" means a solution or remedy for all difficulties or diseases. The nearest synonym is \"cure.\" Therefore, A is the correct answer."
@@ -1486,22 +802,10 @@
       "instructionId": "Instruction 3",
       "question": "Thousands of workers have been victims of retrenchment since the military came back to power",
       "options": [
-        {
-          "id": "A",
-          "text": "Unemployment"
-        },
-        {
-          "id": "B",
-          "text": "Trench mentality"
-        },
-        {
-          "id": "C",
-          "text": "Dismissal"
-        },
-        {
-          "id": "D",
-          "text": "Recruitment"
-        }
+        { "id": "A", "text": "Unemployment" },
+        { "id": "B", "text": "Trench mentality" },
+        { "id": "C", "text": "Dismissal" },
+        { "id": "D", "text": "Recruitment" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"retrenchment.\" \"Retrenchment\" means the action of making cuts in spending or staff. The nearest synonym is \"dismissal.\" Therefore, C is the correct answer."
@@ -1511,22 +815,10 @@
       "instructionId": "Instruction 3",
       "question": "The principal gave his speech offhand at the sports meeting",
       "options": [
-        {
-          "id": "A",
-          "text": "calmly"
-        },
-        {
-          "id": "B",
-          "text": "beautifully"
-        },
-        {
-          "id": "C",
-          "text": "unconcerned"
-        },
-        {
-          "id": "D",
-          "text": "unprepared"
-        }
+        { "id": "A", "text": "calmly" },
+        { "id": "B", "text": "beautifully" },
+        { "id": "C", "text": "unconcerned" },
+        { "id": "D", "text": "unprepared" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"offhand.\" \"Offhand\" means without preparation or forethought. The nearest synonym is \"unprepared.\" Therefore, D is the correct answer."
@@ -1536,22 +828,10 @@
       "instructionId": "Instruction 3",
       "question": "Jankoli was dressed in an old assortment of clothes",
       "options": [
-        {
-          "id": "A",
-          "text": "Avalanche"
-        },
-        {
-          "id": "B",
-          "text": "Homogeneity"
-        },
-        {
-          "id": "C",
-          "text": "Sameness"
-        },
-        {
-          "id": "D",
-          "text": "Melange"
-        }
+        { "id": "A", "text": "Avalanche" },
+        { "id": "B", "text": "Homogeneity" },
+        { "id": "C", "text": "Sameness" },
+        { "id": "D", "text": "Melange" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"assortment.\" \"Assortment\" means a collection of different things. The nearest synonym is \"melange,\" which means a mixture or assortment. Therefore, D is the correct answer."
@@ -1561,22 +841,10 @@
       "instructionId": "Instruction 3",
       "question": "The girl's father was astounded to see her appear from the shrine",
       "options": [
-        {
-          "id": "A",
-          "text": "collected"
-        },
-        {
-          "id": "B",
-          "text": "Overwhelmed"
-        },
-        {
-          "id": "C",
-          "text": "embarrassed"
-        },
-        {
-          "id": "D",
-          "text": "Astonished"
-        }
+        { "id": "A", "text": "collected" },
+        { "id": "B", "text": "Overwhelmed" },
+        { "id": "C", "text": "embarrassed" },
+        { "id": "D", "text": "Astonished" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"astounded.\" \"Astounded\" means shocked or amazed. The nearest synonym is \"astonished.\" Therefore, D is the correct answer."
@@ -1586,22 +854,10 @@
       "instructionId": "Instruction 3",
       "question": "The director's remark was extremely apposite to the issue being discussed",
       "options": [
-        {
-          "id": "A",
-          "text": "Appropriate"
-        },
-        {
-          "id": "B",
-          "text": "Inconsequential"
-        },
-        {
-          "id": "C",
-          "text": "Emphatic"
-        },
-        {
-          "id": "D",
-          "text": "Adequate"
-        }
+        { "id": "A", "text": "Appropriate" },
+        { "id": "B", "text": "Inconsequential" },
+        { "id": "C", "text": "Emphatic" },
+        { "id": "D", "text": "Adequate" }
       ],
       "correctAnswer": "A",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"apposite.\" \"Apposite\" means apt or appropriate. The nearest synonym is \"appropriate.\" Therefore, A is the correct answer."
@@ -1611,22 +867,10 @@
       "instructionId": "Instruction 3",
       "question": "Her reputation is without a blemish",
       "options": [
-        {
-          "id": "A",
-          "text": "Struggle"
-        },
-        {
-          "id": "B",
-          "text": "Problem"
-        },
-        {
-          "id": "C",
-          "text": "Fault"
-        },
-        {
-          "id": "D",
-          "text": "Blessing"
-        }
+        { "id": "A", "text": "Struggle" },
+        { "id": "B", "text": "Problem" },
+        { "id": "C", "text": "Fault" },
+        { "id": "D", "text": "Blessing" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"blemish.\" \"Blemish\" means a flaw or imperfection. The nearest synonym is \"fault.\" Therefore, C is the correct answer."
@@ -1636,22 +880,10 @@
       "instructionId": "Instruction 3",
       "question": "Ugo is eligible for the post of secretary",
       "options": [
-        {
-          "id": "A",
-          "text": "Nominated"
-        },
-        {
-          "id": "B",
-          "text": "Invited"
-        },
-        {
-          "id": "C",
-          "text": "Qualified"
-        },
-        {
-          "id": "D",
-          "text": "Intelligent"
-        }
+        { "id": "A", "text": "Nominated" },
+        { "id": "B", "text": "Invited" },
+        { "id": "C", "text": "Qualified" },
+        { "id": "D", "text": "Intelligent" }
       ],
       "correctAnswer": "C",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"eligible.\" \"Eligible\" means having the right to do or obtain something; qualified. The nearest synonym is \"qualified.\" Therefore, C is the correct answer."
@@ -1661,22 +893,10 @@
       "instructionId": "Instruction 3",
       "question": "This is an abridged version of No Longer at Ease",
       "options": [
-        {
-          "id": "A",
-          "text": "An outdated"
-        },
-        {
-          "id": "B",
-          "text": "An enlarged"
-        },
-        {
-          "id": "C",
-          "text": "An illustrated"
-        },
-        {
-          "id": "D",
-          "text": "A shortened"
-        }
+        { "id": "A", "text": "An outdated" },
+        { "id": "B", "text": "An enlarged" },
+        { "id": "C", "text": "An illustrated" },
+        { "id": "D", "text": "A shortened" }
       ],
       "correctAnswer": "D",
       "explanation": "The instruction is to choose the option *nearest* in meaning to the italicized word \"abridged.\" \"Abridged\" means shortened or condensed. The nearest synonym is \"a shortened.\" Therefore, D is the correct answer."
@@ -1686,22 +906,10 @@
       "instructionId": "Instruction 4",
       "question": "Lemoti........ as a painter, but also as a sculptor",
       "options": [
-        {
-          "id": "A",
-          "text": "is a gifted only not"
-        },
-        {
-          "id": "B",
-          "text": "is only not gifted"
-        },
-        {
-          "id": "C",
-          "text": "is gifted not only"
-        },
-        {
-          "id": "D",
-          "text": "is only gifted"
-        }
+        { "id": "A", "text": "is a gifted only not" },
+        { "id": "B", "text": "is only not gifted" },
+        { "id": "C", "text": "is gifted not only" },
+        { "id": "D", "text": "is only gifted" }
       ],
       "correctAnswer": "C",
       "explanation": "The sentence requires a grammatical structure that connects two roles. The correct phrase is \"not only... but also...\". Therefore, \"is gifted not only\" is the correct option to complete the sentence. This makes C the correct answer."
@@ -1711,22 +919,10 @@
       "instructionId": "Instruction 4",
       "question": "He can recall the important dates in the nation's history, it is interesting to listen as he rattles ........",
       "options": [
-        {
-          "id": "A",
-          "text": "off"
-        },
-        {
-          "id": "B",
-          "text": "over"
-        },
-        {
-          "id": "C",
-          "text": "up"
-        },
-        {
-          "id": "D",
-          "text": "out"
-        }
+        { "id": "A", "text": "off" },
+        { "id": "B", "text": "over" },
+        { "id": "C", "text": "up" },
+        { "id": "D", "text": "out" }
       ],
       "correctAnswer": "A",
       "explanation": "The phrase \"rattle off\" is a phrasal verb meaning to say something quickly and easily. This fits the context of recalling dates. Therefore, A is the correct answer."
@@ -1736,22 +932,10 @@
       "instructionId": "Instruction 4",
       "question": "The boy told his mother .......",
       "options": [
-        {
-          "id": "A",
-          "text": "that was the girl he told her about"
-        },
-        {
-          "id": "B",
-          "text": "that was the girl I told you about her"
-        },
-        {
-          "id": "C",
-          "text": "that was the girl I told her about"
-        },
-        {
-          "id": "D",
-          "text": "that is the girl he told her about"
-        }
+        { "id": "A", "text": "that was the girl he told her about" },
+        { "id": "B", "text": "that was the girl I told you about her" },
+        { "id": "C", "text": "that was the girl I told her about" },
+        { "id": "D", "text": "that is the girl he told her about" }
       ],
       "correctAnswer": "A",
       "explanation": "The sentence is in reported speech. The correct structure is \"The boy told his mother that was the girl he told her about.\" This maintains the correct tense and pronoun agreement. Therefore, A is the correct answer."
@@ -1761,22 +945,10 @@
       "instructionId": "Instruction 4",
       "question": "Last Monday his father asked me .......",
       "options": [
-        {
-          "id": "A",
-          "text": "if I had come some days before"
-        },
-        {
-          "id": "B",
-          "text": "if I had come the day before"
-        },
-        {
-          "id": "C",
-          "text": "did you come yesterday"
-        },
-        {
-          "id": "D",
-          "text": "had I come yesterday"
-        }
+        { "id": "A", "text": "if I had come some days before" },
+        { "id": "B", "text": "if I had come the day before" },
+        { "id": "C", "text": "did you come yesterday" },
+        { "id": "D", "text": "had I come yesterday" }
       ],
       "correctAnswer": "B",
       "explanation": "The sentence is in reported speech. The correct structure is \"asked me if I had come the day before.\" This maintains the correct tense and sequence of tenses. Therefore, B is the correct answer."
@@ -1786,22 +958,10 @@
       "instructionId": "Instruction 4",
       "question": "His wife was badly injured in the fracas, but I think she will pull .......",
       "options": [
-        {
-          "id": "A",
-          "text": "up"
-        },
-        {
-          "id": "B",
-          "text": "over"
-        },
-        {
-          "id": "C",
-          "text": "through"
-        },
-        {
-          "id": "D",
-          "text": "back"
-        }
+        { "id": "A", "text": "up" },
+        { "id": "B", "text": "over" },
+        { "id": "C", "text": "through" },
+        { "id": "D", "text": "back" }
       ],
       "correctAnswer": "C",
       "explanation": "The phrase \"pull through\" is a phrasal verb meaning to recover from illness or difficulty. This fits the context of recovering from injury. Therefore, C is the correct answer."
@@ -1811,22 +971,10 @@
       "instructionId": "Instruction 4",
       "question": "A wide range of options ....... made available to students in the final year last year",
       "options": [
-        {
-          "id": "A",
-          "text": "is"
-        },
-        {
-          "id": "B",
-          "text": "were"
-        },
-        {
-          "id": "C",
-          "text": "are"
-        },
-        {
-          "id": "D",
-          "text": "was"
-        }
+        { "id": "A", "text": "is" },
+        { "id": "B", "text": "were" },
+        { "id": "C", "text": "are" },
+        { "id": "D", "text": "was" }
       ],
       "correctAnswer": "B",
       "explanation": "The subject \"A wide range of options\" is plural, and the verb must agree. The correct verb is \"were.\" Therefore, B is the correct answer."
@@ -1836,22 +984,10 @@
       "instructionId": "Instruction 4",
       "question": "One of the women who ....... in the premises ....... been ordered to quit",
       "options": [
-        {
-          "id": "A",
-          "text": "sells/have"
-        },
-        {
-          "id": "B",
-          "text": "sell/has"
-        },
-        {
-          "id": "C",
-          "text": "sell/have"
-        },
-        {
-          "id": "D",
-          "text": "sells/has"
-        }
+        { "id": "A", "text": "sells/have" },
+        { "id": "B", "text": "sell/has" },
+        { "id": "C", "text": "sell/have" },
+        { "id": "D", "text": "sells/has" }
       ],
       "correctAnswer": "B",
       "explanation": "The relative clause \"who ....... in the premises\" modifies \"women,\" which is plural, so the verb is \"sell.\" The main subject \"One of the women\" is singular, so the verb is \"has.\" Therefore, B is the correct answer."
@@ -1859,24 +995,11 @@
     {
       "id": 73,
       "instructionId": "Instruction 4",
-      "question": "The new trade agreement should facilitate.......",
-      "options": [
-        {
-          "id": "A",
-          "text": "more economic rapid growth"
-        },
-        {
-          "id": "B",
-          "text": "economic more rapid growth"
-        },
-        {
-          "id": "C",
-          "text": "rapid economic more growth"
-        },
-        {
-          "id": "D",
-          "text": "more rapid economic growth"
-        }
+      "question": "The new trade agreement should facilitate.......", "options": [
+        { "id": "A", "text": "more economic rapid growth" },
+        { "id": "B", "text": "economic more rapid growth" },
+        { "id": "C", "text": "rapid economic more growth" },
+        { "id": "D", "text": "more rapid economic growth" }
       ],
       "correctAnswer": "D",
       "explanation": "The correct adjective order is: opinion, size, age, shape, color, origin, material, purpose. \"More rapid\" is an opinion/adverbial modifier, and \"economic\" is a purpose/origin adjective. The correct phrase is \"more rapid economic growth.\" Therefore, D is the correct answer."
@@ -1886,22 +1009,10 @@
       "instructionId": "Instruction 4",
       "question": "The principal said that he was pleased....... my effort.",
       "options": [
-        {
-          "id": "A",
-          "text": "on"
-        },
-        {
-          "id": "B",
-          "text": "of"
-        },
-        {
-          "id": "C",
-          "text": "with"
-        },
-        {
-          "id": "D",
-          "text": "about"
-        }
+        { "id": "A", "text": "on" },
+        { "id": "B", "text": "of" },
+        { "id": "C", "text": "with" },
+        { "id": "D", "text": "about" }
       ],
       "correctAnswer": "C",
       "explanation": "The correct preposition after \"pleased\" is \"with.\" The phrase is \"pleased with my effort.\" Therefore, C is the correct answer."
@@ -1911,22 +1022,10 @@
       "instructionId": "Instruction 4",
       "question": "Paper is made....... Wood pulp",
       "options": [
-        {
-          "id": "A",
-          "text": "on"
-        },
-        {
-          "id": "B",
-          "text": "of"
-        },
-        {
-          "id": "C",
-          "text": "from"
-        },
-        {
-          "id": "D",
-          "text": "with"
-        }
+        { "id": "A", "text": "on" },
+        { "id": "B", "text": "of" },
+        { "id": "C", "text": "from" },
+        { "id": "D", "text": "with" }
       ],
       "correctAnswer": "C",
       "explanation": "The correct preposition after \"made\" when referring to the raw material is \"from.\" The phrase is \"made from wood pulp.\" Therefore, C is the correct answer."
@@ -1936,22 +1035,10 @@
       "instructionId": "Instruction 4",
       "question": "Long after everyone....... the hall, obi still sat inside.",
       "options": [
-        {
-          "id": "A",
-          "text": "left"
-        },
-        {
-          "id": "B",
-          "text": "is leaving"
-        },
-        {
-          "id": "C",
-          "text": "has left"
-        },
-        {
-          "id": "D",
-          "text": "had left"
-        }
+        { "id": "A", "text": "left" },
+        { "id": "B", "text": "is leaving" },
+        { "id": "C", "text": "has left" },
+        { "id": "D", "text": "had left" }
       ],
       "correctAnswer": "D",
       "explanation": "The sentence describes an action that happened before another past action (Obi sitting). The correct tense is the past perfect, \"had left.\" Therefore, D is the correct answer."
@@ -1961,22 +1048,10 @@
       "instructionId": "Instruction 4",
       "question": "They are the....... dresses",
       "options": [
-        {
-          "id": "A",
-          "text": "babys'"
-        },
-        {
-          "id": "B",
-          "text": "baby"
-        },
-        {
-          "id": "C",
-          "text": "babies"
-        },
-        {
-          "id": "D",
-          "text": "babies'"
-        }
+        { "id": "A", "text": "babys'" },
+        { "id": "B", "text": "baby" },
+        { "id": "C", "text": "babies" },
+        { "id": "D", "text": "babies'" }
       ],
       "correctAnswer": "D",
       "explanation": "The sentence requires the possessive form of the plural noun \"babies.\" The correct form is \"babies'\" (plural possessive). Therefore, D is the correct answer."
@@ -1986,22 +1061,10 @@
       "instructionId": "Instruction 4",
       "question": "The politician was sent....... Exile",
       "options": [
-        {
-          "id": "A",
-          "text": "onto"
-        },
-        {
-          "id": "B",
-          "text": "into"
-        },
-        {
-          "id": "C",
-          "text": "on"
-        },
-        {
-          "id": "D",
-          "text": "to"
-        }
+        { "id": "A", "text": "onto" },
+        { "id": "B", "text": "into" },
+        { "id": "C", "text": "on" },
+        { "id": "D", "text": "to" }
       ],
       "correctAnswer": "B",
       "explanation": "The correct preposition after \"sent\" when referring to a place of exile is \"into.\" The phrase is \"sent into exile.\" Therefore, B is the correct answer."
@@ -2011,22 +1074,10 @@
       "instructionId": "Instruction 4",
       "question": "When we looked up, we....... the plane some miles away",
       "options": [
-        {
-          "id": "A",
-          "text": "site"
-        },
-        {
-          "id": "B",
-          "text": "cited"
-        },
-        {
-          "id": "C",
-          "text": "sited"
-        },
-        {
-          "id": "D",
-          "text": "sighted"
-        }
+        { "id": "A", "text": "site" },
+        { "id": "B", "text": "cited" },
+        { "id": "C", "text": "sited" },
+        { "id": "D", "text": "sighted" }
       ],
       "correctAnswer": "D",
       "explanation": "The correct verb is \"sighted,\" which means to see or catch sight of something. Therefore, D is the correct answer."
@@ -2036,22 +1087,10 @@
       "instructionId": "Instruction 4",
       "question": "Vital....... is still spread....... word of mouth in most villages in Africa",
       "options": [
-        {
-          "id": "A",
-          "text": "information/from"
-        },
-        {
-          "id": "B",
-          "text": "information/with"
-        },
-        {
-          "id": "C",
-          "text": "information/by"
-        },
-        {
-          "id": "D",
-          "text": "information/through"
-        }
+        { "id": "A", "text": "information/from" },
+        { "id": "B", "text": "information/with" },
+        { "id": "C", "text": "information/by" },
+        { "id": "D", "text": "information/through" }
       ],
       "correctAnswer": "C",
       "explanation": "The correct preposition after \"spread\" when referring to the medium is \"by.\" The phrase is \"spread by word of mouth.\" Therefore, C is the correct answer."
@@ -2061,22 +1100,10 @@
       "instructionId": "Instruction 4",
       "question": "Western education is one of the....... of colonial rule.",
       "options": [
-        {
-          "id": "A",
-          "text": "legacies"
-        },
-        {
-          "id": "B",
-          "text": "evidence"
-        },
-        {
-          "id": "C",
-          "text": "remnants"
-        },
-        {
-          "id": "D",
-          "text": "inheritance"
-        }
+        { "id": "A", "text": "legacies" },
+        { "id": "B", "text": "evidence" },
+        { "id": "C", "text": "remnants" },
+        { "id": "D", "text": "inheritance" }
       ],
       "correctAnswer": "A",
       "explanation": "The word \"legacies\" means things handed down from the past, which fits the context of colonial rule. Therefore, A is the correct answer."
@@ -2086,22 +1113,10 @@
       "instructionId": "Instruction 4",
       "question": "The federal government has....... child trafficking",
       "options": [
-        {
-          "id": "A",
-          "text": "postulated"
-        },
-        {
-          "id": "B",
-          "text": "projected"
-        },
-        {
-          "id": "C",
-          "text": "prescribed"
-        },
-        {
-          "id": "D",
-          "text": "proscribed"
-        }
+        { "id": "A", "text": "postulated" },
+        { "id": "B", "text": "projected" },
+        { "id": "C", "text": "prescribed" },
+        { "id": "D", "text": "proscribed" }
       ],
       "correctAnswer": "D",
       "explanation": "The word \"proscribed\" means to forbid or prohibit by law. This fits the context of the government banning child trafficking. Therefore, D is the correct answer."
@@ -2111,22 +1126,10 @@
       "instructionId": "Instruction 4",
       "question": "The man was happy that his son confessed his guilt and so the others were.......",
       "options": [
-        {
-          "id": "A",
-          "text": "Implied"
-        },
-        {
-          "id": "B",
-          "text": "accused"
-        },
-        {
-          "id": "C",
-          "text": "punished"
-        },
-        {
-          "id": "D",
-          "text": "exonerated"
-        }
+        { "id": "A", "text": "Implied" },
+        { "id": "B", "text": "accused" },
+        { "id": "C", "text": "punished" },
+        { "id": "D", "text": "exonerated" }
       ],
       "correctAnswer": "D",
       "explanation": "The sentence implies that because the son confessed, the others were cleared of blame. The word \"exonerated\" means to absolve from blame. Therefore, D is the correct answer."
@@ -2136,22 +1139,10 @@
       "instructionId": "Instruction 4",
       "question": "Based on the facts before me, I have no alternative....... to hold you responsible",
       "options": [
-        {
-          "id": "A",
-          "text": "only"
-        },
-        {
-          "id": "B",
-          "text": "as"
-        },
-        {
-          "id": "C",
-          "text": "than"
-        },
-        {
-          "id": "D",
-          "text": "but"
-        }
+        { "id": "A", "text": "only" },
+        { "id": "B", "text": "as" },
+        { "id": "C", "text": "than" },
+        { "id": "D", "text": "but" }
       ],
       "correctAnswer": "D",
       "explanation": "The correct phrase is \"no alternative but to...\" which means there is no other choice. Therefore, D is the correct answer."
@@ -2161,22 +1152,10 @@
       "instructionId": "Instruction 4",
       "question": "Many people would always find reasons to.......the law",
       "options": [
-        {
-          "id": "A",
-          "text": "arrogate"
-        },
-        {
-          "id": "B",
-          "text": "debase"
-        },
-        {
-          "id": "C",
-          "text": "circumvent"
-        },
-        {
-          "id": "D",
-          "text": "circumspect"
-        }
+        { "id": "A", "text": "arrogate" },
+        { "id": "B", "text": "debase" },
+        { "id": "C", "text": "circumvent" },
+        { "id": "D", "text": "circumspect" }
       ],
       "correctAnswer": "C",
       "explanation": "The word \"circumvent\" means to find a way around something, especially a rule or law. This fits the context. Therefore, C is the correct answer."
@@ -2186,122 +1165,62 @@
       "instructionId": "Instruction 5",
       "question": "Coup",
       "options": [
-        {
-          "id": "A",
-          "text": "whup"
-        },
-        {
-          "id": "B",
-          "text": "hoot"
-        },
-        {
-          "id": "C",
-          "text": "couple"
-        },
-        {
-          "id": "D",
-          "text": "scout"
-        }
+        { "id": "A", "text": "whup" },
+        { "id": "B", "text": "hoot" },
+        { "id": "C", "text": "couple" },
+        { "id": "D", "text": "scout" }
       ],
       "correctAnswer": "B",
-      "explanation": "The underlined letters in \"Coup\" are \"ou,\" which makes the /u\u02d0/ sound. The word \"hoot\" has the same vowel sound. Therefore, B is the correct answer."
+      "explanation": "The underlined letters in \"Coup\" are \"ou,\" which makes the /uː/ sound. The word \"hoot\" has the same vowel sound. Therefore, B is the correct answer."
     },
     {
       "id": 87,
       "instructionId": "Instruction 5",
       "question": "Indict",
       "options": [
-        {
-          "id": "A",
-          "text": "bright"
-        },
-        {
-          "id": "B",
-          "text": "fish"
-        },
-        {
-          "id": "C",
-          "text": "pick"
-        },
-        {
-          "id": "D",
-          "text": "brick"
-        }
+        { "id": "A", "text": "bright" },
+        { "id": "B", "text": "fish" },
+        { "id": "C", "text": "pick" },
+        { "id": "D", "text": "brick" }
       ],
       "correctAnswer": "C",
-      "explanation": "The underlined letters in \"Indict\" are \"i,\" which makes the /\u026a/ sound. The word \"pick\" has the same vowel sound. Therefore, C is the correct answer."
+      "explanation": "The underlined letters in \"Indict\" are \"i,\" which makes the /ɪ/ sound. The word \"pick\" has the same vowel sound. Therefore, C is the correct answer."
     },
     {
       "id": 88,
       "instructionId": "Instruction 5",
       "question": "Roared",
       "options": [
-        {
-          "id": "A",
-          "text": "towered"
-        },
-        {
-          "id": "B",
-          "text": "coast"
-        },
-        {
-          "id": "C",
-          "text": "brought"
-        },
-        {
-          "id": "D",
-          "text": "rod"
-        }
+        { "id": "A", "text": "towered" },
+        { "id": "B", "text": "coast" },
+        { "id": "C", "text": "brought" },
+        { "id": "D", "text": "rod" }
       ],
       "correctAnswer": "C",
-      "explanation": "The underlined letters in \"Roared\" are \"oa,\" which makes the /\u0254\u02d0/ sound. The word \"brought\" has the same vowel sound. Therefore, C is the correct answer."
+      "explanation": "The underlined letters in \"Roared\" are \"oa,\" which makes the /ɔː/ sound. The word \"brought\" has the same vowel sound. Therefore, C is the correct answer."
     },
     {
       "id": 89,
       "instructionId": "Instruction 6",
       "question": "Sheath",
       "options": [
-        {
-          "id": "A",
-          "text": "bathe"
-        },
-        {
-          "id": "B",
-          "text": "length"
-        },
-        {
-          "id": "C",
-          "text": "months"
-        },
-        {
-          "id": "D",
-          "text": "paths"
-        }
+        { "id": "A", "text": "bathe" },
+        { "id": "B", "text": "length" },
+        { "id": "C", "text": "months" },
+        { "id": "D", "text": "paths" }
       ],
       "correctAnswer": "B",
-      "explanation": "The underlined letters in \"Sheath\" are \"th,\" which makes the /\u03b8/ sound. The word \"length\" has the same consonant sound. Therefore, B is the correct answer."
+      "explanation": "The underlined letters in \"Sheath\" are \"th,\" which makes the /θ/ sound. The word \"length\" has the same consonant sound. Therefore, B is the correct answer."
     },
     {
       "id": 90,
       "instructionId": "Instruction 6",
       "question": "High",
       "options": [
-        {
-          "id": "A",
-          "text": "what"
-        },
-        {
-          "id": "B",
-          "text": "honest"
-        },
-        {
-          "id": "C",
-          "text": "who"
-        },
-        {
-          "id": "D",
-          "text": "vehicle"
-        }
+        { "id": "A", "text": "what" },
+        { "id": "B", "text": "honest" },
+        { "id": "C", "text": "who" },
+        { "id": "D", "text": "vehicle" }
       ],
       "correctAnswer": "A",
       "explanation": "The underlined letters in \"High\" are \"h,\" which makes the /h/ sound. The word \"what\" has the same consonant sound. Therefore, A is the correct answer."
@@ -2311,22 +1230,10 @@
       "instructionId": "Instruction 6",
       "question": "Of course",
       "options": [
-        {
-          "id": "A",
-          "text": "plough"
-        },
-        {
-          "id": "B",
-          "text": "dough"
-        },
-        {
-          "id": "C",
-          "text": "over"
-        },
-        {
-          "id": "D",
-          "text": "orphan"
-        }
+        { "id": "A", "text": "plough" },
+        { "id": "B", "text": "dough" },
+        { "id": "C", "text": "over" },
+        { "id": "D", "text": "orphan" }
       ],
       "correctAnswer": "D",
       "explanation": "The underlined letters in \"Of course\" are \"c,\" which makes the /k/ sound. The word \"orphan\" has the same consonant sound. Therefore, D is the correct answer."
@@ -2336,97 +1243,49 @@
       "instructionId": "Instruction 7",
       "question": "Boys",
       "options": [
-        {
-          "id": "A",
-          "text": "stays"
-        },
-        {
-          "id": "B",
-          "text": "moist"
-        },
-        {
-          "id": "C",
-          "text": "noise"
-        },
-        {
-          "id": "D",
-          "text": "elbows"
-        }
+        { "id": "A", "text": "stays" },
+        { "id": "B", "text": "moist" },
+        { "id": "C", "text": "noise" },
+        { "id": "D", "text": "elbows" }
       ],
       "correctAnswer": "A",
-      "explanation": "The word \"Boys\" rhymes with \"stays\" as they both end with the /\u0254\u026az/ sound. Therefore, A is the correct answer."
+      "explanation": "The word \"Boys\" rhymes with \"stays\" as they both end with the /ɔɪz/ sound. Therefore, A is the correct answer."
     },
     {
       "id": 93,
       "instructionId": "Instruction 7",
       "question": "Shine",
       "options": [
-        {
-          "id": "A",
-          "text": "clean"
-        },
-        {
-          "id": "B",
-          "text": "fine"
-        },
-        {
-          "id": "C",
-          "text": "machine"
-        },
-        {
-          "id": "D",
-          "text": "lain"
-        }
+        { "id": "A", "text": "clean" },
+        { "id": "B", "text": "fine" },
+        { "id": "C", "text": "machine" },
+        { "id": "D", "text": "lain" }
       ],
       "correctAnswer": "B",
-      "explanation": "The word \"Shine\" rhymes with \"fine\" as they both end with the /a\u026an/ sound. Therefore, B is the correct answer."
+      "explanation": "The word \"Shine\" rhymes with \"fine\" as they both end with the /aɪn/ sound. Therefore, B is the correct answer."
     },
     {
       "id": 94,
       "instructionId": "Instruction 7",
       "question": "Seer",
       "options": [
-        {
-          "id": "A",
-          "text": "snare"
-        },
-        {
-          "id": "B",
-          "text": "spare"
-        },
-        {
-          "id": "C",
-          "text": "spear"
-        },
-        {
-          "id": "D",
-          "text": "square"
-        }
+        { "id": "A", "text": "snare" },
+        { "id": "B", "text": "spare" },
+        { "id": "C", "text": "spear" },
+        { "id": "D", "text": "square" }
       ],
       "correctAnswer": "C",
-      "explanation": "The word \"Seer\" rhymes with \"spear\" as they both end with the /\u026a\u0259r/ sound. Therefore, C is the correct answer."
+      "explanation": "The word \"Seer\" rhymes with \"spear\" as they both end with the /ɪər/ sound. Therefore, C is the correct answer."
     },
     {
       "id": 95,
       "instructionId": "Instruction 8",
       "question": "Political",
       "options": [
-        {
-          "id": "A",
-          "text": "poliTical"
-        },
-        {
-          "id": "B",
-          "text": "PoLitical"
-        },
-        {
-          "id": "C",
-          "text": "POLitical"
-        },
-        {
-          "id": "D",
-          "text": "poliTiCAL"
-        }
+        { "id": "A", "text": "poliTical" },
+        { "id": "B", "text": "PoLitical" },
+        { "id": "C", "text": "POLitical" },
+        { "id": "D", "text": "poliTiCAL" }
       ],
       "correctAnswer": "C",
       "explanation": "The word \"Political\" has the primary stress on the first syllable. The option that shows the first syllable in capital letters is \"POLitical.\" Therefore, C is the correct answer."
@@ -2436,22 +1295,10 @@
       "instructionId": "Instruction 8",
       "question": "Satisfactory",
       "options": [
-        {
-          "id": "A",
-          "text": "saTISfactory"
-        },
-        {
-          "id": "B",
-          "text": "satisFACTory"
-        },
-        {
-          "id": "C",
-          "text": "SATisfactory"
-        },
-        {
-          "id": "D",
-          "text": "satisfactory"
-        }
+        { "id": "A", "text": "saTISfactory" },
+        { "id": "B", "text": "satisFACTory" },
+        { "id": "C", "text": "SATisfactory" },
+        { "id": "D", "text": "satisfactory" }
       ],
       "correctAnswer": "B",
       "explanation": "The word \"Satisfactory\" has the primary stress on the second syllable. The option that shows the second syllable in capital letters is \"satisFACTory.\" Therefore, B is the correct answer."
@@ -2461,22 +1308,10 @@
       "instructionId": "Instruction 8",
       "question": "captivity",
       "options": [
-        {
-          "id": "A",
-          "text": "captiVity"
-        },
-        {
-          "id": "B",
-          "text": "CAPtivity"
-        },
-        {
-          "id": "C",
-          "text": "capTIvity"
-        },
-        {
-          "id": "D",
-          "text": "CAPtiviTY"
-        }
+        { "id": "A", "text": "captiVity" },
+        { "id": "B", "text": "CAPtivity" },
+        { "id": "C", "text": "capTIvity" },
+        { "id": "D", "text": "CAPtiviTY" }
       ],
       "correctAnswer": "C",
       "explanation": "The word \"captivity\" has the primary stress on the second syllable. The option that shows the second syllable in capital letters is \"capTIvity.\" Therefore, C is the correct answer."
@@ -2486,22 +1321,10 @@
       "instructionId": "Instruction 9",
       "question": "EMEKA finished his home work yesterday",
       "options": [
-        {
-          "id": "A",
-          "text": "Was Emeka helped to do his homework?"
-        },
-        {
-          "id": "B",
-          "text": "Did Emeka do his homework?"
-        },
-        {
-          "id": "C",
-          "text": "When did Emeka finish his homework?"
-        },
-        {
-          "id": "D",
-          "text": "Who finished his home work yesterday?"
-        }
+        { "id": "A", "text": "Was Emeka helped to do his homework?" },
+        { "id": "B", "text": "Did Emeka do his homework?" },
+        { "id": "C", "text": "When did Emeka finish his homework?" },
+        { "id": "D", "text": "Who finished his home work yesterday?" }
       ],
       "correctAnswer": "D",
       "explanation": "The emphatic word is \"EMEKA,\" which is the subject of the sentence. The question that relates to the subject is \"Who finished his home work yesterday?\" Therefore, D is the correct answer."
@@ -2511,22 +1334,10 @@
       "instructionId": "Instruction 9",
       "question": "Taiwo SAILED to London",
       "options": [
-        {
-          "id": "A",
-          "text": "Did Taiwo fly to London?"
-        },
-        {
-          "id": "B",
-          "text": "Did Taiwo sail to Brazil?"
-        },
-        {
-          "id": "C",
-          "text": "Did Taiwo sail to London?"
-        },
-        {
-          "id": "D",
-          "text": "Where did Taiwo sail to?"
-        }
+        { "id": "A", "text": "Did Taiwo fly to London?" },
+        { "id": "B", "text": "Did Taiwo sail to Brazil?" },
+        { "id": "C", "text": "Did Taiwo sail to London?" },
+        { "id": "D", "text": "Where did Taiwo sail to?" }
       ],
       "correctAnswer": "C",
       "explanation": "The emphatic word is \"SAILED,\" which is the verb. The question that relates to the verb is \"Did Taiwo sail to London?\" Therefore, C is the correct answer."
@@ -2536,22 +1347,10 @@
       "instructionId": "Instruction 9",
       "question": "My bag is made of LEATHER",
       "options": [
-        {
-          "id": "A",
-          "text": "Whose bag is made of leather"
-        },
-        {
-          "id": "B",
-          "text": "Is my bag made of polythene?"
-        },
-        {
-          "id": "C",
-          "text": "Is Abu's bag made of leather?"
-        },
-        {
-          "id": "D",
-          "text": "Is my bag made of leather?"
-        }
+        { "id": "A", "text": "Whose bag is made of leather" },
+        { "id": "B", "text": "Is my bag made of polythene?" },
+        { "id": "C", "text": "Is Abu's bag made of leather?" },
+        { "id": "D", "text": "Is my bag made of leather?" }
       ],
       "correctAnswer": "D",
       "explanation": "The emphatic word is \"LEATHER,\" which is the material. The question that relates to the material is \"Is my bag made of leather?\" Therefore, D is the correct answer."
