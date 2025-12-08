@@ -60,40 +60,7 @@ class EnglishCBTExamApp {
     
     async loadQuestionsForSubject(subject) {
         try {
-            // Try to load from database first
-            if (examDB && examDB.db) {
-                try {
-                    this.questions = await examDB.getQuestionsBySubject(subject);
-                    
-                    // For English from database, we need to load the passages and instructions separately
-                    // Get the passages and instructions from the database
-                    const subjectContent = await examDB.getAllSubjectContent(subject);
-                    
-                    // Check if we have both questions and content to reorganize
-                    if (this.questions.length > 0 && (subjectContent.passages.length > 0 || subjectContent.instructions.length > 0)) {
-                        console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
-                        
-                        // Reorganize the questions using the passages and instructions from the database
-                        const subjectData = {
-                            questions: this.questions,
-                            passages: subjectContent.passages,
-                            instructions: subjectContent.instructions
-                        };
-                        
-                        this.questions = this.reorganizeEnglishQuestions(subjectData);
-                        console.log(`Reorganized ${this.questions.length} English questions (with passages and instructions) from database`);
-                        
-                        this.renderQuestionList(); // Initialize the question list after loading questions
-                        return;
-                    }
-                } catch (dbError) {
-                    console.error('Error loading questions from database:', dbError);
-                    // Continue to fallback method
-                }
-            }
-            
-            // Fallback to subject-specific JSON files with year selection
-            // Convert subject name to lowercase and replace underscores with hyphens for filename
+            // Always load from the selected year's JSON file first, regardless of database content
             // Use the selected year for the filename
             const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${this.selectedYear}.json`;
             const response = await fetch(fileName);
@@ -112,21 +79,24 @@ class EnglishCBTExamApp {
                     this.questions = subjectData.questions;
                 }
                 
-                // Optionally, add questions to database for future use
+                // Optionally, update the database with the loaded questions
                 if (examDB && examDB.db) {
                     try {
+                        // Clear existing subject questions first to avoid duplicates
+                        await examDB.clearSubjectData(subject);
+                        // Add the newly loaded questions to the database
                         await examDB.addQuestions(subject, subjectData.questions || []);
-                        console.log(`Added ${subjectData.questions ? subjectData.questions.length : 0} questions to database for ${subject}`);
+                        console.log(`Added ${subjectData.questions ? subjectData.questions.length : 0} questions to database for ${subject} (${this.selectedYear})`);
                         
                         // Add passages and instructions to database if they exist
                         if (subjectData.passages && subjectData.passages.length > 0) {
                             await examDB.addSubjectContent(subject, 'passage', subjectData.passages);
-                            console.log(`Added ${subjectData.passages.length} passages to database for ${subject}`);
+                            console.log(`Added ${subjectData.passages.length} passages to database for ${subject} (${this.selectedYear})`);
                         }
                         
                         if (subjectData.instructions && subjectData.instructions.length > 0) {
                             await examDB.addSubjectContent(subject, 'instruction', subjectData.instructions);
-                            console.log(`Added ${subjectData.instructions.length} instructions to database for ${subject}`);
+                            console.log(`Added ${subjectData.instructions.length} instructions to database for ${subject} (${this.selectedYear})`);
                         }
                     } catch (addError) {
                         console.error('Error adding questions to database:', addError);
@@ -134,7 +104,7 @@ class EnglishCBTExamApp {
                 }
                 
                 // For English, we already have the reorganized questions with proper IDs
-                console.log(`Using all ${this.questions.length} reorganized English questions (passages, instructions, and questions)`);
+                console.log(`Using all ${this.questions.length} reorganized English questions (passages, instructions, and questions) from ${this.selectedYear}`);
                 
                 this.renderQuestionList(); // Initialize the question list after loading questions
                 // Questions are loaded, but don't change the screen - let the normal flow continue

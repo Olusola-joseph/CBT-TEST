@@ -68,7 +68,7 @@ class ExamDatabase {
         });
     }
 
-    // Populate database with questions if it's empty or force populate for English
+    // Populate database with questions if it's empty
     async populateDatabaseIfEmpty() {
         // Check if questions exist for any subject
         const transaction = this.db.transaction(['questions'], 'readonly');
@@ -82,10 +82,9 @@ class ExamDatabase {
                     await this.populateDatabase();
                     resolve();
                 } else {
-                    // Force refresh of English content to ensure latest changes are loaded
-                    console.log('Database already has questions, but forcing refresh for English content to load latest JSON changes...');
-                    await this.refreshEnglishContent();
-                    console.log('English content refreshed from JSON file');
+                    // Database already has questions, no need to refresh during initialization
+                    // Year-specific content will be loaded when user selects a year
+                    console.log('Database already has questions, skipping refresh during initialization');
                     resolve();
                 }
             };
@@ -98,12 +97,12 @@ class ExamDatabase {
     }
     
     // Refresh English content to ensure latest changes from JSON are loaded
-    async refreshEnglishContent() {
+    async refreshEnglishContent(year = 'jamb_2010') {
         // Remove existing English questions and content
         await this.clearSubjectData('English');
         
-        // Load fresh English data from JSON file
-        const fileName = `src/data/subjects/english_questions_jamb_2010.json`;
+        // Load fresh English data from JSON file for the specified year
+        const fileName = `src/data/subjects/english_questions_${year}.json`;
         try {
             const response = await fetch(fileName);
             if (!response.ok) {
@@ -117,23 +116,23 @@ class ExamDatabase {
                 // Add questions to database
                 if (subjectData.questions) {
                     await this.addQuestions('English', subjectData.questions);
-                    console.log(`Added ${subjectData.questions.length} questions for English to database`);
+                    console.log(`Added ${subjectData.questions.length} questions for English (${year}) to database`);
                 }
                 
                 // Add passages to database if they exist
                 if (subjectData.passages && subjectData.passages.length > 0) {
                     await this.addSubjectContent('English', 'passage', subjectData.passages);
-                    console.log(`Added ${subjectData.passages.length} passages for English to database`);
+                    console.log(`Added ${subjectData.passages.length} passages for English (${year}) to database`);
                 }
                 
                 // Add instructions to database if they exist
                 if (subjectData.instructions && subjectData.instructions.length > 0) {
                     await this.addSubjectContent('English', 'instruction', subjectData.instructions);
-                    console.log(`Added ${subjectData.instructions.length} instructions for English to database`);
+                    console.log(`Added ${subjectData.instructions.length} instructions for English (${year}) to database`);
                 }
             }
         } catch (error) {
-            console.error(`Error refreshing English content:`, error);
+            console.error(`Error refreshing English content for ${year}:`, error);
         }
     }
     
@@ -192,8 +191,8 @@ class ExamDatabase {
             
             for (const subject of subjects) {
                 // Define available years for each subject
-                // For English, only load 2010 questions as per requirements
-                const years = subject === 'English' ? ['jamb_2010'] : ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015'];
+                // Now include all years for English as well
+                const years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019'];
                 
                 for (const year of years) {
                     // Load questions for each year
