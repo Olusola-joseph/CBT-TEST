@@ -198,7 +198,7 @@ class EnglishCBTExamApp {
                             type: 'passage',
                             title: passage.id,
                             text: passage.text,
-                            question: `<div class="english-passage"><h4>${passage.id}</h4><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
+                            question: `<div class="english-passage"><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
                             options: [{ id: "CONTINUE", text: "Continue to questions" }],
                             correctAnswer: "CONTINUE",
                             explanation: "This is a passage. Please read carefully before answering the questions that follow."
@@ -235,7 +235,7 @@ class EnglishCBTExamApp {
                             type: 'instruction',
                             title: instruction.id,
                             text: instruction.text,
-                            question: `<div class="english-instruction"><h4>${instruction.id}</h4><p>${instruction.text}</p></div>`,
+                            question: `<div class="english-instruction"><p>${instruction.text}</p></div>`,
                             options: [{ id: "CONTINUE", text: "Continue to questions" }],
                             correctAnswer: "CONTINUE",
                             explanation: "Please read the instructions carefully before attempting the questions that follow."
@@ -465,7 +465,11 @@ class EnglishCBTExamApp {
 
         this.currentQuestionIndex = index;
         const question = this.questions[index];
-        
+
+        // Calculate actual question number (excluding passages and instructions)
+        const actualQuestionNumber = this.getActualQuestionNumber(index);
+        const actualTotalQuestions = this.getActualQuestionCount();
+
         // Update question display - using innerHTML to support HTML tags like <u>
         // For passages and instructions, show more descriptive labels
         if (question.type === 'passage') {
@@ -473,7 +477,7 @@ class EnglishCBTExamApp {
         } else if (question.type === 'instruction') {
             document.getElementById('q-number').textContent = question.title; // "Instruction 1", "Instruction 2", etc.
         } else {
-            document.getElementById("q-number").textContent = `Question ${question.id}`;
+            document.getElementById("q-number").textContent = `Question ${actualQuestionNumber}`;
         }
         // For passages and instructions, use the pre-formatted question HTML which already contains the content
         if (question.type === "passage" || question.type === "instruction") {
@@ -483,8 +487,8 @@ class EnglishCBTExamApp {
             // For regular questions, just display the question text
             document.getElementById("question-text").innerHTML = question.question;
         }
-        document.getElementById("current-q").textContent = index + 1;
-        document.getElementById("total-q").textContent = this.questions.length;
+        document.getElementById("current-q").textContent = actualQuestionNumber;
+        document.getElementById("total-q").textContent = actualTotalQuestions;
         
         // Update question container class based on content type for better styling
         const questionContainer = document.querySelector('.question-container');
@@ -517,6 +521,28 @@ class EnglishCBTExamApp {
                 questionBody.classList.remove('question-transition');
             }, 300);
         }
+    }
+
+    // Helper method to get the actual question number (excluding passages and instructions)
+    getActualQuestionNumber(index) {
+        let actualQuestionNumber = 0;
+        for (let i = 0; i <= index; i++) {
+            if (this.questions[i].type !== 'passage' && this.questions[i].type !== 'instruction') {
+                actualQuestionNumber++;
+            }
+        }
+        return actualQuestionNumber;
+    }
+
+    // Helper method to get the total count of actual questions (excluding passages and instructions)
+    getActualQuestionCount() {
+        let count = 0;
+        for (let i = 0; i < this.questions.length; i++) {
+            if (this.questions[i].type !== 'passage' && this.questions[i].type !== 'instruction') {
+                count++;
+            }
+        }
+        return count;
     }
 
     renderOptions(question) {
@@ -625,14 +651,26 @@ class EnglishCBTExamApp {
     }
 
     previousQuestion() {
-        if (this.currentQuestionIndex > 0) {
-            this.loadQuestion(this.currentQuestionIndex - 1);
+        // Skip backwards over passages and instructions
+        let newIndex = this.currentQuestionIndex - 1;
+        while (newIndex >= 0 && (this.questions[newIndex].type === 'passage' || this.questions[newIndex].type === 'instruction')) {
+            newIndex--;
+        }
+        
+        if (newIndex >= 0) {
+            this.loadQuestion(newIndex);
         }
     }
 
     nextQuestion() {
-        if (this.currentQuestionIndex < this.questions.length - 1) {
-            this.loadQuestion(this.currentQuestionIndex + 1);
+        // Skip forwards over passages and instructions
+        let newIndex = this.currentQuestionIndex + 1;
+        while (newIndex < this.questions.length && (this.questions[newIndex].type === 'passage' || this.questions[newIndex].type === 'instruction')) {
+            newIndex++;
+        }
+        
+        if (newIndex < this.questions.length) {
+            this.loadQuestion(newIndex);
         }
     }
 
@@ -641,8 +679,14 @@ class EnglishCBTExamApp {
         const submitBtn = document.getElementById('submit-btn');
 
         if (nextBtn) {
+            // Find the next actual question (skip passages and instructions)
+            let nextQuestionIndex = this.currentQuestionIndex + 1;
+            while (nextQuestionIndex < this.questions.length && (this.questions[nextQuestionIndex].type === 'passage' || this.questions[nextQuestionIndex].type === 'instruction')) {
+                nextQuestionIndex++;
+            }
+            
             // Disable next button if on the last question
-            nextBtn.disabled = this.currentQuestionIndex === this.questions.length - 1;
+            nextBtn.disabled = nextQuestionIndex >= this.questions.length;
         }
 
         if (submitBtn) {
@@ -666,7 +710,19 @@ class EnglishCBTExamApp {
                 button.classList.add('passage');
             }
 
-            button.textContent = index + 1;
+            // Display actual question number if it's a real question
+            if (question.type !== 'passage' && question.type !== 'instruction') {
+                const actualNumber = this.getActualQuestionNumber(index);
+                button.textContent = actualNumber;
+            } else {
+                // For passages and instructions, show a visual indicator
+                if (question.type === 'passage') {
+                    button.textContent = 'P';
+                } else if (question.type === 'instruction') {
+                    button.textContent = 'I';
+                }
+            }
+            
             button.dataset.index = index;
 
             button.addEventListener('click', () => {
@@ -749,9 +805,8 @@ class EnglishCBTExamApp {
 
     showResults(score) {
         this.showScreen('results-screen');
-
-        const totalQuestions = this.questions.length;
-        const percentage = Math.round((score / totalQuestions) * 100);
+        const totalQuestions = this.getActualQuestionCount();
+        const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
 
         document.getElementById('score-display').textContent = score;
         document.getElementById('total-questions').textContent = totalQuestions;
