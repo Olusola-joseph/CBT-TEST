@@ -68,7 +68,7 @@ class ExamDatabase {
         });
     }
 
-    // Populate database with questions if it's empty
+    // Populate database with questions if it's empty or force populate for English
     async populateDatabaseIfEmpty() {
         // Check if questions exist for any subject
         const transaction = this.db.transaction(['questions'], 'readonly');
@@ -79,62 +79,17 @@ class ExamDatabase {
             request.onsuccess = async () => {
                 if (request.result === 0) {
                     console.log('Database is empty, populating with questions...');
-                    try {
-                        // Load questions from the new subject-specific JSON files
-                        const subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
-                        
-                        for (const subject of subjects) {
-                            // Define available years for each subject
-                            // For English, only load 2010 questions as per requirements
-                            const years = subject === 'English' ? ['jamb_2010'] : ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015'];
-                            
-                            for (const year of years) {
-                                // Load questions for each year
-                                const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
-                                try {
-                                    const response = await fetch(fileName);
-                                    if (!response.ok) {
-                                        console.error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
-                                        continue; // Skip to next file
-                                    }
-                                    
-                                    const subjectData = await response.json();
-                                    
-                                    if (subjectData) {
-                                        // Add questions to database
-                                        if (subjectData.questions) {
-                                            await this.addQuestions(subject, subjectData.questions);
-                                            console.log(`Added ${subjectData.questions.length} questions for ${subject} (${year}) to database`);
-                                        }
-                                        
-                                        // Add passages to database if they exist
-                                        if (subjectData.passages && subjectData.passages.length > 0) {
-                                            await this.addSubjectContent(subject, 'passage', subjectData.passages);
-                                            console.log(`Added ${subjectData.passages.length} passages for ${subject} (${year}) to database`);
-                                        }
-                                        
-                                        // Add instructions to database if they exist
-                                        if (subjectData.instructions && subjectData.instructions.length > 0) {
-                                            await this.addSubjectContent(subject, 'instruction', subjectData.instructions);
-                                            console.log(`Added ${subjectData.instructions.length} instructions for ${subject} (${year}) to database`);
-                                        }
-                                    }
-                                } catch (error) {
-                                    console.error(`Error loading questions for ${subject} (${year}):`, error);
-                                    // Continue with other years
-                                    continue;
-                                }
-                            }
-                        }
-                        
-                        console.log('Database populated with questions from subject-specific files');
-                        resolve();
-                    } catch (error) {
-                        console.error('Error loading questions from JSON files:', error);
-                        reject(error);
-                    }
+                    await this.populateDatabase();
+                    resolve();
                 } else {
-                    console.log('Database already has questions, skipping population');
+                    // Check if English content is missing (passages and instructions)
+                    const englishContent = await this.getAllSubjectContent('English');
+                    if (englishContent.passages.length === 0 || englishContent.instructions.length === 0) {
+                        console.log('English passages or instructions missing, repopulating database...');
+                        await this.populateDatabase();
+                    } else {
+                        console.log('Database already has questions, skipping population');
+                    }
                     resolve();
                 }
             };
@@ -144,6 +99,63 @@ class ExamDatabase {
                 reject(request.error);
             };
         });
+    }
+    
+    // Separate function to populate the database
+    async populateDatabase() {
+        try {
+            // Load questions from the new subject-specific JSON files
+            const subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
+            
+            for (const subject of subjects) {
+                // Define available years for each subject
+                // For English, only load 2010 questions as per requirements
+                const years = subject === 'English' ? ['jamb_2010'] : ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015'];
+                
+                for (const year of years) {
+                    // Load questions for each year
+                    const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${year}.json`;
+                    try {
+                        const response = await fetch(fileName);
+                        if (!response.ok) {
+                            console.error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
+                            continue; // Skip to next file
+                        }
+                        
+                        const subjectData = await response.json();
+                        
+                        if (subjectData) {
+                            // Add questions to database
+                            if (subjectData.questions) {
+                                await this.addQuestions(subject, subjectData.questions);
+                                console.log(`Added ${subjectData.questions.length} questions for ${subject} (${year}) to database`);
+                            }
+                            
+                            // Add passages to database if they exist
+                            if (subjectData.passages && subjectData.passages.length > 0) {
+                                await this.addSubjectContent(subject, 'passage', subjectData.passages);
+                                console.log(`Added ${subjectData.passages.length} passages for ${subject} (${year}) to database`);
+                            }
+                            
+                            // Add instructions to database if they exist
+                            if (subjectData.instructions && subjectData.instructions.length > 0) {
+                                await this.addSubjectContent(subject, 'instruction', subjectData.instructions);
+                                console.log(`Added ${subjectData.instructions.length} instructions for ${subject} (${year}) to database`);
+                            }
+                        }
+                    } catch (error) {
+                        console.error(`Error loading questions for ${subject} (${year}):`, error);
+                        // Continue with other years
+                        continue;
+                    }
+                }
+            }
+            
+            console.log('Database populated with questions from subject-specific files');
+        } catch (error) {
+            console.error('Error loading questions from JSON files:', error);
+            throw error;
+        }
     }
 
     // Add questions for a subject
