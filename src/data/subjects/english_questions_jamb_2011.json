@@ -57,7 +57,1164 @@
   ],
   "questions": [
     {
-      "id": 95,
+      "id": 1,
+      "passageId": "Passage I",
+      "question": "Which Use of English Paper Type is given to you?",
+      "options": [
+        { "id": "A", "text": "Type A" },
+        { "id": "B", "text": "Type B" },
+        { "id": "C", "text": "Type C" },
+        { "id": "D", "text": "Type D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The image header clearly states 'Paper Type: D'. This is an administrative question; the correct answer is D."
+    },
+    {
+      "id": 2,
+      "passageId": "Passage I",
+      "question": "The radio station caused excitement among scientists because",
+      "options": [
+        { "id": "A", "text": "it had a range of fifteen miles" },
+        { "id": "B", "text": "it was the first to use bacteria as a power source" },
+        { "id": "C", "text": "it was more powerful than space communication" },
+        { "id": "D", "text": "it could operate without electricity" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage states: 'The reason: its power supply was a \"battery\" made of bacteria. For the first time, practical amounts of electricity were being produced by a form of life...' This makes B the correct answer."
+    },
+    {
+      "id": 3,
+      "passageId": "Passage I",
+      "question": "The bio cell was a breakthrough because it",
+      "options": [
+        { "id": "A", "text": "used solar energy to produce electricity" },
+        { "id": "B", "text": "eliminated the need for sugar in bacterial metabolism" },
+        { "id": "C", "text": "harnessed natural processes in living cells to generate power" },
+        { "id": "D", "text": "replaced all conventional batteries" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage says: 'The battery was a breakthrough because it used natural processes in living cells to produce electrical energy.' Option C is a direct paraphrase."
+    },
+    {
+      "id": 4,
+      "passageId": "Passage I",
+      "question": "According to the passage, bacteria produce electricity when they",
+      "options": [
+        { "id": "A", "text": "are exposed to sunlight" },
+        { "id": "B", "text": "feed on sugar and release electrons" },
+        { "id": "C", "text": "die and decompose" },
+        { "id": "D", "text": "are combined with metal electrodes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage states: 'certain bacteria, when fed sugar, released electrons as a by-product of their metabolism. These electrons could be captured...'. This directly supports B."
+    },
+    {
+      "id": 5,
+      "passageId": "Passage I",
+      "question": "The phrase 'life itself could be harnessed as a power source' suggests that",
+      "options": [
+        { "id": "A", "text": "all living things can generate electricity" },
+        { "id": "B", "text": "biological processes can be used intentionally for energy production" },
+        { "id": "C", "text": "humans will no longer need fuel" },
+        { "id": "D", "text": "plants are better than bacteria for energy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The phrase is metaphorical, emphasizing that biological systems (like bacterial metabolism) can be engineered for energy generation — i.e., harnessed intentionally. B is precise."
+    },
+    {
+      "id": 6,
+      "passageId": "Passage II",
+      "question": "According to the passage, what a man thinks",
+      "options": [
+        { "id": "A", "text": "is influenced by his environment" },
+        { "id": "B", "text": "determines what he becomes" },
+        { "id": "C", "text": "can be changed easily" },
+        { "id": "D", "text": "is not important if his actions are good" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage opens with: 'What a man thinks determines what he becomes.' This is a direct quote, making B correct."
+    },
+    {
+      "id": 7,
+      "passageId": "Passage II",
+      "question": "The writer compares a polluted mind to",
+      "options": [
+        { "id": "A", "text": "dirty water" },
+        { "id": "B", "text": "a broken machine" },
+        { "id": "C", "text": "a dark room" },
+        { "id": "D", "text": "a wild animal" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The passage states: 'Just as dirty water cannot produce clean ice, so an impure mind cannot produce wholesome conduct.' The explicit comparison is to dirty water."
+    },
+    {
+      "id": 8,
+      "passageId": "Passage II",
+      "question": "Mental purification, according to the passage, begins with",
+      "options": [
+        { "id": "A", "text": "meditation" },
+        { "id": "B", "text": "reading good books" },
+        { "id": "C", "text": "avoiding bad company" },
+        { "id": "D", "text": "awareness" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage says: 'Purification begins with awareness.' This is stated explicitly, making D correct."
+    },
+    {
+      "id": 9,
+      "passageId": "Passage II",
+      "question": "Which of the following is NOT mentioned as influencing the mind?",
+      "options": [
+        { "id": "A", "text": "The company one keeps" },
+        { "id": "B", "text": "The food one eats" },
+        { "id": "C", "text": "The books one reads" },
+        { "id": "D", "text": "The programmes one watches" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage lists: 'The company one keeps, the books one reads, the programmes one watches'. 'Food' is not mentioned, so B is the correct answer."
+    },
+    {
+      "id": 10,
+      "passageId": "Passage II",
+      "question": "The overall purpose of the passage is to",
+      "options": [
+        { "id": "A", "text": "warn against the danger of evil deeds" },
+        { "id": "B", "text": "explain how thoughts originate" },
+        { "id": "C", "text": "emphasize the importance of guarding one’s thoughts" },
+        { "id": "D", "text": "describe the function of the brain" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage repeatedly stresses guarding the mind, rejecting harmful thoughts, and mental purification. Its central theme is the critical importance of monitoring one’s thoughts — making C the best answer."
+    },
+    {
+      "id": 11,
+      "instructionId": "Instruction 1",
+      "question": "The chairman has been accused of being partial to his relatives.",
+      "options": [
+        { "id": "A", "text": "He treats his relatives fairly" },
+        { "id": "B", "text": "He is biased in favour of his relatives" },
+        { "id": "C", "text": "He is strict with his relatives" },
+        { "id": "D", "text": "He is indifferent to his relatives" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Partial to' means biased in favour of. The accusation is of favouritism, so B is correct."
+    },
+    {
+      "id": 12,
+      "instructionId": "Instruction 1",
+      "question": "The manager’s decision to sack the workers was a bolt from the blue.",
+      "options": [
+        { "id": "A", "text": "It was an expected decision" },
+        { "id": "B", "text": "It was a very harsh decision" },
+        { "id": "C", "text": "It was a sudden and unexpected decision" },
+        { "id": "D", "text": "It was a wise decision" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'A bolt from the blue' means a complete surprise — sudden and unexpected. C is correct."
+    },
+    {
+      "id": 13,
+      "instructionId": "Instruction 1",
+      "question": "Uche is always wearing the long face.",
+      "options": [
+        { "id": "A", "text": "He is always cheerful" },
+        { "id": "B", "text": "He is always serious" },
+        { "id": "C", "text": "He is always sad or gloomy" },
+        { "id": "D", "text": "He has a long-shaped face" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Wearing the long face' is an idiom meaning to look sad, unhappy, or sullen. C is correct."
+    },
+    {
+      "id": 14,
+      "instructionId": "Instruction 1",
+      "question": "The principal warned the students against taking the law into their own hands.",
+      "options": [
+        { "id": "A", "text": "He warned them against reporting crimes to the police" },
+        { "id": "B", "text": "He warned them against studying law" },
+        { "id": "C", "text": "He warned them against seeking personal revenge" },
+        { "id": "D", "text": "He warned them against disobeying the school laws" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Taking the law into one’s own hands' means to seek personal vengeance instead of relying on legal authority. C is correct."
+    },
+    {
+      "id": 15,
+      "instructionId": "Instruction 1",
+      "question": "The new teacher made a clean breast of the matter.",
+      "options": [
+        { "id": "A", "text": "He lied about the matter" },
+        { "id": "B", "text": "He concealed the matter" },
+        { "id": "C", "text": "He confessed everything about the matter" },
+        { "id": "D", "text": "He washed his chest before discussing the matter" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Made a clean breast of' means to confess fully and openly. C is correct."
+    },
+    {
+      "id": 16,
+      "passageId": "Passage IV",
+      "question": "Believe it or not, change is to human existence what the blood is to the human body. We live in an era of amazing ......16...... change",
+      "options": [
+        { "id": "A", "text": "well-define" },
+        { "id": "B", "text": "fast-paced" },
+        { "id": "C", "text": "favourable" },
+        { "id": "D", "text": "social" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The context describes rapid, technology-driven change. 'Fast-paced' is the only option that fits the description of modern, accelerating change."
+    },
+    {
+      "id": 17,
+      "passageId": "Passage IV",
+      "question": "However, man's......17...... promoting and defending change in a deliberate effort to establish",
+      "options": [
+        { "id": "A", "text": "Knowledge of" },
+        { "id": "B", "text": "attitude to" },
+        { "id": "C", "text": "commitment to" },
+        { "id": "D", "text": "opinion of" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The phrase 'man's attitude to promoting and defending change' is grammatically correct and contextually logical. 'Attitude' refers to a person's perspective or disposition towards something."
+    },
+    {
+      "id": 18,
+      "passageId": "Passage IV",
+      "question": "establish ......18...... that stimulate advancement for man's concern",
+      "options": [
+        { "id": "A", "text": "customs" },
+        { "id": "B", "text": "companies" },
+        { "id": "C", "text": "trade-zone" },
+        { "id": "D", "text": "variations" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Trade-zone' (or trade zone) is a term for designated areas for commerce, which can stimulate economic advancement. While not perfect, it is the most contextually relevant option."
+    },
+    {
+      "id": 19,
+      "passageId": "Passage IV",
+      "question": "is proving unfavourable to the climate with threatening ......19......",
+      "options": [
+        { "id": "A", "text": "repercussions" },
+        { "id": "B", "text": "clouds" },
+        { "id": "C", "text": "pressure" },
+        { "id": "D", "text": "implication" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Repercussions' means consequences, especially negative ones. Climate change has 'threatening repercussions' — this is standard usage."
+    },
+    {
+      "id": 20,
+      "passageId": "Passage IV",
+      "question": "As a matter of fact, climate change is now......20...... globe issue.",
+      "options": [
+        { "id": "A", "text": "an acceptable" },
+        { "id": "B", "text": "a foremost" },
+        { "id": "C", "text": "the only" },
+        { "id": "D", "text": "the last" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Climate change is described as a major, pressing issue. 'A foremost' (meaning primary or most important) is the best fit."
+    },
+    {
+      "id": 21,
+      "passageId": "Passage IV",
+      "question": "It is a major test of Africa's......21......!",
+      "options": [
+        { "id": "A", "text": "popularity" },
+        { "id": "B", "text": "energy" },
+        { "id": "C", "text": "ingenuity" },
+        { "id": "D", "text": "incapability" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The context implies Africa must respond creatively to the challenge. 'Ingenuity' (cleverness, inventiveness) is the most appropriate choice."
+    },
+    {
+      "id": 22,
+      "passageId": "Passage IV",
+      "question": "confirm that human action are changing the earth's climate and creating major disturbance in human......22...... and ecosystems.",
+      "options": [
+        { "id": "A", "text": "geography" },
+        { "id": "B", "text": "society" },
+        { "id": "C", "text": "systems" },
+        { "id": "D", "text": "life" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Human activity affects complex 'systems' — ecological, climatic, social. 'Systems' is the broadest and most accurate term here."
+    },
+    {
+      "id": 23,
+      "passageId": "Passage IV",
+      "question": "The rising global ......23...... for energy",
+      "options": [
+        { "id": "A", "text": "command" },
+        { "id": "B", "text": "demand" },
+        { "id": "C", "text": "warning" },
+        { "id": "D", "text": "supply" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Rising global demand for energy' is the standard collocation."
+    },
+    {
+      "id": 24,
+      "passageId": "Passage IV",
+      "question": "commensurate with the level of greenhouse ......24...... it spews out",
+      "options": [
+        { "id": "A", "text": "structure" },
+        { "id": "B", "text": "paints" },
+        { "id": "C", "text": "emulsion" },
+        { "id": "D", "text": "emissions" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Greenhouse emissions' is the correct technical term for gases like CO2 that contribute to global warming."
+    },
+    {
+      "id": 25,
+      "passageId": "Passage IV",
+      "question": "a strategy that cannot, thus far, be termed ......25......",
+      "options": [
+        { "id": "A", "text": "notable" },
+        { "id": "B", "text": "liable" },
+        { "id": "C", "text": "credible" },
+        { "id": "D", "text": "flexible" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage critiques the strategy as ineffective. 'Credible' (believable or trustworthy) is the best fit — the strategy lacks credibility."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 2",
+      "question": "If he were here, it could be more fun",
+      "options": [
+        { "id": "A", "text": "He was expected but did not show up to make the occasion lively." },
+        { "id": "B", "text": "There was no fun because he was not present." },
+        { "id": "C", "text": "He did not show up and so the occasion lacked much fun." },
+        { "id": "D", "text": "He was being expected to supply more fun." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The conditional 'If he were here' implies he was expected. 'It could be more fun' suggests his presence would have improved the situation. A captures this best."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 2",
+      "question": "The secretary said that the postponement of the meeting was due to unforeseen circumstances.",
+      "options": [
+        { "id": "A", "text": "The date of the meeting was shifted as a result of unexpected reasons." },
+        { "id": "B", "text": "The meeting's date was put off for strange reasons." },
+        { "id": "C", "text": "The meeting was called off as a result of obstacles hitherto unknown." },
+        { "id": "D", "text": "The meeting broke off as a result of unusual difficulties." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Unforeseen circumstances' means unexpected events. 'Shifted as a result of unexpected reasons' is a direct paraphrase."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 2",
+      "question": "The hunter has a bird's-eye view of the animals.",
+      "options": [
+        { "id": "A", "text": "He views the animal from a high position." },
+        { "id": "B", "text": "He views the bird's eye." },
+        { "id": "C", "text": "He views the birds on the tree with one eye." },
+        { "id": "D", "text": "He watches animals and birds closely." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Bird's-eye view' is an idiom meaning a view from above or from a high vantage point. A is correct."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 2",
+      "question": "Even though Susan was the last in the examination, her result wasn't too different from what had been expected.",
+      "options": [
+        { "id": "A", "text": "Her result was poor." },
+        { "id": "B", "text": "Her result was a disappointment." },
+        { "id": "C", "text": "Her result was as expected." },
+        { "id": "D", "text": "She had not been serious with her studies." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The sentence says her result 'wasn't too different from what had been expected' — meaning it matched expectations. C is correct."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 2",
+      "question": "Mrs. Adasu does all her work with more haste, less speed.",
+      "options": [
+        { "id": "A", "text": "She accepts whatever she does with more haste and speed." },
+        { "id": "B", "text": "She approaches whatever she does very quickly to avoid mistakes." },
+        { "id": "C", "text": "She addresses everything she does very quickly to avoid mistakes." },
+        { "id": "D", "text": "She does everything carefully to avoid mistakes." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The proverb 'more haste, less speed' implies rushing leads to errors. So she does things carefully to avoid mistakes — D is correct."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 2",
+      "question": "She stopped her education as her uncle left her in the lurch.",
+      "options": [
+        { "id": "A", "text": "Her uncle deceived her." },
+        { "id": "B", "text": "Her uncle disinherited her." },
+        { "id": "C", "text": "Her uncle refused to help her" },
+        { "id": "D", "text": "Her uncle disrespected her" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Left her in the lurch' means abandoned her when she needed help. C is correct."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 2",
+      "question": "The plan to upgrade the dispensary to a general hospital did not materialize.",
+      "options": [
+        { "id": "A", "text": "The plan did not meet the required specifications." },
+        { "id": "B", "text": "The arrangement did not work out as wished." },
+        { "id": "C", "text": "It was difficult to obtained the materials." },
+        { "id": "D", "text": "The materials purchased were not the right ones." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Did not materialize' means it did not happen or come to fruition. B is the best paraphrase."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 2",
+      "question": "Okon's company took a hit last year.",
+      "options": [
+        { "id": "A", "text": "His company improved last year." },
+        { "id": "B", "text": "His company made a huge success last year." },
+        { "id": "C", "text": "His company was badly damaged last year." },
+        { "id": "D", "text": "His company was established last year." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Took a hit' means suffered damage or loss. C is correct."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 2",
+      "question": "My eldest son, who is in Lagos is studying English.",
+      "options": [
+        { "id": "A", "text": "Only my son is in Lagos studying English." },
+        { "id": "B", "text": "My only son is in Lagos studying English." },
+        { "id": "C", "text": "One of my son is in Lagos studying English" },
+        { "id": "D", "text": "My sons are in Lagos but only one is studying English." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The phrase 'my eldest son' implies there are other sons. 'Who is in Lagos' specifies which son. So D is correct: multiple sons, one in Lagos studying English."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 2",
+      "question": "If I went to the village, I would visit the king.",
+      "options": [
+        { "id": "A", "text": "If I go to the village I will visit the King" },
+        { "id": "B", "text": "I did not go to the village and I did not visit the king" },
+        { "id": "C", "text": "All the times I went to village I also visited the King" },
+        { "id": "D", "text": "I will visit the king when I go to the village" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The past subjunctive 'If I went... I would...' implies the condition is false — he did not go, and therefore did not visit. B is correct."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 3",
+      "question": "Since its inception in 1983, the newspaper has attracted thousands of readers.",
+      "options": [
+        { "id": "A", "text": "renaissance" },
+        { "id": "B", "text": "coming" },
+        { "id": "C", "text": "commencement" },
+        { "id": "D", "text": "publication" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Inception' means beginning or start. 'Commencement' is a synonym."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 3",
+      "question": "Mrs. Asio wanted her sister to stop being so detached",
+      "options": [
+        { "id": "A", "text": "friendly" },
+        { "id": "B", "text": "careless" },
+        { "id": "C", "text": "indifferent" },
+        { "id": "D", "text": "passionate" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Detached' means emotionally distant or uninvolved. 'Indifferent' is a synonym."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 3",
+      "question": "Lantana dwelt in a ruined cottage on the hillside.",
+      "options": [
+        { "id": "A", "text": "sat" },
+        { "id": "B", "text": "worked" },
+        { "id": "C", "text": "slept" },
+        { "id": "D", "text": "lived" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Dwelt' is an archaic form of 'lived'. D is correct."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 3",
+      "question": "The mistake brought the show to an ignominious end",
+      "options": [
+        { "id": "A", "text": "a good" },
+        { "id": "B", "text": "a palatable" },
+        { "id": "C", "text": "a disgraceful" },
+        { "id": "D", "text": "a satisfactory" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Ignominious' means shameful or dishonorable. 'Disgraceful' is a synonym."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 3",
+      "question": "He compliments me on my way of doing things.",
+      "options": [
+        { "id": "A", "text": "complements" },
+        { "id": "B", "text": "imitates" },
+        { "id": "C", "text": "disgusts" },
+        { "id": "D", "text": "praises" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Compliments' means praises or expresses admiration. D is correct."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 3",
+      "question": "The girl is angry with her friend who had ensnared her into this relationship.",
+      "options": [
+        { "id": "A", "text": "tricked" },
+        { "id": "B", "text": "encouraged" },
+        { "id": "C", "text": "encouraged" },
+        { "id": "D", "text": "forced" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Ensnared' means trapped or tricked. 'Tricked' is the closest synonym."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 3",
+      "question": "Their new house was roofed with corrugated sheets.",
+      "options": [
+        { "id": "A", "text": "folded" },
+        { "id": "B", "text": "iron" },
+        { "id": "C", "text": "aluminium" },
+        { "id": "D", "text": "corrupted" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Corrugated sheets are typically made of iron or steel. 'Iron' is the best available synonym."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 3",
+      "question": "The stockbroker said it was an astute move to sell the shares then.",
+      "options": [
+        { "id": "A", "text": "a bad" },
+        { "id": "B", "text": "a shrewd" },
+        { "id": "C", "text": "an unprofitable" },
+        { "id": "D", "text": "an insincere" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Astute' means clever or shrewd. 'Shrewd' is a synonym."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 3",
+      "question": "The principal described Oche as the most tactful person he had ever worked with.",
+      "options": [
+        { "id": "A", "text": "passionate" },
+        { "id": "B", "text": "discrete" },
+        { "id": "C", "text": "hard-working" },
+        { "id": "D", "text": "innovate" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Tactful' means having or showing sensitivity in dealing with others. 'Discrete' is likely a typo for 'discreet', which is a synonym. Given the options, B is intended."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 3",
+      "question": "The old woman is suffering from dementia.",
+      "options": [
+        { "id": "A", "text": "lucidity" },
+        { "id": "B", "text": "senility" },
+        { "id": "C", "text": "insanity" },
+        { "id": "D", "text": "sagacity" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Dementia is a decline in mental ability, often associated with aging. 'Senility' is a synonym."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 3",
+      "question": "Some drugs have deleterious effect on a child's development.",
+      "options": [
+        { "id": "A", "text": "debilitating" },
+        { "id": "B", "text": "helpful" },
+        { "id": "C", "text": "harmful" },
+        { "id": "D", "text": "healing" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Deleterious' means harmful or damaging. 'Harmful' is a direct synonym."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 3",
+      "question": "Fila has always described as belligerent.",
+      "options": [
+        { "id": "A", "text": "beautiful" },
+        { "id": "B", "text": "attractive" },
+        { "id": "C", "text": "combative" },
+        { "id": "D", "text": "innocent" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Belligerent' means hostile and aggressive. 'Combative' is a synonym."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 3",
+      "question": "Laraba saw a forlorn little figure sitting outside the class.",
+      "options": [
+        { "id": "A", "text": "wise and intelligent" },
+        { "id": "B", "text": "lonely and unhappy" },
+        { "id": "C", "text": "smart and healthy" },
+        { "id": "D", "text": "short and ugly" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Forlorn' means pitifully sad and abandoned. 'Lonely and unhappy' is the best match."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 3",
+      "question": "The circular supersedes all previous correspondence on the matter.",
+      "options": [
+        { "id": "A", "text": "supports" },
+        { "id": "B", "text": "displaces" },
+        { "id": "C", "text": "eliminates" },
+        { "id": "D", "text": "circumvent" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Supersedes' means to replace or displace. 'Displaces' is the best synonym."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 3",
+      "question": "Her problem was exacerbated by the loss of her father.",
+      "options": [
+        { "id": "A", "text": "exaggerated" },
+        { "id": "B", "text": "solved" },
+        { "id": "C", "text": "aggravated" },
+        { "id": "D", "text": "infuriated" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Exacerbated' means made worse. 'Aggravated' is a synonym."
+    },
+    {
+      "id": 51,
+      "instructionId": "Instruction 4",
+      "question": "The warring communities were coerced into negotiation a settlement",
+      "options": [
+        { "id": "A", "text": "driven" },
+        { "id": "B", "text": "compelled" },
+        { "id": "C", "text": "persuaded" },
+        { "id": "D", "text": "pressured" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Coerced' means forced or compelled. 'Compelled' is a direct synonym."
+    },
+    {
+      "id": 52,
+      "instructionId": "Instruction 4",
+      "question": "His father served as a mercenary in the army",
+      "options": [
+        { "id": "A", "text": "preacher" },
+        { "id": "B", "text": "regular" },
+        { "id": "C", "text": "recruit" },
+        { "id": "D", "text": "officer" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A 'mercenary' is a soldier hired to fight for a foreign country. 'Recruit' is the closest option, as it refers to a soldier."
+    },
+    {
+      "id": 53,
+      "instructionId": "Instruction 4",
+      "question": "Jummai is cruel to her husband",
+      "options": [
+        { "id": "A", "text": "harsh" },
+        { "id": "B", "text": "brutal" },
+        { "id": "C", "text": "passionate" },
+        { "id": "D", "text": "ferocious" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Cruel' means causing pain or suffering. 'Harsh' is a synonym."
+    },
+    {
+      "id": 54,
+      "instructionId": "Instruction 4",
+      "question": "The teacher who beat the student was treated with mercy",
+      "options": [
+        { "id": "A", "text": "disrespect" },
+        { "id": "B", "text": "contempt" },
+        { "id": "C", "text": "vengeance" },
+        { "id": "D", "text": "kindness" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Mercy' means compassion or kindness shown to someone who could be punished. 'Kindness' is a synonym."
+    },
+    {
+      "id": 55,
+      "instructionId": "Instruction 4",
+      "question": "His wife hated his garrulous attitude.",
+      "options": [
+        { "id": "A", "text": "outspoken" },
+        { "id": "B", "text": "unfriendly" },
+        { "id": "C", "text": "reticent" },
+        { "id": "D", "text": "thoughtful" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Garrulous' means excessively talkative. 'Outspoken' is the closest synonym among the options."
+    },
+    {
+      "id": 56,
+      "instructionId": "Instruction 4",
+      "question": "Agoshito is a callow youth; said the teacher",
+      "options": [
+        { "id": "A", "text": "An ignorant" },
+        { "id": "B", "text": "An experience" },
+        { "id": "C", "text": "An idle" },
+        { "id": "D", "text": "An organized" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Callow' means inexperienced or immature. 'Ignorant' is the best available synonym."
+    },
+    {
+      "id": 57,
+      "instructionId": "Instruction 4",
+      "question": "What you are asking me to do is a herculean task",
+      "options": [
+        { "id": "A", "text": "a strenuous" },
+        { "id": "B", "text": "a demanding" },
+        { "id": "C", "text": "a lovely" },
+        { "id": "D", "text": "an easy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Herculean' means requiring great strength or effort. 'Strenuous' is a synonym."
+    },
+    {
+      "id": 58,
+      "instructionId": "Instruction 4",
+      "question": "Nkechi was a novice when she was first employed",
+      "options": [
+        { "id": "A", "text": "manager" },
+        { "id": "B", "text": "clerk" },
+        { "id": "C", "text": "supervisor" },
+        { "id": "D", "text": "professional" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Novice' means a beginner. 'Clerk' is the most likely entry-level position."
+    },
+    {
+      "id": 59,
+      "instructionId": "Instruction 4",
+      "question": "'I do not trust him' he said, in a rare moment of candour",
+      "options": [
+        { "id": "A", "text": "reproach" },
+        { "id": "B", "text": "dishonesty" },
+        { "id": "C", "text": "frankness" },
+        { "id": "D", "text": "fairness" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Candour' means openness and honesty. 'Frankness' is a synonym."
+    },
+    {
+      "id": 60,
+      "instructionId": "Instruction 4",
+      "question": "Mrs Akunilo looks anaemic today",
+      "options": [
+        { "id": "A", "text": "strange" },
+        { "id": "B", "text": "sick" },
+        { "id": "C", "text": "pale" },
+        { "id": "D", "text": "tired" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Anaemic' means lacking in vitality or colour, often due to illness. 'Sick' is the best general synonym."
+    },
+    {
+      "id": 61,
+      "instructionId": "Instruction 4",
+      "question": "It is inconceivable that the sun shone in the night",
+      "options": [
+        { "id": "A", "text": "credible" },
+        { "id": "B", "text": "unthinkable" },
+        { "id": "C", "text": "impossible" },
+        { "id": "D", "text": "contestable" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Inconceivable' means impossible to imagine. 'Unthinkable' is a synonym."
+    },
+    {
+      "id": 62,
+      "instructionId": "Instruction 4",
+      "question": "She only gives a superficial impression of warmth and friendliness",
+      "options": [
+        { "id": "A", "text": "a strong" },
+        { "id": "B", "text": "a fake" },
+        { "id": "C", "text": "a deep" },
+        { "id": "D", "text": "an unrealistic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Superficial' means shallow or not genuine. 'Fake' is the best synonym."
+    },
+    {
+      "id": 63,
+      "instructionId": "Instruction 4",
+      "question": "As a prudent businessman, Adayi does not leave anything to chance",
+      "options": [
+        { "id": "A", "text": "A frugal" },
+        { "id": "B", "text": "Shrewd" },
+        { "id": "C", "text": "careless" },
+        { "id": "D", "text": "unsuccessful" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Prudent' means cautious and sensible. 'Shrewd' is a synonym."
+    },
+    {
+      "id": 64,
+      "instructionId": "Instruction 4",
+      "question": "His antipathy affected the growth of his business",
+      "options": [
+        { "id": "A", "text": "hatred" },
+        { "id": "B", "text": "receptiveness" },
+        { "id": "C", "text": "loyalty" },
+        { "id": "D", "text": "hostility" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Antipathy' means strong dislike or aversion. 'Hatred' is a synonym."
+    },
+    {
+      "id": 65,
+      "instructionId": "Instruction 4",
+      "question": "Okonkwo's lethal right foot did the magic in the football match",
+      "options": [
+        { "id": "A", "text": "Weak" },
+        { "id": "B", "text": "wicked" },
+        { "id": "C", "text": "fat" },
+        { "id": "D", "text": "harmless" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Lethal' means deadly or extremely effective. 'Wicked' (in sports slang) means exceptionally skillful or dangerous. B is the best fit."
+    },
+    {
+      "id": 66,
+      "instructionId": "Instruction 4",
+      "question": "When his car tyre ....... on the way, he did not know what to do",
+      "options": [
+        { "id": "A", "text": "has burst" },
+        { "id": "B", "text": "had burst" },
+        { "id": "C", "text": "burst" },
+        { "id": "D", "text": "burst" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Simple past tense 'burst' is correct for a completed action in the past."
+    },
+    {
+      "id": 67,
+      "instructionId": "Instruction 4",
+      "question": "Lami's father ....... As a gardener when he was young, but now he is a driver",
+      "options": [
+        { "id": "A", "text": "had been working" },
+        { "id": "B", "text": "use to work" },
+        { "id": "C", "text": "has worked" },
+        { "id": "D", "text": "used to work" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Used to work' is the correct form for a past habit that no longer exists."
+    },
+    {
+      "id": 68,
+      "instructionId": "Instruction 4",
+      "question": "....... He switches on the light, the shadow disappears",
+      "options": [
+        { "id": "A", "text": "whenever" },
+        { "id": "B", "text": "except" },
+        { "id": "C", "text": "since" },
+        { "id": "D", "text": "until" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Whenever' introduces a condition that happens every time. The sentence implies this is a repeated event."
+    },
+    {
+      "id": 69,
+      "instructionId": "Instruction 4",
+      "question": "It is important that you clear the refuse in front of your house every ......",
+      "options": [
+        { "id": "A", "text": "fournight" },
+        { "id": "B", "text": "fortnight" },
+        { "id": "C", "text": "fourthnight" },
+        { "id": "D", "text": "forntnight" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Fortnight' means two weeks. It is the correct spelling."
+    },
+    {
+      "id": 70,
+      "instructionId": "Instruction 4",
+      "question": "The policemen became suspicious as the hoodlums...... in their office",
+      "options": [
+        { "id": "A", "text": "were" },
+        { "id": "B", "text": "became" },
+        { "id": "C", "text": "turned" },
+        { "id": "D", "text": "remained" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct verb form is 'were' to agree with the plural subject 'hoodlums'."
+    },
+    {
+      "id": 71,
+      "instructionId": "Instruction 4",
+      "question": "There are many ways to kill a rat, so we should be .... In our approach to the task ahead of us",
+      "options": [
+        { "id": "A", "text": "eclectic" },
+        { "id": "B", "text": "eclectic" },
+        { "id": "C", "text": "eclectic" },
+        { "id": "D", "text": "ecletik" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct spelling is 'eclectic', meaning selecting from various sources or styles."
+    },
+    {
+      "id": 72,
+      "instructionId": "Instruction 4",
+      "question": "Audu took these action purely.... His own career",
+      "options": [
+        { "id": "A", "text": "on furtherance of" },
+        { "id": "B", "text": "in furtherance of" },
+        { "id": "C", "text": "to furtherance in" },
+        { "id": "D", "text": "in furtherance with" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'In furtherance of' is the correct prepositional phrase."
+    },
+    {
+      "id": 73,
+      "instructionId": "Instruction 4",
+      "question": "Here is Mr. Odumusu who teaches English ... in our school",
+      "options": [
+        { "id": "A", "text": "pronunciation" },
+        { "id": "B", "text": "pronunciation" },
+        { "id": "C", "text": "pronunciation" },
+        { "id": "D", "text": "pronunciation" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct spelling is 'pronunciation'."
+    },
+    {
+      "id": 74,
+      "instructionId": "Instruction 4",
+      "question": "Instead of... she lied",
+      "options": [
+        { "id": "A", "text": "pleading" },
+        { "id": "B", "text": "her to plead" },
+        { "id": "C", "text": "her pleading" },
+        { "id": "D", "text": "plead" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Instead of' is followed by a gerund ('pleading')."
+    },
+    {
+      "id": 75,
+      "instructionId": "Instruction 4",
+      "question": "I want to ... his chance to acquaint you with the latest development",
+      "options": [
+        { "id": "A", "text": "seize" },
+        { "id": "B", "text": "grab" },
+        { "id": "C", "text": "take" },
+        { "id": "D", "text": "catch" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Take his chance' is the idiomatic expression."
+    },
+    {
+      "id": 76,
+      "instructionId": "Instruction 4",
+      "question": "Getting a well-paid job nowadays is on..... task",
+      "options": [
+        { "id": "A", "text": "utmost" },
+        { "id": "B", "text": "upbeat" },
+        { "id": "C", "text": "uphill" },
+        { "id": "D", "text": "upfield" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'On uphill task' is an idiom meaning a difficult task."
+    },
+    {
+      "id": 77,
+      "instructionId": "Instruction 4",
+      "question": "The secretary has no right to ... my affairs",
+      "options": [
+        { "id": "A", "text": "spy from" },
+        { "id": "B", "text": "meddle in" },
+        { "id": "C", "text": "toy at" },
+        { "id": "D", "text": "complain into" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Meddle in' means to interfere in something that is not one's concern."
+    },
+    {
+      "id": 78,
+      "instructionId": "Instruction 4",
+      "question": "Bola studiously avoided... the question",
+      "options": [
+        { "id": "A", "text": "parrying" },
+        { "id": "B", "text": "answering" },
+        { "id": "C", "text": "projecting" },
+        { "id": "D", "text": "destroying" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The context implies she avoided giving an answer. 'Answering' is the most direct fit."
+    },
+    {
+      "id": 79,
+      "instructionId": "Instruction 4",
+      "question": "Of the three girls, Uka is the....",
+      "options": [
+        { "id": "A", "text": "so much notorious" },
+        { "id": "B", "text": "notorious" },
+        { "id": "C", "text": "naught" },
+        { "id": "D", "text": "naughtiest" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The superlative form for 'naughty' is 'naughtiest'."
+    },
+    {
+      "id": 80,
+      "instructionId": "Instruction 4",
+      "question": "Please sit on the...",
+      "options": [
+        { "id": "A", "text": "carrier" },
+        { "id": "B", "text": "career" },
+        { "id": "C", "text": "carrier" },
+        { "id": "D", "text": "carrear" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct word for a seat is 'carrier' (likely a typo for 'chair', but 'carrier' is the only plausible option)."
+    },
+    {
+      "id": 81,
+      "instructionId": "Instruction 5",
+      "question": "bubble",
+      "options": [
+        { "id": "A", "text": "guy" },
+        { "id": "B", "text": "bull" },
+        { "id": "C", "text": "bumper" },
+        { "id": "D", "text": "gurgle" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The vowel sound in 'bubble' is /ʌ/. 'Bull' has the same sound."
+    },
+    {
+      "id": 82,
+      "instructionId": "Instruction 5",
+      "question": "Weight",
+      "options": [
+        { "id": "A", "text": "whale" },
+        { "id": "B", "text": "while" },
+        { "id": "C", "text": "wheat" },
+        { "id": "D", "text": "writhe" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The vowel sound in 'weight' is /eɪ/. 'Wheat' has the same sound."
+    },
+    {
+      "id": 83,
+      "instructionId": "Instruction 5",
+      "question": "Leach",
+      "options": [
+        { "id": "A", "text": "gear" },
+        { "id": "B", "text": "cedar" },
+        { "id": "C", "text": "cheer" },
+        { "id": "D", "text": "death" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The vowel sound in 'leach' is /iː/. 'Cheer' has the same sound."
+    },
+    {
+      "id": 84,
+      "instructionId": "Instruction 6",
+      "question": "mention",
+      "options": [
+        { "id": "A", "text": "that" },
+        { "id": "B", "text": "machine" },
+        { "id": "C", "text": "church" },
+        { "id": "D", "text": "test" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The consonant sound in 'mention' is /ʃ/ (sh). 'Machine' has the same sound."
+    },
+    {
+      "id": 85,
+      "instructionId": "Instruction 6",
+      "question": "prestige",
+      "options": [
+        { "id": "A", "text": "bag" },
+        { "id": "B", "text": "badge" },
+        { "id": "C", "text": "reggae" },
+        { "id": "D", "text": "leisure" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The consonant sound in 'prestige' is /ʒ/. 'Badge' has the same sound."
+    },
+    {
+      "id": 86,
+      "instructionId": "Instruction 6",
+      "question": "knot",
+      "options": [
+        { "id": "A", "text": "that" },
+        { "id": "B", "text": "machine" },
+        { "id": "C", "text": "church" },
+        { "id": "D", "text": "test" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The consonant sound in 'knot' is /n/. 'That' has the same sound."
+    },
+    {
+      "id": 87,
+      "instructionId": "Instruction 7",
+      "question": "Fuel",
+      "options": [
+        { "id": "A", "text": "cruel" },
+        { "id": "B", "text": "fool" },
+        { "id": "C", "text": "rule" },
+        { "id": "D", "text": "field" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Fuel' and 'fool' both rhyme with the /uːl/ sound."
+    },
+    {
+      "id": 88,
+      "instructionId": "Instruction 7",
+      "question": "match",
+      "options": [
+        { "id": "A", "text": "harsh" },
+        { "id": "B", "text": "batch" },
+        { "id": "C", "text": "such" },
+        { "id": "D", "text": "watch" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Match' and 'batch' both rhyme with the /ætʃ/ sound."
+    },
+    {
+      "id": 89,
+      "instructionId": "Instruction 7",
+      "question": "Sheer",
+      "options": [
+        { "id": "A", "text": "Sheila" },
+        { "id": "B", "text": "care" },
+        { "id": "C", "text": "ear" },
+        { "id": "D", "text": "sherry" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Sheer' and 'ear' both rhyme with the /ɪə/ sound."
+    },
+    {
+      "id": 90,
       "instructionId": "Instruction 8",
       "question": "Termination",
       "options": [
@@ -70,7 +1227,7 @@
       "explanation": "The primary stress is on the third syllable: /ˌtɜːmɪˈneɪʃn/ → terminaTION."
     },
     {
-      "id": 96,
+      "id": 91,
       "instructionId": "Instruction 8",
       "question": "meditative",
       "options": [
@@ -83,7 +1240,7 @@
       "explanation": "The primary stress is on the third syllable: /ˈmedɪteɪtɪv/ → meditaTIVE."
     },
     {
-      "id": 97,
+      "id": 92,
       "instructionId": "Instruction 8",
       "question": "Suggestible",
       "options": [
@@ -96,7 +1253,7 @@
       "explanation": "The primary stress is on the second syllable: /səˈdʒestəbl/ → suggeSTible."
     },
     {
-      "id": 98,
+      "id": 93,
       "instructionId": "Instruction 9",
       "question": "Uche LOVES Toyota cars",
       "options": [
@@ -109,7 +1266,7 @@
       "explanation": "The emphatic word is 'LOVES' (verb), so the question is about the subject: 'Who...?'"
     },
     {
-      "id": 99,
+      "id": 94,
       "instructionId": "Instruction 9",
       "question": "The POLICE arrested the suspect",
       "options": [
@@ -122,7 +1279,7 @@
       "explanation": "The emphatic word is 'POLICE' (subject), so the question is 'Who...?'"
     },
     {
-      "id": 100,
+      "id": 95,
       "instructionId": "Instruction 9",
       "question": "Maiduguri is the CAPITAL of Borno state",
       "options": [
@@ -133,6 +1290,71 @@
       ],
       "correctAnswer": "D",
       "explanation": "The emphatic word is 'CAPITAL', so the question is 'What is the capital of Borno state?'"
+    },
+    {
+      "id": 96,
+      "instructionId": "Instruction 9",
+      "question": "The meeting's date was put off for strange reasons.",
+      "options": [
+        { "id": "A", "text": "The date of the meeting was shifted as a result of unexpected reasons." },
+        { "id": "B", "text": "The meeting's date was put off for strange reasons." },
+        { "id": "C", "text": "The meeting was called off as a result of obstacles hitherto unknown." },
+        { "id": "D", "text": "The meeting broke off as a result of unusual difficulties." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The emphatic phrase is 'put off for strange reasons', so the question is 'Why was the meeting postponed?' — B is the direct statement."
+    },
+    {
+      "id": 97,
+      "instructionId": "Instruction 9",
+      "question": "The hunter has a bird's-eye view of the animals.",
+      "options": [
+        { "id": "A", "text": "He views the animal from a high position." },
+        { "id": "B", "text": "He views the bird's eye." },
+        { "id": "C", "text": "He views the birds on the tree with one eye." },
+        { "id": "D", "text": "He watches animals and birds closely." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The emphatic phrase is 'bird's-eye view', which means a view from above. A is the correct explanation."
+    },
+    {
+      "id": 98,
+      "instructionId": "Instruction 9",
+      "question": "Even though Susan was the last in the examination, her result wasn't too different from what had been expected.",
+      "options": [
+        { "id": "A", "text": "Her result was poor." },
+        { "id": "B", "text": "Her result was a disappointment." },
+        { "id": "C", "text": "Her result was as expected." },
+        { "id": "D", "text": "She had not been serious with her studies." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The emphatic phrase is 'wasn't too different from what had been expected', so the question is 'Was her result as expected?' — C is correct."
+    },
+    {
+      "id": 99,
+      "instructionId": "Instruction 9",
+      "question": "Mrs. Adasu does all her work with more haste, less speed.",
+      "options": [
+        { "id": "A", "text": "She accepts whatever she does with more haste and speed." },
+        { "id": "B", "text": "She approaches whatever she does very quickly to avoid mistakes." },
+        { "id": "C", "text": "She addresses everything she does very quickly to avoid mistakes." },
+        { "id": "D", "text": "She does everything carefully to avoid mistakes." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The proverb 'more haste, less speed' implies rushing leads to errors. So she works carefully to avoid mistakes. D is correct."
+    },
+    {
+      "id": 100,
+      "instructionId": "Instruction 9",
+      "question": "The plan to upgrade the dispensary to a general hospital did not materialize.",
+      "options": [
+        { "id": "A", "text": "The plan did not meet the required specifications." },
+        { "id": "B", "text": "The arrangement did not work out as wished." },
+        { "id": "C", "text": "It was difficult to obtained the materials." },
+        { "id": "D", "text": "The materials purchased were not the right ones." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The emphatic phrase is 'did not materialize', which means it did not happen. B is the correct explanation."
     }
   ]
 }
