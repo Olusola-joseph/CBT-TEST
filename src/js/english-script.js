@@ -481,7 +481,8 @@ class EnglishCBTExamApp {
         }
         // For passages and instructions, use the pre-formatted question HTML which already contains the content
         if (question.type === "passage" || question.type === "instruction") {
-            // Use the question field directly as it contains formatted HTML for passages and instructions
+            // For passages and instructions, we want to avoid duplicate headings
+            // The title is already shown in the q-number element, so we don't want it repeated in the content
             document.getElementById("question-text").innerHTML = question.question;
         } else {
             // For regular questions, just display the question text
@@ -651,11 +652,8 @@ class EnglishCBTExamApp {
     }
 
     previousQuestion() {
-        // Skip backwards over passages and instructions
+        // Navigate to the previous item regardless of type (don't skip passages or instructions)
         let newIndex = this.currentQuestionIndex - 1;
-        while (newIndex >= 0 && (this.questions[newIndex].type === 'passage' || this.questions[newIndex].type === 'instruction')) {
-            newIndex--;
-        }
         
         if (newIndex >= 0) {
             this.loadQuestion(newIndex);
@@ -663,11 +661,8 @@ class EnglishCBTExamApp {
     }
 
     nextQuestion() {
-        // Skip forwards over passages and instructions
+        // Navigate to the next item regardless of type (don't skip passages or instructions)
         let newIndex = this.currentQuestionIndex + 1;
-        while (newIndex < this.questions.length && (this.questions[newIndex].type === 'passage' || this.questions[newIndex].type === 'instruction')) {
-            newIndex++;
-        }
         
         if (newIndex < this.questions.length) {
             this.loadQuestion(newIndex);
@@ -679,14 +674,8 @@ class EnglishCBTExamApp {
         const submitBtn = document.getElementById('submit-btn');
 
         if (nextBtn) {
-            // Find the next actual question (skip passages and instructions)
-            let nextQuestionIndex = this.currentQuestionIndex + 1;
-            while (nextQuestionIndex < this.questions.length && (this.questions[nextQuestionIndex].type === 'passage' || this.questions[nextQuestionIndex].type === 'instruction')) {
-                nextQuestionIndex++;
-            }
-            
-            // Disable next button if on the last question
-            nextBtn.disabled = nextQuestionIndex >= this.questions.length;
+            // Disable next button if on the last question (all items, not just actual questions)
+            nextBtn.disabled = (this.currentQuestionIndex + 1) >= this.questions.length;
         }
 
         if (submitBtn) {
