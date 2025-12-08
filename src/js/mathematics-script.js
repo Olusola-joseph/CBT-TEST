@@ -24,8 +24,7 @@ class MathematicsCBTExamApp {
         try {
             await examDB.init();
             console.log('Database initialized successfully');
-            // Load questions into database if not already present
-            this.loadQuestionsToDatabase();
+            // Don't populate the database at initialization since we clear it at session start
         } catch (error) {
             console.error('Error initializing database:', error);
             // Fallback to JSON file if database fails
@@ -59,26 +58,13 @@ class MathematicsCBTExamApp {
     
     async loadQuestionsForSubject(subject) {
         try {
-            // Try to load from database first
+            // Clear the database and repopulate with the selected year's data
             if (examDB && examDB.db) {
-                try {
-                    this.questions = await examDB.getQuestionsBySubject(subject);
-                    if (this.questions.length > 0) {
-                        console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
-                        this.selectRandomQuestions(); // Select 10 random questions for non-English subjects
-                        this.renderQuestionList(); // Initialize the question list after loading questions
-                        this.showScreen('login-screen');
-                        return;
-                    }
-                } catch (dbError) {
-                    console.error('Error loading questions from database:', dbError);
-                    // Continue to fallback method
-                }
+                await examDB.clearAllData();
+                console.log('Database cleared before loading new data');
             }
             
-            // Fallback to subject-specific JSON files with year selection
-            // Convert subject name to lowercase and replace underscores with hyphens for filename
-            // Use the selected year for the filename
+            // Load from the selected year's JSON file
             const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${this.selectedYear}.json`;
             const response = await fetch(fileName);
             
@@ -93,11 +79,11 @@ class MathematicsCBTExamApp {
                     this.questions = subjectData.questions;
                 }
                 
-                // Optionally, add questions to database for future use
+                // Update the database with the loaded questions
                 if (examDB && examDB.db) {
                     try {
                         await examDB.addQuestions(subject, this.questions);
-                        console.log(`Added ${this.questions.length} questions to database for ${subject}`);
+                        console.log(`Added ${this.questions.length} questions to database for ${subject} (${this.selectedYear})`);
                     } catch (addError) {
                         console.error('Error adding questions to database:', addError);
                     }

@@ -13,23 +13,17 @@ target/
 venv/
 node_modules/
 .julia/
-zig*/
-.mypy_cache/
-.pytest_cache/
-.coverage
-coverage/
-htmlcov/
+.zig/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
@@ -40,6 +34,33 @@ htmlcov/
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Node specific
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MyPy
+.mypy_cache/
+
+# PyTest
+.pytest_cache/
+
+# Gradle
+.gradle/
 
 # Compressed files
 *.zip
