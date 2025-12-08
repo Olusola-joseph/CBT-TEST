@@ -487,15 +487,8 @@ class ExamDatabase {
 }
 
 // Initialize database and clear existing data at session start
-document.addEventListener('DOMContentLoaded', function() {
-    initDB().then(async () => {
-        // Clear all existing data at the start of each session
-        await examDB.clearAllData();
-        console.log('Database cleared at session start');
-    }).catch(error => {
-        console.error('Database initialization failed:', error);
-    });
-});
+// Create global database instance
+const examDB = new ExamDatabase();
 
 // Legacy function for compatibility - wraps the class methods
 async function initDB() {
@@ -507,3 +500,13 @@ async function initDB() {
         throw error;
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    initDB().then(async () => {
+        // Clear all existing data at the start of each session
+        await examDB.clearAllData();
+        console.log('Database cleared at session start');
+    }).catch(error => {
+        console.error('Database initialization failed:', error);
+    });
+});
