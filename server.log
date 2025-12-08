@@ -1,1 +1,2 @@
- INFO  Accepting connections at http://localhost:33845
+nohup: ignoring input
+127.0.0.1 - - [08/Dec/2025 10:39:06] "GET / HTTP/1.1" 200 -
