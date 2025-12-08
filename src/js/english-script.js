@@ -64,12 +64,14 @@ class EnglishCBTExamApp {
             if (examDB && examDB.db) {
                 try {
                     this.questions = await examDB.getQuestionsBySubject(subject);
-                    if (this.questions.length > 0) {
+                    
+                    // For English from database, we need to load the passages and instructions separately
+                    // Get the passages and instructions from the database
+                    const subjectContent = await examDB.getAllSubjectContent(subject);
+                    
+                    // Check if we have both questions and content to reorganize
+                    if (this.questions.length > 0 && (subjectContent.passages.length > 0 || subjectContent.instructions.length > 0)) {
                         console.log(`Loaded ${this.questions.length} questions from database for ${subject}`);
-                        
-                        // For English from database, we need to load the original subject data to get passages and instructions
-                        // Get the passages and instructions from the database
-                        const subjectContent = await examDB.getAllSubjectContent(subject);
                         
                         // Reorganize the questions using the passages and instructions from the database
                         const subjectData = {
