@@ -1,8 +1,1 @@
-```json
-{
-  "error": {
-    "type": "llm_call_failed",
-    "message": "{\"message\":\"Operation not allowed\"}\n"
-  }
-}
-```
+Nothing should be ignored - all added files are JSON data files that appear to be source data for the application.
