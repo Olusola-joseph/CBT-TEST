@@ -82,14 +82,10 @@ class ExamDatabase {
                     await this.populateDatabase();
                     resolve();
                 } else {
-                    // Check if English content is missing (passages and instructions)
-                    const englishContent = await this.getAllSubjectContent('English');
-                    if (englishContent.passages.length === 0 || englishContent.instructions.length === 0) {
-                        console.log('English passages or instructions missing, repopulating database...');
-                        await this.populateDatabase();
-                    } else {
-                        console.log('Database already has questions, skipping population');
-                    }
+                    // Force refresh of English content to ensure latest changes are loaded
+                    console.log('Database already has questions, but forcing refresh for English content to load latest JSON changes...');
+                    await this.refreshEnglishContent();
+                    console.log('English content refreshed from JSON file');
                     resolve();
                 }
             };
@@ -98,6 +94,93 @@ class ExamDatabase {
                 console.error('Error counting questions:', request.error);
                 reject(request.error);
             };
+        });
+    }
+    
+    // Refresh English content to ensure latest changes from JSON are loaded
+    async refreshEnglishContent() {
+        // Remove existing English questions and content
+        await this.clearSubjectData('English');
+        
+        // Load fresh English data from JSON file
+        const fileName = `src/data/subjects/english_questions_jamb_2010.json`;
+        try {
+            const response = await fetch(fileName);
+            if (!response.ok) {
+                console.error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
+                return;
+            }
+            
+            const subjectData = await response.json();
+            
+            if (subjectData) {
+                // Add questions to database
+                if (subjectData.questions) {
+                    await this.addQuestions('English', subjectData.questions);
+                    console.log(`Added ${subjectData.questions.length} questions for English to database`);
+                }
+                
+                // Add passages to database if they exist
+                if (subjectData.passages && subjectData.passages.length > 0) {
+                    await this.addSubjectContent('English', 'passage', subjectData.passages);
+                    console.log(`Added ${subjectData.passages.length} passages for English to database`);
+                }
+                
+                // Add instructions to database if they exist
+                if (subjectData.instructions && subjectData.instructions.length > 0) {
+                    await this.addSubjectContent('English', 'instruction', subjectData.instructions);
+                    console.log(`Added ${subjectData.instructions.length} instructions for English to database`);
+                }
+            }
+        } catch (error) {
+            console.error(`Error refreshing English content:`, error);
+        }
+    }
+    
+    // Clear all data for a specific subject
+    async clearSubjectData(subject) {
+        if (!this.db) {
+            throw new Error('Database not initialized');
+        }
+
+        // Clear questions for the subject
+        const questionTransaction = this.db.transaction(['questions'], 'readwrite');
+        const questionStore = questionTransaction.objectStore('questions');
+        const questionIndex = questionStore.index('subject');
+        const questionRequest = questionIndex.getAllKeys(IDBKeyRange.only(subject));
+        
+        await new Promise((resolve) => {
+            questionRequest.onsuccess = () => {
+                const keys = questionRequest.result;
+                keys.forEach(key => {
+                    questionStore.delete(key);
+                });
+                resolve();
+            };
+        });
+
+        // Clear subject content for the subject
+        const contentTransaction = this.db.transaction(['subjectContent'], 'readwrite');
+        const contentStore = contentTransaction.objectStore('subjectContent');
+        const contentIndex = contentStore.index('subject');
+        const contentRequest = contentIndex.getAllKeys(IDBKeyRange.only(subject));
+        
+        await new Promise((resolve) => {
+            contentRequest.onsuccess = () => {
+                const keys = contentRequest.result;
+                keys.forEach(key => {
+                    contentStore.delete(key);
+                });
+                resolve();
+            };
+        });
+
+        return new Promise((resolve, reject) => {
+            questionTransaction.oncomplete = () => {
+                contentTransaction.oncomplete = () => resolve();
+                contentTransaction.onerror = () => reject(contentTransaction.error);
+            };
+            questionTransaction.onerror = () => reject(questionTransaction.error);
         });
     }
     

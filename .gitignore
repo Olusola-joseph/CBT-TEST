@@ -1,1 +1,65 @@
-(src/js/english-script.js)
+```
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts (from node_modules structure)
+dist/
+build/
+*.js.map
+*.d.ts
+*.d.cts
+*.d.mts
+*.min.js
+*.umd.js
+*.esm.js
+*.cjs
+*.mjs
+*.tsbuildinfo
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Coverage
+coverage/
+htmlcov/
+*.coverage
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+*.so
+
+# System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
