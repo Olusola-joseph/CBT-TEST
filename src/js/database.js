@@ -461,7 +461,49 @@ class ExamDatabase {
             };
         });
     }
+    
+    // Clear all data from all object stores
+    async clearAllData() {
+        if (!this.db) {
+            throw new Error('Database not initialized');
+        }
+
+        const objectStores = ['questions', 'subjectContent', 'exams', 'results'];
+        
+        for (const storeName of objectStores) {
+            const transaction = this.db.transaction([storeName], 'readwrite');
+            const store = transaction.objectStore(storeName);
+            
+            await new Promise((resolve, reject) => {
+                const request = store.clear();
+                
+                request.onsuccess = () => resolve();
+                request.onerror = () => reject(request.error);
+            });
+        }
+        
+        console.log('All database data cleared');
+    }
 }
 
-// Initialize database instance
-const examDB = new ExamDatabase();
+// Initialize database and clear existing data at session start
+document.addEventListener('DOMContentLoaded', function() {
+    initDB().then(async () => {
+        // Clear all existing data at the start of each session
+        await examDB.clearAllData();
+        console.log('Database cleared at session start');
+    }).catch(error => {
+        console.error('Database initialization failed:', error);
+    });
+});
+
+// Legacy function for compatibility - wraps the class methods
+async function initDB() {
+    try {
+        await examDB.init();
+        console.log('Database initialized successfully');
+    } catch (error) {
+        console.error('Error initializing database:', error);
+        throw error;
+    }
+}

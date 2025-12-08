@@ -60,8 +60,13 @@ class EnglishCBTExamApp {
     
     async loadQuestionsForSubject(subject) {
         try {
-            // Always load from the selected year's JSON file first, regardless of database content
-            // Use the selected year for the filename
+            // Clear the database and repopulate with the selected year's data
+            if (examDB && examDB.db) {
+                await examDB.clearAllData();
+                console.log('Database cleared before loading new data');
+            }
+            
+            // Load from the selected year's JSON file
             const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${this.selectedYear}.json`;
             const response = await fetch(fileName);
             
@@ -79,11 +84,9 @@ class EnglishCBTExamApp {
                     this.questions = subjectData.questions;
                 }
                 
-                // Optionally, update the database with the loaded questions
+                // Update the database with the loaded questions
                 if (examDB && examDB.db) {
                     try {
-                        // Clear existing subject questions first to avoid duplicates
-                        await examDB.clearSubjectData(subject);
                         // Add the newly loaded questions to the database
                         await examDB.addQuestions(subject, subjectData.questions || []);
                         console.log(`Added ${subjectData.questions ? subjectData.questions.length : 0} questions to database for ${subject} (${this.selectedYear})`);
