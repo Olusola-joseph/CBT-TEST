@@ -1,5 +1,1304 @@
 {
-  "passages": [],
-  "instructions": [],
-  "questions": []
+  "questions": [
+    {
+      "id": 1,
+      "passageId": "Passage I",
+      "question": "Which question Paper Type of Uses of English is given to you?",
+      "options": [
+        { "id": "A", "text": "Type D" },
+        { "id": "B", "text": "Type I" },
+        { "id": "C", "text": "Type B" },
+        { "id": "D", "text": "Type U" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "This is a standard administrative question appearing at the start of JAMB Use of English papers. Though not derived from Passage I content, it is conventionally grouped under Passage I for formatting. The correct answer (Type B) is printed on the actual exam paper header — a fixed detail in the real test. Students are expected to verify their paper type physically. Option C is correct because the question tests attentiveness to instructions, a subtle but critical exam skill. Distractors (A, B, D) mimic plausible alphabet codes but are fabricated; only C matches authentic JAMB coding for this paper set."
+    },
+    {
+      "id": 2,
+      "passageId": "Passage I",
+      "question": "Which of the following is true according to the passage?",
+      "options": [
+        { "id": "A", "text": "Anyone, with almost no training, can run pots on a wheel." },
+        { "id": "B", "text": "Pots can be made quickly and correctly." },
+        { "id": "C", "text": "A pot thrown on a wheel is less likely to break." },
+        { "id": "D", "text": "The potter does not have to work hard if he uses the wheel." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states: *'In this way, a small and medium-sized pot can be made more quickly and accurately.'* This is a direct factual claim supporting option B. Let’s evaluate all options: A is incorrect because the passage implies skill is required (e.g., centering the clay, drawing walls uniformly); no mention of 'almost no training'. C is speculative — while wheel-thrown pots may be more uniform, durability isn’t discussed; the word 'break' never appears. D is contradicted by the description of effortful steps: weighing, centering, shaping, trimming — indicating hard work. B is verbatim-supported, making it the only objectively correct inference. This tests precise reading comprehension — students must avoid over-interpretation."
+    },
+    {
+      "id": 3,
+      "passageId": "Passage I",
+      "question": "From the passage, how does a potter make several pots of almost identical size?",
+      "options": [
+        { "id": "A", "text": "By having the knowledge of different pots." },
+        { "id": "B", "text": "By weighing the lumps of clay." },
+        { "id": "C", "text": "By having the right tools" },
+        { "id": "D", "text": "By knowing what to do from experience." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says: *'They are weighed out so that each pot will be roughly the same size; for example, for making pint-sized jugs, the lumps of clay will be one and a half kilogrammes.'* This is a clear, methodical procedure — quantitative control via mass measurement. Option B is thus textually explicit. A is vague and unsupported; 'knowledge of different pots' relates to design, not size uniformity. C ('right tools') is partially true (wheel, rib, etc. are listed), but tools alone don’t ensure size consistency — only weighing does. D appeals to tacit knowledge, but the passage prioritizes measurable technique over intuition. This question assesses ability to identify *procedural specificity* — a key skill in technical texts."
+    },
+    {
+      "id": 4,
+      "passageId": "Passage I",
+      "question": "The phrase trims off any waste clay, as used in the passage, means to---",
+      "options": [
+        { "id": "A", "text": "cut away unnecessary parts" },
+        { "id": "B", "text": "force the day to the centre" },
+        { "id": "C", "text": "divide the day into two" },
+        { "id": "D", "text": "wash away different colours." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "‘Trim’ is a standard verb in ceramics and manufacturing, meaning *to remove superfluous material to refine shape or size*. The context: after shaping the pot, excess clay remains — this must be removed for precision. Option A captures this precisely: 'cut away unnecessary parts' = excision of surplus. B is a misreading of an earlier step (*'force the lump to the centre'*). C and D are fabrications: 'day' is a typo for 'clay' in some prints, but even so, 'divide the clay' and 'wash colours' aren’t mentioned. Lexically, *trim* derives from Old English *trymman* (to make firm, arrange), evolving to mean *neaten by cutting*. This tests vocabulary-in-context — crucial for technical comprehension."
+    },
+    {
+      "id": 5,
+      "passageId": "Passage I",
+      "question": "The word congenial, as used in the passage, means---",
+      "options": [
+        { "id": "A", "text": "congested" },
+        { "id": "B", "text": "precise" },
+        { "id": "C", "text": "similar" },
+        { "id": "D", "text": "nice" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The sentence reads: *'…a town where learners from many different parts can find a congenial temporary home…'* Here, *congenial* modifies 'home' and describes an environment conducive to comfort and sociability. Etymologically, from Latin *con-* (together) + *genialis* (genial, kindly), it means *pleasant because suited to one’s nature or tastes*. D ('nice') is the closest everyday synonym. A ('congested') is antithetical — implies overcrowding, discomfort. B ('precise') is technical, irrelevant to social harmony. C ('similar') misreads the root — *congenial* ≠ *congenital* or *congeneric*. In exam contexts, *congenial* frequently appears in descriptions of atmospheres (workplace, community), always positive. Distractors exploit phonetic similarity (A), lexical confusion (C), or category error (B)."
+    },
+    {
+      "id": 6,
+      "passageId": "Passage II",
+      "question": "Which of the following is true according to the passage?",
+      "options": [
+        { "id": "A", "text": "Music can enhance evaluation performance" },
+        { "id": "B", "text": "All listeners are music makers" },
+        { "id": "C", "text": "All artistes are objective in their feelings." },
+        { "id": "D", "text": "Music influences feelings at different levels" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage’s core argument is that musical response is *subjective*: *'Our response to a musical performance or an artiste is subjective and rooted in deep feelings… There is no one ‘Truth’ about what we hear and feel.'* This explicitly supports D: 'Music influences feelings at different levels' — meaning individualized, variable emotional impact. Let’s dismantle others: A is unsupported — 'evaluation performance' isn’t discussed; critics evaluate *music*, not other tasks. B is false — the text distinguishes *listeners* and *artistes*. C is directly contradicted: *'Even professional critics can differ strongly…'* — thus feelings are *not* objective. D is the only inference warranted by the central thesis: music’s power lies in its *affective diversity*. This tests thematic synthesis — moving beyond details to overarching claims."
+    },
+    {
+      "id": 7,
+      "passageId": "Passage II",
+      "question": "The expression.....stage and hall, as used in the passage, means the",
+      "options": [
+        { "id": "A", "text": "artiste and his music" },
+        { "id": "B", "text": "artiste and the audience" },
+        { "id": "C", "text": "producer and the director" },
+        { "id": "D", "text": "director and the audience" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The full phrase is: *'feelings are exchanged between stage and hall'*. In performance terminology, 'stage' universally refers to the area where performers (artistes) present, while 'hall' denotes the auditorium where the audience sits. This binary — *performer ↔ spectator* — is foundational in theatre/music studies. Option B captures this dyad exactly. A conflates person and product (music ≠ stage). C and D introduce irrelevant agents (producer, director) unmentioned in the passage. This exemplifies *metonymy*: using physical spaces to represent social roles. Recognizing conventional stage-hall symbolism is essential for interpreting performing arts discourse."
+    },
+    {
+      "id": 8,
+      "passageId": "Passage II",
+      "question": "From the passage, it can be deduced that music is -",
+      "options": [
+        { "id": "A", "text": "appreciated as the environment dictates." },
+        { "id": "B", "text": "better appreciated in a crowd" },
+        { "id": "C", "text": "better appreciated when we are happy" },
+        { "id": "D", "text": "better appreciated by professional critics" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The key evidence is: *'People listen to music in many different ways. For instance, music can be a barely perceived background as in a film or a totally absorbing experience as in a concert.'* This shows appreciation is *context-dependent* — ambient in films, immersive in concerts. Hence A is correct: environment (film vs. concert hall) dictates mode of appreciation. B is refuted — no comparison of individual vs. group listening. C is unsupported; emotional state isn’t discussed as a variable. D is contradicted: *'Even professional critics can differ strongly…'* — implying no privileged access to 'better' appreciation. This tests *deductive reasoning*: identifying implications, not just explicit statements. The passage emphasizes *relativity* of musical experience — a postmodern aesthetic stance."
+    },
+    {
+      "id": 9,
+      "passageId": "Passage II",
+      "question": "According to the writer, live performances provide a special excitement because they are",
+      "options": [
+        { "id": "A", "text": "stage-managed" },
+        { "id": "B", "text": "interactive" },
+        { "id": "C", "text": "error-free and original" },
+        { "id": "D", "text": "educative" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage states: *'In a live performance artists put themselves on the line… feelings are exchanged between stage and hall.'* 'Put themselves on the line' implies vulnerability and risk; 'feelings are exchanged' denotes mutual influence — hallmark of *interaction*. Thus B is correct. A is partially true (live shows are staged), but 'stage-managed' emphasizes control, not excitement. C is false — live performances risk errors; 'error-free' contradicts 'put on the line'. D is not mentioned; education isn’t a theme. Interactivity is the *causal link* for 'special excitement' — the dynamic feedback loop between performer and audience generates unique energy. This reflects *performative theory*: meaning arises from co-creation in real time."
+    },
+    {
+      "id": 10,
+      "passageId": "Passage II",
+      "question": "According to the passage, music plays a vital role in human society because—",
+      "options": [
+        { "id": "A", "text": "music provides enjoyment and relief" },
+        { "id": "B", "text": "it is easy to appreciate music" },
+        { "id": "C", "text": "stage performance is the most popular music opportunity." },
+        { "id": "D", "text": "everybody can listen to music through the CD, MP3 and DVD." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The opening sentence is definitive: *'Music plays a vital role in human society. Good music provides entertainment and emotional release…'* 'Entertainment' = enjoyment; 'emotional release' = relief. A is verbatim. B is irrelevant — accessibility ≠ societal role. C overstates: live performance is *one* mode, not 'most popular'. D describes technology, not function; also, 'everybody' is hyperbolic (access inequality exists). The passage roots music’s value in *psychological benefit*, aligning with anthropological views (e.g., music as social cohesion tool). This tests *main idea identification* — recognizing thesis statements, especially in introductory paragraphs."
+    },
+    {
+      "id": 11,
+      "passageId": "Passage III",
+      "question": "Whatever may be its wider imputations, the explosion of hydrogen bomb is, for the meteorologist, simply another atmospheric disturbance. It should therefore be classified with certain rare natural...",
+      "options": [
+        { "id": "A", "text": "programmes" },
+        { "id": "B", "text": "occurrences" },
+        { "id": "C", "text": "resources" },
+        { "id": "D", "text": "laws" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The sentence establishes an *analogy*: H-bomb explosion ~ natural atmospheric disturbances. Meteorologists classify *events* (e.g., hurricanes, volcanic eruptions) — not abstract concepts. 'Occurrences' means *incidents or phenomena that happen*, fitting scientifically. A ('programmes') implies planned activities — bombs are not 'programmes'. C ('resources') suggests utility — irrelevant here. D ('laws') refers to principles, not events. Crucially, the next sentence confirms by listing *volcanic eruptions* — specific occurrences. This tests *semantic field matching*: selecting the noun that shares the category (natural phenomena) with the exemplar."
+    },
+    {
+      "id": 12,
+      "passageId": "Passage III",
+      "question": "such as volcanic...",
+      "options": [
+        { "id": "A", "text": "insurrection" },
+        { "id": "B", "text": "eruption" },
+        { "id": "C", "text": "commotion" },
+        { "id": "D", "text": "explosion" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The collocation *'volcanic eruption'* is a fixed scientific term — one of the most common in geophysics. While 'explosion' (D) is semantically related, it’s too general; volcanoes *erupt*, not merely explode (eruption includes ash plumes, lava flow, etc.). A ('insurrection') is political, metaphorical. C ('commotion') is vague, informal. Lexical precision matters: *eruption* specifically denotes *the sudden release of material from a volcano*. JAMB prioritizes standard collocations — this is a classic 'phrase completion' item testing knowledge of domain-specific vocabulary."
+    },
+    {
+      "id": 13,
+      "passageId": "Passage III",
+      "question": "As with all events on this...",
+      "options": [
+        { "id": "A", "text": "scanner" },
+        { "id": "B", "text": "skate" },
+        { "id": "C", "text": "snow" },
+        { "id": "D", "text": "scale" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The phrase *'on this scale'* is a high-frequency academic collocation meaning *at this level of magnitude/size*. The context discusses massive events (H-bombs, volcanoes), implying *scale* of energy release. A–C are distractors exploiting similar /s/ sounds (*scanner, skate, snow*), but semantically irrelevant. *Scale* also fits the scientific register: meteorologists use *scales* (e.g., Richter, Fujita) to quantify events. This is a *register-appropriate collocation* question — testing awareness that technical writing favors precise, conventional phrasing over creative alternatives."
+    },
+    {
+      "id": 14,
+      "passageId": "Passage III",
+      "question": "However we can be reasonably sure of the main effects, and the most impressive of these arises from...",
+      "options": [
+        { "id": "A", "text": "pressure waves" },
+        { "id": "B", "text": "pressure volume" },
+        { "id": "C", "text": "pressure air" },
+        { "id": "D", "text": "pressure gauge" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Physics of explosions: rapid expansion creates *shock waves*, which are *pressure waves* — longitudinal waves of compressed air. This is foundational in acoustics and seismology. B ('pressure volume') is oxymoronic — volume is extensive, pressure intensive. C ('pressure air') is ungrammatical noun stacking. D ('pressure gauge') is an instrument, not a phenomenon. The passage later confirms: *'into what is called… shock waves'* — synonymous with pressure waves. This tests *scientific literacy*: recognizing that real-world events map to technical concepts. Distractors misuse 'pressure' as a modifier incorrectly."
+    },
+    {
+      "id": 15,
+      "passageId": "Passage III",
+      "question": "The immediate result of the...",
+      "options": [
+        { "id": "A", "text": "reduction" },
+        { "id": "B", "text": "commotion" },
+        { "id": "C", "text": "detonation" },
+        { "id": "D", "text": "distortion" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The sentence describes the bomb’s action: *'The immediate result of the… is that the air surrounding the bomb is raised very rapidly to an enormously high…'* Only 'detonation' — the act of exploding — causes instantaneous energy release. A ('reduction') is opposite in meaning. B ('commotion') is too weak, colloquial. D ('distortion') refers to signal alteration, not initiation. *Detonation* is the precise term for supersonic explosive decomposition (vs. *deflagration*). In technical writing, *detonation* is the default for nuclear devices. This tests *domain-specific verb-noun collocation* — knowing which noun pairs with 'result' in causal chains."
+    },
+    {
+      "id": 16,
+      "passageId": "Passage III",
+      "question": "…to an enormously high...",
+      "options": [
+        { "id": "A", "text": "way" },
+        { "id": "B", "text": "temperature" },
+        { "id": "C", "text": "class" },
+        { "id": "D", "text": "profile" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Nuclear detonations reach ~100 million °C — the highest temperatures on Earth. *Temperature* is the only physical quantity that can be 'enormously high' in this context. A ('way') is spatial, irrelevant. C ('class') is sociological. D ('profile') could mean shape, but not 'high'. The passage’s next line — *'The hot gases expand…'* — confirms *temperature* as the antecedent: heat → expansion. This is a *contextual inference* question: using subsequent sentences to resolve ambiguity. Students must track anaphoric references (pronouns/ellipsis)."
+    },
+    {
+      "id": 17,
+      "passageId": "Passage III",
+      "question": "The hot gases expand violently as great...",
+      "options": [
+        { "id": "A", "text": "firearms" },
+        { "id": "B", "text": "fireballs" },
+        { "id": "C", "text": "fireworks" },
+        { "id": "D", "text": "firesmokes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Fireball* is the standard term for the incandescent sphere of plasma/gas post-detonation — iconic in nuclear imagery (e.g., Hiroshima photos). A ('firearms') are weapons. C ('fireworks') are celebratory, small-scale. D ('firesmokes') is nonstandard and emphasizes smoke, not the luminous sphere. Scientifically, fireballs result from blackbody radiation of hot gases. This tests *technical denotation vs. connotation*: 'fireworks' evokes joy; 'fireball' conveys destructive power — register sensitivity matters."
+    },
+    {
+      "id": 18,
+      "passageId": "Passage III",
+      "question": "Another kind of wave arises because of the weight of the air. The force of the explosion lifts the... around the bomb.",
+      "options": [
+        { "id": "A", "text": "form" },
+        { "id": "B", "text": "atmosphere" },
+        { "id": "C", "text": "space" },
+        { "id": "D", "text": "height" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The 'weight of the air' = atmospheric pressure. Explosions displace *atmosphere* (the envelope of gases), creating low-pressure zones that induce secondary waves. A ('form') is abstract. C ('space') implies vacuum — no air to lift. D ('height') is a dimension, not a mass. *Atmosphere* is the only mass noun here that can be 'lifted' by force. This reflects *physical causality*: weight → lift → wave. Students must connect 'weight of air' to its referent — a test of *conceptual chain reasoning*."
+    },
+    {
+      "id": 19,
+      "passageId": "Passage III",
+      "question": "Waves of this type are normally felt by human beings and they have their effect on the weather.",
+      "options": [
+        { "id": "A", "text": "stream" },
+        { "id": "B", "text": "lake" },
+        { "id": "C", "text": "ocean" },
+        { "id": "D", "text": "river" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage describes *gravity waves* — atmospheric analogues of *ocean waves*, where gravity restores equilibrium after displacement. Humans feel them as pressure changes (e.g., 'ear-popping'). Ocean waves are the canonical exemplar for gravity wave mechanics. A, B, D denote smaller water bodies with different wave dynamics (e.g., capillary waves dominate in streams). This tests *cross-domain analogy*: recognizing that scientific models (here, fluid dynamics) transfer between systems (air ↔ water). *Ocean* is the macro-scale prototype."
+    },
+    {
+      "id": 20,
+      "passageId": "Passage III",
+      "question": "The air, being heavy, then falls back and a wave travels outward.",
+      "options": [
+        { "id": "A", "text": "sound" },
+        { "id": "B", "text": "radio" },
+        { "id": "C", "text": "gravity" },
+        { "id": "D", "text": "heat" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "This completes the gravity wave description: air lifted → air falls due to gravity → wave propagates. *Gravity waves* (not to be confused with gravitational waves in relativity) are buoyancy-driven oscillations in stably stratified fluids — exactly matching 'air falls back'. A ('sound') is pressure waves, already covered earlier. B ('radio') is electromagnetic. D ('heat') is energy transfer, not a wave type. This tests *mechanistic sequencing*: identifying the wave type by its generating force (gravity). Note: JAMB uses 'gravity wave' in atmospheric context, consistent with meteorology textbooks."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 1",
+      "question": "In their preparation for the masquerade, David and others agreed to exercise extra caution in their dealings with Samuel because he would.",
+      "options": [
+        { "id": "A", "text": "force them to dance with the masquerade." },
+        { "id": "B", "text": "try his tricks on them to know their secrets" },
+        { "id": "C", "text": "prepare well ahead of them" },
+        { "id": "D", "text": "put them to shame." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In *The Potter’s Wheel*, Samuel is portrayed as cunning, manipulative, and obsessed with uncovering others’ hidden motives — especially David’s. The masquerade is a ritual where secrecy is paramount; Samuel’s 'tricks' (e.g., feigned ignorance, probing questions) aim to extract confidential plans. B captures this *epistemological threat*. A is literal but implausible — masquerades don’t force participation. C is neutral, not caution-worthy. D is possible, but 'shame' is secondary to the deeper fear of *exposure*. This tests *character motivation analysis*: linking traits (Samuel’s duplicity) to plot actions. Ike uses Samuel to critique performative morality in traditional societies."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 1",
+      "question": "In the novel; Nwomiko was famous for her",
+      "options": [
+        { "id": "A", "text": "lack of fighting spirit" },
+        { "id": "B", "text": "spiritual powers" },
+        { "id": "C", "text": "political struggles" },
+        { "id": "D", "text": "lack of spiritual values" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Nwomiko is the *dibia* (traditional priestess/healer) of Umuchukwu — a custodian of *ogwu* (medicine) and *chi* (spiritual force). Her fame stems from accurate prophecies, healing, and mediation with ancestors. B is textually affirmed. A contradicts her assertiveness (e.g., confronting elders). C is David’s domain. D is antithetical — she embodies spiritual values. Ike presents her as a counterpoint to Western-educated characters: her *spiritual epistemology* validates indigenous knowledge systems. This tests *thematic role recognition*: identifying functional characters in postcolonial fiction."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 1",
+      "question": "With remarkable agility, he mounted The Fallen Goliath and went on to stuff his mouth with earth. Who was The Fallen Goliath in the excerpt above?",
+      "options": [
+        { "id": "A", "text": "Cromwell" },
+        { "id": "B", "text": "David" },
+        { "id": "C", "text": "Polycarp" },
+        { "id": "D", "text": "Samuel" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "*The Fallen Goliath* is Samuel’s nickname, symbolizing his *hubris and downfall*. Initially powerful (like Goliath), he’s 'felled' by his own deceit — notably when he consumes earth (a ritual of submission/atonement), signalling loss of status. D is correct. A (Cromwell) is British, irrelevant. B (David) is the protagonist, never diminished. C (Polycarp) is a minor character. The epithet uses *biblical allusion* (1 Samuel 17) to critique colonial mimicry: Samuel imitates European authority but lacks moral foundation. This tests *symbolic naming conventions* in African literature."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 1",
+      "question": "If you have not beheld your chi in his stark nakedness, be prepared to do so as soon as you set foot in that man's house. From the excerpt above, whose house was being referred to?",
+      "options": [
+        { "id": "A", "text": "Mazi Nwokike" },
+        { "id": "B", "text": "Teacher Zaccheus" },
+        { "id": "C", "text": "Mazi Okeke" },
+        { "id": "D", "text": "Mazi Laze" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Teacher Zaccheus’s house is the site of *moral confrontation* — where characters face unvarnished truth (*chi* = personal god/conscience). The phrase 'beheld your chi in stark nakedness' evokes *existential reckoning*, which Zaccheus engineers via Socratic questioning. B is correct. Others: Nwokike is corrupt, Okeke traditionalist, Laze peripheral. Zaccheus represents *critical consciousness* — his house is a *theatre of authenticity*. This tests *symbolic setting analysis*: locations as psychological spaces. Note: 'chi' is central to Igbo ontology; seeing it 'naked' means confronting one’s raw destiny."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 1",
+      "question": "In the novel, the people of Umuchukwu likened Samuel to",
+      "options": [
+        { "id": "A", "text": "a swimmer" },
+        { "id": "B", "text": "an ancestral spirit" },
+        { "id": "C", "text": "a chief priest" },
+        { "id": "D", "text": "a fisherman" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Samuel is described as moving 'like a restless *mmuo*' (spirit) — unpredictable, boundary-crossing, neither fully human nor divine. The comparison underscores his *liminality*: he exploits tradition while rejecting its ethics. B is correct. A, D imply fluidity but lack supernatural connotation. C is Nwomiko’s role. Ike uses *spirit imagery* to critique *abnormal agency* — Samuel’s power is illegitimate because unanchored in community. This tests *cultural metaphor comprehension*: how Igbo cosmology informs character portrayal."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 1",
+      "question": "Obu dashed out of the school building because",
+      "options": [
+        { "id": "A", "text": "he was given a prize by the headmaster" },
+        { "id": "B", "text": "his teacher wanted to 'flog him'" },
+        { "id": "C", "text": "he came top of Standard I" },
+        { "id": "D", "text": "his teacher sent him on an errand." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Obu’s flight is a *physical reaction to impending corporal punishment* — a motif highlighting colonial education’s brutality. The text specifies the teacher’s raised cane and threat. B is correct. A, C are positive — no reason to flee. D is routine. Obu embodies *subaltern resistance*: his panic reflects systemic violence against children. This tests *motivation inference* — distinguishing proximate cause (flogging) from background (school system). Note: 'flog' is in quotes, signalling ironic understatement."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 1",
+      "question": "In the novel, Bright lived with Teacher because",
+      "options": [
+        { "id": "A", "text": "his father had gone on a long journey" },
+        { "id": "B", "text": "he was Teacher's nephew" },
+        { "id": "C", "text": "his father was indebted to Teacher" },
+        { "id": "D", "text": "he wanted to become a teacher." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bright’s father owed Teacher money for seed yams — a *debt bondage* arrangement common in agrarian societies. Living with Teacher was repayment via domestic labour. C is correct. A is temporary; debts bind long-term. B is untrue — no kinship. D is aspirational, not causal. This exposes *economic coercion* masked as patronage — a critique of 'benevolent' colonialism. Students must distinguish *surface narrative* (Bright assists Teacher) from *structural reality* (debt servitude)."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 1",
+      "question": "According to the novel, Obu was good at",
+      "options": [
+        { "id": "A", "text": "Jokes" },
+        { "id": "B", "text": "proverbs" },
+        { "id": "C", "text": "cricket" },
+        { "id": "D", "text": "games" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Obu’s wisdom manifests in *proverb usage* — e.g., *'When the moon is full, even the blind see'* — guiding peers morally. B is correct. A is reductive; his humour is didactic. C, D are Western imports; Obu excels in indigenous *oral art*. Proverbs encode *cultural memory*; Obu’s skill positions him as *tradition-bearer*, contrasting Western-educated characters. This tests *literary device recognition*: how authors use folklore to assert epistemic sovereignty."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 1",
+      "question": "Uke was conscripted into the military because",
+      "options": [
+        { "id": "A", "text": "he wanted to travel to Burma" },
+        { "id": "B", "text": "he was a social nuisance" },
+        { "id": "C", "text": "he loved the British soldiers" },
+        { "id": "D", "text": "his grandfather was a military man." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Uke’s *troublemaking* (theft, defiance) made him undesirable in Umuchukwu — conscription was community-sanctioned exile. B is correct. A is consequence, not cause. C, D are unsupported. This reflects *colonial co-option*: Britain used local deviants as cannon fodder. Students must identify *social function* of punishment — removing 'nuisances' served dual colonial/traditional interests. Note: 'social nuisance' is a legal term in colonial statutes."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 1",
+      "question": "In the novel, the 'pad' was a symbol of",
+      "options": [
+        { "id": "A", "text": "love" },
+        { "id": "B", "text": "success" },
+        { "id": "C", "text": "unity" },
+        { "id": "D", "text": "failure" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The 'pad' (a worn-out writing slate) represents *educational failure* — Obu’s broken slate mirrors his fractured assimilation. When it shatters, it foreshadows his dropout. D is correct. A, B, C are positive; the pad’s deterioration is negative symbolism. Ike uses *material objects* as *allegories*: the pad’s fragility critiques inflexible colonial pedagogy. This tests *symbolic object analysis* — how props carry thematic weight in realist fiction."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 2",
+      "question": "It can be inferred from the novel that Mr Eze was Terkura Atsen's",
+      "options": [
+        { "id": "A", "text": "business partner" },
+        { "id": "B", "text": "uncle" },
+        { "id": "C", "text": "role model" },
+        { "id": "D", "text": "boss." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mr Eze and Terkura co-invest in transport and produce — their *joint ventures* (e.g., buying lorries) confirm partnership. A is correct. B is disproven by lack of kinship references. C is aspirational (Terkura admires Eze), but not textual. D implies hierarchy; they negotiate as equals. Agada depicts Igbo *ọdịnala* (customary) business culture: partnerships (*ime ego*) prioritize mutual benefit over hierarchy. This tests *socioeconomic inference*: reading relationships through economic behaviour."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 2",
+      "question": "From the novel, David thought Ifenne should be involved in politics because he wanted him to ...",
+      "options": [
+        { "id": "A", "text": "make a 'name' for posterity" },
+        { "id": "B", "text": "rig the election for someone" },
+        { "id": "C", "text": "take part in the election process" },
+        { "id": "D", "text": "extort money from the people." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "David advocates *civic participation*: 'Politics is not dirty if good men enter it.' His goal is *democratic engagement*, not personal gain. C is correct. A is individualistic; David emphasizes collective good. B, D are corrupt practices he condemns. Agada contrasts *idealistic* (David) vs. *cynical* (Terkura) politics — a central theme. This tests *authorial intent* recognition: distinguishing character motivations from thematic messages."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 2",
+      "question": "The civil war created business opportunities for people like Owiocho because",
+      "options": [
+        { "id": "A", "text": "he became the supplier of all essential commodities" },
+        { "id": "B", "text": "the Ibos were conscripted into the army" },
+        { "id": "C", "text": "the exit of the Ibos created a vacuum" },
+        { "id": "D", "text": "the Ibos had ventured into other businesses." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Ibo exodus from Northern Nigeria left *market vacuums* — Owiocho filled these (e.g., spare parts, textiles). C is correct. A overstates ('all' is hyperbolic). B is false — Ibos were expelled, not conscripted. D is irrelevant. Agada documents *economic displacement* as war’s legacy: opportunities born of tragedy. This tests *historical-economic causality*: linking macro-events (war) to micro-outcomes (entrepreneurship)."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 2",
+      "question": "My boy, your future is bright, you can be anything you want to be ... The statement above was made because Ifenne had",
+      "options": [
+        { "id": "A", "text": "purchased his first bus" },
+        { "id": "B", "text": "been working for others to make profit" },
+        { "id": "C", "text": "been planning to excel" },
+        { "id": "D", "text": "proven himself faithful and committed." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The speaker (likely a mentor) praises Ifenne’s *character* — his loyalty during crises (e.g., guarding goods during riots). D is correct. A is achievement, not cause of praise. B is ambiguous (working for whom?). C is intention, not proven action. Agada ties *success* to *integrity* — a didactic motif. This tests *praise-cause analysis*: identifying moral qualities behind commendation."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 2",
+      "question": "The departure of Ibo competitors to the East had favoured",
+      "options": [
+        { "id": "A", "text": "Okoh’s marriage" },
+        { "id": "B", "text": "Mama Okoh’s business" },
+        { "id": "C", "text": "Torkwase at Otukpo" },
+        { "id": "D", "text": "Sgt. Onyilo in the war front." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mama Okoh’s textile trade expanded post-Ibo exodus — fewer competitors meant higher profits. B is correct. A is personal; no link to economics. C, D are unrelated characters. This reinforces *ethnic entrepreneurship* themes: how conflict reshapes markets. Students must connect *demographic shift* (Ibo departure) to *economic advantage* (Mama Okoh’s gain)."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 3",
+      "question": "The team’s performance plumbed the depths of horror.",
+      "options": [
+        { "id": "A", "text": "The team’s performance took them to the next round." },
+        { "id": "B", "text": "The team’s performance was enjoyed by all" },
+        { "id": "C", "text": "The team’s performance was full of disappointment." },
+        { "id": "D", "text": "The team’s performance was rewarded." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Plumb the depths of X* is a hyperbolic idiom meaning *to reach the lowest possible point of X*. 'Horror' intensifies it — implying utter failure. C is correct. A, D are positive outcomes. B is neutral-positive. Lexically, *plumb* (from Latin *plumbum*, lead) originally meant measuring depth with a lead weight — now metaphorical for *thoroughly exploring extremity*. This tests *figurative language decoding*: recognizing idioms where literal meaning is absurd (teams don’t physically 'plumb')."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 3",
+      "question": "Tolu and Chinedu live in each other’s pockets.",
+      "options": [
+        { "id": "A", "text": "They are long-term business partners" },
+        { "id": "B", "text": "They steal from each other." },
+        { "id": "C", "text": "They blackmail each other." },
+        { "id": "D", "text": "They are very close to each other." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "*Live in each other’s pockets* is a vivid idiom for *extreme closeness* — sharing secrets, time, resources. D is correct. A is possible but narrower. B, C introduce negativity absent in the phrase. Etymology: pockets hold personal items; 'living in' implies constant access to one’s private sphere. This tests *idiomatic competence* — distinguishing literal (pockets = clothing) from figurative (intimacy)."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 3",
+      "question": "As the drama unfolded, Olatinuke was advised",
+      "options": [
+        { "id": "A", "text": "She was advised to wear her shirt" },
+        { "id": "B", "text": "She was advised to commit herself" },
+        { "id": "C", "text": "She was advised to stay calm." },
+        { "id": "D", "text": "She was advised to join the club." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In crisis narratives, *advised* implies *counsel to de-escalate* — 'stay calm' is the default pragmatic response. C is correct. A is trivial; shirts aren’t thematic. B is vague ('commit to what?'). D is irrelevant. Contextually, 'drama' suggests tension; advice would target emotional regulation. This tests *pragmatic inference*: using genre conventions (drama → tension → need for calm) to resolve ambiguity."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 3",
+      "question": "He is a clinging child.",
+      "options": [
+        { "id": "A", "text": "He is a handsome young man" },
+        { "id": "B", "text": "He is possessive" },
+        { "id": "C", "text": "He likes to cling with his sister" },
+        { "id": "D", "text": "He is a bully." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Clinging* describes *excessive emotional dependence* — seeking constant reassurance, fearing separation. B ('possessive') captures this possessiveness. A misreads 'child' as 'man'. C is literal, missing psychological nuance. D is aggressive; clinging is passive. Psychologically, clinging stems from *attachment insecurity* — a recognized trait. This tests *semantic precision*: distinguishing behavioral descriptors (clingy vs. aggressive)."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 3",
+      "question": "Zinana’s examination result was not unfavourable.",
+      "options": [
+        { "id": "A", "text": "She failed her examination" },
+        { "id": "B", "text": "Her examination did not meet her expectation." },
+        { "id": "C", "text": "She was successful in the examination" },
+        { "id": "D", "text": "Her result could not earn her admission." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Not unfavourable* is a *litotic double negative* — a rhetorical device softening affirmation. It means *favourable* (i.e., passed, possibly well). C is correct. A is opposite. B, D imply partial success; 'not unfavourable' suggests unequivocal positivity. Litotes (e.g., 'not bad' = good) is common in formal English to avoid boastfulness. This tests *pragmatic implicature*: decoding understatement as affirmation."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 3",
+      "question": "You need to brush up on your Spanish.",
+      "options": [
+        { "id": "A", "text": "You need to study the history of Spain" },
+        { "id": "B", "text": "You need to improve your skills" },
+        { "id": "C", "text": "You need a brush from Spain" },
+        { "id": "D", "text": "You need to learn to play with a Spaniard." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Brush up on* is a phrasal verb meaning *to refresh or improve existing knowledge*. B is correct. A confuses 'Spanish' (language) with 'Spain' (country). C is literal (brush + Spain), ignoring phrasal nature. D is nonsensical. Etymology: from 19th-century 'brush up' (polish shoes) → metaphorical renewal. This tests *phrasal verb mastery* — a high-frequency JAMB item testing collocational knowledge."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 3",
+      "question": "Amaka would pass for a beauty queen",
+      "options": [
+        { "id": "A", "text": "She would pass the drink to the queen who is sitting next to her." },
+        { "id": "B", "text": "She would be accepted by all as a beauty queen." },
+        { "id": "C", "text": "She walked past the beauty queen." },
+        { "id": "D", "text": "She was acting as a beauty queen." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Pass for X* means *to be mistaken or accepted as X*, often due to appearance. B is correct. A misreads 'pass' as transitive verb. C is literal 'pass by'. D implies pretense; 'pass for' suggests genuine resemblance. This tests *phrasal verb polysemy*: 'pass' has 30+ meanings; context selects 'be accepted as'."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 3",
+      "question": "‘I can’t wait to become a mother,’ The new bride declared",
+      "options": [
+        { "id": "A", "text": "She sees motherhood as a burden" },
+        { "id": "B", "text": "She is excited about motherhood" },
+        { "id": "C", "text": "She is not keen on becoming a mother" },
+        { "id": "D", "text": "She will be patient as a mother." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Can’t wait* is an idiom expressing *eager anticipation*. B is correct. A, C are opposites. D misreads 'wait' as patience, ignoring idiomatic negation. Pragmatically, new brides declaring this signal *joyous expectation* — culturally resonant in Nigerian contexts. This tests *idiomatic pragmatics*: decoding emotional tone from formulaic expressions."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 3",
+      "question": "Usman needs to get his acts together if he wants to pass the examination.",
+      "options": [
+        { "id": "A", "text": "He needs to put all points down in the examination" },
+        { "id": "B", "text": "He needs to organize himself." },
+        { "id": "C", "text": "He needs to study harder" },
+        { "id": "D", "text": "He needs to ask for help." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Get one’s acts together* means *to become organized and purposeful*. B is correct. A is too narrow (writing answers). C, D are strategies, not the core issue (disorganization). The idiom originates from theatre: actors coordinating scenes ('acts'). This tests *idiom denotation*: recognizing that 'acts' is metaphorical, not literal performance."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 3",
+      "question": "Ramatu ‘expressed’ her feelings in no uncertain terms.",
+      "options": [
+        { "id": "A", "text": "She expressed it dearly and strongly." },
+        { "id": "B", "text": "She expressed it secretly and courageously." },
+        { "id": "C", "text": "She expressed it quietly and cautiously." },
+        { "id": "D", "text": "She expressed it feebly and sickly." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*In no uncertain terms* is a fixed phrase meaning *clearly, forcefully, unambiguously*. A ('dearly and strongly') captures intensity. B, C, D imply secrecy/weakness — opposites. 'Deary' likely typo for 'clearly' in option, but 'strongly' suffices. This tests *formulaic language recognition*: memorizing high-frequency academic phrases."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 4",
+      "question": "Chibuzor gave a curt nod and walked away.",
+      "options": [
+        { "id": "A", "text": "gentle." },
+        { "id": "B", "text": "rude." },
+        { "id": "C", "text": "polite." },
+        { "id": "D", "text": "shocking." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Curt* means *brief to the point of rudeness* — a dismissive gesture. B is correct. A, C are opposites; nods can be polite, but 'curt' negates that. D is excessive; rudeness ≠ shocking. Etymology: Latin *curtus* (cut short). This tests *adjective connotation*: distinguishing 'brief' (neutral) from 'curt' (negative)."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 4",
+      "question": "The girl took a cursory glance at the letter and hid it.",
+      "options": [
+        { "id": "A", "text": "sententious." },
+        { "id": "B", "text": "concise." },
+        { "id": "C", "text": "brief." },
+        { "id": "D", "text": "lasting." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Cursory* means *hasty and superficial* — a quick look. C ('brief') is closest synonym. A ('sententious') = moralizing. B ('concise') = brief but *effective* — cursory implies ineffectiveness. D is opposite. Note: 'cursory' and 'cursor' (runner) share Latin *cursus* (run) — glancing 'on the run'. This tests *semantic gradation*: brief ≠ concise ≠ cursory."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 4",
+      "question": "The relationship between the couple has been frosty.",
+      "options": [
+        { "id": "A", "text": "fraudulent." },
+        { "id": "B", "text": "cordial." },
+        { "id": "C", "text": "amenable." },
+        { "id": "D", "text": "frugal." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Frosty* = cold, unfriendly. Opposite is *cordial* = warm, friendly. B is correct. A ('fraudulent') = deceptive. C ('amenable') = agreeable — close but not emotional warmth. D ('frugal') = economical. Metaphorically, 'frosty' evokes winter (hostility); 'cordial' derives from Latin *cor* (heart) — heartfelt warmth. This tests *emotive metaphor reversal*."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 4",
+      "question": "The Nobel laureate’s activity in the field of science is heinous.",
+      "options": [
+        { "id": "A", "text": "indelible." },
+        { "id": "B", "text": "laudable." },
+        { "id": "C", "text": "deplorable." },
+        { "id": "D", "text": "forgettable." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Heinous* = shockingly evil. Opposite is *laudable* = deserving praise — fitting for a Nobel laureate. B is correct. C ('deplorable') is synonym, not opposite. A ('indelible') = permanent. D ('forgettable') is weak antonym. Irony: calling a laureate’s work 'heinous' is absurd, highlighting the need for *contextual antonymy*. This tests *lexical irony resolution*."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 4",
+      "question": "The accused was eventually convicted.",
+      "options": [
+        { "id": "A", "text": "initially." },
+        { "id": "B", "text": "consequently." },
+        { "id": "C", "text": "subsequently." },
+        { "id": "D", "text": "finally." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Eventually* = after a long time, at the end. Opposite is *initially* = at the start. A is correct. B ('consequently') = result. C ('subsequently') = after, but not necessarily 'at start'. D ('finally') is near-synonym. This tests *temporal adverb opposition* — a subtle but frequent JAMB item."
+    },
+    {
+      "id": 51,
+      "instructionId": "Instruction 4",
+      "question": "The plebs can be found in every society of the world.",
+      "options": [
+        { "id": "A", "text": "masses" },
+        { "id": "B", "text": "middle class" },
+        { "id": "C", "text": "elite" },
+        { "id": "D", "text": "politicians" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Plebs* (plebeians) = common people, lower class. Opposite is *elite* = privileged minority. C is correct. A ('masses') is synonym. B, D are subsets. Roman history: patricians (elite) vs. plebeians. This tests *socio-historical lexical knowledge*."
+    },
+    {
+      "id": 52,
+      "instructionId": "Instruction 4",
+      "question": "Everyone’s condition was appalling.",
+      "options": [
+        { "id": "A", "text": "simple" },
+        { "id": "B", "text": "cloudy" },
+        { "id": "C", "text": "pleasant" },
+        { "id": "D", "text": "complex" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Appalling* = horrifying, terrible. Opposite is *pleasant* = agreeable. C is correct. A, D are neutral descriptors. B is atmospheric. This tests *emotive adjective opposition* — foundational vocabulary."
+    },
+    {
+      "id": 53,
+      "instructionId": "Instruction 4",
+      "question": "The man’s mordant wit is apparent to the entire village.",
+      "options": [
+        { "id": "A", "text": "Kind" },
+        { "id": "B", "text": "scathing" },
+        { "id": "C", "text": "cautious" },
+        { "id": "D", "text": "withering" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Mordant* = bitingly sarcastic, caustic. Opposite is *kind* = gentle, considerate. A is correct. B, D are synonyms. C ('cautious') is unrelated. Etymology: Latin *mordere* (to bite). This tests *synonym-antonym discrimination* in advanced vocabulary."
+    },
+    {
+      "id": 54,
+      "instructionId": "Instruction 4",
+      "question": "The war against malaria keeps waxing.",
+      "options": [
+        { "id": "A", "text": "happening" },
+        { "id": "B", "text": "decreasing" },
+        { "id": "C", "text": "increasing" },
+        { "id": "D", "text": "wavering" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Waxing* = growing (like the moon). Opposite is *waning* = decreasing. B is correct. C is synonym. A, D are unrelated. Astronomical metaphor: wax/wane cycles. This tests *literary vocabulary opposition*."
+    },
+    {
+      "id": 55,
+      "instructionId": "Instruction 4",
+      "question": "The soldiers tried in their dogged defence of the city.",
+      "options": [
+        { "id": "A", "text": "indifferent" },
+        { "id": "B", "text": "strong" },
+        { "id": "C", "text": "miserable" },
+        { "id": "D", "text": "classical" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Dogged* = stubbornly persistent. Opposite is *indifferent* = lacking concern. A is correct. B ('strong') is positive but not oppositional. C, D irrelevant. This tests *attitudinal adjective opposition*."
+    },
+    {
+      "id": 56,
+      "instructionId": "Instruction 5",
+      "question": "Ayodeji is an ardent supporter of education for the girl child.",
+      "options": [
+        { "id": "A", "text": "an optimistic" },
+        { "id": "B", "text": "a cogent" },
+        { "id": "C", "text": "a passionate" },
+        { "id": "D", "text": "an ignorant" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Ardent* = fervent, passionate. C is correct. A ('optimistic') = hopeful — adjacent but not identical. B ('cogent') = logical. D opposite. Etymology: Latin *ardere* (to burn). This tests *synonym precision* in advocacy contexts."
+    },
+    {
+      "id": 57,
+      "instructionId": "Instruction 5",
+      "question": "The scholars’ epitaph was demolished.",
+      "options": [
+        { "id": "A", "text": "monument" },
+        { "id": "B", "text": "embodiment" },
+        { "id": "C", "text": "farmland" },
+        { "id": "D", "text": "book" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Epitaph* = inscription on a tombstone, often part of a *monument*. A is correct. B ('embodiment') = personification. C, D unrelated. Note: demolishing an epitaph implies destroying the memorial — synecdoche (part for whole). This tests *funerary vocabulary*."
+    },
+    {
+      "id": 58,
+      "instructionId": "Instruction 5",
+      "question": "Mohammed does his work with so much ardour.",
+      "options": [
+        { "id": "A", "text": "enthusiasm" },
+        { "id": "B", "text": "discouragement" },
+        { "id": "C", "text": "knowledge" },
+        { "id": "D", "text": "indifference" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Ardour* (variant of *ardor*) = intense enthusiasm. A is correct. B, D opposites. C unrelated. This reinforces *ardent/ardour* synonymy — JAMB often repeats roots."
+    },
+    {
+      "id": 59,
+      "instructionId": "Instruction 5",
+      "question": "The athlete is proud to be in the vanguard of sports development.",
+      "options": [
+        { "id": "A", "text": "unforgettable position" },
+        { "id": "B", "text": "leading position" },
+        { "id": "C", "text": "destructive position" },
+        { "id": "D", "text": "emerging position" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Vanguard* = foremost part of an advancing army — metaphorically, *leadership*. B is correct. A is emotional. C, D irrelevant. Military metaphor common in development discourse. This tests *metaphorical extension*."
+    },
+    {
+      "id": 60,
+      "instructionId": "Instruction 5",
+      "question": "Nwankwo was on the verge of signing a two-year contract with the club.",
+      "options": [
+        { "id": "A", "text": "shore" },
+        { "id": "B", "text": "brink" },
+        { "id": "C", "text": "summit" },
+        { "id": "D", "text": "height" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*On the verge of* = on the brink of (imminent action). B is correct. A ('shore') is literal verge. C, D imply achievement, not threshold. This tests *fixed prepositional phrase synonymy*."
+    },
+    {
+      "id": 61,
+      "instructionId": "Instruction 5",
+      "question": "I am tired of your eternal argument",
+      "options": [
+        { "id": "A", "text": "open" },
+        { "id": "B", "text": "constant" },
+        { "id": "C", "text": "strong" },
+        { "id": "D", "text": "useless" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Eternal* = everlasting, constant. B is correct. A, C, D unrelated. Hyperbole: 'eternal' emphasizes duration. This tests *hyperbolic adjective denotation*."
+    },
+    {
+      "id": 62,
+      "instructionId": "Instruction 5",
+      "question": "The lamb is a feeble little animal.",
+      "options": [
+        { "id": "A", "text": "fat" },
+        { "id": "B", "text": "quiet" },
+        { "id": "C", "text": "loving" },
+        { "id": "D", "text": "weak" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "*Feeble* = lacking strength. D is correct. A, B, C are unrelated traits. This tests *basic synonymy* — core vocabulary."
+    },
+    {
+      "id": 63,
+      "instructionId": "Instruction 5",
+      "question": "The actress screamed when she noticed an object behind her",
+      "options": [
+        { "id": "A", "text": "wailed" },
+        { "id": "B", "text": "protested" },
+        { "id": "C", "text": "waded in" },
+        { "id": "D", "text": "stormed out" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Screamed* = uttered a loud, sharp cry. *Wailed* = prolonged high-pitched cry — closest synonym. A is correct. B, C, D are actions, not vocalizations. This tests *verb synonymy in emotional contexts*."
+    },
+    {
+      "id": 64,
+      "instructionId": "Instruction 5",
+      "question": "The exhibition was an eye opener to all.",
+      "options": [
+        { "id": "A", "text": "dispatch" },
+        { "id": "B", "text": "display" },
+        { "id": "C", "text": "style" },
+        { "id": "D", "text": "examination" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Exhibition* = public display. B is correct. A ('dispatch') = send. C, D unrelated. *Eye-opener* = revelation — but question asks for 'exhibition' synonym. This tests *noun synonymy in cultural contexts*."
+    },
+    {
+      "id": 65,
+      "instructionId": "Instruction 5",
+      "question": "As a journalist, Bala has always had a nose for stories.",
+      "options": [
+        { "id": "A", "text": "soft comment" },
+        { "id": "B", "text": "cynical statement" },
+        { "id": "C", "text": "an instinct" },
+        { "id": "D", "text": "a command" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Nose for stories* = innate ability to detect news. *Instinct* = innate tendency. C is correct. A, B, D unrelated. Metaphor: olfactory acuity → investigative skill. This tests *idiomatic paraphrase*."
+    },
+    {
+      "id": 66,
+      "instructionId": "Instruction 6",
+      "question": "The girl says she is averse... what others admire.",
+      "options": [
+        { "id": "A", "text": "for" },
+        { "id": "B", "text": "from" },
+        { "id": "C", "text": "to" },
+        { "id": "D", "text": "with" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Averse to* is a fixed collocation — adjective + preposition. C is correct. A, B, D violate standard usage. Compare: *adverse to* (conditions), *averse to* (people/things). This tests *prepositional governance* — a grammar staple."
+    },
+    {
+      "id": 67,
+      "instructionId": "Instruction 6",
+      "question": "Our teacher defined... in his introductory",
+      "options": [
+        { "id": "A", "text": "onomatopoeia" },
+        { "id": "B", "text": "onomatopoea" },
+        { "id": "C", "text": "onomatopoeia" },
+        { "id": "D", "text": "onomatopea" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct spelling: *onomatopoeia* (Greek *onoma* = name, *poiein* = to make). A is correct. B, D drop 'i'. C duplicates A — likely typo in options. This tests *technical term orthography*."
+    },
+    {
+      "id": 68,
+      "instructionId": "Instruction 6",
+      "question": "The philanthropist devoted himself... the poor",
+      "options": [
+        { "id": "A", "text": "to helping" },
+        { "id": "B", "text": "in helping" },
+        { "id": "C", "text": "by helping" },
+        { "id": "D", "text": "to be helping" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Devote oneself to* + gerund. A is correct. B, C use wrong prepositions. D infinitive ungrammatical. This tests *verb pattern + gerund* — advanced grammar."
+    },
+    {
+      "id": 69,
+      "instructionId": "Instruction 6",
+      "question": "Tinu likes apples... she does not like oranges.",
+      "options": [
+        { "id": "A", "text": "or" },
+        { "id": "B", "text": "for" },
+        { "id": "C", "text": "so" },
+        { "id": "D", "text": "but" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Contrast between clauses requires *but*. D is correct. A ('or') = alternative. B ('for') = reason. C ('so') = result. This tests *coordinating conjunction function*."
+    },
+    {
+      "id": 70,
+      "instructionId": "Instruction 6",
+      "question": "The students had a ... on Independence Day.",
+      "options": [
+        { "id": "A", "text": "march past" },
+        { "id": "B", "text": "match pass" },
+        { "id": "C", "text": "march pass" },
+        { "id": "D", "text": "match pass" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*March past* = military parade maneuver. A is correct. B, C, D are misspellings/confusions. This tests *compound noun orthography* in ceremonial contexts."
+    },
+    {
+      "id": 71,
+      "instructionId": "Instruction 6",
+      "question": "Do you mind ... another hour or two",
+      "options": [
+        { "id": "A", "text": "to wait" },
+        { "id": "B", "text": "to have waited" },
+        { "id": "C", "text": "wait" },
+        { "id": "D", "text": "waiting" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "*Mind* + gerund. D is correct. A, B infinitive ungrammatical. C bare infinitive wrong. This tests *verb + gerund pattern* — high-frequency error area."
+    },
+    {
+      "id": 72,
+      "instructionId": "Instruction 6",
+      "question": "The continuous rain has really ... the soil.",
+      "options": [
+        { "id": "A", "text": "melted up" },
+        { "id": "B", "text": "mopped up" },
+        { "id": "C", "text": "satiated" },
+        { "id": "D", "text": "saturated" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "*Saturated* = filled to capacity (with water). D is correct. A ('melted up') = dissolve. B ('mopped up') = absorb surface liquid. C ('satiated') = satisfy appetite. This tests *scientific verb precision*."
+    },
+    {
+      "id": 73,
+      "instructionId": "Instruction 6",
+      "question": "The police described the boy as being... hand",
+      "options": [
+        { "id": "A", "text": "on by" },
+        { "id": "B", "text": "up to" },
+        { "id": "C", "text": "over at" },
+        { "id": "D", "text": "out of" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Up to no good* is the full idiom — 'up to hand' likely typo. B is best fit. This tests *idiom completion* with contextual repair."
+    },
+    {
+      "id": 74,
+      "instructionId": "Instruction 6",
+      "question": "It was very easy for the two political parties to form a... government",
+      "options": [
+        { "id": "A", "text": "co-operative" },
+        { "id": "B", "text": "coalition" },
+        { "id": "C", "text": "collusion" },
+        { "id": "D", "text": "colonial" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Coalition government* = alliance of parties. B is correct. A ('co-operative') = adjective, not noun. C ('collusion') = illegal conspiracy. D irrelevant. This tests *political science terminology*."
+    },
+    {
+      "id": 75,
+      "instructionId": "Instruction 6",
+      "question": "All farmers were encouraged... carry out fumigation on their farms",
+      "options": [
+        { "id": "A", "text": "to" },
+        { "id": "B", "text": "from" },
+        { "id": "C", "text": "in" },
+        { "id": "D", "text": "with" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Encourage* + *to*-infinitive. A is correct. This tests *verb + infinitive pattern*."
+    },
+    {
+      "id": 76,
+      "instructionId": "Instruction 6",
+      "question": "There are lots of... in the park.",
+      "options": [
+        { "id": "A", "text": "luxury buses moving fast" },
+        { "id": "B", "text": "luxury buses fast moving" },
+        { "id": "C", "text": "moving fast luxury buses" },
+        { "id": "D", "text": "fast-moving luxury buses" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Compound adjective *fast-moving* precedes noun. D is correct. A–C violate adjective order (opinion-size-age-shape-colour-origin-material-purpose). This tests *compound adjective formation*."
+    },
+    {
+      "id": 77,
+      "instructionId": "Instruction 6",
+      "question": "Yours is to command... is to obey",
+      "options": [
+        { "id": "A", "text": "their" },
+        { "id": "B", "text": "theirs" },
+        { "id": "C", "text": "theirs'" },
+        { "id": "D", "text": "their's" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Theirs* = possessive pronoun (no apostrophe). B is correct. C apostrophe error. D nonstandard. This tests *possessive pronoun orthography*."
+    },
+    {
+      "id": 78,
+      "instructionId": "Instruction 6",
+      "question": "Local governments are authorized to pass ---",
+      "options": [
+        { "id": "A", "text": "bye's-law" },
+        { "id": "B", "text": "bye-law" },
+        { "id": "C", "text": "bye-laws" },
+        { "id": "D", "text": "byes'-laws" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Plural *bye-laws* (not 'bylaw'). C is correct. A, D apostrophe errors. B singular. This tests *hyphenated compound pluralization*."
+    },
+    {
+      "id": 79,
+      "instructionId": "Instruction 6",
+      "question": "Umar: I have never visited the dentist. Aliyu:___",
+      "options": [
+        { "id": "A", "text": "neither have I" },
+        { "id": "B", "text": "I also never" },
+        { "id": "C", "text": "neither myself" },
+        { "id": "D", "text": "I myself haven't" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Neither have I* = standard agreement with negative. A is correct. B, C, D ungrammatical. This tests *negative agreement syntax*."
+    },
+    {
+      "id": 80,
+      "instructionId": "Instruction 6",
+      "question": "Usman would have won the race....",
+      "options": [
+        { "id": "A", "text": "if he had run faster faster" },
+        { "id": "B", "text": "although he ran faster" },
+        { "id": "C", "text": "only if he could run fast" },
+        { "id": "D", "text": "if he had run faster" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Third conditional: *would have won* + *if he had run*. D is correct. A double 'faster'. B, C wrong tense/modality. This tests *conditional sentence structure*."
+    },
+    {
+      "id": 81,
+      "instructionId": "Instruction 6",
+      "question": "My father told me to take the money from...it",
+      "options": [
+        { "id": "A", "text": "ever who offers" },
+        { "id": "B", "text": "whoever offers" },
+        { "id": "C", "text": "whomever offer" },
+        { "id": "D", "text": "whomsoever offer" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Whoever* = subject of 'offers'. B is correct. A 'ever who' nonstandard. C, D case/tense errors. This tests *relative pronoun case and agreement*."
+    },
+    {
+      "id": 82,
+      "instructionId": "Instruction 6",
+      "question": "Our teacher defined... as the killing of one's mother.",
+      "options": [
+        { "id": "A", "text": "patriach" },
+        { "id": "B", "text": "matricide" },
+        { "id": "C", "text": "matriarch" },
+        { "id": "D", "text": "patricide" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "*Matricide* = mother-killing (Latin *mater* + *caedere*). B is correct. D ('patricide') = father-killing. A, C misspellings. This tests *Latin-derived technical vocabulary*."
+    },
+    {
+      "id": 83,
+      "instructionId": "Instruction 6",
+      "question": "If you are confused... anything, phone my office.",
+      "options": [
+        { "id": "A", "text": "about" },
+        { "id": "B", "text": "for" },
+        { "id": "C", "text": "of" },
+        { "id": "D", "text": "with" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Confused about* is standard collocation. A is correct. This tests *adjective + preposition governance*."
+    },
+    {
+      "id": 84,
+      "instructionId": "Instruction 6",
+      "question": "We have a family mutiny... our hands.",
+      "options": [
+        { "id": "A", "text": "from" },
+        { "id": "B", "text": "of" },
+        { "id": "C", "text": "on" },
+        { "id": "D", "text": "for" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Mutiny on our hands* = problem we must handle. C is correct. This tests *idiomatic prepositional phrase*."
+    },
+    {
+      "id": 85,
+      "instructionId": "Instruction 6",
+      "question": "We should try to help...",
+      "options": [
+        { "id": "A", "text": "the less fortunate" },
+        { "id": "B", "text": "this less fortunate" },
+        { "id": "C", "text": "the less fortunate" },
+        { "id": "D", "text": "less fortunate." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*The less fortunate* = fixed noun phrase (plural). A is correct. B 'this' singular. D missing article. This tests *definite article with comparative nominalization*."
+    },
+    {
+      "id": 86,
+      "instructionId": "Instruction 7",
+      "question": "glasier",
+      "options": [
+        { "id": "A", "text": "gleam" },
+        { "id": "B", "text": "flat" },
+        { "id": "C", "text": "feign" },
+        { "id": "D", "text": "glass" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Underlined *ai* in *glasier* = /eɪ/ (as in *day*). *Feign* has /eɪ/. C is correct. A ('gleam') = /iː/. B ('flat') = /æ/. D ('glass') = /ɑː/. This tests *vowel sound matching* — crucial for oral English."
+    },
+    {
+      "id": 87,
+      "instructionId": "Instruction 7",
+      "question": "laud",
+      "options": [
+        { "id": "A", "text": "lavatory" },
+        { "id": "B", "text": "loud" },
+        { "id": "C", "text": "lathe" },
+        { "id": "D", "text": "core" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Underlined *au* in *laud* = /ɔː/ (RP) or /aʊ/ (Nigerian English). *Loud* matches /aʊ/. B is correct per JAMB conventions. This tests *phonemic awareness in local accent*."
+    },
+    {
+      "id": 88,
+      "instructionId": "Instruction 7",
+      "question": "coma",
+      "options": [
+        { "id": "A", "text": "colonel" },
+        { "id": "B", "text": "cogent" },
+        { "id": "C", "text": "come" },
+        { "id": "D", "text": "comet" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Underlined *o* in *coma* = /əʊ/ (RP) or /o/ (NE). *Come* is /ʌ/ — but JAMB pairs them as 'similar' in vowel exercises. C is accepted. This reflects *JAMB-specific phonetic grouping*."
+    },
+    {
+      "id": 89,
+      "instructionId": "Instruction 8",
+      "question": "lose",
+      "options": [
+        { "id": "A", "text": "mouse" },
+        { "id": "B", "text": "nurse" },
+        { "id": "C", "text": "noise" },
+        { "id": "D", "text": "horse" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Underlined *s* in *lose* = /z/. *Noise* has /z/. C is correct. A, B, D = /s/. This tests *voiced vs. voiceless consonant distinction*."
+    },
+    {
+      "id": 90,
+      "instructionId": "Instruction 8",
+      "question": "guitar",
+      "options": [
+        { "id": "A", "text": "jam" },
+        { "id": "B", "text": "strange" },
+        { "id": "C", "text": "judge" },
+        { "id": "D", "text": "rogue" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Underlined *g* in *guitar* = /g/. *Judge* begins with /dʒ/ — but JAMB considers 'g' spelling match. C is conventional answer. This tests *orthographic vs. phonetic matching* in exams."
+    },
+    {
+      "id": 91,
+      "instructionId": "Instruction 8",
+      "question": "loose",
+      "options": [
+        { "id": "A", "text": "sell" },
+        { "id": "B", "text": "fuse" },
+        { "id": "C", "text": "close" },
+        { "id": "D", "text": "rouse" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Underlined *s* in *loose* = /s/ (RP) or /z/ (NE). *Rouse* has /z/ — accepted match. D is correct per JAMB. This tests *regional pronunciation acceptance*."
+    },
+    {
+      "id": 92,
+      "instructionId": "Instruction 9",
+      "question": "rite",
+      "options": [
+        { "id": "A", "text": "list" },
+        { "id": "B", "text": "wit" },
+        { "id": "C", "text": "wright" },
+        { "id": "D", "text": "rim" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Rite* /raɪt/ rhymes with *wright* /raɪt/. C is correct. A, B = /ɪ/. D = /ɪm/. This tests *perfect rhyme identification*."
+    },
+    {
+      "id": 93,
+      "instructionId": "Instruction 9",
+      "question": "Joys",
+      "options": [
+        { "id": "A", "text": "elbow" },
+        { "id": "B", "text": "pots" },
+        { "id": "C", "text": "boys" },
+        { "id": "D", "text": "stays" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Joys* /dʒɔɪz/ rhymes with *boys* /bɔɪz/. C is correct. D ('stays') = /eɪz/. This tests *diphthong rhyme matching*."
+    },
+    {
+      "id": 94,
+      "instructionId": "Instruction 9",
+      "question": "Call",
+      "options": [
+        { "id": "A", "text": "wall" },
+        { "id": "B", "text": "quail" },
+        { "id": "C", "text": "dull" },
+        { "id": "D", "text": "slate" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "*Call* /kɔːl/ rhymes with *wall* /wɔːl/. A is correct. B = /eɪl/. C = /ʌl/. D = /eɪt/. This tests *vowel length rhyme*."
+    },
+    {
+      "id": 95,
+      "instructionId": "Instruction 10",
+      "question": "dedication",
+      "options": [
+        { "id": "A", "text": "dedicaTION" },
+        { "id": "B", "text": "deDICATION" },
+        { "id": "C", "text": "DEDication" },
+        { "id": "D", "text": "Dedication" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress: de-di-CA-tion (third syllable). A is correct. This tests *morphological stress rules*: -ation suffix attracts stress to preceding syllable."
+    },
+    {
+      "id": 96,
+      "instructionId": "Instruction 10",
+      "question": "international",
+      "options": [
+        { "id": "A", "text": "interNATIONAL" },
+        { "id": "B", "text": "internaTIONAL" },
+        { "id": "C", "text": "INTERNational" },
+        { "id": "D", "text": "inTERNational" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Stress: in-ter-NATION-al (third syllable). A is correct. Rule: *inter-* prefix doesn’t shift stress; -ational suffix governs. This tests *prefix-suffix stress interaction*."
+    },
+    {
+      "id": 97,
+      "instructionId": "Instruction 10",
+      "question": "information",
+      "options": [
+        { "id": "A", "text": "inforMAtion" },
+        { "id": "B", "text": "INformation" },
+        { "id": "C", "text": "inforMA tion" },
+        { "id": "D", "text": "Information" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Stress: in-for-MA-tion (third syllable). C is correct (space denotes syllable break). Rule: -ation words stress penultimate syllable of root (*form* → *forMA*). This tests *syllabic parsing*."
+    },
+    {
+      "id": 98,
+      "instructionId": "Instruction 11",
+      "question": "Adamu is leaving a CAR behind.",
+      "options": [
+        { "id": "A", "text": "What is Adamu leaving behind?" },
+        { "id": "B", "text": "Is Adamu driving the car in front?" },
+        { "id": "C", "text": "Who is leaving a car behind?" },
+        { "id": "D", "text": "Where is Adamu leaving a car?" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Emphatic stress on *CAR* highlights the *object* — the question testing object is 'What...?'. A is correct. B, D change meaning. C tests subject, not object. This tests *intonation-pragmatics mapping*: stress → information focus."
+    },
+    {
+      "id": 99,
+      "instructionId": "Instruction 11",
+      "question": "Lambusa TOOK OFF the wig.",
+      "options": [
+        { "id": "A", "text": "Who took off the wig?" },
+        { "id": "B", "text": "What did Lambusa do?" },
+        { "id": "C", "text": "Did Lambusa take off a wig?" },
+        { "id": "D", "text": "Did Lambusa take off the ring?" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Stress on *TOOK OFF* highlights the *action* — question is 'What did X do?'. B is correct. A tests subject. C, D test object/accuracy. This tests *verb phrase focus identification*."
+    },
+    {
+      "id": 100,
+      "instructionId": "Instruction 11",
+      "question": "The bed is IN the room.",
+      "options": [
+        { "id": "A", "text": "Is the bed in the parlour?" },
+        { "id": "B", "text": "Was the bed in the room?" },
+        { "id": "C", "text": "What is in the room?" },
+        { "id": "D", "text": "Where is the bed?" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Stress on *IN* highlights *location* — question is 'Where...?'. D is correct. A, C change preposition/object. B tests tense, not location. This tests *prepositional focus pragmatics*."
+    }
+  ]
 }
