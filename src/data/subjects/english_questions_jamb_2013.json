@@ -1,4 +1,64 @@
 {
+  "passages": [
+    {
+      "id": "Passage I",
+      "text": "In 1951, the Government decided to start a Pottery Training Centre where new and more advanced technical methods, especially glazing, could be taught. The centre was intended to serve the whole of the defunct Northern Region, and there were several reasons for choosing Abuja. The first was the excellence of the traditional pottery made in the Emirate.\n\nSecondly, fire-wood is plentiful; this is a most important consideration, because in the making of glazed pottery, more firewood than clay is required.\n\nThirdly, there are good clays, and good local sources for the raw materials needed for the glazes.\n\nFourthly, water, which is an other important raw material, is plentiful.\n\nFinally, Abuja is in a central position for the whole region and is a town where learners from many different parts can find a congenial temporary home, and where the Emir and his Council are actively interested in the project.\n\nNearly all the making is done by a process called 'throwing', so called because the lumps of clay are thrown by the potter onto a wheel-head. They are weighed out so that each pot will be roughly the same size; for example, for making pint-sized jugs, the lumps of clay will be one and a half kilogrammes. The potter sits on the saddle of the wheel and spins it by pushing a pedal with his left foot. He has a bowl of water, a loofah, a bamboo knife, a pointed stick or porcupine quill, a wooden smoothing tool which potters call a rib, and a piece of wire-like object that is used for wedging. He makes the wheel-head slightly damp, and throws the lumps into the middle.\n\nThe first work is to force the lump to the centre, then he presses his thumb into the middle of the lump, using water to keep it slippery. When the bottom is of the right thickness, he begins to draw up the walls until they are of the right height. Then he shapes the belly and shoulder of the pot. He trims off any waste clay.\n\nIn this way, a small and medium-sized pot can be made more quickly and accurately."
+    },
+    {
+      "id": "Passage II",
+      "text": "Music plays a vital role in human society. Good music provides entertainment and emotional release, and it accompanies activities ranging from dances to religious ceremonies.\n\nMusic is heard everywhere; in auditoriums, homes, elevators, schools, sports arenas and on the streets. Recorded performance is a sensational innovation elevation of the twentieth century. Thanks to modern technology like compact disc (CD) digital video disc (DVD) and the MP 3 player, music can now be heard in diverse places. Such places include living rooms and cars, jogging paths can also function as new kinds of concert halls where we can hear what we want as often as we want.\n\nLive performances provide a special excitement. In a live performance artists put themselves on the line. To avoid embarrassment, the artiste must train before hand and ensure that technical difficulties are avoided and that the listeners are actively involved. What is performed, how it sounds to the excitement of such a moment and feelings are exchanged between stage and hall.\n\nOur response to a musical performance or an artiste is subjective and rooted in deep feelings. Even professional critics can differ strongly in their evaluations of a performance.\n\nThere is no one 'Truth' about what we hear and feel. Does the performed project a concept, an overall idea, or an emotion? Do some sections of a piece, but not others, communicate something to you? Can you figure out why? It is up to us as listeners to evaluate performances of music so that we can fully enjoy it.\n\nPeople listen to music in many different ways. For instance, music can be a barely perceived background as in a film or a totally absorbing experience as in a concert.\n\nAdapted from Roger, K. (1990) An Appreciation Music: Fourth Brief Edition, McGrow-Hill Higher Education."
+    },
+    {
+      "id": "Passage III",
+      "text": "Whatever may be its wider imputations, the explosion of hydrogen bomb is, for the meteorologist, simply another atmospheric disturbance. It should therefore be classified with certain rare natural...11... [A. programmes B. occurrences C. resources D. laws], such as volcanic...12...[A. insurrection B. eruption C. commotion D. explosion]. But there are certain features of a man-made disturbance that requires special examination.\n\nAs with all events on this...13... [A. scanner B. skate C. snow D. scale], it is impossible to describe what happens in details. However we can be reasonably sure of the main effects, and the most impressive of these arises from...14... [A. pressure waves B. pressure volume C. pressure air D. pressure gauge ].\n\nThe immediate result of the...15... [A. reduction B. commotion C. detonation D. distortion] is that the air surrounding the bomb is raised very rapidly to an enormously high...16... [A. way B. temperature C. class D. profile].\n\nThe hot gases expand violently as great...17... [A. firearms B. fireballs C. fireworks D. firesmokes], compressing the air around them"
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 21 to 30, answer the questions based on Chukwuemeka Ike’s The Potter’s Wheel."
+    },
+    {
+      "id": "Instruction 2",
+      "text": "In each of questions 31 to 35, answer the questions based on Jerry Agada’s The Successors."
+    },
+    {
+      "id": "Instruction 3",
+      "text": "In each of questions 36 to 45, select the option that best explains the information conveyed in the sentence."
+    },
+    {
+      "id": "Instruction 4",
+      "text": "In each of questions 46 to 55, choose the option opposite in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 5",
+      "text": "In each of questions 56 to 65, choose the option nearest in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 6",
+      "text": "In each of questions 66 to 85, choose the option that best completes the gap(s)."
+    },
+    {
+      "id": "Instruction 7",
+      "text": "In each of questions 86 to 88, choose the option that has the same vowel sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 8",
+      "text": "In each of questions 89 to 91, choose the option that has the same consonant sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 9",
+      "text": "In each of questions 92 to 94, choose the option that rhymes with the given word."
+    },
+    {
+      "id": "Instruction 10",
+      "text": "In each of questions 95 to 97, choose the most appropriate stress pattern from the options. The stressed syllables are written in capital letters."
+    },
+    {
+      "id": "Instruction 11",
+      "text": "In each of questions 98 to 100, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates."
+    }
+  ],
   "questions": [
     {
       "id": 1,
