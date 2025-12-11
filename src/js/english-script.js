@@ -164,21 +164,21 @@ class EnglishCBTExamApp {
                 });
 
                 sortedPassages.forEach(passage => {
-                    if (passageQuestionMap[passage.id] && passageQuestionMap[passage.id].length > 0) {
-                        // Add the passage as a content page
-                        const passageContent = {
-                            id: currentId++,
-                            type: 'passage',
-                            title: passage.id,
-                            text: passage.text,
-                            question: `<div class="english-passage"><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
-                            options: [{ id: "CONTINUE", text: "Continue to questions" }],
-                            correctAnswer: "CONTINUE",
-                            explanation: "This is a passage. Please read carefully before answering the questions that follow."
-                        };
-                        reorganizedQuestions.push(passageContent);
+                    // Add the passage as a content page regardless of whether it has questions
+                    const passageContent = {
+                        id: currentId++,
+                        type: 'passage',
+                        title: passage.id,
+                        text: passage.text,
+                        question: `<div class="english-passage"><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
+                        options: [{ id: "CONTINUE", text: "Continue to questions" }],
+                        correctAnswer: "CONTINUE",
+                        explanation: "This is a passage. Please read carefully before answering the questions that follow."
+                    };
+                    reorganizedQuestions.push(passageContent);
 
-                        // Add questions related to this passage
+                    // Add questions related to this passage if they exist
+                    if (passageQuestionMap[passage.id] && passageQuestionMap[passage.id].length > 0) {
                         passageQuestionMap[passage.id].forEach(question => {
                             // Update the question ID to the sequential ID
                             const modifiedQuestion = {
@@ -201,21 +201,21 @@ class EnglishCBTExamApp {
                 });
 
                 sortedInstructions.forEach(instruction => {
+                    // Add the instruction as a content page regardless of whether it has questions
+                    const instructionContent = {
+                        id: currentId++,
+                        type: 'instruction',
+                        title: instruction.id,
+                        text: instruction.text,
+                        question: `<div class="english-instruction"><p>${instruction.text}</p></div>`,
+                        options: [{ id: "CONTINUE", text: "Continue to questions" }],
+                        correctAnswer: "CONTINUE",
+                        explanation: "Please read the instructions carefully before attempting the questions that follow."
+                    };
+                    reorganizedQuestions.push(instructionContent);
+                    
+                    // Add questions related to this instruction if they exist
                     if (instructionQuestionMap[instruction.id] && instructionQuestionMap[instruction.id].length > 0) {
-                        // Add the instruction as a content page
-                        const instructionContent = {
-                            id: currentId++,
-                            type: 'instruction',
-                            title: instruction.id,
-                            text: instruction.text,
-                            question: `<div class="english-instruction"><p>${instruction.text}</p></div>`,
-                            options: [{ id: "CONTINUE", text: "Continue to questions" }],
-                            correctAnswer: "CONTINUE",
-                            explanation: "Please read the instructions carefully before attempting the questions that follow."
-                        };
-                        reorganizedQuestions.push(instructionContent);
-                        
-                        // Add questions related to this instruction
                         instructionQuestionMap[instruction.id].forEach(question => {
                             // Update the question ID to the sequential ID and preserve passageId if it exists
                             const modifiedQuestion = {
