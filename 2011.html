@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAMB English 2011 - CBT Exam Platform</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/english_styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JAMB English Language 2011 - Computer-Based Test (CBT) Platform</h1>
+        </header>
+        
+        <main id="main-content">
+            <!-- Exam Instructions Screen -->
+            <section id="instructions-screen" class="screen active">
+                <div class="instructions-card">
+                    <div class="back-button-container">
+                        <a href="../english.html" class="btn btn-secondary">← Back to Year Selection</a>
+                    </div>
+                    <h2>English Language Exam Instructions - 2011</h2>
+                    <div class="instructions-list">
+                        <p><strong>Read carefully before starting the exam:</strong></p>
+                        <ul>
+                            <li>You have <span id="time-display">60</span> minutes to complete this exam</li>
+                            <li>Once you start, the timer will begin automatically</li>
+                            <li>You can navigate between questions using the buttons below</li>
+                            <li>All answers will be saved automatically</li>
+                            <li>Click "Submit Exam" when you're finished</li>
+                            <li>Read instructions and passages carefully before answering questions</li>
+                        </ul>
+                    </div>
+                    <button id="start-exam-btn" class="btn btn-primary">Start Exam</button>
+                </div>
+            </section>
+            
+            <!-- Exam Screen -->
+            <section id="exam-screen" class="screen">
+                <div class="exam-container">
+                    <div class="exam-header">
+                        <div class="timer">
+                            <span id="timer">Time Left: <span id="minutes">60</span>:<span id="seconds">00</span></span>
+                        </div>
+                        <div class="exam-progress">
+                            <span id="progress">Question <span id="current-q">1</span> of <span id="total-q">100</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="passage-container" id="passage-container">
+                        <!-- Passages or instructions will be loaded dynamically based on the question -->
+                    </div>
+                    
+                    <div class="question-container">
+                        <div class="question-header">
+                            <h3 id="q-number">Question 1</h3>
+                        </div>
+                        <div class="question-body">
+                            <div id="question-text">Loading question...</div>
+                            <div class="options-container" id="options-container">
+                                <!-- Options will be populated dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navigation-container">
+                        <button id="prev-btn" class="btn btn-secondary">Previous</button>
+                        <button id="next-btn" class="btn btn-primary">Next</button>
+                        <button id="submit-btn" class="btn btn-danger">Submit Exam</button>
+                    </div>
+                    
+                    <div class="question-list">
+                        <h4>Question List</h4>
+                        <div id="question-list-container">
+                            <!-- Question buttons will be populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Results Screen -->
+            <section id="results-screen" class="screen">
+                <div class="results-card">
+                    <h2>Exam Completed - 2011</h2>
+                    <div class="results-content">
+                        <p>Your score: <span id="score-display">0</span> / <span id="total-questions">0</span></p>
+                        <p>Percentage: <span id="percentage">0</span>%</p>
+                        <button id="review-btn" class="btn btn-secondary">Review Answers</button>
+                        <a href="../english.html" class="btn btn-primary">Select Another Year</a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Review Screen -->
+            <section id="review-screen" class="screen">
+                <div class="review-container">
+                    <div class="review-header-bar">
+                        <h2>Review Answers - 2011</h2>
+                        <div class="review-progress">
+                            Question <span id="review-question-counter">1 / 100</span>
+                        </div>
+                    </div>
+                    
+                    <div id="review-container">
+                        <!-- Review content will be populated dynamically -->
+                    </div>
+                    
+                    <div class="review-navigation">
+                        <button id="review-prev-btn" class="btn btn-secondary">Previous</button>
+                        <button id="review-next-btn" class="btn btn-primary">Next</button>
+                        <button id="review-finish-btn" class="btn btn-primary">Finish Review</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Exam Submission Confirmation Modal -->
+    <div id="submit-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h3>Confirm Exam Submission</h3>
+            <p>Are you sure you want to submit your exam? You will not be able to make any changes after submission.</p>
+            <div class="modal-buttons">
+                <button id="confirm-submit" class="btn btn-danger">Yes, Submit</button>
+                <button id="cancel-submit" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load the database and specific 2011 questions -->
+    <script src="../js/database.js"></script>
+    <script>
+        // Initialize with 2011 English questions
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load the 2011 English questions data
+            loadSubjectQuestions('english', '2011');
+            
+            // Initialize the exam interface
+            initializeExamInterface();
+        });
+    </script>
+    <script src="../js/english-script.js"></script>
+</body>
+</html>
