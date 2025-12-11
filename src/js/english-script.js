@@ -60,14 +60,14 @@ class EnglishCBTExamApp {
     
     async loadQuestionsForSubject(subject) {
         try {
-            // Clear the database and repopulate with the selected year's data
+            // Clear the database and repopulate with the unified data (same for all years)
             if (examDB && examDB.db) {
                 await examDB.clearAllData();
                 console.log('Database cleared before loading new data');
             }
             
-            // Load from the selected year's JSON file
-            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${this.selectedYear}.json`;
+            // Load from the unified English questions file (same for all years)
+            const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_unified.json`;
             const response = await fetch(fileName);
             
             if (!response.ok) {
@@ -89,17 +89,17 @@ class EnglishCBTExamApp {
                     try {
                         // Add the newly loaded questions to the database
                         await examDB.addQuestions(subject, subjectData.questions || []);
-                        console.log(`Added ${subjectData.questions ? subjectData.questions.length : 0} questions to database for ${subject} (${this.selectedYear})`);
+                        console.log(`Added ${subjectData.questions ? subjectData.questions.length : 0} questions to database for ${subject} (unified questions)`);
                         
                         // Add passages and instructions to database if they exist
                         if (subjectData.passages && subjectData.passages.length > 0) {
                             await examDB.addSubjectContent(subject, 'passage', subjectData.passages);
-                            console.log(`Added ${subjectData.passages.length} passages to database for ${subject} (${this.selectedYear})`);
+                            console.log(`Added ${subjectData.passages.length} passages to database for ${subject} (unified questions)`);
                         }
                         
                         if (subjectData.instructions && subjectData.instructions.length > 0) {
                             await examDB.addSubjectContent(subject, 'instruction', subjectData.instructions);
-                            console.log(`Added ${subjectData.instructions.length} instructions to database for ${subject} (${this.selectedYear})`);
+                            console.log(`Added ${subjectData.instructions.length} instructions to database for ${subject} (unified questions)`);
                         }
                     } catch (addError) {
                         console.error('Error adding questions to database:', addError);
@@ -107,7 +107,7 @@ class EnglishCBTExamApp {
                 }
                 
                 // For English, we already have the reorganized questions with proper IDs
-                console.log(`Using all ${this.questions.length} reorganized English questions (passages, instructions, and questions) from ${this.selectedYear}`);
+                console.log(`Using all ${this.questions.length} reorganized English questions (passages, instructions, and questions) from unified set`);
                 
                 this.renderQuestionList(); // Initialize the question list after loading questions
                 // Questions are loaded, but don't change the screen - let the normal flow continue

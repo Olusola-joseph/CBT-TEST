@@ -10,15 +10,26 @@ class MathematicsCBTExamApp {
         this.timerInterval = null;
         this.questions = [];
         this.selectedSubject = 'Mathematics';
-        this.selectedYear = 'jamb_2010'; // Default year
-        this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']; // Available years
+        this.selectedYear = null; // Will be set after detecting available years
+        this.years = []; // Will be populated dynamically
         this.subjectType = 'Mathematics'; // Track subject type for different handling
         
         // Initialize database
         this.initDatabase();
         
+        // Detect available years dynamically after DB is ready
+        this.detectAvailableYears().then(() => {
+            // Set default year after detection
+            if (this.years.length > 0) {
+                this.selectedYear = this.years[0];
+            } else {
+                this.selectedYear = 'jamb_2010'; // fallback
+                this.years = ['jamb_2010']; // fallback
+            }
+            this.renderYearSelection();
+        });
+        
         this.initializeEventListeners();
-        this.renderYearSelection();
     }
     
     async initDatabase() {
@@ -31,6 +42,34 @@ class MathematicsCBTExamApp {
             // Fallback to JSON file if database fails
             console.log('Falling back to JSON file for questions');
         }
+    }
+    
+    // Detect available years by checking for mathematics question files
+    async detectAvailableYears() {
+        // Since we can't directly access the filesystem from client-side JS,
+        // we'll use a pre-defined list based on what we know exists
+        // In a real-world scenario, this would be handled by a backend API
+        const allPossibleYears = [
+            'jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014',
+            'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019'
+        ];
+        
+        // Filter to only include years that actually have files
+        const availableYears = [];
+        for (const year of allPossibleYears) {
+            try {
+                const response = await fetch(`src/data/subjects/mathematics_questions_${year}.json`);
+                if (response.ok) {
+                    availableYears.push(year);
+                }
+            } catch (error) {
+                console.log(`Year ${year} not available:`, error);
+            }
+        }
+        
+        this.years = availableYears;
+        console.log('Available mathematics years:', this.years);
+        return Promise.resolve();
     }
     
     async loadQuestionsToDatabase() {
