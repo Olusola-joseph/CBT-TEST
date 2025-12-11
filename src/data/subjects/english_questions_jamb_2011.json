@@ -20,39 +20,39 @@
   "instructions": [
     {
       "id": "Instruction 1",
-      "text": "In each of questions 11 to 25, select the option that best explains the information conveyed in the sentence."
+      "text": "In each of questions 26 to 35, select the option that best explains the information conveyed in the sentence."
     },
     {
       "id": "Instruction 2",
-      "text": "In each of questions 26 to 40, choose the option opposite in meaning to the word or phrase in italics."
+      "text": "In each of questions 36 to 50, choose the option nearest in meaning to the word or phrase in italics."
     },
     {
       "id": "Instruction 3",
-      "text": "In each of questions 41 to 55, choose the option nearest in meaning to the word or phrase in italics."
+      "text": "In each of questions 51 to 65, choose the option opposite in meaning to the word or phrase in italics."
     },
     {
       "id": "Instruction 4",
-      "text": "In each of questions 56 to 80, choose the option that best completes the gap(s)."
+      "text": "In each of questions 66 to 85, choose the option that best completes the gap(s)."
     },
     {
       "id": "Instruction 5",
-      "text": "In each of questions 81 to 85, choose the option that has the same vowel sound as the one represented by the letters underlined."
+      "text": "In each of questions 86 to 88, choose the option that has the same vowel sound as the one represented by the letters underlined."
     },
     {
       "id": "Instruction 6",
-      "text": "In each of questions 86 to 88, choose the option that has the same consonant sound as the one represented by the letter(s) underlined."
+      "text": "In each of questions 89 to 91, choose the option that has the same consonant sound as the one represented by the letter(s) underlined."
     },
     {
       "id": "Instruction 7",
-      "text": "In each of questions 89 to 91, choose the option that rhymes with the given word."
+      "text": "In each of questions 92 to 94, choose the option that rhymes with the given word."
     },
     {
       "id": "Instruction 8",
-      "text": "In each of questions 92 to 94, choose the most appropriate stress pattern from the options."
+      "text": "In each of questions 95 to 97, choose the most appropriate stress pattern from the options."
     },
     {
       "id": "Instruction 9",
-      "text": "In each of questions 95 to 100, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates."
+      "text": "In each of questions 98 to 100, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates."
     }
   ],
   "questions": [
@@ -513,7 +513,7 @@
     },
     {
       "id": 36,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Since its inception in 1983, the newspaper has attracted thousands of readers.",
       "options": [
         { "id": "A", "text": "renaissance" },
@@ -526,7 +526,7 @@
     },
     {
       "id": 37,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Mrs. Asio wanted her sister to stop being so detached",
       "options": [
         { "id": "A", "text": "friendly" },
@@ -539,7 +539,7 @@
     },
     {
       "id": 38,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Lantana dwelt in a ruined cottage on the hillside.",
       "options": [
         { "id": "A", "text": "sat" },
@@ -552,7 +552,7 @@
     },
     {
       "id": 39,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The mistake brought the show to an ignominious end",
       "options": [
         { "id": "A", "text": "a good" },
@@ -565,7 +565,7 @@
     },
     {
       "id": 40,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "He compliments me on my way of doing things.",
       "options": [
         { "id": "A", "text": "complements" },
@@ -578,7 +578,7 @@
     },
     {
       "id": 41,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The girl is angry with her friend who had ensnared her into this relationship.",
       "options": [
         { "id": "A", "text": "tricked" },
@@ -591,7 +591,7 @@
     },
     {
       "id": 42,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Their new house was roofed with corrugated sheets.",
       "options": [
         { "id": "A", "text": "folded" },
@@ -604,7 +604,7 @@
     },
     {
       "id": 43,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The stockbroker said it was an astute move to sell the shares then.",
       "options": [
         { "id": "A", "text": "debilitating" },
@@ -617,7 +617,7 @@
     },
     {
       "id": 44,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The principal described Oche as the most tactful person he had ever worked with.",
       "options": [
         { "id": "A", "text": "passionate" },
@@ -630,7 +630,7 @@
     },
     {
       "id": 45,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The old woman is suffering from dementia.",
       "options": [
         { "id": "A", "text": "lucidity" },
@@ -643,7 +643,7 @@
     },
     {
       "id": 46,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Some drugs have deleterious effect on a child's development.",
       "options": [
         { "id": "A", "text": "debilitating" },
@@ -656,7 +656,7 @@
     },
     {
       "id": 47,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Fila has always described as belligerent.",
       "options": [
         { "id": "A", "text": "beautiful" },
@@ -669,7 +669,7 @@
     },
     {
       "id": 48,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Laraba saw a forlorn little figure sitting outside the class.",
       "options": [
         { "id": "A", "text": "wise and intelligent" },
@@ -682,7 +682,7 @@
     },
     {
       "id": 49,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The circular supersedes all previous correspondence on the matter.",
       "options": [
         { "id": "A", "text": "supports" },
@@ -695,7 +695,7 @@
     },
     {
       "id": 50,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Her problem was exacerbated by the loss of her father.",
       "options": [
         { "id": "A", "text": "exaggerated" },
@@ -708,7 +708,7 @@
     },
     {
       "id": 51,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "The warring communities were coerced into negotiation a settlement",
       "options": [
         { "id": "A", "text": "driven" },
@@ -721,7 +721,7 @@
     },
     {
       "id": 52,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "His father served as a mercenary in the army",
       "options": [
         { "id": "A", "text": "preacher" },
@@ -734,7 +734,7 @@
     },
     {
       "id": 53,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "Jummah is cruel to her husband",
       "options": [
         { "id": "A", "text": "harsh" },
@@ -747,7 +747,7 @@
     },
     {
       "id": 54,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "The teacher who beat the student was treated with mercy",
       "options": [
         { "id": "A", "text": "disrespect" },
@@ -760,7 +760,7 @@
     },
     {
       "id": 55,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "His wife hated his garrulous attitude.",
       "options": [
         { "id": "A", "text": "outspoken" },
@@ -773,7 +773,7 @@
     },
     {
       "id": 56,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "Agoshito is a callow youth; said the teacher",
       "options": [
         { "id": "A", "text": "An ignorant" },
@@ -786,7 +786,7 @@
     },
     {
       "id": 57,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "What you are asking me to do is a herculean task",
       "options": [
         { "id": "A", "text": "a strenuous" },
@@ -799,7 +799,7 @@
     },
     {
       "id": 58,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "Nkechi was a novice when she was first employed",
       "options": [
         { "id": "A", "text": "manager" },
@@ -812,7 +812,7 @@
     },
     {
       "id": 59,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "'I do not trust him 'he said, in a rare moment of candour",
       "options": [
         { "id": "A", "text": "reproach" },
@@ -825,7 +825,7 @@
     },
     {
       "id": 60,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "Mrs Akunilo looks anaemic today",
       "options": [
         { "id": "A", "text": "strange" },
@@ -836,7 +836,7 @@
     },
     {
       "id": 61,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "It is inconceivable that the sun shone in the night",
       "options": [
         { "id": "A", "text": "credible" },
@@ -849,7 +849,7 @@
     },
     {
       "id": 62,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "She only gives a superficial impression of warmth and friendliness",
       "options": [
         { "id": "A", "text": "a strong" },
@@ -862,7 +862,7 @@
     },
     {
       "id": 63,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "As a prudent businessman, Adayi does not leave anything to chance",
       "options": [
         { "id": "A", "text": "A frugal" },
@@ -875,7 +875,7 @@
     },
     {
       "id": 64,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "His antipathy affected the growth of his business",
       "options": [
         { "id": "A", "text": "hatred" },
@@ -888,7 +888,7 @@
     },
     {
       "id": 65,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 3",
       "question": "Okonkwo's lethal right foot did the magic in the football match",
       "options": [
         { "id": "A", "text": "Weak" },
