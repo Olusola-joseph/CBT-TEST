@@ -1,1 +1,7 @@
- INFO  Accepting connections at http://localhost:3000
+
+> cbt-test-platform@1.0.0 start
+> npx serve .
+
+Need to install the following packages:
+serve@14.2.5
+Ok to proceed? (y) 

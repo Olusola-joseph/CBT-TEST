@@ -12,6 +12,7 @@ class MathematicsCBTExamApp {
         this.selectedSubject = 'Mathematics';
         this.selectedYear = 'jamb_2010'; // Default year
         this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']; // Available years
+        this.subjectType = 'Mathematics'; // Track subject type for different handling
         
         // Initialize database
         this.initDatabase();
@@ -48,9 +49,10 @@ class MathematicsCBTExamApp {
             const yearBtn = document.createElement('button');
             yearBtn.className = 'year-btn';
             yearBtn.textContent = year.replace('jamb_', 'JAMB ');
-            yearBtn.addEventListener('click', () => {
+            yearBtn.addEventListener('click', async () => {
                 this.selectedYear = year;
-                this.loadQuestionsForSubject(this.selectedSubject);
+                await this.loadQuestionsForSubject(this.selectedSubject);
+                this.showScreen('login-screen');
             });
             yearContainer.appendChild(yearBtn);
         });
@@ -89,7 +91,15 @@ class MathematicsCBTExamApp {
                     }
                 }
                 
-                this.selectRandomQuestions(); // Select 10 random questions for non-English subjects
+                // For Mathematics, use all questions in their original order
+                // Assign sequential IDs to maintain consistent numbering
+                this.questions = this.questions.map((question, index) => {
+                    return {
+                        ...question,
+                        id: index + 1  // Sequential numbering from 1 to total
+                    };
+                });
+                console.log(`Loaded ${this.questions.length} mathematics questions for ${this.selectedYear} with sequential IDs`);
                 this.renderQuestionList(); // Initialize the question list after loading questions
                 // Questions are loaded, but don't change the screen - let the normal flow continue
                 // The user should still go through login and instructions as normal
@@ -103,7 +113,7 @@ class MathematicsCBTExamApp {
         }
     }
 
-    // Select questions based on subject - Mathematics gets random 10 questions
+    // Select questions based on subject - For subjects that need limited questions
     selectRandomQuestions() {
         if (this.questions.length <= 10) {
             // If there are 10 or fewer questions, use all of them
@@ -116,29 +126,19 @@ class MathematicsCBTExamApp {
             return;
         }
         
-        // Create a copy of the questions array to avoid modifying the original
-        const allQuestions = [...this.questions];
-        const selectedQuestions = [];
-        
-        // Randomly select 10 questions
-        for (let i = 0; i < 10; i++) {
-            if (allQuestions.length === 0) break;
-            
-            const randomIndex = Math.floor(Math.random() * allQuestions.length);
-            selectedQuestions.push(allQuestions[randomIndex]);
-            // Remove the selected question to avoid duplicates
-            allQuestions.splice(randomIndex, 1);
-        }
+        // For subjects that need limited questions, use the first 10 questions in order instead of random selection
+        // This ensures consistent ordering across different sessions
+        const firstTenQuestions = this.questions.slice(0, 10);
         
         // Assign new sequential IDs to the selected questions (1 to 10)
-        this.questions = selectedQuestions.map((question, index) => {
+        this.questions = firstTenQuestions.map((question, index) => {
             return {
                 ...question,
                 id: index + 1  // Sequential numbering from 1 to 10
             };
         });
         
-        console.log(`Selected ${this.questions.length} random questions from original pool with new sequential IDs`);
+        console.log(`Selected first 10 questions from original pool with new sequential IDs (1-10)`);
     }
 
     // Determine if a question needs a diagram based on keywords
@@ -225,7 +225,12 @@ class MathematicsCBTExamApp {
         // Start exam button
         const startExamBtn = document.getElementById('start-exam-btn');
         if (startExamBtn) {
-            startExamBtn.addEventListener('click', () => {
+            startExamBtn.addEventListener('click', async () => {
+                // Ensure questions are loaded before starting exam
+                if (this.questions.length === 0) {
+                    // If questions haven't been loaded yet, load them using the selected year
+                    await this.loadQuestionsForSubject(this.selectedSubject);
+                }
                 this.startExam();
             });
         }
