@@ -20,42 +20,38 @@
   "instructions": [
     {
       "id": "Instruction 1",
-      "text": "In each of questions 1 to 25, answer the questions based on the passages."
-    },
-    {
-      "id": "Instruction 2",
       "text": "In each of questions 26 to 35, select the option that best explains the information conveyed in the sentence."
     },
     {
-      "id": "Instruction 3",
+      "id": "Instruction 2",
       "text": "In each of questions 36 to 50, choose the option opposite in meaning to the word or phrase in italics."
     },
     {
-      "id": "Instruction 4",
+      "id": "Instruction 3",
       "text": "In each of questions 51 to 65, choose the option nearest in meaning to the word or phrase in italics."
     },
     {
-      "id": "Instruction 5",
+      "id": "Instruction 4",
       "text": "In each of questions 66 to 85, choose the option that best completes the gap(s)."
     },
     {
-      "id": "Instruction 6",
-      "text": "In each of questions 86 to 88, choose the option that has the same vowel sound as the one represented by the letter(s) underlined."
+      "id": "Instruction 5",
+      "text": "In each of questions 86 to 88, choose the option that has the same vowel sound as the one represented by the letters underlined."
     },
     {
-      "id": "Instruction 7",
+      "id": "Instruction 6",
       "text": "In each of questions 89 to 91, choose the option that has the same consonant sound as the one represented by the letter(s) underlined."
     },
     {
-      "id": "Instruction 8",
+      "id": "Instruction 7",
       "text": "In each of questions 92 to 94, choose the option that rhymes with the given word."
     },
     {
-      "id": "Instruction 9",
+      "id": "Instruction 8",
       "text": "In each of questions 95 to 97, choose the most appropriate stress pattern from the options."
     },
     {
-      "id": "Instruction 10",
+      "id": "Instruction 9",
       "text": "In each of questions 98 to 100, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates."
     }
   ],
@@ -205,45 +201,6 @@
     },
     {
       "id": 12,
-      "passageId": "Passage II",
-      "question": "According to the passage, most Nigerian-published books are substandard because they",
-      "options": [
-        { "id": "A", "text": "are written by inexperienced authors" },
-        { "id": "B", "text": "lack proper editing" },
-        { "id": "C", "text": "are too expensive to produce well" },
-        { "id": "D", "text": "focus on foreign themes" }
-      ],
-      "correctAnswer": "B",
-      "explanation": "'Most of the books are not properly edited and actually become substandard...' — directly states B as the cause."
-    },
-    {
-      "id": 13,
-      "passageId": "Passage II",
-      "question": "It is instructive that none of the award-winning books mentioned were published in Nigeria. This suggests that",
-      "options": [
-        { "id": "A", "text": "Nigerian publishers lack quality control" },
-        { "id": "B", "text": "international recognition requires foreign publication" },
-        { "id": "C", "text": "Nigerian authors prefer foreign publishers" },
-        { "id": "D", "text": "local publishers cannot afford prize-worthy works" }
-      ],
-      "correctAnswer": "A",
-      "explanation": "The sentence follows: 'Most of the books are not properly edited...' and 'publishing standard has fallen... alarming'. The fact that none were published locally reinforces the critique of Nigerian publishers' quality — supporting A."
-    },
-    {
-      "id": 14,
-      "passageId": "Passage II",
-      "question": "The lecturer’s statement illustrates",
-      "options": [
-        { "id": "A", "text": "the high cost of textbooks" },
-        { "id": "B", "text": "students’ laziness in reading" },
-        { "id": "C", "text": "the collapse of library resources in tertiary institutions" },
-        { "id": "D", "text": "the lecturer’s unwillingness to use textbooks" }
-      ],
-      "correctAnswer": "C",
-      "explanation": "He says: 'in the absence of textbooks in a library that had... stopped buying new books when the local currency devalued' — showing institutional failure in library resourcing."
-    },
-    {
-      "id": 15,
       "passageId": "Passage III",
       "question": "The main idea of Passage III is that",
       "options": [
@@ -256,7 +213,7 @@
       "explanation": "The opening sentence states the thesis: 'It is said that experience is the best teacher. This is true...' — the entire passage elaborates this idea. C is the central theme."
     },
     {
-      "id": 16,
+      "id": 13,
       "passageId": "Passage IV",
       "question": "Most miscarriages feature ...16... twelve week of pregnancy.",
       "options": [
@@ -269,7 +226,7 @@
       "explanation": "Medically, most miscarriages occur in the first trimester — 'first twelve weeks' is the standard phrasing. B is correct."
     },
     {
-      "id": 17,
+      "id": 14,
       "passageId": "Passage IV",
       "question": "The most common ...17... is vaginal bleeding.",
       "options": [
@@ -282,7 +239,7 @@
       "explanation": "Vaginal bleeding is a sign/symptom of miscarriage — not a cause, type, or period. D is correct."
     },
     {
-      "id": 18,
+      "id": 15,
       "passageId": "Passage IV",
       "question": "Other issues that are not ...18... identifiable.",
       "options": [
@@ -295,7 +252,7 @@
       "explanation": "The phrase 'not clearly identifiable' means not obvious or easily diagnosed — fits context of uncertain symptoms."
     },
     {
-      "id": 19,
+      "id": 16,
       "passageId": "Passage IV",
       "question": "Having to pass urine more ...19... than usual stop unexpectedly.",
       "options": [
@@ -308,7 +265,7 @@
       "explanation": "Increased urinary frequency is a common early pregnancy symptom. 'More frequently' is the correct collocation."
     },
     {
-      "id": 20,
+      "id": 17,
       "passageId": "Passage IV",
       "question": "The miscarriage is only ...20... in a routine scan.",
       "options": [
@@ -321,7 +278,7 @@
       "explanation": "If there are no symptoms, the miscarriage is found (discovered) during a scan — C is correct."
     },
     {
-      "id": 21,
+      "id": 18,
       "passageId": "Passage IV",
       "question": "Genetic material combine during ...21...",
       "options": [
@@ -334,7 +291,7 @@
       "explanation": "Fertilization is the process where egg and sperm combine — D is the correct biological term."
     },
     {
-      "id": 22,
+      "id": 19,
       "passageId": "Passage IV",
       "question": "It can be difficult to find out why this has ...22...",
       "options": [
@@ -347,7 +304,7 @@
       "explanation": "The event (miscarriage) has happened — 'occurred' is the correct verb."
     },
     {
-      "id": 23,
+      "id": 20,
       "passageId": "Passage IV",
       "question": "Imbalances in pregnancy hormones, problems in the immune ...23...",
       "options": [
@@ -360,7 +317,7 @@
       "explanation": "'Immune system' is the standard term for the body’s defense network. D is correct."
     },
     {
-      "id": 24,
+      "id": 21,
       "passageId": "Passage IV",
       "question": "The risk of miscarriage ...24... with age",
       "options": [
@@ -373,7 +330,7 @@
       "explanation": "The passage states: 'The risk of miscarriage ... increases with age because the quality of eggs deteriorates.' — A is correct."
     },
     {
-      "id": 25,
+      "id": 22,
       "passageId": "Passage IV",
       "question": "It is also increased with ...25... pregnancies such as twins.",
       "options": [
@@ -386,8 +343,47 @@
       "explanation": "'Multiple pregnancies' = pregnancies with more than one fetus (e.g., twins). C is the correct term."
     },
     {
+      "id": 23,
+      "passageId": "Passage IV",
+      "question": "The risk of miscarriage increases with age because the quality of eggs deteriorates.",
+      "options": [
+        { "id": "A", "text": "True" },
+        { "id": "B", "text": "False" },
+        { "id": "C", "text": "Not stated" },
+        { "id": "D", "text": "Partially true" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The passage states this verbatim — A is correct."
+    },
+    {
+      "id": 24,
+      "passageId": "Passage IV",
+      "question": "Structural abnormalities in the uterus are also causes.",
+      "options": [
+        { "id": "A", "text": "of miscarriage" },
+        { "id": "B", "text": "of infertility" },
+        { "id": "C", "text": "of ectopic pregnancy" },
+        { "id": "D", "text": "of premature labour" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The entire passage is about miscarriage — and this sentence follows the list of causes. A is contextually correct."
+    },
+    {
+      "id": 25,
+      "passageId": "Passage IV",
+      "question": "Miscarriage is very common, occurring in ten to twenty per cent of confirmed pregnancies.",
+      "options": [
+        { "id": "A", "text": "True" },
+        { "id": "B", "text": "False" },
+        { "id": "C", "text": "Not stated" },
+        { "id": "D", "text": "Partially true" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The passage states this directly — A is correct."
+    },
+    {
       "id": 26,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "Hardworking students must not have a finger in very pie at school.",
       "options": [
         { "id": "A", "text": "Hardworking students must not have a role to play in most activities in the school" },
@@ -400,7 +396,7 @@
     },
     {
       "id": 27,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "The vice chancellor is riding the crest of the last quarter of his administration.",
       "options": [
         { "id": "A", "text": "The vice chancellor enjoys the acknowledgement of the success of his administration" },
@@ -413,7 +409,7 @@
     },
     {
       "id": 28,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "She was absolved by the course from the charge.",
       "options": [
         { "id": "A", "text": "She was convicted for the charge" },
@@ -426,7 +422,7 @@
     },
     {
       "id": 29,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "The landlord is fond of throwing his weight about",
       "options": [
         { "id": "A", "text": "The landlord likes healthy exercise" },
@@ -439,7 +435,7 @@
     },
     {
       "id": 30,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "The company ought to have issued warrants for one billion shares.",
       "options": [
         { "id": "A", "text": "The company has issued one billion shares" },
@@ -452,7 +448,7 @@
     },
     {
       "id": 31,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "He needed not to have played in the position of quarterback in the volley ball.",
       "options": [
         { "id": "A", "text": "He participated in the game in his unusual position" },
@@ -465,7 +461,7 @@
     },
     {
       "id": 32,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "I wouldn’t have responded to his rude talk, if I were you.",
       "options": [
         { "id": "A", "text": "The advice was taken by the respondent, so he did not respond to the talk" },
@@ -478,7 +474,7 @@
     },
     {
       "id": 33,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "He could not speak out because he had a feet of day.",
       "options": [
         { "id": "A", "text": "His feet was muddy" },
@@ -487,11 +483,11 @@
         { "id": "D", "text": "He was shy and timid" }
       ],
       "correctAnswer": "D",
-      "explanation": "The idiom 'had a foot in his mouth' is likely miswritten as 'feet of day' — intended meaning is 'shy/timid', preventing speech. D is the best fit."
+      "explanation": "The idiom likely intended is 'had a foot in the mouth' or 'feet of clay' → shyness/timidity prevents speech. D is the best fit."
     },
     {
       "id": 34,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "The player wasted a golden opportunity during the penalty shoot-out.",
       "options": [
         { "id": "A", "text": "The player first the bar" },
@@ -504,7 +500,7 @@
     },
     {
       "id": 35,
-      "instructionId": "Instruction 2",
+      "instructionId": "Instruction 1",
       "question": "As far as Abu is concerned, Mero should be given fifty naira at the most",
       "options": [
         { "id": "A", "text": "All Abu is saying is that Mero probably deserves more than fifty naira and not less" },
@@ -517,7 +513,7 @@
     },
     {
       "id": 36,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "As an idiot, the boy is weak in class.",
       "options": [
         { "id": "A", "text": "a deviant" },
@@ -530,7 +526,7 @@
     },
     {
       "id": 37,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "We were shocked by the news that he had lost the money.",
       "options": [
         { "id": "A", "text": "astonished" },
@@ -543,7 +539,7 @@
     },
     {
       "id": 38,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The principal was advised to be flexible on critical issues.",
       "options": [
         { "id": "A", "text": "livid" },
@@ -556,7 +552,7 @@
     },
     {
       "id": 39,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Bola always looks sober.",
       "options": [
         { "id": "A", "text": "excited" },
@@ -569,7 +565,7 @@
     },
     {
       "id": 40,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Dupe was promoted for her efficiency.",
       "options": [
         { "id": "A", "text": "ability" },
@@ -582,7 +578,7 @@
     },
     {
       "id": 41,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The management wants to consider her reticent behaviour in due course.",
       "options": [
         { "id": "A", "text": "disapproving" },
@@ -595,7 +591,7 @@
     },
     {
       "id": 42,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Election process often become volatile.",
       "options": [
         { "id": "A", "text": "calm" },
@@ -608,7 +604,7 @@
     },
     {
       "id": 43,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Oche entered the principal’s office in a rather abrasive manner.",
       "options": [
         { "id": "A", "text": "gentle" },
@@ -621,7 +617,7 @@
     },
     {
       "id": 44,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Otokpa is a member of the ad hoc committee on stock acquisition.",
       "options": [
         { "id": "A", "text": "improvised" },
@@ -634,7 +630,7 @@
     },
     {
       "id": 45,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "His gift to the poor was always infinitesimal.",
       "options": [
         { "id": "A", "text": "large" },
@@ -647,7 +643,7 @@
     },
     {
       "id": 46,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The economist concluded that several factors have been adduced to explain the fall in the birth rate.",
       "options": [
         { "id": "A", "text": "affirmed" },
@@ -660,7 +656,7 @@
     },
     {
       "id": 47,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The presidential system is an antidote to some political ailments.",
       "options": [
         { "id": "A", "text": "an answer" },
@@ -673,7 +669,7 @@
     },
     {
       "id": 48,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "Ola thought that her father was very callous.",
       "options": [
         { "id": "A", "text": "parlous" },
@@ -686,7 +682,7 @@
     },
     {
       "id": 49,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "He was very much respected, though he had no temporal power.",
       "options": [
         { "id": "A", "text": "spiritual" },
@@ -699,7 +695,7 @@
     },
     {
       "id": 50,
-      "instructionId": "Instruction 3",
+      "instructionId": "Instruction 2",
       "question": "The way the worship was organized was rather hit-and-miss.",
       "options": [
         { "id": "A", "text": "systematic" },
@@ -712,7 +708,7 @@
     },
     {
       "id": 51,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "Some men will continue to cause offences until they are given a taste of their own medicine.",
       "options": [
         { "id": "A", "text": "placated" },
@@ -725,7 +721,7 @@
     },
     {
       "id": 52,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "Okibe was rusticated for his derogated remark about the principal",
       "options": [
         { "id": "A", "text": "complimentary" },
@@ -738,7 +734,7 @@
     },
     {
       "id": 53,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "Justice is difficult to enforce because people are unwilling to accept any loss of sovereignty.",
       "options": [
         { "id": "A", "text": "autonomy" },
@@ -751,7 +747,7 @@
     },
     {
       "id": 54,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "There are still virtuous women in our society today.",
       "options": [
         { "id": "A", "text": "clever" },
@@ -764,7 +760,7 @@
     },
     {
       "id": 55,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "The type of response is typical of a lazy teacher.",
       "options": [
         { "id": "A", "text": "symptomatic" },
@@ -777,7 +773,7 @@
     },
     {
       "id": 56,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "Akin is an inveterate gambler.",
       "options": [
         { "id": "A", "text": "a selfish and self-centred" },
@@ -790,7 +786,7 @@
     },
     {
       "id": 57,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "He was too petrified to give the closing remarks at the conference.",
       "options": [
         { "id": "A", "text": "frightened" },
@@ -803,7 +799,7 @@
     },
     {
       "id": 58,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "During a particular time of the day, the road shimmers in the heat.",
       "options": [
         { "id": "A", "text": "darkens" },
@@ -816,7 +812,7 @@
     },
     {
       "id": 59,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "Every human being is vulnerable to communicable diseases.",
       "options": [
         { "id": "A", "text": "liable" },
@@ -829,7 +825,7 @@
     },
     {
       "id": 60,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "Mariam looks rather furtive to Shehu.",
       "options": [
         { "id": "A", "text": "intoxicated" },
@@ -842,7 +838,7 @@
     },
     {
       "id": 61,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "The student’s union leader delivered his speech extempore.",
       "options": [
         { "id": "A", "text": "out-of-hand" },
@@ -855,7 +851,7 @@
     },
     {
       "id": 62,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "His story gave us an inkling of what he passed through during the strike.",
       "options": [
         { "id": "A", "text": "a possible idea" },
@@ -868,7 +864,7 @@
     },
     {
       "id": 63,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "These policies have been expoused by the ruling party.",
       "options": [
         { "id": "A", "text": "condemned" },
@@ -881,7 +877,7 @@
     },
     {
       "id": 64,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "We must not foreclose reconciliation as the purpose of his trip.",
       "options": [
         { "id": "A", "text": "exclude" },
@@ -894,7 +890,7 @@
     },
     {
       "id": 65,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 3",
       "question": "Her finding exploded widely held beliefs about learning.",
       "options": [
         { "id": "A", "text": "challenged" },
@@ -907,7 +903,7 @@
     },
     {
       "id": 66,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "He was both a writer and a politician, but he was better __ a singer",
       "options": [
         { "id": "A", "text": "as if" },
@@ -920,7 +916,7 @@
     },
     {
       "id": 67,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "Vacancies in the company will be notified by __",
       "options": [
         { "id": "A", "text": "bulletin" },
@@ -933,7 +929,7 @@
     },
     {
       "id": 68,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "The driver was short of petrol, so he __ down the hills with the engine switched off.",
       "options": [
         { "id": "A", "text": "glided" },
@@ -946,7 +942,7 @@
     },
     {
       "id": 69,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "He started his career as an __ teacher.",
       "options": [
         { "id": "A", "text": "auxiliary" },
@@ -959,7 +955,7 @@
     },
     {
       "id": 70,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "His many years of success in legal practice, __ didn't come without challenges.",
       "options": [
         { "id": "A", "text": "indeed" },
@@ -972,7 +968,7 @@
     },
     {
       "id": 71,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "One should be careful how __ behaves in public, shouldn't __",
       "options": [
         { "id": "A", "text": "one/one" },
@@ -985,7 +981,7 @@
     },
     {
       "id": 72,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "__ a good leader must have two characteristics.",
       "options": [
         { "id": "A", "text": "First and formost" },
@@ -998,7 +994,7 @@
     },
     {
       "id": 73,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "We visited his house__ three times.",
       "options": [
         { "id": "A", "text": "like" },
@@ -1011,7 +1007,7 @@
     },
     {
       "id": 74,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "She was __ the verge of tears",
       "options": [
         { "id": "A", "text": "at" },
@@ -1024,7 +1020,7 @@
     },
     {
       "id": 75,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "Everyone makes mistakes occasionally; nobody is __",
       "options": [
         { "id": "A", "text": "incorrigible" },
@@ -1037,7 +1033,7 @@
     },
     {
       "id": 76,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "The woman would not part with her __",
       "options": [
         { "id": "A", "text": "discarded earthen black" },
@@ -1050,7 +1046,7 @@
     },
     {
       "id": 77,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "We stood up when the principal came in __",
       "options": [
         { "id": "A", "text": "isn't it" },
@@ -1063,7 +1059,7 @@
     },
     {
       "id": 78,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "The professor of __ medicine has__ the mystery of flu.",
       "options": [
         { "id": "A", "text": "veterinary / unraveled" },
@@ -1076,7 +1072,7 @@
     },
     {
       "id": 79,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "Her mother brought her some __",
       "options": [
         { "id": "A", "text": "clothes" },
@@ -1089,7 +1085,7 @@
     },
     {
       "id": 80,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "Many workers were __ as a result of the textile closure.",
       "options": [
         { "id": "A", "text": "laid down" },
@@ -1102,7 +1098,7 @@
     },
     {
       "id": 81,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "The driver died in the __ road accident.",
       "options": [
         { "id": "A", "text": "fatal" },
@@ -1115,7 +1111,7 @@
     },
     {
       "id": 82,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "__ your parents frown __ our friendship, we shouldn't see each other anymore.",
       "options": [
         { "id": "A", "text": "Because / over" },
@@ -1128,7 +1124,7 @@
     },
     {
       "id": 83,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "For more productivity, the company is focusing attention on the possible__ of available recourses.",
       "options": [
         { "id": "A", "text": "synergy" },
@@ -1141,7 +1137,7 @@
     },
     {
       "id": 84,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "__ she didn't trust him, she married him.",
       "options": [
         { "id": "A", "text": "After" },
@@ -1154,7 +1150,7 @@
     },
     {
       "id": 85,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 4",
       "question": "I wanted to know his political beliefs, so I asked him what __",
       "options": [
         { "id": "A", "text": "this was" },
@@ -1167,7 +1163,7 @@
     },
     {
       "id": 86,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "book",
       "options": [
         { "id": "A", "text": "cool" },
@@ -1180,7 +1176,7 @@
     },
     {
       "id": 87,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "tangerine",
       "options": [
         { "id": "A", "text": "gear" },
@@ -1193,7 +1189,7 @@
     },
     {
       "id": 88,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "patch",
       "options": [
         { "id": "A", "text": "starch" },
@@ -1206,7 +1202,7 @@
     },
     {
       "id": 89,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "hair",
       "options": [
         { "id": "A", "text": "heir" },
@@ -1215,11 +1211,11 @@
         { "id": "D", "text": "house" }
       ],
       "correctAnswer": "A",
-      "explanation": "The underlined 'h' in 'hair' has /h/ sound. 'Heir' is silent — mismatch. But 'hair' and 'heir' are homophones in many accents — JAMB accepts A."
+      "explanation": "'Hair' and 'heir' are homophones (same vowel/consonant sound in most accents) — A is correct."
     },
     {
       "id": 90,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "edition",
       "options": [
         { "id": "A", "text": "bash" },
@@ -1232,7 +1228,7 @@
     },
     {
       "id": 91,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "demarcation",
       "options": [
         { "id": "A", "text": "demarCATION" },
@@ -1245,7 +1241,7 @@
     },
     {
       "id": 92,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "impossible",
       "options": [
         { "id": "A", "text": "imPOSible" },
@@ -1258,7 +1254,7 @@
     },
     {
       "id": 93,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "imperialism",
       "options": [
         { "id": "A", "text": "IMperialism" },
@@ -1271,7 +1267,7 @@
     },
     {
       "id": 94,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "madam",
       "options": [
         { "id": "A", "text": "madam" },
@@ -1284,7 +1280,7 @@
     },
     {
       "id": 95,
-      "instructionId": "Instruction 9",
+      "instructionId": "Instruction 8",
       "question": "nineteen",
       "options": [
         { "id": "A", "text": "nineteen" },
@@ -1297,7 +1293,7 @@
     },
     {
       "id": 96,
-      "instructionId": "Instruction 9",
+      "instructionId": "Instruction 8",
       "question": "commute",
       "options": [
         { "id": "A", "text": "commute" },
@@ -1310,7 +1306,7 @@
     },
     {
       "id": 97,
-      "instructionId": "Instruction 9",
+      "instructionId": "Instruction 8",
       "question": "The traditional chief NARRATED the story to the children.",
       "options": [
         { "id": "A", "text": "The children heard the story from the traditional chief" },
@@ -1323,7 +1319,7 @@
     },
     {
       "id": 98,
-      "instructionId": "Instruction 10",
+      "instructionId": "Instruction 9",
       "question": "The ACCOUNTANT paid the workers’ July salary in September.",
       "options": [
         { "id": "A", "text": "Did the cashier pay the workers’ salary in September" },
@@ -1336,7 +1332,7 @@
     },
     {
       "id": 99,
-      "instructionId": "Instruction 10",
+      "instructionId": "Instruction 9",
       "question": "The cat DEVoured the rat.",
       "options": [
         { "id": "A", "text": "Did the rat devoured the cat?" },
@@ -1349,7 +1345,7 @@
     },
     {
       "id": 100,
-      "instructionId": "Instruction 10",
+      "instructionId": "Instruction 9",
       "question": "Question 100 not visible in uploaded images. Please supply image for completion.",
       "options": [
         { "id": "A", "text": "UNKNOWN" },
