@@ -480,7 +480,7 @@ class MathematicsCBTExamApp {
             }
 
             // Fix MathJax delimiters in option text before rendering
-            const fixedOptionText = option.text.replace(/\\\\\\/g, '\\(').replace(/\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
+            const fixedOptionText = option.text.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\)/g, '\\)').replace(/\\\\\\\[/g, '\\[').replace(/\\\\\\\]/g, '\\]');
             optionElement.innerHTML = `
                 <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}"
                     value="${option.id}" ${isSelected ? 'checked' : ''}>
@@ -727,7 +727,7 @@ class MathematicsCBTExamApp {
                         const isCorrectOption = question.correctAnswer === option.id;
 
                         // Fix MathJax delimiters in option text
-                        const fixedOptionText = option.text.replace(/\\\\\\\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
+                        const fixedOptionText = option.text.replace(/\\\\\\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\]/g, '\\]');
 
                         let optionClass = 'option-review';
                         if (isCorrectOption) optionClass += ' correct-answer';
