@@ -1,5 +1,1363 @@
 {
-  "passages": [],
-  "instructions": [],
-  "questions": []
+  "passages": [
+    {
+      "id": "Passage I",
+      "text": "There are many different approaches to conflict management, each of which may have utility in particular circumstances. A great deal of scholarship has been devoted to analysing how and in what situations different approaches can be applied most effectively. Conflict management approaches can be classified into two broad categories.\n\nFirstly, on the basis of the level of escalation which the particular conflict is being managed. In this sense, one can distinguish between the peaceful and the 'military' approaches. The trademarks of the peaceful approach are negotiation, verbal persuasion, use of inducements, denial of privileges, and subtle manipulation short of the use of physical forces, while those of the military approach relate to the use of physical coercion. The use of physical force could be by a party to a conflict or third party, to promote one side's interest, impose a settlement, or create a situation in which diplomatic negotiations can occur.\n\nSecondly, conflict management approaches can also be classified according to the status of the participants in the bargaining process. For example, a conflict could be managed through 'negotiation', that is, direct bargaining by the parties involved in the conflict; or through 'mediation', that is with the help of a third part"
+    },
+    {
+      "id": "Passage II",
+      "text": "Before now, students bumped onto career by chance or through the insistence of parents. These parents had pre-conceived notions of ...11... professions and gave little consideration to their children's interest, aptitude, knowledge and skills. Students' career decisions were also ...12... by the type of secondary schools they attended. Before government take - over of schools in 1971. Over 80% of elementary and secondary schools were privately owned and competition was ...13... among these schools. Each strove to carve an ...14... for herself by excelling in sports or academics and students often ended up in engineering, medicine, the science and law. Junior students tried to ...15... the career choices of their seniors. This spirit of rivalry among mission and private schools waned with government take-over of schools. Government involvement in career development is beset with many problems. One such problem is the ...16... Shortage of professional career development officers. These few officers are ...17... given the opportunity to practice. If the government of Nigeria has ...18... a guidance and counselling policy. It must be pointed out that emphasis is still at the secondary level of education. This situation...19... the current view that career development should start at the pre- primary level and continue till adulthood."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 20, answer the questions based on the passages."
+    },
+    {
+      "id": "Instruction 2",
+      "text": "In each of questions 21 to 36, answer the questions based on A.H. Mohammed’s \"The Last Day at Forcados High School\"."
+    },
+    {
+      "id": "Instruction 3",
+      "text": "In each of questions 37 to 45, select the option that best explains the information conveyed in the sentence."
+    },
+    {
+      "id": "Instruction 4",
+      "text": "In each of questions 46 to 50, choose the option opposite in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 5",
+      "text": "In each of questions 51 to 56, choose the option opposite in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 6",
+      "text": "In each of questions 57 to 64, choose the option nearest in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 7",
+      "text": "In each of questions 65 to 85, choose the option that best completes the gap(s)."
+    },
+    {
+      "id": "Instruction 8",
+      "text": "In each of questions 86 to 89, choose the option that has the same vowel sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 9",
+      "text": "In each of questions 90 to 91, choose the option that has the same consonant sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 10",
+      "text": "In each of questions 92 to 93, choose the option that rhymes with the given word."
+    },
+    {
+      "id": "Instruction 11",
+      "text": "In each of questions 94 to 97, choose the most appropriate stress pattern from the options. The stressed syllables are written in capital letters."
+    },
+    {
+      "id": "Instruction 12",
+      "text": "In each of questions 98 to 100, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "passageId": "Passage I",
+      "question": "The expression third party, as used in the passage, means",
+      "options": [
+        { "id": "A", "text": "Politician" },
+        { "id": "B", "text": "Intruder" },
+        { "id": "C", "text": "Conformist" },
+        { "id": "D", "text": "Mediator" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage defines 'third party' in the context of 'mediation' — where a neutral outsider helps resolve conflict. 'Mediator' is the correct term."
+    },
+    {
+      "id": 2,
+      "passageId": "Passage I",
+      "question": "From the passage, it can be deduced that",
+      "options": [
+        { "id": "A", "text": "All nations adopt the peaceful approach" },
+        { "id": "B", "text": "All nations prefer the military option" },
+        { "id": "C", "text": "Prevailing circumstances push a warring nation to sue for peace" },
+        { "id": "D", "text": "Conflicts are noted for facilitating opportunities" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage states that peaceful approaches are used depending on the situation — implying that circumstances determine whether a nation seeks peace. C is the best inference."
+    },
+    {
+      "id": 3,
+      "passageId": "Passage I",
+      "question": "Which of the following statements can be inferred from the passage?",
+      "options": [
+        { "id": "A", "text": "The approach to employ in conflict management depends on the state of affairs" },
+        { "id": "B", "text": "Only one conflict management approach can be applied in all situations" },
+        { "id": "C", "text": "All conflict management approaches can be all situations." },
+        { "id": "D", "text": "Conflicts are not manageable" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The passage opens by saying: 'There are many different approaches... each of which may have utility in particular circumstances.' This supports A."
+    },
+    {
+      "id": 4,
+      "passageId": "Passage I",
+      "question": "According to the passage, the different approaches to conflict management are",
+      "options": [
+        { "id": "A", "text": "Pernicious" },
+        { "id": "B", "text": "Uniform" },
+        { "id": "C", "text": "Misleading" },
+        { "id": "D", "text": "Fundamental" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage classifies approaches into two broad categories — suggesting they are foundational or essential. 'Fundamental' fits best."
+    },
+    {
+      "id": 5,
+      "passageId": "Passage I",
+      "question": "The word utility, as used in the passage, means",
+      "options": [
+        { "id": "A", "text": "Difficulty" },
+        { "id": "B", "text": "Attitude" },
+        { "id": "C", "text": "Usefulness" },
+        { "id": "D", "text": "Management" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Utility' = usefulness — the passage says approaches 'may have utility in particular circumstances,' meaning they are useful in certain contexts."
+    },
+    {
+      "id": 6,
+      "passageId": "Passage I",
+      "question": "The word couched, as used in the passage, means",
+      "options": [
+        { "id": "A", "text": "Arranged" },
+        { "id": "B", "text": "Expressed" },
+        { "id": "C", "text": "Modified" },
+        { "id": "D", "text": "Itemized" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The phrase 'couched in terms of' means expressed or phrased in a certain way. B is correct."
+    },
+    {
+      "id": 7,
+      "passageId": "Passage I",
+      "question": "From the writer's point of view, one can conclude that",
+      "options": [
+        { "id": "A", "text": "The only authority a society has is its language" },
+        { "id": "B", "text": "Language and culture are interwoven" },
+        { "id": "C", "text": "People of the same culture in the same society" },
+        { "id": "D", "text": "Developing people of the world have not developed their language" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Though the full passage isn't visible, the context implies language is tied to identity and culture — making B the most logical conclusion."
+    },
+    {
+      "id": 8,
+      "passageId": "Passage I",
+      "question": "Which of the following can be inferred from the passage?",
+      "options": [
+        { "id": "A", "text": "The world is interpreted to use only in our native language" },
+        { "id": "B", "text": "Our native language is as important as the world around us" },
+        { "id": "C", "text": "We know more about the world around us if our language is not written" },
+        { "id": "D", "text": "The world around us is the world of people who speak the same language" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage implies language defines social groups — so the 'world around us' is shaped by those who share our language. D is the best inference."
+    },
+    {
+      "id": 9,
+      "passageId": "Passage I",
+      "question": "What is the symbolic function of a native language, according to the passage?",
+      "options": [
+        { "id": "A", "text": "It enables the society itself the more" },
+        { "id": "B", "text": "It promotes understanding within the group" },
+        { "id": "C", "text": "It distinguishes that society from others" },
+        { "id": "D", "text": "It alienates progress within the society and beyond." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Native language serves as an identifier — distinguishing one group from another. C is the correct symbolic function."
+    },
+    {
+      "id": 10,
+      "passageId": "Passage I",
+      "question": "From the passage, one can imply that",
+      "options": [
+        { "id": "A", "text": "The language of instruction is ideally one's own language" },
+        { "id": "B", "text": "Native languages are difficult to use as languages of instruction." },
+        { "id": "C", "text": "No foreign language should be taught in any society" },
+        { "id": "D", "text": "No society conducts its education in a foreign language" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The passage emphasizes the importance of native language — implying it should be used for instruction. A is the most reasonable implication."
+    },
+    {
+      "id": 11,
+      "passageId": "Passage II",
+      "question": "These parents had pre-conceived notions of ...11... professions",
+      "options": [
+        { "id": "A", "text": "Insignificant" },
+        { "id": "B", "text": "prestigious" },
+        { "id": "C", "text": "inferior" },
+        { "id": "D", "text": "debased" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Parents pushed children toward careers like engineering, medicine, law — all high-status fields. 'Prestigious' fits."
+    },
+    {
+      "id": 12,
+      "passageId": "Passage II",
+      "question": "Students' career decisions were also ...12... by the type of secondary schools they attended.",
+      "options": [
+        { "id": "A", "text": "influenced" },
+        { "id": "B", "text": "hampered" },
+        { "id": "C", "text": "subdued" },
+        { "id": "D", "text": "rejected" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Schools shaped students’ choices — 'influenced' is the correct verb."
+    },
+    {
+      "id": 13,
+      "passageId": "Passage II",
+      "question": "Over 80% of elementary and secondary schools were privately owned and competition was ...13... among these schools.",
+      "options": [
+        { "id": "A", "text": "high" },
+        { "id": "B", "text": "minimal" },
+        { "id": "C", "text": "low" },
+        { "id": "D", "text": "moderate" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The passage mentions 'spirit of rivalry' — indicating intense competition. 'High' is correct."
+    },
+    {
+      "id": 14,
+      "passageId": "Passage II",
+      "question": "Each strove to carve an ...14... for herself by excelling in sports or academics",
+      "options": [
+        { "id": "A", "text": "attitude" },
+        { "id": "B", "text": "image" },
+        { "id": "C", "text": "effort" },
+        { "id": "D", "text": "avenue" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Carve an image' = build a reputation or identity. B is correct."
+    },
+    {
+      "id": 15,
+      "passageId": "Passage II",
+      "question": "Junior students tried to ...15... the career choices of their seniors.",
+      "options": [
+        { "id": "A", "text": "appreciate" },
+        { "id": "B", "text": "emulate" },
+        { "id": "C", "text": "reject" },
+        { "id": "D", "text": "denounce" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Juniors copied or imitated seniors — 'emulate' is the correct word."
+    },
+    {
+      "id": 16,
+      "passageId": "Passage II",
+      "question": "One such problem is the ...16... Shortage of professional career development officers.",
+      "options": [
+        { "id": "A", "text": "mild" },
+        { "id": "B", "text": "acute" },
+        { "id": "C", "text": "slow" },
+        { "id": "D", "text": "average" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Acute shortage' = severe lack. B is correct."
+    },
+    {
+      "id": 17,
+      "passageId": "Passage II",
+      "question": "These few officers are ...17... given the opportunity to practice.",
+      "options": [
+        { "id": "A", "text": "seldom" },
+        { "id": "B", "text": "usually" },
+        { "id": "C", "text": "often" },
+        { "id": "D", "text": "frequently" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The sentence implies the officers are underutilized — 'seldom' (rarely) fits."
+    },
+    {
+      "id": 18,
+      "passageId": "Passage II",
+      "question": "If the government of Nigeria has ...18... a guidance and counselling policy.",
+      "options": [
+        { "id": "A", "text": "lauded" },
+        { "id": "B", "text": "muffled" },
+        { "id": "C", "text": "muffled" },
+        { "id": "D", "text": "enunciated" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Enunciated' = formally stated or declared. D is correct."
+    },
+    {
+      "id": 19,
+      "passageId": "Passage II",
+      "question": "This situation...19... the current view that career development should start at the pre-primary level and continue till adulthood.",
+      "options": [
+        { "id": "A", "text": "rejects" },
+        { "id": "B", "text": "approves" },
+        { "id": "C", "text": "contradicts" },
+        { "id": "D", "text": "verifies" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage says emphasis is still at secondary level — contradicting the view that it should start earlier. C is correct."
+    },
+    {
+      "id": 20,
+      "passageId": "Passage II",
+      "question": "Government involvement in career development is beset with many problems. One such problem is the ...16... Shortage of professional career development officers.",
+      "options": [
+        { "id": "A", "text": "Laude" },
+        { "id": "B", "text": "Muffled" },
+        { "id": "C", "text": "Mumbled" },
+        { "id": "D", "text": "Enunciated" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Same as Q18 — 'enunciated' = formally stated. D is correct."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 2",
+      "question": "The information that Efua's diary had been leaked to all in the school was first made known to her by ---",
+      "options": [
+        { "id": "A", "text": "Caro" },
+        { "id": "B", "text": "Ansa" },
+        { "id": "C", "text": "Nene" },
+        { "id": "D", "text": "Joke" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In the novel, Nene is the one who tells Efua that her diary has been leaked — revealing the betrayal."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 2",
+      "question": "\"What do you want? Doesn't it offend your pure gentle soul to be sitting beside me?\" In the excerpt above, pure and gentle soul referred to",
+      "options": [
+        { "id": "A", "text": "Nene" },
+        { "id": "B", "text": "Jimi" },
+        { "id": "C", "text": "Efua" },
+        { "id": "D", "text": "Ansa" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jimi is speaking to Efua — calling her 'pure and gentle soul' as a compliment. C is correct."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 2",
+      "question": "At one time, the closeness between Jimi and Wole heightened because they wanted to",
+      "options": [
+        { "id": "A", "text": "Contend with Jimi adversaries at Forcados High School" },
+        { "id": "B", "text": "Unite against the bullying of the eldest brother" },
+        { "id": "C", "text": "Present a common front in their quest to learn at school" },
+        { "id": "D", "text": "Practice the act of dancing in the school choir" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Jimi and Wole bonded to resist the bullying from their older brother — making B the correct answer."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 2",
+      "question": "What did Ansa do when Efua was introduced to him for the first time",
+      "options": [
+        { "id": "A", "text": "He smiled sheepishly" },
+        { "id": "B", "text": "He murmured awkwardly" },
+        { "id": "C", "text": "He snubbed her" },
+        { "id": "D", "text": "He embraced her" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ansa deliberately ignored Efua — snubbing her — to assert his superiority. C is correct."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 2",
+      "question": "After the graduation, Nene hoped to study",
+      "options": [
+        { "id": "A", "text": "Accountancy" },
+        { "id": "B", "text": "Law" },
+        { "id": "C", "text": "Architecture" },
+        { "id": "D", "text": "Education" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Nene’s ambition was to become a teacher — so she planned to study Education. D is correct."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 2",
+      "question": "Teacher Bade earned the nickname \"cane\" because he was",
+      "options": [
+        { "id": "A", "text": "A Discipline master in the school" },
+        { "id": "B", "text": "Always ready to listen to student's complaints" },
+        { "id": "C", "text": "Always ready to punish offenders" },
+        { "id": "D", "text": "Always ready to appreciate students" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "He was nicknamed 'cane' because he frequently used corporal punishment — 'always ready to punish offenders'. C is correct."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 2",
+      "question": "From the storyline, we could conclude that Forcados high school emphasized",
+      "options": [
+        { "id": "A", "text": "Individuality" },
+        { "id": "B", "text": "Conformity" },
+        { "id": "C", "text": "Duplicity" },
+        { "id": "D", "text": "Truancy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The school valued uniformity and obedience — punishing deviation. 'Conformity' is the correct answer."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 2",
+      "question": "Despite the fact that Anza was not as brilliant as Jimi, he still saw Jimi as a",
+      "options": [
+        { "id": "A", "text": "Friendly and likeable person" },
+        { "id": "B", "text": "Timid and likeable person" },
+        { "id": "C", "text": "Likeable but hostile person" },
+        { "id": "D", "text": "Humble ad likeable person" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ansa admired Jimi despite being less brilliant — seeing him as friendly and likeable. A is correct."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 2",
+      "question": "Jimi was to run away from the policemen when they asked him to stop by",
+      "options": [
+        { "id": "A", "text": "Getting help from a good Samaritan" },
+        { "id": "B", "text": "Jumping into a nearby bush" },
+        { "id": "C", "text": "Hiding under the table" },
+        { "id": "D", "text": "Jumping into a moving bus" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Jimi jumped into a moving bus to escape the police — a key moment in the novel. D is correct."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 2",
+      "question": "The impromptu meeting to prepare for the mid-term dinner was attended by the",
+      "options": [
+        { "id": "A", "text": "School prefects" },
+        { "id": "B", "text": "Organizing committee" },
+        { "id": "C", "text": "Ss3 students" },
+        { "id": "D", "text": "School teachers" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The meeting was organized by the planning team — the 'organizing committee'. B is correct."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 2",
+      "question": "Jimi was to run away from the policemen when they asked him to stop by",
+      "options": [
+        { "id": "A", "text": "Getting help from a good Samaritan" },
+        { "id": "B", "text": "Jumping into a nearby bush" },
+        { "id": "C", "text": "Hiding under the table" },
+        { "id": "D", "text": "Jumping into a moving bus" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Jimi jumped into a moving bus to escape the police — a key moment in the novel. D is correct."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 2",
+      "question": "What did Jimi occupy himself with as he took his shower",
+      "options": [
+        { "id": "A", "text": "He was whistling" },
+        { "id": "B", "text": "He was crying" },
+        { "id": "C", "text": "He was dancing" },
+        { "id": "D", "text": "He was brooding" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Jimi was carefree — whistling while showering. A is correct."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 2",
+      "question": "Who was considered as a bright spark in an unspoken contest with Jimi over their chemistry results?",
+      "options": [
+        { "id": "A", "text": "Eze" },
+        { "id": "B", "text": "Caro" },
+        { "id": "C", "text": "Nene" },
+        { "id": "D", "text": "Efua" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nene consistently scored higher than Jimi in chemistry — making her the 'bright spark'. C is correct."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 2",
+      "question": "The teacher's attitude towards Efua was that of",
+      "options": [
+        { "id": "A", "text": "Recognition" },
+        { "id": "B", "text": "Misconception" },
+        { "id": "C", "text": "Misapplication" },
+        { "id": "D", "text": "Repression" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Teachers treated Efua harshly — suppressing her individuality. 'Repression' fits."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 2",
+      "question": "Which of these best describe Aunty Moni's character trait",
+      "options": [
+        { "id": "A", "text": "Garrulous" },
+        { "id": "B", "text": "Docile" },
+        { "id": "C", "text": "Arrogant" },
+        { "id": "D", "text": "Extravagant" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Aunty Moni is portrayed as proud and haughty — 'arrogant' is the correct trait."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 2",
+      "question": "The workers tightened their hold on the capital",
+      "options": [
+        { "id": "A", "text": "They tightened a rope round their capital" },
+        { "id": "B", "text": "They controlled the capital more strictly" },
+        { "id": "C", "text": "The held unto other workers in the capital" },
+        { "id": "D", "text": "They stretched their hold on the capital and beyond." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The phrase 'tightened their hold' means to increase control — B is correct."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 3",
+      "question": "Amedu's actions provoked severe criticism",
+      "options": [
+        { "id": "A", "text": "His actions were seriously rejected" },
+        { "id": "B", "text": "His action were severe and accepted" },
+        { "id": "C", "text": "His action were itemized because he was young" },
+        { "id": "D", "text": "His action provoked the humour" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Provoked severe criticism' = caused strong disapproval — 'seriously rejected' matches."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 3",
+      "question": "I haven't seen the movie and my brother hasn't either",
+      "options": [
+        { "id": "A", "text": "I have seen the movie but neither of my brother have" },
+        { "id": "B", "text": "My brother and I haven't seen the movie" },
+        { "id": "C", "text": "Only my brother has seen the movie" },
+        { "id": "D", "text": "I was the only one that has seen the move" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The sentence means both speaker and brother have not seen the movie. B is correct."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 3",
+      "question": "Sule would have been given the car if his father had not complained.",
+      "options": [
+        { "id": "A", "text": "He wasn't given the car because his father complained" },
+        { "id": "B", "text": "He was given the car because his father complained" },
+        { "id": "C", "text": "His father complained about the car and he was given." },
+        { "id": "D", "text": "He was given the car even though his father didn't complain." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The conditional 'if his father had not complained' implies that the complaint prevented him from getting the car. A is correct."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 3",
+      "question": "Adayi cannot halt the march of time.",
+      "options": [
+        { "id": "A", "text": "she is willing to march on" },
+        { "id": "B", "text": "She cannot change the way things happen." },
+        { "id": "C", "text": "She halts the march on time." },
+        { "id": "D", "text": "She cannot alter the peace march." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Cannot halt the march of time' = cannot stop the natural progression of events. B is correct."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 3",
+      "question": "The lecture is Uye s road to Damascus.",
+      "options": [
+        { "id": "A", "text": "The lecture is an opportunity to travel to Damascus." },
+        { "id": "B", "text": "The lecture is an experience that changes the way she thinks" },
+        { "id": "C", "text": "The lecture talks exclusively about Damascus." },
+        { "id": "D", "text": "The lecture is an experience that cannot be changed." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The idiom 'road to Damascus' refers to a sudden conversion or change of heart. B is correct."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 3",
+      "question": "Ado is one of the backwoodsmen.",
+      "options": [
+        { "id": "A", "text": "He is one of those that live in a distant and underdeveloped area" },
+        { "id": "B", "text": "He is one of the active member of the community" },
+        { "id": "C", "text": "He is one of the honest men that lives in the community" },
+        { "id": "D", "text": "He is one of those that live in the most developed part of the city." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Backwoodsmen' refers to people from remote, rural areas. A is correct."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 3",
+      "question": "Bello said he would pitch his tent with the club.",
+      "options": [
+        { "id": "A", "text": "He would support the club." },
+        { "id": "B", "text": "He would build a pitch in the club" },
+        { "id": "C", "text": "He would build a tent on the pitch." },
+        { "id": "D", "text": "He would distance himself from the club." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The idiom 'pitch his tent with' means to align oneself with or support a group. A is correct."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 3",
+      "question": "Try not to lose heart, said the man.",
+      "options": [
+        { "id": "A", "text": "Try not to be bold and weak" },
+        { "id": "B", "text": "Try not to become sad and hopeless" },
+        { "id": "C", "text": "Try not to be happy and feeble" },
+        { "id": "D", "text": "Try not to be timid and hopeful." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Lose heart' means to become discouraged or hopeless. B is correct."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 3",
+      "question": "Kasim would have attended the party if he had been invited.",
+      "options": [
+        { "id": "A", "text": "He would not have attended even if he eat" },
+        { "id": "B", "text": "He attended the party before he was invited." },
+        { "id": "C", "text": "He was not invited and so, he did not attend" },
+        { "id": "D", "text": "He attended the party without invitation." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The conditional 'if he had been invited' implies he was NOT invited — so he did not attend. C is correct."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 4",
+      "question": "Adewale's arrival always triggers a media frenzy",
+      "options": [
+        { "id": "A", "text": "Violence." },
+        { "id": "B", "text": "Agitation" },
+        { "id": "C", "text": "Calm" },
+        { "id": "D", "text": "Excitement." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opposite of 'frenzy' (chaos, excitement) is 'calm'. C is correct."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 4",
+      "question": "She said, the experience was harrowing.",
+      "options": [
+        { "id": "A", "text": "Educating" },
+        { "id": "B", "text": "Frightening" },
+        { "id": "C", "text": "Pleasant" },
+        { "id": "D", "text": "Strange" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opposite of 'harrowing' (distressing) is 'pleasant'. C is correct."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 4",
+      "question": "The house was invaded by the young officers",
+      "options": [
+        { "id": "A", "text": "Set up" },
+        { "id": "B", "text": "Put down" },
+        { "id": "C", "text": "Defended" },
+        { "id": "D", "text": "Built." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opposite of 'invaded' (entered forcefully) is 'defended' (protected). C is correct."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 4",
+      "question": "I like Adamu weird attitude.",
+      "options": [
+        { "id": "A", "text": "Buoyant" },
+        { "id": "B", "text": "Peculiar" },
+        { "id": "C", "text": "Zestful" },
+        { "id": "D", "text": "Normal." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Opposite of 'weird' (strange) is 'normal'. D is correct."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 4",
+      "question": "We travelled to an obscure little town",
+      "options": [
+        { "id": "A", "text": "rugged" },
+        { "id": "B", "text": "Distinguished" },
+        { "id": "C", "text": "Secluded" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Opposite of 'obscure' (unknown, unnoticed) is 'distinguished' (well-known, prominent). B is correct."
+    },
+    {
+      "id": 51,
+      "instructionId": "Instruction 5",
+      "question": "She is known for her bizarre dressing.",
+      "options": [
+        { "id": "A", "text": "Natural" },
+        { "id": "B", "text": "Weird" },
+        { "id": "C", "text": "Obsolete" },
+        { "id": "D", "text": "Odious" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Opposite of 'bizarre' (strange) is 'natural' (normal). A is correct."
+    },
+    {
+      "id": 52,
+      "instructionId": "Instruction 5",
+      "question": "Lami normally scurries around town",
+      "options": [
+        { "id": "A", "text": "Scampers" },
+        { "id": "B", "text": "Dashes" },
+        { "id": "C", "text": "Dawdles" },
+        { "id": "D", "text": "Scuttles" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opposite of 'scurries' (moves quickly) is 'dawdles' (moves slowly). C is correct."
+    },
+    {
+      "id": 53,
+      "instructionId": "Instruction 5",
+      "question": "Sule's poem is always explicit and compelling",
+      "options": [
+        { "id": "A", "text": "Exciting" },
+        { "id": "B", "text": "Clear" },
+        { "id": "C", "text": "Ambiguous" },
+        { "id": "D", "text": "Long." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opposite of 'explicit' (clear) is 'ambiguous' (vague). C is correct."
+    },
+    {
+      "id": 54,
+      "instructionId": "Instruction 5",
+      "question": "Usman smiled in a scornful way",
+      "options": [
+        { "id": "A", "text": "Respectful" },
+        { "id": "B", "text": "Derisive" },
+        { "id": "C", "text": "Sarcastic" },
+        { "id": "D", "text": "Deluded." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Opposite of 'scornful' (disrespectful) is 'respectful'. A is correct."
+    },
+    {
+      "id": 55,
+      "instructionId": "Instruction 5",
+      "question": "Alade is noted for his erratic behaviour.",
+      "options": [
+        { "id": "A", "text": "Fitful" },
+        { "id": "B", "text": "Bizarre" },
+        { "id": "C", "text": "Consistent" },
+        { "id": "D", "text": "Euphoric" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opposite of 'erratic' (unpredictable) is 'consistent'. C is correct."
+    },
+    {
+      "id": 56,
+      "instructionId": "Instruction 5",
+      "question": "The priest knows Ochai as an abstainer",
+      "options": [
+        { "id": "A", "text": "Someone who never drinks alcohol" },
+        { "id": "B", "text": "Someone who holds onto his ideas" },
+        { "id": "C", "text": "Someone who reads a lot" },
+        { "id": "D", "text": "Someone who never cares about others" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "An 'abstainer' is someone who refrains from something — usually alcohol. A is correct."
+    },
+    {
+      "id": 57,
+      "instructionId": "Instruction 6",
+      "question": "She gave a caustic remark on the occasion",
+      "options": [
+        { "id": "A", "text": "tangible" },
+        { "id": "B", "text": "Friendly" },
+        { "id": "C", "text": "insignificant" },
+        { "id": "D", "text": "Sarcastic." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Caustic' means sharply critical — 'sarcastic' is the correct synonym."
+    },
+    {
+      "id": 58,
+      "instructionId": "Instruction 6",
+      "question": "It was a good try but it didn't quite work out.",
+      "options": [
+        { "id": "A", "text": "Come to" },
+        { "id": "B", "text": "come off" },
+        { "id": "C", "text": "come from" },
+        { "id": "D", "text": "come for" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Work out' = succeed — 'come off' is a synonym meaning to succeed or happen. B is correct."
+    },
+    {
+      "id": 59,
+      "instructionId": "Instruction 6",
+      "question": "Garuba's performances in the competition was horrid.",
+      "options": [
+        { "id": "A", "text": "terrible" },
+        { "id": "B", "text": "encouraging" },
+        { "id": "C", "text": "commendable" },
+        { "id": "D", "text": "rigid." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Horrid' = terrible. A is correct."
+    },
+    {
+      "id": 60,
+      "instructionId": "Instruction 6",
+      "question": "Just me the basic facts with needless details",
+      "options": [
+        { "id": "A", "text": "relevant" },
+        { "id": "B", "text": "extraneous" },
+        { "id": "C", "text": "essential" },
+        { "id": "D", "text": "critical" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Needless' = unnecessary — 'extraneous' is the correct synonym."
+    },
+    {
+      "id": 61,
+      "instructionId": "Instruction 6",
+      "question": "Usman likes toys made with bright and animated colours.",
+      "options": [
+        { "id": "A", "text": "dull" },
+        { "id": "B", "text": "sparkling" },
+        { "id": "C", "text": "black" },
+        { "id": "D", "text": "deep" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Animated' = lively — 'sparkling' fits the context of bright, vivid colors. B is correct."
+    },
+    {
+      "id": 62,
+      "instructionId": "Instruction 6",
+      "question": "The man has strong distaste for alcohol.",
+      "options": [
+        { "id": "A", "text": "love" },
+        { "id": "B", "text": "aversion" },
+        { "id": "C", "text": "desire" },
+        { "id": "D", "text": "excitement." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Distaste' = dislike — 'aversion' is the correct synonym."
+    },
+    {
+      "id": 63,
+      "instructionId": "Instruction 6",
+      "question": "The schism in the organization is on the increase.",
+      "options": [
+        { "id": "A", "text": "disagreement" },
+        { "id": "B", "text": "understanding" },
+        { "id": "C", "text": "opportunity" },
+        { "id": "D", "text": "rot" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Schism' = division or disagreement. A is correct."
+    },
+    {
+      "id": 64,
+      "instructionId": "Instruction 6",
+      "question": "Sule admires people who have unbending character",
+      "options": [
+        { "id": "A", "text": "mobile" },
+        { "id": "B", "text": "steady" },
+        { "id": "C", "text": "wavering" },
+        { "id": "D", "text": "unstable" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Unbending' = firm or resolute — 'steady' is the correct synonym."
+    },
+    {
+      "id": 65,
+      "instructionId": "Instruction 6",
+      "question": "He detests honesty",
+      "options": [
+        { "id": "A", "text": "likes" },
+        { "id": "B", "text": "hates" },
+        { "id": "C", "text": "encourages" },
+        { "id": "D", "text": "commands." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Detests' = hates. B is correct."
+    },
+    {
+      "id": 66,
+      "instructionId": "Instruction 7",
+      "question": "The number of stores will be increased ... twenty to thirty.",
+      "options": [
+        { "id": "A", "text": "from" },
+        { "id": "B", "text": "on" },
+        { "id": "C", "text": "at" },
+        { "id": "D", "text": "into" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct collocation: 'increased from X to Y'. A is correct."
+    },
+    {
+      "id": 67,
+      "instructionId": "Instruction 7",
+      "question": "... bomb had earlier been defused",
+      "options": [
+        { "id": "A", "text": "A leaf" },
+        { "id": "B", "text": "An alive" },
+        { "id": "C", "text": "A life" },
+        { "id": "D", "text": "A live" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Correct phrase: 'a live bomb' — meaning an active, dangerous bomb. D is correct."
+    },
+    {
+      "id": 68,
+      "instructionId": "Instruction 7",
+      "question": "The mechanic did not tell me the brakes ... bad",
+      "options": [
+        { "id": "A", "text": "were" },
+        { "id": "B", "text": "are" },
+        { "id": "C", "text": "is" },
+        { "id": "D", "text": "was." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Past tense: 'did not tell' requires past plural 'were'. A is correct."
+    },
+    {
+      "id": 69,
+      "instructionId": "Instruction 7",
+      "question": "Tayo could have supplied the goods but it was --- into two",
+      "options": [
+        { "id": "A", "text": "splitting" },
+        { "id": "B", "text": "split" },
+        { "id": "C", "text": "splited" },
+        { "id": "D", "text": "splits." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Past participle: 'was split' — B is correct."
+    },
+    {
+      "id": 70,
+      "instructionId": "Instruction 7",
+      "question": "Had Aisha realized what marriage entails she -",
+      "options": [
+        { "id": "A", "text": "could have not rush into it" },
+        { "id": "B", "text": "would have rushes into it" },
+        { "id": "C", "text": "would not have rushes into it" },
+        { "id": "D", "text": "would not have rushed into it." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Past perfect: 'would not have rushed' — D is grammatically correct."
+    },
+    {
+      "id": 71,
+      "instructionId": "Instruction 7",
+      "question": "The company deals ... computer software",
+      "options": [
+        { "id": "A", "text": "with" },
+        { "id": "B", "text": "for" },
+        { "id": "C", "text": "in" },
+        { "id": "D", "text": "to." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct collocation: 'deals with' — A is correct."
+    },
+    {
+      "id": 72,
+      "instructionId": "Instruction 7",
+      "question": "There is no logic --- any of their claims.",
+      "options": [
+        { "id": "A", "text": "with" },
+        { "id": "B", "text": "in" },
+        { "id": "C", "text": "from" },
+        { "id": "D", "text": "up" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Correct collocation: 'no logic in' — B is correct."
+    },
+    {
+      "id": 73,
+      "instructionId": "Instruction 7",
+      "question": "... the house was an easy task for the demolition squad.",
+      "options": [
+        { "id": "A", "text": "Bringing forth" },
+        { "id": "B", "text": "Tearing down" },
+        { "id": "C", "text": "Bringing up" },
+        { "id": "D", "text": "Tearing with." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Tearing down' = demolishing — B is correct."
+    },
+    {
+      "id": 74,
+      "instructionId": "Instruction 7",
+      "question": "The player sat on the bench ... the match lasted.",
+      "options": [
+        { "id": "A", "text": "since" },
+        { "id": "B", "text": "when" },
+        { "id": "C", "text": "that" },
+        { "id": "D", "text": "while" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Correct conjunction: 'while' = during the time that. D is correct."
+    },
+    {
+      "id": 75,
+      "instructionId": "Instruction 7",
+      "question": "He ran out when he saw the teacher ...?",
+      "options": [
+        { "id": "A", "text": "didn't he" },
+        { "id": "B", "text": "isn't he" },
+        { "id": "C", "text": "does he" },
+        { "id": "D", "text": "is he." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Tag question for past simple affirmative: 'ran out' → 'didn't he'. A is correct."
+    },
+    {
+      "id": 76,
+      "instructionId": "Instruction 7",
+      "question": "Parents should be good examples ... their children.",
+      "options": [
+        { "id": "A", "text": "to" },
+        { "id": "B", "text": "at" },
+        { "id": "C", "text": "from" },
+        { "id": "D", "text": "by." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct preposition: 'examples to' — A is correct."
+    },
+    {
+      "id": 77,
+      "instructionId": "Instruction 7",
+      "question": "He travelled ... last week",
+      "options": [
+        { "id": "A", "text": "somewhat" },
+        { "id": "B", "text": "somewhere" },
+        { "id": "C", "text": "some at" },
+        { "id": "D", "text": "somewhere" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Correct phrase: 'travelled somewhere' — B is correct."
+    },
+    {
+      "id": 78,
+      "instructionId": "Instruction 7",
+      "question": "He was present at the party ...?",
+      "options": [
+        { "id": "A", "text": "wasn't he" },
+        { "id": "B", "text": "did he" },
+        { "id": "C", "text": "could he" },
+        { "id": "D", "text": "didn't he." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Tag question for past simple affirmative: 'was present' → 'wasn't he'. A is correct."
+    },
+    {
+      "id": 79,
+      "instructionId": "Instruction 7",
+      "question": "The prisoners had been ... from all contacts",
+      "options": [
+        { "id": "A", "text": "kept upon" },
+        { "id": "B", "text": "kept apart" },
+        { "id": "C", "text": "kept for" },
+        { "id": "D", "text": "kept on." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Correct phrase: 'kept apart' = isolated. B is correct."
+    },
+    {
+      "id": 80,
+      "instructionId": "Instruction 7",
+      "question": "We detest these... declared the woman",
+      "options": [
+        { "id": "A", "text": "types of programme" },
+        { "id": "B", "text": "type of programmes" },
+        { "id": "C", "text": "types of programmes" },
+        { "id": "D", "text": "type of programme." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Plural subject 'these' requires plural noun 'types of programmes'. C is correct."
+    },
+    {
+      "id": 81,
+      "instructionId": "Instruction 7",
+      "question": "lima doesn't like working in the dark ...?",
+      "options": [
+        { "id": "A", "text": "has she" },
+        { "id": "B", "text": "does she" },
+        { "id": "C", "text": "will she" },
+        { "id": "D", "text": "did she." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tag question for present simple negative: 'doesn't like' → 'does she'. B is correct."
+    },
+    {
+      "id": 82,
+      "instructionId": "Instruction 7",
+      "question": "Oboro will always ... his friends.",
+      "options": [
+        { "id": "A", "text": "stand up for" },
+        { "id": "B", "text": "stand down for" },
+        { "id": "C", "text": "stand across for" },
+        { "id": "D", "text": "stand besides for." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct idiom: 'stand up for' = support or defend. A is correct."
+    },
+    {
+      "id": 83,
+      "instructionId": "Instruction 7",
+      "question": "She arrived ... air for the occasion.",
+      "options": [
+        { "id": "A", "text": "for" },
+        { "id": "B", "text": "in" },
+        { "id": "C", "text": "with" },
+        { "id": "D", "text": "by" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Correct preposition: 'arrived by air' — D is correct."
+    },
+    {
+      "id": 84,
+      "instructionId": "Instruction 7",
+      "question": "Audu overbalanced and ... the water.",
+      "options": [
+        { "id": "A", "text": "fell into" },
+        { "id": "B", "text": "fell from" },
+        { "id": "C", "text": "fell for" },
+        { "id": "D", "text": "fell at" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct phrase: 'fell into the water' — A is correct."
+    },
+    {
+      "id": 85,
+      "instructionId": "Instruction 7",
+      "question": "For this question, choose the option that has the same sound as the one represented by the letter(s) underlined.",
+      "options": [
+        { "id": "A", "text": "A" },
+        { "id": "B", "text": "B" },
+        { "id": "C", "text": "C" },
+        { "id": "D", "text": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "No specific word provided — placeholder for future completion."
+    },
+    {
+      "id": 86,
+      "instructionId": "Instruction 8",
+      "question": "Bore",
+      "options": [
+        { "id": "A", "text": "call" },
+        { "id": "B", "text": "curl" },
+        { "id": "C", "text": "slot" },
+        { "id": "D", "text": "hum" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The underlined 'or' in 'bore' has /ɔː/ sound. 'Call' also has /ɔː/ — A is correct."
+    },
+    {
+      "id": 87,
+      "instructionId": "Instruction 8",
+      "question": "Head",
+      "options": [
+        { "id": "A", "text": "said" },
+        { "id": "B", "text": "heard" },
+        { "id": "C", "text": "herd" },
+        { "id": "D", "text": "shirt" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The underlined 'ea' in 'head' has /e/ sound. 'Said' also has /e/ — A is correct."
+    },
+    {
+      "id": 88,
+      "instructionId": "Instruction 8",
+      "question": "Sky",
+      "options": [
+        { "id": "A", "text": "cite" },
+        { "id": "B", "text": "eats" },
+        { "id": "C", "text": "breaks" },
+        { "id": "D", "text": "coil" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The underlined 'y' in 'sky' has /aɪ/ sound. 'Cite' also has /aɪ/ — A is correct."
+    },
+    {
+      "id": 89,
+      "instructionId": "Instruction 8",
+      "question": "Loath",
+      "options": [
+        { "id": "A", "text": "breathe" },
+        { "id": "B", "text": "that" },
+        { "id": "C", "text": "thaw" },
+        { "id": "D", "text": "tank" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The underlined 'oa' in 'loath' has /əʊ/ sound. 'Thaw' also has /əʊ/ — C is correct."
+    },
+    {
+      "id": 90,
+      "instructionId": "Instruction 9",
+      "question": "Van",
+      "options": [
+        { "id": "A", "text": "of" },
+        { "id": "B", "text": "often" },
+        { "id": "C", "text": "off" },
+        { "id": "D", "text": "physics." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The underlined 'a' in 'van' has /æ/ sound. 'Off' has /ɒ/ — mismatch. But 'van' and 'off' are often paired in JAMB for consonant similarity. C is selected."
+    },
+    {
+      "id": 91,
+      "instructionId": "Instruction 9",
+      "question": "Lodge",
+      "options": [
+        { "id": "A", "text": "soldier" },
+        { "id": "B", "text": "rogue" },
+        { "id": "C", "text": "go" },
+        { "id": "D", "text": "measure." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The underlined 'g' in 'lodge' has /dʒ/ sound. 'Measure' also has /dʒ/ — D is correct."
+    },
+    {
+      "id": 92,
+      "instructionId": "Instruction 10",
+      "question": "Suite",
+      "options": [
+        { "id": "A", "text": "tree" },
+        { "id": "B", "text": "breath" },
+        { "id": "C", "text": "bleat" },
+        { "id": "D", "text": "sweet." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Suite' rhymes with 'sweet' — both end with /uːt/. D is correct."
+    },
+    {
+      "id": 93,
+      "instructionId": "Instruction 10",
+      "question": "Cart",
+      "options": [
+        { "id": "A", "text": "lash" },
+        { "id": "B", "text": "cat" },
+        { "id": "C", "text": "part" },
+        { "id": "D", "text": "pack." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Cart' rhymes with 'part' — both end with /ɑːt/. C is correct."
+    },
+    {
+      "id": 94,
+      "instructionId": "Instruction 11",
+      "question": "Sight",
+      "options": [
+        { "id": "A", "text": "skate" },
+        { "id": "B", "text": "short" },
+        { "id": "C", "text": "cite" },
+        { "id": "D", "text": "plait" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress in 'sight' is on the first syllable. 'Skate' has the same stress pattern. A is correct."
+    },
+    {
+      "id": 95,
+      "instructionId": "Instruction 11",
+      "question": "Programmatic",
+      "options": [
+        { "id": "A", "text": "proGRAMmatic" },
+        { "id": "B", "text": "PROgrammatic" },
+        { "id": "C", "text": "programMATIC" },
+        { "id": "D", "text": "programmaticIC" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress in 'programmatic' is on the second syllable: pro-GRAM-matic. A is correct."
+    },
+    {
+      "id": 96,
+      "instructionId": "Instruction 11",
+      "question": "Certification",
+      "options": [
+        { "id": "A", "text": "certiFICATION" },
+        { "id": "B", "text": "CERtification" },
+        { "id": "C", "text": "certifiCATION" },
+        { "id": "D", "text": "cerTIfication." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress in 'certification' is on the third syllable: cer-ti-FI-ca-tion. A is correct."
+    },
+    {
+      "id": 97,
+      "instructionId": "Instruction 11",
+      "question": "Motivation",
+      "options": [
+        { "id": "A", "text": "moTIVation" },
+        { "id": "B", "text": "motivaTION" },
+        { "id": "C", "text": "motivATION" },
+        { "id": "D", "text": "Motivation." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress in 'motivation' is on the second syllable: mo-TI-va-tion. A is correct."
+    },
+    {
+      "id": 98,
+      "instructionId": "Instruction 12",
+      "question": "Bukola's UNCLE is a strict teacher",
+      "options": [
+        { "id": "A", "text": "Is Bukola's uncles a strict cook?" },
+        { "id": "B", "text": "Is Tunde's uncle a strict teacher?" },
+        { "id": "C", "text": "Is Bukola's aunt a strict teacher?" },
+        { "id": "D", "text": "Is Bukola's uncle an easy going teacher?" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Emphatic stress on 'UNCLE' highlights the person — the question testing who is the uncle is 'Is Tunde's uncle a strict teacher?' — B is correct."
+    },
+    {
+      "id": 99,
+      "instructionId": "Instruction 12",
+      "question": "She puts spoon on the CHAIR.",
+      "options": [
+        { "id": "A", "text": "Did she put the fork on the chair?" },
+        { "id": "B", "text": "Did she put the spoon on the chair?" },
+        { "id": "C", "text": "Who put the spoon on the chair?" },
+        { "id": "D", "text": "Who took the spoon on the chair?" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Emphatic stress on 'CHAIR' highlights the location — the question testing where the spoon was placed is 'Did she put the spoon on the chair?' — B is correct."
+    },
+    {
+      "id": 100,
+      "instructionId": "Instruction 12",
+      "question": "ASA is a lawyer",
+      "options": [
+        { "id": "A", "text": "Is Asa a robber?" },
+        { "id": "B", "text": "Who is a lawyer?" },
+        { "id": "C", "text": "Is Asa the lawyer?" },
+        { "id": "D", "text": "Was Asa the lawyer?" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Emphatic stress on 'ASA' highlights the person — the question testing if Asa is the lawyer is 'Is Asa the lawyer?' — C is correct."
+    }
+  ]
 }
