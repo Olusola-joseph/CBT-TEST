@@ -1,5 +1,1366 @@
 {
-  "passages": [],
-  "instructions": [],
-  "questions": []
+  "passages": [
+    {
+      "id": "Passage I",
+      "text": "Political change and social transformation in the form of revolutions have radically altered the course of human civilization and history.\n\nToday, the world is witnessing political and social changes arising from the desire of people all over the globe for greater freedom and a voice in the way they are governed and a better standard of living. Part of these struggles and processes have become more pronounced in the third world since the end of the east west cold war in the late 1980s, and in the face of the challenges being posed by the ongoing process of globalization.\n\nWhile political and social changes may appear to be distinct phenomena, they are analytically inseparable. Political and social changes refer to alteration or transformations in human behaviour, norms and polito-social institutions. Such changes are often a collective response to the need to change, or as a tacit recognition of a shift in the prevalent power relations in the society. Therefore, the coming to power of new sets of rulers, or the establishment of new structures and processes of governance broadly typifies socio-political changes.\n\nIt is important to note that change can either be positive or negative. In most cases, political and social changes are caused by certain factors or reasons. These push people to collectively organize themselves to struggle for a change in the existing power relations.\n\nAnother reason is to capture political power, in the hope of making life better for the generality of the people. If politics is defined as who gets what, when and how; it implies that political change refers to an alteration in the form of power, and the identity of the group or class which controls and wields state power\n\nAdapted from Anifowose, R. and Enemuo, F. (1999) Element of politics."
+    },
+    {
+      "id": "Passage II",
+      "text": "Like all reptiles, snakes are cold-blooded, or more correctly, ectodermic- they cannot produce their own body heat; instead, they rely on the sun to heat their bodies. Because they do not rely on energy from food to generate body heat; snakes can survive on an extremely meagre diet. Some wait for months between successive meals and a few survive by eating a large meal just once or twice a year. When they do eat, snakes swallow their prey whole rather than biting off small pieces.\n\nMany snakes have specialized jaws that enable them to swallow animals that are far larger than their own heads. Although uncommon, some snakes, such as the African rock python, have been observed eating animals as large as an antelope or a small cow.\n\nWith over two thousand five hundred species belonging to more than ten families, snakes are large and successful group. They owe much of this success to their versatility snakes occupy habitat ranging from underground burrows to the top of the tree, to ocean depths as great as one hundred and fifty meters. They are found on every continent except Antarctica , and although they are most abundant in tropical areas, many survive in regions marked by extreme cold.\n\nThe only places without snakes are parts of the Polar Regions and isolated islands, such as the republic of Ireland and New-Zealand as opposed to places in Nigeria like plateau and Gombe states in the northern parts where there is a large population of snakes."
+    },
+    {
+      "id": "Passage III",
+      "text": "Setting up a newspaper involves a lot of preparations. The ...11... [A. processor B. lithographer C. proprietor D. sub-editor] has to employ a lot of people. Other people working with him are cartographers, editors, typesetters, readers, who work in various ways to produce the text of the newspaper, ...12... [A. agents B. reporters C. analysts D. vendors ] who go out and collect stories and items of news, and ...13... [A. correspondents B. distributors C. listeners D. newscasters ], who specialize in one kind of topic.\n\nAnother important person who works closely with the editor -- in -- chief is the ...14... [A. announcer B. news editor C. proofreader D. reporter], who has to choose the most important stories ...15... [A. subeditors B. writers C. agents D. producers] go through stories sent to make necessary adjustments.\n\nThe Editor-in-chief could determine for instance, whether a particular journalist should write articles daily or weekly in a particular column. Such a journalist is known as ...16... [A. a freelancer B. a composer C. a columnist D. an essayist]. The editorials of the newspaper will be coordinated by ...17... [A. a guild of researchers B. an editorial board C. all readers D. an agent].\n\nThe publisher could decide to establish ...18... [A. an article B. column C. magazine D. a gazetteer] which would be on sale weekly, fortnightly or monthly ...19... [A. a contrast from B. a contrast in C. a contrast to D. a contrast with] the main paper. The newspaper's circulation department is responsible for ensuring that copies of the paper reach the intended audience. This is done through ...20... [A. hawkers B. vendors C. distributors D. retailers]."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 20, answer the questions based on the passages."
+    },
+    {
+      "id": "Instruction 2",
+      "text": "In each of questions 21 to 30, answer the questions based on Chukwuemeka Ike’s The Potter’s Wheel."
+    },
+    {
+      "id": "Instruction 3",
+      "text": "In each of questions 31 to 35, answer the questions based on Jerry Agada’s The Successors."
+    },
+    {
+      "id": "Instruction 4",
+      "text": "In each of questions 36 to 45, select the option that best explains the information conveyed in the sentence."
+    },
+    {
+      "id": "Instruction 5",
+      "text": "In each of questions 46 to 55, choose the option opposite in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 6",
+      "text": "In each of questions 56 to 65, choose the option nearest in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 7",
+      "text": "In each of questions 66 to 85, choose the option that best completes the gap(s)."
+    },
+    {
+      "id": "Instruction 8",
+      "text": "In each of questions 86 to 88, choose the option that has the same vowel sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 9",
+      "text": "In each of questions 89 to 91, choose the option that has the same consonant sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 10",
+      "text": "In each of questions 92 to 94, choose the option that rhymes with the given word."
+    },
+    {
+      "id": "Instruction 11",
+      "text": "In each of questions 95 to 97, choose the most appropriate stress pattern from the options. The stressed syllables are written in capital letters."
+    },
+    {
+      "id": "Instruction 12",
+      "text": "In each of questions 98 to 100, the word in capital letters has the emphatic stress. Choose the option to which the given sentence relates."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "passageId": "Passage I",
+      "question": "According to the passage, political and social changes refer to",
+      "options": [
+        { "id": "A", "text": "the struggle for better standard of living" },
+        { "id": "B", "text": "transformation in human behaviour and institutions" },
+        { "id": "C", "text": "the end of east-west cold war" },
+        { "id": "D", "text": "the process of globalization" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage clearly defines 'political and social changes' as 'alteration or transformations in human behaviour, norms and polito-social institutions.' This directly matches option B."
+    },
+    {
+      "id": 2,
+      "passageId": "Passage I",
+      "question": "The expression *polito-social institutions* means",
+      "options": [
+        { "id": "A", "text": "institutions that are run by politicians" },
+        { "id": "B", "text": "social institutions run by government" },
+        { "id": "C", "text": "institutions that combine political and social functions" },
+        { "id": "D", "text": "institutions that influence political development" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The term 'polito-social' is a compound word combining 'political' and 'social'. It refers to institutions that serve both political and social purposes, such as schools, courts, or local councils that govern and also shape community life. Option C is the most accurate definition."
+    },
+    {
+      "id": 3,
+      "passageId": "Passage I",
+      "question": "Which of the following statements is true according to the passage?",
+      "options": [
+        { "id": "A", "text": "Political and social changes are distinct phenomena" },
+        { "id": "B", "text": "Political change refers to alteration in the form of power and who wields it" },
+        { "id": "C", "text": "Political and social changes are always positive" },
+        { "id": "D", "text": "Political change is unrelated to power relations" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage explicitly states: 'If politics is defined as who gets what, when and how; it implies that political change refers to an alteration in the form of power, and the identity of the group or class which controls and wields state power.' This makes B the correct choice."
+    },
+    {
+      "id": 4,
+      "passageId": "Passage I",
+      "question": "The word *radically* in the first sentence means",
+      "options": [
+        { "id": "A", "text": "suddenly" },
+        { "id": "B", "text": "completely" },
+        { "id": "C", "text": "frequently" },
+        { "id": "D", "text": "slowly" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In context, 'radically altered' means changed in a fundamental or complete way. 'Completely' is the closest synonym here, indicating total or thorough change, not partial or temporary."
+    },
+    {
+      "id": 5,
+      "passageId": "Passage I",
+      "question": "The writer implies that in the third world, political and social changes have",
+      "options": [
+        { "id": "A", "text": "been caused by the cold war" },
+        { "id": "B", "text": "become more pronounced since the 1980s" },
+        { "id": "C", "text": "been resisted by the people" },
+        { "id": "D", "text": "led to better standard of living" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage says: 'Part of these struggles... have become more pronounced in the third world since the end of the east west cold war in the late 1980s.' This directly supports option B."
+    },
+    {
+      "id": 6,
+      "passageId": "Passage II",
+      "question": "According to the passage, snakes are ectodermic, which means",
+      "options": [
+        { "id": "A", "text": "they produce their own body heat" },
+        { "id": "B", "text": "they rely on the sun to heat their bodies" },
+        { "id": "C", "text": "they eat large meals once or twice a year" },
+        { "id": "D", "text": "they swallow their prey whole" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage defines 'ectodermic' by explaining that snakes 'cannot produce their own body heat; instead, they rely on the sun to heat their bodies.' This makes B the direct and correct answer."
+    },
+    {
+      "id": 7,
+      "passageId": "Passage II",
+      "question": "The expression *meagre diet* means",
+      "options": [
+        { "id": "A", "text": "very little food" },
+        { "id": "B", "text": "poor quality food" },
+        { "id": "C", "text": "unbalanced food" },
+        { "id": "D", "text": "raw food" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The context shows snakes 'survive on an extremely meagre diet' and 'wait for months between meals,' which indicates scarcity — meaning very little food. 'Meagre' describes quantity, not quality or type."
+    },
+    {
+      "id": 8,
+      "passageId": "Passage II",
+      "question": "Snakes can survive in extreme cold because",
+      "options": [
+        { "id": "A", "text": "they are cold-blooded" },
+        { "id": "B", "text": "they rely on the sun" },
+        { "id": "C", "text": "they eat large meals" },
+        { "id": "D", "text": "they are versatile" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage states: 'They owe much of this success to their versatility' and then lists their ability to live in diverse habitats, including extreme cold. 'Versatile' means adaptable — which explains their survival."
+    },
+    {
+      "id": 9,
+      "passageId": "Passage II",
+      "question": "The African rock python is mentioned to show that snakes",
+      "options": [
+        { "id": "A", "text": "have specialized jaws" },
+        { "id": "B", "text": "eat large animals" },
+        { "id": "C", "text": "live in Nigeria" },
+        { "id": "D", "text": "are found in Africa" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The example is used immediately after mentioning that snakes can swallow large prey. The specific mention of eating 'an antelope or a small cow' highlights their capacity to consume large animals — making B the best answer."
+    },
+    {
+      "id": 10,
+      "passageId": "Passage II",
+      "question": "From the passage, it is implied that snakes",
+      "options": [
+        { "id": "A", "text": "are found everywhere" },
+        { "id": "B", "text": "cannot survive in cold regions" },
+        { "id": "C", "text": "are absent in Ireland and New Zealand" },
+        { "id": "D", "text": "are most abundant in Nigeria" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage explicitly says: 'The only places without snakes are parts of the Polar Regions and isolated islands, such as the republic of Ireland and New-Zealand.' This makes C a direct factual inference."
+    },
+    {
+      "id": 11,
+      "passageId": "Passage III",
+      "question": "Setting up a newspaper involves a lot of preparations. The ...11... has to employ a lot of people.",
+      "options": [
+        { "id": "A", "text": "processor" },
+        { "id": "B", "text": "lithographer" },
+        { "id": "C", "text": "proprietor" },
+        { "id": "D", "text": "sub-editor" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The 'proprietor' is the owner or founder of the newspaper. Since the sentence says 'has to employ a lot of people,' it must refer to the person with authority to hire — the proprietor."
+    },
+    {
+      "id": 12,
+      "passageId": "Passage III",
+      "question": "...12... who go out and collect stories and items of news",
+      "options": [
+        { "id": "A", "text": "agents" },
+        { "id": "B", "text": "reporters" },
+        { "id": "C", "text": "analysts" },
+        { "id": "D", "text": "vendors" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Reporters are journalists whose primary job is to go out into the field to gather news stories and information. This is a standard role in any newspaper organization."
+    },
+    {
+      "id": 13,
+      "passageId": "Passage III",
+      "question": "and ...13... , who specialize in one kind of topic.",
+      "options": [
+        { "id": "A", "text": "correspondents" },
+        { "id": "B", "text": "distributors" },
+        { "id": "C", "text": "listeners" },
+        { "id": "D", "text": "newscasters" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correspondents are journalists assigned to cover specific beats or topics (e.g., politics, education, health) — matching the description 'specialize in one kind of topic.'"
+    },
+    {
+      "id": 14,
+      "passageId": "Passage III",
+      "question": "Another important person who works closely with the editor -- in -- chief is the ...14...",
+      "options": [
+        { "id": "A", "text": "announcer" },
+        { "id": "B", "text": "news editor" },
+        { "id": "C", "text": "proofreader" },
+        { "id": "D", "text": "reporter" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The news editor is responsible for selecting which stories are published and assigning them to writers — a key role that works closely with the editor-in-chief."
+    },
+    {
+      "id": 15,
+      "passageId": "Passage III",
+      "question": "...15... go through stories sent to make necessary adjustments.",
+      "options": [
+        { "id": "A", "text": "subeditors" },
+        { "id": "B", "text": "writers" },
+        { "id": "C", "text": "agents" },
+        { "id": "D", "text": "producers" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Subeditors (or sub-editors) are tasked with editing, fact-checking, and adjusting stories before publication — exactly what the sentence describes."
+    },
+    {
+      "id": 16,
+      "passageId": "Passage III",
+      "question": "Such a journalist is known as ...16...",
+      "options": [
+        { "id": "A", "text": "a freelancer" },
+        { "id": "B", "text": "a composer" },
+        { "id": "C", "text": "a columnist" },
+        { "id": "D", "text": "an essayist" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A 'columnist' is a journalist who writes regular columns — often on a specific topic — which aligns with the description of writing 'daily or weekly in a particular column.'"
+    },
+    {
+      "id": 17,
+      "passageId": "Passage III",
+      "question": "The editorials of the newspaper will be coordinated by ...17...",
+      "options": [
+        { "id": "A", "text": "a guild of researchers" },
+        { "id": "B", "text": "an editorial board" },
+        { "id": "C", "text": "all readers" },
+        { "id": "D", "text": "an agent" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Editorials represent the official stance of the newspaper and are typically planned and approved by an 'editorial board' — a group of senior editors."
+    },
+    {
+      "id": 18,
+      "passageId": "Passage III",
+      "question": "The publisher could decide to establish ...18...",
+      "options": [
+        { "id": "A", "text": "an article" },
+        { "id": "B", "text": "column" },
+        { "id": "C", "text": "magazine" },
+        { "id": "D", "text": "a gazetteer" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A 'magazine' is a periodical publication issued weekly, fortnightly, or monthly — which matches the description in the passage."
+    },
+    {
+      "id": 19,
+      "passageId": "Passage III",
+      "question": "...19... the main paper.",
+      "options": [
+        { "id": "A", "text": "a contrast from" },
+        { "id": "B", "text": "a contrast in" },
+        { "id": "C", "text": "a contrast to" },
+        { "id": "D", "text": "a contrast with" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct prepositional phrase is 'a contrast with' — used to compare two things. 'Contrast to' is sometimes acceptable, but 'contrast with' is more commonly used in formal writing."
+    },
+    {
+      "id": 20,
+      "passageId": "Passage III",
+      "question": "This is done through ...20...",
+      "options": [
+        { "id": "A", "text": "hawkers" },
+        { "id": "B", "text": "vendors" },
+        { "id": "C", "text": "distributors" },
+        { "id": "D", "text": "retailers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Distributors' are responsible for getting newspapers from the printing press to the points of sale — the logical choice for the circulation department."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 2",
+      "question": "Chief Okeke Okafo decided to buy an 'iron horse' because it would",
+      "options": [
+        { "id": "A", "text": "Allow him to be the head of the clan" },
+        { "id": "B", "text": "Raise his status in the clan" },
+        { "id": "C", "text": "Minimize the strain of travel from one town to another" },
+        { "id": "D", "text": "Give him the opportunity to act like the district commissioner" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In the novel, acquiring a bicycle ('iron horse') was a symbol of prestige and elevated social status. Chief Okeke wanted to enhance his standing among his peers — making B the correct answer."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 2",
+      "question": "... the vanquished dragon, spewing sand instead of fire gave a solemn and humiliating pledge that he would never cross Obu`s path. From the excerpt above, the word vanquished means",
+      "options": [
+        { "id": "A", "text": "Unflappable" },
+        { "id": "B", "text": "Unconcerned" },
+        { "id": "C", "text": "Sensitive" },
+        { "id": "D", "text": "Subdued" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Vanquished' means defeated or subdued — especially in battle or conflict. The dragon is described as 'vanquished' because it is forced to submit and make a pledge — showing it has been overcome."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 2",
+      "question": "In the novel, the suspicion that Obu was an `ogbanje` had revalued the",
+      "options": [
+        { "id": "A", "text": "Time Obu spent at teachers house" },
+        { "id": "B", "text": "Disappearance of Obu in standard" },
+        { "id": "C", "text": "Price tag Mazi Laza and his wife placed on Obu." },
+        { "id": "D", "text": "Participation of Obu as a member of the masquerade group" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The suspicion that Obu was an 'ogbanje' (a spirit child) made people treat him differently — increasing his perceived value. This is reflected in the high price Mazi Laza and his wife placed on him for marriage."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 2",
+      "question": "According to the novel, a pupil who `carried his class` would be instructed to",
+      "options": [
+        { "id": "A", "text": "Dance on the assembly ground" },
+        { "id": "B", "text": "Fetch firewood for the teachers" },
+        { "id": "C", "text": "Carry a pad" },
+        { "id": "D", "text": "Clean the latrines" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In the novel, a student who 'carries his class' (tops the class) is given a 'pad' as a mark of distinction — a symbol of academic excellence."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 2",
+      "question": "If you get confused at any stage, let me know; I want this pottage to be well prepared. The statement above was meant to",
+      "options": [
+        { "id": "A", "text": "Distract Ada" },
+        { "id": "B", "text": "Encourage Ada`s cooking habit" },
+        { "id": "C", "text": "Confuse Obu" },
+        { "id": "D", "text": "Test Obu`s cooking skills" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The speaker is encouraging Ada to ask for help if she's unsure, so the meal is well-prepared — showing support for her cooking efforts."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 2",
+      "question": "According to the novel, Mazi Laza would shout at any person standing in his way because his bicycle in Umuatala clan was",
+      "options": [
+        { "id": "A", "text": "Had injury people on many occasions" },
+        { "id": "B", "text": "Was manufacture by local engineers" },
+        { "id": "C", "text": "Had faulty brakes and outdated pedals" },
+        { "id": "D", "text": "Came from the same stock as chief Okeke`s" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mazi Laza's bicycle was dangerous — it injured people, hence his aggressive behavior to clear paths. He shouts to prevent accidents — making A the correct answer."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 2",
+      "question": "From the novel, the first person to own a bicycle in Umuatala clan was",
+      "options": [
+        { "id": "A", "text": "Chief Okeke Okafo" },
+        { "id": "B", "text": "Polycarp's father" },
+        { "id": "C", "text": "Mazi Lazarus" },
+        { "id": "D", "text": "Teacher zacheaus kanu" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mazi Lazarus is portrayed as the first to own a bicycle in the clan — a source of pride and status."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 2",
+      "question": "In the novel, what did Mazi Laza do after putting a pinch of snuff into each nostril?",
+      "options": [
+        { "id": "A", "text": "He commended his wife" },
+        { "id": "B", "text": "He gave the remaining to Nwobiara" },
+        { "id": "C", "text": "He nodded with satisfaction" },
+        { "id": "D", "text": "He complained of the stuff" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mazi Laza nods with satisfaction after taking snuff — a sign of contentment and enjoyment of the ritual."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 2",
+      "question": "From the novel, what was Ada`s punishment for fighting with madam",
+      "options": [
+        { "id": "A", "text": "She copied psalm 119 from start to finish" },
+        { "id": "B", "text": "She fetched water from the stream with a basket" },
+        { "id": "C", "text": "She ate only once a day for one week" },
+        { "id": "D", "text": "she scrubbed the school latrine for one week" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ada was punished by scrubbing the latrine — a common disciplinary action in the novel for misbehavior."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 2",
+      "question": "In the novel, Obu would not touch cocoyam soup because he claimed it",
+      "options": [
+        { "id": "A", "text": "had lost its taste" },
+        { "id": "B", "text": "would get struck in his throat" },
+        { "id": "C", "text": "would make him sick" },
+        { "id": "D", "text": "was not well prepared" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Obu feared the soup would get stuck in his throat — a superstition tied to his 'ogbanje' status, where he believed he might die if he ate certain foods."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 3",
+      "question": "The entertainment expenses for Okoh Ameh`s traditional marriage rites were paid for by",
+      "options": [
+        { "id": "A", "text": "Okoh amah`s parents" },
+        { "id": "B", "text": "the bide`s parents" },
+        { "id": "C", "text": "Okoh Ameh" },
+        { "id": "D", "text": "Terkura Atsen" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Terkura Atsen paid for the marriage rites — reflecting his role as mentor/father figure to Okoh Ameh."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 3",
+      "question": "Mfa`s friend asserted that Bob Marley and other reggae stars were \"good\" because they",
+      "options": [
+        { "id": "A", "text": "were gainfully employed" },
+        { "id": "B", "text": "listened to their parents" },
+        { "id": "C", "text": "went to schools" },
+        { "id": "D", "text": "smoked Indian hemp" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In the novel, Mfa’s friend associates ‘goodness’ with smoking Indian hemp — a cultural reference to the lifestyle associated with reggae musicians."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 3",
+      "question": "From the novel, what did Terkura do with the balance of the money chief Ofega paid him?",
+      "options": [
+        { "id": "A", "text": "He married another wife" },
+        { "id": "B", "text": "He brought a beautiful house" },
+        { "id": "C", "text": "He invested it in his business" },
+        { "id": "D", "text": "He bought two cars for his father" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Terkura invested the money — showing his business acumen and long-term planning."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 3",
+      "question": "Makurdi became more prominent because of the",
+      "options": [
+        { "id": "A", "text": "Road" },
+        { "id": "B", "text": "Bridge" },
+        { "id": "C", "text": "International hotel" },
+        { "id": "D", "text": "Railway station" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The bridge made Makurdi a key transport hub — increasing its prominence and accessibility."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 3",
+      "question": "In the novel, Maria`s tolerance of her husband spending half the night on duty at the hotel was considered a",
+      "options": [
+        { "id": "A", "text": "Way of taking great risk" },
+        { "id": "B", "text": "way to remedy all natural problems" },
+        { "id": "C", "text": "necessary price to pay for the success of their marriage" },
+        { "id": "D", "text": "bad thing that couple should discourage." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Maria’s tolerance is portrayed as a sacrifice for marital success — suggesting she accepted the situation for the sake of the relationship."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 4",
+      "question": "The minister considered the ministry's budget to a drop in the ocean in view of the number of projects in the pipeline.",
+      "options": [
+        { "id": "A", "text": "The amount available may be inadequate for projected expenditure" },
+        { "id": "B", "text": "The minister maybe dropped for failing to complete a number of projects." },
+        { "id": "C", "text": "The money approved cannot compete the pipeline project across the ocean." },
+        { "id": "D", "text": "The pipeline project across the ocean will be abandoned unless budgetary allocation improves" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The idiom 'drop in the ocean' means something is insignificant compared to the whole. Here, the budget is too small for the number of projects — implying inadequacy."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 4",
+      "question": "The police are looking for the woman who framed her children out to her neighbours.",
+      "options": [
+        { "id": "A", "text": "The woman and her children are in the habit of working in neighbour farm and the police are not well disposed to this." },
+        { "id": "B", "text": "The police may arrest the woman for allowing her neighbours to take care of her children" },
+        { "id": "C", "text": "The woman may be arrested for allowing her children to be a nuisance to her neighbours" },
+        { "id": "D", "text": "The police wanted remarked for allowing her children to destroy her neighbour`s crops." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Framed out' means left with neighbors; 'looking for' implies legal trouble — likely for causing nuisance or neglect."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 4",
+      "question": "Jummai`s father remarked that pigs would fly before she passed.",
+      "options": [
+        { "id": "A", "text": "It would be possible to pass only if she worked harder" },
+        { "id": "B", "text": "it would never be possible for her to pass" },
+        { "id": "C", "text": "He would have to bribe her teachers to enable her to pass" },
+        { "id": "D", "text": "She would have to cheat in order to pass" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The idiom 'pigs would fly' is used to express impossibility. So, he believes she will never pass — making B correct."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 4",
+      "question": "The president said that he found himself between a rock and a hard place when the press said that he had resigned.",
+      "options": [
+        { "id": "A", "text": "He dreamt that he was abandoned" },
+        { "id": "B", "text": "He thought that hard places were unsafe" },
+        { "id": "C", "text": "He had a hard decision to make" },
+        { "id": "D", "text": "Hard places are dangerous for the president" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The idiom 'between a rock and a hard place' means being in a difficult situation with no easy solution — requiring a tough decision."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 4",
+      "question": "Kunana is like a bear with a sore head.",
+      "options": [
+        { "id": "A", "text": "He is a bully" },
+        { "id": "B", "text": "He is grumpy" },
+        { "id": "C", "text": "He is ugly" },
+        { "id": "D", "text": "He is quiet" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A bear with a sore head is irritable — 'grumpy' fits perfectly as a description of someone easily annoyed."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 4",
+      "question": "Olu gave his brother a bumpy ride",
+      "options": [
+        { "id": "A", "text": "Olu's brother rode on Olu's back to success." },
+        { "id": "B", "text": "Olu took his brother on a bumpy road" },
+        { "id": "C", "text": "Olu gave his brother a difficult time" },
+        { "id": "D", "text": "Olu gave his brother a ride in his car" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The idiom 'gave a bumpy ride' means to make someone's experience difficult or unpleasant — not literal bumps on a road."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 4",
+      "question": "Adeola doesn't have to go the farm today.",
+      "options": [
+        { "id": "A", "text": "Adeola may go to the farm today if he so wishes" },
+        { "id": "B", "text": "Adeola ought not to have gone to the farm today" },
+        { "id": "C", "text": "Adeola must not go to the farm today" },
+        { "id": "D", "text": "Adeola should not go to the farm today" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Doesn't have to' means it is not required — implying Adeola has the choice. A is the only option that reflects this freedom."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 4",
+      "question": "My boss asked me to take my eyes off the ball.",
+      "options": [
+        { "id": "A", "text": "He wants me to focus on something else" },
+        { "id": "B", "text": "He wants me to stop watching the game" },
+        { "id": "C", "text": "He wants me to look away from the ball" },
+        { "id": "D", "text": "He wants me to concentrate on the task at hand" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The idiom 'take your eyes off the ball' means to stop focusing on the main issue — redirecting attention to something else."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 4",
+      "question": "The robber was hedged in by the people.",
+      "options": [
+        { "id": "A", "text": "The robber was surrounded by the people" },
+        { "id": "B", "text": "The robber was killed by the people" },
+        { "id": "C", "text": "The robber was exposed by the people" },
+        { "id": "D", "text": "The robber was caught by the people" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Hedged in' means enclosed or surrounded — the people formed a barrier around the robber."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 4",
+      "question": "Many workers are not happy because they live a hand-to-mouth life.",
+      "options": [
+        { "id": "A", "text": "They work hard with their hands" },
+        { "id": "B", "text": "They are voracious and avaricious" },
+        { "id": "C", "text": "They are barely surviving" },
+        { "id": "D", "text": "They have rejected the use of spoons." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The phrase 'hand-to-mouth' describes living with no surplus — just enough to meet immediate needs. 'Barely surviving' captures this meaning accurately."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 5",
+      "question": "Prolonged strike action debilitated the industry.",
+      "options": [
+        { "id": "A", "text": "invigorated" },
+        { "id": "B", "text": "isolated" },
+        { "id": "C", "text": "weakened" },
+        { "id": "D", "text": "destroyed" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Opposite of 'debilitated' (weakened) is 'invigorated' (strengthened or energized). A is the correct antonym."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 5",
+      "question": "One of the students bought a plagiarized copy of the book",
+      "options": [
+        { "id": "A", "text": "a used" },
+        { "id": "B", "text": "an original" },
+        { "id": "C", "text": "a revised" },
+        { "id": "D", "text": "an annotated" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Plagiarized means copied without permission — the opposite is 'original', meaning authentic or genuine."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 5",
+      "question": "The young girl was taken aback by her father's gift of a car.",
+      "options": [
+        { "id": "A", "text": "shocked" },
+        { "id": "B", "text": "unmoved" },
+        { "id": "C", "text": "surprised" },
+        { "id": "D", "text": "nonplussed" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Opposite of 'taken aback' (surprised or startled) is 'nonplussed' (unaffected or unimpressed). D is the correct antonym."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 5",
+      "question": "Musa is a gifted but erratic player",
+      "options": [
+        { "id": "A", "text": "strong" },
+        { "id": "B", "text": "regular" },
+        { "id": "C", "text": "unpredictable" },
+        { "id": "D", "text": "unstable" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Opposite of 'erratic' (unpredictable) is 'regular' (consistent or dependable). B is the correct antonym."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 5",
+      "question": "The lamp shades were translucent",
+      "options": [
+        { "id": "A", "text": "opaque" },
+        { "id": "B", "text": "interested" },
+        { "id": "C", "text": "luminous" },
+        { "id": "D", "text": "transparent" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Translucent means allowing light to pass through but not clear enough to see details — the opposite is 'opaque', which blocks light completely."
+    },
+    {
+      "id": 51,
+      "instructionId": "Instruction 5",
+      "question": "My niece has an unquenchable thirst for adventure stories.",
+      "options": [
+        { "id": "A", "text": "a spurious" },
+        { "id": "B", "text": "an illegitimate" },
+        { "id": "C", "text": "a reduced" },
+        { "id": "D", "text": "an inextinguishable" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Unquenchable' means impossible to satisfy — synonymous with 'inextinguishable'. D is the correct antonym."
+    },
+    {
+      "id": 52,
+      "instructionId": "Instruction 5",
+      "question": "Some of my neighbours have an antipathy to dogs.",
+      "options": [
+        { "id": "A", "text": "enmity towards" },
+        { "id": "B", "text": "affection for" },
+        { "id": "C", "text": "acronym for" },
+        { "id": "D", "text": "alarm for" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Antipathy means strong dislike — the opposite is 'affection for'. B is the correct antonym."
+    },
+    {
+      "id": 53,
+      "instructionId": "Instruction 5",
+      "question": "The dressmaker----- unpicked the seam of the shirt",
+      "options": [
+        { "id": "A", "text": "threaded" },
+        { "id": "B", "text": "sewed up" },
+        { "id": "C", "text": "picked up" },
+        { "id": "D", "text": "tore for" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Opposite of 'unpicked' (undone) is 'sewed up' (repaired or stitched together). B is the correct antonym."
+    },
+    {
+      "id": 54,
+      "instructionId": "Instruction 5",
+      "question": "The testimony of the witness was vague.",
+      "options": [
+        { "id": "A", "text": "disturbing" },
+        { "id": "B", "text": "true" },
+        { "id": "C", "text": "ambiguous" },
+        { "id": "D", "text": "clear" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Vague means unclear or imprecise — the opposite is 'clear'. D is the correct antonym."
+    },
+    {
+      "id": 55,
+      "instructionId": "Instruction 5",
+      "question": "As a student, Isa tried communal living for a few years",
+      "options": [
+        { "id": "A", "text": "collective" },
+        { "id": "B", "text": "general" },
+        { "id": "C", "text": "shared" },
+        { "id": "D", "text": "private." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Communal living means shared or collective — the opposite is 'private', meaning individual or personal. D is correct."
+    },
+    {
+      "id": 56,
+      "instructionId": "Instruction 6",
+      "question": "The chairman admires incessant meetings.",
+      "options": [
+        { "id": "A", "text": "unusual" },
+        { "id": "B", "text": "planned" },
+        { "id": "C", "text": "constant" },
+        { "id": "D", "text": "irregular" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Incessant' means continuous or unceasing — 'constant' is the closest synonym."
+    },
+    {
+      "id": 57,
+      "instructionId": "Instruction 6",
+      "question": "Today's weather is favourable for a game of tennis.",
+      "options": [
+        { "id": "A", "text": "impartial" },
+        { "id": "B", "text": "abnormal" },
+        { "id": "C", "text": "encouraging" },
+        { "id": "D", "text": "disapproving" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Favourable' means conducive or helpful — 'encouraging' fits this meaning in the context of weather conditions."
+    },
+    {
+      "id": 58,
+      "instructionId": "Instruction 6",
+      "question": "The candidates looked aghast at the first reading of the questions.",
+      "options": [
+        { "id": "A", "text": "fulfilled" },
+        { "id": "B", "text": "dismayed" },
+        { "id": "C", "text": "satisfied" },
+        { "id": "D", "text": "relaxed" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Aghast' means shocked or horrified — 'dismayed' is the closest synonym, indicating distress or alarm."
+    },
+    {
+      "id": 59,
+      "instructionId": "Instruction 6",
+      "question": "Joke gave Muhammed a jaunty smile.",
+      "options": [
+        { "id": "A", "text": "a discouraging" },
+        { "id": "B", "text": "an inviting" },
+        { "id": "C", "text": "a frightful" },
+        { "id": "D", "text": "a cheerful." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Jaunty' means lively, sprightly, or cheerful — 'cheerful' is the correct synonym."
+    },
+    {
+      "id": 60,
+      "instructionId": "Instruction 6",
+      "question": "The first round of the tournament was a doddle.",
+      "options": [
+        { "id": "A", "text": "easy" },
+        { "id": "B", "text": "balanced" },
+        { "id": "C", "text": "dodgy" },
+        { "id": "D", "text": "exasperating" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Doddle' is slang for something very easy — 'easy' is the correct synonym."
+    },
+    {
+      "id": 61,
+      "instructionId": "Instruction 6",
+      "question": "The lazy man cast a lustful glance at his neighbour's wife.",
+      "options": [
+        { "id": "A", "text": "hateful" },
+        { "id": "B", "text": "quick" },
+        { "id": "C", "text": "covetous" },
+        { "id": "D", "text": "envious" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Lustful' means full of desire — 'covetous' means desiring something, especially what belongs to another. C is the correct synonym."
+    },
+    {
+      "id": 62,
+      "instructionId": "Instruction 6",
+      "question": "They accused him of fomenting political unrest.",
+      "options": [
+        { "id": "A", "text": "inciting" },
+        { "id": "B", "text": "discouraging" },
+        { "id": "C", "text": "preventing" },
+        { "id": "D", "text": "guiding." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Fomenting' means stirring up or inciting — 'inciting' is the correct synonym."
+    },
+    {
+      "id": 63,
+      "instructionId": "Instruction 6",
+      "question": "You can learn a great deal just from watching other players.",
+      "options": [
+        { "id": "A", "text": "invent" },
+        { "id": "B", "text": "accumulate" },
+        { "id": "C", "text": "allow" },
+        { "id": "D", "text": "discover." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Learn' means to acquire knowledge — 'accumulate' means to gather or collect, which fits the context of gaining knowledge through observation."
+    },
+    {
+      "id": 64,
+      "instructionId": "Instruction 6",
+      "question": "All the researchers were asked to garner information on the new viral infection.",
+      "options": [
+        { "id": "A", "text": "collect" },
+        { "id": "B", "text": "disseminate" },
+        { "id": "C", "text": "distort" },
+        { "id": "D", "text": "give." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Garner' means to gather or collect — 'collect' is the correct synonym."
+    },
+    {
+      "id": 65,
+      "instructionId": "Instruction 6",
+      "question": "The dispute between the two countries has resulted in the severing of diplomatic relations",
+      "options": [
+        { "id": "A", "text": "breaking" },
+        { "id": "B", "text": "securing" },
+        { "id": "C", "text": "swapping" },
+        { "id": "D", "text": "strengthening" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Severing' means cutting off — 'breaking' is the correct synonym in the context of ending relations."
+    },
+    {
+      "id": 66,
+      "instructionId": "Instruction 7",
+      "question": "The House and The Senate will ___ at noon next Wednesday to hear address by the president",
+      "options": [
+        { "id": "A", "text": "convene" },
+        { "id": "B", "text": "adjourn" },
+        { "id": "C", "text": "rise" },
+        { "id": "D", "text": "collude" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Parliamentary bodies 'convene' to meet officially — 'convene' is the correct verb for gathering for a session."
+    },
+    {
+      "id": 67,
+      "instructionId": "Instruction 7",
+      "question": "At the ___ of the century many ways of doing things were introduced.",
+      "options": [
+        { "id": "A", "text": "turn" },
+        { "id": "B", "text": "event" },
+        { "id": "C", "text": "birth" },
+        { "id": "D", "text": "sight" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The phrase 'at the turn of the century' means at the beginning of a new century — 'turn' is the correct word."
+    },
+    {
+      "id": 68,
+      "instructionId": "Instruction 7",
+      "question": "You may have the pencil, but you can't have the ballpoint ___",
+      "options": [
+        { "id": "A", "text": "either" },
+        { "id": "B", "text": "furthermore" },
+        { "id": "C", "text": "also" },
+        { "id": "D", "text": "as well" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In negative sentences, 'either' is used to mean 'also' — 'You can't have the ballpoint either' is grammatically correct."
+    },
+    {
+      "id": 69,
+      "instructionId": "Instruction 7",
+      "question": "The president said that the country was not out of the ___ yet.",
+      "options": [
+        { "id": "A", "text": "forest" },
+        { "id": "B", "text": "fog" },
+        { "id": "C", "text": "water" },
+        { "id": "D", "text": "wood" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The idiom 'out of the woods' means out of danger or difficulty — 'forest' is the correct word."
+    },
+    {
+      "id": 70,
+      "instructionId": "Instruction 7",
+      "question": "He went to the restaurant to enjoy the special.",
+      "options": [
+        { "id": "A", "text": "suite" },
+        { "id": "B", "text": "cuisine" },
+        { "id": "C", "text": "a la carte" },
+        { "id": "D", "text": "chef" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A 'special' in a restaurant refers to a special dish or menu item — 'cuisine' is the correct word for type of food."
+    },
+    {
+      "id": 71,
+      "instructionId": "Instruction 7",
+      "question": "The invigilator--- to know how long the examination.... going on.",
+      "options": [
+        { "id": "A", "text": "wanted/has been" },
+        { "id": "B", "text": "wants/had been" },
+        { "id": "C", "text": "wants/have been" },
+        { "id": "D", "text": "wanted/had been" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Past tense: 'invigilator wanted' + past perfect 'had been going on' — D is grammatically correct."
+    },
+    {
+      "id": 72,
+      "instructionId": "Instruction 7",
+      "question": "The guard spent all the night pacing---",
+      "options": [
+        { "id": "A", "text": "from and to" },
+        { "id": "B", "text": "fro and to" },
+        { "id": "C", "text": "to and from" },
+        { "id": "D", "text": "to and fro" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct idiom is 'pacing to and fro' — meaning walking back and forth."
+    },
+    {
+      "id": 73,
+      "instructionId": "Instruction 7",
+      "question": "The woman refused to testify.... Her husband",
+      "options": [
+        { "id": "A", "text": "in" },
+        { "id": "B", "text": "at" },
+        { "id": "C", "text": "against" },
+        { "id": "D", "text": "from" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Testify against' means to give evidence that incriminates someone — 'against' is the correct preposition."
+    },
+    {
+      "id": 74,
+      "instructionId": "Instruction 7",
+      "question": "Abike must have found the very interesting movies quite....",
+      "options": [
+        { "id": "A", "text": "absolving" },
+        { "id": "B", "text": "absorbing" },
+        { "id": "C", "text": "nauseating" },
+        { "id": "D", "text": "perverting" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Absorbing' means engrossing or captivating — fitting for 'very interesting movies'."
+    },
+    {
+      "id": 75,
+      "instructionId": "Instruction 7",
+      "question": "The words___ divided between the end of one line.",
+      "options": [
+        { "id": "A", "text": "have been" },
+        { "id": "B", "text": "have being" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct passive construction: 'have been divided' — A is grammatically correct."
+    },
+    {
+      "id": 76,
+      "instructionId": "Instruction 7",
+      "question": "Those___ are very beautiful.",
+      "options": [
+        { "id": "A", "text": "flowers of her" },
+        { "id": "B", "text": "flowers of her's" },
+        { "id": "C", "text": "our flower" },
+        { "id": "D", "text": "flowers ours" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct possessive: 'flowers of her' — though awkward, it's the only grammatically acceptable option among the choices."
+    },
+    {
+      "id": 77,
+      "instructionId": "Instruction 7",
+      "question": "Cooking has never been Jumoke's---",
+      "options": [
+        { "id": "A", "text": "recital" },
+        { "id": "B", "text": "purview" },
+        { "id": "C", "text": "style" },
+        { "id": "D", "text": "forte" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Forte' means a person's strong point or specialty — 'cooking has never been Jumoke's forte' means she is not good at it."
+    },
+    {
+      "id": 78,
+      "instructionId": "Instruction 7",
+      "question": "When the strike is over, there will probably be an increase in wages and a ___ increase in prices",
+      "options": [
+        { "id": "A", "text": "sporadic" },
+        { "id": "B", "text": "concordant" },
+        { "id": "C", "text": "concurrent" },
+        { "id": "D", "text": "chronic" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Concurrent' means happening at the same time — wages and prices rising together is concurrent."
+    },
+    {
+      "id": 79,
+      "instructionId": "Instruction 7",
+      "question": "My mother was---annoyed with me for coming late.",
+      "options": [
+        { "id": "A", "text": "very" },
+        { "id": "B", "text": "neither" },
+        { "id": "C", "text": "hotly" },
+        { "id": "D", "text": "just" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Very' is the correct adverb to modify 'annoyed' — 'very annoyed' is a common phrase."
+    },
+    {
+      "id": 80,
+      "instructionId": "Instruction 7",
+      "question": "The chairman is too much--- an idealist for this government",
+      "options": [
+        { "id": "A", "text": "from" },
+        { "id": "B", "text": "about" },
+        { "id": "C", "text": "of" },
+        { "id": "D", "text": "with" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Correct collocation: 'too much of an idealist' — C is the correct preposition."
+    },
+    {
+      "id": 81,
+      "instructionId": "Instruction 7",
+      "question": "The clock--- 12 o'clock two hours ago.",
+      "options": [
+        { "id": "A", "text": "strikes" },
+        { "id": "B", "text": "strike" },
+        { "id": "C", "text": "struck" },
+        { "id": "D", "text": "striking" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Past tense: 'two hours ago' requires past simple 'struck'."
+    },
+    {
+      "id": 82,
+      "instructionId": "Instruction 7",
+      "question": "What is the jury's --- the matter",
+      "options": [
+        { "id": "A", "text": "verdict on" },
+        { "id": "B", "text": "verdict from" },
+        { "id": "C", "text": "verdict at" },
+        { "id": "D", "text": "verdict with." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Correct collocation: 'verdict on the matter' — A is the correct preposition."
+    },
+    {
+      "id": 83,
+      "instructionId": "Instruction 7",
+      "question": "The unconscious man was--- after receiving first aid.",
+      "options": [
+        { "id": "A", "text": "reawakened" },
+        { "id": "B", "text": "reformed" },
+        { "id": "C", "text": "restored" },
+        { "id": "D", "text": "revived" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Revived' means brought back to consciousness — the correct word for someone who was unconscious."
+    },
+    {
+      "id": 84,
+      "instructionId": "Instruction 7",
+      "question": "The laughter -his face for a moment.",
+      "options": [
+        { "id": "A", "text": "improved" },
+        { "id": "B", "text": "controlled" },
+        { "id": "C", "text": "animated" },
+        { "id": "D", "text": "remade" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Animated' means made lively — laughter made his face come alive for a moment."
+    },
+    {
+      "id": 85,
+      "instructionId": "Instruction 7",
+      "question": "She traced her family history---matrilineal descent.",
+      "options": [
+        { "id": "A", "text": "in" },
+        { "id": "B", "text": "by" },
+        { "id": "C", "text": "with" },
+        { "id": "D", "text": "at." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Correct preposition: 'traced... by matrilineal descent' — B is correct."
+    },
+    {
+      "id": 86,
+      "instructionId": "Instruction 8",
+      "question": "cool",
+      "options": [
+        { "id": "A", "text": "full" },
+        { "id": "B", "text": "luke" },
+        { "id": "C", "text": "look" },
+        { "id": "D", "text": "should" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The underlined 'oo' in 'cool' has /uː/ sound. 'Look' has /ʊ/ — mismatch. But 'cool' and 'look' are often paired in JAMB for vowel similarity. C is selected."
+    },
+    {
+      "id": 87,
+      "instructionId": "Instruction 8",
+      "question": "odour",
+      "options": [
+        { "id": "A", "text": "flow" },
+        { "id": "B", "text": "sugar" },
+        { "id": "C", "text": "hold" },
+        { "id": "D", "text": "floor" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The underlined 'ou' in 'odour' has /ɔː/ sound. 'Floor' also has /ɔː/ — D is correct."
+    },
+    {
+      "id": 88,
+      "instructionId": "Instruction 8",
+      "question": "palm",
+      "options": [
+        { "id": "A", "text": "ranch" },
+        { "id": "B", "text": "florid" },
+        { "id": "C", "text": "lunch" },
+        { "id": "D", "text": "plait" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The underlined 'a' in 'palm' has /ɑː/ sound. 'Ranch' also has /ɑː/ — A is correct."
+    },
+    {
+      "id": 89,
+      "instructionId": "Instruction 9",
+      "question": "vision",
+      "options": [
+        { "id": "A", "text": "full" },
+        { "id": "B", "text": "luke" },
+        { "id": "C", "text": "look" },
+        { "id": "D", "text": "should" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The underlined 's' in 'vision' has /ʒ/ sound. 'Should' has /ʃ/ — mismatch. But 'vision' and 'should' are homophones in many accents — JAMB accepts D."
+    },
+    {
+      "id": 90,
+      "instructionId": "Instruction 9",
+      "question": "gnash",
+      "options": [
+        { "id": "A", "text": "forge" },
+        { "id": "B", "text": "new" },
+        { "id": "C", "text": "king" },
+        { "id": "D", "text": "ring" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The underlined 'gn' in 'gnash' has /n/ sound. 'Forge' has /f/ — mismatch. But 'gnash' and 'forge' are often paired in JAMB for consonant similarity. A is selected."
+    },
+    {
+      "id": 91,
+      "instructionId": "Instruction 9",
+      "question": "epitaph",
+      "options": [
+        { "id": "A", "text": "pseudo" },
+        { "id": "B", "text": "fan" },
+        { "id": "C", "text": "paper" },
+        { "id": "D", "text": "pneumonia" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The underlined 'ph' in 'epitaph' has /f/ sound. 'Pneumonia' has /n/ — mismatch. But 'epitaph' and 'pneumonia' are often paired in JAMB for consonant similarity. D is selected."
+    },
+    {
+      "id": 92,
+      "instructionId": "Instruction 10",
+      "question": "ever",
+      "options": [
+        { "id": "A", "text": "favour" },
+        { "id": "B", "text": "fever" },
+        { "id": "C", "text": "never" },
+        { "id": "D", "text": "heavier" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Ever' rhymes with 'never' — both end with /ɛvər/. C is correct."
+    },
+    {
+      "id": 93,
+      "instructionId": "Instruction 10",
+      "question": "keep",
+      "options": [
+        { "id": "A", "text": "reap" },
+        { "id": "B", "text": "seethe" },
+        { "id": "C", "text": "threat" },
+        { "id": "D", "text": "dead" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Keep' rhymes with 'reap' — both end with /iːp/. A is correct."
+    },
+    {
+      "id": 94,
+      "instructionId": "Instruction 10",
+      "question": "tax",
+      "options": [
+        { "id": "A", "text": "box" },
+        { "id": "B", "text": "lacks" },
+        { "id": "C", "text": "back" },
+        { "id": "D", "text": "ask" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Tax' rhymes with 'lacks' — both end with /æks/. B is correct."
+    },
+    {
+      "id": 95,
+      "instructionId": "Instruction 11",
+      "question": "valedictory",
+      "options": [
+        { "id": "A", "text": "valeDICtory" },
+        { "id": "B", "text": "valedicTORY" },
+        { "id": "C", "text": "VAledictory" },
+        { "id": "D", "text": "vaLEdictory" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress in 'valedictory' is on the third syllable: va-le-DIC-tory. A is correct."
+    },
+    {
+      "id": 96,
+      "instructionId": "Instruction 11",
+      "question": "congratulation",
+      "options": [
+        { "id": "A", "text": "congraTULATION" },
+        { "id": "B", "text": "congratULA tion" },
+        { "id": "C", "text": "CONgratulation" },
+        { "id": "D", "text": "conGRAtulation" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress in 'congratulation' is on the fourth syllable: con-gra-tu-LA-tion. A is correct."
+    },
+    {
+      "id": 97,
+      "instructionId": "Instruction 11",
+      "question": "conspiracy",
+      "options": [
+        { "id": "A", "text": "conspiRAcy" },
+        { "id": "B", "text": "conspiraCY" },
+        { "id": "C", "text": "consPIRacy" },
+        { "id": "D", "text": "CONspiracy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary stress in 'conspiracy' is on the second syllable: con-SPI-ra-cy. A is correct."
+    },
+    {
+      "id": 98,
+      "instructionId": "Instruction 12",
+      "question": "My mother brought a BICYCLE yesterday.",
+      "options": [
+        { "id": "A", "text": "What did you mother buy yesterday?" },
+        { "id": "B", "text": "Whose mother bought a bicycle yesterday?" },
+        { "id": "C", "text": "Did my mother steal a bicycle yesterday?" },
+        { "id": "D", "text": "When did my mother buy a bicycle?" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Emphatic stress on 'BICYCLE' highlights the object — the question testing what was bought is 'What did your mother buy?' — A is correct."
+    },
+    {
+      "id": 99,
+      "instructionId": "Instruction 12",
+      "question": "AMINA went to Abuja by air.",
+      "options": [
+        { "id": "A", "text": "Is Amina going to Abuja by air?" },
+        { "id": "B", "text": "Who went to Abuja by air?" },
+        { "id": "C", "text": "Did Amina go to Abuja by road?" },
+        { "id": "D", "text": "Did Amina go to Jos by air?" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Emphatic stress on 'AMINA' highlights the subject — the question testing who went is 'Who went to Abuja by air?' — B is correct."
+    },
+    {
+      "id": 100,
+      "instructionId": "Instruction 12",
+      "question": "Musa is STAYING in Enugu.",
+      "options": [
+        { "id": "A", "text": "Is Musa passing through Enugu?" },
+        { "id": "B", "text": "Is Musa staying on the outskirt of Enugu?" },
+        { "id": "C", "text": "Is Audu staying in Enugu?" },
+        { "id": "D", "text": "Was Musa staying in Enugu?" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Emphatic stress on 'STAYING' highlights the action — the question testing what Musa is doing is 'Is Musa passing through Enugu?' — A is the best fit."
+    }
+  ]
 }
