@@ -87,7 +87,10 @@ class MathematicsCBTExamApp {
                         await examDB.addQuestions(subject, this.questions);
                         console.log(`Added ${this.questions.length} questions to database for ${subject} (${this.selectedYear})`);
                     } catch (addError) {
-                        console.error('Error adding questions to database:', addError);
+                        console.error('Error adding questions to database:', addError || 'Unknown error');
+                        if (addError && addError.stack) {
+                            console.error('Stack trace:', addError.stack);
+                        }
                     }
                 }
                 

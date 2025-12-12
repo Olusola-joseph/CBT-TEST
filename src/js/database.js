@@ -195,14 +195,30 @@ class ExamDatabase {
         const questionIndex = questionStore.index('subject');
         const questionRequest = questionIndex.getAllKeys(IDBKeyRange.only(subject));
         
-        await new Promise((resolve) => {
+        const questionDeletePromises = [];
+        await new Promise((resolve, reject) => {
             questionRequest.onsuccess = () => {
                 const keys = questionRequest.result;
+                if (keys.length === 0) {
+                    resolve(); // No keys to delete, resolve immediately
+                    return;
+                }
+                
                 keys.forEach(key => {
-                    questionStore.delete(key);
+                    const deletePromise = new Promise((deleteResolve, deleteReject) => {
+                        const deleteRequest = questionStore.delete(key);
+                        deleteRequest.onsuccess = () => deleteResolve();
+                        deleteRequest.onerror = () => deleteReject(deleteRequest.error);
+                    });
+                    questionDeletePromises.push(deletePromise);
                 });
-                resolve();
+                
+                // Wait for all delete operations to complete
+                Promise.all(questionDeletePromises)
+                    .then(() => resolve())
+                    .catch(error => reject(error));
             };
+            questionRequest.onerror = (event) => reject(questionRequest.error || event.target.error);
         });
 
         // Clear subject content for the subject
@@ -211,22 +227,38 @@ class ExamDatabase {
         const contentIndex = contentStore.index('subject');
         const contentRequest = contentIndex.getAllKeys(IDBKeyRange.only(subject));
         
-        await new Promise((resolve) => {
+        const contentDeletePromises = [];
+        await new Promise((resolve, reject) => {
             contentRequest.onsuccess = () => {
                 const keys = contentRequest.result;
+                if (keys.length === 0) {
+                    resolve(); // No keys to delete, resolve immediately
+                    return;
+                }
+                
                 keys.forEach(key => {
-                    contentStore.delete(key);
+                    const deletePromise = new Promise((deleteResolve, deleteReject) => {
+                        const deleteRequest = contentStore.delete(key);
+                        deleteRequest.onsuccess = () => deleteResolve();
+                        deleteRequest.onerror = () => deleteReject(deleteRequest.error);
+                    });
+                    contentDeletePromises.push(deletePromise);
                 });
-                resolve();
+                
+                // Wait for all delete operations to complete
+                Promise.all(contentDeletePromises)
+                    .then(() => resolve())
+                    .catch(error => reject(error));
             };
+            contentRequest.onerror = (event) => reject(contentRequest.error || event.target.error);
         });
 
         return new Promise((resolve, reject) => {
             questionTransaction.oncomplete = () => {
                 contentTransaction.oncomplete = () => resolve();
-                contentTransaction.onerror = () => reject(contentTransaction.error);
+                contentTransaction.onerror = (event) => reject(contentTransaction.error || event.target.error);
             };
-            questionTransaction.onerror = () => reject(questionTransaction.error);
+            questionTransaction.onerror = (event) => reject(questionTransaction.error || event.target.error);
         });
     }
     
@@ -245,17 +277,35 @@ class ExamDatabase {
         const subjectIndex = store.index('subject');
         const getRequest = subjectIndex.getAllKeys(IDBKeyRange.only(subject));
         
-        await new Promise((resolve) => {
+        const deletePromises = [];
+        await new Promise((resolve, reject) => {
             getRequest.onsuccess = () => {
                 const keys = getRequest.result;
+                if (keys.length === 0) {
+                    resolve(); // No keys to delete, resolve immediately
+                    return;
+                }
+                
+                let completedDeletes = 0;
                 keys.forEach(key => {
-                    store.delete(key);
+                    const deletePromise = new Promise((deleteResolve, deleteReject) => {
+                        const deleteRequest = store.delete(key);
+                        deleteRequest.onsuccess = () => deleteResolve();
+                        deleteRequest.onerror = () => deleteReject(deleteRequest.error);
+                    });
+                    deletePromises.push(deletePromise);
                 });
-                resolve();
+                
+                // Wait for all delete operations to complete
+                Promise.all(deletePromises)
+                    .then(() => resolve())
+                    .catch(error => reject(error));
             };
+            getRequest.onerror = (event) => reject(getRequest.error || event.target.error);
         });
 
         // Add each question to the database
+        const addPromises = [];
         for (const question of questions) {
             const questionData = {
                 ...question,
@@ -265,11 +315,22 @@ class ExamDatabase {
             if (!questionData.id) {
                 questionData.id = Date.now() + Math.floor(Math.random() * 10000);
             }
-            store.add(questionData);
+            
+            const addPromise = new Promise((resolve, reject) => {
+                const addRequest = store.add(questionData);
+                addRequest.onsuccess = () => resolve();
+                addRequest.onerror = () => reject(addRequest.error);
+            });
+            addPromises.push(addPromise);
         }
 
         return new Promise((resolve, reject) => {
-            transaction.oncomplete = () => resolve();
+            transaction.oncomplete = () => {
+                // Wait for all add operations to complete before resolving
+                Promise.all(addPromises)
+                    .then(() => resolve())
+                    .catch(error => reject(error));
+            };
             transaction.onerror = () => reject(transaction.error);
         });
     }
@@ -315,26 +376,42 @@ class ExamDatabase {
             totalQuestions
         };
 
-        const examRequest = examStore.add(examData);
-
-        examRequest.onsuccess = (event) => {
-            const examId = event.target.result;
-
-            // Save individual question results
-            for (const [questionId, answer] of Object.entries(answers)) {
-                const resultData = {
-                    examId,
-                    questionId: parseInt(questionId),
-                    answer,
-                    timestamp: new Date()
-                };
-                resultStore.add(resultData);
-            }
-        };
-
         return new Promise((resolve, reject) => {
-            transaction.oncomplete = () => resolve(examRequest.result);
-            transaction.onerror = () => reject(transaction.error);
+            const examRequest = examStore.add(examData);
+
+            examRequest.onsuccess = (event) => {
+                const examId = event.target.result;
+                const resultPromises = [];
+
+                // Save individual question results
+                for (const [questionId, answer] of Object.entries(answers)) {
+                    const resultData = {
+                        examId,
+                        questionId: parseInt(questionId),
+                        answer,
+                        timestamp: new Date()
+                    };
+                    
+                    const resultPromise = new Promise((resultResolve, resultReject) => {
+                        const resultRequest = resultStore.add(resultData);
+                        resultRequest.onsuccess = () => resultResolve();
+                        resultRequest.onerror = () => resultReject(resultRequest.error);
+                    });
+                    resultPromises.push(resultPromise);
+                }
+
+                // Wait for all result operations to complete
+                Promise.all(resultPromises)
+                    .then(() => resolve(examId))
+                    .catch(error => reject(error));
+            };
+
+            examRequest.onerror = (event) => reject(examRequest.error || event.target.error);
+
+            transaction.oncomplete = () => {
+                // This is handled by the examRequest.oncomplete, but included for safety
+            };
+            transaction.onerror = (event) => reject(transaction.error || event.target.error);
         });
     }
 
@@ -373,28 +450,56 @@ class ExamDatabase {
         const subjectIndex = store.index('subject_content_type');
         const getRequest = subjectIndex.getAllKeys(IDBKeyRange.only([subject, contentType]));
         
-        await new Promise((resolve) => {
+        const deletePromises = [];
+        await new Promise((resolve, reject) => {
             getRequest.onsuccess = () => {
                 const keys = getRequest.result;
+                if (keys.length === 0) {
+                    resolve(); // No keys to delete, resolve immediately
+                    return;
+                }
+                
                 keys.forEach(key => {
-                    store.delete(key);
+                    const deletePromise = new Promise((deleteResolve, deleteReject) => {
+                        const deleteRequest = store.delete(key);
+                        deleteRequest.onsuccess = () => deleteResolve();
+                        deleteRequest.onerror = () => deleteReject(deleteRequest.error);
+                    });
+                    deletePromises.push(deletePromise);
                 });
-                resolve();
+                
+                // Wait for all delete operations to complete
+                Promise.all(deletePromises)
+                    .then(() => resolve())
+                    .catch(error => reject(error));
             };
+            getRequest.onerror = (event) => reject(getRequest.error || event.target.error);
         });
 
         // Add content items to the database
+        const addPromises = [];
         for (const item of content) {
             const contentData = {
                 subject: subject,
                 contentType: contentType,
                 contentItem: item
             };
-            store.add(contentData);
+            
+            const addPromise = new Promise((resolve, reject) => {
+                const addRequest = store.add(contentData);
+                addRequest.onsuccess = () => resolve();
+                addRequest.onerror = () => reject(addRequest.error);
+            });
+            addPromises.push(addPromise);
         }
 
         return new Promise((resolve, reject) => {
-            transaction.oncomplete = () => resolve();
+            transaction.oncomplete = () => {
+                // Wait for all add operations to complete before resolving
+                Promise.all(addPromises)
+                    .then(() => resolve())
+                    .catch(error => reject(error));
+            };
             transaction.onerror = () => reject(transaction.error);
         });
     }
