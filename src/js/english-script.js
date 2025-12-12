@@ -102,7 +102,10 @@ class EnglishCBTExamApp {
                             console.log(`Added ${subjectData.instructions.length} instructions to database for ${subject} (${this.selectedYear})`);
                         }
                     } catch (addError) {
-                        console.error('Error adding questions to database:', addError);
+                        console.error('Error adding questions to database:', addError || 'Unknown error');
+                        if (addError && addError.stack) {
+                            console.error('Stack trace:', addError.stack);
+                        }
                     }
                 }
                 
