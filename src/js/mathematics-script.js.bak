@@ -1,88 +1,24 @@
-// CBT Exam Application - Robust functionality with proper error handling
+// Mathematics CBT Exam Application - Robust functionality with proper error handling
 // Import database functionality
 
-class CBTExamApp {
+class MathematicsCBTExamApp {
     constructor() {
-        this.currentScreen = 'login-screen';
+        this.currentScreen = 'year-selection-screen';
         this.currentQuestionIndex = 0;
         this.answers = {};
         this.examTime = 3600; // 60 minutes in seconds
         this.timerInterval = null;
         this.questions = [];
-        this.selectedSubject = '';
+        this.selectedSubject = 'Mathematics';
         this.selectedYear = 'jamb_2010'; // Default year
-        this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account']; // Will be populated dynamically
         this.years = ['jamb_2010', 'jamb_2011', 'jamb_2012', 'jamb_2013', 'jamb_2014', 'jamb_2015', 'jamb_2016', 'jamb_2017', 'jamb_2018', 'jamb_2019']; // Available years
+        this.subjectType = 'Mathematics'; // Track subject type for different handling
         
         // Initialize database
         this.initDatabase();
         
         this.initializeEventListeners();
-        this.loadAvailableSubjects().then(() => {
-            this.renderSubjectSelection();
-            this.renderYearSelection();
-        });
-    }
-    
-    async loadAvailableSubjects() {
-        try {
-            // Instead of trying to list files, let's check for the existence of the most common subject files
-            // by attempting to fetch them and checking if they exist
-            const potentialSubjects = [
-                'English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 
-                'Government', 'Economics', 'Financial_Account'
-            ];
-            
-            const availableSubjects = [];
-            
-            // Check for each subject by trying to fetch the jamb_2010 file (most common)
-            for (const subject of potentialSubjects) {
-                try {
-                    // Try to fetch the subject file to check if it exists
-                    const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_jamb_2010.json`;
-                    const response = await fetch(fileName);
-                    
-                    if (response.ok) {
-                        // Check if the response has content before parsing
-                        const contentLength = response.headers.get('content-length');
-                        if (contentLength === '0' || contentLength === null) {
-                            console.debug(`File is empty: ${fileName}`);
-                        } else {
-                            // Try to parse the JSON to make sure it's valid
-                            try {
-                                const data = await response.json();
-                                // If JSON is valid and has content, add the subject
-                                if (data && (data.questions || data.passages || data.instructions)) {
-                                    if (!availableSubjects.includes(subject)) {
-                                        availableSubjects.push(subject);
-                                    }
-                                }
-                            } catch (jsonError) {
-                                console.debug(`Invalid JSON in file: ${fileName}`, jsonError);
-                            }
-                        }
-                    }
-                } catch (error) {
-                    // If fetch fails for this subject, continue to the next one
-                    console.debug(`Could not load subject: ${subject}`, error);
-                }
-            }
-            
-            // If no subjects were found through fetch, use a fallback list
-            if (availableSubjects.length === 0) {
-                console.warn('Could not dynamically load subjects, using fallback list');
-                this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
-            } else {
-                this.subjects = availableSubjects;
-            }
-            
-            console.log('Available subjects:', this.subjects);
-            
-        } catch (error) {
-            console.error('Error loading available subjects:', error);
-            // Fallback to default subjects if there's an error
-            this.subjects = ['English', 'Mathematics', 'Physics', 'Biology', 'Chemistry', 'Government', 'Economics', 'Financial_Account'];
-        }
+        this.renderYearSelection();
     }
     
     async initDatabase() {
@@ -103,24 +39,6 @@ class CBTExamApp {
         // In a production environment, this would populate the database
     }
     
-    renderSubjectSelection() {
-        const subjectContainer = document.getElementById('subject-container');
-        if (!subjectContainer) return;
-        
-        subjectContainer.innerHTML = '';
-        
-        this.subjects.forEach(subject => {
-            const subjectBtn = document.createElement('button');
-            subjectBtn.className = 'subject-btn';
-            subjectBtn.textContent = subject.replace('_', ' ');
-            subjectBtn.addEventListener('click', () => {
-                this.selectedSubject = subject;
-                this.showScreen('year-selection-screen'); // Show year selection after subject selection
-            });
-            subjectContainer.appendChild(subjectBtn);
-        });
-    }
-    
     renderYearSelection() {
         const yearContainer = document.getElementById('year-container');
         if (!yearContainer) return;
@@ -131,9 +49,10 @@ class CBTExamApp {
             const yearBtn = document.createElement('button');
             yearBtn.className = 'year-btn';
             yearBtn.textContent = year.replace('jamb_', 'JAMB ');
-            yearBtn.addEventListener('click', () => {
+            yearBtn.addEventListener('click', async () => {
                 this.selectedYear = year;
-                this.loadQuestionsForSubject(this.selectedSubject);
+                await this.loadQuestionsForSubject(this.selectedSubject);
+                this.showScreen('login-screen');
             });
             yearContainer.appendChild(yearBtn);
         });
@@ -141,13 +60,13 @@ class CBTExamApp {
     
     async loadQuestionsForSubject(subject) {
         try {
-            // Load the selected subject and year to the database using the new method
+            // Clear the database and repopulate with the selected year's data
             if (examDB && examDB.db) {
-                await examDB.loadSubjectToDatabase(subject, this.selectedYear);
-                console.log(`Database updated with ${subject} questions for ${this.selectedYear}`);
+                await examDB.clearAllData();
+                console.log('Database cleared before loading new data');
             }
             
-            // Load from the selected year's JSON file to populate the app's questions array
+            // Load from the selected year's JSON file
             const fileName = `src/data/subjects/${subject.toLowerCase()}_questions_${this.selectedYear}.json`;
             const response = await fetch(fileName);
             
@@ -158,20 +77,29 @@ class CBTExamApp {
             const subjectData = await response.json();
             
             if (subjectData) {
-                // For English subject, we need to handle passages, instructions, and questions differently
-                if (subject.toLowerCase() === 'english') {
-                    this.questions = this.reorganizeEnglishQuestions(subjectData);
-                } else if (subjectData.questions) {
+                if (subjectData.questions) {
                     this.questions = subjectData.questions;
                 }
                 
-                if (subject.toLowerCase() !== 'english') {
-                    this.selectRandomQuestions(); // Select 10 random questions for non-English subjects
-                } else {
-                    // For English, we already have the reorganized questions with proper IDs
-                    console.log(`Using all ${this.questions.length} reorganized English questions from ${this.selectedYear}`);
+                // Update the database with the loaded questions
+                if (examDB && examDB.db) {
+                    try {
+                        await examDB.addQuestions(subject, this.questions);
+                        console.log(`Added ${this.questions.length} questions to database for ${subject} (${this.selectedYear})`);
+                    } catch (addError) {
+                        console.error('Error adding questions to database:', addError);
+                    }
                 }
                 
+                // For Mathematics, use all questions in their original order
+                // Assign sequential IDs to maintain consistent numbering
+                this.questions = this.questions.map((question, index) => {
+                    return {
+                        ...question,
+                        id: index + 1  // Sequential numbering from 1 to total
+                    };
+                });
+                console.log(`Loaded ${this.questions.length} mathematics questions for ${this.selectedYear} with sequential IDs`);
                 this.renderQuestionList(); // Initialize the question list after loading questions
                 // Questions are loaded, but don't change the screen - let the normal flow continue
                 // The user should still go through login and instructions as normal
@@ -185,114 +113,8 @@ class CBTExamApp {
         }
     }
 
-    // Reorganize English questions to follow the sequence: instructions, then passages with their questions
-    reorganizeEnglishQuestions(subjectData) {
-        let reorganizedQuestions = [];
-        let currentId = 1;
-
-        // First, add all instructions as content pages followed by their related questions
-        if (subjectData.instructions && subjectData.instructions.length > 0) {
-            subjectData.instructions.forEach(instruction => {
-                // Add the instruction as a content page
-                const instructionContent = {
-                    id: currentId++,
-                    type: 'instruction',
-                    title: instruction.id,
-                    text: instruction.text,
-                    question: `<div class="english-instruction"><h4>${instruction.id}</h4><p>${instruction.text}</p></div>`,
-                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
-                    correctAnswer: "CONTINUE",
-                    explanation: "Please read the instructions carefully before attempting the questions that follow."
-                };
-                reorganizedQuestions.push(instructionContent);
-                
-                // Add questions related to this instruction
-                if (subjectData.questions) {
-                    const instructionQuestions = subjectData.questions.filter(q => 
-                        q.instructionId === instruction.id
-                    );
-                    
-                    instructionQuestions.forEach(question => {
-                        // Update the question ID to the sequential ID and preserve passageId if it exists
-                        const modifiedQuestion = {
-                            ...question,
-                            id: currentId++
-                        };
-                        reorganizedQuestions.push(modifiedQuestion);
-                    });
-                }
-            });
-        }
-
-        // Then, for each passage, add the passage as a content page followed by its related questions
-        if (subjectData.passages && subjectData.passages.length > 0) {
-            subjectData.passages.forEach(passage => {
-                // Add the passage as a content page
-                const passageContent = {
-                    id: currentId++,
-                    type: 'passage',
-                    title: passage.id,
-                    text: passage.text,
-                    question: `<div class="english-passage"><h4>${passage.id}</h4><div class="passage-content">${passage.text}</div><div class="passage-note">Please read the above passage carefully before answering the questions that follow.</div></div>`,
-                    options: [{ id: "CONTINUE", text: "Continue to questions" }],
-                    correctAnswer: "CONTINUE",
-                    explanation: "This is a passage. Please read carefully before answering the questions that follow."
-                };
-                reorganizedQuestions.push(passageContent);
-
-                // Add questions related to this passage
-                if (subjectData.questions) {
-                    const passageQuestions = subjectData.questions.filter(q => q.passageId === passage.id);
-                    passageQuestions.forEach(question => {
-                        // Update the question ID to the sequential ID
-                        const modifiedQuestion = {
-                            ...question,
-                            id: currentId++
-                        };
-                        reorganizedQuestions.push(modifiedQuestion);
-                    });
-                }
-            });
-        }
-
-        // Add any remaining questions that are not associated with passages or instructions
-        if (subjectData.questions) {
-            const allPassageIds = subjectData.passages ? subjectData.passages.map(p => p.id) : [];
-            const allInstructionIds = subjectData.instructions ? subjectData.instructions.map(i => i.id) : [];
-            const standaloneQuestions = subjectData.questions.filter(q => {
-                const hasPassageId = q.passageId && allPassageIds.includes(q.passageId);
-                const hasInstructionId = q.instructionId && allInstructionIds.includes(q.instructionId);
-                return !hasPassageId && !hasInstructionId;
-            });
-            
-            standaloneQuestions.forEach(question => {
-                const modifiedQuestion = {
-                    ...question,
-                    id: currentId++
-                };
-                reorganizedQuestions.push(modifiedQuestion);
-            });
-        }
-
-        console.log(`Reorganized English questions: ${reorganizedQuestions.length} total items`);
-        console.log(`Original question count: ${subjectData.questions ? subjectData.questions.length : 0}`);
-        console.log(`Passages count: ${subjectData.passages ? subjectData.passages.length : 0}`);
-        console.log(`Instructions count: ${subjectData.instructions ? subjectData.instructions.length : 0}`);
-        return reorganizedQuestions;
-    }
-
-    // Select questions based on subject - English gets all questions (passages, instructions, and questions), others get 10 random
+    // Select questions based on subject - For subjects that need limited questions
     selectRandomQuestions() {
-        // Check if the selected subject is English
-        if (this.selectedSubject.toLowerCase() === 'english') {
-            // For English, use ALL questions (passages, instructions, and actual questions) 
-            // This maintains the proper page structure with passages/instructions followed by related questions
-            // The reorganizeEnglishQuestions method already assigns sequential IDs
-            console.log(`Using all ${this.questions.length} English content items (passages, instructions, and questions) with sequential IDs`);
-            return;
-        }
-        
-        // For non-English subjects, select 10 random questions as before
         if (this.questions.length <= 10) {
             // If there are 10 or fewer questions, use all of them
             this.questions = this.questions.map((question, index) => {
@@ -304,29 +126,19 @@ class CBTExamApp {
             return;
         }
         
-        // Create a copy of the questions array to avoid modifying the original
-        const allQuestions = [...this.questions];
-        const selectedQuestions = [];
-        
-        // Randomly select 10 questions
-        for (let i = 0; i < 10; i++) {
-            if (allQuestions.length === 0) break;
-            
-            const randomIndex = Math.floor(Math.random() * allQuestions.length);
-            selectedQuestions.push(allQuestions[randomIndex]);
-            // Remove the selected question to avoid duplicates
-            allQuestions.splice(randomIndex, 1);
-        }
+        // For subjects that need limited questions, use the first 10 questions in order instead of random selection
+        // This ensures consistent ordering across different sessions
+        const firstTenQuestions = this.questions.slice(0, 10);
         
         // Assign new sequential IDs to the selected questions (1 to 10)
-        this.questions = selectedQuestions.map((question, index) => {
+        this.questions = firstTenQuestions.map((question, index) => {
             return {
                 ...question,
                 id: index + 1  // Sequential numbering from 1 to 10
             };
         });
         
-        console.log(`Selected ${this.questions.length} random questions from original pool with new sequential IDs`);
+        console.log(`Selected first 10 questions from original pool with new sequential IDs (1-10)`);
     }
 
     // Determine if a question needs a diagram based on keywords
@@ -413,7 +225,12 @@ class CBTExamApp {
         // Start exam button
         const startExamBtn = document.getElementById('start-exam-btn');
         if (startExamBtn) {
-            startExamBtn.addEventListener('click', () => {
+            startExamBtn.addEventListener('click', async () => {
+                // Ensure questions are loaded before starting exam
+                if (this.questions.length === 0) {
+                    // If questions haven't been loaded yet, load them using the selected year
+                    await this.loadQuestionsForSubject(this.selectedSubject);
+                }
                 this.startExam();
             });
         }
@@ -458,14 +275,6 @@ class CBTExamApp {
             });
         }
 
-        // Year selection back button
-        const yearBackBtn = document.getElementById('year-back-btn');
-        if (yearBackBtn) {
-            yearBackBtn.addEventListener('click', () => {
-                this.showScreen('subject-selection-screen');
-            });
-        }
-        
         // Instructions screen back button
         const instructionsBackBtn = document.getElementById('instructions-back-btn');
         if (instructionsBackBtn) {
@@ -593,62 +402,36 @@ class CBTExamApp {
         const question = this.questions[index];
         
         // Update question display - using innerHTML to support HTML tags like <u>
-        // For passages and instructions, show more descriptive labels
-        if (question.type === 'passage') {
-            document.getElementById('q-number').textContent = question.title; // "Passage I", "Passage II", etc.
-        } else if (question.type === 'instruction') {
-            document.getElementById('q-number').textContent = question.title; // "Instruction 1", "Instruction 2", etc.
-        } else {
-            document.getElementById("q-number").textContent = `Question ${question.id}`;
-        }
-        // For passages and instructions, use the pre-formatted question HTML which already contains the content
-        if (question.type === "passage" || question.type === "instruction") {
-            // Use the question field directly as it contains formatted HTML for passages and instructions
-            document.getElementById("question-text").innerHTML = question.question;
-        } else {
-            // Clean up the question text to remove BODMAS references and fix underlines for regular questions
-            let cleanQuestion = question.question.replace(/using BODMAS rule/gi, "");
-            cleanQuestion = cleanQuestion.replace(/BODMAS/gi, "");
-            
-            // Add diagram container if available and question needs it
-            let questionHtml = cleanQuestion;
-            if (question.diagram && this.questionNeedsDiagram(question.question)) {
-                // Check if the question text already contains an SVG diagram
-                if (!questionHtml.includes("<svg")) {
-                    // Decode the diagram data and add it directly to the question
-                    try {
-                        const decodedDiagram = decodeURIComponent(question.diagram);
-                        if (decodedDiagram.startsWith("<svg")) {
-                            questionHtml += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
-                        } else {
-                            questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
-                        }
-                    } catch (e) {
+        document.getElementById("q-number").textContent = `Question ${question.id}`;
+        
+        // Clean up the question text to remove BODMAS references and fix underlines for regular questions
+        let cleanQuestion = question.question.replace(/using BODMAS rule/gi, "");
+        cleanQuestion = cleanQuestion.replace(/BODMAS/gi, "");
+        
+        // Add diagram container if available and question needs it
+        let questionHtml = cleanQuestion;
+        if (question.diagram && this.questionNeedsDiagram(question.question)) {
+            // Check if the question text already contains an SVG diagram
+            if (!questionHtml.includes("<svg")) {
+                // Decode the diagram data and add it directly to the question
+                try {
+                    const decodedDiagram = decodeURIComponent(question.diagram);
+                    if (decodedDiagram.startsWith("<svg")) {
+                        questionHtml += `<div class="diagram-container"><h5>Diagram:</h5>${decodedDiagram}</div>`;
+                    } else {
                         questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
                     }
+                } catch (e) {
+                    questionHtml += `<button class="diagram-btn" onclick="showDiagram('${encodeURIComponent(question.diagram)}')">Show Diagram</button>`;
                 }
             }
-            
-            // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
-           const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, "\\(").replace(/\\\\\\\)/g, "\\)").replace(/\\\\\\[/g, "\\[).replace(/\\\\\\]/g, "\\]");
-           document.getElementById("question-text").innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         }
-        document.getElementById("current-q").textContent = index + 1;
-       document.getElementById("total-q").textContent = this.questions.length;
         
-        // Update question container class based on content type for better styling
-        const questionContainer = document.querySelector('.question-container');
-        if (questionContainer) {
-            // Remove previous content type classes
-            questionContainer.classList.remove('passage-content-page', 'instruction-content-page');
-            
-            // Add appropriate class based on question type
-            if (question.type === 'passage') {
-                questionContainer.classList.add('passage-content-page');
-            } else if (question.type === 'instruction') {
-                questionContainer.classList.add('instruction-content-page');
-            }
-        }
+        // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
+        const fixedQuestionHtml = questionHtml.replace(/\\\\\\\\\\\\\(/g, "\\(").replace(/\\\\\\\\\\\\\)/g, "\\)").replace(/\\\\\\\\\\\\\[/g, "\\[").replace(/\\\\\\\\\\\\\]/g, "\\]");
+        document.getElementById("question-text").innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
+        document.getElementById("current-q").textContent = index + 1;
+        document.getElementById("total-q").textContent = this.questions.length;
         
         // Trigger MathJax to re-render the mathematical expressions
         if (window.MathJax) {
@@ -684,57 +467,33 @@ class CBTExamApp {
         const optionsContainer = document.getElementById('options-container');
         optionsContainer.innerHTML = '';
 
-        // For content pages (passages and instructions), render a prominent continue button
-        if (question.type === 'passage' || question.type === 'instruction') {
-            question.options.forEach(option => {
-                const optionElement = document.createElement('div');
-                optionElement.className = 'option-item';
-                optionElement.dataset.optionId = option.id;
-                
-                // Check if this option was previously selected
-                const isSelected = this.answers[question.id] === option.id;
-                if (isSelected) {
-                    optionElement.classList.add('selected');
-                }
-                
-                // For content pages, create a button-style element instead of radio button
-                optionElement.innerHTML = `
-                    <button type="button" class="continue-btn" onclick="app.selectOption(${question.id}, '${option.id}')">
-                        ${option.text}
-                    </button>
-                `;
-                
-                optionsContainer.appendChild(optionElement);
+        // For mathematics questions, render standard radio button options
+        question.options.forEach(option => {
+            const optionElement = document.createElement('div');
+            optionElement.className = 'option-item';
+            optionElement.dataset.optionId = option.id;
+
+            // Check if this option was previously selected
+            const isSelected = this.answers[question.id] === option.id;
+            if (isSelected) {
+                optionElement.classList.add('selected');
+            }
+
+            // Fix MathJax delimiters in option text before rendering
+            const fixedOptionText = option.text.replace(/\\\\\\/g, '\\(').replace(/\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
+            optionElement.innerHTML = `
+                <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}"
+                    value="${option.id}" ${isSelected ? 'checked' : ''}>
+                <label for="opt-${question.id}-${option.id}">${option.id}. ${fixedOptionText}</label>
+            `;
+
+            optionElement.addEventListener('click', () => {
+                this.selectOption(question.id, option.id);
             });
-        } else {
-            // For regular questions, render standard radio button options
-            question.options.forEach(option => {
-                const optionElement = document.createElement('div');
-                optionElement.className = 'option-item';
-                optionElement.dataset.optionId = option.id;
-                
-                // Check if this option was previously selected
-                const isSelected = this.answers[question.id] === option.id;
-                if (isSelected) {
-                    optionElement.classList.add('selected');
-                }
-                
-                // Fix MathJax delimiters in option text before rendering
-                const fixedOptionText = option.text.replace(/\\\(/g, '\\(').replace(/\\\)/g, '\\)').replace(/\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
-                optionElement.innerHTML = `
-                    <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
-                        value="${option.id}" ${isSelected ? 'checked' : ''}>
-                    <label for="opt-${question.id}-${option.id}">${option.id}. ${fixedOptionText}</label>
-                `;
-                
-                optionElement.addEventListener('click', () => {
-                    this.selectOption(question.id, option.id);
-                });
-                
-                optionsContainer.appendChild(optionElement);
-            });
-        }
-        
+
+            optionsContainer.appendChild(optionElement);
+        });
+
         // Trigger MathJax to re-render mathematical expressions in the options
         if (window.MathJax) {
             MathJax.typesetPromise([optionsContainer]).then(function() {
@@ -749,13 +508,13 @@ class CBTExamApp {
     selectOption(questionId, optionId) {
         // Update answers object
         this.answers[questionId] = optionId;
-        
+
         // Update UI to show selected option
         const options = document.querySelectorAll(`.option-item[data-option-id="${optionId}"]`);
         options.forEach(option => {
             option.classList.add('selected');
         });
-        
+
         // Remove selection from other options for this question
         const allOptions = document.querySelectorAll(`.option-item`);
         allOptions.forEach(option => {
@@ -763,38 +522,9 @@ class CBTExamApp {
                 option.classList.remove('selected');
             }
         });
-        
+
         // Update question list to show answered state
         this.updateQuestionList();
-        
-        // Auto-advance to next question if this is a content page (passage/instruction) with CONTINUE option
-        const currentQuestion = this.questions[this.currentQuestionIndex];
-        if (currentQuestion && (currentQuestion.type === 'passage' || currentQuestion.type === 'instruction') && optionId === 'CONTINUE') {
-            // Show a brief visual feedback that we're moving to questions
-            const nextBtn = document.getElementById('next-btn');
-            if (nextBtn) {
-                nextBtn.textContent = 'Loading Questions...';
-                nextBtn.disabled = true;
-            }
-            
-            setTimeout(() => {
-                if (this.currentQuestionIndex < this.questions.length - 1) {
-                    this.nextQuestion();
-                }
-                // Restore button text after navigation
-                if (nextBtn) {
-                    nextBtn.textContent = 'Next';
-                    nextBtn.disabled = false;
-                }
-                // Update navigation buttons state after moving to the next question
-                this.updateNavigationButtons();
-                // Update question list to highlight current question
-                this.updateQuestionList();
-                // Update progress indicators
-                document.getElementById('current-q').textContent = this.currentQuestionIndex + 1;
-                document.getElementById('total-q').textContent = this.questions.length;
-            }, 800); // Slightly longer delay to make transition clear
-        }
     }
 
     previousQuestion() {
@@ -808,16 +538,16 @@ class CBTExamApp {
             this.loadQuestion(this.currentQuestionIndex + 1);
         }
     }
-    
+
     updateNavigationButtons() {
         const nextBtn = document.getElementById('next-btn');
         const submitBtn = document.getElementById('submit-btn');
-        
+
         if (nextBtn) {
             // Disable next button if on the last question
             nextBtn.disabled = this.currentQuestionIndex === this.questions.length - 1;
         }
-        
+
         if (submitBtn) {
             // Always show submit button so student can submit at any time
             submitBtn.style.display = 'inline-block';
@@ -831,21 +561,13 @@ class CBTExamApp {
         this.questions.forEach((question, index) => {
             const button = document.createElement('button');
             button.className = 'question-btn';
-            
-            // Add specific class based on question type
-            if (question.type === 'instruction') {
-                button.classList.add('instruction');
-            } else if (question.type === 'passage') {
-                button.classList.add('passage');
-            }
-            
             button.textContent = index + 1;
             button.dataset.index = index;
-            
+
             button.addEventListener('click', () => {
                 this.loadQuestion(index);
             });
-            
+
             container.appendChild(button);
         });
     }
@@ -853,22 +575,12 @@ class CBTExamApp {
     updateQuestionList() {
         const buttons = document.querySelectorAll('.question-btn');
         buttons.forEach((button, index) => {
-            // Preserve type classes (instruction, passage) when updating
-            const question = this.questions[index];
-            if (question && question.type) {
-                if (question.type === 'instruction' && !button.classList.contains('instruction')) {
-                    button.classList.add('instruction');
-                } else if (question.type === 'passage' && !button.classList.contains('passage')) {
-                    button.classList.add('passage');
-                }
-            }
-            
             button.classList.remove('answered', 'current');
-            
+
             if (this.answers[this.questions[index].id]) {
                 button.classList.add('answered');
             }
-            
+
             if (index === this.currentQuestionIndex) {
                 button.classList.add('current');
             }
@@ -886,14 +598,14 @@ class CBTExamApp {
 
         // Calculate score
         const score = this.calculateScore();
-        
+
         // Show results screen
         this.showResults(score);
-        
+
         // Save exam result to database
         this.saveExamResult(score);
     }
-    
+
     saveExamResult(score) {
         if (examDB && examDB.db) {
             examDB.saveExamResult(
@@ -910,26 +622,26 @@ class CBTExamApp {
 
     calculateScore() {
         let correct = 0;
-        
+
         this.questions.forEach(question => {
             if (this.answers[question.id] === question.correctAnswer) {
                 correct++;
             }
         });
-        
+
         return correct;
     }
 
     showResults(score) {
         this.showScreen('results-screen');
-        
+
         const totalQuestions = this.questions.length;
         const percentage = Math.round((score / totalQuestions) * 100);
-        
+
         document.getElementById('score-display').textContent = score;
         document.getElementById('total-questions').textContent = totalQuestions;
         document.getElementById('percentage').textContent = percentage;
-        
+
         // Add event listener for review button if it exists
         const reviewBtn = document.getElementById('review-btn');
         if (reviewBtn) {
@@ -938,23 +650,23 @@ class CBTExamApp {
             });
         }
     }
-    
+
     showReview() {
         this.currentQuestionIndex = 0;
         this.showScreen('review-screen');
         this.renderReviewQuestion();
         this.updateReviewNavigation();
     }
-    
+
     renderReviewQuestion() {
         const question = this.questions[this.currentQuestionIndex];
         const reviewContainer = document.getElementById('review-container');
-        
+
         if (!reviewContainer) return;
-        
+
         const userAnswer = this.answers[question.id];
         const isCorrect = userAnswer === question.correctAnswer;
-        
+
         let userAnswerText = 'No answer selected';
         if (userAnswer) {
             const option = question.options.find(opt => opt.id === userAnswer);
@@ -962,14 +674,14 @@ class CBTExamApp {
                 userAnswerText = `${userAnswer}. ${option.text}`;
             }
         }
-        
+
         const correctOption = question.options.find(opt => opt.id === question.correctAnswer);
         const correctAnswerText = correctOption ? `${question.correctAnswer}. ${correctOption.text}` : 'Unknown';
-        
+
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
-        
+
         // Add diagram to the question if available
         if (question.diagram && this.questionNeedsDiagram(question.question)) {
             // Check if the question text already contains an SVG diagram
@@ -987,18 +699,18 @@ class CBTExamApp {
                 }
             }
         }
-        
+
         // Clean up explanation too
         let cleanExplanation = question.explanation || 'No explanation available.';
         cleanExplanation = cleanExplanation.replace(/BODMAS/gi, '');
-        
+
         // Process explanation to extract only one image (prioritizing non-SVG over SVG)
         let processedExplanation = this.processExplanationForDiagrams(cleanExplanation);
-        
+
         // Fix MathJax delimiters in question text, options, and explanation for review section
-        const fixedCleanQuestion = cleanQuestion.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
-        const fixedProcessedExplanation = processedExplanation.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
-        
+        const fixedCleanQuestion = cleanQuestion.replace(/\\\\\\\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
+        const fixedProcessedExplanation = processedExplanation.replace(/\\\\\\\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
+
         reviewContainer.innerHTML = `
             <div class="review-header">
                 <h3>Question ${this.currentQuestionIndex + 1} of ${this.questions.length}</h3>
@@ -1008,20 +720,20 @@ class CBTExamApp {
             </div>
             <div class="review-question">
                 <h4>${fixedCleanQuestion}</h4>  <!-- Using cleaned and fixed question to render HTML -->
-                
+
                 <div class="options-review">
                     ${question.options.map(option => {
                         const isUserSelection = userAnswer === option.id;
                         const isCorrectOption = question.correctAnswer === option.id;
-                        
+
                         // Fix MathJax delimiters in option text
-                        const fixedOptionText = option.text.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\\\]/g, '\\]');
-                        
+                        const fixedOptionText = option.text.replace(/\\\\\\\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
+
                         let optionClass = 'option-review';
                         if (isCorrectOption) optionClass += ' correct-answer';
                         if (isUserSelection && !isCorrectOption) optionClass += ' user-wrong-answer';
                         if (isUserSelection && isCorrectOption) optionClass += ' user-correct-answer';
-                        
+
                         return `
                             <div class="${optionClass}">
                                 <strong>${option.id}.</strong> ${fixedOptionText}
@@ -1031,7 +743,7 @@ class CBTExamApp {
                         `;
                     }).join('')}
                 </div>
-                
+
                 <div class="explanation">
                     <h5>Explanation:</h5>
                     <p>${fixedProcessedExplanation}</p>
@@ -1050,12 +762,12 @@ class CBTExamApp {
             });
         }
     }
-    
+
     updateReviewNavigation() {
         const prevBtn = document.getElementById('review-prev-btn');
         const nextBtn = document.getElementById('review-next-btn');
         const questionCounter = document.getElementById('review-question-counter');
-        
+
         if (prevBtn) {
             prevBtn.disabled = this.currentQuestionIndex === 0;
             prevBtn.onclick = () => {
@@ -1066,7 +778,7 @@ class CBTExamApp {
                 }
             };
         }
-        
+
         if (nextBtn) {
             nextBtn.disabled = this.currentQuestionIndex === this.questions.length - 1;
             nextBtn.onclick = () => {
@@ -1077,36 +789,36 @@ class CBTExamApp {
                 }
             };
         }
-        
+
         if (questionCounter) {
             questionCounter.textContent = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
         }
     }
-    
+
     finishReview() {
         // Reset exam state
         this.currentQuestionIndex = 0;
         this.answers = {};
         this.examTime = 3600; // Reset to 60 minutes
         this.questions = []; // Clear questions to force reload
-        this.selectedSubject = ''; // Clear selected subject
-        
+        this.selectedSubject = 'Mathematics'; // Reset to Mathematics
+
         // Clear timer if it exists
         if (this.timerInterval) {
             clearInterval(this.timerInterval);
         }
-        
+
         // Update timer display
         this.updateTimerDisplay();
-        
+
         // Remove warning class from timer
         const timerElement = document.getElementById('timer');
         if (timerElement) {
             timerElement.classList.remove('warning');
         }
-        
-        // Show subject selection screen again
-        this.showScreen('subject-selection-screen');
+
+        // Show year selection screen again
+        this.showScreen('year-selection-screen');
     }
 
     restartExam() {
@@ -1114,30 +826,30 @@ class CBTExamApp {
         this.currentQuestionIndex = 0;
         this.answers = {};
         this.examTime = 3600; // Reset to 60 minutes
-        
+
         // Clear timer if it exists
         if (this.timerInterval) {
             clearInterval(this.timerInterval);
         }
-        
+
         // Update timer display
         this.updateTimerDisplay();
-        
+
         // Remove warning class from timer
         document.getElementById('timer').classList.remove('warning');
-        
-        // Show subject selection screen again
-        this.showScreen('subject-selection-screen');
+
+        // Show year selection screen again
+        this.showScreen('year-selection-screen');
     }
 }
 
 // Initialize the application when the DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
     try {
-        const app = new CBTExamApp();
-        window.cbtApp = app; // Make it accessible globally for debugging
+        const app = new MathematicsCBTExamApp();
+        window.mathApp = app; // Make it accessible globally for debugging
     } catch (error) {
-        console.error('Error initializing CBT Exam App:', error);
+        console.error('Error initializing Mathematics CBT Exam App:', error);
         alert('There was an error initializing the exam application. Please refresh the page.');
     }
 });
@@ -1166,7 +878,7 @@ function showDiagram(content, isImageUrl = false) {
         `;
         document.body.appendChild(modal);
     }
-    
+
     // Set the diagram content
     const diagramDisplay = document.getElementById('diagram-display');
     if (isImageUrl) {
@@ -1181,7 +893,7 @@ function showDiagram(content, isImageUrl = false) {
             // If decoding fails, use the content as is
             decodedContent = content;
         }
-        
+
         // Check if the content is an SVG data URL
         if (decodedContent.startsWith('<svg')) {
             diagramDisplay.innerHTML = decodedContent;
@@ -1199,7 +911,7 @@ function showDiagram(content, isImageUrl = false) {
             diagramDisplay.innerHTML = `<img src="${decodedContent}" alt="Question Diagram" style="max-width: 100%; max-height: 70vh; display: block; margin: 0 auto; width: auto; height: auto;">`;
         }
     }
-    
+
     // Show the modal
     modal.style.display = 'block';
 }
@@ -1214,7 +926,7 @@ function closeDiagramModal() {
 
 // Handle page unload to warn user
 window.addEventListener('beforeunload', (e) => {
-    if (window.cbtApp && window.cbtApp.currentScreen === 'exam-screen') {
+    if (window.mathApp && window.mathApp.currentScreen === 'exam-screen') {
         e.preventDefault();
         e.returnValue = 'Are you sure you want to leave? Your exam progress will be lost.';
         return 'Are you sure you want to leave? Your exam progress will be lost.';
