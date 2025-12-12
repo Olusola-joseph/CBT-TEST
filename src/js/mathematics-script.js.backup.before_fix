@@ -427,11 +427,13 @@ class MathematicsCBTExamApp {
             }
         }
         
-        const fixedQuestionHtml = questionHtml;
+        const fixedQuestionHtml = questionHtml
         document.getElementById("question-text").innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById("current-q").textContent = index + 1;
         document.getElementById("total-q").textContent = this.questions.length;
         
+            });
+        }
         
         // Render options
         this.renderOptions(question);
@@ -482,14 +484,10 @@ class MathematicsCBTExamApp {
             optionsContainer.appendChild(optionElement);
         });
 
-        // MathJax removed - no typesetting needed
-    }
-
-    selectOption(questionId, optionId) {
-        // Store the answer in the answers object
-        this.answers[questionId] = optionId;
-
-        // Update UI to show selected option
+//                if (typeof typesetMath === 'function') {
+//                    typesetMath();
+//                }
+            }).catch(function (err) {
         const options = document.querySelectorAll(`.option-item[data-option-id="${optionId}"]`);
         options.forEach(option => {
             option.classList.add('selected');
@@ -687,8 +685,8 @@ class MathematicsCBTExamApp {
         // Process explanation to extract only one image (prioritizing non-SVG over SVG)
         let processedExplanation = this.processExplanationForDiagrams(cleanExplanation);
 
-        const fixedCleanQuestion = cleanQuestion;
-        const fixedProcessedExplanation = processedExplanation;
+        const fixedCleanQuestion = cleanQuestion
+        const fixedProcessedExplanation = processedExplanation
 
         reviewContainer.innerHTML = `
             <div class="review-header">
@@ -705,7 +703,7 @@ class MathematicsCBTExamApp {
                         const isUserSelection = userAnswer === option.id;
                         const isCorrectOption = question.correctAnswer === option.id;
 
-                        const fixedOptionText = option.text;
+                        const fixedOptionText = option.text
 
                         let optionClass = 'option-review';
                         if (isCorrectOption) optionClass += ' correct-answer';
@@ -728,6 +726,9 @@ class MathematicsCBTExamApp {
                 </div>
             </div>
         `;
+
+            }).catch(function (err) {
+            });
         }
     }
 
@@ -735,14 +736,6 @@ class MathematicsCBTExamApp {
         const prevBtn = document.getElementById('review-prev-btn');
         const nextBtn = document.getElementById('review-next-btn');
         const questionCounter = document.getElementById('review-question-counter');
-
-        if (prevBtn) {
-            prevBtn.disabled = this.currentQuestionIndex === 0;
-            prevBtn.onclick = () => {
-                if (this.currentQuestionIndex > 0) {
-                    this.currentQuestionIndex--;
-                    this.renderReviewQuestion();
-                    this.updateReviewNavigation();
                 }
             };
         }
