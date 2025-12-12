@@ -436,6 +436,11 @@ class MathematicsCBTExamApp {
         // Render options
         this.renderOptions(question);
         
+        // Render MathJax expressions in the question text
+        if (window.MathJax && typeof renderMathInElement === 'function') {
+            renderMathInElement(document.getElementById("question-text"));
+        }
+        
         // Update question list highlighting
         this.updateQuestionList();
         
@@ -482,7 +487,13 @@ class MathematicsCBTExamApp {
             optionsContainer.appendChild(optionElement);
         });
 
-        // MathJax removed - no typesetting needed
+        // MathJax integration - render math expressions in options
+        if (window.MathJax && typeof renderMathInElement === 'function') {
+            setTimeout(() => {
+                const optionsContainer = document.getElementById('options-container');
+                renderMathInElement(optionsContainer);
+            }, 100); // Small delay to ensure DOM is updated
+        }
     }
 
     selectOption(questionId, optionId) {
@@ -729,15 +740,11 @@ class MathematicsCBTExamApp {
             </div>
         `;
 
-        // Trigger MathJax to re-render the mathematical expressions in the review section
-        if (window.MathJax) {
-            MathJax.typesetPromise([reviewContainer]).then(function() {
-                if (typeof typesetMath === 'function') {
-                    typesetMath();
-                }
-            }).catch(function (err) {
-                console.error('MathJax error in review section:', err);
-            });
+        // Render MathJax expressions in the review section
+        if (window.MathJax && typeof renderMathInElement === 'function') {
+            setTimeout(() => {
+                renderMathInElement(reviewContainer);
+            }, 100); // Small delay to ensure DOM is updated
         }
     }
 
