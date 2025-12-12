@@ -629,7 +629,6 @@ class CBTExamApp {
                 }
             }
             
-            // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
            const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, "\\(").replace(/\\\\\\\)/g, "\\)").replace(/\\\\\\[/g, "\\[).replace(/\\\\\\]/g, "\\]");
            document.getElementById("question-text").innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         }
@@ -719,7 +718,6 @@ class CBTExamApp {
                     optionElement.classList.add('selected');
                 }
                 
-                // Fix MathJax delimiters in option text before rendering
                 const fixedOptionText = option.text.replace(/\\\(/g, '\\(').replace(/\\\)/g, '\\)').replace(/\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
                 optionElement.innerHTML = `
                     <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}" 
@@ -995,7 +993,6 @@ class CBTExamApp {
         // Process explanation to extract only one image (prioritizing non-SVG over SVG)
         let processedExplanation = this.processExplanationForDiagrams(cleanExplanation);
         
-        // Fix MathJax delimiters in question text, options, and explanation for review section
         const fixedCleanQuestion = cleanQuestion.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
         const fixedProcessedExplanation = processedExplanation.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\]/g, '\\]');
         
@@ -1014,7 +1011,6 @@ class CBTExamApp {
                         const isUserSelection = userAnswer === option.id;
                         const isCorrectOption = question.correctAnswer === option.id;
                         
-                        // Fix MathJax delimiters in option text
                         const fixedOptionText = option.text.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\)/g, '\\)').replace(/\\\\\\]/g, '\\[').replace(/\\\\\\\\]/g, '\\]');
                         
                         let optionClass = 'option-review';

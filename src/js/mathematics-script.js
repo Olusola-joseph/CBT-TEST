@@ -427,20 +427,11 @@ class MathematicsCBTExamApp {
             }
         }
         
-        // Fix MathJax delimiters from double backslashes to single backslashes for proper rendering
-        const fixedQuestionHtml = questionHtml.replace(/\\\\\\\(/g, "\\(").replace(/\\\\\\\\\)/g, "\\)").replace(/\\\\\\\[/g, "\\[").replace(/\\\\\\\]/g, "\\]");
+        const fixedQuestionHtml = questionHtml
         document.getElementById("question-text").innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
         document.getElementById("current-q").textContent = index + 1;
         document.getElementById("total-q").textContent = this.questions.length;
         
-        // Trigger MathJax to re-render the mathematical expressions
-        if (window.MathJax) {
-            MathJax.typesetPromise([document.getElementById('question-text')]).then(function() {
-                if (typeof typesetMath === 'function') {
-                    typesetMath();
-                }
-            }).catch(function (err) {
-                console.error('MathJax error:', err);
             });
         }
         
@@ -479,8 +470,7 @@ class MathematicsCBTExamApp {
                 optionElement.classList.add('selected');
             }
 
-            // Fix MathJax delimiters in option text before rendering
-            const fixedOptionText = option.text.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\\\)/g, '\\)').replace(/\\\\\\\[/g, '\\[').replace(/\\\\\\\]/g, '\\]');
+            const fixedOptionText = option.text
             optionElement.innerHTML = `
                 <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}"
                     value="${option.id}" ${isSelected ? 'checked' : ''}>
@@ -494,22 +484,10 @@ class MathematicsCBTExamApp {
             optionsContainer.appendChild(optionElement);
         });
 
-        // Trigger MathJax to re-render mathematical expressions in the options
-        if (window.MathJax) {
-            MathJax.typesetPromise([optionsContainer]).then(function() {
-                if (typeof typesetMath === 'function') {
-                    typesetMath();
-                }
+//                if (typeof typesetMath === 'function') {
+//                    typesetMath();
+//                }
             }).catch(function (err) {
-                console.error('MathJax error in options:', err);
-            });
-        }
-    }
-    selectOption(questionId, optionId) {
-        // Update answers object
-        this.answers[questionId] = optionId;
-
-        // Update UI to show selected option
         const options = document.querySelectorAll(`.option-item[data-option-id="${optionId}"]`);
         options.forEach(option => {
             option.classList.add('selected');
@@ -707,9 +685,8 @@ class MathematicsCBTExamApp {
         // Process explanation to extract only one image (prioritizing non-SVG over SVG)
         let processedExplanation = this.processExplanationForDiagrams(cleanExplanation);
 
-        // Fix MathJax delimiters in question text, options, and explanation for review section
-        const fixedCleanQuestion = cleanQuestion.replace(/\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
-        const fixedProcessedExplanation = processedExplanation.replace(/\\\\\\\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\\]/g, '\\]');
+        const fixedCleanQuestion = cleanQuestion
+        const fixedProcessedExplanation = processedExplanation
 
         reviewContainer.innerHTML = `
             <div class="review-header">
@@ -726,8 +703,7 @@ class MathematicsCBTExamApp {
                         const isUserSelection = userAnswer === option.id;
                         const isCorrectOption = question.correctAnswer === option.id;
 
-                        // Fix MathJax delimiters in option text
-                        const fixedOptionText = option.text.replace(/\\\\\\\\\\\\(/g, '\\(').replace(/\\\\\\\\\\\\\\\)/g, '\\)').replace(/\\\\\\\\\\\\[/g, '\\[').replace(/\\\\\\\\\\\\]/g, '\\]');
+                        const fixedOptionText = option.text
 
                         let optionClass = 'option-review';
                         if (isCorrectOption) optionClass += ' correct-answer';
@@ -751,14 +727,7 @@ class MathematicsCBTExamApp {
             </div>
         `;
 
-        // Trigger MathJax to re-render the mathematical expressions in the review section
-        if (window.MathJax) {
-            MathJax.typesetPromise([reviewContainer]).then(function() {
-                if (typeof typesetMath === 'function') {
-                    typesetMath();
-                }
             }).catch(function (err) {
-                console.error('MathJax error in review section:', err);
             });
         }
     }
@@ -767,14 +736,6 @@ class MathematicsCBTExamApp {
         const prevBtn = document.getElementById('review-prev-btn');
         const nextBtn = document.getElementById('review-next-btn');
         const questionCounter = document.getElementById('review-question-counter');
-
-        if (prevBtn) {
-            prevBtn.disabled = this.currentQuestionIndex === 0;
-            prevBtn.onclick = () => {
-                if (this.currentQuestionIndex > 0) {
-                    this.currentQuestionIndex--;
-                    this.renderReviewQuestion();
-                    this.updateReviewNavigation();
                 }
             };
         }
