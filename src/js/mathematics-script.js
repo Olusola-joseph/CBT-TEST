@@ -728,6 +728,16 @@ class MathematicsCBTExamApp {
                 </div>
             </div>
         `;
+
+        // Trigger MathJax to re-render the mathematical expressions in the review section
+        if (window.MathJax) {
+            MathJax.typesetPromise([reviewContainer]).then(function() {
+                if (typeof typesetMath === 'function') {
+                    typesetMath();
+                }
+            }).catch(function (err) {
+                console.error('MathJax error in review section:', err);
+            });
         }
     }
 
