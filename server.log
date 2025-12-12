@@ -1,0 +1,17 @@
+
+> cbt-test-platform@1.0.0 dev
+> npx serve -l 3000 .
+
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  12/12/2025 1:44:01 PM 127.0.0.1 GET /index.html
+ HTTP  12/12/2025 1:44:01 PM 127.0.0.1 Returned 301 in 1104 ms
+ HTTP  12/12/2025 1:44:04 PM 127.0.0.1 GET /
+ HTTP  12/12/2025 1:44:04 PM 127.0.0.1 Returned 200 in 45 ms
+ HTTP  12/12/2025 1:44:07 PM 127.0.0.1 GET /mathematics.html
+ HTTP  12/12/2025 1:44:07 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  12/12/2025 1:44:09 PM 127.0.0.1 GET /mathematics.html
+ HTTP  12/12/2025 1:44:09 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  12/12/2025 1:44:12 PM 127.0.0.1 GET /mathematics.html
+ HTTP  12/12/2025 1:44:12 PM 127.0.0.1 Returned 301 in 3 ms
+ HTTP  12/12/2025 1:44:13 PM 127.0.0.1 HEAD /mathematics.html
+ HTTP  12/12/2025 1:44:13 PM 127.0.0.1 Returned 301 in 1 ms
