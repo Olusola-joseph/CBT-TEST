@@ -1,15 +1,11 @@
 window.MathJax = {
   loader: {
     load: [
-      '[tex]/ams',
-      '[tex]/newcommand',
-      '[tex]/action',
-      '[tex]/boldsymbol',
-      '[tex]/configmacros'
+      '[tex]/ams'
     ]
   },
   tex: {
-    packages: {'[+]': ['ams', 'newcommand', 'action', 'boldsymbol', 'configmacros']},
+    packages: {'[+]': ['ams']},
     inlineMath: [['\\(', '\\)']],
     displayMath: [['\\[', '\\]']],
     processEscapes: true,
