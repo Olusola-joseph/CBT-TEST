@@ -11,12 +11,6 @@ function initializeMathJax() {
         return;
     }
 
-    // Create script element for MathJax
-    const mathJaxScript = document.createElement('script');
-    mathJaxScript.src = 'https://polyfill.io/v3/polyfill.min.js?features=es6';
-    mathJaxScript.async = true;
-    document.head.appendChild(mathJaxScript);
-
     // Load MathJax configuration
     const configScript = document.createElement('script');
     configScript.id = 'MathJax-script';
@@ -29,6 +23,7 @@ function initializeMathJax() {
                 processEscapes: true,
                 processEnvironments: true
             },
+            loader: {load: ['[tex]/noerrors']},
             options: {
                 skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
                 ignoreHtmlClass: 'tex2jax_ignore',
@@ -38,7 +33,7 @@ function initializeMathJax() {
     `;
     document.head.appendChild(configScript);
 
-    // Load main MathJax library
+    // Load main MathJax library (includes necessary polyfills)
     const mainScript = document.createElement('script');
     mainScript.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
     mainScript.async = true;
@@ -47,21 +42,58 @@ function initializeMathJax() {
 
 // Function to render math expressions on a specific element
 function renderMathInElement(element) {
-    if (typeof MathJax !== 'undefined' && element) {
-        MathJax.typesetPromise([element]).then(() => {
-            console.log('MathJax rendered successfully');
-        }).catch((error) => {
-            console.error('MathJax rendering error:', error);
+    // Wait for MathJax to be ready before rendering
+    if (typeof MathJax !== 'undefined' && MathJax.startup && MathJax.startup.promise) {
+        MathJax.startup.promise.then(() => {
+            if (element) {
+                MathJax.typesetPromise([element]).then(() => {
+                    console.log('MathJax rendered successfully');
+                }).catch((error) => {
+                    console.error('MathJax rendering error:', error);
+                });
+            } else {
+                // If no element specified, render all elements with math content
+                MathJax.typeset();
+            }
         });
-    } else if (!element) {
-        // If no element specified, render all elements with math content
-        MathJax.typeset();
+    } else if (typeof MathJax !== 'undefined') {
+        // If MathJax is loaded but startup promise doesn't exist, try immediate render
+        if (element) {
+            MathJax.typesetPromise([element]).then(() => {
+                console.log('MathJax rendered successfully');
+            }).catch((error) => {
+                console.error('MathJax rendering error:', error);
+            });
+        } else {
+            MathJax.typeset();
+        }
+    } else {
+        // MathJax hasn't loaded yet, wait a bit and try again
+        setTimeout(() => {
+            renderMathInElement(element);
+        }, 200);
     }
 }
 
 // Function to render math expressions on all elements with specific class
 function renderAllMathExpressions() {
-    if (typeof MathJax !== 'undefined') {
+    // Wait for MathJax to be ready before rendering
+    if (typeof MathJax !== 'undefined' && MathJax.startup && MathJax.startup.promise) {
+        MathJax.startup.promise.then(() => {
+            // Render all elements that might contain math
+            const mathElements = document.querySelectorAll('.question-text, .option-text, .solution-text, .math-expression, .math-content');
+            mathElements.forEach(element => {
+                renderMathInElement(element);
+            });
+            
+            // Also render any elements with data attributes indicating math content
+            const mathDataElements = document.querySelectorAll('[data-math="true"]');
+            mathDataElements.forEach(element => {
+                renderMathInElement(element);
+            });
+        });
+    } else if (typeof MathJax !== 'undefined') {
+        // If MathJax is loaded but startup promise doesn't exist, try immediate render
         // Render all elements that might contain math
         const mathElements = document.querySelectorAll('.question-text, .option-text, .solution-text, .math-expression, .math-content');
         mathElements.forEach(element => {
@@ -73,6 +105,11 @@ function renderAllMathExpressions() {
         mathDataElements.forEach(element => {
             renderMathInElement(element);
         });
+    } else {
+        // MathJax hasn't loaded yet, wait a bit and try again
+        setTimeout(() => {
+            renderAllMathExpressions();
+        }, 200);
     }
 }
 
@@ -111,10 +148,10 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize MathJax
     initializeMathJax();
     
-    // Small delay to ensure MathJax is loaded before rendering
+    // Wait a bit longer to ensure MathJax is fully loaded before rendering
     setTimeout(() => {
         renderAllMathExpressions();
-    }, 500);
+    }, 1000);
 });
 
 // Export functions for use in other modules (if using modules)
