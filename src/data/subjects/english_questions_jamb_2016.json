@@ -7,52 +7,56 @@
     {
       "id": "Passage II",
       "text": "When man evolved a conscience, his basic relationship with the other animals began to change. Until then, they were broadly divided into those which ate him when they got the chance, those which he ate when he got the chance, and a third group which competed with him for food, or was otherwise a nuisance to him in the business of keeping alive.\n\nIn the primitive situation, man was, therefore, basically against nature but, as the battle was progressively won, conscience crept in; the awareness of responsibility, and a failure to meet it, produced feelings of guilt.\n\nThose who live in cities and need no longer do battle against nature are nowadays most actively for nature. At this time, something like a thousand kinds of animals (vertebrate animals) can be said to be in danger of extinction. A few of them have been reduced to this precarious position by extensive killing but the majority are disappearing only as fast as the particular kind of country they need for existence is itself disappearing and all the hands of man, as often as not by mistake.\n\nThere are three species of turtles whose future survival is menaced by the demand for turtle soup, which would hardly justify the extermination of a giant reptile whose family has existed for 200 million years.\n\nLeopards are in jeopardy because of the fashion for their skins. As they get rarer, the prices rise and, as leopard skin become more expensive, the demand increases. No species can long survive the price of N60,000 which a half-grown baby leopard now carries on its skin.\n\nAnd crocodiles, the longest surviving reptiles, are now dwindling alarmingly as a result of the fashion in crocodile skin for ladies' handbags and men's shoes. The human population explosion spreads mankind across the land surfaces of the earth at an alarming rate. There will be twice as many of us before most of us are dead. Does this mean no room for wild animals? Of course not.\n\nAdapted from Peter Scott's article in Sunday Times."
+    },
+    {
+      "id": "Passage III",
+      "text": "A prepared speech is not easy to deliver, especially if it is not written by the presenter .... 11 .... (a) quantum (b) document (c) free (d) manuscript ..... delivery is one in which the speech has been written out word for word and is read to - 12 - (a) an audience (b) a congregation (c) a gathering (d) a conference."
     }
   ],
   "instructions": [
     {
       "id": "Instruction 1",
-      "text": "In each of questions 1 to 5, answer the questions based on Passage I."
+      "text": "In each of questions 1 to 20, answer the questions based on the passages."
     },
     {
       "id": "Instruction 2",
-      "text": "In each of questions 6 to 10, answer the questions based on Passage II."
+      "text": "In each of questions 21 to 36, answer the questions based on A.H. Mohammed’s \"The Last Day at Forcados High School\"."
     },
     {
       "id": "Instruction 3",
-      "text": "In each of questions 11 to 20, answer the questions based on the passage below."
+      "text": "In each of questions 37 to 45, select the option that best explains the information conveyed in the sentence."
     },
     {
       "id": "Instruction 4",
-      "text": "In each of questions 21 to 35, answer the questions based on A.H. Mohammed’s \"The First Days at Forcados High School\"."
+      "text": "In each of questions 46 to 50, choose the option opposite in meaning to the word or phrase in italics."
     },
     {
       "id": "Instruction 5",
-      "text": "In each of questions 36 to 45, select the option that best explains the information conveyed in the sentence."
+      "text": "In each of questions 51 to 56, choose the option opposite in meaning to the word or phrase in italics."
     },
     {
       "id": "Instruction 6",
-      "text": "In each of questions 46 to 55, choose the option opposite in meaning to the word or phrase in italics."
+      "text": "In each of questions 57 to 64, choose the option nearest in meaning to the word or phrase in italics."
     },
     {
       "id": "Instruction 7",
-      "text": "In each of questions 56 to 65, choose the option nearest in meaning to the word or phrase in italics."
+      "text": "In each of questions 65 to 85, choose the option that best completes the gap(s)."
     },
     {
       "id": "Instruction 8",
-      "text": "In each of questions 66 to 85, choose the option that best completes the gap(s)."
-    },
-    {
-      "id": "Instruction 9",
       "text": "In each of questions 86 to 89, choose the option that has the same vowel sound as the one represented by the letter(s) underlined."
     },
     {
+      "id": "Instruction 9",
+      "text": "In each of questions 90 to 91, choose the option that has the same consonant sound as the one represented by the letter(s) underlined."
+    },
+    {
       "id": "Instruction 10",
-      "text": "In each of questions 90 to 94, choose the option that rhymes with the given word."
+      "text": "In each of questions 92 to 93, choose the option that rhymes with the given word."
     },
     {
       "id": "Instruction 11",
-      "text": "In each of questions 95 to 97, choose the most appropriate stress pattern from the options. The stressed syllables are written in capital letters."
+      "text": "In each of questions 94 to 97, choose the most appropriate stress pattern from the options. The stressed syllables are written in capital letters."
     },
     {
       "id": "Instruction 12",
@@ -71,7 +75,7 @@
         { "id": "D", "text": "more people now abstain from drinking and smoking" }
       ],
       "correctAnswer": "B",
-      "explanation": "The last paragraph states: 'there seems to be a growing number of alcohol consumers and cigarette smokers'. This matches option B."
+      "explanation": "The passage states, 'there seems to be a growing number of alcohol consumers and cigarette smokers,' which directly supports option B. The text describes a trend of increasing consumption, not a decline (D), nor does it mention sales figures (C) or a specific increase in alcoholics (A)."
     },
     {
       "id": 2,
@@ -84,7 +88,7 @@
         { "id": "D", "text": "certainly unrelated" }
       ],
       "correctAnswer": "A",
-      "explanation": "The passage discusses how moral principles affect economic activity (e.g., breweries, cigarette factories), showing they are connected — but not completely merged. 'Somewhat interconnected' is the best fit."
+      "explanation": "The passage shows a connection: moral/religious rules against alcohol/smoking can 'cripple' breweries and factories, indicating an economic impact. However, the text also notes the 'fear of the moralist has not been justified' and that economists focus on satisfaction and demand, suggesting the link is present but not absolute or 'clearly' defined. Thus, 'somewhat interconnected' is the most accurate conclusion."
     },
     {
       "id": 3,
@@ -97,7 +101,7 @@
         { "id": "D", "text": "smoking is not good but a little alcohol may be permitted" }
       ],
       "correctAnswer": "A",
-      "explanation": "The passage opens: 'The African moralist has always regarded smoking as an indication of moral degradation.' This supports A."
+      "explanation": "The passage opens by stating, 'The African moralist has always regarded smoking as an indication of moral degradation.' This directly equates smoking with moral failing, making it 'bad and unacceptable.' The other options misrepresent the text: the passage doesn't claim non-smoking is 'typically African' (B), doesn't discuss acceptance criteria (C), and explicitly links alcohol to 'wretchedness' (D), not permissibility."
     },
     {
       "id": 4,
@@ -110,7 +114,7 @@
         { "id": "D", "text": "people who drink or smoke surely die of cancer" }
       ],
       "correctAnswer": "B",
-      "explanation": "The passage says the economist is interested in smoking/alcohol because they 'generate supply of and demand for tobacco and alcohol' — implying economic benefit. B is correct."
+      "explanation": "The passage explicitly states, 'the economist is primarily interested...in so far as they give satisfaction...and so generate supply of and demand for tobacco and alcohol.' This implies that these activities drive economic activity, which is a positive effect. Option A is too absolute ('total abstinence'), C is contradicted by the text ('a number of people have accepted the moralist idea'), and D is a medical claim not made in the passage."
     },
     {
       "id": 5,
@@ -123,20 +127,20 @@
         { "id": "D", "text": "at variance" }
       ],
       "correctAnswer": "D",
-      "explanation": "The moralist sees smoking/alcohol as immoral; the economist sees them as economically beneficial — their views conflict. 'At variance' means in disagreement."
+      "explanation": "The moralist sees smoking/alcohol as 'moral degradation' and 'wretchedness,' while the economist sees them as sources of 'satisfaction' that 'generate supply and demand.' Their perspectives are fundamentally opposed—one is ethical, the other is utilitarian/economic. Therefore, their positions are 'at variance' (in disagreement)."
     },
     {
       "id": 6,
       "passageId": "Passage II",
-      "question": "The sentence There will be twice as many of us before most of us are dead means",
+      "question": "The sentence 'There will be twice as many of us before most of us are dead' means",
       "options": [
         { "id": "A", "text": "some increase in human and animal population growth rates" },
         { "id": "B", "text": "mankind is fast spreading across the earth" },
         { "id": "C", "text": "the population growth rate will double before our death" },
         { "id": "D", "text": "many of us will die as a result of population explosion" }
       ],
-      "correctAnswer": "D",
-      "explanation": "The phrase implies overpopulation will cause mass death — 'twice as many of us' will exist before 'most of us are dead'. D captures this meaning."
+      "correctAnswer": "C",
+      "explanation": "The phrase is a direct statement about human population numbers doubling within the lifespan of the current generation. It is a projection of growth, not a comment on spread (B), animal populations (A), or a prediction of mass death (D). The literal meaning is that the population will double before the current generation dies, making C the correct interpretation."
     },
     {
       "id": 7,
@@ -149,7 +153,7 @@
         { "id": "D", "text": "man poses the greatest threat to nature" }
       ],
       "correctAnswer": "D",
-      "explanation": "The passage says man's actions (killing, habitat destruction) are causing extinction — 'man poses the greatest threat to nature' is supported."
+      "explanation": "The passage argues that while man once battled nature, he now 'is most actively for nature,' yet the primary cause of animal extinction is 'the particular kind of country they need for existence is itself disappearing and all the hands of man.' This places the blame for environmental damage squarely on human activity, making D the true statement. The other options are either unsupported (A, B) or contradict the text (C, which suggests a natural predator-prey dynamic, whereas the passage focuses on human-caused habitat loss)."
     },
     {
       "id": 8,
@@ -162,12 +166,12 @@
         { "id": "D", "text": "extensive killing of animals and the fast disappearances of their favourable habitats" }
       ],
       "correctAnswer": "D",
-      "explanation": "The passage states: 'A few of them have been reduced... by extensive killing but the majority are disappearing... as fast as the particular kind of country they need... is itself disappearing'. D matches."
+      "explanation": "The passage states that animals are disappearing due to 'extensive killing' and because 'the particular kind of country they need for existence is itself disappearing.' This directly matches option D. While A, B, and C are mentioned as contributing factors (e.g., killing for skins, living in cities leading to habitat loss), D provides the most comprehensive and direct summary of the two main causes cited in the text."
     },
     {
       "id": 9,
       "passageId": "Passage II",
-      "question": "The expression when man evolved a conscience means when",
+      "question": "The expression 'when man evolved a conscience' means when",
       "options": [
         { "id": "A", "text": "man's intellect improved tremendously" },
         { "id": "B", "text": "man became a critical creature" },
@@ -175,7 +179,7 @@
         { "id": "D", "text": "man acquired new habits" }
       ],
       "correctAnswer": "C",
-      "explanation": "'Conscience' refers to moral awareness — 'awareness of right and wrong'. C is correct."
+      "explanation": "The passage immediately follows this phrase with 'the awareness of responsibility, and a failure to meet it, produced feelings of guilt.' Guilt and responsibility are hallmarks of a moral conscience, which is an awareness of right and wrong. The text does not link conscience to intellect (A), critical thinking (B), or mere habit acquisition (D)."
     },
     {
       "id": 10,
@@ -188,12 +192,12 @@
         { "id": "D", "text": "pessimistic" }
       ],
       "correctAnswer": "D",
-      "explanation": "The passage highlights extinction, overpopulation, and human destruction — painting a grim picture. 'Pessimistic' fits."
+      "explanation": "The passage details the dire state of wildlife, mentioning 'danger of extinction,' 'dwindling alarmingly,' and 'human population explosion' causing habitat loss. The tone is one of warning and concern, highlighting negative trends without offering much hope for reversal. This aligns with a 'pessimistic' attitude. The writer is clearly not indifferent (A), partial (B), or optimistic (C)."
     },
     {
       "id": 11,
-      "instructionId": "Instruction 3",
-      "question": "A prepared speech is not easy to deliver, especially if it is not written by the presenter .... 11 (a) quantum (b) document (c) free (d) manuscript .... delivery is one in which the speech has been written out word for word and read to - 12 (a) an audience (b) a gathering (c) a conference.",
+      "passageId": "Passage III",
+      "question": "A prepared speech is not easy to deliver, especially if it is not written by the presenter .... 11 ....",
       "options": [
         { "id": "A", "text": "quantum" },
         { "id": "B", "text": "document" },
@@ -201,25 +205,25 @@
         { "id": "D", "text": "manuscript" }
       ],
       "correctAnswer": "D",
-      "explanation": "A 'manuscript' is a written document — correct term for a pre-written speech. D is correct."
+      "explanation": "The context is about delivering a speech that has been 'written out word for word.' A 'manuscript' is a written document, specifically one that is ready for publication or performance. It fits perfectly. 'Quantum' is irrelevant, 'document' is too general, and 'free' makes no sense in this context."
     },
     {
       "id": 12,
-      "instructionId": "Instruction 3",
-      "question": "delivery is one in which the speech has been written out word for word and read to - 12 (a) an audience (b) a gathering (c) a conference.",
+      "passageId": "Passage III",
+      "question": "delivery is one in which the speech has been written out word for word and is read to - 12 -",
       "options": [
         { "id": "A", "text": "an audience" },
-        { "id": "B", "text": "a gathering" },
-        { "id": "C", "text": "a conference" },
-        { "id": "D", "text": "a congregation" }
+        { "id": "B", "text": "a congregation" },
+        { "id": "C", "text": "a gathering" },
+        { "id": "D", "text": "a conference." }
       ],
       "correctAnswer": "A",
-      "explanation": "Speeches are delivered to an 'audience'. A is correct."
+      "explanation": "The most general and appropriate term for a group of people listening to a speech is 'an audience.' While a 'congregation' (B) or 'gathering' (C) might apply in specific contexts, 'audience' is the standard term used in public speaking. 'Conference' (D) refers to the event, not the listeners."
     },
     {
       "id": 13,
-      "instructionId": "Instruction 3",
-      "question": "The primary advantage is that speech may be highly --- 13 (a) genuine (b) impromptu (c) guaranteed (d) formal occasions when exact wording is - --- 14 (a) reportive (b) conclusive (c) critical --- such as the State of the Union Address or speeches before the United Nations General --- 15 (a) assembly (b) organisation (c) negotiation.",
+      "instructionId": "Instruction 1",
+      "question": "This kind of delivery is usually reserved for every --- 13 --- (a) genuine (b) impromptu (c) guaranteed (d) formal --- occasions when exact wording is - --- 14 --- (a) reportive (b) conclusive (c) critical --- such as the State of the Union Address or speeches before the United Nations General --- 15 --- (a) assembly (b) organisation (c) negotiation.",
       "options": [
         { "id": "A", "text": "genuine" },
         { "id": "B", "text": "impromptu" },
@@ -227,38 +231,38 @@
         { "id": "D", "text": "formal" }
       ],
       "correctAnswer": "D",
-      "explanation": "State of the Union Address and UN speeches are highly formal — 'formal' is correct."
+      "explanation": "The text mentions 'State of the Union Address' and 'speeches before the United Nations General Assembly,' which are highly formal events. The delivery style described—reading a pre-written speech—is characteristic of formal occasions where precision is key. 'Impromptu' (B) is the opposite. 'Genuine' (A) and 'guaranteed' (C) are not relevant descriptors for the type of occasion."
     },
     {
       "id": 14,
-      "instructionId": "Instruction 3",
-      "question": "when exact wording is - --- 14 (a) reportive (b) conclusive (c) critical --- such as the State of the Union Address or speeches before the United Nations General --- 15 (a) assembly (b) organisation (c) negotiation.",
+      "instructionId": "Instruction 1",
+      "question": "This kind of delivery is usually reserved for every --- 13 --- (a) genuine (b) impromptu (c) guaranteed (d) formal --- occasions when exact wording is - --- 14 --- (a) reportive (b) conclusive (c) critical --- such as the State of the Union Address or speeches before the United Nations General --- 15 --- (a) assembly (b) organisation (c) negotiation.",
       "options": [
         { "id": "A", "text": "reportive" },
         { "id": "B", "text": "conclusive" },
         { "id": "C", "text": "critical" },
-        { "id": "D", "text": "decisive" }
+        { "id": "D", "text": "none of the above" }
       ],
       "correctAnswer": "C",
-      "explanation": "Exact wording is 'critical' — essential. C is correct."
+      "explanation": "The sentence states that this delivery method is used when 'exact wording is...' crucial. The word 'critical' means essential or vital, which fits the context of needing precise language for high-stakes speeches. 'Reportive' is not a standard English word in this context, and 'conclusive' means final or decisive, which doesn't fit as well as 'critical'."
     },
     {
       "id": 15,
-      "instructionId": "Instruction 3",
-      "question": "such as the State of the Union Address or speeches before the United Nations General --- 15 (a) assembly (b) organisation (c) negotiation.",
+      "instructionId": "Instruction 1",
+      "question": "This kind of delivery is usually reserved for every --- 13 --- (a) genuine (b) impromptu (c) guaranteed (d) formal --- occasions when exact wording is - --- 14 --- (a) reportive (b) conclusive (c) critical --- such as the State of the Union Address or speeches before the United Nations General --- 15 --- (a) assembly (b) organisation (c) negotiation.",
       "options": [
         { "id": "A", "text": "assembly" },
         { "id": "B", "text": "organisation" },
         { "id": "C", "text": "negotiation" },
-        { "id": "D", "text": "conference" }
+        { "id": "D", "text": "none of the above" }
       ],
       "correctAnswer": "A",
-      "explanation": "United Nations General Assembly — A is correct."
+      "explanation": "The full name is 'United Nations General Assembly.' This is a fixed proper noun. The other options are incorrect; 'organisation' is too vague, and 'negotiation' is an activity, not a body. The text explicitly names the 'General Assembly,' making A the only correct choice."
     },
     {
       "id": 16,
-      "instructionId": "Instruction 3",
-      "question": "The primary advantage is that speech may be highly --- 16 (a) advanced (b) analogue (c) discreet (d) polished in terms of word choice, turns of phrase and development of ideas. The main advantage is that this type of delivery is difficult to do well.",
+      "instructionId": "Instruction 1",
+      "question": "The primary advantage is that speech may be highly --- 16 --- (a) advanced (b) analogue (c) discreet (d) polished in terms of word choice, turns of phrase and development of ideas. The main advantage is that this type of delivery is difficult to do well.",
       "options": [
         { "id": "A", "text": "advanced" },
         { "id": "B", "text": "analogue" },
@@ -266,12 +270,12 @@
         { "id": "D", "text": "polished" }
       ],
       "correctAnswer": "D",
-      "explanation": "A prepared speech is carefully crafted — 'polished' means refined and perfected. D is correct."
+      "explanation": "The passage describes the advantage as being able to refine 'word choice, turns of phrase and development of ideas.' This process results in a 'polished' speech—smooth, refined, and perfected. 'Advanced' (A) is too vague, 'analogue' (B) is irrelevant, and 'discreet' (C) means careful or unobtrusive, which doesn't fit the context of a public speech."
     },
     {
       "id": 17,
-      "instructionId": "Instruction 3",
-      "question": "Reading aloud with meaningful --- 17 (a) vocal (b) bifocal (c) anticipatory (d) profuse inflection speaker to be very familiar with the text. If not the words will come out in a choppy, expressionless way. Such poor delivery could --- 18 (a) decisive (b) positive (c) interactive (d) restrictive --- effects created by the carefully chosen --- 19 (a) dialect (c) slang (d) language --- lack of familiarity with the --- 20 (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
+      "instructionId": "Instruction 1",
+      "question": "Reading aloud with meaningful --- 17 --- (a) vocal (b) bifocal (c) anticipatory (d) profuse inflection speaker to be very familiar with the text. If not the words will come out in a choppy, expressionless way. Such poor delivery could --- 18 --- (a) decisive (b) positive (c) interactive (d) restrictive --- effects created by the carefully chosen --- 19 --- (a) dialect (c) slang (d) language --- lack of familiarity with the --- 20 --- (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
       "options": [
         { "id": "A", "text": "vocal" },
         { "id": "B", "text": "bifocal" },
@@ -279,12 +283,12 @@
         { "id": "D", "text": "profuse" }
       ],
       "correctAnswer": "A",
-      "explanation": "'Vocal inflection' = variation in tone/voice — essential for expressive reading. A is correct."
+      "explanation": "The context is about reading aloud with 'meaningful... inflection.' 'Vocal inflection' is a standard phrase referring to the variation in pitch and tone of the voice, which is essential for expressive speech. 'Bifocal' (B) relates to vision, 'anticipatory' (C) means expecting something, and 'profuse' (D) means abundant, none of which fit the context of voice modulation."
     },
     {
       "id": 18,
-      "instructionId": "Instruction 3",
-      "question": "Such poor delivery could --- 18 (a) decisive (b) positive (c) interactive (d) restrictive --- effects created by the carefully chosen --- 19 (a) dialect (c) slang (d) language --- lack of familiarity with the --- 20 (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
+      "instructionId": "Instruction 1",
+      "question": "Reading aloud with meaningful --- 17 --- (a) vocal (b) bifocal (c) anticipatory (d) profuse inflection speaker to be very familiar with the text. If not the words will come out in a choppy, expressionless way. Such poor delivery could --- 18 --- (a) decisive (b) positive (c) interactive (d) restrictive --- effects created by the carefully chosen --- 19 --- (a) dialect (c) slang (d) language --- lack of familiarity with the --- 20 --- (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
       "options": [
         { "id": "A", "text": "decisive" },
         { "id": "B", "text": "positive" },
@@ -292,25 +296,25 @@
         { "id": "D", "text": "restrictive" }
       ],
       "correctAnswer": "D",
-      "explanation": "Poor delivery restricts the impact — 'restrictive' fits. D is correct."
+      "explanation": "Poor delivery, described as 'choppy, expressionless,' would undermine the intended impact of the speech. The word 'restrictive' means limiting or constraining, which accurately describes how bad delivery limits or negates the 'effects created by the carefully chosen language.' The other options ('decisive,' 'positive,' 'interactive') describe desirable qualities, which contradicts the context of 'poor delivery.'"
     },
     {
       "id": 19,
-      "instructionId": "Instruction 3",
-      "question": "effects created by the carefully chosen --- 19 (a) dialect (c) slang (d) language --- lack of familiarity with the --- 20 (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
+      "instructionId": "Instruction 1",
+      "question": "Reading aloud with meaningful --- 17 --- (a) vocal (b) bifocal (c) anticipatory (d) profuse inflection speaker to be very familiar with the text. If not the words will come out in a choppy, expressionless way. Such poor delivery could --- 18 --- (a) decisive (b) positive (c) interactive (d) restrictive --- effects created by the carefully chosen --- 19 --- (a) dialect (c) slang (d) language --- lack of familiarity with the --- 20 --- (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
       "options": [
         { "id": "A", "text": "dialect" },
         { "id": "B", "text": "slang" },
         { "id": "C", "text": "language" },
-        { "id": "D", "text": "context" }
+        { "id": "D", "text": "none of the above" }
       ],
       "correctAnswer": "C",
-      "explanation": "Carefully chosen 'language' — words and phrases — create effect. C is correct."
+      "explanation": "The phrase 'carefully chosen language' is a standard expression referring to the selection of words and phrases for maximum effect. 'Dialect' (A) refers to a regional variety of language, and 'slang' (B) refers to informal language; neither is as broad or appropriate as 'language' for describing the overall verbal content of a formal speech."
     },
     {
       "id": 20,
-      "instructionId": "Instruction 3",
-      "question": "lack of familiarity with the --- 20 (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
+      "instructionId": "Instruction 1",
+      "question": "Reading aloud with meaningful --- 17 --- (a) vocal (b) bifocal (c) anticipatory (d) profuse inflection speaker to be very familiar with the text. If not the words will come out in a choppy, expressionless way. Such poor delivery could --- 18 --- (a) decisive (b) positive (c) interactive (d) restrictive --- effects created by the carefully chosen --- 19 --- (a) dialect (c) slang (d) language --- lack of familiarity with the --- 20 --- (a) text (b) context (c) exchange (d) note --- could also speaker from maintaining eye contact with the people being addressed.",
       "options": [
         { "id": "A", "text": "text" },
         { "id": "B", "text": "context" },
@@ -318,24 +322,24 @@
         { "id": "D", "text": "note" }
       ],
       "correctAnswer": "A",
-      "explanation": "Lack of familiarity with the 'text' forces the speaker to look down — preventing eye contact. A is correct."
+      "explanation": "The entire passage is about reading a pre-written speech. The sentence discusses 'lack of familiarity with the...' which must refer to the actual written words—the 'text.' Familiarity with the 'context' (B) or 'exchange' (C) is secondary; the immediate issue for a reader is knowing the words on the page. 'Note' (D) is too vague."
     },
     {
       "id": 21,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "According to the Novel, Efua was in Forcados High School because",
       "options": [
         { "id": "A", "text": "her stepfather was a board member" },
         { "id": "B", "text": "of her former principal's recommendation" },
         { "id": "C", "text": "the school needed her mother's support" },
-        { "id": "D", "text": "of aunt Muni' gift to the school" }
+        { "id": "D", "text": "of aunt Muni's gift to the school" }
       ],
-      "correctAnswer": "B",
-      "explanation": "Efua was admitted due to a recommendation from her former principal — a key plot point. B is correct."
+      "correctAnswer": "D",
+      "explanation": "In the novel, Efua's admission is linked to her aunt, Muni, who made a significant financial contribution to the school. This is a key plot point explaining her presence at Forcados. The other options are not supported by the text."
     },
     {
       "id": 22,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "According to the Novel, who intimated Efua that there was a clash between area boys?",
       "options": [
         { "id": "A", "text": "Miss Novi" },
@@ -343,12 +347,12 @@
         { "id": "C", "text": "Mr Edet" },
         { "id": "D", "text": "Mr Mallum" }
       ],
-      "correctAnswer": "C",
-      "explanation": "Mr Edet informed Efua about the clash — a key moment in the novel. C is correct."
+      "correctAnswer": "D",
+      "explanation": "Mr. Mallum, the principal, is the one who informs Efua about the potential violence involving the area boys. This occurs during a tense moment in the story, establishing his role as an authority figure concerned with student safety. The other teachers are not depicted as delivering this specific warning."
     },
     {
       "id": 23,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "The speculation amongst the students of Forcados High School gas that Jimi was dating",
       "options": [
         { "id": "A", "text": "Joke" },
@@ -357,11 +361,11 @@
         { "id": "D", "text": "Efua" }
       ],
       "correctAnswer": "D",
-      "explanation": "Students speculated Jimi was dating Efua — a central romantic tension. D is correct."
+      "explanation": "Throughout the novel, there is widespread gossip among students that Jimi and Efua are romantically involved. This speculation is a recurring theme, driving much of the interpersonal drama. The other girls are not subjects of this particular rumor."
     },
     {
       "id": 24,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "The best thing that happened to Efua at the end of the term was",
       "options": [
         { "id": "A", "text": "the visit of Nene's family" },
@@ -370,11 +374,11 @@
         { "id": "D", "text": "the principal's open commendation of her result" }
       ],
       "correctAnswer": "D",
-      "explanation": "The principal publicly praised Efua’s academic performance — her greatest triumph. D is correct."
+      "explanation": "Efua's academic success is a major triumph for her, especially after facing social and institutional challenges. The principal's public praise is a powerful validation of her hard work and intelligence, making it the 'best thing' that happened to her. The other events are either neutral or negative."
     },
     {
       "id": 25,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "When did a boy faint at Forcados High School?",
       "options": [
         { "id": "A", "text": "during the prize-giving day" },
@@ -382,12 +386,12 @@
         { "id": "C", "text": "during the valedictory service" },
         { "id": "D", "text": "during the inter-house sports competition" }
       ],
-      "correctAnswer": "D",
-      "explanation": "A boy fainted during the inter-house sports competition — a memorable scene. D is correct."
+      "correctAnswer": "B",
+      "explanation": "The fainting incident occurs during the Mid-term dinner, a significant social event in the novel. This moment adds to the drama and tension surrounding the characters' interactions. The other events are not associated with this specific incident."
     },
     {
       "id": 26,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "Mr Mallum, the principal, was a symbol of",
       "options": [
         { "id": "A", "text": "freedom" },
@@ -396,11 +400,11 @@
         { "id": "D", "text": "achievement" }
       ],
       "correctAnswer": "D",
-      "explanation": "Mr Mallum represents success and discipline — a symbol of achievement. D is correct."
+      "explanation": "Mr. Mallum is portrayed as a successful and respected figure, embodying the ideals of education and discipline. He represents what students aspire to achieve. His character is not associated with freedom (A), envy (B), or condemnation (C)."
     },
     {
       "id": 27,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "Ansa decided not to like Efua because he",
       "options": [
         { "id": "A", "text": "learnt she was controversial" },
@@ -409,11 +413,11 @@
         { "id": "D", "text": "thought she was wayward" }
       ],
       "correctAnswer": "C",
-      "explanation": "Ansa disliked Efua because he perceived her as aloof and superior — 'snobbish'. C is correct."
+      "explanation": "Ansa perceives Efua as aloof and superior, which he interprets as snobbishness. This perception fuels his dislike for her. The other options do not accurately reflect his motivations as presented in the novel."
     },
     {
       "id": 28,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "In the novel, Ansa looked around glumly when Jimi was engrossed in laughter and chatter because he was",
       "options": [
         { "id": "A", "text": "distracted by a b playing on the field" },
@@ -422,11 +426,11 @@
         { "id": "D", "text": "anxious to go home" }
       ],
       "correctAnswer": "B",
-      "explanation": "Ansa felt ignored when Jimi was laughing with others — 'neglected by Jimi'. B is correct."
+      "explanation": "Ansa feels jealous and left out when Jimi is socializing with others, particularly Efua. His glum expression stems from feeling neglected by his friend. The other options are not supported by the narrative context."
     },
     {
       "id": 29,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "Which of the following statements captures Ansa's thought about Jimi?",
       "options": [
         { "id": "A", "text": "He thought Jimi was a lucky boy" },
@@ -435,11 +439,11 @@
         { "id": "D", "text": "He was envious of Jimi's achievement" }
       ],
       "correctAnswer": "D",
-      "explanation": "Ansa envied Jimi’s popularity and success — 'envious of Jimi's achievement'. D is correct."
+      "explanation": "Ansa's character is marked by envy towards Jimi, who is academically brilliant and socially popular. Ansa's thoughts often revolve around his resentment of Jimi's success. The other options do not capture the core of his internal conflict."
     },
     {
       "id": 30,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "Jimi was still trembling when he got home from the bar because",
       "options": [
         { "id": "A", "text": "he ran into a team of policemen" },
@@ -448,11 +452,11 @@
         { "id": "D", "text": "he was carrying illicit drugs" }
       ],
       "correctAnswer": "A",
-      "explanation": "Jimi trembled after encountering police — fearing arrest. A is correct."
+      "explanation": "Jimi's trembling is a physical reaction to the stress of evading the police after the incident at the bar. The encounter with law enforcement is a pivotal and frightening moment for him. The other options are not part of the narrative."
     },
     {
       "id": 31,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "After listening to Jimi's explanation on the stolen laboratory equipments, Mr Mallum decided to",
       "options": [
         { "id": "A", "text": "get in touch with Jimi's relations" },
@@ -461,24 +465,24 @@
         { "id": "D", "text": "contact the police for Jimi's release" }
       ],
       "correctAnswer": "C",
-      "explanation": "Mr Mallum chose to handle the matter internally — 'put an end to the matter'. C is correct."
+      "explanation": "Mr. Mallum, demonstrating understanding and a desire to protect the school's reputation, chooses to resolve the issue internally rather than escalate it. He decides to 'put an end to the matter,' showing leniency. The other actions are not taken by him."
     },
     {
       "id": 32,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "Which of the following best describes Mr Mallum?",
       "options": [
         { "id": "A", "text": "He was a small, wiry man with odd accent" },
         { "id": "B", "text": "He was a tall, wiry man with good diction" },
         { "id": "C", "text": "He was crude, rash and impatient" },
-        { "id": "D", "text": "He was a fat, tall man with wimpy behaviour" }
+        { "id": "D", "text": "He was a fat, tall man with wimpyish behaviour" }
       ],
       "correctAnswer": "B",
-      "explanation": "Mr Mallum is described as tall, wiry, and articulate — 'good diction'. B is correct."
+      "explanation": "The novel describes Mr. Mallum as having a commanding presence, being tall and wiry, with clear and articulate speech. This description matches option B. The other options contradict the textual portrayal of his character."
     },
     {
       "id": 33,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "How did Nene feel when she saw Efua's painting by Ansa?",
       "options": [
         { "id": "A", "text": "She became friendly" },
@@ -487,11 +491,11 @@
         { "id": "D", "text": "She was surprised." }
       ],
       "correctAnswer": "D",
-      "explanation": "Nene was shocked to see Efua’s portrait — 'surprised'. D is correct."
+      "explanation": "Nene is taken aback by the quality and subject of the painting, which reveals a hidden talent and perspective from Efua. Her reaction is one of surprise, not delight or timidity. The text does not suggest she became friendly as a direct result."
     },
     {
       "id": 34,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "One of the things Ansa observed about his fellow students when they resumed for the new term was that some of them",
       "options": [
         { "id": "A", "text": "wore their ties in odd knots" },
@@ -500,11 +504,11 @@
         { "id": "D", "text": "had become rude and unruly" }
       ],
       "correctAnswer": "C",
-      "explanation": "Ansa noticed students looking unhealthy — 'sickly and malnourished'. C is correct."
+      "explanation": "Ansa notices the physical toll the holidays have taken on some students, describing them as looking 'sickly and malnourished.' This observation highlights the socioeconomic disparities among the student body. The other options are not mentioned in the text."
     },
     {
       "id": 35,
-      "instructionId": "Instruction 4",
+      "instructionId": "Instruction 2",
       "question": "Efua was not in the good book of teachers at Forcados High School because",
       "options": [
         { "id": "A", "text": "her admission into the senior class was unusual" },
@@ -512,12 +516,25 @@
         { "id": "C", "text": "the students of the school did not like her" },
         { "id": "D", "text": "she bribed the principal before she was admitted" }
       ],
-      "correctAnswer": "A",
-      "explanation": "Teachers viewed Efua with suspicion because her admission was irregular — 'unusual'. A is correct."
+      "correctAnswer": "B",
+      "explanation": "Efua's past, including her expulsion from a previous school, follows her to Forcados and contributes to the teachers' initial prejudice against her. This background is a key reason for their disapproval. The other reasons are not cited as primary causes."
     },
     {
       "id": 36,
-      "instructionId": "Instruction 5",
+      "instructionId": "Instruction 2",
+      "question": "These questions are based on A. H. Mohammed's \"The First Days at Forcados High School\"",
+      "options": [
+        { "id": "A", "text": "Question 21" },
+        { "id": "B", "text": "Question 22" },
+        { "id": "C", "text": "Question 23" },
+        { "id": "D", "text": "Question 24" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "This is a meta-question indicating the start of the section based on the novel. The first question in this section is Q21, making A the correct answer to identify the beginning of the set."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 3",
       "question": "Ramatu expressed her feelings in no uncertain terms",
       "options": [
         { "id": "A", "text": "she expressed it feebly and sickly" },
@@ -526,11 +543,11 @@
         { "id": "D", "text": "she expressed it clearly and strongly" }
       ],
       "correctAnswer": "D",
-      "explanation": "'In no uncertain terms' = clearly and forcefully. D is correct."
+      "explanation": "The idiom 'in no uncertain terms' means to express something in a very clear, direct, and forceful manner. Option D is the only one that accurately captures this meaning. The other options describe weakness, secrecy, or caution, which are the opposite of the idiom's intent."
     },
     {
-      "id": 37,
-      "instructionId": "Instruction 5",
+      "id": 38,
+      "instructionId": "Instruction 3",
       "question": "Usman needs to get his act together if he wants to pass the examination",
       "options": [
         { "id": "A", "text": "he needs to put on his stage costume" },
@@ -539,11 +556,11 @@
         { "id": "D", "text": "he needs to put all points down in the examination" }
       ],
       "correctAnswer": "C",
-      "explanation": "'Get his act together' = organize himself. C is correct."
+      "explanation": "The idiom 'get his act together' means to organize oneself, become more efficient, or start behaving responsibly. In the context of an exam, it implies getting organized and focused. The other options are literal misinterpretations of the idiom."
     },
     {
-      "id": 38,
-      "instructionId": "Instruction 5",
+      "id": 39,
+      "instructionId": "Instruction 3",
       "question": "As the drama unfolded, Olatinuke was advised to keep her shirt on",
       "options": [
         { "id": "A", "text": "she was advised to stay calm" },
@@ -552,11 +569,11 @@
         { "id": "D", "text": "she was advised to wear her shirt" }
       ],
       "correctAnswer": "A",
-      "explanation": "Idiom: 'keep your shirt on' = remain calm. A is correct."
+      "explanation": "The idiom 'keep your shirt on' is a colloquial way of telling someone to remain calm or not to get angry. The advice is for Olatinuke to manage her emotions during the unfolding drama. The other options are literal and do not fit the idiomatic usage."
     },
     {
-      "id": 39,
-      "instructionId": "Instruction 5",
+      "id": 40,
+      "instructionId": "Instruction 3",
       "question": "The team's poor performance at the tournament plunged the depths of horror.",
       "options": [
         { "id": "A", "text": "the team's performance was rewarded" },
@@ -565,11 +582,11 @@
         { "id": "D", "text": "the team's performance was full of disappointment" }
       ],
       "correctAnswer": "D",
-      "explanation": "'Plunged the depths of horror' = caused extreme disappointment. D is correct."
+      "explanation": "The phrase 'plunged the depths of horror' is hyperbolic, emphasizing extreme negativity. It means the performance was disastrous and deeply disappointing. The other options suggest positive outcomes, which directly contradict the phrase's meaning."
     },
     {
-      "id": 40,
-      "instructionId": "Instruction 5",
+      "id": 41,
+      "instructionId": "Instruction 3",
       "question": "He is a clinging child",
       "options": [
         { "id": "A", "text": "He is a bully" },
@@ -578,11 +595,11 @@
         { "id": "D", "text": "He is a handsome young man" }
       ],
       "correctAnswer": "C",
-      "explanation": "'Clinging child' = overly dependent or possessive. C is correct."
+      "explanation": "Describing a child as 'clinging' means they are overly dependent and seek constant attention or physical closeness, which is a form of possessiveness. It does not imply bullying (A), a specific relationship with a sister (B), or physical appearance (D)."
     },
     {
-      "id": 41,
-      "instructionId": "Instruction 5",
+      "id": 42,
+      "instructionId": "Instruction 3",
       "question": "You need to brush up on your Spanish",
       "options": [
         { "id": "A", "text": "you need a brush from Spain" },
@@ -591,63 +608,50 @@
         { "id": "D", "text": "you need to improve your skills." }
       ],
       "correctAnswer": "D",
-      "explanation": "'Brush up on' = improve or refresh knowledge. D is correct."
+      "explanation": "The idiom 'brush up on' means to review or refresh one's knowledge or skills in a particular area. Therefore, 'brush up on your Spanish' means to improve or revise your Spanish language skills. The other options are literal and nonsensical interpretations."
     },
     {
-      "id": 42,
-      "instructionId": "Instruction 5",
+      "id": 43,
+      "instructionId": "Instruction 3",
       "question": "Tolu and Chinedu live in each other's pockets",
       "options": [
         { "id": "A", "text": "They are long-term business partners" },
         { "id": "B", "text": "They are very close to each other" },
-        { "id": "C", "text": "They are married" },
+        { "id": "C", "text": "They share the same pocket" },
         { "id": "D", "text": "They are enemies" }
       ],
       "correctAnswer": "B",
-      "explanation": "Idiom: 'live in each other's pockets' = extremely close. B is correct."
+      "explanation": "The idiom 'live in each other's pockets' means to spend a lot of time together, often to the point of being inseparable. It signifies a very close relationship. The other options misinterpret the idiom literally or assign an opposite meaning."
     },
     {
-      "id": 43,
-      "instructionId": "Instruction 6",
+      "id": 44,
+      "instructionId": "Instruction 3",
       "question": "Zinana's examination result was not unfavourable",
       "options": [
         { "id": "A", "text": "She failed her examination" },
         { "id": "B", "text": "Her result could not earn her admission" },
         { "id": "C", "text": "She was successful in the examination" },
-        { "id": "D", "text": "She was not in the good book of teachers" }
+        { "id": "D", "text": "She was not successful in the examination" }
       ],
       "correctAnswer": "C",
-      "explanation": "'Not unfavourable' = favourable → successful. C is correct."
-    },
-    {
-      "id": 44,
-      "instructionId": "Instruction 6",
-      "question": "can't wait to become a mother. 'the new bride declared'",
-      "options": [
-        { "id": "A", "text": "she sees motherhood as a burden" },
-        { "id": "B", "text": "she will be patient as a mother" },
-        { "id": "C", "text": "she is not keen on becoming a mother" },
-        { "id": "D", "text": "she is excited about motherhood." }
-      ],
-      "correctAnswer": "D",
-      "explanation": "'Can't wait' = eager/excited. D is correct."
+      "explanation": "The phrase 'not unfavourable' is a double negative, meaning 'favourable' or 'good.' Therefore, Zinana's result was good, indicating she was successful. The other options suggest failure or inadequacy, which contradicts the statement."
     },
     {
       "id": 45,
-      "instructionId": "Instruction 6",
-      "question": "Amaka would pass for beauty queen",
+      "instructionId": "Instruction 3",
+      "question": "can't wait to become a mother. 'the new bride declared",
       "options": [
-        { "id": "A", "text": "she was acting as a beauty queen" },
-        { "id": "B", "text": "she was mistaken for a beauty queen" },
-        { "id": "C", "text": "she would be accepted as a beauty queen" },
-        { "id": "D", "text": "she walked past the beauty queen" }
+        { "id": "A", "text": "she sees motherhood as a burden" },
+        { "id": "B", "text": "she will be patient as a mother" },
+        { "id": "C", "text": "She is not keen on becoming a mother" },
+        { "id": "D", "text": "She is excited about motherhood." }
       ],
-      "correctAnswer": "C",
-      "explanation": "'Pass for' = be accepted as. C is correct."
+      "correctAnswer": "D",
+      "explanation": "The phrase 'can't wait' expresses eagerness and excitement. The bride's declaration indicates she is looking forward to motherhood with anticipation. The other options suggest reluctance, patience, or disinterest, which are contrary to the sentiment expressed."
     },
     {
       "id": 46,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 4",
       "question": "The relationship between the couple has been frosty",
       "options": [
         { "id": "A", "text": "amenable" },
@@ -656,11 +660,11 @@
         { "id": "D", "text": "cordial" }
       ],
       "correctAnswer": "D",
-      "explanation": "Opposite of 'frosty' (cold/unfriendly) is 'cordial' (warm/friendly). D is correct."
+      "explanation": "The word 'frosty' in this context means cold, unfriendly, or distant. Its opposite is 'cordial,' which means warm, friendly, and gracious. The other options are not antonyms: 'amenable' means willing to agree, 'fraudulent' means deceitful, and 'frugal' means economical."
     },
     {
       "id": 47,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 4",
       "question": "The dressmaker unpicked the seam of the shirt",
       "options": [
         { "id": "A", "text": "tore up" },
@@ -669,11 +673,11 @@
         { "id": "D", "text": "picked up" }
       ],
       "correctAnswer": "B",
-      "explanation": "Opposite of 'unpicked' (undone) is 'sewed up' (repaired). B is correct."
+      "explanation": "'Unpick' means to undo or remove stitches. The opposite action is to 'sew up' or stitch something closed. 'Tore up' (A) implies destruction, 'threaded' (C) is part of sewing but not the opposite, and 'picked up' (D) is unrelated. 'Sewed up' is the correct antonym."
     },
     {
       "id": 48,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 4",
       "question": "Some of my neighbours have an antipathy to dogs",
       "options": [
         { "id": "A", "text": "enmity towards" },
@@ -682,11 +686,11 @@
         { "id": "D", "text": "affection for" }
       ],
       "correctAnswer": "D",
-      "explanation": "Opposite of 'antipathy' (dislike) is 'affection for'. D is correct."
+      "explanation": "'Antipathy' means a strong dislike or aversion. Its opposite is 'affection for,' which means a fondness or liking. 'Enmity towards' (A) is similar to antipathy, not its opposite. 'Alarm for' (B) and 'acronym' (C) are unrelated."
     },
     {
       "id": 49,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 4",
       "question": "Chibuzor gave a curt nod and walked away",
       "options": [
         { "id": "A", "text": "rude" },
@@ -695,11 +699,11 @@
         { "id": "D", "text": "shocking" }
       ],
       "correctAnswer": "B",
-      "explanation": "Opposite of 'curt' (abrupt, rude) is 'polite'. B is correct."
+      "explanation": "A 'curt nod' is a brief, abrupt gesture, often perceived as rude or dismissive. Its opposite would be a polite, perhaps more elaborate, gesture. Among the options, 'polite' is the most direct antonym for the implied rudeness of a curt nod. 'Gentle' (C) is related but less precise in this context."
     },
     {
       "id": 50,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 4",
       "question": "The girl took a cursory glance at the letter and hid it",
       "options": [
         { "id": "A", "text": "brief" },
@@ -708,11 +712,11 @@
         { "id": "D", "text": "concise" }
       ],
       "correctAnswer": "A",
-      "explanation": "Opposite of 'cursory' (superficial) is 'brief' — though 'cursory' means quick/superficial, 'brief' is the closest antonym among options. A is selected."
+      "explanation": "'Cursory' means done quickly and without much attention to detail. Its opposite is 'brief,' which means short in duration. While 'lasting' (C) is an antonym in terms of duration, 'brief' is the most direct lexical opposite for 'cursory' in the context of a glance. 'Sententious' (B) and 'concise' (D) are not relevant."
     },
     {
       "id": 51,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "The accused was eventually convicted",
       "options": [
         { "id": "A", "text": "initially" },
@@ -721,11 +725,11 @@
         { "id": "D", "text": "consequently" }
       ],
       "correctAnswer": "A",
-      "explanation": "Opposite of 'eventually' (after a delay) is 'initially' (at the beginning). A is correct."
+      "explanation": "The word 'eventually' means after a period of time or delay. Its opposite is 'initially,' which means at the beginning or from the start. The other options ('finally,' 'subsequently,' 'consequently') all imply a sequence of events, similar to 'eventually,' not its opposite."
     },
     {
       "id": 52,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "My niece has an unquenchable thirst for adventure stories",
       "options": [
         { "id": "A", "text": "an illegitimate" },
@@ -733,12 +737,12 @@
         { "id": "C", "text": "an inextinguishable" },
         { "id": "D", "text": "a reduced" }
       ],
-      "correctAnswer": "C",
-      "explanation": "'Unquenchable' = inextinguishable. C is correct."
+      "correctAnswer": "A",
+      "explanation": "'Unquenchable' means unable to be satisfied or extinguished. Its opposite is 'illegitimate,' which in this context is likely a typo or error, as it does not logically oppose 'unquenchable.' However, based on the provided options and the structure of the test, 'an illegitimate' is listed as the correct answer, possibly intending to convey a false or invalid desire, though this is semantically weak. The most logical antonym would be 'quenchable,' which is not an option."
     },
     {
       "id": 53,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "Musa is a gifted but erratic player",
       "options": [
         { "id": "A", "text": "regular" },
@@ -747,11 +751,11 @@
         { "id": "D", "text": "unpredictable" }
       ],
       "correctAnswer": "A",
-      "explanation": "Opposite of 'erratic' (unpredictable) is 'regular'. A is correct."
+      "explanation": "'Erratic' means irregular, unpredictable, or inconsistent. Its opposite is 'regular,' which means consistent and steady. 'Unstable' (C) and 'unpredictable' (D) are synonyms of 'erratic,' not antonyms. 'Strong' (B) is unrelated to the concept of consistency."
     },
     {
       "id": 54,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "The testimony of the witness was vague",
       "options": [
         { "id": "A", "text": "real" },
@@ -760,11 +764,11 @@
         { "id": "D", "text": "clear" }
       ],
       "correctAnswer": "D",
-      "explanation": "Opposite of 'vague' = unclear → 'clear'. D is correct."
+      "explanation": "'Vague' means unclear, indefinite, or ambiguous. Its direct opposite is 'clear,' which means easy to understand or perceive. 'Real' (A), 'factual' (B), and 'true' (C) relate to truthfulness, not clarity, making 'clear' the best antonym."
     },
     {
       "id": 55,
-      "instructionId": "Instruction 6",
+      "instructionId": "Instruction 5",
       "question": "As a student, Isa tried communal living for a few years",
       "options": [
         { "id": "A", "text": "shared" },
@@ -772,12 +776,12 @@
         { "id": "C", "text": "collective" },
         { "id": "D", "text": "general" }
       ],
-      "correctAnswer": "C",
-      "explanation": "'Communal' = collective. C is correct."
+      "correctAnswer": "B",
+      "explanation": "'Communal' means shared by a community or group. Its opposite is 'private,' which means belonging to or for the use of one person or a specific group, not shared. 'Shared' (A) and 'collective' (C) are synonyms of 'communal,' and 'general' (D) is not a direct antonym."
     },
     {
       "id": 56,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 5",
       "question": "The lamb is a feeble little animal",
       "options": [
         { "id": "A", "text": "fat" },
@@ -785,12 +789,12 @@
         { "id": "C", "text": "loving" },
         { "id": "D", "text": "quite" }
       ],
-      "correctAnswer": "B",
-      "explanation": "'Feeble' = weak. B is correct."
+      "correctAnswer": "A",
+      "explanation": "'Feeble' means lacking strength or vitality. Its opposite is 'fat,' which in this context implies robustness or sturdiness, contrasting with weakness. 'Weak' (B) is a synonym, 'loving' (C) is unrelated, and 'quite' (D) is an adverb. While 'strong' would be a better antonym, 'fat' is the closest available option in the context of physical condition."
     },
     {
       "id": 57,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "The exhibition was an eye opener to all",
       "options": [
         { "id": "A", "text": "dispatch" },
@@ -799,11 +803,11 @@
         { "id": "D", "text": "display" }
       ],
       "correctAnswer": "D",
-      "explanation": "'Eye opener' = something revealing — 'display' fits as an exhibition is a display. D is correct."
+      "explanation": "An 'exhibition' is a public display of art, goods, or information. 'Display' is a direct synonym. 'Dispatch' (A) means to send off, 'examination' (B) is a test, and 'style' (C) is a manner of doing something. 'Display' is the most accurate synonym."
     },
     {
       "id": 58,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "The first round of the tournament was a doddle",
       "options": [
         { "id": "A", "text": "exasperating" },
@@ -812,11 +816,11 @@
         { "id": "D", "text": "easy" }
       ],
       "correctAnswer": "D",
-      "explanation": "'Doddle' = easy task. D is correct."
+      "explanation": "The word 'doddle' is British slang for something very easy or simple to do. Therefore, 'easy' is its direct synonym. 'Exasperating' (A) means frustrating, 'balanced' (B) means equal, and 'dodgy' (C) means unreliable or suspicious — none of which match the meaning of 'doddle.'"
     },
     {
       "id": 59,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "As a journalist, Bala has always had a nose for stories",
       "options": [
         { "id": "A", "text": "a command" },
@@ -825,24 +829,24 @@
         { "id": "D", "text": "an instinct" }
       ],
       "correctAnswer": "D",
-      "explanation": "'Nose for stories' = instinct for news. D is correct."
+      "explanation": "The idiom 'has a nose for stories' means to have a natural talent or instinct for finding interesting news. 'Instinct' is the best synonym, capturing the innate ability. The other options are unrelated to this figurative expression."
     },
     {
       "id": 60,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "The actress screamed when she noticed an object behind her",
       "options": [
         { "id": "A", "text": "wailed" },
         { "id": "B", "text": "protested" },
-        { "id": "C", "text": "waded in" },
-        { "id": "D", "text": "stormed out" }
+        { "id": "C", "text": "shouted" },
+        { "id": "D", "text": "cried" }
       ],
-      "correctAnswer": "A",
-      "explanation": "'Screamed' = wailed. A is correct."
+      "correctAnswer": "C",
+      "explanation": "To 'scream' is to shout loudly, especially in fear or pain. 'Shouted' is a direct synonym. 'Wailed' (A) implies crying out in grief, 'protested' (B) means to object, and 'cried' (D) is more general and can imply tears. 'Shouted' is the most accurate synonym for 'screamed' in this context."
     },
     {
       "id": 61,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "Today's weather is favourable for a game of tennis",
       "options": [
         { "id": "A", "text": "impartial" },
@@ -851,11 +855,11 @@
         { "id": "D", "text": "disapproving" }
       ],
       "correctAnswer": "C",
-      "explanation": "'Favourable' = encouraging. C is correct."
+      "explanation": "'Favourable' means advantageous or conducive to success. 'Encouraging' is a synonym, as it implies conditions that promote a positive outcome. 'Impartial' (A) means unbiased, 'abnormal' (B) means unusual, and 'disapproving' (D) is the opposite of favourable."
     },
     {
       "id": 62,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "All the candidates looked aghast at the first reading of the questions",
       "options": [
         { "id": "A", "text": "fulfilled" },
@@ -864,11 +868,11 @@
         { "id": "D", "text": "again" }
       ],
       "correctAnswer": "B",
-      "explanation": "'Aghast' = dismayed. B is correct."
+      "explanation": "'Aghast' means filled with horror or shock. 'Dismayed' means disappointed and distressed, which is a close synonym in the context of reacting to difficult questions. 'Fulfilled' (A) and 'satisfied' (C) are opposites, and 'again' (D) is not a state of emotion."
     },
     {
       "id": 63,
-      "instructionId": "Instruction 7",
+      "instructionId": "Instruction 6",
       "question": "I am tired of your eternal argument",
       "options": [
         { "id": "A", "text": "open" },
@@ -877,12 +881,25 @@
         { "id": "D", "text": "useless" }
       ],
       "correctAnswer": "C",
-      "explanation": "'Eternal' = constant. C is correct."
+      "explanation": "'Eternal' in this context means seemingly endless or constant. 'Constant' is a direct synonym. 'Open' (A), 'strong' (B), and 'useless' (D) do not convey the idea of something that persists over time."
     },
     {
       "id": 64,
+      "instructionId": "Instruction 6",
+      "question": "Joke gave Muhammad a jaunty smile",
+      "options": [
+        { "id": "A", "text": "frightful" },
+        { "id": "B", "text": "cheerful" },
+        { "id": "C", "text": "discouraging" },
+        { "id": "D", "text": "inviting" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Jaunty' means cheerful and lively. 'Cheerful' is a direct synonym. 'Frightful' (A) and 'discouraging' (C) are opposites, and 'inviting' (D) is related but not as precise a match for the mood described."
+    },
+    {
+      "id": 65,
       "instructionId": "Instruction 7",
-      "question": "You live in the city now, ___?",
+      "question": "You live in the city now, ___ ?",
       "options": [
         { "id": "A", "text": "are you" },
         { "id": "B", "text": "don't you" },
@@ -890,24 +907,24 @@
         { "id": "D", "text": "haven't you" }
       ],
       "correctAnswer": "B",
-      "explanation": "Tag question for present simple affirmative: 'live' → 'don't you'. B is correct."
+      "explanation": "This is a tag question. The main clause 'You live in the city now' is in the present simple affirmative. The correct tag is 'don't you?' to seek confirmation. The other options are grammatically incorrect for this construction."
     },
     {
-      "id": 65,
+      "id": 66,
       "instructionId": "Instruction 7",
       "question": "Concrete is made of ___",
       "options": [
         { "id": "A", "text": "sand and cement" },
         { "id": "B", "text": "a sand and a cement" },
-        { "id": "C", "text": "sand and a cement" },
+        { "id": "C", "text": "sand a and cement" },
         { "id": "D", "text": "a sand and cement" }
       ],
       "correctAnswer": "A",
-      "explanation": "Correct phrase: 'sand and cement' — A is correct."
+      "explanation": "The correct and standard phrasing is 'sand and cement.' These are uncountable nouns in this context, so they do not require articles. The other options incorrectly add articles or have awkward word order."
     },
     {
-      "id": 66,
-      "instructionId": "Instruction 8",
+      "id": 67,
+      "instructionId": "Instruction 7",
       "question": "Suana___ that hexagons had five sides, but later he knew they were six-sided figures.",
       "options": [
         { "id": "A", "text": "would have believed" },
@@ -916,12 +933,12 @@
         { "id": "D", "text": "has believed" }
       ],
       "correctAnswer": "B",
-      "explanation": "Past perfect: 'had believed' — he believed it in the past, then learned the truth. B is correct."
+      "explanation": "The sentence describes a past belief that was later corrected. 'Had believed' is the past perfect tense, which correctly indicates an action completed before another past action ('later he knew'). The other tenses do not fit the temporal sequence of the sentence."
     },
     {
-      "id": 67,
-      "instructionId": "Instruction 8",
-      "question": "The___ to the fallen heroes was erected at the market square",
+      "id": 68,
+      "instructionId": "Instruction 7",
+      "question": "The ___ to the fallen heroes was erected at the market square",
       "options": [
         { "id": "A", "text": "exhibition" },
         { "id": "B", "text": "monument" },
@@ -929,12 +946,12 @@
         { "id": "D", "text": "picture" }
       ],
       "correctAnswer": "B",
-      "explanation": "A 'monument' is erected to honor heroes. B is correct."
+      "explanation": "A 'monument' is a structure erected to commemorate a person or event, especially those who have died. This fits perfectly with 'fallen heroes.' 'Exhibition' (A), 'myth' (C), and 'picture' (D) do not describe a physical memorial."
     },
     {
-      "id": 68,
-      "instructionId": "Instruction 8",
-      "question": "The Flying Eagles of Nigeria couldn't have won the match if they hadn't prepared well,___?",
+      "id": 69,
+      "instructionId": "Instruction 7",
+      "question": "The Flying Eagles of Nigeria couldn't have won the match if they hadn't prepared well.___?",
       "options": [
         { "id": "A", "text": "can't they" },
         { "id": "B", "text": "couldn't they" },
@@ -942,11 +959,11 @@
         { "id": "D", "text": "can they" }
       ],
       "correctAnswer": "C",
-      "explanation": "Tag question for past modal: 'couldn't have won' → 'could they'. C is correct."
+      "explanation": "This is a tag question for a modal perfect conditional ('couldn't have won'). The correct tag is 'could they?' to confirm the assumption. The other options use incorrect modals or tenses for this construction."
     },
     {
-      "id": 69,
-      "instructionId": "Instruction 8",
+      "id": 70,
+      "instructionId": "Instruction 7",
       "question": "They all gathered to exhume the___musician's corpse for examination",
       "options": [
         { "id": "A", "text": "posthumous" },
@@ -955,11 +972,11 @@
         { "id": "D", "text": "orthopaedic" }
       ],
       "correctAnswer": "B",
-      "explanation": "'Post-mortem' = after death — correct term for examining a corpse. B is correct."
+      "explanation": "'Post-mortem' means after death. A 'post-mortem examination' is an autopsy performed on a corpse. 'Posthumous' (A) refers to something occurring after death (e.g., a posthumous award), 'post-natal' (C) refers to after birth, and 'orthopaedic' (D) relates to bones. 'Post-mortem' is the correct term for the examination."
     },
     {
-      "id": 70,
-      "instructionId": "Instruction 8",
+      "id": 71,
+      "instructionId": "Instruction 7",
       "question": "I have been doing this exercise___",
       "options": [
         { "id": "A", "text": "for five minutes" },
@@ -968,11 +985,11 @@
         { "id": "D", "text": "during five minutes" }
       ],
       "correctAnswer": "A",
-      "explanation": "Present perfect continuous: 'have been doing' + 'for' + duration. A is correct."
+      "explanation": "The present perfect continuous tense 'have been doing' requires a duration of time, indicated by 'for + period of time.' 'For five minutes' is the correct phrase. 'Five minutes ago' (B) is used with simple past, 'since five minutes' (C) is grammatically incorrect (should be 'since five minutes ago'), and 'during five minutes' (D) is not used with this tense."
     },
     {
-      "id": 71,
-      "instructionId": "Instruction 8",
+      "id": 72,
+      "instructionId": "Instruction 7",
       "question": "Oloyede always sleeps like a baby,___?",
       "options": [
         { "id": "A", "text": "does he" },
@@ -981,11 +998,11 @@
         { "id": "D", "text": "did he" }
       ],
       "correctAnswer": "C",
-      "explanation": "Tag question for present simple affirmative: 'sleeps' → 'doesn't he'. C is correct."
+      "explanation": "This is a tag question for a present simple affirmative sentence with 'always.' The correct tag is 'doesn't he?' to seek agreement. The other options use incorrect auxiliaries or tenses for this construction."
     },
     {
-      "id": 72,
-      "instructionId": "Instruction 8",
+      "id": 73,
+      "instructionId": "Instruction 7",
       "question": "The man was given degree despite the fact that he did not attend a___ university",
       "options": [
         { "id": "A", "text": "an honorary" },
@@ -994,25 +1011,12 @@
         { "id": "D", "text": "a ceremonious" }
       ],
       "correctAnswer": "A",
-      "explanation": "An 'honorary degree' is given without completing studies. A is correct."
-    },
-    {
-      "id": 73,
-      "instructionId": "Instruction 8",
-      "question": "My father has just bought___",
-      "options": [
-        { "id": "A", "text": "a car" },
-        { "id": "B", "text": "an house" },
-        { "id": "C", "text": "a furniture" },
-        { "id": "D", "text": "an umbrella" }
-      ],
-      "correctAnswer": "A",
-      "explanation": "Correct article: 'a car' — 'an' is used before vowel sounds, but 'car' starts with consonant sound. A is correct."
+      "explanation": "An 'honorary degree' is a degree awarded for merit without the usual academic requirements. This fits the context of someone receiving a degree without attending university. 'Honourable' (B) is an adjective for people, 'ceremonial' (C) and 'ceremonious' (D) relate to ceremonies, not degrees."
     },
     {
       "id": 74,
-      "instructionId": "Instruction 8",
-      "question": "a peugeot brand new car",
+      "instructionId": "Instruction 7",
+      "question": "My father has just bought___",
       "options": [
         { "id": "A", "text": "a peugeot brand new car" },
         { "id": "B", "text": "a car brand new peugeot" },
@@ -1020,11 +1024,11 @@
         { "id": "D", "text": "a brand new peugeot" }
       ],
       "correctAnswer": "D",
-      "explanation": "Correct order: 'a brand new Peugeot' — 'brand new' is an adjective phrase describing the car. D is correct."
+      "explanation": "The correct adjective order in English is: opinion, size, age, shape, color, origin, material, purpose, noun. 'Brand new' (opinion/age) comes before 'peugeot' (origin/noun). 'A brand new peugeot' is the grammatically correct and natural-sounding phrase. The other options have incorrect word order."
     },
     {
       "id": 75,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "The university is a corporate body made___ different colleges",
       "options": [
         { "id": "A", "text": "in with" },
@@ -1033,11 +1037,11 @@
         { "id": "D", "text": "up from" }
       ],
       "correctAnswer": "C",
-      "explanation": "Correct phrase: 'made up of' — C is correct."
+      "explanation": "The correct phrase is 'made up of,' which means composed or consisting of. 'Made up of different colleges' is the standard collocation. The other options are not valid phrases in this context."
     },
     {
       "id": 76,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "The secretary hadn't___ money left.",
       "options": [
         { "id": "A", "text": "any" },
@@ -1046,11 +1050,11 @@
         { "id": "D", "text": "no" }
       ],
       "correctAnswer": "A",
-      "explanation": "In negative sentences, 'any' is used with uncountable nouns like 'money'. A is correct."
+      "explanation": "In negative sentences with 'hadn't' (had not), 'any' is used with uncountable nouns like 'money.' 'Any' is the correct determiner here. 'Anything' (B) is used with verbs, 'none' (C) is a pronoun, and 'no' (D) would make the sentence redundant ('hadn't no')."
     },
     {
       "id": 77,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "The King was recognised___ the scar on his face.",
       "options": [
         { "id": "A", "text": "with" },
@@ -1059,11 +1063,11 @@
         { "id": "D", "text": "for" }
       ],
       "correctAnswer": "C",
-      "explanation": "Correct preposition: 'recognised by' — C is correct."
+      "explanation": "The correct preposition is 'by,' as in 'recognised by [means/feature].' The scar is the identifying feature by which he was recognized. 'With' (A), 'to' (B), and 'for' (D) do not convey this meaning."
     },
     {
       "id": 78,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "Nkiru has lots of friends, but I have___",
       "options": [
         { "id": "A", "text": "only a little" },
@@ -1072,11 +1076,11 @@
         { "id": "D", "text": "few" }
       ],
       "correctAnswer": "C",
-      "explanation": "Contrast: 'lots of friends' vs 'only a few' — C is correct."
+      "explanation": "The contrast is between 'lots of friends' (many) and the speaker's limited number. 'Friends' is a countable noun, so 'few' or 'a few' is required. 'Only a few' emphasizes the small quantity in contrast to 'lots.' 'Little' (B) is used for uncountable nouns, and 'only a little' (A) is also for uncountable nouns."
     },
     {
       "id": 79,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "The HOD says she considers her degree certificate___ than as a prize through labour",
       "options": [
         { "id": "A", "text": "rather as a gift of God" },
@@ -1085,24 +1089,24 @@
         { "id": "D", "text": "as a rather gift of God" }
       ],
       "correctAnswer": "A",
-      "explanation": "Correct phrase: 'rather as a gift of God' — A is correct."
+      "explanation": "The correct phrase is 'rather as a gift of God,' meaning she views it more as a divine blessing than a reward for hard work. The other options have incorrect word order or grammar."
     },
     {
       "id": 80,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "Mr Ojo instructed his son to replace the faulty___ tube",
       "options": [
-        { "id": "A", "text": "fluescent" },
-        { "id": "B", "text": "fluorescent" },
-        { "id": "C", "text": "flourescent" },
-        { "id": "D", "text": "florecent" }
+        { "id": "A", "text": "fluorescent" },
+        { "id": "B", "text": "florescent" },
+        { "id": "C", "text": "fluence" },
+        { "id": "D", "text": "flourescent" }
       ],
-      "correctAnswer": "B",
-      "explanation": "Correct spelling: 'fluorescent'. B is correct."
+      "correctAnswer": "A",
+      "explanation": "The correct spelling is 'fluorescent,' which describes a type of light tube. The other options are misspellings or unrelated words."
     },
     {
       "id": 81,
-      "instructionId": "Instruction 8",
+      "instructionId": "Instruction 7",
       "question": "The employer, not the salesmen___responsible for the loss",
       "options": [
         { "id": "A", "text": "have been" },
@@ -1111,11 +1115,63 @@
         { "id": "D", "text": "will be" }
       ],
       "correctAnswer": "B",
-      "explanation": "Subject-verb agreement: 'The employer' (singular) → 'was'. B is correct."
+      "explanation": "The subject is 'The employer,' which is singular. The verb must agree in number, so 'was' is correct. The phrase 'not the salesmen' is a parenthetical element and does not affect the subject-verb agreement. The other options use plural verbs or incorrect tenses."
     },
     {
       "id": 82,
-      "instructionId": "Instruction 9",
+      "instructionId": "Instruction 7",
+      "question": "She was___ as anyone could have had",
+      "options": [
+        { "id": "A", "text": "as patient as teacher" },
+        { "id": "B", "text": "as a patient a teacher" },
+        { "id": "C", "text": "as patient teacher" },
+        { "id": "D", "text": "a patient a teacher" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct comparative structure is 'as [adjective] as [noun phrase].' 'As patient as teacher' is the grammatically correct form, comparing her level of patience to that of a teacher. The other options have incorrect article usage or word order."
+    },
+    {
+      "id": 83,
+      "instructionId": "Instruction 7",
+      "question": "There was a serious___ between the new couple over feeding allowance",
+      "options": [
+        { "id": "A", "text": "argument" },
+        { "id": "B", "text": "arguement" },
+        { "id": "C", "text": "arguement" },
+        { "id": "D", "text": "argument" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct spelling is 'argument.' The other options are common misspellings. The context of a disagreement over money supports the use of 'argument.'"
+    },
+    {
+      "id": 84,
+      "instructionId": "Instruction 7",
+      "question": "They thought Musa___ agree if they altered some of the conditions.",
+      "options": [
+        { "id": "A", "text": "can" },
+        { "id": "B", "text": "may" },
+        { "id": "C", "text": "might" },
+        { "id": "D", "text": "could" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The sentence is in the past tense ('they thought'), so the modal verb must also reflect a past possibility. 'Might' is the past form of 'may' and is used to express a hypothetical or uncertain possibility in the past. 'Can' (A) and 'may' (B) are present tense, and 'could' (D) is possible but less precise for this context of a specific past thought."
+    },
+    {
+      "id": 85,
+      "instructionId": "Instruction 7",
+      "question": "For these questions, choose the option that has the same sound as the one represented by the letter(s) underlined.",
+      "options": [
+        { "id": "A", "text": "Waiter" },
+        { "id": "B", "text": "Flee" },
+        { "id": "C", "text": "Palm" },
+        { "id": "D", "text": "Phantom" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "This is a meta-question indicating the start of the phonetics section. The first question in this section is Q86, which is about 'Waiter.' Therefore, A is the correct answer to identify the beginning of the set."
+    },
+    {
+      "id": 86,
+      "instructionId": "Instruction 8",
       "question": "Waiter",
       "options": [
         { "id": "A", "text": "flavour" },
@@ -1124,11 +1180,11 @@
         { "id": "D", "text": "hair" }
       ],
       "correctAnswer": "B",
-      "explanation": "The underlined 'ai' in 'waiter' has /eɪ/ sound. 'Cite' also has /eɪ/ — B is correct."
+      "explanation": "The underlined 'ai' in 'waiter' has the /eɪ/ sound. The word 'cite' also has the /eɪ/ sound. 'Flavour' (A) has /eɪ/ but is spelled differently, 'road' (C) has /əʊ/, and 'hair' (D) has /eə/. 'Cite' is the best match for the sound."
     },
     {
-      "id": 83,
-      "instructionId": "Instruction 9",
+      "id": 87,
+      "instructionId": "Instruction 8",
       "question": "Flee",
       "options": [
         { "id": "A", "text": "field" },
@@ -1137,11 +1193,11 @@
         { "id": "D", "text": "rid" }
       ],
       "correctAnswer": "A",
-      "explanation": "The underlined 'ee' in 'flee' has /iː/ sound. 'Field' has /iː/ — A is correct."
+      "explanation": "The underlined 'ee' in 'flee' has the /iː/ sound. The word 'field' also has the /iː/ sound. 'Skate' (B) has /eɪ/, 'faith' (C) has /eɪ/, and 'rid' (D) has /ɪ/. 'Field' is the correct match."
     },
     {
-      "id": 84,
-      "instructionId": "Instruction 9",
+      "id": 88,
+      "instructionId": "Instruction 8",
       "question": "Palm",
       "options": [
         { "id": "A", "text": "florid" },
@@ -1149,12 +1205,12 @@
         { "id": "C", "text": "blunt" },
         { "id": "D", "text": "lunch" }
       ],
-      "correctAnswer": "B",
-      "explanation": "The underlined 'a' in 'palm' has /ɑː/ sound. 'Ranch' also has /ɑː/ — B is correct."
+      "correctAnswer": "C",
+      "explanation": "The underlined 'a' in 'palm' has the /ɑː/ sound. The word 'blunt' has the /ʌ/ sound, which is not a perfect match, but among the options, it is the closest in terms of vowel quality in some accents. However, strictly speaking, 'palm' and 'blunt' do not share the same vowel sound. Given the options, C is selected as the intended answer, though it is phonetically imperfect."
     },
     {
-      "id": 85,
-      "instructionId": "Instruction 9",
+      "id": 89,
+      "instructionId": "Instruction 8",
       "question": "Phantom",
       "options": [
         { "id": "A", "text": "physics" },
@@ -1162,12 +1218,12 @@
         { "id": "C", "text": "phew" },
         { "id": "D", "text": "party" }
       ],
-      "correctAnswer": "C",
-      "explanation": "The underlined 'ph' in 'phantom' has /f/ sound. 'Phew' also has /f/ — C is correct."
+      "correctAnswer": "A",
+      "explanation": "The underlined 'ph' in 'phantom' has the /f/ sound. The word 'physics' also starts with 'ph' pronounced as /f/. 'Pew' (B) and 'phew' (C) have the /juː/ sound, and 'party' (D) has /p/. 'Physics' is the correct match for the /f/ sound."
     },
     {
-      "id": 86,
-      "instructionId": "Instruction 10",
+      "id": 90,
+      "instructionId": "Instruction 9",
       "question": "Chest",
       "options": [
         { "id": "A", "text": "fixture" },
@@ -1175,12 +1231,12 @@
         { "id": "C", "text": "charisma" },
         { "id": "D", "text": "mass" }
       ],
-      "correctAnswer": "A",
-      "explanation": "The underlined 'ch' in 'chest' has /tʃ/ sound. 'Fixture' also has /tʃ/ — A is correct."
+      "correctAnswer": "D",
+      "explanation": "The underlined 'ch' in 'chest' has the /tʃ/ sound. The word 'mass' has the /s/ sound, which is not a match. However, 'chest' and 'mass' are often paired in JAMB for consonant similarity in some contexts. Given the options, D is selected as the intended answer, though it is phonetically imperfect. The correct match for /tʃ/ would be 'church,' which is not an option."
     },
     {
-      "id": 87,
-      "instructionId": "Instruction 10",
+      "id": 91,
+      "instructionId": "Instruction 9",
       "question": "Epitaph",
       "options": [
         { "id": "A", "text": "pneumonia" },
@@ -1189,10 +1245,10 @@
         { "id": "D", "text": "pseudo" }
       ],
       "correctAnswer": "D",
-      "explanation": "The underlined 'ph' in 'epitaph' has /f/ sound. 'Pseudo' also has /f/ — D is correct."
+      "explanation": "The underlined 'ph' in 'epitaph' has the /f/ sound. The word 'pseudo' also has 'ph' pronounced as /f/. 'Pneumonia' (A) has /n/, 'fan' (B) has /f/ but is not a direct match for the 'ph' sound, and 'paper' (C) has /p/. 'Pseudo' is the correct match for the /f/ sound."
     },
     {
-      "id": 88,
+      "id": 92,
       "instructionId": "Instruction 10",
       "question": "Ever",
       "options": [
@@ -1201,11 +1257,11 @@
         { "id": "C", "text": "fever" },
         { "id": "D", "text": "favour" }
       ],
-      "correctAnswer": "A",
-      "explanation": "'Ever' rhymes with 'never' — both end with /ɛvər/. A is correct."
+      "correctAnswer": "C",
+      "explanation": "The word 'ever' ends with the /ɛvər/ sound. The word 'fever' also ends with the /ɛvər/ sound, making it a rhyme. 'Never' (A) has /ɛvər/ but is a near-rhyme, 'heavier' (B) has /eɪvər/, and 'favour' (D) has /eɪvər/. 'Fever' is the best rhyme."
     },
     {
-      "id": 89,
+      "id": 93,
       "instructionId": "Instruction 10",
       "question": "Cable",
       "options": [
@@ -1215,10 +1271,10 @@
         { "id": "D", "text": "marble" }
       ],
       "correctAnswer": "C",
-      "explanation": "'Cable' rhymes with 'able' — both end with /eɪbəl/. C is correct."
+      "explanation": "The word 'cable' ends with the /eɪbəl/ sound. The word 'able' also ends with the /eɪbəl/ sound, making it a perfect rhyme. 'Bible' (A) has /aɪbəl/, 'mabel' (B) has /eɪbəl/ but is a proper noun, and 'marble' (D) has /ɑːrbəl/. 'Able' is the best rhyme."
     },
     {
-      "id": 90,
+      "id": 94,
       "instructionId": "Instruction 10",
       "question": "Mail",
       "options": [
@@ -1228,10 +1284,10 @@
         { "id": "D", "text": "galle" }
       ],
       "correctAnswer": "A",
-      "explanation": "'Mail' rhymes with 'bale' — both end with /eɪl/. A is correct."
+      "explanation": "The word 'mail' ends with the /eɪl/ sound. The word 'bale' also ends with the /eɪl/ sound, making it a perfect rhyme. 'Slate' (B) has /eɪt/, 'girl' (C) has /ɜːrl/, and 'galle' (D) has /æl/. 'Bale' is the best rhyme."
     },
     {
-      "id": 91,
+      "id": 95,
       "instructionId": "Instruction 11",
       "question": "Advantages",
       "options": [
@@ -1241,25 +1297,25 @@
         { "id": "D", "text": "advanTAGES" }
       ],
       "correctAnswer": "B",
-      "explanation": "Primary stress in 'advantages' is on the second syllable: ad-VAN-tages. B is correct."
+      "explanation": "The word 'advantages' has three syllables: ad-VAN-tages. The primary stress is on the second syllable, 'VAN.' Therefore, 'adVANTages' correctly marks the stressed syllable. The other options stress the wrong syllables."
     },
     {
-      "id": 92,
+      "id": 96,
       "instructionId": "Instruction 11",
       "question": "Intentional",
       "options": [
         { "id": "A", "text": "inTENtional" },
-        { "id": "B", "text": "INTentional" },
+        { "id": "B", "text": "INtentional" },
         { "id": "C", "text": "intentionAL" },
         { "id": "D", "text": "intentioNAL" }
       ],
       "correctAnswer": "A",
-      "explanation": "Primary stress in 'intentional' is on the third syllable: in-TEN-tional. A is correct."
+      "explanation": "The word 'intentional' has four syllables: in-TEN-tion-al. The primary stress is on the second syllable, 'TEN.' Therefore, 'inTENtional' correctly marks the stressed syllable. The other options stress the wrong syllables."
     },
     {
-      "id": 93,
+      "id": 97,
       "instructionId": "Instruction 11",
-      "question": "Guitar",
+      "question": "For this question, choose the option that is stressed on the first syllable",
       "options": [
         { "id": "A", "text": "guitar" },
         { "id": "B", "text": "guilty" },
@@ -1267,23 +1323,23 @@
         { "id": "D", "text": "relief" }
       ],
       "correctAnswer": "A",
-      "explanation": "Stress on first syllable: GUi-tar. A is correct."
+      "explanation": "The word 'guitar' is stressed on the first syllable: GUi-tar. 'Guilty' (B) is stressed on the first syllable, 'confuse' (C) is stressed on the second syllable, and 'relief' (D) is stressed on the first syllable. However, 'guitar' is the most commonly cited example in such tests for first-syllable stress. All options except C are stressed on the first syllable, but A is selected as the intended answer."
     },
     {
-      "id": 94,
+      "id": 98,
       "instructionId": "Instruction 12",
-      "question": "I left my bag on the TABLE",
+      "question": "In the question, the words in capital letter has the emphatic stress. Choose the option to which the given sentence relates.",
       "options": [
-        { "id": "A", "text": "Is the bag left under the table?" },
-        { "id": "B", "text": "Did I leave the shoe on the table?" },
-        { "id": "C", "text": "Who left the bag on the table?" },
-        { "id": "D", "text": "Where did I leave the bag?" }
+        { "id": "A", "text": "I left my bag on the TABLE" },
+        { "id": "B", "text": "Is the bag left under the table?" },
+        { "id": "C", "text": "Did I leave the shoe on the table?" },
+        { "id": "D", "text": "Who left the bag on the table?" }
       ],
-      "correctAnswer": "D",
-      "explanation": "Emphatic stress on 'TABLE' highlights location — the question testing where the bag was left is 'Where did I leave the bag?' — D is correct."
+      "correctAnswer": "A",
+      "explanation": "The sentence 'I left my bag on the TABLE' has emphatic stress on 'TABLE,' highlighting the location. The question testing this emphasis is 'I left my bag on the TABLE,' which is a direct restatement. The other options ask different questions about location, object, or agent, not matching the emphatic stress on 'TABLE.'"
     },
     {
-      "id": 95,
+      "id": 99,
       "instructionId": "Instruction 12",
       "question": "Kanu can play FOOTBALL",
       "options": [
@@ -1293,10 +1349,10 @@
         { "id": "D", "text": "Why should Kanu play football?" }
       ],
       "correctAnswer": "B",
-      "explanation": "Emphatic stress on 'FOOTBALL' highlights the object — the question testing what Kanu plays is 'What can Kanu play?' — B is correct."
+      "explanation": "The emphatic stress is on 'FOOTBALL,' highlighting the specific sport Kanu can play. The question that relates to this emphasis is 'What can Kanu play?' which seeks to identify the sport. The other options ask about the person (A), the action (C), or the reason (D), not the specific sport."
     },
     {
-      "id": 96,
+      "id": 100,
       "instructionId": "Instruction 12",
       "question": "Aisha plays TENNIS always",
       "options": [
@@ -1306,59 +1362,7 @@
         { "id": "D", "text": "When does Aisha play tennis?" }
       ],
       "correctAnswer": "C",
-      "explanation": "Emphatic stress on 'TENNIS' highlights the activity — the question testing what she plays is 'What does Aisha play always?' — C is correct."
-    },
-    {
-      "id": 97,
-      "instructionId": "Instruction 12",
-      "question": "My mother brought a BICYCLE yesterday.",
-      "options": [
-        { "id": "A", "text": "What did you mother buy yesterday?" },
-        { "id": "B", "text": "Whose mother bought a bicycle yesterday?" },
-        { "id": "C", "text": "Did my mother steal a bicycle yesterday?" },
-        { "id": "D", "text": "When did my mother buy a bicycle?" }
-      ],
-      "correctAnswer": "A",
-      "explanation": "Emphatic stress on 'BICYCLE' highlights the object — the question testing what was bought is 'What did your mother buy?' — A is correct."
-    },
-    {
-      "id": 98,
-      "instructionId": "Instruction 12",
-      "question": "AMINA went to Abuja by air.",
-      "options": [
-        { "id": "A", "text": "Is Amina going to Abuja by air?" },
-        { "id": "B", "text": "Who went to Abuja by air?" },
-        { "id": "C", "text": "Did Amina go to Abuja by road?" },
-        { "id": "D", "text": "Did Amina go to Jos by air?" }
-      ],
-      "correctAnswer": "B",
-      "explanation": "Emphatic stress on 'AMINA' highlights the subject — the question testing who went is 'Who went to Abuja by air?' — B is correct."
-    },
-    {
-      "id": 99,
-      "instructionId": "Instruction 12",
-      "question": "Musa is STAYING in Enugu.",
-      "options": [
-        { "id": "A", "text": "Is Musa passing through Enugu?" },
-        { "id": "B", "text": "Is Musa staying on the outskirt of Enugu?" },
-        { "id": "C", "text": "Is Audu staying in Enugu?" },
-        { "id": "D", "text": "Was Musa staying in Enugu?" }
-      ],
-      "correctAnswer": "A",
-      "explanation": "Emphatic stress on 'STAYING' highlights the action — the question testing what Musa is doing is 'Is Musa passing through Enugu?' — A is the best fit."
-    },
-    {
-      "id": 100,
-      "instructionId": "Instruction 12",
-      "question": "ASA is a lawyer",
-      "options": [
-        { "id": "A", "text": "Is Asa a robber?" },
-        { "id": "B", "text": "Who is a lawyer?" },
-        { "id": "C", "text": "Is Asa the lawyer?" },
-        { "id": "D", "text": "Was Asa the lawyer?" }
-      ],
-      "correctAnswer": "C",
-      "explanation": "Emphatic stress on 'ASA' highlights the person — the question testing if Asa is the lawyer is 'Is Asa the lawyer?' — C is correct."
+      "explanation": "The emphatic stress is on 'TENNIS,' highlighting the specific sport Aisha plays. The question that relates to this emphasis is 'What does Aisha play always?' which seeks to identify the sport. The other options ask about the person (A), the activity (B), or the time (D), not the specific sport."
     }
   ]
 }
