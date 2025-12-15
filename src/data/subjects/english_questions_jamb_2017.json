@@ -1,7 +1,5 @@
-```json
+
 {
-  "year": 2017,
-  "paper": "JAMB Use of English",
   "passages": [
     {
       "id": "Passage I",
@@ -854,4 +852,4 @@
     }
   ]
 }
-```
+
