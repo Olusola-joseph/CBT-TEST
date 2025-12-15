@@ -1,5 +1,851 @@
+
 {
-  "passages": [],
-  "instructions": [],
-  "questions": []
+  "passages": [
+    {
+      "id": "Passage A",
+      "text": "Returning home after a decade and half abroad, our Geography master remained incurably addicted to foreign ways and ideas for years after landing here. He would forever stick to his theory of Africans suffering from a curse inflicted on them by the Almighty God for some heinous sins committed centuries ago. He would, in support of this theory, ask listeners:\n\n\"Why would our mosquito inflict deadly malaria on us whereas the British mosquito does not bite? Why aren't there poisonous snakes in Britain whereas here most snakes are deadly?\n\nWhy should the deadly sickle cell disease be peculiar to the black race?\"\n\nOf course, he hardly waits for answers to these and similar questions before jumping to the same inevitable conclusion. However, he met his match one day when a new student joined the class and heard the litany we were used to. The new boy calmly said, \"Sir, I happen to know a few white men who suffer from the sickle cell disease; some are Italians and some are Spanish. The mosquito is equally deadly in India, South-east Asian countries and South America. The United States and some other South American countries have their deadly snakes. And, Sir, I know many white men, some of them British, who would prefer our brilliant sunshine to their horribly cold winter.\" And he sat down.\n\nI had never, before that day, seen our master so consumed with anger. He directed a burning look at the poor boy, who had no answer to this new battle. Without as much as saying a single word, the master stalked out of the classroom. Needless to say, our anger was turned on the new boy, who had decided to rock the boat without taking the time to sound the water. A delegation was sent to the master to apologise to him.\n\nHe was appeased. But we all noticed something rather unusual thereafter: never again did he dwell on the issue of Africans being the cursed people."
+    },
+    {
+      "id": "Passage B",
+      "text": "Mankind has been ravaged by many virus and ...7... diseases such as measles, tuberculosis, diarrhoea and many others including ...8... known also as the ...9... cold.\n\nOutbreaks of many of these diseases have been brought under control in the last fifty years. Some ...10... like measles and whooping cough still pose a great danger to younger children.\n\nThe ...11... of measles are more easily ...12... than those of whooping cough. Unlike that of many others, the virus of measles more easily remain ...13... for hundreds of years. However, once you have had an ...14... of this dreadful disease, you develop an ...15... which is almost complete and long lasting. Modern science has made available ...16... to prevent many childhood diseases and this is the only guarantee of ...17... from these scourges. More effective treatment of complications arising from these childhood diseases using penicillin and other ...18... has also helped to reduce the ...19... rate among children.\n\nIt is universally accepted that good ...20... is the right of every human being and children. You do not have to die from these diseases which wiped out the whole ...21... in the middle ages. We have today ...22... drugs which give protection against most childhood diseases."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 6, read Passage A and answer the questions that follow."
+    },
+    {
+      "id": "Instruction 2",
+      "text": "In questions 7 to 22, Passage B has gaps. For each numbered gap, choose from the options the word that best completes the gap."
+    },
+    {
+      "id": "Instruction 3",
+      "text": "In each of questions 23 to 33, a sentence is followed by a list of possible interpretations. Choose the interpretation that you consider most appropriate for the sentence."
+    },
+    {
+      "id": "Instruction 4",
+      "text": "In each of questions 34 to 43, choose the option opposite in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 5",
+      "text": "In each of questions 44 to 50, choose the option that best completes the gap(s)."
+    },
+    {
+      "id": "Instruction 6",
+      "text": "In each of questions 51 to 55, choose the option nearest in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 7",
+      "text": "In each of questions 56 to 57, choose the option that has the same sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 8",
+      "text": "In each of questions 58 to 60, choose the option that has the correct stress pattern. The stressed syllables are written in capital letters."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "passageId": "Passage A",
+      "instructionId": "Instruction 1",
+      "question": "What point of view is the Geography master fond of advancing?",
+      "options": [
+        { "id": "A", "text": "Africans are infested with all kinds of problem." },
+        { "id": "B", "text": "Only the white men are free from deadly diseases." },
+        { "id": "C", "text": "The Almighty God is punishing Africans for sins they committed long ago." },
+        { "id": "D", "text": "God did not curse the white people." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "He repeatedly says Africans suffer from a curse placed on them by God for ancient sins."
+    },
+    {
+      "id": 2,
+      "passageId": "Passage A",
+      "instructionId": "Instruction 1",
+      "question": "Which of the following arguments did he not use to support his views?",
+      "options": [
+        { "id": "A", "text": "In Africa, the mosquito causes deadly malaria whereas in Britain, it doesn't bite or cause malaria." },
+        { "id": "B", "text": "There is malaria both in Britain and in African countries." },
+        { "id": "C", "text": "The snakes in Africa are deadly but those in Britain are harmless." },
+        { "id": "D", "text": "The sickle cell disease is peculiar to the black race." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "He contrasts Africa with Britain, never saying malaria is in both places."
+    },
+    {
+      "id": 3,
+      "passageId": "Passage A",
+      "instructionId": "Instruction 1",
+      "question": "\"...rock the boat\". What figure of speech is this expression?",
+      "options": [
+        { "id": "A", "text": "Simile" },
+        { "id": "B", "text": "Metaphor" },
+        { "id": "C", "text": "Personification" },
+        { "id": "D", "text": "Hyperbole" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The expression uses the idea of literally rocking a boat metaphorically for disturbing an established situation."
+    },
+    {
+      "id": 4,
+      "passageId": "Passage A",
+      "instructionId": "Instruction 1",
+      "question": "What extra argument did the new boy offer after countering each of the master's points?",
+      "options": [
+        { "id": "A", "text": "There are problems especially in Africa." },
+        { "id": "B", "text": "There are deadly snakes in America and Africa." },
+        { "id": "C", "text": "There are harmless snakes in Britain." },
+        { "id": "D", "text": "Many white men prefer the African climate to their own." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "He concludes by saying many white men, including British, prefer Africa's sunshine to their cold winter."
+    },
+    {
+      "id": 5,
+      "passageId": "Passage A",
+      "instructionId": "Instruction 1",
+      "question": "Why do you think the master fought back with his look rather than with further argument?",
+      "options": [
+        { "id": "A", "text": "He knew that the boy's points were valid." },
+        { "id": "B", "text": "He had answers to the boy's argument." },
+        { "id": "C", "text": "He went out to sort for the boy's argument." },
+        { "id": "D", "text": "He had already made up his mind on his points." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "His angry silence suggests he had no reply and recognised the strength of the boy's arguments."
+    },
+    {
+      "id": 6,
+      "passageId": "Passage A",
+      "instructionId": "Instruction 1",
+      "question": "\"...who had no answer to this new battle.\" What grammatical name is given to this expression as it is used in the passage?",
+      "options": [
+        { "id": "A", "text": "(Non‑defining) relative clause" },
+        { "id": "B", "text": "Adverbial clause" },
+        { "id": "C", "text": "Subordinate clause" },
+        { "id": "D", "text": "Main clause" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "It is a relative clause introduced by \"who\" giving extra information about \"the poor boy\"."
+    },
+    {
+      "id": 7,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "Mankind has been ravaged by many virus and ....7.... diseases such as measles, tuberculosis, diarrhoea and many others including ....8.... known also as the ....9.... cold.",
+      "options": [
+        { "id": "A", "text": "germ" },
+        { "id": "B", "text": "bacterial" },
+        { "id": "C", "text": "dirty" },
+        { "id": "D", "text": "mosquito" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The natural phrase is \"viral and bacterial diseases.\""
+    },
+    {
+      "id": 8,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "Mankind has been ravaged by many virus and ....7.... diseases such as measles, tuberculosis, diarrhoea and many others including ....8.... known also as the ....9.... cold.",
+      "options": [
+        { "id": "A", "text": "catarrh" },
+        { "id": "B", "text": "runny‑nose" },
+        { "id": "C", "text": "headache" },
+        { "id": "D", "text": "influenza" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Catarrh is another name for what is popularly called the common cold."
+    },
+    {
+      "id": 9,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "Mankind has been ravaged by many virus and ....7.... diseases such as measles, tuberculosis, diarrhoea and many others including ....8.... known also as the ....9.... cold.",
+      "options": [
+        { "id": "A", "text": "common" },
+        { "id": "B", "text": "sporadic" },
+        { "id": "C", "text": "universal" },
+        { "id": "D", "text": "regular" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The fixed expression is \"the common cold.\""
+    },
+    {
+      "id": 10,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "Outbreaks of many of these diseases have been brought under control in the last fifty years. Some ....10.... like measles and whooping cough still pose a great danger to younger children.",
+      "options": [
+        { "id": "A", "text": "pains" },
+        { "id": "B", "text": "fevers" },
+        { "id": "C", "text": "infection" },
+        { "id": "D", "text": "traces" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Measles and whooping cough are infectious diseases, so they are \"infections.\""
+    },
+    {
+      "id": 11,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "The ....11.... of measles are more easily ....12.... than those of whooping cough.",
+      "options": [
+        { "id": "A", "text": "symptoms" },
+        { "id": "B", "text": "appearance" },
+        { "id": "C", "text": "feels" },
+        { "id": "D", "text": "signs" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "We talk of the \"symptoms\" of a disease being easy or difficult to recognise."
+    },
+    {
+      "id": 12,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "The symptoms of measles are more easily ....12.... than those of whooping cough.",
+      "options": [
+        { "id": "A", "text": "diagnosed" },
+        { "id": "B", "text": "treated" },
+        { "id": "C", "text": "dealt with" },
+        { "id": "D", "text": "handled" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Symptoms are \"diagnosed\"; treatment comes after diagnosis."
+    },
+    {
+      "id": 13,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "Unlike that of many others, the virus of measles more easily remain ....13.... for hundreds of years.",
+      "options": [
+        { "id": "A", "text": "unchanged" },
+        { "id": "B", "text": "constant" },
+        { "id": "C", "text": "undiscovered" },
+        { "id": "D", "text": "erratic" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The idea is that the virus stays the same over centuries; \"unchanged\" fits best."
+    },
+    {
+      "id": 14,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "However, once you have had an ....14.... of this dreadful disease, you develop an ....15....",
+      "options": [
+        { "id": "A", "text": "epidemic" },
+        { "id": "B", "text": "encounter" },
+        { "id": "C", "text": "attack" },
+        { "id": "D", "text": "indisposition" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "We normally say \"an attack of measles.\""
+    },
+    {
+      "id": 15,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "However, once you have had an attack of this dreadful disease, you develop an ....15.... which is almost complete and long lasting.",
+      "options": [
+        { "id": "A", "text": "impurity" },
+        { "id": "B", "text": "armour" },
+        { "id": "C", "text": "immunity" },
+        { "id": "D", "text": "ability" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "After suffering some diseases, people develop lasting \"immunity.\""
+    },
+    {
+      "id": 16,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "Modern science has made available ....16.... to prevent many childhood diseases.",
+      "options": [
+        { "id": "A", "text": "injections" },
+        { "id": "B", "text": "medicine" },
+        { "id": "C", "text": "tablets" },
+        { "id": "D", "text": "vaccines" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "It is vaccines that prevent diseases."
+    },
+    {
+      "id": 17,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "Modern science has made available vaccines to prevent many childhood diseases and this is the only guarantee of ....17.... from these scourges.",
+      "options": [
+        { "id": "A", "text": "freedom" },
+        { "id": "B", "text": "discharge" },
+        { "id": "C", "text": "cure" },
+        { "id": "D", "text": "protection" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Vaccines do not cure but provide \"protection\" from disease."
+    },
+    {
+      "id": 18,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "More effective treatment of complications arising from these childhood diseases using penicillin and other ....18.... has also helped to reduce the ....19.... rate among children.",
+      "options": [
+        { "id": "A", "text": "relievers" },
+        { "id": "B", "text": "treatments" },
+        { "id": "C", "text": "antibiotics" },
+        { "id": "D", "text": "pills" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Penicillin is an antibiotic; the general term is \"antibiotics.\""
+    },
+    {
+      "id": 19,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "More effective treatment ... has also helped to reduce the ....19.... rate among children.",
+      "options": [
+        { "id": "A", "text": "high" },
+        { "id": "B", "text": "mortality" },
+        { "id": "C", "text": "killing" },
+        { "id": "D", "text": "dangerous" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The usual expression is \"mortality rate.\""
+    },
+    {
+      "id": 20,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "It is universally accepted that good ....20.... is the right of every human being and children.",
+      "options": [
+        { "id": "A", "text": "health" },
+        { "id": "B", "text": "body" },
+        { "id": "C", "text": "sense" },
+        { "id": "D", "text": "development" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "We speak of \"good health\" as a basic human right."
+    },
+    {
+      "id": 21,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "You do not have to die from these diseases which wiped out the whole ....21.... in the middle ages.",
+      "options": [
+        { "id": "A", "text": "countries" },
+        { "id": "B", "text": "areas" },
+        { "id": "C", "text": "communities" },
+        { "id": "D", "text": "states" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Epidemics are often said to wipe out whole \"communities.\""
+    },
+    {
+      "id": 22,
+      "passageId": "Passage B",
+      "instructionId": "Instruction 2",
+      "question": "We have today ....22.... drugs which give protection against most childhood diseases.",
+      "options": [
+        { "id": "A", "text": "bitter" },
+        { "id": "B", "text": "lovely" },
+        { "id": "C", "text": "potent" },
+        { "id": "D", "text": "marvellous" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The important quality is that the drugs are \"potent\" (very effective)."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 3",
+      "question": "When asked to state her side of the story, Bunmi started by beating about the bush. This means that Bunmi",
+      "options": [
+        { "id": "A", "text": "went straight to the point" },
+        { "id": "B", "text": "was lost in great thought" },
+        { "id": "C", "text": "followed a bush path" },
+        { "id": "D", "text": "approached the subject without coming to the point" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To \"beat about the bush\" is to avoid coming directly to the main point."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 3",
+      "question": "The amount he donated was small. He said it was his widow's mite. This means that",
+      "options": [
+        { "id": "A", "text": "he was a widow" },
+        { "id": "B", "text": "he was miserly" },
+        { "id": "C", "text": "it was all he could honestly afford" },
+        { "id": "D", "text": "he could have given more" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A \"widow's mite\" is a very small contribution given out of real poverty."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 3",
+      "question": "The friendship between Segun and Shehu has turned sour. This means that Segun and Shehu are",
+      "options": [
+        { "id": "A", "text": "no longer friends" },
+        { "id": "B", "text": "still friends" },
+        { "id": "C", "text": "better friends now" },
+        { "id": "D", "text": "getting to understand each other" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A relationship that has \"turned sour\" has become unfriendly or hostile."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 3",
+      "question": "The driver smelled a rat when the policemen asked him to stop. This means that the driver was",
+      "options": [
+        { "id": "A", "text": "reckless" },
+        { "id": "B", "text": "suspicious" },
+        { "id": "C", "text": "careful" },
+        { "id": "D", "text": "offensive" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To \"smell a rat\" is to suspect that something is wrong."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 3",
+      "question": "The students were advised to face their studies and let the sleeping dog lie. This means that the students should",
+      "options": [
+        { "id": "A", "text": "obey the authorities" },
+        { "id": "B", "text": "organise them properly" },
+        { "id": "C", "text": "leave matters as they are now" },
+        { "id": "D", "text": "be as watchful as sleeping dogs" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"Let sleeping dogs lie\" means not disturbing an issue that might cause trouble."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 3",
+      "question": "From the way Ngozi behaves, it is obvious she is a greenhorn. This means that Ngozi is",
+      "options": [
+        { "id": "A", "text": "arrogant" },
+        { "id": "B", "text": "cautious" },
+        { "id": "C", "text": "inexperienced" },
+        { "id": "D", "text": "uncivilised" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A \"greenhorn\" is a beginner or inexperienced person."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 3",
+      "question": "The economic situation is so bad that many wage earners are hardly able to make both ends meet. This means that",
+      "options": [
+        { "id": "A", "text": "people's incomes exceed their expenditure" },
+        { "id": "B", "text": "most people are extravagant with their income" },
+        { "id": "C", "text": "people's earnings are not sufficient for their essential needs" },
+        { "id": "D", "text": "most people engage in activities that bring them extra pay" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "To \"make both ends meet\" means to cover basic expenses; being hardly able to do so means income is inadequate."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 3",
+      "question": "Since I found out his hypocritical nature, I have been keeping him at arm's length. This means that I",
+      "options": [
+        { "id": "A", "text": "avoid being similar with him" },
+        { "id": "B", "text": "ignore his advice" },
+        { "id": "C", "text": "report him to the authority" },
+        { "id": "D", "text": "stop visiting him" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To keep someone \"at arm's length\" is to keep away from close contact with them."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 3",
+      "question": "I knew Okoronkwo's father very well and I must say that his son is a chip off the old block. This means that Okoronkwo",
+      "options": [
+        { "id": "A", "text": "has chosen the same career as his father" },
+        { "id": "B", "text": "is very much like his father" },
+        { "id": "C", "text": "is an extremely different sort of person from his father" },
+        { "id": "D", "text": "has taken up a different profession from his father's" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A \"chip off the old block\" closely resembles a parent in character or behaviour."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 3",
+      "question": "The debating team was warned to make convincing points and not to play to the gallery. This means that the team should not",
+      "options": [
+        { "id": "A", "text": "be selfish" },
+        { "id": "B", "text": "underrate opponents" },
+        { "id": "C", "text": "be over‑confident" },
+        { "id": "D", "text": "attempt to win cheap popularity" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To \"play to the gallery\" is to seek cheap applause rather than do serious work."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 3",
+      "question": "Anyone who thinks that he can succeed in life without working hard is living in a fool's paradise. This means that such a person",
+      "options": [
+        { "id": "A", "text": "is having an illusion" },
+        { "id": "B", "text": "thinks other people are fools" },
+        { "id": "C", "text": "thinks hard work is merely a joke" },
+        { "id": "D", "text": "is on the verge of insanity" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A \"fool's paradise\" is a false sense of happiness or success based on illusion."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 4",
+      "question": "I am happy to inform you that your boys are conscientious.",
+      "options": [
+        { "id": "A", "text": "industrious" },
+        { "id": "B", "text": "carefree" },
+        { "id": "C", "text": "careful" },
+        { "id": "D", "text": "corrupt" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Conscientious means careful and responsible; its opposite here is \"carefree\" (not serious or dutiful)."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 4",
+      "question": "My father is a very prosperous businessman.",
+      "options": [
+        { "id": "A", "text": "ungrateful" },
+        { "id": "B", "text": "unscrupulous" },
+        { "id": "C", "text": "unskilled" },
+        { "id": "D", "text": "unsuccessful" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Prosperous means successful and wealthy; the direct opposite is \"unsuccessful.\""
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 4",
+      "question": "My hostess greeted her guest in a very relaxed manner.",
+      "options": [
+        { "id": "A", "text": "energetic" },
+        { "id": "B", "text": "athletic" },
+        { "id": "C", "text": "stiff" },
+        { "id": "D", "text": "perplexed" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A relaxed manner is the opposite of a tense or \"stiff\" manner."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 4",
+      "question": "Ayo takes his studies rather lightly.",
+      "options": [
+        { "id": "A", "text": "humorously" },
+        { "id": "B", "text": "tediously" },
+        { "id": "C", "text": "carefully" },
+        { "id": "D", "text": "seriously" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To take something lightly is not to take it seriously; the opposite is \"seriously.\""
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 4",
+      "question": "The doctor was very gentle with his patients in the examining room.",
+      "options": [
+        { "id": "A", "text": "harsh" },
+        { "id": "B", "text": "rude" },
+        { "id": "C", "text": "rough" },
+        { "id": "D", "text": "unkind" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Gentle treatment contrasts most directly with \"harsh\" treatment."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 4",
+      "question": "The President took exception to the ignoble role the young man played in the matter.",
+      "options": [
+        { "id": "A", "text": "honourable" },
+        { "id": "B", "text": "embarrassing" },
+        { "id": "C", "text": "dishonourable" },
+        { "id": "D", "text": "extraordinary" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ignoble means base or dishonourable; its opposite is \"honourable.\""
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 4",
+      "question": "The man who had been seriously ill was convalescing at a seaside resort.",
+      "options": [
+        { "id": "A", "text": "regaining health" },
+        { "id": "B", "text": "deteriorating in health" },
+        { "id": "C", "text": "recuperating" },
+        { "id": "D", "text": "relaxing" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To convalesce is to recover health; the opposite idea is \"deteriorating in health.\""
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 4",
+      "question": "For millions of years, the world resources have remained boundless.",
+      "options": [
+        { "id": "A", "text": "unlimited" },
+        { "id": "B", "text": "scarce" },
+        { "id": "C", "text": "indomitable" },
+        { "id": "D", "text": "limited" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Boundless means without limits; the direct antonym is \"limited.\""
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 4",
+      "question": "The difference between the experimental procedures was imperceptible to me.",
+      "options": [
+        { "id": "A", "text": "negligible" },
+        { "id": "B", "text": "significant" },
+        { "id": "C", "text": "obvious" },
+        { "id": "D", "text": "obscure" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Imperceptible means not noticeable; the opposite is \"obvious.\""
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 4",
+      "question": "His antipathy to religious ideas makes him unpopular.",
+      "options": [
+        { "id": "A", "text": "remedy" },
+        { "id": "B", "text": "consciousness" },
+        { "id": "C", "text": "hostility" },
+        { "id": "D", "text": "receptiveness" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Antipathy is strong dislike; its opposite is openness or \"receptiveness.\""
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 5",
+      "question": "He was ... by the trickster.",
+      "options": [
+        { "id": "A", "text": "assisted" },
+        { "id": "B", "text": "duped" },
+        { "id": "C", "text": "enjoined" },
+        { "id": "D", "text": "encouraged" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A trickster cheats or \"dupes\" someone."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 5",
+      "question": "When the soldiers saw that resistance was ..., they stopped fighting.",
+      "options": [
+        { "id": "A", "text": "inadequate" },
+        { "id": "B", "text": "inefficient" },
+        { "id": "C", "text": "futile" },
+        { "id": "D", "text": "successful" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If resistance is \"futile\" (useless), there is no point in continuing to fight."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 5",
+      "question": "You should read all the ... carefully before you decide where to go on holiday.",
+      "options": [
+        { "id": "A", "text": "brochures" },
+        { "id": "B", "text": "prospectus" },
+        { "id": "C", "text": "tickets" },
+        { "id": "D", "text": "handouts" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Travel information for holidays is given in tourist \"brochures.\""
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 5",
+      "question": "The Emir and conqueror of the enemy territories ... next week.",
+      "options": [
+        { "id": "A", "text": "arrives" },
+        { "id": "B", "text": "are to arrive" },
+        { "id": "C", "text": "arrive" },
+        { "id": "D", "text": "are arriving" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The compound title refers to one person, so the singular verb \"arrives\" is required."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 5",
+      "question": "We ought to have visited the Governor, ...?",
+      "options": [
+        { "id": "A", "text": "isn't it" },
+        { "id": "B", "text": "oughtn't we" },
+        { "id": "C", "text": "shouldn't we" },
+        { "id": "D", "text": "haven't" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct tag for \"ought to have visited\" is \"oughtn't we?\""
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 5",
+      "question": "He didn't sense Obi's presence in the room, did he?...",
+      "options": [
+        { "id": "A", "text": "Yes, he did." },
+        { "id": "B", "text": "No, he did." },
+        { "id": "C", "text": "Yes, he didn't." },
+        { "id": "D", "text": "No, he didn't." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A negative statement with a positive tag expects a negative confirmation: \"No, he didn't.\""
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 5",
+      "question": "You can stay here ... as you are quiet.",
+      "options": [
+        { "id": "A", "text": "as long" },
+        { "id": "B", "text": "so long" },
+        { "id": "C", "text": "in a much" },
+        { "id": "D", "text": "for as long" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The standard expression is \"as long as you are quiet.\""
+    },
+    {
+      "id": 51,
+      "instructionId": "Instruction 6",
+      "question": "The witness averred that she had seen Dosun at the scene of the crime.",
+      "options": [
+        { "id": "A", "text": "argued" },
+        { "id": "B", "text": "confirmed" },
+        { "id": "C", "text": "denied" },
+        { "id": "D", "text": "affirmed" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To aver is to state or assert positively; it is closest in meaning to \"affirmed.\""
+    },
+    {
+      "id": 52,
+      "instructionId": "Instruction 6",
+      "question": "The high cost of living these days calls for a lot of frugality.",
+      "options": [
+        { "id": "A", "text": "extravagance" },
+        { "id": "B", "text": "economy" },
+        { "id": "C", "text": "recklessness" },
+        { "id": "D", "text": "prudence" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Frugality means careful spending or \"economy.\""
+    },
+    {
+      "id": 53,
+      "instructionId": "Instruction 6",
+      "question": "Tunde's reaction underscores the points I was making.",
+      "options": [
+        { "id": "A", "text": "justifies" },
+        { "id": "B", "text": "summarizes" },
+        { "id": "C", "text": "emphasizes" },
+        { "id": "D", "text": "clarifies" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "To underscore something is literally to underline it, i.e. to \"emphasize\" it."
+    },
+    {
+      "id": 54,
+      "instructionId": "Instruction 6",
+      "question": "Everyone admired the manager's adroit handling of the crisis in the company.",
+      "options": [
+        { "id": "A", "text": "emphasised" },
+        { "id": "B", "text": "skilful" },
+        { "id": "C", "text": "tactless" },
+        { "id": "D", "text": "clumsy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Adroit means clever or \"skilful\" in handling a situation."
+    },
+    {
+      "id": 55,
+      "instructionId": "Instruction 6",
+      "question": "The principal took exception to the ignoble role the teacher played in the matter.",
+      "options": [
+        { "id": "A", "text": "embarrassing" },
+        { "id": "B", "text": "honourable" },
+        { "id": "C", "text": "extraordinary" },
+        { "id": "D", "text": "dishonourable" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ignoble means base or shameful, so it is closest in meaning to \"dishonourable.\""
+    },
+    {
+      "id": 56,
+      "instructionId": "Instruction 7",
+      "question": "KEY",
+      "options": [
+        { "id": "A", "text": "sit" },
+        { "id": "B", "text": "bet" },
+        { "id": "C", "text": "seat" },
+        { "id": "D", "text": "tread" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The vowel sound in \"key\" /iː/ is the same as in \"seat.\""
+    },
+    {
+      "id": 57,
+      "instructionId": "Instruction 7",
+      "question": "TAUGHT",
+      "options": [
+        { "id": "A", "text": "law" },
+        { "id": "B", "text": "aunt" },
+        { "id": "C", "text": "count" },
+        { "id": "D", "text": "plateau" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Both \"taught\" and \"law\" have the /ɔː/ vowel sound."
+    },
+    {
+      "id": 58,
+      "instructionId": "Instruction 8",
+      "question": "comfortable",
+      "options": [
+        { "id": "A", "text": "COMfortable" },
+        { "id": "B", "text": "comFORTable" },
+        { "id": "C", "text": "comfortABLE" },
+        { "id": "D", "text": "comforTABLE" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In \"comfortable\" the primary stress falls on the first syllable: COM‑fort‑able."
+    },
+    {
+      "id": 59,
+      "instructionId": "Instruction 8",
+      "question": "incapacitate",
+      "options": [
+        { "id": "A", "text": "inCApacitate" },
+        { "id": "B", "text": "incaPAcitate" },
+        { "id": "C", "text": "INcapacitate" },
+        { "id": "D", "text": "incapaciTATE" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The stress in \"incapacitate\" falls on the third syllable: in‑ca‑PA‑ci‑tate."
+    },
+    {
+      "id": 60,
+      "instructionId": "Instruction 8",
+      "question": "encouragement",
+      "options": [
+        { "id": "A", "text": "ENcouragement" },
+        { "id": "B", "text": "enCOURagement" },
+        { "id": "C", "text": "encouRAgement" },
+        { "id": "D", "text": "encourageMENT" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In \"encouragement\" the primary stress is on the second syllable: en‑COUR‑age‑ment."
+    }
+  ]
 }
