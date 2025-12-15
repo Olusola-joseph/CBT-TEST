@@ -1,5 +1,857 @@
+```json
 {
-  "passages": [],
-  "instructions": [],
-  "questions": []
+  "year": 2017,
+  "paper": "JAMB Use of English",
+  "passages": [
+    {
+      "id": "Passage I",
+      "title": "Passage I",
+      "text": "Anthropologists tell us that for a society to remain stable, the roles of men and women must be properly differentiated and well defined. In primitive societies, the men were assigned the roles of going out to hunt, fish and fight off the hostile tribe next door while the women did the housekeeping and minded the children. The men were believed to be superior to the women in physical strength and capability. There was a controversy in these societies as to what the roles of the sexes should be.\n\nConsequently, primitive societies enjoyed great stability. However, with the advancement of civilization, many of the special privileges traditionally enjoyed by men began to be eroded one after another. There is hardly any sphere of human endeavour in which women have not gained a firm foothold: there are women doctors, engineers, pilots, prime ministers, judges, bankers and so on.\n\nToday, the women's spheres of operation are no longer restricted to the home; she is successfully competing with her counterpart in every area of human activity. But has this development been an unqualified blessing to the society?\n\nTo answer this question, let us examine some of the problems created in the process of achieving women's emancipation. First, a large number of women including the married ones and mothers now take up paid employment. The conditions attached to such employment make it extremely difficult if not impossible for them to take adequate care of their children at home. Since no one serve two masters, the health and education of the children suffer tremendously.\n\nAdapted from Ukwuegbe C., et al (2006) CATCH‑Up English Language for SSCEMME, Ibadan: Heinemann Educational Books (Nigeria) PLC."
+    },
+    {
+      "id": "Passage II",
+      "title": "Passage II",
+      "text": "In truth, realistic planning efforts its go with infrastructural ...6... It makes the planning ...7.... When ...8... provisions are made, infrastructural ...9... should lid be embedded. Where these are glaringly ...10..., then national development and integration can be greatly ...11....\n\nHowever, the case with most developing countries is to place other ...12... interests far above the development of infrastructure. A nation inclined to this erroneous position may continue to experience ...13.... This implies that infrastructural development should be made to take ...14... over other sectors. This is because of the immense importance of infrastructure to national ...15...."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 5, read Passage I carefully and answer each question that follows."
+    },
+    {
+      "id": "Instruction 2",
+      "text": "In each of questions 6 to 15, the passage (Passage II) has gaps. Immediately following each gap, four options are provided. Choose the most appropriate option for each gap."
+    },
+    {
+      "id": "Instruction 3",
+      "text": "In each of questions 16 to 25, answer the questions based on S. I. Manyika's \"In Dependence\"."
+    },
+    {
+      "id": "Instruction 4",
+      "text": "In each of questions 26 to 30, select the option that best explains the information conveyed in the sentence."
+    },
+    {
+      "id": "Instruction 5",
+      "text": "In each of questions 31 to 35, choose the option opposite in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 6",
+      "text": "In each of questions 36 to 40, choose the option nearest in meaning to the word or phrase in italics."
+    },
+    {
+      "id": "Instruction 7",
+      "text": "In each of questions 41 to 50, choose the option that best completes the gap(s)."
+    },
+    {
+      "id": "Instruction 8",
+      "text": "In each of questions 51 to 56, choose the option that has the same sound as the one represented by the letter(s) underlined."
+    },
+    {
+      "id": "Instruction 9",
+      "text": "In each of questions 57 to 58, choose the option that has the correct stress pattern. The stressed syllable(s) are written in capital letters."
+    },
+    {
+      "id": "Instruction 10",
+      "text": "In each of questions 59 to 60, the word in capital letters has the emphatic stress. Choose the option to which the given sentence is the appropriate reply."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "passageId": "Passage I",
+      "instructionId": "Instruction 1",
+      "question": "Advantages usually enjoyed by men began to",
+      "options": [
+        { "id": "A", "text": "weaken through gender sensitivity" },
+        { "id": "B", "text": "diminish through women emancipation" },
+        { "id": "C", "text": "dwindle with the advancement of civilization" },
+        { "id": "D", "text": "fade with wide self‑realization" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage says that with the advancement of civilization, many special privileges of men \"began to be eroded\". *Eroded* means gradually worn away or reduced. Option C (“dwindle with the advancement of civilization”) restates that idea directly. Option B mentions women emancipation specifically; the passage actually links the erosion more generally to advancing civilization, not only to emancipation as a movement."
+    },
+    {
+      "id": 2,
+      "passageId": "Passage I",
+      "instructionId": "Instruction 1",
+      "question": "According to the passage, what two masters are women struggling to serve?",
+      "options": [
+        { "id": "A", "text": "The health and education of their children" },
+        { "id": "B", "text": "The husband and the children" },
+        { "id": "C", "text": "The office and the husband" },
+        { "id": "D", "text": "The office and the home" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage explains that many women, including mothers, now take up paid employment, making it difficult to care for their children at home. It then uses the proverb \"no one serve two masters\", referring to the conflicting demands of **paid work (office)** and **home responsibilities**. So they are trying to serve the office and the home. The other options focus on people (husband, children) or aspects (health, education) rather than the two spheres of duty."
+    },
+    {
+      "id": 3,
+      "passageId": "Passage I",
+      "instructionId": "Instruction 1",
+      "question": "According to the passage, ancient societies were secured because",
+      "options": [
+        { "id": "A", "text": "men were assigned superior roles" },
+        { "id": "B", "text": "the tasks of women and men were outlined" },
+        { "id": "C", "text": "women accepted inferior roles" },
+        { "id": "D", "text": "the roles of women were commonly interpreted" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The first sentence states that for stability, the roles of men and women must be \"properly differentiated and well defined\". It adds that primitive societies \"enjoyed great stability\". The clear reason is that the tasks of men and women were clearly outlined and differentiated, not the mere superiority or inferiority of one sex. Thus B captures the principle that clearly defined roles promoted social stability."
+    },
+    {
+      "id": 4,
+      "passageId": "Passage I",
+      "instructionId": "Instruction 1",
+      "question": "From the passage, it can be inferred that women emancipation results in",
+      "options": [
+        { "id": "A", "text": "women becoming covertly ambitious" },
+        { "id": "B", "text": "resentment of men by gain women" },
+        { "id": "C", "text": "crises at home" },
+        { "id": "D", "text": "men becoming nonchalant" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The author notes that many women now take paid employment and that the conditions of such jobs make it nearly impossible for them to care adequately for their children; as a result, \"the health and education of the children suffer tremendously.\" This describes domestic problems or crises in the home. The passage does not explicitly mention resentment of men (B), female ambition as such (A), or changes in men’s attitudes (D)."
+    },
+    {
+      "id": 5,
+      "passageId": "Passage I",
+      "instructionId": "Instruction 1",
+      "question": "The phrase \"suffer tremendously\", as used in the passage, means",
+      "options": [
+        { "id": "A", "text": "greatly disadvantaged" },
+        { "id": "B", "text": "to become worse" },
+        { "id": "C", "text": "badly unpleased" },
+        { "id": "D", "text": "badly affected" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Here, the children's health and education \"suffer tremendously\" because their mothers cannot give them enough attention. To \"suffer\" in such a context means to be adversely or badly affected. Option D expresses this core meaning. Option A is close, but 'disadvantaged' usually refers to social or economic position rather than immediate harm. Options B and C do not directly reflect the extent of damage implied by \"tremendously\"."
+    },
+    {
+      "id": 6,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "In truth, realistic planning efforts its go with infrastructural ...6...",
+      "options": [
+        { "id": "A", "text": "development" },
+        { "id": "B", "text": "projected" },
+        { "id": "C", "text": "arrangement" },
+        { "id": "D", "text": "tenet" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The standard collocation is \"infrastructural **development**\". Realistic planning must go hand in hand with the development of infrastructure. 'Projected' and 'arrangement' do not fit grammatically in this noun slot, and 'tenet' (principle) is conceptually wrong."
+    },
+    {
+      "id": 7,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "It makes the planning ...7....",
+      "options": [
+        { "id": "A", "text": "holistic" },
+        { "id": "B", "text": "a partial" },
+        { "id": "C", "text": "abnormal" },
+        { "id": "D", "text": "curative" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Including infrastructure makes planning comprehensive and well‑rounded. The word used for this is \"holistic\". \"Partial\" is the opposite, \"abnormal\" has the wrong meaning, and \"curative\" relates specifically to healing, not planning."
+    },
+    {
+      "id": 8,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "When ...8... provisions are made, infrastructural ...9... should lid be embedded.",
+      "options": [
+        { "id": "A", "text": "planning" },
+        { "id": "B", "text": "budgetary" },
+        { "id": "C", "text": "projected" },
+        { "id": "D", "text": "national" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Governments make \"budgetary provisions\" for various sectors. The sentence is about planning public expenditure, so \"budgetary provisions\" is the natural phrase. 'Planning provisions' or 'projected provisions' are not standard expressions."
+    },
+    {
+      "id": 9,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "When budgetary provisions are made, infrastructural ...9... should lid be embedded.",
+      "options": [
+        { "id": "A", "text": "estimates" },
+        { "id": "B", "text": "prompt" },
+        { "id": "C", "text": "prompt" },
+        { "id": "D", "text": "processes" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In budgeting, planners prepare **estimates** of how much different projects will cost. So infrastructural *estimates* should be embedded in the budget. 'Prompt' is an adjective/adverb, and 'processes' does not collocate with 'budgetary provisions' in the intended sense."
+    },
+    {
+      "id": 10,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "Where these are glaringly ...10..., then national development and integration can be greatly ...11....",
+      "options": [
+        { "id": "A", "text": "shortened" },
+        { "id": "B", "text": "cleared" },
+        { "id": "C", "text": "omitted" },
+        { "id": "D", "text": "altered" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If infrastructural items are \"glaringly **omitted**\" from the budget, they are left out altogether. That omission undermines development. \"Shortened\" or \"altered\" do not convey absence, and \"cleared\" has an unrelated meaning here."
+    },
+    {
+      "id": 11,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "Where these are glaringly omitted, then national development and integration can be greatly ...11....",
+      "options": [
+        { "id": "A", "text": "impaired" },
+        { "id": "B", "text": "degraded" },
+        { "id": "C", "text": "reduced" },
+        { "id": "D", "text": "denied" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Impaired\" means weakened or damaged, which is exactly what happens to national development when infrastructure is omitted. 'Degraded' often suggests moral or environmental decline, and 'reduced' is too weak and general. 'Denied' would mean no development at all, which overstates the case."
+    },
+    {
+      "id": 12,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "However, the case with most developing countries is to place other ...12... interests far above the development of infrastructure.",
+      "options": [
+        { "id": "A", "text": "sectional" },
+        { "id": "B", "text": "sectorial" },
+        { "id": "C", "text": "selectional" },
+        { "id": "D", "text": "palliative" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The point is that some *sectors* (like politics, consumption, etc.) are favoured above infrastructure. So \"sectorial interests\"—interests of particular sectors—is appropriate. 'Sectional' usually refers to regions or factions; 'selectional' is not a standard word; 'palliative' means soothing but not solving a problem."
+    },
+    {
+      "id": 13,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "A nation inclined to this erroneous position may continue to experience ...13....",
+      "options": [
+        { "id": "A", "text": "economic stagnation" },
+        { "id": "B", "text": "recession" },
+        { "id": "C", "text": "social decay" },
+        { "id": "D", "text": "management" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Neglecting infrastructure keeps an economy from growing, which is \"economic stagnation\"—little or no growth. A 'recession' is a temporary downturn, not necessarily a prolonged state. 'Social decay' shifts the focus to morals rather than infrastructure, and 'management' is not a negative state."
+    },
+    {
+      "id": 14,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "This implies that infrastructural development should be made to take ...14... over other sectors.",
+      "options": [
+        { "id": "A", "text": "antecedent" },
+        { "id": "B", "text": "procedure" },
+        { "id": "C", "text": "control" },
+        { "id": "D", "text": "advantage" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The sense is that infrastructure should be given **priority** over other sectors. Among the options, \"take ... advantage over\" best approximates 'take precedence over'. 'Antecedent' means something that comes before in time or logic; 'procedure' and 'control' do not match the idiom 'take ... over' here."
+    },
+    {
+      "id": 15,
+      "passageId": "Passage II",
+      "instructionId": "Instruction 2",
+      "question": "This is because of the immense importance of infrastructure to national ...15....",
+      "options": [
+        { "id": "A", "text": "awareness" },
+        { "id": "B", "text": "orientation" },
+        { "id": "C", "text": "policy" },
+        { "id": "D", "text": "growth" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Infrastructure—roads, power, water, etc.—is essential to economic **growth**. The other options (awareness, orientation, policy) relate to attitudes or decisions, not directly to the expansion of the economy."
+    },
+    {
+      "id": 16,
+      "instructionId": "Instruction 3",
+      "question": "The college food was described as dreadful by",
+      "options": [
+        { "id": "A", "text": "Jane" },
+        { "id": "B", "text": "Charlie" },
+        { "id": "C", "text": "Mahul" },
+        { "id": "D", "text": "Vanessa" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In *In Dependence*, Vanessa, who comes from a privileged English background, complains that the college food is \"dreadful\". Her comment highlights the cultural and class differences between her and some of the Nigerian students."
+    },
+    {
+      "id": 17,
+      "instructionId": "Instruction 3",
+      "question": "According to the novel, Vanessa fell sick after the party at Charlie's place because",
+      "options": [
+        { "id": "A", "text": "she drank too much and skipped meals" },
+        { "id": "B", "text": "of the continuous ringing of Oxford bells" },
+        { "id": "C", "text": "her room was not warm enough" },
+        { "id": "D", "text": "the food in the college was terrible" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The novel links Vanessa's illness to over‑indulgence at the party and her failure to eat properly. This combination of too much drink and inadequate food leads to her falling sick, symbolising the excesses and pressures of student social life."
+    },
+    {
+      "id": 18,
+      "instructionId": "Instruction 3",
+      "question": "In the novel, it was said that Vanessa's father was in the",
+      "options": [
+        { "id": "A", "text": "Northern Protectorate" },
+        { "id": "B", "text": "colonial service" },
+        { "id": "C", "text": "house of commons" },
+        { "id": "D", "text": "house of lords" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Vanessa's father is a British official posted to Africa, working in the **colonial service**. This background partly explains Vanessa's early experience of Africa and influences her perspectives on race and politics."
+    },
+    {
+      "id": 19,
+      "instructionId": "Instruction 3",
+      "question": "From the novel, the Nigerian film shown created mixed reactions in",
+      "options": [
+        { "id": "A", "text": "Simon" },
+        { "id": "B", "text": "Ike" },
+        { "id": "C", "text": "Francis" },
+        { "id": "D", "text": "Margery" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ike responds to the Nigerian film with mixed feelings—pride, embarrassment, and critical reflection. His reaction captures the complexity of how educated Nigerians view local films that may seem unsophisticated yet are part of their culture."
+    },
+    {
+      "id": 20,
+      "instructionId": "Instruction 3",
+      "question": "The mention of Negritude, in the novel, is an example of",
+      "options": [
+        { "id": "A", "text": "African contribution to democracy" },
+        { "id": "B", "text": "African tribal custom" },
+        { "id": "C", "text": "African contribution to western civilization" },
+        { "id": "D", "text": "African adoption of western culture" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Negritude is a literary and intellectual movement launched by francophone African and Caribbean writers to affirm black identity. It influenced Western literature and philosophy. So its mention illustrates an **African contribution to Western civilization**, not a tribal custom or mere adoption of Western ways."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 3",
+      "question": "Who among the following emphasized the importance of cross‑cultural breeding?",
+      "options": [
+        { "id": "A", "text": "Sengbor" },
+        { "id": "B", "text": "Cesaire" },
+        { "id": "C", "text": "Charlie" },
+        { "id": "D", "text": "Simon" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Sengbor\" in the question refers to Léopold Sédar Senghor, one of the founders of Negritude. He often wrote about the need for a synthesis between African and European cultures—a kind of cross‑cultural \"breeding\". Cesaire was also a Negritude poet but is not the one cited here in that specific context."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 3",
+      "question": "Mr. Richardson's daughter, bothered about Lumumba, wanted to go to",
+      "options": [
+        { "id": "A", "text": "Gabon" },
+        { "id": "B", "text": "Congo" },
+        { "id": "C", "text": "Togo" },
+        { "id": "D", "text": "Guinea" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Patrice Lumumba was the Congolese nationalist leader. In the novel, Mr. Richardson's daughter is concerned about events in Congo and expresses a wish to go there, reflecting the political awareness of some characters."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 3",
+      "question": "The first time Tayo met Vanessa was at",
+      "options": [
+        { "id": "A", "text": "the film presentation" },
+        { "id": "B", "text": "hall for tutorials" },
+        { "id": "C", "text": "Charlie's place" },
+        { "id": "D", "text": "the Oxford University" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Tayo and Vanessa's first significant meeting takes place at a film show, where their conversation begins the relationship that develops through the novel. The other locations are important later but not for their first encounter."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 3",
+      "question": "The article published in the students' paper criticized women for",
+      "options": [
+        { "id": "A", "text": "playing music always" },
+        { "id": "B", "text": "overdressing" },
+        { "id": "C", "text": "distracting the men" },
+        { "id": "D", "text": "partying" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The controversial article claims that female students distract male students from academic work. The criticism is not merely about dressing (B) or partying (D) but about their effect on men's concentration."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 3",
+      "question": "In the novel, Francis pointed out to Ike that Nigerians",
+      "options": [
+        { "id": "A", "text": "were inexperienced in Western democracy" },
+        { "id": "B", "text": "had taken control of their own affairs" },
+        { "id": "C", "text": "should know their history better" },
+        { "id": "D", "text": "should speak with one voice" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Francis argues that for Nigeria to progress, Nigerians must unite and 'speak with one voice'. This underlines the theme of national unity in the face of colonial and internal divisions."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 4",
+      "question": "The government didn't mind my mentioning his name.",
+      "options": [
+        { "id": "A", "text": "He was not angry when I mentioned his name." },
+        { "id": "B", "text": "He was angry when I mentioned his name." },
+        { "id": "C", "text": "He told me not to mention his name." },
+        { "id": "D", "text": "He forgot to mention his name to me." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "To \"not mind\" something means to have no objection to it. So the statement means that the person (here, the government official) was not annoyed or displeased when his name was mentioned. Option A expresses that clearly; B and C are the opposite, and D changes the subject."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 4",
+      "question": "The leader said he was not unaware of the plight of the people.",
+      "options": [
+        { "id": "A", "text": "He knew of their plight." },
+        { "id": "B", "text": "He was not informed of their plight." },
+        { "id": "C", "text": "He could not understand their plight." },
+        { "id": "D", "text": "He felt their plight." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The expression \"not unaware\" is a double negative that cancels out to a positive: he **is aware**. That means he knew of their plight. Option D ('felt their plight') goes further, suggesting sympathy, which is not stated."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 4",
+      "question": "But for the expense, I'd buy a bigger car.",
+      "options": [
+        { "id": "A", "text": "I want to buy a bigger car because it is more expensive." },
+        { "id": "B", "text": "I will not buy a bigger car because it is too expensive." },
+        { "id": "C", "text": "I would buy a bigger car if I had more money." },
+        { "id": "D", "text": "I would like to buy a bigger car if it was not so expensive." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "\"But for\" means \"if it were not for\". So \"But for the expense\" means \"if it were not so expensive\". Option D rephrases this conditional idea directly. Option B is negative but lacks the conditional sense of desire; C mentions 'if I had more money' rather than focusing on the car's being expensive."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 4",
+      "question": "No sooner had he got into the pool than the telephone rang.",
+      "options": [
+        { "id": "A", "text": "He didn't get into the pool because the telephone rang." },
+        { "id": "B", "text": "The telephone rang just after he got into the pool." },
+        { "id": "C", "text": "The telephone rang as he was getting into the pool." },
+        { "id": "D", "text": "The telephone rang before he got into the pool." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The structure \"No sooner had X happened than Y happened\" means Y occurred **immediately after** X. So the correct interpretation is that the phone rang just after he got into the pool. Option C ('as he was getting into') suggests simultaneity rather than sequence; A and D contradict the original statement."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 4",
+      "question": "My father said I might just as well stay at home for another year.",
+      "options": [
+        { "id": "A", "text": "I should stay at home because I had no other choice." },
+        { "id": "B", "text": "I might stay at home and do well." },
+        { "id": "C", "text": "Staying at home was probably the best thing for me." },
+        { "id": "D", "text": "I ought to stay at home in order to do well." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The idiom \"might just as well\" suggests that, given the circumstances, there is no better alternative; if you do the suggested thing you lose nothing. So the father is effectively saying the speaker has little choice but to stay at home. Option A captures this inevitability. Options C and D add a reason ('best thing', 'in order to do well') not stated in the sentence."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 5",
+      "question": "The King's security men were relegated to the east.",
+      "options": [
+        { "id": "A", "text": "discharged from" },
+        { "id": "B", "text": "known in" },
+        { "id": "C", "text": "accepted in" },
+        { "id": "D", "text": "hated by" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "To \"relegate\" someone is to move them to a less important position or place. The opposite idea is to keep them in a privileged or favoured position—i.e. to be **accepted in** a prestigious place. Options A and D are negative in a different way, and B ('known in') is neutral, not opposite."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 5",
+      "question": "The minister averred his commitment.",
+      "options": [
+        { "id": "A", "text": "denied" },
+        { "id": "B", "text": "pledged" },
+        { "id": "C", "text": "undertook" },
+        { "id": "D", "text": "accented" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "To \"aver\" is to state firmly or assert positively. The opposite of a positive assertion is to **deny** it. 'Pledged' and 'undertook' are near‑synonyms, not antonyms."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 5",
+      "question": "The company was on the brink of a financial abyss.",
+      "options": [
+        { "id": "A", "text": "difficult" },
+        { "id": "B", "text": "scandal" },
+        { "id": "C", "text": "services" },
+        { "id": "D", "text": "stability" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "An \"abyss\" is a deep, seemingly bottomless pit; figuratively, it means utter ruin. The opposite in financial terms is **stability**, a sound, secure situation. None of the other options give a positive, secure state."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 5",
+      "question": "Nosa is indisposed.",
+      "options": [
+        { "id": "A", "text": "anxious" },
+        { "id": "B", "text": "fragile" },
+        { "id": "C", "text": "healthy" },
+        { "id": "D", "text": "cautious" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"Indisposed\" often means slightly unwell or not in good health. The opposite is therefore \"healthy\". The other options describe emotions or physical weakness, not simple good health."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 5",
+      "question": "A conscientious student should not receive a reward.",
+      "options": [
+        { "id": "A", "text": "An irresponsible" },
+        { "id": "B", "text": "A persistent" },
+        { "id": "C", "text": "busy" },
+        { "id": "D", "text": "An active" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A \"conscientious\" student is one who works carefully and responsibly. The direct opposite is \"irresponsible\". 'Persistent', 'busy' and 'active' describe effort, not moral responsibility."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 6",
+      "question": "The poem appealed to my sixth sense.",
+      "options": [
+        { "id": "A", "text": "brain" },
+        { "id": "B", "text": "mind" },
+        { "id": "C", "text": "instinct" },
+        { "id": "D", "text": "intelligence" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The \"sixth sense\" is a figurative way of referring to intuitive feeling or **instinct**, beyond the five physical senses. It is not literally the brain or intelligence, which refer to reasoning ability, nor simply 'mind'."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 6",
+      "question": "Sophie anticipated the celebration of her tenth birthday.",
+      "options": [
+        { "id": "A", "text": "suggested" },
+        { "id": "B", "text": "hoped for" },
+        { "id": "C", "text": "imagined" },
+        { "id": "D", "text": "waited for" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To \"anticipate\" an event is to look forward to it and expect it to happen; it combines the ideas of expecting and waiting. Among the options, \"waited for\" best captures this. \"Hoped for\" may or may not involve a definite expectation; 'suggested' and 'imagined' are different actions."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 6",
+      "question": "Mr. Bola is an irascible young man.",
+      "options": [
+        { "id": "A", "text": "a weak" },
+        { "id": "B", "text": "a crabbed" },
+        { "id": "C", "text": "a hilarious" },
+        { "id": "D", "text": "a rude" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Irascible\" means easily angered or quickly provoked to anger. \"Crabbed\" (B) is an older word meaning ill‑tempered or peevish, which is closest in meaning. 'Rude' refers more to bad manners than to a quick temper; 'weak' and 'hilarious' are unrelated."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 6",
+      "question": "She became neurotic as a result of her performance.",
+      "options": [
+        { "id": "A", "text": "balanced" },
+        { "id": "B", "text": "disturbed" },
+        { "id": "C", "text": "rational" },
+        { "id": "D", "text": "excited" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Neurotic\" describes someone suffering from anxiety, obsession, or mental disturbance. So the nearest in meaning is \"disturbed\". 'Balanced' and 'rational' are almost opposites; 'excited' is too mild and does not capture the pathological sense."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 6",
+      "question": "Malam Aliyu lived in lack.",
+      "options": [
+        { "id": "A", "text": "surplus" },
+        { "id": "B", "text": "penury" },
+        { "id": "C", "text": "plenitude" },
+        { "id": "D", "text": "opulence" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The phrase \"lived in lack\" means he lived in poverty or shortage. \"Penury\" is a strong word for extreme poverty. The other options (surplus, plenitude, opulence) describe abundance and are near‑opposites, not near‑synonyms."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 7",
+      "question": "You have to ...... how to make the whole week a memorable one.",
+      "options": [
+        { "id": "A", "text": "thick up" },
+        { "id": "B", "text": "thick on" },
+        { "id": "C", "text": "think about" },
+        { "id": "D", "text": "think at" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct phrasal expression is \"think about\" something, meaning to consider or plan it. \"Thick up/on\" are not English expressions, and 'think at' is ungrammatical."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 7",
+      "question": "Last week I ........ your friend in the salon.",
+      "options": [
+        { "id": "A", "text": "came into" },
+        { "id": "B", "text": "came by" },
+        { "id": "C", "text": "came across" },
+        { "id": "D", "text": "came over" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"Come across\" someone means to meet them by chance. 'Came by' usually means \"visited\" (a place), 'came over' means visited or moved across, and 'came into' suggests entering a place, none of which match the intended idea of an accidental meeting."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 7",
+      "question": "We might wait a little longer, but he would not ..... soon.",
+      "options": [
+        { "id": "A", "text": "turn out" },
+        { "id": "B", "text": "turn up" },
+        { "id": "C", "text": "turn in" },
+        { "id": "D", "text": "turn over" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To \"turn up\" means to arrive or appear. The sentence suggests that although they might wait, he would still not arrive soon. 'Turn out' means result or attend, 'turn in' means go to bed or submit, and 'turn over' has several other meanings (rotate, change sides)."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 7",
+      "question": "His ..... are tied, so he could not do anything to help her.",
+      "options": [
+        { "id": "A", "text": "shoulders" },
+        { "id": "B", "text": "arms" },
+        { "id": "C", "text": "hands" },
+        { "id": "D", "text": "legs" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The idiom is \"his **hands** are tied\", meaning circumstances prevent him from acting. Shoulders, arms, or legs would not form recognised idioms in this context."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 7",
+      "question": "If you want to be part of the conference, you have to ...... a form on me.",
+      "options": [
+        { "id": "A", "text": "fill up" },
+        { "id": "B", "text": "fill out" },
+        { "id": "C", "text": "fill on" },
+        { "id": "D", "text": "fill over" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct phrasal verb with \"form\" is \"fill out\" (American) or \"fill in\" (British). Here 'fill out a form' is closest. 'Fill up' is used with containers (fill up a bottle), while 'fill on' and 'fill over' are incorrect."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 7",
+      "question": "The flight ..... has been postponed.",
+      "options": [
+        { "id": "A", "text": "schedule" },
+        { "id": "B", "text": "timetable" },
+        { "id": "C", "text": "menu" },
+        { "id": "D", "text": "manifest" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "We usually talk about a **flight schedule** being changed or postponed. A 'timetable' is general for buses, trains, etc., but we say \"the flight has been rescheduled\" based on the schedule. 'Menu' and 'manifest' are unrelated (food list; cargo/passenger list)."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 7",
+      "question": "My wife should not worry about this trial, I will always ..... her.",
+      "options": [
+        { "id": "A", "text": "stand for" },
+        { "id": "B", "text": "stand by" },
+        { "id": "C", "text": "stand on" },
+        { "id": "D", "text": "stand over" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To \"stand by\" someone is to support them, especially in difficulties. 'Stand for' usually means represent or tolerate; 'stand on' and 'stand over' do not give the sense of emotional or moral support."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 7",
+      "question": "I can tell from the way he talks that he ...... his mentor.",
+      "options": [
+        { "id": "A", "text": "takes after" },
+        { "id": "B", "text": "takes up" },
+        { "id": "C", "text": "takes from" },
+        { "id": "D", "text": "takes back" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "To \"take after\" someone is to resemble them in behaviour or appearance. The sentence says his way of talking shows resemblance to his mentor. 'Take up' means begin a hobby or occupation; 'take from' and 'take back' have different meanings."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 7",
+      "question": "We have time to -- before the gallery opens.",
+      "options": [
+        { "id": "A", "text": "Make" },
+        { "id": "B", "text": "waste" },
+        { "id": "C", "text": "conserve" },
+        { "id": "D", "text": "keep" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If you have spare time before an event, you can \"waste time\"—do nothing important while waiting. 'Make time' means create time in a schedule, which is the opposite situation; 'conserve time' and 'keep time' are not idiomatic here."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 7",
+      "question": "The time has now come ....... policy change in Nigeria.",
+      "options": [
+        { "id": "A", "text": "to" },
+        { "id": "B", "text": "for" },
+        { "id": "C", "text": "by" },
+        { "id": "D", "text": "at" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The fixed expression is \"the time has come **for** (something)\". So we say \"the time has now come for policy change\". Using 'to' would require a verb (“to change policy”), not a noun phrase."
+    },
+    {
+      "id": 51,
+      "instructionId": "Instruction 8",
+      "question": "tolerated",
+      "options": [
+        { "id": "A", "text": "stale" },
+        { "id": "B", "text": "kneel" },
+        { "id": "C", "text": "met" },
+        { "id": "D", "text": "mat" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In *tolerated*, the underlined vowel (the 'a' in the *‑ated* ending) has the long /eɪ/ sound, as in /ˈtɒləreɪtɪd/. The word *stale* /steɪl/ shares this /eɪ/ diphthong. *Kneel* has /iː/, *met* has /e/, and *mat* has /æ/. Matching sounds, not letters, is the principle: /eɪ/ ↔ /eɪ/."
+    },
+    {
+      "id": 52,
+      "instructionId": "Instruction 8",
+      "question": "gearbox",
+      "options": [
+        { "id": "A", "text": "bare" },
+        { "id": "B", "text": "feature" },
+        { "id": "C", "text": "beer" },
+        { "id": "D", "text": "teacher" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In *gearbox*, the underlined letters (\"ear\" in *gear*) are pronounced /ɪə/ (gɪə). *Beer* /bɪə/ has the same /ɪə/ sound. *Bare* /beə/ uses /eə/; *feature* and *teacher* have /iː/ followed by /tʃə/. Examinations often test these 'ear' spellings: /ɪə/ in *gear/beer* vs /eə/ in *bear/bare*."
+    },
+    {
+      "id": 53,
+      "instructionId": "Instruction 8",
+      "question": "confusion",
+      "options": [
+        { "id": "A", "text": "measure" },
+        { "id": "B", "text": "mission" },
+        { "id": "C", "text": "correction" },
+        { "id": "D", "text": "caution" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In *confusion*, the underlined part *sion* is pronounced /ʒən/ (con‑*fyuʒən*). The consonant /ʒ/ is heard in *measure* /ˈmeʒə/ as well. In *mission, correction,* and *caution*, the corresponding sound is /ʃ/ (as in *sh*), not /ʒ/. So only *measure* matches the fricative /ʒ/."
+    },
+    {
+      "id": 54,
+      "instructionId": "Instruction 8",
+      "question": "tertiary",
+      "options": [
+        { "id": "A", "text": "shame" },
+        { "id": "B", "text": "question" },
+        { "id": "C", "text": "catch" },
+        { "id": "D", "text": "chair" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In *tertiary*, the underlined \"ti\" is pronounced /ʃ/ (ter‑*ʃə*‑ri). The same /ʃ/ sound begins *shame* /ʃeɪm/. In *question, catch,* and *chair* the 'ch' or 'tch' is /tʃ/ (a \"ch\" sound), not /ʃ/. Listening tests often contrast these two affricate/fricative sounds."
+    },
+    {
+      "id": 55,
+      "instructionId": "Instruction 8",
+      "question": "poster",
+      "options": [
+        { "id": "A", "text": "jotter" },
+        { "id": "B", "text": "counter" },
+        { "id": "C", "text": "heater" },
+        { "id": "D", "text": "motor" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In *poster*, the underlined vowel 'o' is pronounced /əʊ/ (POH‑ster). *Motor* /ˈməʊtə/ shares this /əʊ/ sound in *mo*. *Jotter* uses /ɒ/, *counter* has /aʊ/, and *heater* has /iː/. The principle is to match the diphthong /əʊ/ as in *go, no, poster, motor*."
+    },
+    {
+      "id": 56,
+      "instructionId": "Instruction 8",
+      "question": "cowed",
+      "options": [
+        { "id": "A", "text": "low" },
+        { "id": "B", "text": "flow" },
+        { "id": "C", "text": "loud" },
+        { "id": "D", "text": "cooed" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In *cowed*, 'ow' is pronounced /aʊ/ (as in *cow*). Among the options, only *loud* /laʊd/ has the same /aʊ/ diphthong. *Low* and *flow* contain /əʊ/ (as in *go*), and *cooed* has /uː/. Distinguishing /aʊ/ (now, loud) from /əʊ/ (no, low) is a common exam task."
+    },
+    {
+      "id": 57,
+      "instructionId": "Instruction 9",
+      "question": "distribution",
+      "options": [
+        { "id": "A", "text": "distriBUtion" },
+        { "id": "B", "text": "DIStribution" },
+        { "id": "C", "text": "disTRIbution" },
+        { "id": "D", "text": "distribution’" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The word *distribution* has four syllables: dis‑tri‑BU‑tion. In standard pronunciation /ˌdɪstrɪˈbjuːʃn/, the main stress falls on the third syllable *BU*. Option A correctly marks this (**distriBUtion**). Option B wrongly stresses the first syllable, C the second, while D does not mark any stress clearly. A general rule: many -tion/-sion nouns place stress two syllables before the ending (dis‑tri‑**BU**‑tion)."
+    },
+    {
+      "id": 58,
+      "instructionId": "Instruction 9",
+      "question": "irrevocable",
+      "options": [
+        { "id": "A", "text": "irreVOcable" },
+        { "id": "B", "text": "Irrecocable" },
+        { "id": "C", "text": "iRREvocable" },
+        { "id": "D", "text": "irrevocaBLE" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "*Irrevocable* has five syllables: i‑RRE‑vo‑ca‑ble. The stress is on the second syllable /ɪˈrevəkəbl/. Option C (**iRREvocable**) shows this. Option A stresses the third syllable (VO), D the last (BLE), and B is simply a misspelling. A useful pattern: for many words with prefixes like *ir‑, im‑, in‑*, the stress falls on the root, not on the prefix."
+    },
+    {
+      "id": 59,
+      "instructionId": "Instruction 10",
+      "question": "My house is ACROSS the road.",
+      "options": [
+        { "id": "A", "text": "Is her house the road?" },
+        { "id": "B", "text": "Is my room across the road?" },
+        { "id": "C", "text": "Is my house on the road?" },
+        { "id": "D", "text": "Is my house across the street?" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In emphatic‑stress questions, the capitalised word corrects a wrong assumption in the question. The stress is on **ACROSS**, so the incorrect element in the question must be a *different* place preposition.\n\nQuestion (C) – *\"Is my house **on** the road?\"* – assumes the house is on the road itself. A suitable corrective answer is: *\"No, my house is **ACROSS** the road.\"* That contrast (on ↔ across) explains the emphasis. Options (A) and (B) change the subject or object, and (D) already uses „across‟, so there is nothing for the emphatic stress on ACROSS to correct."
+    },
+    {
+      "id": 60,
+      "instructionId": "Instruction 10",
+      "question": "The shop closes AT 4pm.",
+      "options": [
+        { "id": "A", "text": "Does the shop close by 4pm?" },
+        { "id": "B", "text": "Does the shop opens at 4pm?" },
+        { "id": "C", "text": "Does the stall close at 4pm?" },
+        { "id": "D", "text": "Does a shop close at 4pm?" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The stressed word is **AT**, so the incorrect element in the question must be some *other* time expression. Question (A) – *\"Does the shop close **by** 4pm?\"* – contrasts \"by\" (any time up to 4 p.m.) with \"at\" (exactly 4 p.m.). The emphatic answer, *\"No, the shop closes **AT** 4 p.m.\"*, corrects that wrong preposition, which justifies the stress.\n\nOptions (B), (C) and (D) all already contain *at 4pm* or raise different issues (subject, article) instead of the preposition of time, so the emphatic stress on **AT** would not make sense with them."
+    }
+  ]
 }
+```
