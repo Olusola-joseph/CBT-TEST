@@ -1,0 +1,679 @@
+
+{
+  "year": 1986,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1986_PopulationTable",
+      "file": "images/econ1986_q10_population_table.png",
+      "description": "Age‑group table for Question 10 showing population distribution: Above 60 years = 25%, 15–60 years = 60%, 0–14 years = 15%."
+    },
+    {
+      "id": "Econ1986_DemandSchedule_X",
+      "file": "images/econ1986_q17_18_demand_schedule.png",
+      "description": "Market demand schedule for commodity X used in Questions 17 and 18. (Price against quantity demanded in million units)."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "instructionId": "Instruction 1",
+      "question": "Choice in economic life is necessitated by",
+      "options": [
+        { "id": "A", "text": "the need to construct scale of preference" },
+        { "id": "B", "text": "the opportunity cost of consumption" },
+        { "id": "C", "text": "unlimited wants" },
+        { "id": "D", "text": "scarcity of economic resources" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "We face choices because **resources are scarce** relative to wants. Scale of preference and opportunity cost are consequences of scarcity, not its cause."
+    },
+    {
+      "id": 2,
+      "instructionId": "Instruction 1",
+      "question": "Which of these is the real cost of satisfying any want in the sense of the alternative that has to be foregone?",
+      "options": [
+        { "id": "A", "text": "Variable cost" },
+        { "id": "B", "text": "Opportunity cost" },
+        { "id": "C", "text": "Total cost" },
+        { "id": "D", "text": "Prime cost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The **real cost** of satisfying a want is the value of the next best alternative forgone, that is, the **opportunity cost**."
+    },
+    {
+      "id": 3,
+      "instructionId": "Instruction 1",
+      "question": "Under normal circumstances the concept of consumer sovereignty implies that",
+      "options": [
+        { "id": "A", "text": "the consumer and not the producer owns the means of production" },
+        { "id": "B", "text": "the producer and not the consumer determines what is to be produced" },
+        { "id": "C", "text": "the consumer and not the producer determines what is to be produced" },
+        { "id": "D", "text": "both the consumer and the producer determine what is to be produced" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Consumer sovereignty means that **consumer preferences direct production**—producers respond to what consumers are willing to buy."
+    },
+    {
+      "id": 4,
+      "instructionId": "Instruction 1",
+      "question": "A firm is at its optimum size when",
+      "options": [
+        { "id": "A", "text": "it produces the greatest output at the minimum average cost" },
+        { "id": "B", "text": "it has a motive to increase output" },
+        { "id": "C", "text": "marginal cost equals marginal revenue" },
+        { "id": "D", "text": "marginal cost is less than marginal revenue" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Optimum size refers to the scale of operation where **average cost is minimized** and the firm can produce the **greatest output at the lowest cost per unit**."
+    },
+    {
+      "id": 5,
+      "instructionId": "Instruction 1",
+      "question": "The degree of specialization is limited by the",
+      "options": [
+        { "id": "A", "text": "availability of specialized skills and machinery" },
+        { "id": "B", "text": "marginal cost exceeding marginal revenue" },
+        { "id": "C", "text": "extent of the market" },
+        { "id": "D", "text": "disadvantages of standardization" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "According to Adam Smith, division of labour is limited by the **extent of the market**; a small market cannot support highly specialized production."
+    },
+    {
+      "id": 6,
+      "instructionId": "Instruction 1",
+      "question": "Production in Economics can be defined as the",
+      "options": [
+        { "id": "A", "text": "totality of producing, buying and consuming" },
+        { "id": "B", "text": "transformation of raw materials and services in order to provide utility" },
+        { "id": "C", "text": "transformation of raw materials and services in order to make maximum profit" },
+        { "id": "D", "text": "production of goods and services for sale only" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In economics, production is **creation or addition of utility**—transforming inputs into goods and services that satisfy wants. Profit is an outcome, not part of the definition."
+    },
+    {
+      "id": 7,
+      "instructionId": "Instruction 1",
+      "question": "A firm achieves least cost in production by substituting factors until",
+      "options": [
+        { "id": "A", "text": "their factor prices are equal" },
+        { "id": "B", "text": "their marginal physical products are each equal to their factor prices" },
+        { "id": "C", "text": "their marginal physical products are each zero" },
+        { "id": "D", "text": "the ratio of their marginal physical products equals the ratio of their prices" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Cost minimisation requires that\nMP₁ / P₁ = MP₂ / P₂ = ...\nso the **ratio of each factor’s marginal product to its price is equal**. Equivalently, the ratio of marginal products equals the ratio of prices."
+    },
+    {
+      "id": 8,
+      "instructionId": "Instruction 1",
+      "question": "If a person receives a higher wage than would be necessary to induce him to work, he is said to be receiving",
+      "options": [
+        { "id": "A", "text": "rent" },
+        { "id": "B", "text": "profit" },
+        { "id": "C", "text": "interest" },
+        { "id": "D", "text": "overtime pay" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In labour economics, any payment to a factor **above the minimum required to keep it in its present employment** is called **economic rent**."
+    },
+    {
+      "id": 9,
+      "instructionId": "Instruction 1",
+      "question": "Mobility of labour is NOT affected by",
+      "options": [
+        { "id": "A", "text": "optimum size of population" },
+        { "id": "B", "text": "marriage and family ties" },
+        { "id": "C", "text": "regulation and traditions" },
+        { "id": "D", "text": "period of training" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Whether labour can move between jobs or regions depends on training, social ties and legal/institutional constraints (B–D). The overall **size of population** (A) does not directly affect an individual worker's mobility."
+    },
+    {
+      "id": 10,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1986_PopulationTable",
+      "question": "A country has the population distribution shown in Figure Econ1986_PopulationTable. The dependency ratio is",
+      "options": [
+        { "id": "A", "text": "3 : 2" },
+        { "id": "B", "text": "2 : 1" },
+        { "id": "C", "text": "2 : 3" },
+        { "id": "D", "text": "2 : 5" },
+        { "id": "E", "text": "1 : 5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dependants are those aged 0–14 and above 60 = 15% + 25% = 40%. Working‑age (15–60) = 60%. Dependency ratio = dependants : working‑age = 40 : 60 = **2 : 3**."
+    },
+    {
+      "id": 11,
+      "instructionId": "Instruction 1",
+      "question": "Population density refers to",
+      "options": [
+        { "id": "A", "text": "a densely populated urban centre" },
+        { "id": "B", "text": "the total area divided by the total population" },
+        { "id": "C", "text": "densely populated rural areas" },
+        { "id": "D", "text": "the total population divided by the total area" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Population density = **population / land area**. Option B inverts the ratio."
+    },
+    {
+      "id": 12,
+      "instructionId": "Instruction 1",
+      "question": "What fundamentally determines how much a consumer spends in a producer's shop?",
+      "options": [
+        { "id": "A", "text": "individual's propensity to consume" },
+        { "id": "B", "text": "level of his taxation" },
+        { "id": "C", "text": "level of his income" },
+        { "id": "D", "text": "individual's taste or fashion" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "While tastes and tax do matter, the **primary constraint** on a consumer’s spending is his or her **income level**."
+    },
+    {
+      "id": 13,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following statements best describes a mixed economy?",
+      "options": [
+        { "id": "A", "text": "The government and the private sector interact in solving basic economic problems" },
+        { "id": "B", "text": "The invisible hand alone solves the basic economic problems" },
+        { "id": "C", "text": "The government produces and distributes all goods and services" },
+        { "id": "D", "text": "Society answers the 'what', 'how' and 'for whom' questions only through the market system" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **mixed economy** combines elements of market and command systems: both government and private sector play active roles in resource allocation."
+    },
+    {
+      "id": 14,
+      "instructionId": "Instruction 1",
+      "question": "In drawing an individual's demand curve for a commodity, which of the following is NOT kept constant?",
+      "options": [
+        { "id": "A", "text": "individual's money income" },
+        { "id": "B", "text": "price of substitutes" },
+        { "id": "C", "text": "price of complementary goods" },
+        { "id": "D", "text": "price of the commodity under consideration" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The demand curve shows how quantity demanded changes **as the price of the commodity itself changes**; all other determinants (income, prices of related goods) are held constant."
+    },
+    {
+      "id": 15,
+      "instructionId": "Instruction 1",
+      "question": "Given that beef and fish are substitutes, a rise in the price of beef relative to that of fish will",
+      "options": [
+        { "id": "A", "text": "induce greater demand for beef" },
+        { "id": "B", "text": "induce greater demand for fish" },
+        { "id": "C", "text": "induce lower demand for fish" },
+        { "id": "D", "text": "equate demands for beef and fish" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If goods are **substitutes**, a price increase for one (beef) causes consumers to switch to the other (fish), so demand for fish increases."
+    },
+    {
+      "id": 16,
+      "instructionId": "Instruction 1",
+      "question": "The main function of the price mechanism is to",
+      "options": [
+        { "id": "A", "text": "limit consumer demand" },
+        { "id": "B", "text": "enable producers to make profits" },
+        { "id": "C", "text": "allocate scarce resources among competing ends" },
+        { "id": "D", "text": "ensure consumer sovereignty" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a market system, changes in prices guide resources into their **most valued uses**, allocating scarce resources among competing wants."
+    },
+    {
+      "id": 17,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1986_DemandSchedule_X",
+      "question": "Using the market demand schedule for commodity X in Figure Econ1986_DemandSchedule_X, if the price of X falls from ₦4.00 to ₦3.00, what is the price elasticity of demand?",
+      "options": [
+        { "id": "A", "text": "0.2" },
+        { "id": "B", "text": "0.73" },
+        { "id": "C", "text": "1.00" },
+        { "id": "D", "text": "1.50" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct elasticity depends on the **exact quantities** at ₦4.00 and ₦3.00 from the demand schedule. Because the numerical entries in the scanned table are not completely legible, the precise value cannot be determined reliably from the image alone."
+    },
+    {
+      "id": 18,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1986_DemandSchedule_X",
+      "question": "The revenue accruing to the seller of commodity X as a result of the fall in price in Question 17 will",
+      "options": [
+        { "id": "A", "text": "increase" },
+        { "id": "B", "text": "fall" },
+        { "id": "C", "text": "first fall but will increase later" },
+        { "id": "D", "text": "remain unchanged" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Total revenue will rise if demand is **elastic** and fall if demand is **inelastic** over the price range in Question 17. Because the elasticity could not be calculated accurately (see Q17), the correct option cannot be fixed with certainty from the blurred table."
+    },
+    {
+      "id": 19,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is an important function of prices in a market economy?",
+      "options": [
+        { "id": "A", "text": "Ensuring that resources are used in the most efficient manner" },
+        { "id": "B", "text": "Ensuring an equitable distribution of goods and services" },
+        { "id": "C", "text": "Ensuring that all industries are perfectly competitive in the long run" },
+        { "id": "D", "text": "Equating level of purchases with that of sales" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Through the price mechanism, resources are drawn into activities where they earn the highest returns, promoting **efficient allocation**. B and C are not guaranteed in a market economy."
+    },
+    {
+      "id": 20,
+      "instructionId": "Instruction 1",
+      "question": "One major difference between monopoly and perfect competition is that",
+      "options": [
+        { "id": "A", "text": "the perfect competitor is a price taker while the monopolist determines his own price" },
+        { "id": "B", "text": "homogeneity of purpose exists for the perfect competitor while not for the monopolist" },
+        { "id": "C", "text": "sellers are located all over the world only under perfect competition" },
+        { "id": "D", "text": "there is greater advertising in perfect competition than in monopoly" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In **perfect competition** each firm is a **price taker**, accepting the market price. A monopolist, however, faces the market demand curve and can **choose price/quantity** combination, giving it market power."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 1",
+      "question": "A producer sustains a loss in the short run if",
+      "options": [
+        { "id": "A", "text": "marginal revenue is less than price" },
+        { "id": "B", "text": "price is less than average cost" },
+        { "id": "C", "text": "average variable cost is less than average cost" },
+        { "id": "D", "text": "marginal cost is less than marginal revenue" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Loss occurs when **total revenue < total cost**, which in per‑unit terms means **price < average cost** at the chosen output level."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 1",
+      "question": "A monopolist will practise price discrimination in two markets if",
+      "options": [
+        { "id": "A", "text": "the cost of separating the markets is large" },
+        { "id": "B", "text": "the markets have different elasticities of demand" },
+        { "id": "C", "text": "there is free flow of information in the two markets" },
+        { "id": "D", "text": "the markets have the same elasticity of demand" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Price discrimination is profitable only if the markets have **different demand elasticities** so that higher prices can be charged where demand is inelastic and lower prices where demand is elastic."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 1",
+      "question": "In the normal channel of distribution the breaking of bulk is performed by the",
+      "options": [
+        { "id": "A", "text": "producer" },
+        { "id": "B", "text": "wholesaler" },
+        { "id": "C", "text": "retailer" },
+        { "id": "D", "text": "consumer" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Wholesalers buy in large quantities from producers and **break bulk** into smaller lots which are then sold to retailers."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 1",
+      "question": "The most important advantage of co‑operative societies is that",
+      "options": [
+        { "id": "A", "text": "they have a high degree of democracy" },
+        { "id": "B", "text": "there is an increase in extent of marketing" },
+        { "id": "C", "text": "their members are encouraged to save money" },
+        { "id": "D", "text": "they provide possibilities of raising loans for members" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A central aim of many co‑operative societies (especially thrift and credit societies) is to **encourage members to save regularly**, building up funds that can then be lent to members."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 1",
+      "question": "In a public company, shares are",
+      "options": [
+        { "id": "A", "text": "sold to one person only" },
+        { "id": "B", "text": "distributed freely" },
+        { "id": "C", "text": "advertised to members of the public for subscription" },
+        { "id": "D", "text": "disposed of only by the chief executive" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A public limited company offers its shares to the **general public**, usually through public subscription advertised in the press."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is a characteristic of a private limited‑liability company?",
+      "options": [
+        { "id": "A", "text": "Its shares can be sold to the public" },
+        { "id": "B", "text": "the number of shareholders ranges from fifty to one hundred" },
+        { "id": "C", "text": "the number of shareholders ranges from two to fifty" },
+        { "id": "D", "text": "all shareholders have equal powers and responsibilities" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In Nigeria, a private limited‑liability company must have **between two and fifty shareholders**, and its shares are not offered to the public."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 1",
+      "question": "One of the advantages of a partnership over a sole proprietorship is that",
+      "options": [
+        { "id": "A", "text": "it is the most popular form of business organization" },
+        { "id": "B", "text": "the partner can easily withdraw from the business" },
+        { "id": "C", "text": "it makes an increase in the capital of the business possible" },
+        { "id": "D", "text": "there is no limit to the number of people who may bring in capital" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Because **two or more people** pool their funds, a partnership can generally raise **more capital** than a sole trader."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is an external economy derived by a firm?",
+      "options": [
+        { "id": "A", "text": "Low‑cost opportunities enjoyed by being in a place where other producers concentrate" },
+        { "id": "B", "text": "Technical economies enjoyed by varying the factors of production" },
+        { "id": "C", "text": "Economies of management by putting administrators where they are most efficient" },
+        { "id": "D", "text": "Marketing advantages attained through preferential treatment in purchase and distribution of produce" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "External economies arise from the **growth of the industry or region** (e.g. shared infrastructure and skilled labour). Locating where many other producers are concentrated (A) is an example."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following advantages of localization of industries may also be a disadvantage?",
+      "options": [
+        { "id": "A", "text": "External economies" },
+        { "id": "B", "text": "Concentration of industries and of people" },
+        { "id": "C", "text": "Development of organized markets" },
+        { "id": "D", "text": "Reduced cost of research" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Localization leads to **concentration** of firms and people in one area. While this can bring benefits (labour pool, markets), it can also cause **congestion, pollution and high rents**, so it is both an advantage and a disadvantage."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 1",
+      "question": "The Nigerian Bank for Commerce and Industry is a",
+      "options": [
+        { "id": "A", "text": "commercial bank" },
+        { "id": "B", "text": "development bank" },
+        { "id": "C", "text": "industrial bank" },
+        { "id": "D", "text": "merchant bank" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Nigerian Bank for Commerce and Industry was set up as a **development bank** to provide long‑term finance for industrial and commercial projects."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 1",
+      "question": "To control inflation, the monetary authorities of a country can",
+      "options": [
+        { "id": "A", "text": "reduce taxes" },
+        { "id": "B", "text": "advise government to increase its expenditure" },
+        { "id": "C", "text": "engage in expansive monetary policy" },
+        { "id": "D", "text": "engage in restrictive monetary policy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To fight inflation, monetary authorities use **restrictive (contractionary) monetary policy**: raising interest rates, selling securities, increasing reserve ratios to reduce money supply."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is used by the Central Bank to control the rate of interest?",
+      "options": [
+        { "id": "A", "text": "bill of exchange" },
+        { "id": "B", "text": "banker's order" },
+        { "id": "C", "text": "fixed deposit account" },
+        { "id": "D", "text": "open market operation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "By **buying or selling government securities** in open‑market operations, the Central Bank influences the supply of reserves and hence commercial bank lending rates."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 1",
+      "question": "Gresham's law in Economics shows that",
+      "options": [
+        { "id": "A", "text": "bad money drives good money out of circulation" },
+        { "id": "B", "text": "good money drives bad money out of circulation" },
+        { "id": "C", "text": "gold must be available to maintain the value of paper money" },
+        { "id": "D", "text": "the price level varies directly with the quantity of money" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Gresham's law states that when two forms of money with the same face value circulate together, **\"bad\" (over‑valued) money tends to drive \"good\" (under‑valued) money out of circulation**."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 1",
+      "question": "Given that the cash reserve ratio is 10 percent, what is the maximum amount of money that the banking system can create from an initial cash deposit of ₦100.00?",
+      "options": [
+        { "id": "A", "text": "₦100.00" },
+        { "id": "B", "text": "₦1,000.00" },
+        { "id": "C", "text": "₦900.00" },
+        { "id": "D", "text": "₦10,000.00" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Money multiplier = 1 / reserve ratio = 1 / 0.10 = 10. Maximum deposits = 10 × ₦100 = **₦1,000.00**."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 1",
+      "question": "The most important economic characteristic differentiating commercial banks from other financial institutions is their",
+      "options": [
+        { "id": "A", "text": "function as a safe and profitable store place for savings" },
+        { "id": "B", "text": "role in financing balance‑of‑payments deficits" },
+        { "id": "C", "text": "status as an intermediary between savers and borrowers" },
+        { "id": "D", "text": "ability to create and destroy money" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Only commercial banks, through their deposit‑creation process, **create and destroy credit money**; this distinguishes them from other intermediaries such as savings banks or insurance companies."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 1",
+      "question": "Deflation is a persistent fall in the general price level and is usually caused by",
+      "options": [
+        { "id": "A", "text": "a reduction in total demand" },
+        { "id": "B", "text": "an increase in government spending" },
+        { "id": "C", "text": "an increase in consumer demand" },
+        { "id": "D", "text": "an increase in the money supply" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Deflation occurs when **aggregate demand falls** persistently below aggregate supply, leading to falling prices and output."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following causes of inflation is related to demand‑pull inflation?",
+      "options": [
+        { "id": "A", "text": "low productivity on farms and in firms" },
+        { "id": "B", "text": "poor storage facilities" },
+        { "id": "C", "text": "poor distribution system" },
+        { "id": "D", "text": "increase in government expenditure on construction" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Demand‑pull inflation results from **excess aggregate demand**. Increased government spending on construction raises demand for goods and labour, pushing up prices."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT a goal of modern budgets?",
+      "options": [
+        { "id": "A", "text": "the control of inflation" },
+        { "id": "B", "text": "the reduction in income inequality" },
+        { "id": "C", "text": "the shift of all resources from the private to the public sector" },
+        { "id": "D", "text": "economic development" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Modern budgeting aims at stabilisation, equity and development (A, B, D). **Transferring all resources** from private to public sector (C) is not a typical budget objective in mixed economies."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 1",
+      "question": "The best technical description of a progressive tax is a tax which",
+      "options": [
+        { "id": "A", "text": "takes more money from the rich than from the poor" },
+        { "id": "B", "text": "is more equitable than a regressive one" },
+        { "id": "C", "text": "takes a higher proportion of extra income as income rises" },
+        { "id": "D", "text": "falls directly on those in the high‑income brackets" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A **progressive tax** is one where the **average tax rate rises as income increases**, i.e. a higher proportion of income is paid in tax at higher income levels."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 1",
+      "question": "Tax incidence is the analysis of",
+      "options": [
+        { "id": "A", "text": "how progressive a tax is" },
+        { "id": "B", "text": "how a tax is collected" },
+        { "id": "C", "text": "how distorting a tax is" },
+        { "id": "D", "text": "who ultimately pays the tax" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Tax incidence studies the **final distribution of the tax burden**, i.e. who actually bears the tax after all shifting has occurred."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 1",
+      "question": "In international trade, a country specializes in the production of a commodity or group of commodities for which it has",
+      "options": [
+        { "id": "A", "text": "a buoyant market" },
+        { "id": "B", "text": "plenty of raw materials" },
+        { "id": "C", "text": "the greatest relative advantage" },
+        { "id": "D", "text": "excessive manpower" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "According to the theory of comparative advantage, countries gain by specialising in goods they can produce at **lower opportunity cost**—their greatest relative advantage."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 1",
+      "question": "Balance‑of‑payments deficit in Nigeria CANNOT be solved by",
+      "options": [
+        { "id": "A", "text": "importing more goods and services" },
+        { "id": "B", "text": "devaluation of the currency" },
+        { "id": "C", "text": "imposing import duties" },
+        { "id": "D", "text": "imposing import bans on some commodities" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A balance‑of‑payments deficit means **excess payments abroad**. Importing more goods and services (A) would **worsen** the deficit, not cure it. Devaluation and import restrictions (B–D) are corrective measures."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 1",
+      "question": "The term 'balance of trade' can be defined as the",
+      "options": [
+        { "id": "A", "text": "relation between value of exports and value of imports over a given period of time" },
+        { "id": "B", "text": "balance owed to the rest of the world in payment for imports" },
+        { "id": "C", "text": "price paid for imports in terms of exports" },
+        { "id": "D", "text": "relation between payments of all kinds made by a country to the rest of the world over a given period" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Balance of trade is the **difference between the value of visible exports and imports** during a period—i.e. the relation between their values."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 1",
+      "question": "The terms of trade is often measured by the ratio of the index of export prices",
+      "options": [
+        { "id": "A", "text": "divided by the index of import prices multiplied by 100" },
+        { "id": "B", "text": "multiplied by the index of import prices" },
+        { "id": "C", "text": "plus the index of import prices multiplied by 100" },
+        { "id": "D", "text": "minus the index of import prices" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Terms of trade = (index of export prices ÷ index of import prices) × 100. This tells how many units of imports a unit of exports can buy relative to the base year."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 1",
+      "question": "A society which forgoes present consumption",
+      "options": [
+        { "id": "A", "text": "is forced to do so because of excessive consumption within the country in the past" },
+        { "id": "B", "text": "is devoting new resources to new capital formation" },
+        { "id": "C", "text": "is merely devoting resources to the replacement of capital" },
+        { "id": "D", "text": "expects to consume only that amount tomorrow which was forgone today" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Forgoing present consumption in order to invest means using resources for **new capital formation**, which raises future productive capacity."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 1",
+      "question": "ECOWAS will enable the countries in West Africa to achieve",
+      "options": [
+        { "id": "A", "text": "comparative political advantage over other countries in the region" },
+        { "id": "B", "text": "a large market for their products" },
+        { "id": "C", "text": "military superiority over countries not in the region" },
+        { "id": "D", "text": "lower transportation cost of goods within the region" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A main economic objective of ECOWAS is to create a **larger common market** by reducing trade barriers among member states, thereby expanding markets for their products."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following methods is most likely to lead to an increased rate of growth in the national economy?",
+      "options": [
+        { "id": "A", "text": "an increase in wages and profits" },
+        { "id": "B", "text": "an increase in consumer demand" },
+        { "id": "C", "text": "a greater fraction of the national product going into investment" },
+        { "id": "D", "text": "a continuous rise in bank loans" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Long‑run economic growth is driven mainly by **higher investment** in capital goods; allocating more of national output to investment (C) raises productive capacity."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 1",
+      "question": "The difference between the Gross Domestic Product and the Gross National Product is the",
+      "options": [
+        { "id": "A", "text": "allowance for total depreciation" },
+        { "id": "B", "text": "total interest payments" },
+        { "id": "C", "text": "total tax and interest payments" },
+        { "id": "D", "text": "net income from abroad" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "GNP = GDP + **net factor income from abroad**. So the difference between the two is net income received from (or paid to) the rest of the world."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following strategies will provide more employment opportunities for Nigerians?",
+      "options": [
+        { "id": "A", "text": "investment in social services" },
+        { "id": "B", "text": "industrialization" },
+        { "id": "C", "text": "economic planning" },
+        { "id": "D", "text": "eradication of illiteracy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "While social services and education are important, **industrialization** directly expands manufacturing and related sectors, creating large numbers of jobs."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 1",
+      "question": "A nation’s distribution of income shows",
+      "options": [
+        { "id": "A", "text": "the value of all goods produced in the economy" },
+        { "id": "B", "text": "how income is divided among different groups" },
+        { "id": "C", "text": "where the economy is on its production‑possibility curve" },
+        { "id": "D", "text": "the consumption behaviour of the people" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Income distribution describes **how total income is shared** among individuals, households or socio‑economic groups in the economy."
+    }
+  ]
+}
