@@ -1,0 +1,685 @@
+```json
+{
+  "year": 1987,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1987_Supply_PS",
+      "file": "images/econ1987_q20_horizontal_supply.png",
+      "description": "Price–quantity diagram for Question 20. PS is a horizontal supply curve at price P, indicating perfectly elastic supply; OP is the price line on the vertical axis."
+    },
+    {
+      "id": "Econ1987_ConsumersXYZ",
+      "file": "images/econ1987_q21_22_demand_schedules.png",
+      "description": "Demand schedules for three consumers X, Y and Z used in Questions 21 and 22. The table shows, for each price, the quantity demanded by each consumer."
+    },
+    {
+      "id": "Econ1987_ConsumerSurplus",
+      "file": "images/econ1987_q25_cs_shading.png",
+      "description": "Four demand–price diagrams labelled I–IV for Question 25. Each has a downward‑sloping demand curve and a horizontal price line. In diagram I the triangular area between the demand curve and the price line, from the origin to the equilibrium quantity, is shaded correctly as consumer surplus; in II–IV different (incorrect) areas are shaded."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "instructionId": "Instruction 1",
+      "question": "A production possibility curve shows",
+      "options": [
+        { "id": "A", "text": "how much of the resources of society are used to produce a particular commodity" },
+        { "id": "B", "text": "the rate of inflation" },
+        { "id": "C", "text": "the rate of unemployment in the economy" },
+        { "id": "D", "text": "the various combinations of two commodities that can be produced" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A production possibility curve (PPC) shows the **maximum attainable combinations of two goods** an economy can produce with given resources and technology. It does not show inflation or unemployment directly."
+    },
+    {
+      "id": 2,
+      "instructionId": "Instruction 1",
+      "question": "The study of the economic behaviour of individual decision‑making units (consumers, resource owners and business firms) in a free‑enterprise economy is known as",
+      "options": [
+        { "id": "A", "text": "microeconomics" },
+        { "id": "B", "text": "macroeconomics" },
+        { "id": "C", "text": "production" },
+        { "id": "D", "text": "indifference‑curve analysis" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Microeconomics** examines the behaviour and choices of individual economic agents such as households and firms. Macroeconomics deals with aggregates like national income, inflation and unemployment."
+    },
+    {
+      "id": 3,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following best describes the concept of opportunity cost?",
+      "options": [
+        { "id": "A", "text": "a special bargain or sale at below market price" },
+        { "id": "B", "text": "costs for inputs tend to go up as we use more of them" },
+        { "id": "C", "text": "goods that are not produced in order to produce more of another good" },
+        { "id": "D", "text": "a cost that constantly decreases" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opportunity cost is the **value of the best alternative forgone** when a choice is made. Producing more of one good requires giving up some production of other goods."
+    },
+    {
+      "id": 4,
+      "instructionId": "Instruction 1",
+      "question": "Market is defined as",
+      "options": [
+        { "id": "A", "text": "one geographical location where people meet to buy and sell" },
+        { "id": "B", "text": "the demand and supply of goods and services" },
+        { "id": "C", "text": "a group of people whose sole interest is to make profit" },
+        { "id": "D", "text": "any organization or framework which links the buyers and sellers of a good or service" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In economics, a market is **any arrangement that brings buyers and sellers into contact** to exchange goods or services, regardless of physical location."
+    },
+    {
+      "id": 5,
+      "instructionId": "Instruction 1",
+      "question": "The additional revenue obtained by using one more unit of a factor is called its",
+      "options": [
+        { "id": "A", "text": "marginal product" },
+        { "id": "B", "text": "additional product" },
+        { "id": "C", "text": "marginal revenue product" },
+        { "id": "D", "text": "average product" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The extra revenue from employing one additional unit of a factor equals its **marginal physical product multiplied by marginal revenue**; this is known as the **marginal revenue product**."
+    },
+    {
+      "id": 6,
+      "instructionId": "Instruction 1",
+      "question": "Labour productivity is defined as",
+      "options": [
+        { "id": "A", "text": "output per man‑hour" },
+        { "id": "B", "text": "average output" },
+        { "id": "C", "text": "the maximum number of hours worked" },
+        { "id": "D", "text": "total level of output" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Productivity of labour is typically measured as **output per worker per hour** (output per man‑hour)."
+    },
+    {
+      "id": 7,
+      "instructionId": "Instruction 1",
+      "question": "Efficiency of labour is enhanced by",
+      "options": [
+        { "id": "A", "text": "involvement in own family affairs" },
+        { "id": "B", "text": "mechanization processes" },
+        { "id": "C", "text": "war against indiscipline" },
+        { "id": "D", "text": "improved working conditions and training" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Improved working conditions, education and training raise workers’ skills and motivation, directly **enhancing labour efficiency**. Mechanisation (B) boosts output but mainly by adding capital."
+    },
+    {
+      "id": 8,
+      "instructionId": "Instruction 1",
+      "question": "Average fixed cost is",
+      "options": [
+        { "id": "A", "text": "average total cost less the sum of average variable cost" },
+        { "id": "B", "text": "half the sum of all costs" },
+        { "id": "C", "text": "total fixed cost divided by the level of output" },
+        { "id": "D", "text": "total fixed cost plus marginal cost" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Average fixed cost (AFC) is **TFC divided by Q**; that is, fixed cost per unit of output."
+    },
+    {
+      "id": 9,
+      "instructionId": "Instruction 1",
+      "question": "The residual of production which accrues to the ownership of land after all other expenses have been met is called",
+      "options": [
+        { "id": "A", "text": "wages" },
+        { "id": "B", "text": "rent" },
+        { "id": "C", "text": "interest" },
+        { "id": "D", "text": "profit" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The reward to the factor **land** is called **rent**—the payment remaining for the owner of land after other costs are met."
+    },
+    {
+      "id": 10,
+      "instructionId": "Instruction 1",
+      "question": "In the history of Economic Thought, the concept of division of labour is usually associated with",
+      "options": [
+        { "id": "A", "text": "David Ricardo" },
+        { "id": "B", "text": "J. M. Keynes" },
+        { "id": "C", "text": "Adam Smith" },
+        { "id": "D", "text": "Karl Marx" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Adam Smith famously discussed the benefits of division of labour using the pin‑making example in *The Wealth of Nations*."
+    },
+    {
+      "id": 11,
+      "instructionId": "Instruction 1",
+      "question": "The form of capital which is usually consumed or transformed into finished goods and services in the production process is called",
+      "options": [
+        { "id": "A", "text": "industrial capital" },
+        { "id": "B", "text": "social capital" },
+        { "id": "C", "text": "fixed capital" },
+        { "id": "D", "text": "circulating capital" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "**Circulating capital** (such as raw materials and intermediate goods) is used up or transformed during production. Fixed capital (machinery, buildings) lasts over many production periods."
+    },
+    {
+      "id": 12,
+      "instructionId": "Instruction 1",
+      "question": "The shut‑down point for a firm in the short run is the output level at which",
+      "options": [
+        { "id": "A", "text": "the price of the product is lowest" },
+        { "id": "B", "text": "marginal cost is not constant" },
+        { "id": "C", "text": "average variable cost is not covered" },
+        { "id": "D", "text": "average cost is minimum" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In the short run, a firm will stop producing (shut down) when **price falls below minimum AVC**, meaning its average variable cost is not covered; fixed costs must be paid regardless."
+    },
+    {
+      "id": 13,
+      "instructionId": "Instruction 1",
+      "question": "In the long run a firm will leave an industry if price",
+      "options": [
+        { "id": "A", "text": "does not cover at least average total cost" },
+        { "id": "B", "text": "is not equal to marginal cost" },
+        { "id": "C", "text": "is higher than average variable cost" },
+        { "id": "D", "text": "is not at least equal to the minimum of the marginal cost curve" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In the long run, firms can change scale or exit. They **exit** if price is persistently **below average total cost**, so they cannot earn normal profit."
+    },
+    {
+      "id": 14,
+      "instructionId": "Instruction 1",
+      "question": "In the process of shopping, Mr X whose salary per month does not exceed ₦2,000 finds that the price of a commodity he used to purchase with a fixed amount of ₦200 has risen to ₦230. He therefore decides not to buy this commodity at all. Mr X is thus affected by the",
+      "options": [
+        { "id": "A", "text": "substitution effect of a price change" },
+        { "id": "B", "text": "income effect of a price change" },
+        { "id": "C", "text": "opportunity cost of a price change" },
+        { "id": "D", "text": "inflation effect of a price change" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The higher price reduces Mr X’s **real income**, making him effectively poorer and unable to afford the commodity. This is the **income effect** of a price change."
+    },
+    {
+      "id": 15,
+      "instructionId": "Instruction 1",
+      "question": "Price can be defined as",
+      "options": [
+        { "id": "A", "text": "a rate of exchange" },
+        { "id": "B", "text": "a medium of exchange" },
+        { "id": "C", "text": "the cost of a product" },
+        { "id": "D", "text": "the standard of accounting" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Price is the **amount of money (or other good) given in exchange for a unit of a commodity**—that is, a rate of exchange between goods and money."
+    },
+    {
+      "id": 16,
+      "instructionId": "Instruction 1",
+      "question": "In the operation of market forces, the market is in equilibrium at the point where",
+      "options": [
+        { "id": "A", "text": "demand and supply curves intersect in more than one point provided the market is cleared" },
+        { "id": "B", "text": "the excess in the market can be conveniently stored" },
+        { "id": "C", "text": "excess demand is negative" },
+        { "id": "D", "text": "demand and supply curves intersect" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Market equilibrium occurs where **quantity demanded equals quantity supplied**, graphically at the **intersection of demand and supply curves**."
+    },
+    {
+      "id": 17,
+      "instructionId": "Instruction 1",
+      "question": "A shift in the demand curve for a commodity when the supply curve is vertical will lead to a change in the",
+      "options": [
+        { "id": "A", "text": "price only" },
+        { "id": "B", "text": "quantity only" },
+        { "id": "C", "text": "quality only" },
+        { "id": "D", "text": "price and quantity" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **vertical supply curve** indicates fixed quantity supplied. When demand shifts, quantity cannot change, so the adjustment occurs **only in price**."
+    },
+    {
+      "id": 18,
+      "instructionId": "Instruction 1",
+      "question": "Given an original price of ₦3.90 per kilogram of rice and a change in price of ₦1.40, and given quantity purchased at the old price as 10 kg and a change in quantity as 5 kg after the price change, the price elasticity of demand is closest to",
+      "options": [
+        { "id": "A", "text": "10.20" },
+        { "id": "B", "text": "3.57" },
+        { "id": "C", "text": "1.25" },
+        { "id": "D", "text": "0.80" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Using the percentage‑change method: \n%ΔQ = 5/10 = 0.5, %ΔP = 1.4/3.9 ≈ 0.36,\nso elasticity ≈ 0.5 / 0.36 ≈ 1.39. The closest option is **1.25**, indicating demand is elastic (>1)."
+    },
+    {
+      "id": 19,
+      "instructionId": "Instruction 1",
+      "question": "For normal goods the income elasticity of demand is",
+      "options": [
+        { "id": "A", "text": "positive" },
+        { "id": "B", "text": "negative" },
+        { "id": "C", "text": "zero" },
+        { "id": "D", "text": "infinite" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "For **normal goods**, quantity demanded rises when income rises, so income elasticity is **positive**."
+    },
+    {
+      "id": 20,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1987_Supply_PS",
+      "question": "In the diagram, PS is the supply curve for a particular commodity, while OP shows the ruling price. Which of the following statements is correct?",
+      "options": [
+        { "id": "A", "text": "The quantity supplied is infinitely elastic" },
+        { "id": "B", "text": "When price is zero, the quantity supplied is infinite" },
+        { "id": "C", "text": "When price is infinite, the quantity supplied is zero" },
+        { "id": "D", "text": "The quantity supplied is indefinite" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "PS is drawn as a **horizontal supply curve** at price P, meaning producers are willing to supply any quantity at that price but none at lower prices. This is **perfectly (infinitely) elastic supply**, as in A."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1987_ConsumersXYZ",
+      "question": "Using the demand schedules for consumers X, Y and Z (Figure Econ1987_ConsumersXYZ), the market demand curve for the commodity cuts the quantity axis when quantity is",
+      "options": [
+        { "id": "A", "text": "75 units" },
+        { "id": "B", "text": "35 units" },
+        { "id": "C", "text": "7 units" },
+        { "id": "D", "text": "not determinable from the schedules except graphically" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At price zero each consumer demands his maximum quantity. Summing the three schedules at price 0 from the table gives a total of **75 units**; this is where the market demand curve intercepts the quantity axis."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1987_ConsumersXYZ",
+      "question": "From the same information, what is market demand for the commodity when the price is ₦5?",
+      "options": [
+        { "id": "A", "text": "65 units" },
+        { "id": "B", "text": "40 units" },
+        { "id": "C", "text": "30 units" },
+        { "id": "D", "text": "20 units" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "At price ₦5, the table shows that X demands 10 units, Y 5 units and Z 15 units; total market demand = 10 + 5 + 15 = **30 units**."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 1",
+      "question": "If a good is an inferior good, then",
+      "options": [
+        { "id": "A", "text": "it is also necessarily a Giffen good" },
+        { "id": "B", "text": "the quantity of the good demanded varies inversely with its price" },
+        { "id": "C", "text": "its income elasticity of demand is negative" },
+        { "id": "D", "text": "the poor buy the good only out of habit" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For **inferior goods**, demand falls when income rises; their **income elasticity of demand is negative**. Not all inferior goods are Giffen goods."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 1",
+      "question": "An increase in supply will lower price unless",
+      "options": [
+        { "id": "A", "text": "supply is perfectly inelastic" },
+        { "id": "B", "text": "demand is perfectly elastic" },
+        { "id": "C", "text": "it is followed by an increase in demand" },
+        { "id": "D", "text": "demand is highly inelastic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If **demand is perfectly elastic** (horizontal), an increase in supply leads only to a change in quantity, with **no change in price**. In most other cases, an outward shift of supply reduces price."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1987_ConsumerSurplus",
+      "question": "Which of the diagrams in Figure Econ1987_ConsumerSurplus shows consumer surplus correctly shaded?",
+      "options": [
+        { "id": "A", "text": "I" },
+        { "id": "B", "text": "II" },
+        { "id": "C", "text": "III" },
+        { "id": "D", "text": "IV" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Consumer surplus is the triangular area **under the demand curve and above the market price line**, up to the quantity purchased. Only diagram **I** shades exactly this area; II–IV shade other regions."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 1",
+      "question": "What form of market is found in an imperfect competition where there are few buyers and many sellers?",
+      "options": [
+        { "id": "A", "text": "oligopoly" },
+        { "id": "B", "text": "monopoly" },
+        { "id": "C", "text": "duopoly" },
+        { "id": "D", "text": "oligopsony" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "An **oligopsony** is a market situation with **few buyers and many sellers** (e.g. a few big firms buying from many small suppliers). Oligopoly has few sellers and many buyers."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following sectors or services the question refers to (wording obscured in the scan) belongs to which sector of the economy?",
+      "options": [
+        { "id": "A", "text": "Primary sector" },
+        { "id": "B", "text": "Secondary sector" },
+        { "id": "C", "text": "Tertiary sector" },
+        { "id": "D", "text": "Construction sector" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The scanned question text that names the specific activity (e.g. mining, banking, construction) is not legible, so it is impossible to determine accurately which sector is intended as the correct answer."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 1",
+      "question": "The liability of the sole trade is",
+      "options": [
+        { "id": "A", "text": "indeterminable" },
+        { "id": "B", "text": "unlimited" },
+        { "id": "C", "text": "transferable" },
+        { "id": "D", "text": "limited" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A sole trader has **unlimited liability**: personal assets can be used to settle all business debts."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT a type of business ownership?",
+      "options": [
+        { "id": "A", "text": "debenture holding" },
+        { "id": "B", "text": "private company" },
+        { "id": "C", "text": "partnership" },
+        { "id": "D", "text": "joint‑stock venture" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Debentures are **loan instruments**, not forms of business ownership. The others are recognised ownership forms."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT a disadvantage of regional concentration of industries?",
+      "options": [
+        { "id": "A", "text": "development of congested urban areas" },
+        { "id": "B", "text": "existence of regional unemployment" },
+        { "id": "C", "text": "high cost of labour" },
+        { "id": "D", "text": "immobility of labour" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Regional concentration often leads to **congestion** and localized unemployment if industries decline, and can reduce labour mobility. High labour costs (C) are not a standard disadvantage listed for regional concentration in basic texts."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 1",
+      "question": "A limited liability company is usually owned by",
+      "options": [
+        { "id": "A", "text": "an individual" },
+        { "id": "B", "text": "a government" },
+        { "id": "C", "text": "shareholders" },
+        { "id": "D", "text": "two or more partners" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Limited liability companies issue shares; they are legally owned by their **shareholders**."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 1",
+      "question": "Money market differs from capital market in that it",
+      "options": [
+        { "id": "A", "text": "deals with short‑term loans while capital market deals with long‑term funds" },
+        { "id": "B", "text": "deals with money only while capital market deals with capital as well" },
+        { "id": "C", "text": "is limited in scope while capital market is not" },
+        { "id": "D", "text": "uses interest rates while capital market does not" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The **money market** handles short‑term funds (e.g. treasury bills), whereas the **capital market** deals with long‑term securities (shares, bonds)."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 1",
+      "question": "The main reason for charging interest is to",
+      "options": [
+        { "id": "A", "text": "reward the entrepreneur’s effort" },
+        { "id": "B", "text": "redistribute profits" },
+        { "id": "C", "text": "reward investors for present use of capital" },
+        { "id": "D", "text": "mobilize more funds for development" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Interest compensates lenders or investors for **deferring current consumption** and making their capital available for use now."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 1",
+      "question": "In the Keynesian model,",
+      "options": [
+        { "id": "A", "text": "the demand for money is inversely related to the rate of interest" },
+        { "id": "B", "text": "investment is directly related to the rate of interest" },
+        { "id": "C", "text": "investment is not related to the rate of interest" },
+        { "id": "D", "text": "the demand for money is directly related to the rate of interest" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Keynes’ liquidity‑preference theory suggests people hold more money when interest rates are low and less when rates are high; hence **money demand is inversely related to the interest rate**."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 1",
+      "question": "If inflation is anticipated to continue,",
+      "options": [
+        { "id": "A", "text": "people will lose confidence in goods" },
+        { "id": "B", "text": "lenders will demand higher interest rates" },
+        { "id": "C", "text": "the growth of full‑employment output will be accelerated" },
+        { "id": "D", "text": "people will want to hold more money" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "When future inflation is expected, **lenders raise nominal interest rates** to maintain real returns, so B is correct."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 1",
+      "question": "Ad valorem tax means",
+      "options": [
+        { "id": "A", "text": "a certain percentage tax based on the value of the commodity" },
+        { "id": "B", "text": "a certain percentage tax based on the volume of the commodity" },
+        { "id": "C", "text": "a tax on the income of the consumer" },
+        { "id": "D", "text": "a tax on interest payments" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "An **ad valorem** tax (e.g. VAT) is levied as a **percentage of the value** of the good or service, not a fixed amount per unit."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 1",
+      "question": "In order to raise more revenue for a certain period, government should impose higher taxes on goods whose demand is",
+      "options": [
+        { "id": "A", "text": "elastic" },
+        { "id": "B", "text": "inelastic" },
+        { "id": "C", "text": "perfectly elastic" },
+        { "id": "D", "text": "unitary elastic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If demand is **inelastic**, consumers reduce quantity demanded only slightly when price rises, so higher taxes (and thus prices) will raise government revenue."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 1",
+      "question": "A budget with projected revenue in excess of its expenditure is said to be",
+      "options": [
+        { "id": "A", "text": "balanced" },
+        { "id": "B", "text": "surplus" },
+        { "id": "C", "text": "deficit" },
+        { "id": "D", "text": "inflationary" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "When government expected receipts **exceed** planned spending, the budget is a **surplus budget**."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 1",
+      "question": "The money which government spends yearly for the maintenance of its schools is",
+      "options": [
+        { "id": "A", "text": "used only for wages and salaries" },
+        { "id": "B", "text": "part of the government's capital expenditure" },
+        { "id": "C", "text": "part of government's recurrent expenditure" },
+        { "id": "D", "text": "the government’s full budget for its schools" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Regular spending on wages, repairs, utilities and supplies is **recurrent expenditure**, in contrast to once‑off capital spending on buildings and equipment."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following applies to a commodity sold abroad at a price lower than that in the producing country?",
+      "options": [
+        { "id": "A", "text": "dumping" },
+        { "id": "B", "text": "counter‑trade" },
+        { "id": "C", "text": "bilateral trade" },
+        { "id": "D", "text": "trade liberalization" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Dumping** is the practice of selling goods in foreign markets at prices below those charged at home (and sometimes below cost) to gain market share."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 1",
+      "question": "The rate of exchange between a domestic and a foreign currency is defined as the",
+      "options": [
+        { "id": "A", "text": "terms of trade" },
+        { "id": "B", "text": "domestic currency price of a unit of the foreign currency" },
+        { "id": "C", "text": "foreign currency price of gold" },
+        { "id": "D", "text": "domestic currency price of gold" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An exchange rate is usually quoted as the **domestic‑currency price of one unit of foreign currency** (e.g. ₦150 per US$1)."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following best explains the structural changes in the population of a country?",
+      "options": [
+        { "id": "A", "text": "positive changes in the size and ethnic composition of the population" },
+        { "id": "B", "text": "a decrease in the size of the population" },
+        { "id": "C", "text": "an increase in the birth rate which is higher than the decrease in the death rate" },
+        { "id": "D", "text": "change in the age, sex and occupational composition of the population" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Population structure refers to its **composition** by age, sex, and occupation; structural change means changes in these compositions over time."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 1",
+      "question": "Statistical information available in most West African countries suggests that",
+      "options": [
+        { "id": "A", "text": "the marginal propensity to save is high" },
+        { "id": "B", "text": "the marginal propensity to consume is high" },
+        { "id": "C", "text": "the consumption pattern is negative" },
+        { "id": "D", "text": "there exists perfect correlation between consumption and savings" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Because incomes are generally low, households in West African countries tend to spend a **high proportion of any additional income** on consumption, implying a high marginal propensity to consume and low propensity to save."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 1",
+      "question": "Transfer payments are",
+      "options": [
+        { "id": "A", "text": "transfer earnings" },
+        { "id": "B", "text": "money transferred from one country to another" },
+        { "id": "C", "text": "unearned income" },
+        { "id": "D", "text": "payment transferred from one account to another" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Transfer payments (pensions, unemployment benefits, gifts) are **incomes received without contributing current output**; they are unearned in the sense of not paid for productive services."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 1",
+      "question": "Capital consumption allowance refers to",
+      "options": [
+        { "id": "A", "text": "personal consumption expenditure" },
+        { "id": "B", "text": "indirect business taxes" },
+        { "id": "C", "text": "depreciation of capital equipment" },
+        { "id": "D", "text": "expenditure on capital equipment" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Capital consumption allowance is another term for **depreciation**, the amount set aside to cover the wearing out of capital equipment."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 1",
+      "question": "The difference between personal income and personal disposable income is",
+      "options": [
+        { "id": "A", "text": "personal income tax" },
+        { "id": "B", "text": "investment income" },
+        { "id": "C", "text": "personal savings" },
+        { "id": "D", "text": "consumption expenditure" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Personal disposable income is what individuals have after paying **direct personal taxes**, chiefly personal income tax; hence the difference is personal income tax."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 1",
+      "question": "Frictional unemployment",
+      "options": [
+        { "id": "A", "text": "is total unemployment minus structural unemployment" },
+        { "id": "B", "text": "occurs when the unemployed are persons with specific training" },
+        { "id": "C", "text": "occurs when the number of job seekers exceeds the number of vacancies" },
+        { "id": "D", "text": "occurs when people are changing jobs" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Frictional unemployment arises from **short‑term job search and turnover**—people temporarily unemployed while moving between jobs or locations."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 1",
+      "question": "For the improvement of the welfare of a people, a high production level is not enough because",
+      "options": [
+        { "id": "A", "text": "the have‑nots deserve more than a fair share" },
+        { "id": "B", "text": "equitable distribution is necessary" },
+        { "id": "C", "text": "productive efficiency is vital" },
+        { "id": "D", "text": "savings in the country must be guaranteed at more than 50 percent of income earned" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "High output alone does not ensure welfare if income is very unevenly distributed. **Equitable distribution** is also important for overall social welfare."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 1",
+      "question": "Economic development is defined as",
+      "options": [
+        { "id": "A", "text": "a certain change plus growth" },
+        { "id": "B", "text": "availability of more goods and services" },
+        { "id": "C", "text": "outward shift of the production possibility curve" },
+        { "id": "D", "text": "growth in the national income only" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Economic development** involves not only sustained growth of national income but also **structural and qualitative changes**—improvements in living standards, institutions and technology. So it is growth plus certain key changes."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 1",
+      "question": "A nation's distribution of income is important because it shows",
+      "options": [
+        { "id": "A", "text": "the value of all goods and services produced in the economy" },
+        { "id": "B", "text": "how income is divided among different groups" },
+        { "id": "C", "text": "where the economy is on its production possibility curve" },
+        { "id": "D", "text": "the consumption behaviour of the people" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Income distribution statistics reveal **how total income is shared** among individuals or groups. This is central to assessing equity and welfare."
+    }
+  ]
+}
+```
