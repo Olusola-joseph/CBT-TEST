@@ -1,0 +1,732 @@
+{
+  "year": 1983,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1983_Fig1",
+      "file": "images/econ1983_q4_demand_supply.png",
+      "description": "Price–quantity diagram with two downward‑sloping demand curves (D1 and D2) and two upward‑sloping supply curves (S0 and S2) used in Question 4."
+    },
+    {
+      "id": "Econ1983_Fig2",
+      "file": "images/econ1983_q10_cost_curves.png",
+      "description": "Cost–output diagram with four curves labelled I, II, III and IV; one of them is the firm's marginal cost curve for Question 10."
+    },
+    {
+      "id": "Econ1983_Fig3",
+      "file": "images/econ1983_q25_supply_curve.png",
+      "description": "Price–quantity diagram for Question 25 showing a horizontal supply curve P1S at price P1."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following items is NOT included in measuring national income by the income approach?",
+      "options": [
+        { "id": "A", "text": "Wages and salaries of public servants" },
+        { "id": "B", "text": "Student grants and scholarships" },
+        { "id": "C", "text": "Profits of companies" },
+        { "id": "D", "text": "Income earned by self‑employed persons such as lawyers" },
+        { "id": "E", "text": "Rents on property" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The income approach sums factor incomes—wages, interest, rent and profit—earned from current production. Student grants and scholarships are transfer payments, not payments for productive services, so they are excluded from national income."
+    },
+    {
+      "id": 2,
+      "instructionId": "Instruction 1",
+      "question": "A downward‑sloping demand curve intersects a fixed supply curve. A shift of this demand curve to the right implies that",
+      "options": [
+        { "id": "A", "text": "both price and quantity will increase" },
+        { "id": "B", "text": "only price increases" },
+        { "id": "C", "text": "only quantity increases" },
+        { "id": "D", "text": "the price remains constant" },
+        { "id": "E", "text": "the price falls" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A fixed supply curve is vertical: quantity supplied is fixed. When demand increases (shifts right), equilibrium occurs at the same quantity but a higher price. Thus only price rises while quantity remains unchanged."
+    },
+    {
+      "id": 3,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following items is NOT an argument for locating industries in rural areas?",
+      "options": [
+        { "id": "A", "text": "Rural areas supply agricultural raw materials" },
+        { "id": "B", "text": "The pace of development will be quickened in rural areas" },
+        { "id": "C", "text": "Employment will be provided for rural inhabitants" },
+        { "id": "D", "text": "Capital is easily available in rural areas" },
+        { "id": "E", "text": "Suitable humid climate is sometimes found in rural areas" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rural locations are attractive because of raw materials, employment, regional development, and sometimes favourable climate. Capital, however, is usually harder—not easier—to obtain in rural areas, so D is not a valid argument."
+    },
+    {
+      "id": 4,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1983_Fig1",
+      "question": "In the diagram (Econ1983_Fig1), D₁D₁ and D₂D₂ are demand curves while S₀S₀ and S₂S₂ are supply curves for a manufactured good. What happens when government subsidizes producers in order to boost output?",
+      "options": [
+        { "id": "A", "text": "The supply curve will shift from S₀S₀ to S₂S₂" },
+        { "id": "B", "text": "The supply curve will shift from S₀S₀ to S₁S₁" },
+        { "id": "C", "text": "The supply curve will shift from S₂S₂ to S₁S₁" },
+        { "id": "D", "text": "The supply curve will shift from S₁S₁ to S₀S₀" },
+        { "id": "E", "text": "The demand curve will shift from D₁D₁ to D₂D₂" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A subsidy lowers firms’ costs so that at each price they are willing to supply more. Graphically, the supply curve shifts rightward from the original S₀S₀ to S₂S₂. A subsidy affects supply, not demand, so E is wrong, and the direction of shift is to the right, not left (ruling out C and D)."
+    },
+    {
+      "id": 5,
+      "instructionId": "Instruction 1",
+      "question": "The natural growth rate of a population is the",
+      "options": [
+        { "id": "A", "text": "sum of the birth rate and the death rate" },
+        { "id": "B", "text": "sum of the birth rate and the net migration rate" },
+        { "id": "C", "text": "birth rate minus the death rate" },
+        { "id": "D", "text": "birth rate divided by the net migration rate" },
+        { "id": "E", "text": "death rate minus the net migration rate" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Natural population increase excludes migration and is computed as **birth rate − death rate**. Options involving migration (B, D, E) do not represent the natural growth rate."
+    },
+    {
+      "id": 6,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following sets fully represents factors of production?",
+      "options": [
+        { "id": "A", "text": "Sunlight, machinery, man, land" },
+        { "id": "B", "text": "Land, labour, capital, enterprise" },
+        { "id": "C", "text": "Capital, technology, ideas, market, land" },
+        { "id": "D", "text": "Land, water, weather" },
+        { "id": "E", "text": "Money, market, middlemen" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The four classical factors of production are **land, labour, capital, and enterprise (entrepreneurship)**. Other options either omit a factor or include institutions and outcomes (money, market, middlemen, technology) rather than basic inputs."
+    },
+    {
+      "id": 7,
+      "instructionId": "Instruction 1",
+      "question": "A production‑possibility table is given as follows:\n\nAlternative:      P   Q   R   S   T\nUnits of shelter: 5   4   3   2   0\nUnits of food:    0   9   12  15  18\n\nBased on the above table, the real cost of a unit of food when alternative R is selected is",
+      "options": [
+        { "id": "A", "text": "one unit of shelter" },
+        { "id": "B", "text": "three units of shelter" },
+        { "id": "C", "text": "one‑third of a unit of shelter" },
+        { "id": "D", "text": "six units of shelter" },
+        { "id": "E", "text": "two units of shelter" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Moving from Q to R, food increases from 9 to 12 (∆food = +3) while shelter falls from 4 to 3 (∆shelter = −1). Thus 1 unit of shelter forgone yields 3 units of food. The opportunity cost of **one unit of food** is 1⁄3 unit of shelter."
+    },
+    {
+      "id": 8,
+      "instructionId": "Instruction 1",
+      "question": "The concept of economic efficiency primarily refers to",
+      "options": [
+        { "id": "A", "text": "obtaining the maximum output from available resources at the lowest possible cost" },
+        { "id": "B", "text": "conservation of our petroleum resources" },
+        { "id": "C", "text": "equity in the distribution of the nation's wealth" },
+        { "id": "D", "text": "producing without waste" },
+        { "id": "E", "text": "the dilemma of limited wants and unlimited resources" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Economic efficiency is achieved when a given set of resources yields **maximum possible output at minimum cost**. Option D mentions absence of waste but omits the output‑maximisation idea; A captures both."
+    },
+    {
+      "id": 9,
+      "instructionId": "Instruction 1",
+      "question": "If successive units of labour are added to a piece of land while capital and technology remain constant, a point will be reached when each additional unit of labour adds less to output than the previous one. This illustrates",
+      "options": [
+        { "id": "A", "text": "the productivity of labour" },
+        { "id": "B", "text": "the law of diminishing marginal utility" },
+        { "id": "C", "text": "the law of diminishing returns" },
+        { "id": "D", "text": "the concept of factor intensity" },
+        { "id": "E", "text": "labour‑intensive production" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "With one variable factor (labour) and other factors fixed, the falling marginal product of labour is an example of the **law of diminishing returns**. Marginal utility (B) relates to consumer satisfaction, not production."
+    },
+    {
+      "id": 10,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1983_Fig2",
+      "question": "In perfect competition a firm's price is equal to its marginal revenue, which is again equal to average revenue. The firm maximizes profit when its marginal cost (MC) is equal to price. In the diagram (Econ1983_Fig2), which of the curves most likely represents the firm's marginal cost (MC)?",
+      "options": [
+        { "id": "A", "text": "Curve I" },
+        { "id": "B", "text": "Curve II" },
+        { "id": "C", "text": "Curve III" },
+        { "id": "D", "text": "Curve IV" },
+        { "id": "E", "text": "Curves I and III" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The MC curve is typically **U‑shaped**: falling at low output (due to increasing returns) and rising at higher output (due to diminishing returns). In the given diagram, Curve III has that shape and intersects the average cost curve at its minimum, so it best represents MC."
+    },
+    {
+      "id": 11,
+      "instructionId": "Instruction 1",
+      "question": "A Nigerian household's demand curve for semovita is downward sloping because",
+      "options": [
+        { "id": "A", "text": "the demand for semovita is high" },
+        { "id": "B", "text": "the local markets are flooded with semovita" },
+        { "id": "C", "text": "it is produced in Nigeria" },
+        { "id": "D", "text": "every household can afford to buy semovita" },
+        { "id": "E", "text": "higher prices attract lower quantities while lower prices attract larger quantities" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "A downward‑sloping demand curve reflects the **law of demand**: as price rises, quantity demanded falls, and vice versa. Option E states this inversely proportional relationship explicitly."
+    },
+    {
+      "id": 12,
+      "instructionId": "Instruction 1",
+      "question": "The table below shows the market schedule for semovita.\n\nPRICE per 5 kg bag (₦) | QUANTITY DEMANDED (bags) | QUANTITY SUPPLIED (bags)\n300                      | 15,000                   | 1,500\n400                      | 13,000                   | 3,000\n500                      | 10,000                   | 6,000\n600                      | 7,000                    | 7,000\n700                      | 5,000                    | 9,000\n800                      | 4,000                    | 12,000\n900                      | 2,000                    | 14,000\n\nWhat is the market equilibrium price?",
+      "options": [
+        { "id": "A", "text": "₦500" },
+        { "id": "B", "text": "₦800" },
+        { "id": "C", "text": "₦900" },
+        { "id": "D", "text": "₦700" },
+        { "id": "E", "text": "₦600" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Equilibrium occurs where quantity demanded equals quantity supplied. From the table this happens at **₦600**, where both demand and supply are 7,000 bags. Hence ₦600 is the equilibrium price."
+    },
+    {
+      "id": 13,
+      "instructionId": "Instruction 1",
+      "question": "A marginal cost curve intersects the average cost curve",
+      "options": [
+        { "id": "A", "text": "from above at its lowest point" },
+        { "id": "B", "text": "from below before the lowest point" },
+        { "id": "C", "text": "from below at its lowest point" },
+        { "id": "D", "text": "from below after the lowest point" },
+        { "id": "E", "text": "at zero output" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When MC is below AC, it pulls AC down; when MC is above AC, it pulls AC up. Therefore MC crosses AC exactly at AC's **minimum point**, coming from below. So it intersects from below at the lowest point."
+    },
+    {
+      "id": 14,
+      "instructionId": "Instruction 1",
+      "question": "Palm‑oil industry is located in Bendel State because the state",
+      "options": [
+        { "id": "A", "text": "imports raw material for the palm‑oil industry" },
+        { "id": "B", "text": "is a palm‑tree growing area" },
+        { "id": "C", "text": "has soil unsuitable for other crops" },
+        { "id": "D", "text": "government does not engage in land use for crops" },
+        { "id": "E", "text": "land is suitable only for oil" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Agro‑based industries tend to locate close to their **raw materials** to reduce transport costs. Bendel is a palm‑tree growing area, providing the fruit used in palm‑oil production."
+    },
+    {
+      "id": 15,
+      "instructionId": "Instruction 1",
+      "question": "The term \"wage‑price spiral\" refers to a situation in which",
+      "options": [
+        { "id": "A", "text": "demand‑pull and cost‑push inflation pull each other in different directions" },
+        { "id": "B", "text": "demand‑pull and cost‑push inflation intensify each other" },
+        { "id": "C", "text": "both of them bring about a reduction in the price level" },
+        { "id": "D", "text": "wages and prices are rising at a proportional rate" },
+        { "id": "E", "text": "demand‑pull and cost‑push inflation increase employment" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In a wage‑price spiral, higher wages raise firms' costs, pushing prices up; higher prices then lead workers to demand higher wages. Wages and prices **chase each other upwards**, rising roughly in step, which is captured by option D."
+    },
+    {
+      "id": 16,
+      "instructionId": "Instruction 1",
+      "question": "In an inflationary period, which of the following statements is NOT true?",
+      "options": [
+        { "id": "A", "text": "Wages rise simultaneously with prices" },
+        { "id": "B", "text": "The purchasing power of money diminishes" },
+        { "id": "C", "text": "More money units are chasing a limited quantity of goods" },
+        { "id": "D", "text": "Money supply increases" },
+        { "id": "E", "text": "Aggregate real demand exceeds aggregate real supply" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In reality, wages typically **lag behind** rising prices, so workers' real incomes fall. All the other options (B–E) are consistent with inflationary conditions. Hence A is the statement that is not generally true."
+    },
+    {
+      "id": 17,
+      "instructionId": "Instruction 1",
+      "question": "Retailers in an economy perform the function of",
+      "options": [
+        { "id": "A", "text": "production" },
+        { "id": "B", "text": "exchange" },
+        { "id": "C", "text": "distribution" },
+        { "id": "D", "text": "hoarding" },
+        { "id": "E", "text": "investment" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Retailers buy goods in bulk from wholesalers and **distribute** them in small quantities to final consumers. While this involves exchange, the primary economic function is distribution from producer to consumer."
+    },
+    {
+      "id": 18,
+      "instructionId": "Instruction 1",
+      "question": "In a sole proprietorship the decisions are made by the",
+      "options": [
+        { "id": "A", "text": "government" },
+        { "id": "B", "text": "board of directors" },
+        { "id": "C", "text": "management" },
+        { "id": "D", "text": "shareholders' conference" },
+        { "id": "E", "text": "owner" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "A sole proprietorship has a single owner who both supplies capital and **takes all decisions**. There is no separate board or group of shareholders."
+    },
+    {
+      "id": 19,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following enterprises does NOT pursue the sole objective of profit maximization?",
+      "options": [
+        { "id": "A", "text": "Roads Nigeria Ltd." },
+        { "id": "B", "text": "Union Bank of Nigeria Ltd." },
+        { "id": "C", "text": "Nigerian Electric Power Authority (NEPA)" },
+        { "id": "D", "text": "Volkswagen (VW) Nigeria Ltd." },
+        { "id": "E", "text": "Kingsway Nigeria Ltd." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "NEPA is a public utility whose main goal is to provide electricity as a **social service**, not simply to maximise profit. The other organisations are commercial firms whose core objective is profit."
+    },
+    {
+      "id": 20,
+      "instructionId": "Instruction 1",
+      "question": "Public expenditure creates expansionary effects in the economy when it is",
+      "options": [
+        { "id": "A", "text": "an excess of government revenue" },
+        { "id": "B", "text": "channelled into capital projects" },
+        { "id": "C", "text": "diverted into imports" },
+        { "id": "D", "text": "financed through oil revenue" },
+        { "id": "E", "text": "completely financed out of tax receipts" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Expenditure on **capital projects** (roads, schools, power) raises aggregate demand now and increases productive capacity later. That is expansionary. Spending on imports (C) leaks abroad; the financing source (D, E) does not by itself determine whether the effect is expansionary."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 1",
+      "question": "The maintenance of general economic stability in a federal country necessarily relies heavily on",
+      "options": [
+        { "id": "A", "text": "federal fiscal policy alone" },
+        { "id": "B", "text": "coordinated federal, state and local fiscal policies" },
+        { "id": "C", "text": "tax and revenue policies of state governments" },
+        { "id": "D", "text": "federal grants to state and local governments" },
+        { "id": "E", "text": "federal grants to local governments" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a federal system, different tiers of government share taxing and spending powers. For macroeconomic **stabilisation** (controlling inflation and unemployment), fiscal policies at all levels must be **coordinated**, not pursued independently."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 1",
+      "question": "The supply of loanable funds in the economy is most significantly influenced by",
+      "options": [
+        { "id": "A", "text": "commercial banks" },
+        { "id": "B", "text": "mortgage banks" },
+        { "id": "C", "text": "other financial intermediaries" },
+        { "id": "D", "text": "the Central Bank" },
+        { "id": "E", "text": "insurance companies" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Commercial banks are the **main mobilisers of deposits and savings**, which they lend out as credit. While other institutions also lend, commercial banks dominate the supply of short‑term loanable funds."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following are direct taxes?",
+      "options": [
+        { "id": "A", "text": "Sales taxes" },
+        { "id": "B", "text": "Excise duties" },
+        { "id": "C", "text": "Income and company taxes" },
+        { "id": "D", "text": "Tariff duties" },
+        { "id": "E", "text": "Commodity levies" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Direct taxes are levied on **income or wealth** and are borne by the taxpayer (e.g. personal income tax, company tax). Sales, excise and tariff duties are indirect taxes on goods and services."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 1",
+      "question": "Division of labour has many advantages. Notwithstanding, it is greatly limited by",
+      "options": [
+        { "id": "A", "text": "monotony of work" },
+        { "id": "B", "text": "decline of craftsmanship" },
+        { "id": "C", "text": "risk of unemployment" },
+        { "id": "D", "text": "extent of the market demand" },
+        { "id": "E", "text": "boredom" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Adam Smith pointed out that division of labour is limited by the **extent of the market**: specialisation makes sense only if the market is large enough to absorb the output. Other problems (monotony, boredom, etc.) are drawbacks but not the fundamental limit."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1983_Fig3",
+      "question": "In the diagram (Econ1983_Fig3), P₁S is a supply curve for a manufactured good. It shows that",
+      "options": [
+        { "id": "A", "text": "when price is P₁, quantity supplied is infinitely elastic" },
+        { "id": "B", "text": "the higher the price, the greater the quantity supplied" },
+        { "id": "C", "text": "the higher the price, the lower the quantity supplied" },
+        { "id": "D", "text": "when price is zero, quantity supplied becomes infinite" },
+        { "id": "E", "text": "when price is infinite, quantity supplied becomes zero" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A horizontal supply curve at price P₁ means producers are willing to supply **any quantity at price P₁**, but none at prices below it. This describes a perfectly elastic supply (infinite elasticity) at that price."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 1",
+      "question": "In the event of a limited liability company going into liquidation each",
+      "options": [
+        { "id": "A", "text": "shareholder may lose at most the amount he has invested" },
+        { "id": "B", "text": "shareholder loses nothing" },
+        { "id": "C", "text": "shareholder loses everything including his house" },
+        { "id": "D", "text": "shareholder's liability becomes unlimited" },
+        { "id": "E", "text": "shareholder will lose the amount he has invested plus a proportion of his bank account" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In a **limited liability** company, the maximum loss a shareholder can suffer is the amount invested in shares. Personal assets are protected; thus A is correct and C, D, E are wrong."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 1",
+      "question": "A greater burden of taxes on essential goods is borne by the",
+      "options": [
+        { "id": "A", "text": "middle‑income group" },
+        { "id": "B", "text": "higher‑income group" },
+        { "id": "C", "text": "lower‑income group" },
+        { "id": "D", "text": "people falling between the middle and higher‑income groups" },
+        { "id": "E", "text": "rich people of the country" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Demand for essential goods is highly **inelastic**. When such goods are taxed, all consumers pay more, but the poor feel the burden most because the tax takes a larger share of their income. Hence the lower‑income group bears a heavier relative burden."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 1",
+      "question": "The comparative cost doctrine of international trade means specialization in production",
+      "options": [
+        { "id": "A", "text": "according to absolute cost advantage" },
+        { "id": "B", "text": "according to absolute cost disadvantages" },
+        { "id": "C", "text": "according to comparative cost disadvantages" },
+        { "id": "D", "text": "according to comparative cost advantages" },
+        { "id": "E", "text": "on the basis of the availability of labour" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "According to Ricardo’s comparative cost doctrine, countries gain by specializing in goods they can produce at **lower opportunity cost** (comparative advantage), not necessarily lowest absolute cost."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 1",
+      "question": "The meaning of \"dumping\" is selling goods in a foreign market",
+      "options": [
+        { "id": "A", "text": "at a price lower than that received in the home market" },
+        { "id": "B", "text": "at a price higher than that received in the home market" },
+        { "id": "C", "text": "at a price equal to the cost price in the home market" },
+        { "id": "D", "text": "in order to encourage indigenous producers" },
+        { "id": "E", "text": "at a price equal to the selling price in the home market" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Dumping\" is the practice of selling exports at a **lower price abroad** than at home, often below cost, to gain foreign market share. So A is correct."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 1",
+      "question": "Disequilibrium in the balance of payments means",
+      "options": [
+        { "id": "A", "text": "imports of the country exceeding its exports" },
+        { "id": "B", "text": "an overall deficit or surplus in the current and capital accounts of the balance of payments" },
+        { "id": "C", "text": "capital flowing out of the country exceeds the capital flowing into the country" },
+        { "id": "D", "text": "a deficit in the trade balance only" },
+        { "id": "E", "text": "exports and imports equal the cost of imports" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The balance of payments is in disequilibrium when there is an **overall surplus or deficit** on the current and capital accounts combined. A and D refer only to trade; C refers only to capital movements."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 1",
+      "question": "Petroleum \"glut\" in international trade means",
+      "options": [
+        { "id": "A", "text": "a fall in petroleum production" },
+        { "id": "B", "text": "an oversupply of petroleum" },
+        { "id": "C", "text": "a higher petroleum price offered by the buyer" },
+        { "id": "D", "text": "a higher petroleum price demanded by the seller" },
+        { "id": "E", "text": "higher prices for the consumption of petroleum" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A \"glut\" is a situation of **excess supply** over demand, causing downward pressure on prices. So a petroleum glut means an oversupply of petroleum."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 1",
+      "question": "International trade is necessary because",
+      "options": [
+        { "id": "A", "text": "no country can live in economic isolation" },
+        { "id": "B", "text": "different countries are differently endowed with natural and man‑made resources" },
+        { "id": "C", "text": "some countries have comparative cost advantage in the production of particular commodities" },
+        { "id": "D", "text": "the world demand for and supply of various commodities is expanding very fast" },
+        { "id": "E", "text": "countries want to build up their foreign exchange reserves" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The fundamental reason for trade is **differences in resource endowment**: countries lack some resources but have others in abundance. Comparative advantage (C) is a consequence of these differences but B states the more basic reason."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 1",
+      "question": "Mono‑product economies are those that",
+      "options": [
+        { "id": "A", "text": "have a rich cultural heritage" },
+        { "id": "B", "text": "are predominantly raw‑material producers" },
+        { "id": "C", "text": "live from the export of raw products" },
+        { "id": "D", "text": "produce one main commodity" },
+        { "id": "E", "text": "specialize in agricultural industries" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A mono‑product economy depends heavily on **one main commodity** (e.g. oil in Nigeria, cocoa in Ghana) for export earnings and government revenue."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 1",
+      "question": "The quickest way of achieving an economic union on a regional basis is to remove all",
+      "options": [
+        { "id": "A", "text": "currency barriers" },
+        { "id": "B", "text": "language barriers" },
+        { "id": "C", "text": "legal barriers" },
+        { "id": "D", "text": "trade barriers" },
+        { "id": "E", "text": "political barriers" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Economic unions are built by gradually reducing **trade barriers** (tariffs, quotas, etc.) among member countries. Removing trade restrictions is the key economic step; currency, legal, or political barriers are usually addressed later."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 1",
+      "question": "If an economy is growing at an annual rate of 7% and 4% of that is known to be due to improvements in labour and capital combined, the remaining 3% is usually attributed to",
+      "options": [
+        { "id": "A", "text": "land and related factors" },
+        { "id": "B", "text": "abundance of natural resources" },
+        { "id": "C", "text": "level of human capital" },
+        { "id": "D", "text": "technical progress or other factors" },
+        { "id": "E", "text": "the discipline of political leaders" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In growth accounting, the unexplained part of growth after accounting for labour and capital is often attributed to **technical progress or total factor productivity**—captured in D."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 1",
+      "question": "A major function of middlemen in Nigeria is the distribution of",
+      "options": [
+        { "id": "A", "text": "commodities to all consumers regardless of income" },
+        { "id": "B", "text": "commodities to consuming centres and the collection of money income to producing centres" },
+        { "id": "C", "text": "economic welfare to all" },
+        { "id": "D", "text": "wealth to all" },
+        { "id": "E", "text": "poverty within the society" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Middlemen (wholesalers, agents, etc.) move goods from **producers to consuming centres** and move payments back to producers. Option B describes this two‑way flow correctly."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 1",
+      "question": "When a government owns enterprises, a number of advantages arise. Which of the following is NOT one of such advantages?",
+      "options": [
+        { "id": "A", "text": "More capital is provided" },
+        { "id": "B", "text": "Pricing policy may be in the interest of consumers" },
+        { "id": "C", "text": "Government workers may be indifferent towards the public" },
+        { "id": "D", "text": "Infrastructures are rapidly developed" },
+        { "id": "E", "text": "Income may be more evenly distributed" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Government ownership can allow for more capital, fair pricing, infrastructure development and better income distribution. However, civil‑service complacency—workers being **indifferent** toward the public—is a **disadvantage**, not an advantage, so C is the correct choice."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT an advantage of localization of industries?",
+      "options": [
+        { "id": "A", "text": "Reaping of external economies" },
+        { "id": "B", "text": "Development of a pool of skilled labour for the industry" },
+        { "id": "C", "text": "Development of subsidiary industries" },
+        { "id": "D", "text": "Development of organized markets" },
+        { "id": "E", "text": "Growth of congestion" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "When many firms cluster in one area, they enjoy external economies (A–D), but congestion (traffic, overcrowding, pollution) is a **disadvantage**, not an advantage. Hence E is the correct answer."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 1",
+      "question": "The monetary system that requires a double coincidence of wants is known as",
+      "options": [
+        { "id": "A", "text": "the gold standard" },
+        { "id": "B", "text": "barter" },
+        { "id": "C", "text": "the commodity system" },
+        { "id": "D", "text": "the gold‑exchange standard" },
+        { "id": "E", "text": "the cheque system" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Under **barter**, trade takes place by direct exchange of goods. For a trade to happen, each party must want what the other offers at the same time—\"double coincidence of wants\". Money systems remove this requirement."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 1",
+      "question": "The effect of emigration on a country's population, other things remaining equal, is to",
+      "options": [
+        { "id": "A", "text": "increase its size" },
+        { "id": "B", "text": "cause overpopulation" },
+        { "id": "C", "text": "increase its growth rate" },
+        { "id": "D", "text": "reduce the proportion of children" },
+        { "id": "E", "text": "reduce its size" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Emigration is the movement of people **out** of a country. With other factors unchanged, this reduces the country's total population size."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 1",
+      "question": "Money performs a number of functions. One of these functions makes it possible for any person to provide for old age. Because of that function, money is regarded as a",
+      "options": [
+        { "id": "A", "text": "medium of exchange" },
+        { "id": "B", "text": "measure of value" },
+        { "id": "C", "text": "unit of account" },
+        { "id": "D", "text": "store of value" },
+        { "id": "E", "text": "standard for deferred payments" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Being able to **save money now and use it in the future** (e.g. in old age) reflects money’s function as a **store of value**. Other functions do not directly relate to saving."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 1",
+      "question": "Agriculture plays a dominant role in West African economies because it",
+      "options": [
+        { "id": "A", "text": "is the focus of the Green Revolution in Nigeria" },
+        { "id": "B", "text": "supplies all the foodstuffs consumed in West Africa" },
+        { "id": "C", "text": "has large plantations of cocoa, groundnut and palm oil" },
+        { "id": "D", "text": "is the main source of revenue in Nigeria" },
+        { "id": "E", "text": "employs more than 50% of the total labour force in West Africa" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "In most West African countries, agriculture is the **largest employer of labour**, engaging more than half the workforce. This employment dominance is why agriculture plays such a central role."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following defines Economics most comprehensively?",
+      "options": [
+        { "id": "A", "text": "Buying and selling" },
+        { "id": "B", "text": "Organization of industries" },
+        { "id": "C", "text": "Study of human behaviour in the allocation of scarce resources" },
+        { "id": "D", "text": "National development planning and budgeting" },
+        { "id": "E", "text": "Banking and insurance" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A standard modern definition of economics is the **study of how individuals and societies allocate scarce resources among competing uses**. Option C captures this, whereas the others describe only particular activities."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 1",
+      "question": "Age structure in Nigeria is such that the working age‑group is",
+      "options": [
+        { "id": "A", "text": "1–15 years" },
+        { "id": "B", "text": "15–65 years" },
+        { "id": "C", "text": "30–40 years" },
+        { "id": "D", "text": "40–65 years" },
+        { "id": "E", "text": "65 years and above" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The economically **active population** is generally defined as those aged **15–65 years**, which is option B."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 1",
+      "question": "NEPA as a public corporation is",
+      "options": [
+        { "id": "A", "text": "a power‑generating industry in Nigeria" },
+        { "id": "B", "text": "organized in a perfectly competitive market" },
+        { "id": "C", "text": "a duopoly" },
+        { "id": "D", "text": "a monopolistically competitive industry" },
+        { "id": "E", "text": "a monopoly" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "NEPA was the **sole provider** of public electricity in Nigeria in 1983; there were no competing suppliers. It is therefore a state **monopoly**, not a competitive firm."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 1",
+      "question": "Full employment is a situation in which",
+      "options": [
+        { "id": "A", "text": "every adult is employed" },
+        { "id": "B", "text": "all adults who can work are employed" },
+        { "id": "C", "text": "all persons who have attained the age of 15 years and above are employed" },
+        { "id": "D", "text": "only the disabled are employed" },
+        { "id": "E", "text": "all those who are able and eligible to work can find employment" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Economists define full employment as the situation where **everyone willing and able to work at prevailing wages can find a job**. It does not mean literally every adult (A, B, C) is working at all times."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 1",
+      "question": "When demand is elastic, it means that consumers",
+      "options": [
+        { "id": "A", "text": "react more than proportionately to price change" },
+        { "id": "B", "text": "are not sensitive to price change" },
+        { "id": "C", "text": "will stop buying when price increases" },
+        { "id": "D", "text": "react less than proportionately to price change" },
+        { "id": "E", "text": "react equally to price change" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Elastic demand means the **percentage change in quantity demanded is greater than the percentage change in price**. Consumers are highly responsive; thus they react more than proportionately to price changes."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 1",
+      "question": "Demand for a factor of production is",
+      "options": [
+        { "id": "A", "text": "a composite demand" },
+        { "id": "B", "text": "a joint demand" },
+        { "id": "C", "text": "a derived demand" },
+        { "id": "D", "text": "an elasticity of demand" },
+        { "id": "E", "text": "a cross‑elastic demand" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Firms demand inputs (labour, capital, land) **because** they need them to produce goods and services that consumers demand. Factor demand is therefore **derived** from the demand for final goods."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 1",
+      "question": "Differentiated products are characteristic features of",
+      "options": [
+        { "id": "A", "text": "perfect competition" },
+        { "id": "B", "text": "pure competition" },
+        { "id": "C", "text": "monopolistic competition" },
+        { "id": "D", "text": "monopoly" },
+        { "id": "E", "text": "oligopoly" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In **monopolistic competition**, many firms sell products that are similar but **differentiated** by branding, quality, or features (e.g. different toothpaste brands). Perfect competition requires identical products; monopoly and oligopoly usually focus on market power, not differentiation per se."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 1",
+      "question": "Nigeria is currently implementing the",
+      "options": [
+        { "id": "A", "text": "third development plan" },
+        { "id": "B", "text": "second development plan" },
+        { "id": "C", "text": "fourth development plan" },
+        { "id": "D", "text": "fifth development plan" },
+        { "id": "E", "text": "first development plan" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In 1983, Nigeria was in the period of the **Fourth National Development Plan (1981–1985)**, so option C is historically correct for that examination year."
+    }
+  ]
+}
