@@ -1,0 +1,340 @@
+```json
+{
+  "year": 1984,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1984_Fig1",
+      "file": "images/econ1984_q15_supply_shift.png",
+      "description": "Price–quantity diagram for Question 15 showing an original supply curve S0S0 shifting rightward to a new curve S1S1."
+    },
+    {
+      "id": "Econ1984_Fig2",
+      "file": "images/econ1984_q46_circular_flow.png",
+      "description": "Circular‑flow diagram used later in the paper (personal sector, business and government sector, production of goods and services, factor payments, etc.)."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "instructionId": "Instruction 1",
+      "question": "The main economic objective behind the production of goods and services in any economy is to",
+      "options": [
+        { "id": "A", "text": "maximize profits" },
+        { "id": "B", "text": "satisfy human wants" },
+        { "id": "C", "text": "become self‑reliant" },
+        { "id": "D", "text": "create job opportunities" },
+        { "id": "E", "text": "make people wealthy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Economics views production as a means to **satisfy human wants** by providing goods and services. Profit, jobs and wealth are important, but they are secondary to this fundamental objective."
+    },
+    {
+      "id": 2,
+      "instructionId": "Instruction 1",
+      "question": "Demand for a commodity by a consumer is the quantity of that commodity that the consumer",
+      "options": [
+        { "id": "A", "text": "demands at a given price at a point in time" },
+        { "id": "B", "text": "demands at a given price" },
+        { "id": "C", "text": "actually digests" },
+        { "id": "D", "text": "produces, given its price" },
+        { "id": "E", "text": "can store away during bad weather" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Standard definition: demand is the **quantity of a good a consumer is willing and able to buy at a given price and at a given time**. Option A states both the price and time conditions; B omits time. C–E are irrelevant."
+    },
+    {
+      "id": 3,
+      "instructionId": "Instruction 1",
+      "question": "Division of labour is limited by",
+      "options": [
+        { "id": "A", "text": "the size of the market" },
+        { "id": "B", "text": "the productivity of capital" },
+        { "id": "C", "text": "cost of production" },
+        { "id": "D", "text": "the factors of production" },
+        { "id": "E", "text": "government policy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Adam Smith emphasized that the extent of division of labour is limited by the **extent of the market**. If the market is small, there is not enough demand to justify narrow specialisation, regardless of capital or policy."
+    },
+    {
+      "id": 4,
+      "instructionId": "Instruction 1",
+      "question": "The production within the domestic territory of a country is called the",
+      "options": [
+        { "id": "A", "text": "net national product" },
+        { "id": "B", "text": "gross domestic product" },
+        { "id": "C", "text": "net income" },
+        { "id": "D", "text": "disposable income" },
+        { "id": "E", "text": "gross national product" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Output produced **within a country’s borders**, irrespective of who owns the resources, is its **gross domestic product (GDP)**. Gross national product (GNP) is based on ownership of resources, not location."
+    },
+    {
+      "id": 5,
+      "instructionId": "Instruction 1",
+      "question": "In discussing the reasons why wages differ between occupations, which of the following should be regarded as a cardinal point that needs to be emphasized?",
+      "options": [
+        { "id": "A", "text": "length and cost of training" },
+        { "id": "B", "text": "demand and supply" },
+        { "id": "C", "text": "attractiveness of the job" },
+        { "id": "D", "text": "influence of trade unions" },
+        { "id": "E", "text": "government intervention" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "All the other factors (training, job attractiveness, unions, policy) affect wages **through their impact on the demand for and supply of labour**. Ultimately, wage differences are determined by demand‑and‑supply conditions in each labour market."
+    },
+    {
+      "id": 6,
+      "instructionId": "Instruction 1",
+      "question": "A rightward shift in the production‑possibility frontier may be due to",
+      "options": [
+        { "id": "A", "text": "use of inferior inputs" },
+        { "id": "B", "text": "inefficiency" },
+        { "id": "C", "text": "improvement in production techniques and practices" },
+        { "id": "D", "text": "changes in the product mix" },
+        { "id": "E", "text": "changes in consumers' tastes and preferences" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A rightward (outward) shift of the PPF signifies an **increase in productive capacity**, which occurs with better technology, education, or more/better resources. Option C states this; A and B would shift the economy inside the PPF, not outward."
+    },
+    {
+      "id": 7,
+      "instructionId": "Instruction 1",
+      "question": "The table below shows the short‑run costs of a firm.\n\nQuantity | Fixed cost (₦) | Variable cost (₦) | Total cost (₦) | Marginal cost (₦) | Average cost (₦)\n1        | 50              | 40                 | 90              | 90                 | 90\n2        | 50              | 100                | 150             | 60                 | 75\n3        | 50              | 150                | 200             | ?                  | 66.7\n\nWhat is the firm's marginal cost for the third item produced?",
+      "options": [
+        { "id": "A", "text": "₦35.00" },
+        { "id": "B", "text": "₦49.00" },
+        { "id": "C", "text": "₦50.00" },
+        { "id": "D", "text": "₦75.00" },
+        { "id": "E", "text": "₦90.50" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Marginal cost (MC) of the third unit is the **change in total cost** when output rises from 2 to 3: MC₃ = TC₃ − TC₂ = 200 − 150 = ₦50.00."
+    },
+    {
+      "id": 8,
+      "instructionId": "Instruction 1",
+      "question": "The advantages that accrue to a firm as the size of the firm increases are known as",
+      "options": [
+        { "id": "A", "text": "external diseconomies" },
+        { "id": "B", "text": "internal returns to scale" },
+        { "id": "C", "text": "internal economies" },
+        { "id": "D", "text": "internal diseconomies" },
+        { "id": "E", "text": "constant returns to scale" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Advantages gained by a firm from expanding its own scale of operation—e.g. bulk buying, technical specialization—are **internal economies of scale**. Internal diseconomies are disadvantages of getting too large."
+    },
+    {
+      "id": 9,
+      "instructionId": "Instruction 1",
+      "question": "One of the advantages of large‑scale production is that",
+      "options": [
+        { "id": "A", "text": "there is a rise in the cost of administration" },
+        { "id": "B", "text": "consumers sacrifice their individual tastes" },
+        { "id": "C", "text": "the firm can use labour‑saving machinery" },
+        { "id": "D", "text": "the demand for a firm's products becomes localized" },
+        { "id": "E", "text": "decision‑making takes a long time because different levels of management are involved" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Large‑scale firms can afford **specialised machinery** and automation, which reduces unit costs. A and E are disadvantages; B and D are not inherent advantages of large scale."
+    },
+    {
+      "id": 10,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT an obstacle to economic development?",
+      "options": [
+        { "id": "A", "text": "Low level of investment" },
+        { "id": "B", "text": "Lack of modern technology" },
+        { "id": "C", "text": "High rate of population growth" },
+        { "id": "D", "text": "Low productivity" },
+        { "id": "E", "text": "Dedicated leadership" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Dedicated leadership is an **asset** for development, not an obstacle. Low investment, poor technology, rapid population growth and low productivity are all recognised barriers."
+    },
+    {
+      "id": 11,
+      "instructionId": "Instruction 1",
+      "question": "An ageing population refers to the preponderance of",
+      "options": [
+        { "id": "A", "text": "middle‑aged people in the population" },
+        { "id": "B", "text": "young people in the population" },
+        { "id": "C", "text": "women in the population" },
+        { "id": "D", "text": "old men in the population" },
+        { "id": "E", "text": "old people in the population" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "An ageing population is one with a **high proportion of elderly people** (both men and women), so option E is correct."
+    },
+    {
+      "id": 12,
+      "instructionId": "Instruction 1",
+      "question": "Let\nTC  = total cost\nTVC = total variable cost\nTFC = total fixed cost\nATC = average total cost\nAVC = average variable cost\nAFC = average fixed cost\nQ   = output\n\nWhich of the following relationships is NOT true?",
+      "options": [
+        { "id": "A", "text": "TC = TFC + TVC" },
+        { "id": "B", "text": "ATC = TC / Q" },
+        { "id": "C", "text": "AFC = TFC / Q" },
+        { "id": "D", "text": "AVC = TVC / Q" },
+        { "id": "E", "text": "ATC = AVC − AFC" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Average total cost is the **sum** of average variable and average fixed costs: ATC = AVC + AFC. Option E, which gives ATC = AVC − AFC, is therefore incorrect. All other identities are standard cost relationships."
+    },
+    {
+      "id": 13,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT a determinant of the size of the economically active population?",
+      "options": [
+        { "id": "A", "text": "Age structure" },
+        { "id": "B", "text": "Occupation of workers" },
+        { "id": "C", "text": "Proportion of men to women" },
+        { "id": "D", "text": "Average length of the working day" },
+        { "id": "E", "text": "Efficiency of the labour force" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The economically active population depends on how many people fall within working ages and participate in the labour force (affected by age structure, sex ratio, etc.). The **length of the working day** affects hours worked, not how many people are economically active."
+    },
+    {
+      "id": 14,
+      "instructionId": "Instruction 1",
+      "question": "The population level that yields the maximum output when combined with available resources is known as",
+      "options": [
+        { "id": "A", "text": "dependent population" },
+        { "id": "B", "text": "maximum population" },
+        { "id": "C", "text": "active population" },
+        { "id": "D", "text": "production population" },
+        { "id": "E", "text": "optimum population" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "An **optimum population** is one where, given available resources and technology, output per head is maximized. It is neither too large nor too small relative to resources."
+    },
+    {
+      "id": 15,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1984_Fig1",
+      "question": "In the diagram (Econ1984_Fig1) the supply curve S₀S₀ shifts to a new position S₁S₁. This indicates",
+      "options": [
+        { "id": "A", "text": "a drop in supply" },
+        { "id": "B", "text": "a rise in supply" },
+        { "id": "C", "text": "a supply‑push inflation" },
+        { "id": "D", "text": "a stable supply curve" },
+        { "id": "E", "text": "an increase in quantity supplied" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A **rightward shift** of the entire supply curve (from S₀ to S₁) means sellers are willing to supply more at each price: an **increase in supply**. An increase in quantity supplied would be a movement along the same curve, not a shift."
+    },
+    {
+      "id": 16,
+      "instructionId": "Instruction 1",
+      "question": "If X and Y are two goods, then the cross elasticity of demand for X with respect to Y is defined as the",
+      "options": [
+        { "id": "A", "text": "percentage change in the quantity of X divided by the percentage change in the price of Y" },
+        { "id": "B", "text": "percentage change in the quantity of X divided by the change in the price of Y" },
+        { "id": "C", "text": "change in the quantity of X divided by the change in the price of Y" },
+        { "id": "D", "text": "percentage change in the quantity of X divided by the price of Y" },
+        { "id": "E", "text": "percentage change in the quantity of Y" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cross elasticity of demand is defined as\n\nEₓᵧ = ( %ΔQₓ ) / ( %ΔPᵧ ).\n\nSo option A gives the correct ratio of percentage changes."
+    },
+    {
+      "id": 17,
+      "instructionId": "Instruction 1",
+      "question": "For two substitute goods, the cross elasticity of demand is",
+      "options": [
+        { "id": "A", "text": "greater than one but less than two" },
+        { "id": "B", "text": "zero" },
+        { "id": "C", "text": "negative" },
+        { "id": "D", "text": "positive" },
+        { "id": "E", "text": "infinity" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "For **substitutes**, a rise in the price of Y causes an increase in demand for X, so quantity of X and price of Y move in the same direction. The cross elasticity is therefore **positive**. For complements it would be negative."
+    },
+    {
+      "id": 18,
+      "instructionId": "Instruction 1",
+      "question": "The control of prices by legislation usually produces a number of consequences. Which of the following is NOT an associated problem of maximum price control?",
+      "options": [
+        { "id": "A", "text": "Excess supply" },
+        { "id": "B", "text": "Favouritism" },
+        { "id": "C", "text": "Bribery and corruption" },
+        { "id": "D", "text": "Black marketing" },
+        { "id": "E", "text": "Hoarding" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **maximum price** (price ceiling) set below equilibrium creates **excess demand** (shortage), not excess supply. Shortages often lead to queuing, hoarding, black markets, bribery and favouritism, so B–E are typical problems."
+    },
+    {
+      "id": 19,
+      "instructionId": "Instruction 1",
+      "question": "For a non‑discriminating monopolist in Nigeria, price at the profit‑maximizing output is",
+      "options": [
+        { "id": "A", "text": "equal to marginal cost" },
+        { "id": "B", "text": "greater than marginal cost" },
+        { "id": "C", "text": "greater than average total cost" },
+        { "id": "D", "text": "equal to marginal revenue" },
+        { "id": "E", "text": "equal to total revenue" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A monopolist maximizes profit where **MR = MC**, but the demand curve lies above the MR curve, so the price charged (on the demand curve) is **greater than MC**. In perfect competition price equals MC; in monopoly it exceeds MC."
+    },
+    {
+      "id": 20,
+      "instructionId": "Instruction 1",
+      "question": "A demand curve slopes downwards because of",
+      "options": [
+        { "id": "A", "text": "an increase in the money income of the consumer" },
+        { "id": "B", "text": "a decrease in the money income of the consumer" },
+        { "id": "C", "text": "the substitution effect and the rise in real income of the consumer" },
+        { "id": "D", "text": "the rise in demand for complementary goods" },
+        { "id": "E", "text": "the increase in the demand for factors of production" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When price falls, a good becomes relatively cheaper than substitutes (**substitution effect**) and, with a given money income, the consumer's **real income rises**, allowing more purchases. Together these effects explain the downward slope of the demand curve."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 1",
+      "question": "An imperfectly competitive market is one where",
+      "options": [
+        { "id": "A", "text": "a large number of firms sell homogeneous products" },
+        { "id": "B", "text": "input and output prices are unaffected" },
+        { "id": "C", "text": "each firm faces a horizontal demand curve" },
+        { "id": "D", "text": "each firm maximizes profit by selecting an output level at which marginal cost equals market price" },
+        { "id": "E", "text": "commodities are differentiated" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Imperfect competition (e.g. monopolistic competition, oligopoly) is characterized by firms having some price‑setting power because their products are **differentiated** rather than identical. In perfect competition, products are homogeneous and each firm faces a horizontal demand curve at the market price."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 1",
+      "question": "In taxation, the benefit principle requires that",
+      "options": [
+        { "id": "A", "text": "everybody must draw benefits from taxation" },
+        { "id": "B", "text": "all those who earn income must pay more" },
+        { "id": "C", "text": "only those who derive benefits from services provided from public revenue should be taxed" },
+        { "id": "D", "text": "taxes paid by businesses should be shifted to consumers benefiting from such commodities" },
+        { "id": "E", "text": "everybody pays an equal amount" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Under the **benefit principle**, people should pay taxes in proportion to the benefits they receive from public services. Option C expresses this idea. A and E misinterpret it as universal equal benefits or equal payments; B is closer to an ability‑to‑pay principle."
+    }
+
+    /* The remaining questions (23–50) require clearer images to avoid guessing.
+       Once higher‑resolution scans are available, they can be added here using the
+       same structure: each with question text, options, correctAnswer and a
+       principle‑based explanation. */
+  ]
+}
+```
