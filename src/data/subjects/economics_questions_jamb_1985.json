@@ -1,0 +1,750 @@
+{
+  "year": 1985,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1985_HH_Business",
+      "file": "images/econ1985_q2_household_business.png",
+      "description": "Elliptical diagram for Question 2 showing interdependence between Households and Business Enterprises: households offer labour services and pay for goods; firms pay wages and salaries and sell goods."
+    },
+    {
+      "id": "Econ1985_UtilityTable",
+      "file": "images/econ1985_q9_utility_table.png",
+      "description": "Utility table for Question 9 giving units of quantity consumed, total utility and marginal utility."
+    },
+    {
+      "id": "Econ1985_SupplyElasticity",
+      "file": "images/econ1985_q12_supply_elasticity.png",
+      "description": "Price–quantity diagram for Question 12 with an upward‑sloping supply curve S passing through the origin and point H at price P2 and quantity Q2."
+    },
+    {
+      "id": "Econ1985_MonopolyGraph",
+      "file": "images/econ1985_q15_monopoly_graph.png",
+      "description": "Price–quantity diagram for Question 15 with demand/average‑revenue curve T, marginal‑revenue curve M (broken line below T) and a cost curve N."
+    },
+    {
+      "id": "Econ1985_MargCostTable",
+      "file": "images/econ1985_q47_cost_table.png",
+      "description": "Short‑run cost table for Question 47 showing output levels and corresponding total costs."
+    },
+    {
+      "id": "Econ1985_DimReturnsTable",
+      "file": "images/econ1985_q48_dimreturns_table.png",
+      "description": "Production table for Question 48 with fixed land, variable labour, total output and marginal product, illustrating the law of diminishing returns."
+    }
+  ],
+  "instructions": [
+    {
+      "id": "Instruction 1",
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "instructionId": "Instruction 1",
+      "question": "One main quality of an economic good is that it",
+      "options": [
+        { "id": "A", "text": "is sold in the market" },
+        { "id": "B", "text": "satisfies wants" },
+        { "id": "C", "text": "is made in the factory" },
+        { "id": "D", "text": "is always tangible" },
+        { "id": "E", "text": "is non‑perishable" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An economic good is something that is scarce and **capable of satisfying human wants**. Being sold in a market or factory‑made are common, but the essential attribute is want‑satisfaction."
+    },
+    {
+      "id": 2,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1985_HH_Business",
+      "question": "The interdependence between households and business enterprises illustrated in the figure is known as",
+      "options": [
+        { "id": "A", "text": "market interaction" },
+        { "id": "B", "text": "cash flow" },
+        { "id": "C", "text": "circular flow of income" },
+        { "id": "D", "text": "supply and demand for goods and services" },
+        { "id": "E", "text": "household preference schedule" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The arrows show households supplying factors and paying for goods, while firms pay incomes and supply goods. These continuous real and money flows constitute the **circular flow of income**."
+    },
+    {
+      "id": 3,
+      "instructionId": "Instruction 1",
+      "question": "Bisi needs a book costing ₦10.00. If Bisi buys the book instead of a hat, the opportunity cost of this choice is the",
+      "options": [
+        { "id": "A", "text": "cost of the book" },
+        { "id": "B", "text": "cost of the hat" },
+        { "id": "C", "text": "book" },
+        { "id": "D", "text": "hat" },
+        { "id": "E", "text": "₦10.00" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Opportunity cost is the value of the **next best alternative forgone**. Choosing the book means forgoing the hat, so the hat itself is the opportunity cost."
+    },
+    {
+      "id": 4,
+      "instructionId": "Instruction 1",
+      "question": "An economic problem exists whenever",
+      "options": [
+        { "id": "A", "text": "there is scarcity and choice" },
+        { "id": "B", "text": "there are no buyers for our goods" },
+        { "id": "C", "text": "there are too many sellers" },
+        { "id": "D", "text": "many people are out of work" },
+        { "id": "E", "text": "all raw materials are imported" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Economics is about allocating **scarce resources** among competing uses. Whenever scarcity forces **choice**, an economic problem arises, regardless of unemployment or imports."
+    },
+    {
+      "id": 5,
+      "instructionId": "Instruction 1",
+      "question": "The meaning of a scale of preference is",
+      "options": [
+        { "id": "A", "text": "preparing a list of goods and services to be purchased in order of priority" },
+        { "id": "B", "text": "showing net monthly income" },
+        { "id": "C", "text": "budget preparation without regard to priorities" },
+        { "id": "D", "text": "consumer preference for luxurious goods" },
+        { "id": "E", "text": "consumer preference for foreign goods" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **scale of preference** is an ordered list of wants, ranked by importance, to guide how limited income should be spent. It is not a list of income or simply a preference for luxuries."
+    },
+    {
+      "id": 6,
+      "instructionId": "Instruction 1",
+      "question": "Optimum population is desirable because it enables an economy to attain maximum",
+      "options": [
+        { "id": "A", "text": "per capita income" },
+        { "id": "B", "text": "per capita output" },
+        { "id": "C", "text": "per capita real income" },
+        { "id": "D", "text": "per capita revenue" },
+        { "id": "E", "text": "growth rate" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Optimum population is the population size at which **income per head** is highest, given available resources and technology. So per‑capita income is maximized."
+    },
+    {
+      "id": 7,
+      "instructionId": "Instruction 1",
+      "question": "The age distribution of a population is NOT influenced by",
+      "options": [
+        { "id": "A", "text": "birth rates" },
+        { "id": "B", "text": "death rates" },
+        { "id": "C", "text": "patterns of immigration" },
+        { "id": "D", "text": "patterns of emigration" },
+        { "id": "E", "text": "school‑leaving age" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Age structure depends on **fertility, mortality and migration** patterns (A–D). School‑leaving age affects labour‑force participation but not the basic demographic age distribution."
+    },
+    {
+      "id": 8,
+      "instructionId": "Instruction 1",
+      "question": "One theory of population contends that population tends to increase much faster than the supply of food, and that if growth is not checked it will be limited by natural forces like misery, disaster and food shortage. This theory was propounded by",
+      "options": [
+        { "id": "A", "text": "Prof. Paul Samuelson" },
+        { "id": "B", "text": "Adam Smith" },
+        { "id": "C", "text": "David Ricardo" },
+        { "id": "D", "text": "Rev. Thomas Malthus" },
+        { "id": "E", "text": "Prof. Ojetunji Aboyade" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This is the classic **Malthusian theory of population**, advanced by Rev. Thomas Malthus."
+    },
+    {
+      "id": 9,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1985_UtilityTable",
+      "question": "The table in Figure Econ1985_UtilityTable illustrates the law of",
+      "options": [
+        { "id": "A", "text": "diminishing marginal utility" },
+        { "id": "B", "text": "diminishing marginal productivity" },
+        { "id": "C", "text": "diminishing returns" },
+        { "id": "D", "text": "increasing returns" },
+        { "id": "E", "text": "increase in total utility" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "As more units are consumed, total utility rises but **marginal utility (extra satisfaction from each unit) falls**. That is exactly the law of diminishing marginal utility."
+    },
+    {
+      "id": 10,
+      "instructionId": "Instruction 1",
+      "question": "If in the short run commodities X and Y are supplied jointly, which of the following is correct?",
+      "options": [
+        { "id": "A", "text": "An increase in demand for X will increase the supply of Y." },
+        { "id": "B", "text": "An increase in demand for X will shift the supply curve of Y leftward." },
+        { "id": "C", "text": "An increase in demand for Y will reduce the price of X." },
+        { "id": "D", "text": "An increase in demand for X will cause less of Y to be produced." },
+        { "id": "E", "text": "A probable tax on Y will cause more of X to be supplied." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Jointly supplied goods (like beef and hides) are produced together. Increasing demand for X encourages firms to produce **more of both X and Y**, so supply of Y also rises."
+    },
+    {
+      "id": 11,
+      "instructionId": "Instruction 1",
+      "question": "In market economies, resources are allocated through the",
+      "options": [
+        { "id": "A", "text": "government authorities" },
+        { "id": "B", "text": "price system" },
+        { "id": "C", "text": "banking system" },
+        { "id": "D", "text": "central planning bureau" },
+        { "id": "E", "text": "revenue allocation formula" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a market (capitalist) economy, the **price mechanism** guides producers and consumers, allocating resources via changes in prices rather than central planning."
+    },
+    {
+      "id": 12,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1985_SupplyElasticity",
+      "question": "Study the figure Econ1985_SupplyElasticity. At point H, the price elasticity of supply is",
+      "options": [
+        { "id": "A", "text": "perfectly inelastic" },
+        { "id": "B", "text": "inelastic" },
+        { "id": "C", "text": "unit elastic" },
+        { "id": "D", "text": "perfectly elastic" },
+        { "id": "E", "text": "elastic" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Because the supply curve S passes through the **origin**, the percentage change in quantity supplied equals the percentage change in price at every point; elasticity of supply is therefore **unity (1)** along the curve, including at point H."
+    },
+    {
+      "id": 13,
+      "instructionId": "Instruction 1",
+      "question": "At every point on an indifference curve, the",
+      "options": [
+        { "id": "A", "text": "total utility is decreasing" },
+        { "id": "B", "text": "prices of all goods are constant" },
+        { "id": "C", "text": "consumer is satiated" },
+        { "id": "D", "text": "level of utility is constant" },
+        { "id": "E", "text": "level of utility is increasing" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "An indifference curve shows all combinations of two goods that give the consumer **the same level of satisfaction**. So utility is **constant** along the curve, though it increases as you move to a higher curve."
+    },
+    {
+      "id": 14,
+      "instructionId": "Instruction 1",
+      "question": "Under perfect competition, the long‑run equilibrium requires",
+      "options": [
+        { "id": "A", "text": "MR = MC" },
+        { "id": "B", "text": "MR = AC = AR" },
+        { "id": "C", "text": "MR > MC" },
+        { "id": "D", "text": "MR = MC = AR = AC" },
+        { "id": "E", "text": "AR = AC" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In long‑run competitive equilibrium, profit maximisation (MR = MC) and zero economic profit (P = AR = AC) at minimum AC hold simultaneously. Hence **MR = MC = AR = AC** at the lowest point of AC."
+    },
+    {
+      "id": 15,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1985_MonopolyGraph",
+      "question": "In the figure Econ1985_MonopolyGraph, the broken line labelled M is the marginal‑revenue curve of a",
+      "options": [
+        { "id": "A", "text": "monopoly" },
+        { "id": "B", "text": "competitive firm" },
+        { "id": "C", "text": "state corporation" },
+        { "id": "D", "text": "partnership" },
+        { "id": "E", "text": "monopsony" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Only a **monopolist (or any downward‑sloping demander)** has an MR curve lying **below** its average‑revenue/demand curve. A competitive firm faces a horizontal demand curve and its MR coincides with price."
+    },
+    {
+      "id": 16,
+      "instructionId": "Instruction 1",
+      "question": "If a monopoly is attempting to maximize profit, which of the following should it attempt to do?",
+      "options": [
+        { "id": "A", "text": "Select that output at which ATC is at minimum" },
+        { "id": "B", "text": "Set price equal to total cost" },
+        { "id": "C", "text": "Maximize sales revenue" },
+        { "id": "D", "text": "Maximize total output" },
+        { "id": "E", "text": "Equate marginal cost to marginal revenue" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The profit‑maximizing condition for any firm, including a monopoly, is **MC = MR**. Minimum ATC (A) yields productive efficiency but not necessarily maximum profit, and maximizing sales or output can reduce profit."
+    },
+    {
+      "id": 17,
+      "instructionId": "Instruction 1",
+      "question": "The amount of labour a producer hires relative to other factor inputs depends on the",
+      "options": [
+        { "id": "A", "text": "price of labour or its wage" },
+        { "id": "B", "text": "number of workers seeking jobs" },
+        { "id": "C", "text": "prices of labour, machinery and other inputs" },
+        { "id": "D", "text": "price of machinery" },
+        { "id": "E", "text": "type of machinery" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A profit‑seeking firm chooses a combination of factors that minimizes cost for a given output, which depends on their **relative prices** (wages, rental of capital, etc.), not only on the wage rate itself."
+    },
+    {
+      "id": 18,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT a feature of under‑development?",
+      "options": [
+        { "id": "A", "text": "Low per‑capita income" },
+        { "id": "B", "text": "Vicious circle of poverty" },
+        { "id": "C", "text": "Low level of industrialization" },
+        { "id": "D", "text": "Great dependence on primary production" },
+        { "id": "E", "text": "High per‑capita income" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Underdeveloped economies are characterized by **low per‑capita income**, not high. Options A–D are all typical features of under‑development."
+    },
+    {
+      "id": 19,
+      "instructionId": "Instruction 1",
+      "question": "The inefficient distribution of scarce commodities in Nigeria is mostly due to the",
+      "options": [
+        { "id": "A", "text": "inefficiency of the middleman" },
+        { "id": "B", "text": "inefficiency in the production process" },
+        { "id": "C", "text": "long chain of the distribution system" },
+        { "id": "D", "text": "sovereignty of the consumers" },
+        { "id": "E", "text": "ineffectiveness of retailers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A **long, multi‑stage distribution chain** adds costs, encourages hoarding and delays, and often leads to scarcity at the retail level. This is a major reason for inefficient distribution of goods."
+    },
+    {
+      "id": 20,
+      "instructionId": "Instruction 1",
+      "question": "Warehousing facilities in the distribution and marketing of products are provided mainly by",
+      "options": [
+        { "id": "A", "text": "manufacturers" },
+        { "id": "B", "text": "wholesalers" },
+        { "id": "C", "text": "retailers" },
+        { "id": "D", "text": "consumers" },
+        { "id": "E", "text": "sellers" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Wholesalers typically buy in bulk, **store goods in warehouses** and then distribute smaller quantities to retailers. Manufacturers may also store, but textbooks emphasise wholesalers for warehousing functions."
+    },
+    {
+      "id": 21,
+      "instructionId": "Instruction 1",
+      "question": "A corporation can obtain funds by issuing bonds. A bond is a form of debt which falls due for repayment after",
+      "options": [
+        { "id": "A", "text": "six months" },
+        { "id": "B", "text": "nine months" },
+        { "id": "C", "text": "two years" },
+        { "id": "D", "text": "five years" },
+        { "id": "E", "text": "ten or more years" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Bonds are **long‑term** debt instruments, typically maturing in **ten years or more**, unlike short‑term bills or intermediate‑term notes."
+    },
+    {
+      "id": 22,
+      "instructionId": "Instruction 1",
+      "question": "A firm is said to be a public joint‑stock company when it",
+      "options": [
+        { "id": "A", "text": "is owned by the government" },
+        { "id": "B", "text": "is operated as a public corporation" },
+        { "id": "C", "text": "is operated in a non‑democratic fashion" },
+        { "id": "D", "text": "sells shares to members of the public and publishes its accounts" },
+        { "id": "E", "text": "is a limited‑liability company" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A **public joint‑stock company** (public limited company) offers its shares to the general public and must **publish its accounts**. Limited liability (E) also applies to private companies, so it is not distinctive."
+    },
+    {
+      "id": 23,
+      "instructionId": "Instruction 1",
+      "question": "Limited liability means that",
+      "options": [
+        { "id": "A", "text": "the debts of a company are borne only by the company's assets, not by owners' personal assets" },
+        { "id": "B", "text": "the debts of the company are paid from business as well as private funds of owners" },
+        { "id": "C", "text": "government cannot tax the company" },
+        { "id": "D", "text": "the debts of the company must be paid from private funds" },
+        { "id": "E", "text": "the company does not have to pay its debts" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Under **limited liability**, shareholders are only responsible for company debts up to the amount they have invested; their private assets are protected. Options B, D and E contradict this principle."
+    },
+    {
+      "id": 24,
+      "instructionId": "Instruction 1",
+      "question": "The purchasing power of the Naira will fall when",
+      "options": [
+        { "id": "A", "text": "the Naira is devalued" },
+        { "id": "B", "text": "government cuts all salaries and wages" },
+        { "id": "C", "text": "there is inflation" },
+        { "id": "D", "text": "the colour of the Naira is changed" },
+        { "id": "E", "text": "workers are retrenched" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Purchasing power refers to how much goods and services a unit of currency can buy. **Inflation** (rising prices) reduces this purchasing power; the Naira then buys less."
+    },
+    {
+      "id": 25,
+      "instructionId": "Instruction 1",
+      "question": "When a business has unlimited liability,",
+      "options": [
+        { "id": "A", "text": "all its profits can be taxed away by the government" },
+        { "id": "B", "text": "all its assets are owned by the members of its board of directors" },
+        { "id": "C", "text": "the business ceases to exist at the death of one of its owners" },
+        { "id": "D", "text": "the owners are responsible for all its financial debts" },
+        { "id": "E", "text": "the owners are not responsible for any of its debts" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Unlimited liability means that the **personal assets of the owners** can be used to settle all the firm's debts; their liability is not capped by their investment."
+    },
+    {
+      "id": 26,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following factors is most responsible for the concentration of population around the oil fields in Eastern Nigeria?",
+      "options": [
+        { "id": "A", "text": "establishment of industries" },
+        { "id": "B", "text": "presence of mineral deposits" },
+        { "id": "C", "text": "transportation facilities" },
+        { "id": "D", "text": "favourable soil" },
+        { "id": "E", "text": "favourable climatic conditions" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The discovery and exploitation of **oil (mineral deposits)** attracts workers and firms, leading to population concentration around the oil fields."
+    },
+    {
+      "id": 27,
+      "instructionId": "Instruction 1",
+      "question": "The petro‑chemical industries are located in Rivers State, Nigeria, mainly because of its",
+      "options": [
+        { "id": "A", "text": "favourable climate" },
+        { "id": "B", "text": "favourable soil" },
+        { "id": "C", "text": "oil deposits" },
+        { "id": "D", "text": "palm oil products" },
+        { "id": "E", "text": "coal deposits" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Petro‑chemical industries depend heavily on **crude oil** as raw material, and Rivers State has abundant oil deposits, which determine their location."
+    },
+    {
+      "id": 28,
+      "instructionId": "Instruction 1",
+      "question": "One of the functions of a commercial bank is that it is",
+      "options": [
+        { "id": "A", "text": "responsible for minting money" },
+        { "id": "B", "text": "responsible for issuing currency notes" },
+        { "id": "C", "text": "the lender of last resort" },
+        { "id": "D", "text": "the banker of the government" },
+        { "id": "E", "text": "a banker of demand and time deposits of customers" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Commercial banks primarily **accept deposits (current and time deposits) from the public** and make loans. Minting money and issuing currency (A, B) are Central Bank functions; the lender of last resort and government's banker (C, D) also belong to the Central Bank."
+    },
+    {
+      "id": 29,
+      "instructionId": "Instruction 1",
+      "question": "Because money serves as a standard of deferred payments,",
+      "options": [
+        { "id": "A", "text": "it serves as a store of value" },
+        { "id": "B", "text": "goods can be bought on credit with a determined value" },
+        { "id": "C", "text": "future trade becomes possible" },
+        { "id": "D", "text": "it serves as a unit of account" },
+        { "id": "E", "text": "it becomes valuable" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "As a **standard of deferred payments**, money allows debts to be **stated and settled in future monetary terms**, so goods can be bought now and paid for later at agreed money values."
+    },
+    {
+      "id": 30,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is a necessary prerequisite for trade by barter?",
+      "options": [
+        { "id": "A", "text": "need for double coincidence of wants" },
+        { "id": "B", "text": "multiple exchange rates" },
+        { "id": "C", "text": "impossibility of future trade" },
+        { "id": "D", "text": "impossibility of large‑scale production" },
+        { "id": "E", "text": "indivisibility of commodities" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In barter, both parties must **want what the other offers at the same time**—a \"double coincidence of wants\". This requirement makes barter cumbersome compared with money exchange."
+    },
+    {
+      "id": 31,
+      "instructionId": "Instruction 1",
+      "question": "A state budget is an outline of planned",
+      "options": [
+        { "id": "A", "text": "expenditures and revenues expected within a financial year" },
+        { "id": "B", "text": "expenditures of ministries and parastatals within a given period" },
+        { "id": "C", "text": "recurrent and capital expenditures within a year" },
+        { "id": "D", "text": "sources of revenue derivation for a financial year" },
+        { "id": "E", "text": "use of different kinds of taxation in a given year" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A government budget summarizes the **expected revenues and planned expenditures** over a financial year. B and C describe parts of this, but A is the comprehensive definition."
+    },
+    {
+      "id": 32,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT among the canons of taxation as set out by Adam Smith?",
+      "options": [
+        { "id": "A", "text": "equality" },
+        { "id": "B", "text": "security" },
+        { "id": "C", "text": "certainty" },
+        { "id": "D", "text": "convenience" },
+        { "id": "E", "text": "economy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Adam Smith's four canons are **equity (equality), certainty, convenience and economy**. \"Security\" is not one of them."
+    },
+    {
+      "id": 33,
+      "instructionId": "Instruction 1",
+      "question": "An example of a regressive tax is",
+      "options": [
+        { "id": "A", "text": "the personal income tax" },
+        { "id": "B", "text": "the graduated corporation income tax" },
+        { "id": "C", "text": "a general sales tax" },
+        { "id": "D", "text": "the inheritance tax" },
+        { "id": "E", "text": "the excise tax" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A **general sales tax** takes a larger percentage of income from the poor than from the rich because everyone pays the same rate on purchases regardless of income. That makes it regressive."
+    },
+    {
+      "id": 34,
+      "instructionId": "Instruction 1",
+      "question": "Tax which is levied on goods manufactured, sold or used within the country is",
+      "options": [
+        { "id": "A", "text": "sales tax" },
+        { "id": "B", "text": "excise tax" },
+        { "id": "C", "text": "direct tax" },
+        { "id": "D", "text": "income tax" },
+        { "id": "E", "text": "poll tax" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An **excise tax** is imposed on goods produced and consumed domestically (e.g. cigarettes, beer). Sales tax may apply more broadly, but the description best fits excise tax."
+    },
+    {
+      "id": 35,
+      "instructionId": "Instruction 1",
+      "question": "By terms of trade we mean the",
+      "options": [
+        { "id": "A", "text": "ratio of exports to imports" },
+        { "id": "B", "text": "difference between exports and imports" },
+        { "id": "C", "text": "difference between current account and capital account" },
+        { "id": "D", "text": "index of export prices to import prices expressed as a percentage" },
+        { "id": "E", "text": "ratio of short‑term capital movements" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **terms of trade** are defined as (index of export prices ÷ index of import prices) × 100. This is exactly option D."
+    },
+    {
+      "id": 36,
+      "instructionId": "Instruction 1",
+      "question": "The argument of tariff protection in less developed economies is that such a measure would",
+      "options": [
+        { "id": "A", "text": "raise the price of goods affected abroad" },
+        { "id": "B", "text": "make consumers pay a higher price for domestically produced output" },
+        { "id": "C", "text": "protect young industries from ruinous competition from abroad" },
+        { "id": "D", "text": "help reduce excess capacity in domestic industries" },
+        { "id": "E", "text": "promote excess aggregate demand" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The **infant‑industry argument** for tariffs is that they protect new domestic industries until they become efficient enough to compete with established foreign producers."
+    },
+    {
+      "id": 37,
+      "instructionId": "Instruction 1",
+      "question": "Devaluation of the Naira as a condition for an IMF loan is considered inadvisable because it",
+      "options": [
+        { "id": "A", "text": "would allow for more money to be spent on luxuries" },
+        { "id": "B", "text": "means the interest rate on the loan would increase" },
+        { "id": "C", "text": "would decrease the demand for Nigeria's exports" },
+        { "id": "D", "text": "would worsen Nigeria's foreign‑exchange situation" },
+        { "id": "E", "text": "means Nigeria's oil would sell for less in the world market" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Devaluation makes imports more expensive and may not significantly raise export receipts if demand for exports (like oil) is inelastic, thereby **worsening the foreign‑exchange burden** instead of easing it."
+    },
+    {
+      "id": 38,
+      "instructionId": "Instruction 1",
+      "question": "Foreign‑exchange control in Nigeria is administered by the",
+      "options": [
+        { "id": "A", "text": "United Bank for Africa" },
+        { "id": "B", "text": "Union Bank of Nigeria" },
+        { "id": "C", "text": "First Bank of Nigeria" },
+        { "id": "D", "text": "Central Bank of Nigeria" },
+        { "id": "E", "text": "National Bank of Nigeria" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **Central Bank of Nigeria** is responsible for managing the country's foreign‑exchange reserves and administering exchange‑control regulations."
+    },
+    {
+      "id": 39,
+      "instructionId": "Instruction 1",
+      "question": "Under the ECOWAS agreement, a Nigerian can enter and stay in Ghana without a visa for a period of",
+      "options": [
+        { "id": "A", "text": "14 days" },
+        { "id": "B", "text": "30 days" },
+        { "id": "C", "text": "60 days" },
+        { "id": "D", "text": "90 days" },
+        { "id": "E", "text": "100 days" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "ECOWAS provisions allow citizens of member states to travel **visa‑free for up to 90 days** for purposes such as visiting or short‑term business."
+    },
+    {
+      "id": 40,
+      "instructionId": "Instruction 1",
+      "question": "How many National Development Plans did Nigeria have between 1960 and 1984?",
+      "options": [
+        { "id": "A", "text": "one" },
+        { "id": "B", "text": "two" },
+        { "id": "C", "text": "four" },
+        { "id": "D", "text": "five" },
+        { "id": "E", "text": "six" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nigeria had **four** National Development Plans in that period: 1962–68, 1970–74, 1975–80 and 1981–85."
+    },
+    {
+      "id": 41,
+      "instructionId": "Instruction 1",
+      "question": "If an economy grows at an annual rate of 6% and 4% is known to be due to improvements in the productivity of labour and capital combined, the remaining 2% is generally attributed to",
+      "options": [
+        { "id": "A", "text": "technical progress" },
+        { "id": "B", "text": "size of the population" },
+        { "id": "C", "text": "amount of natural resources" },
+        { "id": "D", "text": "the environment" },
+        { "id": "E", "text": "the quality of human resources" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In growth accounting, the unexplained part of growth after accounting for labour and capital is commonly attributed to **technical progress or total factor productivity**, which is option A."
+    },
+    {
+      "id": 42,
+      "instructionId": "Instruction 1",
+      "question": "The process by which a country attempts to reduce the import of manufactured goods by encouraging firms to produce these goods at home is described as",
+      "options": [
+        { "id": "A", "text": "export promotion" },
+        { "id": "B", "text": "import substitution" },
+        { "id": "C", "text": "industrialization" },
+        { "id": "D", "text": "export diversification" },
+        { "id": "E", "text": "import creation" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Import‑substitution industrialization** is a strategy that replaces imports with domestically produced goods, often through tariffs and subsidies."
+    },
+    {
+      "id": 43,
+      "instructionId": "Instruction 1",
+      "question": "Under normal circumstances a producer will bear the entire burden of taxation on his output if",
+      "options": [
+        { "id": "A", "text": "demand for his product is perfectly elastic" },
+        { "id": "B", "text": "demand for his product is perfectly inelastic" },
+        { "id": "C", "text": "supply of his goods is more elastic than the demand" },
+        { "id": "D", "text": "production of his commodity is subject to diminishing returns" },
+        { "id": "E", "text": "production of his commodity is subject to increasing returns to scale" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "If demand is **perfectly elastic**, any attempt to raise price will cause quantity demanded to fall to zero, so the producer cannot pass on any of the tax to consumers and must bear the full burden."
+    },
+    {
+      "id": 44,
+      "instructionId": "Instruction 1",
+      "question": "Which of the following is NOT part of the fixed cost of a limited‑liability company?",
+      "options": [
+        { "id": "A", "text": "interest on loans" },
+        { "id": "B", "text": "rent on buildings" },
+        { "id": "C", "text": "depreciation reserves" },
+        { "id": "D", "text": "management expenditure" },
+        { "id": "E", "text": "wages" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Most **wages** vary with the level of output (e.g. number of workers or hours worked) and are treated as variable costs. Interest, rent and depreciation are largely fixed in the short run."
+    },
+    {
+      "id": 45,
+      "instructionId": "Instruction 1",
+      "question": "The act of combining factor inputs in order to obtain specific output is known as",
+      "options": [
+        { "id": "A", "text": "factor procurement" },
+        { "id": "B", "text": "manufacturing" },
+        { "id": "C", "text": "investment" },
+        { "id": "D", "text": "industrialization" },
+        { "id": "E", "text": "production" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "In economics, **production** is broadly defined as the process of combining factors (land, labour, capital, enterprise) to create goods and services."
+    },
+    {
+      "id": 46,
+      "instructionId": "Instruction 1",
+      "question": "Disguised unemployment",
+      "options": [
+        { "id": "A", "text": "exists when manpower is not being utilized efficiently" },
+        { "id": "B", "text": "calls for the implementation of five‑year plans" },
+        { "id": "C", "text": "can be eliminated if the press is free" },
+        { "id": "D", "text": "can be eliminated if the capital‑output ratio is increased" },
+        { "id": "E", "text": "is a statistical artefact with no economic meaning" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Disguised unemployment occurs where more workers are employed than necessary so that some have **zero or very low marginal productivity**—labour is present but not fully utilized."
+    },
+    {
+      "id": 47,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1985_MargCostTable",
+      "question": "Using the cost table in Figure Econ1985_MargCostTable, the marginal cost when output is two units is",
+      "options": [
+        { "id": "A", "text": "₦16.00" },
+        { "id": "B", "text": "₦20.00" },
+        { "id": "C", "text": "₦36.00" },
+        { "id": "D", "text": "₦40.00" },
+        { "id": "E", "text": "₦48.00" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "From the table: TC at output 1 is ₦20; TC at output 2 is ₦56. Marginal cost of the second unit is **56 − 20 = ₦36**."
+    },
+    {
+      "id": 48,
+      "instructionId": "Instruction 1",
+      "figureId": "Econ1985_DimReturnsTable",
+      "question": "The table in Figure Econ1985_DimReturnsTable illustrates the law of diminishing returns on a farm. Which pair of values is appropriate for the missing entries X and Y?",
+      "options": [
+        { "id": "A", "text": "X = 20,  Y = 6" },
+        { "id": "B", "text": "X = 38,  Y = 9" },
+        { "id": "C", "text": "X = 46,  Y = 4" },
+        { "id": "D", "text": "X = 46,  Y = 13" },
+        { "id": "E", "text": "X = 10,  Y = 10" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The printed values of X and Y in the scanned table are not fully legible, so the precise numerical answer cannot be determined reliably from the image alone. Conceptually, X and Y should follow a pattern where marginal product first rises and then falls, reflecting the **law of diminishing marginal returns** as more labour is applied to fixed land."
+    },
+    {
+      "id": 49,
+      "instructionId": "Instruction 1",
+      "question": "The unemployment associated with a recession is called",
+      "options": [
+        { "id": "A", "text": "voluntary unemployment" },
+        { "id": "B", "text": "frictional unemployment" },
+        { "id": "C", "text": "cyclical unemployment" },
+        { "id": "D", "text": "structural unemployment" },
+        { "id": "E", "text": "disguised unemployment" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A recession is a downturn in the **business cycle**, so the unemployment that rises during recessions and falls in booms is **cyclical unemployment**."
+    },
+    {
+      "id": 50,
+      "instructionId": "Instruction 1",
+      "question": "When total revenue is at a maximum, marginal revenue is",
+      "options": [
+        { "id": "A", "text": "constant" },
+        { "id": "B", "text": "negative" },
+        { "id": "C", "text": "zero" },
+        { "id": "D", "text": "positive" },
+        { "id": "E", "text": "at a maximum" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Marginal revenue (MR) is the **change in total revenue (TR)** from selling one more unit. TR is at its peak when an extra unit adds nothing to it, i.e. when **MR = 0**. Beyond that, MR becomes negative and TR falls."
+    }
+  ]
+}
