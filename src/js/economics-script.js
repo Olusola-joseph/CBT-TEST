@@ -11,13 +11,14 @@ class EconomicsCBTExamApp {
         this.questions = [];
         this.selectedSubject = 'Economics';
         this.selectedYear = 'jamb_1983'; // Default year for Economics
-        // Economics has years from 1983-1987 (2014-2019 files exist but are empty)
-        this.years = ['jamb_1983', 'jamb_1984', 'jamb_1985', 'jamb_1986', 'jamb_1987']; // Available years for Economics
+        // Economics has years from 1983-1993
+        this.years = ['jamb_1983', 'jamb_1984', 'jamb_1985', 'jamb_1986', 'jamb_1987', 'jamb_1988', 'jamb_1989', 'jamb_1990', 'jamb_1991', 'jamb_1992', 'jamb_1993']; // Available years for Economics
         
         // Initialize database
         this.initDatabase();
         
         this.initializeEventListeners();
+        this.setupKeyboardNavigation();
         this.renderYearSelection();
     }
     
@@ -56,6 +57,101 @@ class EconomicsCBTExamApp {
                 this.showScreen('login-screen');
             });
             yearContainer.appendChild(yearBtn);
+        });
+    }
+
+    setupKeyboardNavigation() {
+        document.addEventListener('keydown', (event) => {
+            // Only handle keyboard navigation during exam
+            if (this.currentScreen !== 'exam-screen') {
+                return;
+            }
+
+            // Prevent default behavior for keys we're handling
+            if (['ArrowLeft', 'ArrowRight', 'ArrowUp', 'ArrowDown', 'a', 'b', 'c', 'd', 'e'].includes(event.key)) {
+                event.preventDefault();
+            }
+
+            // Handle navigation keys
+            switch (event.key) {
+                case 'ArrowLeft':
+                    this.previousQuestion();
+                    break;
+                case 'ArrowRight':
+                    this.nextQuestion();
+                    break;
+                case 'ArrowUp':
+                    this.selectPreviousOption();
+                    break;
+                case 'ArrowDown':
+                    this.selectNextOption();
+                    break;
+                case 'a':
+                case 'b':
+                case 'c':
+                case 'd':
+                case 'e':
+                    this.selectOptionByKey(event.key);
+                    break;
+            }
+        });
+    }
+
+    selectPreviousOption() {
+        const options = document.querySelectorAll('.option-item');
+        if (options.length === 0) return;
+
+        // Find currently selected option
+        let currentIndex = -1;
+        options.forEach((option, index) => {
+            if (option.classList.contains('selected')) {
+                currentIndex = index;
+            }
+        });
+
+        // If no option is selected, select the last one
+        if (currentIndex === -1) {
+            currentIndex = options.length;
+        }
+
+        // Select the previous option (with wrap-around)
+        const targetIndex = (currentIndex - 1 + options.length) % options.length;
+        options[targetIndex].click();
+    }
+
+    selectNextOption() {
+        const options = document.querySelectorAll('.option-item');
+        if (options.length === 0) return;
+
+        // Find currently selected option
+        let currentIndex = -1;
+        options.forEach((option, index) => {
+            if (option.classList.contains('selected')) {
+                currentIndex = index;
+            }
+        });
+
+        // If no option is selected, start with the first one
+        if (currentIndex === -1) {
+            currentIndex = -1;
+        }
+
+        // Select the next option (with wrap-around)
+        const targetIndex = (currentIndex + 1) % options.length;
+        options[targetIndex].click();
+    }
+
+    selectOptionByKey(key) {
+        // Map key to option letter
+        const optionLetter = key.toUpperCase();
+        
+        // Find the option element with this letter
+        const options = document.querySelectorAll('.option-item');
+        options.forEach(option => {
+            const optionLabel = option.querySelector('label');
+            if (optionLabel && optionLabel.textContent.trim().startsWith(optionLetter + '.')) {
+                option.click();
+            }
         });
     }
     
@@ -356,6 +452,14 @@ class EconomicsCBTExamApp {
                 questionBody.classList.remove('question-transition');
             }, 300);
         }
+        
+        // Focus the first option for better keyboard navigation
+        setTimeout(() => {
+            const firstOption = document.querySelector('.option-item');
+            if (firstOption) {
+                firstOption.focus();
+            }
+        }, 100);
     }
 
     renderOptions(question) {
@@ -367,6 +471,7 @@ class EconomicsCBTExamApp {
             const optionElement = document.createElement('div');
             optionElement.className = 'option-item';
             optionElement.dataset.optionId = option.id;
+            optionElement.tabIndex = 0; // Make the option focusable
 
             // Check if this option was previously selected
             const isSelected = this.answers[question.id] === option.id;
@@ -384,6 +489,14 @@ class EconomicsCBTExamApp {
             optionElement.addEventListener('click', () => {
                 this.selectOption(question.id, option.id);
             });
+            
+            // Add keyboard event listener for the option
+            optionElement.addEventListener('keydown', (event) => {
+                if (event.key === 'Enter' || event.key === ' ') {
+                    event.preventDefault();
+                    this.selectOption(question.id, option.id);
+                }
+            });
 
             optionsContainer.appendChild(optionElement);
         });
@@ -397,6 +510,7 @@ class EconomicsCBTExamApp {
         const options = document.querySelectorAll(`.option-item[data-option-id="${optionId}"]`);
         options.forEach(option => {
             option.classList.add('selected');
+            option.focus(); // Focus the selected option for better keyboard navigation
         });
 
         // Remove selection from other options for this question
@@ -414,12 +528,22 @@ class EconomicsCBTExamApp {
     previousQuestion() {
         if (this.currentQuestionIndex > 0) {
             this.loadQuestion(this.currentQuestionIndex - 1);
+            // Focus the previous button to maintain keyboard accessibility
+            setTimeout(() => {
+                const prevBtn = document.getElementById('prev-btn');
+                if (prevBtn) prevBtn.focus();
+            }, 100);
         }
     }
 
     nextQuestion() {
         if (this.currentQuestionIndex < this.questions.length - 1) {
             this.loadQuestion(this.currentQuestionIndex + 1);
+            // Focus the next button to maintain keyboard accessibility
+            setTimeout(() => {
+                const nextBtn = document.getElementById('next-btn');
+                if (nextBtn) nextBtn.focus();
+            }, 100);
         }
     }
 

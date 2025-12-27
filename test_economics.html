@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Economics Keyboard Navigation</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/economics_styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Test Economics - Keyboard Navigation</h1>
+        </header>
+        
+        <main id="main-content">
+            <section id="test-screen" class="screen active">
+                <div class="test-card">
+                    <h2>Keyboard Navigation Test</h2>
+                    <p>This page tests the keyboard navigation functionality for Economics questions.</p>
+                    <p>After loading, you should be able to:</p>
+                    <ul>
+                        <li>Use <strong>A, B, C, D, E</strong> keys to select options</li>
+                        <li>Use <strong>Arrow Up/Down</strong> keys to navigate options</li>
+                        <li>Use <strong>Arrow Left/Right</strong> keys to navigate questions</li>
+                        <li>See all available years (1983-1993) in the year selection</li>
+                    </ul>
+                    
+                    <button id="test-load-btn" class="btn btn-primary">Test Economics Exam</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="src/js/database.js"></script>
+    <script src="src/js/economics-script.js"></script>
+    
+    <script>
+        // Initialize the app for testing
+        document.addEventListener('DOMContentLoaded', () => {
+            const testBtn = document.getElementById('test-load-btn');
+            if (testBtn) {
+                testBtn.addEventListener('click', () => {
+                    // Create an instance of the economics app for testing
+                    const app = new EconomicsCBTExamApp();
+                    window.economicsApp = app;
+                    
+                    // Show the year selection screen
+                    app.showScreen('year-selection-screen');
+                    
+                    // Verify all years are loaded
+                    console.log('Available years:', app.years);
+                    console.log('Number of years:', app.years.length);
+                    
+                    // Check that all expected years are present
+                    const expectedYears = ['jamb_1983', 'jamb_1984', 'jamb_1985', 'jamb_1986', 'jamb_1987', 'jamb_1988', 'jamb_1989', 'jamb_1990', 'jamb_1991', 'jamb_1992', 'jamb_1993'];
+                    const allYearsPresent = expectedYears.every(year => app.years.includes(year));
+                    
+                    if (allYearsPresent) {
+                        console.log('✅ All expected years are present');
+                    } else {
+                        console.error('❌ Some expected years are missing');
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
