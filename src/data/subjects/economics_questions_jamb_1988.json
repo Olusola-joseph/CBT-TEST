@@ -1,0 +1,623 @@
+{
+  "year": 1988,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1988_Q9_Isoquant",
+      "file": "images/econ1988_q9_isoquant_cost_min.png",
+      "description": "Isoquant diagram for Question 9. Capital is on the vertical axis and Labour on the horizontal axis. An isoquant is drawn with four labelled points P, Q, X and Y on or near it, representing different capital–labour combinations for a textile firm’s plant."
+    },
+    {
+      "id": "Econ1988_Q19_DemandSupply",
+      "file": "images/econ1988_q19_demand_supply_excess_demand.png",
+      "description": "Demand–supply diagram for Question 19. A downward‑sloping demand curve and an upward‑sloping supply curve intersect at an equilibrium point. The vertical axis is Price and the horizontal axis is Quantity. Points O, P, N are on the price axis, Q is on the quantity axis, and R and T mark quantities showing excess demand when quantity supplied is OQ."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Scarcity in economics means that",
+      "options": [
+        { "id": "A", "text": "human wants are limitless" },
+        { "id": "B", "text": "the economy has very few resources" },
+        { "id": "C", "text": "the economy can scarcely produce anything" },
+        { "id": "D", "text": "resources are limited in relation to wants" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Scarcity is defined as the condition where **limited resources** are insufficient to satisfy **unlimited human wants**; i.e. resources are limited in relation to wants."
+    },
+    {
+      "id": 2,
+      "question": "Economics is often described as a science because",
+      "options": [
+        { "id": "A", "text": "laboratory experiments are performed" },
+        { "id": "B", "text": "it makes use of controlled experiments" },
+        { "id": "C", "text": "it uses scientific methods to explain observed phenomena and predict future events" },
+        { "id": "D", "text": "it makes use of field work" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Economics is a social science because it uses **systematic, scientific methods** to analyse data, explain economic behaviour and make predictions."
+    },
+    {
+      "id": 3,
+      "question": "When a variable is associated with a time period, it is",
+      "options": [
+        { "id": "A", "text": "a flow" },
+        { "id": "B", "text": "a stock" },
+        { "id": "C", "text": "circular" },
+        { "id": "D", "text": "static" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **flow variable** is measured per unit of time (e.g. income per year). Stock variables are measured at a point in time."
+    },
+    {
+      "id": 4,
+      "question": "Ufuoma is a consumer. His scale of preference shows that he prefers a pair of shoes to a wrist watch; he prefers the wrist watch to a pair of trousers; he prefers the pair of trousers to the pair of shoes. This means that Ufuoma is",
+      "options": [
+        { "id": "A", "text": "rational" },
+        { "id": "B", "text": "consistent" },
+        { "id": "C", "text": "inconsistent" },
+        { "id": "D", "text": "transitive" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "His preferences are **non‑transitive** (shoes > watch, watch > trousers but trousers > shoes), so they are inconsistent."
+    },
+    {
+      "id": 5,
+      "question": "Air is essential to life but commands no price; diamond is not essential to life but commands a high price. This is the paradox of",
+      "options": [
+        { "id": "A", "text": "thrift" },
+        { "id": "B", "text": "value" },
+        { "id": "C", "text": "abundance" },
+        { "id": "D", "text": "scarcity" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "This is the **paradox of value** (water–diamond paradox): necessities may have low prices while luxuries have high prices."
+    },
+    {
+      "id": 6,
+      "question": "The average product of labour in a given period is obtained by dividing the",
+      "options": [
+        { "id": "A", "text": "number of workers by the total product" },
+        { "id": "B", "text": "total product by the number of hours actually worked" },
+        { "id": "C", "text": "change in total product by the change in the total number of workers" },
+        { "id": "D", "text": "total product by the number of workers" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Average product of labour = **total output / number of workers**."
+    },
+    {
+      "id": 7,
+      "question": "Developments outside a given firm which reduce the firm's costs are called",
+      "options": [
+        { "id": "A", "text": "internal economies" },
+        { "id": "B", "text": "external economies" },
+        { "id": "C", "text": "external diseconomies" },
+        { "id": "D", "text": "optimum effects" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**External economies of scale** are cost‑reducing advantages that arise from growth of the industry or economy, not from within the firm."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following BEST describes the production function?",
+      "options": [
+        { "id": "A", "text": "It indicates the best output to produce." },
+        { "id": "B", "text": "It relates naira inputs to naira outputs." },
+        { "id": "C", "text": "It relates physical outputs to physical inputs." },
+        { "id": "D", "text": "It indicates the best way to combine factors to produce any given output." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A production function shows the **technical relationship** between quantities of inputs and the resulting quantity of output."
+    },
+    {
+      "id": 9,
+      "question": "A textile firm operates a plant in the North (where capital is expensive relative to labour) as well as a plant in the South (where labour is expensive relative to capital). In the diagram above, the Southern plant will minimize costs by combining labour and capital in the amounts indicated by",
+      "options": [
+        { "id": "A", "text": "P" },
+        { "id": "B", "text": "Q" },
+        { "id": "C", "text": "X" },
+        { "id": "D", "text": "Y" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct point depends on the exact slopes of the isocost lines in the diagram (relative factor prices). From the low‑resolution image this cannot be determined reliably; consult the original paper or marking scheme."
+    },
+    {
+      "id": 10,
+      "question": "The law of diminishing returns begins to operate when",
+      "options": [
+        { "id": "A", "text": "total product begins to rise" },
+        { "id": "B", "text": "total product begins to fall" },
+        { "id": "C", "text": "marginal product begins to fall" },
+        { "id": "D", "text": "marginal product begins to rise" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Diminishing returns set in once **marginal product starts to fall**, though total product may still be rising."
+    },
+    {
+      "id": 11,
+      "question": "The assumption of profit maximization implies that profit",
+      "options": [
+        { "id": "A", "text": "is the most important consideration of the firm" },
+        { "id": "B", "text": "is the sole consideration of the firm" },
+        { "id": "C", "text": "assumes an insatiable proportion in the instinct of management" },
+        { "id": "D", "text": "is made in order to break-even" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In theory the firm is assumed to **maximize profit**, meaning profit is its **primary or most important objective**, though not necessarily the only consideration."
+    },
+    {
+      "id": 12,
+      "question": "Total fixed cost measures the cost of",
+      "options": [
+        { "id": "A", "text": "all plant and machinery" },
+        { "id": "B", "text": "all assets whose quantity cannot be varied in the short run" },
+        { "id": "C", "text": "all assets upon which the firm has control" },
+        { "id": "D", "text": "property owned by the firm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Fixed costs are associated with **inputs that cannot be varied in the short run** (e.g. buildings, major equipment), regardless of ownership."
+    },
+    {
+      "id": 13,
+      "question": "The output at which total revenue equals total cost is known as",
+      "options": [
+        { "id": "A", "text": "profit-maximizing output" },
+        { "id": "B", "text": "break-even level of output" },
+        { "id": "C", "text": "loss-minimizing output" },
+        { "id": "D", "text": "least-cost output" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Where **total revenue = total cost**, the firm makes zero economic profit; this is the **break‑even** output."
+    },
+    {
+      "id": 14,
+      "question": "The demand and supply equations for a commodity are given respectively as D = 30 − ½P and S = 8 + ¾P. Recalling that at equilibrium D = S, the equilibrium price (P) and quantity (Q) can be obtained as",
+      "options": [
+        { "id": "A", "text": "P = 12, Q = 16" },
+        { "id": "B", "text": "P = 14, Q = 10" },
+        { "id": "C", "text": "P = 12, Q = 14" },
+        { "id": "D", "text": "P = 16, Q = 12" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The coefficients in the scanned equations are not clearly legible, so solving for equilibrium from the uncertain equations may not match the original answer options. Please verify with a clearer copy of the paper."
+    },
+    {
+      "id": 15,
+      "question": "A commodity is said to have a derived demand when the commodity",
+      "options": [
+        { "id": "A", "text": "and another have joint demand" },
+        { "id": "B", "text": "is demanded because of what it can help to produce" },
+        { "id": "C", "text": "is demanded for different purposes" },
+        { "id": "D", "text": "has elastic demand" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Derived demand arises when a good (usually a factor of production) is demanded **because it is needed to produce another good**."
+    },
+    {
+      "id": 16,
+      "question": "If all goods were free a rational consumer would consume",
+      "options": [
+        { "id": "A", "text": "an infinite amount of each good" },
+        { "id": "B", "text": "the amount where marginal utility became zero" },
+        { "id": "C", "text": "the same amount as when each good had a positive price" },
+        { "id": "D", "text": "the amount where marginal utility was the highest" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Even if goods were free, consumption would stop where **marginal utility falls to zero**; beyond this it becomes negative."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following changes in equilibrium price and quantity is as a result of an upward shift in the market demand for a commodity?",
+      "options": [
+        { "id": "A", "text": "The price falls and the quantity falls." },
+        { "id": "B", "text": "The price rises and the quantity falls." },
+        { "id": "C", "text": "The price falls and the quantity rises." },
+        { "id": "D", "text": "Both the price and the quantity rise." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "An increase (upward shift) in demand with supply constant leads to **higher equilibrium price and higher equilibrium quantity**."
+    },
+    {
+      "id": 18,
+      "question": "One factor which influences the slope of a non-linear demand curve for a commodity is the",
+      "options": [
+        { "id": "A", "text": "price of the commodity" },
+        { "id": "B", "text": "quantity of the commodity demanded" },
+        { "id": "C", "text": "availability of substitutes" },
+        { "id": "D", "text": "availability of complements" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The presence of **close substitutes** makes demand more elastic (flatter), affecting the slope of the demand curve."
+    },
+    {
+      "id": 19,
+      "question": "If in the demand-supply diagram above the quantity supplied is OQ, then",
+      "options": [
+        { "id": "A", "text": "price will be OP" },
+        { "id": "B", "text": "there will be excess demand of RT" },
+        { "id": "C", "text": "price will be ON" },
+        { "id": "D", "text": "price will tend to rise" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct option depends on the exact positions of points P, N, R and T on the diagram; this is unclear from the small scan, so the official answer cannot be stated confidently."
+    },
+    {
+      "id": 20,
+      "question": "One of the characteristics of an imperfect market is",
+      "options": [
+        { "id": "A", "text": "a large number of buyers and sellers" },
+        { "id": "B", "text": "a lack of homogeneity of products" },
+        { "id": "C", "text": "an adequate awareness of market conditions by buyers and sellers" },
+        { "id": "D", "text": "the availability of substitutes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In imperfect markets (e.g. monopolistic competition), products are **differentiated**, i.e. not homogeneous."
+    },
+    {
+      "id": 21,
+      "question": "Total revenue is always equal to",
+      "options": [
+        { "id": "A", "text": "marginal revenue multiplied by the quantity sold" },
+        { "id": "B", "text": "average revenue plus marginal revenue" },
+        { "id": "C", "text": "marginal revenue multiplied by marginal cost" },
+        { "id": "D", "text": "average revenue multiplied by the quantity sold" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Average revenue is price per unit, so **total revenue = price × quantity = average revenue × quantity.**"
+    },
+    {
+      "id": 22,
+      "question": "If prices fall in a perfectly competitive industry, the firms in that industry, in the short run will",
+      "options": [
+        { "id": "A", "text": "not decrease in number" },
+        { "id": "B", "text": "keep output at the same level but make losses" },
+        { "id": "C", "text": "reduce production" },
+        { "id": "D", "text": "intensify the advertisement of their products" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In the short run firms cannot freely enter or exit, but if price falls they will **reduce output** along their marginal‑cost curves."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following is TRUE at the quantity of output where Average Cost (AC) per unit has reached its minimum level?",
+      "options": [
+        { "id": "A", "text": "AVC = FC" },
+        { "id": "B", "text": "MC = AC" },
+        { "id": "C", "text": "MC is less than AC" },
+        { "id": "D", "text": "AC = AFC" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The marginal‑cost curve **cuts the average‑cost curve at its minimum point**, so MC = AC there."
+    },
+    {
+      "id": 24,
+      "question": "In the short run, the monopolistic competitor",
+      "options": [
+        { "id": "A", "text": "always makes profit" },
+        { "id": "B", "text": "always incurs a loss" },
+        { "id": "C", "text": "always breaks even" },
+        { "id": "D", "text": "may close down" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In the short run, a monopolistic competitor **may earn profit, break even, incur loss or even shut down** if price falls below average variable cost; hence ‘may close down’ is the safest correct statement."
+    },
+    {
+      "id": 25,
+      "question": "Price leadership is",
+      "options": [
+        { "id": "A", "text": "a form of tacit collusion" },
+        { "id": "B", "text": "used to explain price rigidity" },
+        { "id": "C", "text": "illegal in Nigeria" },
+        { "id": "D", "text": "a form of overt collusion" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Price leadership occurs when one dominant firm sets price and others follow; this is a **tacit (implicit) form of collusion.**"
+    },
+    {
+      "id": 26,
+      "question": "The additional revenue obtained by using one more unit of a factor is called",
+      "options": [
+        { "id": "A", "text": "average product" },
+        { "id": "B", "text": "marginal product" },
+        { "id": "C", "text": "diminishing returns" },
+        { "id": "D", "text": "marginal revenue product" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The extra revenue from employing one more unit of a factor is its **marginal revenue product (MRP)**."
+    },
+    {
+      "id": 27,
+      "question": "In a public company, entrepreneurial functions are performed by the",
+      "options": [
+        { "id": "A", "text": "workers" },
+        { "id": "B", "text": "shareholders" },
+        { "id": "C", "text": "general manager" },
+        { "id": "D", "text": "board of directors" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In a public (limited liability) company, key policy and entrepreneurial decisions are made by the **board of directors**."
+    },
+    {
+      "id": 28,
+      "question": "The most important limitation on the partnership as a form of business enterprise is the",
+      "options": [
+        { "id": "A", "text": "implication for partners' liability" },
+        { "id": "B", "text": "legal limitation placed on the number of partners" },
+        { "id": "C", "text": "difficulties arising from having two co‑ordinate heads of a firm" },
+        { "id": "D", "text": "fact that each partner, regardless of the capital he contributes, must have the same voting rights" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Partners usually have **unlimited liability**, making personal assets liable for the firm's debts; this is a major limitation."
+    },
+    {
+      "id": 29,
+      "question": "Under partnership, investors who have no desires to be actively involved in the day‑to‑day management of such organisations are called",
+      "options": [
+        { "id": "A", "text": "stockbrokers" },
+        { "id": "B", "text": "sleeping partners" },
+        { "id": "C", "text": "part‑time investors" },
+        { "id": "D", "text": "ordinary partners" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Sleeping (or dormant) partners** contribute capital but do not participate in daily management."
+    },
+    {
+      "id": 30,
+      "question": "Localization of industries refers to the",
+      "options": [
+        { "id": "A", "text": "tendency to concentrate industries in particular areas" },
+        { "id": "B", "text": "siting of industries in certain areas" },
+        { "id": "C", "text": "deliberate policy of influencing location of industries generally" },
+        { "id": "D", "text": "zoning of industries" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Industrial localization is the **concentration of many firms of the same industry in a particular area** (e.g. industrial clusters)."
+    },
+    {
+      "id": 31,
+      "question": "Restriction on credit‑creation by commercial banks can be effected through",
+      "options": [
+        { "id": "A", "text": "an overdraft" },
+        { "id": "B", "text": "loans and advances" },
+        { "id": "C", "text": "demand deposits" },
+        { "id": "D", "text": "liquidity ratio" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A higher required **liquidity ratio** (or cash‑reserve ratio) restricts banks’ ability to create credit."
+    },
+    {
+      "id": 32,
+      "question": "Which of the following factors enhances the ability of commercial banks to create money?",
+      "options": [
+        { "id": "A", "text": "Reduction in the reserve ratio" },
+        { "id": "B", "text": "Leakage of cash out of the banking system" },
+        { "id": "C", "text": "Excess reserves" },
+        { "id": "D", "text": "Insistence on collateral security" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **lower reserve ratio** allows banks to lend a higher multiple of deposits, increasing money creation."
+    },
+    {
+      "id": 33,
+      "question": "In any economy, what is used as money is determined by",
+      "options": [
+        { "id": "A", "text": "government acceptance of a commodity standard" },
+        { "id": "B", "text": "government acceptance of an inconvertible paper standard" },
+        { "id": "C", "text": "laws and customs" },
+        { "id": "D", "text": "its use as a store of value" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "What serves as money is largely determined by **social conventions, laws and customs**, which give it acceptability."
+    },
+    {
+      "id": 34,
+      "question": "The rate at which money changes hands is known as the",
+      "options": [
+        { "id": "A", "text": "rate of inflation" },
+        { "id": "B", "text": "velocity of transaction" },
+        { "id": "C", "text": "velocity of money" },
+        { "id": "D", "text": "velocity of circulation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **velocity of circulation** is the average number of times a unit of money is used to purchase goods and services in a period."
+    },
+    {
+      "id": 35,
+      "question": "Merchant banks perform all the following functions EXCEPT",
+      "options": [
+        { "id": "A", "text": "raising of capital for industry" },
+        { "id": "B", "text": "provision of current account facilities" },
+        { "id": "C", "text": "management of investment portfolios" },
+        { "id": "D", "text": "provision of credit for overseas trade" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Merchant banks specialise in **wholesale banking and finance**, not retail current‑account services, which are provided by commercial banks."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following is a direct tax?",
+      "options": [
+        { "id": "A", "text": "sales tax" },
+        { "id": "B", "text": "purchase tax" },
+        { "id": "C", "text": "export duties" },
+        { "id": "D", "text": "property tax" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "**Property tax** is paid directly by the owner to the government; the burden cannot easily be shifted, so it is a direct tax."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is an indirect tax?",
+      "options": [
+        { "id": "A", "text": "excise tax" },
+        { "id": "B", "text": "corporate income tax" },
+        { "id": "C", "text": "property tax" },
+        { "id": "D", "text": "highway tax" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Excise duties** are taxes on goods/services that can be shifted to consumers via higher prices, so they are indirect."
+    },
+    {
+      "id": 38,
+      "question": "When a nation is experiencing balance of payments surplus, it is in a better position to",
+      "options": [
+        { "id": "A", "text": "increase its foreign exchange reserves" },
+        { "id": "B", "text": "increase its liabilities to foreigners" },
+        { "id": "C", "text": "reduce its foreign exchange reserves" },
+        { "id": "D", "text": "devalue its national currency" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A payments surplus means more foreign currency is flowing in, enabling the country to **add to its foreign exchange reserves**."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is a good example of invisible item on balance of payments account?",
+      "options": [
+        { "id": "A", "text": "shipping and aviation" },
+        { "id": "B", "text": "export and imports" },
+        { "id": "C", "text": "merchandise" },
+        { "id": "D", "text": "bullion" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Invisibles** include services such as shipping, aviation, insurance and tourism; they are not tangible goods."
+    },
+    {
+      "id": 40,
+      "question": "Deficit financing is mostly facilitated by the existence of",
+      "options": [
+        { "id": "A", "text": "stock exchange market" },
+        { "id": "B", "text": "commercial bank" },
+        { "id": "C", "text": "central bank" },
+        { "id": "D", "text": "capital market" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Government deficit financing is often achieved through **central bank credit** (e.g. printing money or central‑bank lending)."
+    },
+    {
+      "id": 41,
+      "question": "The Malthusian theory of population predicts that growth in food production will",
+      "options": [
+        { "id": "A", "text": "keep pace with population growth" },
+        { "id": "B", "text": "be at a faster rate than population growth" },
+        { "id": "C", "text": "be at a slower rate than population growth" },
+        { "id": "D", "text": "be more rapid than population growth in the developing countries" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Malthus argued that population grows geometrically while food supply grows arithmetically, so **food production grows more slowly** than population."
+    },
+    {
+      "id": 42,
+      "question": "If aggregate income is N500.00 and aggregate consumption is N400.00, this means that the average propensity to consume is",
+      "options": [
+        { "id": "A", "text": "0.20" },
+        { "id": "B", "text": "0.80" },
+        { "id": "C", "text": "1.25" },
+        { "id": "D", "text": "2.00" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "APC = C/Y = 400 / 500 = **0.8**."
+    },
+    {
+      "id": 43,
+      "question": "Which of the following items is subtracted when computing Gross National Product at factor cost by the expenditure method?",
+      "options": [
+        { "id": "A", "text": "consumption expenditure" },
+        { "id": "B", "text": "indirect taxes" },
+        { "id": "C", "text": "export and property income from abroad" },
+        { "id": "D", "text": "gross domestic fixed capital formation" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To get from market prices to factor cost, **indirect taxes are subtracted** (and subsidies are added)."
+    },
+    {
+      "id": 44,
+      "question": "Which of the following occurs in the circular flow of economic activities with no leakages?",
+      "options": [
+        { "id": "A", "text": "consumption equals saving" },
+        { "id": "B", "text": "saving equals investment" },
+        { "id": "C", "text": "imports equal exports" },
+        { "id": "D", "text": "national income equals national expenditure" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In a closed economy with no leakages or injections, **national income = national expenditure = national output**."
+    },
+    {
+      "id": 45,
+      "question": "In estimating the national income of a country, the three approaches usually adopted are the",
+      "options": [
+        { "id": "A", "text": "expenditure, value‑added and output" },
+        { "id": "B", "text": "income, final product and output" },
+        { "id": "C", "text": "expenditure, income and output" },
+        { "id": "D", "text": "avoidance of double counting, final expenditure and value‑added" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "National income can be measured by **output (product), income and expenditure** approaches."
+    },
+    {
+      "id": 46,
+      "question": "If technology becomes less capital‑intensive, it means",
+      "options": [
+        { "id": "A", "text": "an increase in the capital/labour ratio" },
+        { "id": "B", "text": "an increase in the labour/capital ratio" },
+        { "id": "C", "text": "a fall in the labour/capital ratio" },
+        { "id": "D", "text": "increased unemployment" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Less capital‑intensive production uses **more labour relative to capital**, so the labour‑capital ratio rises."
+    },
+    {
+      "id": 47,
+      "question": "The most threatening problem for the less developed countries is",
+      "options": [
+        { "id": "A", "text": "the continual depletion of their soil fertility" },
+        { "id": "B", "text": "the rise of nationalism" },
+        { "id": "C", "text": "population explosion" },
+        { "id": "D", "text": "their indifference towards economic growth" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Rapid **population growth** is widely regarded as a major obstacle to development in many less developed countries."
+    },
+    {
+      "id": 48,
+      "question": "An increase in an economy's productive capacity implies",
+      "options": [
+        { "id": "A", "text": "an increase in the economy's rate of capital replacement" },
+        { "id": "B", "text": "an increase in the economy's capital stock" },
+        { "id": "C", "text": "a decrease in government spending" },
+        { "id": "D", "text": "an increase in government spending" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Productive capacity rises when there is more capital, labour or technology; here the best option is an **increase in capital stock**."
+    },
+    {
+      "id": 49,
+      "question": "Collectivism refers to the system of management of state enterprises in a",
+      "options": [
+        { "id": "A", "text": "mixed economy" },
+        { "id": "B", "text": "co‑operative organization" },
+        { "id": "C", "text": "capitalist system" },
+        { "id": "D", "text": "socialist economy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Collectivism is associated with **socialist economies**, where the state owns and manages major enterprises."
+    },
+    {
+      "id": 50,
+      "question": "The group of unemployed members of a community who are physically handicapped or disabled is generally classified under the",
+      "options": [
+        { "id": "A", "text": "frictional" },
+        { "id": "B", "text": "residual" },
+        { "id": "C", "text": "cyclical" },
+        { "id": "D", "text": "hidden" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Residual unemployment** covers people who are unemployed because of physical or mental disabilities that prevent them from working."
+    }
+  ]
+}
