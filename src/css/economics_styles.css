@@ -52,6 +52,11 @@
     background-color: white;
 }
 
+.option-item:focus {
+    outline: 2px solid #4a90e2;
+    outline-offset: 2px;
+}
+
 .option-item:hover {
     border-color: #4a90e2;
     background-color: #f8f9fa;
