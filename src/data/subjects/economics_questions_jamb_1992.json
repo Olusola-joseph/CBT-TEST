@@ -1,0 +1,643 @@
+{
+  "year": 1992,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1992_AgeDependency",
+      "file": "images/econ1992_q5_age_structure.png",
+      "description": "Age‑distribution table for Question 5. Age groups (years) and percentage distribution: above 60 → 30%; 15–60 → 45%; 0–14 → 25%. Used to compute the dependency ratio \\(= \\frac{\\text{dependants}}{\\text{working age}} = \\frac{30+25}{45} = \\frac{55}{45} = 11:9\\)."
+    },
+    {
+      "id": "Econ1992_PopFood",
+      "file": "images/econ1992_q6_population_food.png",
+      "description": "Population–food‑production table for Question 6. Population levels (millions): 50, 70, 90, 100; corresponding food output (million tonnes): 220, 210, 225, 275. Candidates compute output per head \\(Q/N\\) to determine the optimum population."
+    },
+    {
+      "id": "Econ1992_ProdCost_Table",
+      "file": "images/econ1992_q11_12_prod_cost.png",
+      "description": "Production and cost data for Questions 11 and 12. Table shows units of input (0–5), total output, total fixed cost, total variable cost and total cost. Used to compute marginal physical product (MPP) and the input level at which diminishing marginal returns set in: \\(MPP_n = Q_n - Q_{n-1}\\)."
+    },
+    {
+      "id": "Econ1992_ShortRunCost_Singlets",
+      "file": "images/econ1992_q14_singlets_cost.png",
+      "description": "Short‑run total cost schedule for a firm producing singlets (Question 14). Quantities: 0, 10, 20, 30, 40 units; corresponding short‑run total costs (in naira): 1000, 1200, 1400, 1600, 1800. Fixed cost is \\(\\text{FC} = 1000\\); variable cost at Q = 20 is \\(\\text{VC} = 1400 - 1000 = 400\\); variable cost per unit is \\(400/20 = 20\\)."
+    },
+    {
+      "id": "Econ1992_DemandSupply",
+      "file": "images/econ1992_q17_18_demand_supply.png",
+      "description": "Demand–supply diagram for Questions 17 and 18. Upward‑sloping supply curve \\(S\\) and downward‑sloping demand curve \\(D\\) intersect at equilibrium price \\(P_1\\) and quantity \\(Q_1\\). Higher price \\(P_2\\) and lower price \\(P_0\\) are also marked on the vertical axis. Horizontal lines from these prices meet the demand and supply curves, showing possible surpluses or shortages."
+    },
+    {
+      "id": "Econ1992_ProfitMax_MR_AR",
+      "file": "images/econ1992_q19_profit_max.png",
+      "description": "Price–output diagram for Question 19. Vertical axis is price/cost and horizontal axis is quantity. Two U‑shaped curves labelled I and II represent average and marginal cost curves. A downward‑sloping marginal‑revenue curve (MR) lies below an average‑revenue/demand curve (AR). Quantities \\(Q_0, Q_1, Q_2\\) are marked on the horizontal axis; candidates must identify the profit‑maximizing output given MR and cost curves."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following situations can give rise to economic problems?",
+      "options": [
+        { "id": "A", "text": "Unlimited human wants" },
+        { "id": "B", "text": "Wants of varying importance" },
+        { "id": "C", "text": "Limited means available for satisfying wants" },
+        { "id": "D", "text": "Means used in different ways" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The fundamental economic problem arises because **resources are scarce** relative to wants: limited means available for satisfying wants."
+    },
+    {
+      "id": 2,
+      "question": "Scale of preference refers to",
+      "options": [
+        { "id": "A", "text": "consumers’ preference for luxurious goods" },
+        { "id": "B", "text": "the household monthly income" },
+        { "id": "C", "text": "a list of goods and services arranged in order of priority" },
+        { "id": "D", "text": "budget preparation without paying due regard to priority" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A scale of preference is a **ranked list of wants** in order of their relative importance."
+    },
+    {
+      "id": 3,
+      "question": "For an economy which last year produced only two commodities X and Y, the real cost of the quantity of X which it produced can be measured by the",
+      "options": [
+        { "id": "A", "text": "amount of X it could not produce" },
+        { "id": "B", "text": "amount of Y it produced" },
+        { "id": "C", "text": "total amount of Y it could have produced" },
+        { "id": "D", "text": "extra amount of Y it could have produced" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The real (opportunity) cost of the output of X is the **amount of Y forgone**, i.e. the extra Y that could have been produced with the resources used to produce X."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is applicable in a wholly capitalist economy?",
+      "options": [
+        { "id": "A", "text": "There is government intervention in price determination" },
+        { "id": "B", "text": "Consumer sovereignty does not exist" },
+        { "id": "C", "text": "The price mechanism allocates resources" },
+        { "id": "D", "text": "Households cannot freely decide what to spend on goods and services" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a pure capitalist (market) economy, resources are allocated mainly through the **price mechanism** (demand and supply)."
+    },
+    {
+      "id": 5,
+      "question": "With reference to the age‑distribution table in figure Econ1992_AgeDependency, the estimated dependency ratio of the population is",
+      "options": [
+        { "id": "A", "text": "11 : 9" },
+        { "id": "B", "text": "9 : 11" },
+        { "id": "C", "text": "7 : 3" },
+        { "id": "D", "text": "3 : 7" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dependants are 0–14 and above 60: \\(25 + 30 = 55\\). Working‑age population (15–60) is 45. Dependency ratio \\(= 55:45 = 11:9\\)."
+    },
+    {
+      "id": 6,
+      "question": "Using the population and food‑production data in figure Econ1992_PopFood, what is the optimum population (in millions)?",
+      "options": [
+        { "id": "A", "text": "50" },
+        { "id": "B", "text": "70" },
+        { "id": "C", "text": "90" },
+        { "id": "D", "text": "100" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Output per head: 50M → 220/50 = 4.4; 70M → 3.0; 90M → 2.5; 100M → 2.75. The highest output per head is at **50 million**, so that is the optimum population."
+    },
+    {
+      "id": 7,
+      "question": "The major objective of the current campaign for family planning in Nigeria is to",
+      "options": [
+        { "id": "A", "text": "reduce the death rate" },
+        { "id": "B", "text": "limit the number of women a man can marry" },
+        { "id": "C", "text": "keep the population growth rate constant" },
+        { "id": "D", "text": "raise the standard of living of the population" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Family planning primarily aims to **improve welfare and living standards** by moderating population growth."
+    },
+    {
+      "id": 8,
+      "question": "The migration of young people from rural to urban areas in Nigeria should help to raise the",
+      "options": [
+        { "id": "A", "text": "standard of living in the urban areas" },
+        { "id": "B", "text": "total productivity of labour in the rural areas" },
+        { "id": "C", "text": "marginal productivity of labour in the rural area" },
+        { "id": "D", "text": "marginal productivity of labour in the urban area" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "As surplus labour leaves agriculture, labour per hectare falls and the **marginal product of labour in rural areas rises**."
+    },
+    {
+      "id": 9,
+      "question": "By definition, variable cost (VC) is related to total cost (TC) and fixed cost (FC) by the equation",
+      "options": [
+        { "id": "A", "text": "VC = TC + FC" },
+        { "id": "B", "text": "VC = TC - FC" },
+        { "id": "C", "text": "VC = TC / FC" },
+        { "id": "D", "text": "VC = (TC)(FC)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Since \\(TC = TFC + TVC\\), it follows that **\\(VC = TC - FC\\)**."
+    },
+    {
+      "id": 10,
+      "question": "The higher the price of capital relative to the price of labour, the more production techniques should be",
+      "options": [
+        { "id": "A", "text": "labour‑intensive" },
+        { "id": "B", "text": "capital‑intensive" },
+        { "id": "C", "text": "fixed" },
+        { "id": "D", "text": "technology‑intensive" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "If capital is relatively expensive, firms substitute cheaper labour, using **labour‑intensive** techniques."
+    },
+    {
+      "id": 11,
+      "question": "Using the production data in figure Econ1992_ProdCost_Table, at what level of input do diminishing marginal returns set in?",
+      "options": [
+        { "id": "A", "text": "3 units" },
+        { "id": "B", "text": "16 units of output" },
+        { "id": "C", "text": "20 units of output" },
+        { "id": "D", "text": "22 units of output" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Diminishing returns begin where marginal physical product (MPP) starts to fall: where \\(MPP_n < MPP_{n-1}\\). The exact input level cannot be stated confidently because the values in the scanned table are not fully legible."
+    },
+    {
+      "id": 12,
+      "question": "Using the same production data (figure Econ1992_ProdCost_Table), calculate the marginal physical product of the last unit of input.",
+      "options": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "10" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Marginal physical product is \\(MPP_5 = Q_5 - Q_4\\). Because the exact total‑output entries for inputs 4 and 5 are unclear in the scan, the numerical value cannot be determined reliably."
+    },
+    {
+      "id": 13,
+      "question": "The U‑shape of the long‑run average cost curve can be explained by the",
+      "options": [
+        { "id": "A", "text": "law of increasing returns" },
+        { "id": "B", "text": "law of constant returns" },
+        { "id": "C", "text": "law of diminishing returns" },
+        { "id": "D", "text": "concepts of economies and diseconomies of scale" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In the long run, average cost first falls due to **economies of scale** and later rises due to **diseconomies of scale**, giving a U‑shape."
+    },
+    {
+      "id": 14,
+      "question": "Using the cost schedule in figure Econ1992_ShortRunCost_Singlets, calculate the variable cost per unit at an output of 20 singlets.",
+      "options": [
+        { "id": "A", "text": "N1000" },
+        { "id": "B", "text": "N400" },
+        { "id": "C", "text": "N70" },
+        { "id": "D", "text": "N20" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Fixed cost \\(= 1000\\). At Q = 20, \\(TC = 1400\\), so \\(VC = 1400 - 1000 = 400\\). Variable cost per unit: \\(400/20 = \\text{N}20\\)."
+    },
+    {
+      "id": 15,
+      "question": "The price mechanism is more effective in achieving efficient performance of the economy than the planning mechanism because of the",
+      "options": [
+        { "id": "A", "text": "role of supply and demand" },
+        { "id": "B", "text": "role of material incentive" },
+        { "id": "C", "text": "existence of buyers and sellers" },
+        { "id": "D", "text": "role of money" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a price system, **material incentives (profit and loss)** strongly motivate efficient resource use, more so than under central planning."
+    },
+    {
+      "id": 16,
+      "question": "If demand is relatively inelastic and sellers are able to raise the price of their commodity, then there will be a",
+      "options": [
+        { "id": "A", "text": "fall in both quantity demanded and total revenue" },
+        { "id": "B", "text": "fall in the quantity demanded and a rise in total revenue" },
+        { "id": "C", "text": "fall in the quantity demanded and a rise in marginal revenue" },
+        { "id": "D", "text": "rise in both the quantity demanded and the marginal revenue" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For **inelastic** demand (\\(|E_d| < 1\\)), a price increase leads to a smaller percentage fall in quantity, so **total revenue rises**."
+    },
+    {
+      "id": 17,
+      "question": "Question 17 refers to the demand–supply diagram in figure Econ1992_DemandSupply. The detailed wording is not clearly legible in the scan.",
+      "options": [
+        { "id": "A", "text": "Option text illegible" },
+        { "id": "B", "text": "Option text illegible" },
+        { "id": "C", "text": "Option text illegible" },
+        { "id": "D", "text": "Option text illegible" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The scan does not show the full text or options for Question 17, so it cannot be reconstructed confidently."
+    },
+    {
+      "id": 18,
+      "question": "With reference to the demand–supply diagram in figure Econ1992_DemandSupply, if the price is initially \\(P_1\\), it can be deduced that the price will",
+      "options": [
+        { "id": "A", "text": "fall because there is a surplus" },
+        { "id": "B", "text": "remain constant because it is the equilibrium price" },
+        { "id": "C", "text": "rise because there is a shortage" },
+        { "id": "D", "text": "double" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In the diagram, \\(P_1\\) is where \\(D\\) and \\(S\\) intersect; therefore it is the **equilibrium price**, and there is no pressure for it to change."
+    },
+    {
+      "id": 19,
+      "question": "In the profit‑maximization diagram (figure Econ1992_ProfitMax_MR_AR), the profit‑maximizing output is",
+      "options": [
+        { "id": "A", "text": "Q1 while I = AC and II = MC" },
+        { "id": "B", "text": "Q1 while I = MC and II = AC" },
+        { "id": "C", "text": "Q2 while I = MC and II = AC" },
+        { "id": "D", "text": "Q3 while I = AC and II = MC" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The correct option depends on which curve (I or II) is marginal cost and which is average cost, as well as where MR intersects MC. These labels are not fully readable in the scan."
+    },
+    {
+      "id": 20,
+      "question": "A firm with marginal cost equal to its marginal revenue will produce the equilibrium output if it is in",
+      "options": [
+        { "id": "A", "text": "pure competition only" },
+        { "id": "B", "text": "pure monopoly only" },
+        { "id": "C", "text": "monopolistic competition only" },
+        { "id": "D", "text": "any type of market" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The profit‑maximization condition \\(MC = MR\\) holds for **all market structures**."
+    },
+    {
+      "id": 21,
+      "question": "An important function for the retailer is to",
+      "options": [
+        { "id": "A", "text": "grant credit to the wholesaler" },
+        { "id": "B", "text": "break bulk and sell products in small units" },
+        { "id": "C", "text": "reduce cost of distribution" },
+        { "id": "D", "text": "generate demand for products through advertisement" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Retailers **break bulk**, selling in quantities convenient to final consumers."
+    },
+    {
+      "id": 22,
+      "question": "The main handicap of sole proprietorship is",
+      "options": [
+        { "id": "A", "text": "limited liability" },
+        { "id": "B", "text": "lack of technical know‑how" },
+        { "id": "C", "text": "low profit margin" },
+        { "id": "D", "text": "inadequate capital" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Sole proprietors usually have **limited access to capital**, which constrains growth."
+    },
+    {
+      "id": 23,
+      "question": "The type of business organization mostly used for producing public goods in Nigeria is",
+      "options": [
+        { "id": "A", "text": "sole proprietorships" },
+        { "id": "B", "text": "limited liability companies" },
+        { "id": "C", "text": "co‑operative societies" },
+        { "id": "D", "text": "statutory corporations" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Public goods and major utilities are commonly provided by **statutory corporations or public enterprises**."
+    },
+    {
+      "id": 24,
+      "question": "The main reason for the current programme of privatization and commercialization of public enterprises in Nigeria is to",
+      "options": [
+        { "id": "A", "text": "reduce public expenditure" },
+        { "id": "B", "text": "encourage efficiency in the performance of such enterprises" },
+        { "id": "C", "text": "reduce the number of public enterprises" },
+        { "id": "D", "text": "raise the prices of goods and services produced by the enterprises" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Privatization/commercialization aims mainly to **improve efficiency and performance** of public enterprises."
+    },
+    {
+      "id": 25,
+      "question": "The type of business finance that entitles the holder to a fixed rate of dividend is",
+      "options": [
+        { "id": "A", "text": "preferred stock" },
+        { "id": "B", "text": "common stock" },
+        { "id": "C", "text": "debenture" },
+        { "id": "D", "text": "bank loan" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Preference shares** carry a fixed rate of dividend, unlike ordinary (common) shares."
+    },
+    {
+      "id": 26,
+      "question": "Farmers’ income may fall if they produce more cash crops for export because",
+      "options": [
+        { "id": "A", "text": "foreign demand is inelastic" },
+        { "id": "B", "text": "the price of the crops will rise" },
+        { "id": "C", "text": "domestic currency depreciates" },
+        { "id": "D", "text": "of export duties" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "If world demand is **inelastic**, a large increase in supply causes a more than proportionate fall in price, reducing farmers’ total revenue."
+    },
+    {
+      "id": 27,
+      "question": "Under the Nigerian structural adjustment programme, the marketing of agricultural commodities in Nigeria has been placed under",
+      "options": [
+        { "id": "A", "text": "the marketing boards" },
+        { "id": "B", "text": "the commodity boards" },
+        { "id": "C", "text": "the river basin authorities" },
+        { "id": "D", "text": "private investors and individuals" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "SAP reforms **abolished many marketing boards**, leaving marketing largely to private traders."
+    },
+    {
+      "id": 28,
+      "question": "The primary barrier to land reform in developing countries is the",
+      "options": [
+        { "id": "A", "text": "frequent opposition by the landlords" },
+        { "id": "B", "text": "realization that output levels might fall" },
+        { "id": "C", "text": "fear that peasants will be cut off from credit" },
+        { "id": "D", "text": "general contentment with the present arrangement" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Land reforms often face **strong resistance from landlords**, who benefit from the existing system."
+    },
+    {
+      "id": 29,
+      "question": "Firms are often set up close to each other in order to take advantage of",
+      "options": [
+        { "id": "A", "text": "supply of skilled labour" },
+        { "id": "B", "text": "agglomeration economies" },
+        { "id": "C", "text": "internal economies of scale" },
+        { "id": "D", "text": "external economies of scale" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Clustering allows firms to benefit from **external economies of scale** (shared suppliers, skilled labour pools, infrastructure)."
+    },
+    {
+      "id": 30,
+      "question": "The consumer‑goods industry is predominant in the industrial sector of the Nigerian economy because of",
+      "options": [
+        { "id": "A", "text": "availability of market and most of the raw materials required" },
+        { "id": "B", "text": "availability of the necessary machinery required" },
+        { "id": "C", "text": "experience of Nigerian producers" },
+        { "id": "D", "text": "relatively lower cost of production of such goods" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Consumer‑goods industries rely heavily on local raw materials and domestic markets, both **readily available in Nigeria**."
+    },
+    {
+      "id": 31,
+      "question": "A significant effect of the growth of the oil sector in Nigeria has been to",
+      "options": [
+        { "id": "A", "text": "increase the rate of unemployment" },
+        { "id": "B", "text": "diminish the percentage contribution of the agricultural sector to GNP" },
+        { "id": "C", "text": "slow down the pace of industrialization and urbanization" },
+        { "id": "D", "text": "retard the rate of economic growth" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The oil boom caused **agriculture’s share of GNP to fall sharply**, even if its absolute output did not fall as much."
+    },
+    {
+      "id": 32,
+      "question": "Because most of her crude oil is exported, the foreign exchange earnings and the forward linkage effects Nigeria realizes from her oil production are",
+      "options": [
+        { "id": "A", "text": "both high" },
+        { "id": "B", "text": "respectively high and low" },
+        { "id": "C", "text": "respectively low and high" },
+        { "id": "D", "text": "both low" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Crude‑oil exports yield **high foreign exchange**, but limited domestic processing means **weak forward linkages**."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is NOT directly concerned with dealings in treasury bills?",
+      "options": [
+        { "id": "A", "text": "The Stock Exchange" },
+        { "id": "B", "text": "The Central Bank" },
+        { "id": "C", "text": "Commercial banks" },
+        { "id": "D", "text": "Discount houses" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Treasury bills are short‑term government securities traded mainly through **central banks, commercial banks and discount houses**, not the stock exchange."
+    },
+    {
+      "id": 34,
+      "question": "Monetization refers to the ratio of",
+      "options": [
+        { "id": "A", "text": "total transactions to monetary transactions" },
+        { "id": "B", "text": "money assets to total assets" },
+        { "id": "C", "text": "monetary transactions to total transactions" },
+        { "id": "D", "text": "money in circulation to total income" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The **degree of monetization** is the share of transactions carried out with money: \\(\\text{monetary transactions} / \\text{total transactions}\\)."
+    },
+    {
+      "id": 35,
+      "question": "The best way to reduce the supply of money in the economy is to",
+      "options": [
+        { "id": "A", "text": "increase the liquidity ratio" },
+        { "id": "B", "text": "increase the number of bank notes and cheques produced" },
+        { "id": "C", "text": "decrease treasury bills" },
+        { "id": "D", "text": "liberalize access to credit" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Raising reserve or liquidity ratios reduces banks’ excess reserves and **contracts money supply**."
+    },
+    {
+      "id": 36,
+      "question": "The total amount of money in circulation includes cash",
+      "options": [
+        { "id": "A", "text": "and current‑account balance owned by the non‑bank public" },
+        { "id": "B", "text": "owned by banks and the non‑bank public" },
+        { "id": "C", "text": "and current‑account balances owned by banks and the non‑bank public" },
+        { "id": "D", "text": "owned by banks, the government and the non‑bank public" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The usual definition of money supply (\\(M_1\\)) includes **currency with the public plus demand deposits with banks**."
+    },
+    {
+      "id": 37,
+      "question": "To reduce the high rate of inflation in the economy, government should",
+      "options": [
+        { "id": "A", "text": "increase taxes and have a budget surplus" },
+        { "id": "B", "text": "increase taxes and have a budget deficit" },
+        { "id": "C", "text": "decrease taxes and have budget deficits" },
+        { "id": "D", "text": "decrease taxes and have a balanced budget" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **contractionary fiscal policy**—higher taxes and lower spending that lead to a surplus—reduces aggregate demand and inflationary pressure."
+    },
+    {
+      "id": 38,
+      "question": "When interest rates are high and still rising, the least‑cost method used by public limited companies to obtain additional funds for their operations is by",
+      "options": [
+        { "id": "A", "text": "obtaining long‑term loans from merchant banks" },
+        { "id": "B", "text": "obtaining short‑term loans from commercial banks" },
+        { "id": "C", "text": "selling floating‑rate debenture stocks to the general public" },
+        { "id": "D", "text": "selling new ordinary shares to the general public" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Issuing **ordinary shares** does not commit the firm to fixed interest payments at high and rising rates."
+    },
+    {
+      "id": 39,
+      "question": "The objective of public finance is to promote",
+      "options": [
+        { "id": "A", "text": "full employment, national income and price stability" },
+        { "id": "B", "text": "government revenue and expenditure to as high a level as possible" },
+        { "id": "C", "text": "the expansion of government social services" },
+        { "id": "D", "text": "government revenue drive and minimize government expenditure" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Key macro objectives of fiscal policy are **full employment, growth of national income and price stability**."
+    },
+    {
+      "id": 40,
+      "question": "An account from which allocations are made to the three tiers of government in Nigeria is called the",
+      "options": [
+        { "id": "A", "text": "National Income Account" },
+        { "id": "B", "text": "Public Sector Account" },
+        { "id": "C", "text": "Federation Account" },
+        { "id": "D", "text": "National Revenue Mobilization Account" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Revenue is pooled in the **Federation Account** and then shared among federal, state and local governments."
+    },
+    {
+      "id": 41,
+      "question": "Given that GNP at current prices is \\(20{,}000\\) million in year 1 and \\(27{,}000\\) million in year 2, what is the percentage increase in GNP between year 1 and year 2?",
+      "options": [
+        { "id": "A", "text": "3.5%" },
+        { "id": "B", "text": "14.0%" },
+        { "id": "C", "text": "20.0%" },
+        { "id": "D", "text": "35.0%" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Percentage increase: \\(\\frac{27{,}000 - 20{,}000}{20{,}000} \\times 100 = 35\\%\\)."
+    },
+    {
+      "id": 42,
+      "question": "If population is 20 million in year 1 and 24 million in year 2, calculate the GNP per head of the population in year 1 and year 2.",
+      "options": [
+        { "id": "A", "text": "N2,000.00; N10,000.00" },
+        { "id": "B", "text": "N11,250.00; N20,000.00" },
+        { "id": "C", "text": "N1,000.00; N20,000.00" },
+        { "id": "D", "text": "N1,000.00; N1,125.00" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Year 1: \\(20{,}000 / 20 = 1{,}000\\). Year 2: \\(27{,}000 / 24 = 1{,}125\\)."
+    },
+    {
+      "id": 43,
+      "question": "In national income accounting, aggregate saving in any year is defined as",
+      "options": [
+        { "id": "A", "text": "all disposable income not spent on consumption" },
+        { "id": "B", "text": "all savings and time deposits in all banks during the year" },
+        { "id": "C", "text": "all savings and time deposits in all banks during the year plus all insurance payments" },
+        { "id": "D", "text": "the value of inventory change for the year" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "By definition, **saving = disposable income − consumption**."
+    },
+    {
+      "id": 44,
+      "question": "Which of the following combinations is a veritable set of development indicators?",
+      "options": [
+        { "id": "A", "text": "growth of government expenditure and imports" },
+        { "id": "B", "text": "growth of population and national income" },
+        { "id": "C", "text": "high fertility, literacy and school enrolment" },
+        { "id": "D", "text": "low infant mortality and high per capita income" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "**Low infant mortality** and **high per capita income** both signal high levels of development."
+    },
+    {
+      "id": 45,
+      "question": "If an economy is growing at an annual rate of 5% of which 3% is deemed to be due to an improvement in the productivity of labour and capital combined, the remaining 2% is generally attributed to",
+      "options": [
+        { "id": "A", "text": "the size of the population" },
+        { "id": "B", "text": "technical progress" },
+        { "id": "C", "text": "the environment" },
+        { "id": "D", "text": "the amount of natural resources" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The residual growth not explained by factor inputs is usually attributed to **technical progress** (total factor productivity)."
+    },
+    {
+      "id": 46,
+      "question": "If a country has a balance‑of‑payments crisis, which of the following measures can best bring about an improvement in the short run?",
+      "options": [
+        { "id": "A", "text": "large‑scale importation of foreign goods" },
+        { "id": "B", "text": "investments in capital market abroad" },
+        { "id": "C", "text": "large‑scale export of locally made goods" },
+        { "id": "D", "text": "repayment of debt to her creditors" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Increasing **exports of local goods** improves the current account and strengthens the balance of payments."
+    },
+    {
+      "id": 47,
+      "question": "The terms of trade of a country is defined as",
+      "options": [
+        { "id": "A", "text": "index of import prices" },
+        { "id": "B", "text": "index of exportation divided by index of importation, multiplied by 100" },
+        { "id": "C", "text": "index of visible imports divided by index of visible exports, multiplied by 100" },
+        { "id": "D", "text": "index of export prices divided by index of import prices, multiplied by 100" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Terms of trade: \\(\\text{TOT} = \\dfrac{P_X}{P_M} \\times 100\\), where \\(P_X\\) is the export‑price index and \\(P_M\\) is the import‑price index."
+    },
+    {
+      "id": 48,
+      "question": "When a foreigner on a visit to Nigeria pays for hotel accommodation and meals with some foreign currency, the amount paid should be recorded in Nigeria’s balance of payments as an item of",
+      "options": [
+        { "id": "A", "text": "Nigeria’s invisible export trade" },
+        { "id": "B", "text": "Nigeria’s import trade" },
+        { "id": "C", "text": "Nigeria’s visible import trade" },
+        { "id": "D", "text": "foreign capital inflow into Nigeria" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The foreign visitor purchases **services produced in Nigeria**, which are recorded as **invisible exports**."
+    },
+    {
+      "id": 49,
+      "question": "The Nigerian Trust Fund is managed on behalf of Nigeria by the",
+      "options": [
+        { "id": "A", "text": "World Bank" },
+        { "id": "B", "text": "International Monetary Fund" },
+        { "id": "C", "text": "African Development Bank" },
+        { "id": "D", "text": "Economic Commission for Africa" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The **African Development Bank (AfDB)** manages the Nigerian Trust Fund."
+    },
+    {
+      "id": 50,
+      "question": "One of the gains by member states of the Economic Community of West African States (ECOWAS) is",
+      "options": [
+        { "id": "A", "text": "monocultural dependency" },
+        { "id": "B", "text": "trade creation" },
+        { "id": "C", "text": "trade inversion" },
+        { "id": "D", "text": "economic independency" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Regional integration aims at **trade creation**—shifting production to lower‑cost member countries."
+    }
+  ]
+}
