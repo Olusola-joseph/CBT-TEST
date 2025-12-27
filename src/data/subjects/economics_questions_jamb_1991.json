@@ -1,0 +1,638 @@
+{
+  "year": 1991,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1991_AC_XYZ",
+      "file": "images/econ1991_q9_average_cost_xyz.png",
+      "description": "Average‑cost curve for Question 9. The vertical axis is cost and the horizontal axis is output. The curve is U‑shaped and labelled X–Y–Z. Segment XY slopes downward showing falling average cost as output rises; segment YZ slopes upward showing rising average cost at higher output levels."
+    },
+    {
+      "id": "Econ1991_PerfComp_ShortRun",
+      "file": "images/econ1991_q13_14_mc_ac_mr.png",
+      "description": "Short‑run cost and revenue diagram for Questions 13 and 14. Price is on the vertical axis and quantity on the horizontal. The firm faces a horizontal demand curve \\(MR = AR = P\\). A U‑shaped average‑cost curve (AC) and an upward‑sloping marginal‑cost curve (MC) are drawn. The intersection of MC and MR gives the profit‑maximizing output; the area between price and AC at this output represents supernormal profit."
+    },
+    {
+      "id": "Econ1991_Monopoly_Demand_MR",
+      "file": "images/econ1991_q20_22_demand_mr.png",
+      "description": "Demand and marginal‑revenue curves for Questions 20–22. The vertical axis is price \\(P\\); the horizontal axis is quantity \\(Q\\). A downward‑sloping demand curve is drawn with a steeper marginal‑revenue curve beneath it, both starting from price \\(P_1\\). Points \\(P_2\\), \\(Q_1\\) and \\(Q_2\\) mark different price–quantity combinations used to discuss elasticity and price discrimination."
+    },
+    {
+      "id": "Econ1991_Profit_Table",
+      "file": "images/econ1991_q18_tc_mc_table.png",
+      "description": "Table for Question 18 showing output \\(Q\\) in tons, total cost of production \\(TC\\) in naira, and marginal cost \\(MC\\) per ton for a competitive firm. Candidates must determine the profit‑maximizing output when market price is fixed at \\(P = \\text{N}12\\)."
+    },
+    {
+      "id": "Econ1991_GDP_ValueAdded",
+      "file": "images/econ1991_q47_value_added_table.png",
+      "description": "Value‑added table for Question 47. Four stages of production: maize farmer, flour miller, baker and shopkeeper. For each stage, the value of input purchased from the previous stage and the sale value of output are given. Total value added is the sum of \\(\\text{sale value} - \\text{value of input}\\) across all stages, which equals GDP by the value‑added approach."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "In a market economy, the question of what, how and for whom to produce are solved by the",
+      "options": [
+        { "id": "A", "text": "elected representatives of the people" },
+        { "id": "B", "text": "planning committee" },
+        { "id": "C", "text": "price mechanism" },
+        { "id": "D", "text": "government" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a market economy, resource allocation decisions are coordinated by the **price mechanism** (demand and supply)."
+    },
+    {
+      "id": 2,
+      "question": "Economic goods are termed scarce goods when they are",
+      "options": [
+        { "id": "A", "text": "not available in sufficient quantities to satisfy all wants for them" },
+        { "id": "B", "text": "not produced in sufficient quantities to satisfy the effective demand for them" },
+        { "id": "C", "text": "of high quality" },
+        { "id": "D", "text": "of primary importance in satisfying the needs of a society" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In economics, a good is scarce when its supply is insufficient to satisfy **effective demand** (willingness and ability to pay)."
+    },
+    {
+      "id": 3,
+      "question": "A school girl who needs a book and a mirror, each costing five naira, decides to purchase the book instead of the mirror since she cannot pay for the two at the same time. Determine the real cost of her choice.",
+      "options": [
+        { "id": "A", "text": "The five naira she spent on the book" },
+        { "id": "B", "text": "Five naira real cash value" },
+        { "id": "C", "text": "The mirror" },
+        { "id": "D", "text": "The book" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The real (opportunity) cost of choosing the book is the **mirror forgone**."
+    },
+    {
+      "id": 4,
+      "question": "Macroeconomics is a study of economic science from the point of view of",
+      "options": [
+        { "id": "A", "text": "resource markets or production units" },
+        { "id": "B", "text": "individual producers or consumers" },
+        { "id": "C", "text": "the aggregate or general economy" },
+        { "id": "D", "text": "comparisons among individual firms" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Macroeconomics deals with **aggregate variables** such as national income, employment and inflation for the entire economy."
+    },
+    {
+      "id": 5,
+      "question": "In combining inputs X and Y the entrepreneur obtains the maximum output from a given money outlay when",
+      "options": [
+        { "id": "A", "text": "Px / MPx = Py / MPy" },
+        { "id": "B", "text": "MPx / Px = MPy / Py" },
+        { "id": "C", "text": "Px \\times MPx = Py \\times MPy" },
+        { "id": "D", "text": "Px / Py = MPx / MPy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Least‑cost (and hence maximum‑output for given spending) occurs when the **marginal product per naira is equalized**: \\(\\dfrac{MP_x}{P_x} = \\dfrac{MP_y}{P_y}\\)."
+    },
+    {
+      "id": 6,
+      "question": "If units of a variable factor are increasingly added to a fixed factor and the marginal physical product keeps increasing, production is said to be taking place under condition of",
+      "options": [
+        { "id": "A", "text": "increasing returns to the variable factor" },
+        { "id": "B", "text": "increasing returns to scale" },
+        { "id": "C", "text": "constant returns to the variable factor" },
+        { "id": "D", "text": "external economies of scale" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "As long as marginal product of the variable input is rising, there are **increasing returns to the variable factor**."
+    },
+    {
+      "id": 7,
+      "question": "At any given level of output, the total cost of a firm equals the",
+      "options": [
+        { "id": "A", "text": "marginal cost plus the average cost" },
+        { "id": "B", "text": "fixed cost less its variable cost" },
+        { "id": "C", "text": "average cost multiplied by its output" },
+        { "id": "D", "text": "economic costs multiplied by variable costs" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "By definition, \\(TC = AC \\times Q\\) at any output level."
+    },
+    {
+      "id": 8,
+      "question": "At any given level of output, a firm’s total variable cost equals",
+      "options": [
+        { "id": "A", "text": "total cost less marginal cost" },
+        { "id": "B", "text": "total cost less total fixed cost" },
+        { "id": "C", "text": "total cost less average cost" },
+        { "id": "D", "text": "average variable cost multiplied by marginal variable cost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total variable cost is **total cost minus total fixed cost**: \\(TVC = TC - TFC\\)."
+    },
+    {
+      "id": 9,
+      "question": "Consider the average‑cost curve XYZ in figure Econ1991_AC_XYZ. Segment XY shows that as output increases the average cost declines. However, this decline cannot continue indefinitely because of",
+      "options": [
+        { "id": "A", "text": "managerial factors" },
+        { "id": "B", "text": "indivisibilities" },
+        { "id": "C", "text": "the extent of the market" },
+        { "id": "D", "text": "the pooling of dissimilar risks" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The eventual upward slope of the long‑run average‑cost curve (segment YZ) is due to **diseconomies of scale** such as managerial inefficiency and coordination problems. The precise wording of option A in the scan is unclear, so the official key cannot be stated with certainty."
+    },
+    {
+      "id": 10,
+      "question": "If the price of a ball‑point pen falls from N1.00 to N0.60 and the quantity demanded increases from 200 to 300, the price elasticity of demand (using the arc formula) is equal to",
+      "options": [
+        { "id": "A", "text": "1.25" },
+        { "id": "B", "text": "0.80" },
+        { "id": "C", "text": "0.50" },
+        { "id": "D", "text": "0.40" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using the arc elasticity formula: \\(E_d = \\dfrac{\\Delta Q}{\\Delta P} \\times \\dfrac{P_1 + P_2}{Q_1 + Q_2} = \\dfrac{100}{-0.4} \\times \\dfrac{1.0 + 0.6}{200 + 300} \\approx -0.8\\). In absolute value, elasticity is **0.80** (inelastic)."
+    },
+    {
+      "id": 11,
+      "question": "If a society is operating on the production possibility curve, this implies that the resources are",
+      "options": [
+        { "id": "A", "text": "fully and efficiently utilised" },
+        { "id": "B", "text": "fully but inefficiently utilised" },
+        { "id": "C", "text": "efficiently but not fully utilised" },
+        { "id": "D", "text": "abundant" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Points on the PPC represent combinations where **all resources are fully and efficiently employed**."
+    },
+    {
+      "id": 12,
+      "question": "A market is in disequilibrium if",
+      "options": [
+        { "id": "A", "text": "the quantity purchased is greater than the quantity sold" },
+        { "id": "B", "text": "the quantity sold differs from the quantity purchased" },
+        { "id": "C", "text": "at a lower price, a larger quantity is sold" },
+        { "id": "D", "text": "the quantity demanded differs from the quantity supplied" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Market equilibrium requires \\(Q_d = Q_s\\). If **quantity demanded differs from quantity supplied**, the market is in disequilibrium."
+    },
+    {
+      "id": 13,
+      "question": "Using the cost–revenue diagram in figure Econ1991_PerfComp_ShortRun, the excess profit made by the firm in the short run is represented by the area",
+      "options": [
+        { "id": "A", "text": "ORTZ" },
+        { "id": "B", "text": "OPVY" },
+        { "id": "C", "text": "QRTW" },
+        { "id": "D", "text": "ORSX" }
+      ],
+      "correctAnswer": null,
+      "explanation": "In a perfectly competitive firm earning supernormal profit, the excess profit area is the rectangle between the price line \\(P\\) and the average‑cost curve at the equilibrium output. The exact labelled area cannot be identified reliably from the small scan."
+    },
+    {
+      "id": 14,
+      "question": "From the same diagram (figure Econ1991_PerfComp_ShortRun), the long‑run equilibrium price and quantity for the firm are respectively",
+      "options": [
+        { "id": "A", "text": "OP and OY" },
+        { "id": "B", "text": "OR and OZ" },
+        { "id": "C", "text": "OR and OX" },
+        { "id": "D", "text": "OQ and OZ" }
+      ],
+      "correctAnswer": null,
+      "explanation": "In long‑run equilibrium under perfect competition, price equals minimum average cost: \\(P = MC = AC_{\\min}\\). The scan does not clearly show which letters correspond to this point."
+    },
+    {
+      "id": 15,
+      "question": "The cross‑elasticity of demand between complementary goods is",
+      "options": [
+        { "id": "A", "text": "unitary" },
+        { "id": "B", "text": "positive" },
+        { "id": "C", "text": "zero" },
+        { "id": "D", "text": "negative" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "For complements, \\(E_{xy} < 0\\): an increase in the price of one good reduces demand for the other."
+    },
+    {
+      "id": 16,
+      "question": "Resources are efficiently allocated when production takes place at that output where price equals",
+      "options": [
+        { "id": "A", "text": "marginal revenue" },
+        { "id": "B", "text": "average variable cost" },
+        { "id": "C", "text": "marginal cost" },
+        { "id": "D", "text": "total cost" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Allocative efficiency in a competitive market requires \\(P = MC\\)."
+    },
+    {
+      "id": 17,
+      "question": "Comparison of the price and output decisions of a perfectly competitive firm with those of a monopolist shows that the",
+      "options": [
+        { "id": "A", "text": "monopolist charges a lower price than the perfect competitor" },
+        { "id": "B", "text": "perfect competitor charges a lower price and produces a larger output than the monopolist" },
+        { "id": "C", "text": "perfect competitor produces a smaller output than the monopolist" },
+        { "id": "D", "text": "monopolist charges a lower price and produces a larger output than the perfect competitor" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Given the same cost and demand conditions, monopoly **restricts output and charges a higher price** than perfect competition; thus the competitive firm has lower price and higher output."
+    },
+    {
+      "id": 18,
+      "question": "Using the table in figure Econ1991_Profit_Table, which shows output (Q), total cost (TC) and marginal cost (MC) for a firm in a competitive market with price fixed at \\(P = \\text{N}12\\), what is the maximum profit the firm can make?",
+      "options": [
+        { "id": "A", "text": "N2 000.00" },
+        { "id": "B", "text": "N1 200.00" },
+        { "id": "C", "text": "N1 000.00" },
+        { "id": "D", "text": "N400.00" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Profit at each output is \\(\\pi = P \\times Q - TC\\). The firm should choose the output where \\(P\\) is closest to \\(MC\\) from below and profit is highest. Exact calculation requires precise TC/MC values, which are not fully legible in the scan."
+    },
+    {
+      "id": 19,
+      "question": "In a perfectly competitive market, the firm is in long‑run equilibrium at the output where",
+      "options": [
+        { "id": "A", "text": "marginal cost is minimum" },
+        { "id": "B", "text": "average cost is minimum" },
+        { "id": "C", "text": "total revenue is maximum" },
+        { "id": "D", "text": "marginal revenue is maximum" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In long‑run competitive equilibrium, \\(P = MC = AC\\) and **AC is at its minimum**; firms earn only normal profit."
+    },
+    {
+      "id": 20,
+      "question": "With reference to figure Econ1991_Monopoly_Demand_MR, the firm portrayed is selling in",
+      "options": [
+        { "id": "A", "text": "a purely competitive market" },
+        { "id": "B", "text": "a market in which demand is elastic at all prices" },
+        { "id": "C", "text": "an imperfectly competitive market" },
+        { "id": "D", "text": "a market in which companies produce homogeneous commodities" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The downward‑sloping demand and separate marginal‑revenue curve indicate **imperfect competition** (e.g. monopoly, monopolistic competition)."
+    },
+    {
+      "id": 21,
+      "question": "Using the same diagram (figure Econ1991_Monopoly_Demand_MR), demand is relatively inelastic in the",
+      "options": [
+        { "id": "A", "text": "price range around P1" },
+        { "id": "B", "text": "lower portion of the demand curve below the midpoint" },
+        { "id": "C", "text": "upper portion of the demand curve above the midpoint" },
+        { "id": "D", "text": "entire length of the demand curve" }
+      ],
+      "correctAnswer": null,
+      "explanation": "For a straight‑line demand curve, elasticity is greater than 1 above the midpoint, equal to 1 at the midpoint and less than 1 below it. The exact labels (P2, Q1, Q2) are not legible enough to match with the options."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following statements must hold if price discrimination is to be possible?",
+      "options": [
+        { "id": "A", "text": "Elasticities in the various markets must not differ" },
+        { "id": "B", "text": "The seller must not recognise differences among buyers" },
+        { "id": "C", "text": "The markets must not be separated but integrated" },
+        { "id": "D", "text": "The markets should be separable and resale between them must be impossible" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Price discrimination requires that markets can be **segmented** and that **arbitrage (resale) is prevented**; otherwise buyers in high‑price markets would switch to low‑price markets."
+    },
+    {
+      "id": 23,
+      "question": "The ordinary partner in a partnership",
+      "options": [
+        { "id": "A", "text": "takes no active part in management of the business" },
+        { "id": "B", "text": "has limited liability in case of business failure" },
+        { "id": "C", "text": "has unlimited liability in case of business failure" },
+        { "id": "D", "text": "cannot be sued personally on matters relating to the business" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An ordinary (general) partner **takes part in management** and has **unlimited liability**."
+    },
+    {
+      "id": 24,
+      "question": "A possible factor which limits the extent of growth of a firm is the",
+      "options": [
+        { "id": "A", "text": "existence of a monopoly" },
+        { "id": "B", "text": "bureaucratic delays in decision‑making" },
+        { "id": "C", "text": "use of by‑products" },
+        { "id": "D", "text": "unwillingness to share ownership and control" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If the owner is **unwilling to admit new partners or shareholders**, capital is limited and growth is constrained."
+    },
+    {
+      "id": 25,
+      "question": "One of the most outstanding disadvantages of co‑operative societies as business organizations is that",
+      "options": [
+        { "id": "A", "text": "true spirit of co‑operation is marred by delegated authority" },
+        { "id": "B", "text": "members show much interest" },
+        { "id": "C", "text": "they are poorly financed" },
+        { "id": "D", "text": "membership interest is centred on sharing of essential commodities" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A common weakness of co‑operatives is **inadequate capital**, because members usually contribute small sums."
+    },
+    {
+      "id": 26,
+      "question": "A disadvantage of a joint‑stock company is",
+      "options": [
+        { "id": "A", "text": "unlimited liability" },
+        { "id": "B", "text": "limited liability" },
+        { "id": "C", "text": "continuity" },
+        { "id": "D", "text": "loss of controlling interest by small shareholders" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In joint‑stock companies, ownership is widely dispersed and original owners may **lose effective control** to professional managers or majority shareholders."
+    },
+    {
+      "id": 27,
+      "question": "A characteristic of a debenture is that",
+      "options": [
+        { "id": "A", "text": "its yield is based on profits" },
+        { "id": "B", "text": "its yield is a fixed rate of interest" },
+        { "id": "C", "text": "it has no redemption date" },
+        { "id": "D", "text": "there is a voting right when interest is paid" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A debenture is a long‑term loan to a company that earns a **fixed rate of interest**, regardless of profits."
+    },
+    {
+      "id": 28,
+      "question": "Industries tend to be located closer to market centres than to the sources of raw materials if the",
+      "options": [
+        { "id": "A", "text": "products are relatively cheap to transport to market centres" },
+        { "id": "B", "text": "products are relatively more expensive to transport than the major raw materials" },
+        { "id": "C", "text": "raw materials are bulky" },
+        { "id": "D", "text": "raw materials can also be imported" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "When finished products are **more costly to transport** than raw materials, firms minimize cost by locating near the **market**."
+    },
+    {
+      "id": 29,
+      "question": "One disadvantage of trade by barter is that",
+      "options": [
+        { "id": "A", "text": "people are happier when they exchange the same quantities of goods through money rather than by barter" },
+        { "id": "B", "text": "the person wishing to buy good X may not have good Y which is what the other person wants" },
+        { "id": "C", "text": "one person must always be cheated when trade takes place by barter" },
+        { "id": "D", "text": "it increases the initial cost of producing goods" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Barter requires a **double coincidence of wants**; often this condition is not met, making trade difficult."
+    },
+    {
+      "id": 30,
+      "question": "One of the functions of Development Banks is to",
+      "options": [
+        { "id": "A", "text": "mint money for the development of the economy" },
+        { "id": "B", "text": "provide short‑term loans to commercial banks" },
+        { "id": "C", "text": "provide medium‑ and long‑term finance for development of the banking system" },
+        { "id": "D", "text": "provide medium‑ and long‑term finance for the development of the economy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Development banks specialize in **medium‑ and long‑term financing of development projects**."
+    },
+    {
+      "id": 31,
+      "question": "To perform its function as a store of wealth and standard for deferred payment, money must be",
+      "options": [
+        { "id": "A", "text": "portable" },
+        { "id": "B", "text": "in attractive form" },
+        { "id": "C", "text": "stable in value" },
+        { "id": "D", "text": "spent more on capital goods than on consumer goods" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If money’s value fluctuates widely, it cannot effectively serve as a **store of value** or **standard for deferred payments**; stability is essential."
+    },
+    {
+      "id": 32,
+      "question": "Fiduciary issue is that part of",
+      "options": [
+        { "id": "A", "text": "the issue of notes backed entirely by gold" },
+        { "id": "B", "text": "a country’s currency which is not negotiable" },
+        { "id": "C", "text": "the issue of notes not backed by gold" },
+        { "id": "D", "text": "the metallic money supply" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The **fiduciary issue** is the portion of the note issue that is **not backed by gold or foreign exchange reserves**, relying instead on the issuer’s trustworthiness."
+    },
+    {
+      "id": 33,
+      "question": "An effect of inflation is that it",
+      "options": [
+        { "id": "A", "text": "discourages trade by barter" },
+        { "id": "B", "text": "favours debtors at the expense of creditors" },
+        { "id": "C", "text": "increases the real income of salary earners" },
+        { "id": "D", "text": "increases the value of a country’s exports" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With unexpected inflation, debts are repaid in money of **reduced purchasing power**, so **debtors gain and creditors lose**."
+    },
+    {
+      "id": 34,
+      "question": "Banks aid economic expansion and development by",
+      "options": [
+        { "id": "A", "text": "being very strict in lending policies" },
+        { "id": "B", "text": "mobilizing savings for investment lending" },
+        { "id": "C", "text": "paying interest on deposit accounts" },
+        { "id": "D", "text": "charging higher interest on loans" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "By **mobilizing savings and channelling them into productive investment**, banks promote economic growth."
+    },
+    {
+      "id": 35,
+      "question": "The term 'stock of capital' means",
+      "options": [
+        { "id": "A", "text": "amount of money necessary to start a business" },
+        { "id": "B", "text": "total amount receivable by all factors of production" },
+        { "id": "C", "text": "amount of equipment, plant and inventory existing at a time" },
+        { "id": "D", "text": "total amount available for economic development" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The capital stock is the **existing quantity of physical capital** (machines, buildings, inventories) at a point in time."
+    },
+    {
+      "id": 36,
+      "question": "A tax that takes an increasing fraction of income as income goes down is called",
+      "options": [
+        { "id": "A", "text": "conditional" },
+        { "id": "B", "text": "regressive" },
+        { "id": "C", "text": "progressive" },
+        { "id": "D", "text": "proportional" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a **regressive tax**, lower‑income earners pay a **higher proportion** of their income in tax."
+    },
+    {
+      "id": 37,
+      "question": "Budget deficit is the amount by which",
+      "options": [
+        { "id": "A", "text": "total expenditure exceeds revenue" },
+        { "id": "B", "text": "recurrent expenditure exceeds revenue" },
+        { "id": "C", "text": "capital expenditure exceeds revenue" },
+        { "id": "D", "text": "recurrent expenditure exceeds capital expenditure" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **budget deficit** occurs when government **expenditure is greater than revenue** in a fiscal year."
+    },
+    {
+      "id": 38,
+      "question": "The average tax rate is defined as",
+      "options": [
+        { "id": "A", "text": "total tax rate less the marginal tax rate" },
+        { "id": "B", "text": "the tax rate which applies to additional value of income" },
+        { "id": "C", "text": "the ratio of total taxes paid to total income" },
+        { "id": "D", "text": "marginal tax rate for being progressive" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Average tax rate \\(= \\dfrac{\\text{total tax paid}}{\\text{total income}}\\)."
+    },
+    {
+      "id": 39,
+      "question": "Personal distribution of income implies",
+      "options": [
+        { "id": "A", "text": "how income is distributed among specific households or spending units" },
+        { "id": "B", "text": "the distribution of income according to basic resource classes" },
+        { "id": "C", "text": "dividing income according to industries" },
+        { "id": "D", "text": "dividing income between personal taxes, consumption expenditure and savings" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Personal distribution concerns **how national income is shared among individuals or households**, not among factors."
+    },
+    {
+      "id": 40,
+      "question": "One of the advantages of international trade is that it",
+      "options": [
+        { "id": "A", "text": "increases world output" },
+        { "id": "B", "text": "encourages economic independence among nations" },
+        { "id": "C", "text": "restricts spread of technical knowledge" },
+        { "id": "D", "text": "promotes self‑reliance and satisfaction with only what can be produced internally" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "By allowing specialization according to comparative advantage, international trade **raises total world output**."
+    },
+    {
+      "id": 41,
+      "question": "There is an improvement in the terms of trade of a country if",
+      "options": [
+        { "id": "A", "text": "a large quantity of exports is given up to obtain a unit of imports" },
+        { "id": "B", "text": "the volume of exports is greater than the volume of imports" },
+        { "id": "C", "text": "a smaller quantity of exports is given up to obtain a unit of imports" },
+        { "id": "D", "text": "the value of exports is greater than the value of imports" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Improved terms of trade mean a rise in the ratio \\(P_X / P_M\\): each unit of exports now buys **more imports**, so fewer exports are given up per unit of imports."
+    },
+    {
+      "id": 42,
+      "question": "Under flexible exchange rates, a balance‑of‑payments deficit could be corrected by",
+      "options": [
+        { "id": "A", "text": "freezing the gold point" },
+        { "id": "B", "text": "appreciation of other currencies (i.e. depreciation of the home currency)" },
+        { "id": "C", "text": "removing export subsidies" },
+        { "id": "D", "text": "removing tariffs" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With flexible rates, a **depreciation of the home currency** (equivalent to appreciation of others) makes exports cheaper and imports dearer, helping to correct a deficit."
+    },
+    {
+      "id": 43,
+      "question": "The higher the dependency ratio, the",
+      "options": [
+        { "id": "A", "text": "larger the proportion of the employed relative to the unemployed" },
+        { "id": "B", "text": "smaller the proportion of the active labour force relative to the inactive population" },
+        { "id": "C", "text": "smaller the number of the non‑working age groups relative to the active labour force" },
+        { "id": "D", "text": "lower the birth rate" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A high dependency ratio means **more dependants (young and old) relative to working‑age people**, i.e. a smaller active labour force proportion."
+    },
+    {
+      "id": 44,
+      "question": "The age distribution of a country’s population is of economic importance because it affects the",
+      "options": [
+        { "id": "A", "text": "pattern of expenditures" },
+        { "id": "B", "text": "size of the army" },
+        { "id": "C", "text": "optimum size of firms" },
+        { "id": "D", "text": "location of industries" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Different age groups have different consumption needs; thus age structure strongly influences the **pattern of expenditure** in the economy."
+    },
+    {
+      "id": 45,
+      "question": "It is important to measure the national income of a country because",
+      "options": [
+        { "id": "A", "text": "it is a major determinant of the standard of living" },
+        { "id": "B", "text": "it reveals all areas of development like pollution and congestion" },
+        { "id": "C", "text": "it indicates the distribution of citizens’ savings in foreign banks" },
+        { "id": "D", "text": "its size determines the extent of political stability" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Per capita national income is a widely used indicator of **material standard of living**."
+    },
+    {
+      "id": 46,
+      "question": "Gross Domestic Product is defined as the total value of",
+      "options": [
+        { "id": "A", "text": "all final goods and services produced in a country during the year" },
+        { "id": "B", "text": "all assets of a country in a particular year" },
+        { "id": "C", "text": "exports net of total value of imports" },
+        { "id": "D", "text": "all receipts of the government" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "GDP is the **market value of all final goods and services produced within a country’s borders in a given period**."
+    },
+    {
+      "id": 47,
+      "question": "Using the value‑added table in figure Econ1991_GDP_ValueAdded, the value of total output in the economy using the value‑added approach is",
+      "options": [
+        { "id": "A", "text": "N570.00" },
+        { "id": "B", "text": "N370.00" },
+        { "id": "C", "text": "N200.00" },
+        { "id": "D", "text": "N150.00" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Value added at each stage is \\(\\text{sale value} - \\text{value of input}\\). Summing across the four stages gives total value added of **N200**, which equals GDP by the value‑added method."
+    },
+    {
+      "id": 48,
+      "question": "If W stands for wages/salaries, P for profit, R for rent, I for interest and Z for net income from land and real estate, then national income is",
+      "options": [
+        { "id": "A", "text": "W - P - R - Z" },
+        { "id": "B", "text": "W + P - Z + R - W" },
+        { "id": "C", "text": "P - R - Z + W" },
+        { "id": "D", "text": "W + P + R + I + Z" }
+      ],
+      "correctAnswer": null,
+      "explanation": "By the income approach, national income at factor cost is the **sum of all factor incomes**: \\(W + P + R + I + \\text{(net other factor incomes)}\\). The exact symbols and wording in the options are blurred in the scan, so the official answer cannot be stated with confidence."
+    },
+    {
+      "id": 49,
+      "question": "In the national income and output accounts, double counting will occur if",
+      "options": [
+        { "id": "A", "text": "only final goods are counted" },
+        { "id": "B", "text": "only intermediate goods are counted once" },
+        { "id": "C", "text": "only intermediate and final goods are counted" },
+        { "id": "D", "text": "the values of intermediate goods and services are added together with the values of final goods and services" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Counting both intermediate goods and the final goods that embody them would **count the same value more than once**, i.e. double counting."
+    },
+    {
+      "id": 50,
+      "question": "A major obstacle to economic development is",
+      "options": [
+        { "id": "A", "text": "a rise in industrial output" },
+        { "id": "B", "text": "increase in agricultural productivity" },
+        { "id": "C", "text": "poor attitude to work" },
+        { "id": "D", "text": "strong trade unions" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Low productivity caused by a **poor attitude to work** and weak work ethic can seriously hinder economic development."
+    }
+  ]
+}
