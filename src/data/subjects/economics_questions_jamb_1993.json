@@ -1,0 +1,648 @@
+{
+  "year": 1993,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1993_PPC_XY",
+      "file": "images/econ1993_q2_3_ppc_xy.png",
+      "description": "Production possibility curve for Questions 2 and 3. The vertical axis shows quantity of good \\(Y\\) and the horizontal axis quantity of good \\(X\\). The curve is downward‑sloping and concave to the origin, joining the intercepts \\((0, Y_{\\max})\\) and \\((X_{\\max}, 0)\\). Grid marks on the \\(X\\)-axis at \\(20, 40, 60, 80, 100\\) units and on the \\(Y\\)-axis at \\(20, 40, 60, 80\\). At \\(Y = 80\\) the corresponding \\(X\\)-coordinate is approximately 20 units."
+    },
+    {
+      "id": "Econ1993_DemandShift",
+      "file": "images/econ1993_q14_demand_shift.png",
+      "description": "Demand–supply diagram for Question 14. Price \\(P\\) is on the vertical axis and quantity \\(Q\\) on the horizontal axis. An upward‑sloping supply curve \\(S\\) intersects the original demand curve \\(D_0 D_0\\) at \\((Q_0, P_1)\\). A new demand curve \\(D_1 D_1\\) lies to the right of \\(D_0 D_0\\), passing through a higher quantity \\(Q_2\\) at the same price \\(P_1\\), indicating an increase in demand."
+    },
+    {
+      "id": "Econ1993_Monopoly_MC_ATC",
+      "file": "images/econ1993_q17_monopoly_costs.png",
+      "description": "Monopoly cost–revenue diagram for Questions 17 and 18. Vertical axis: price/cost; horizontal axis: output. A downward‑sloping demand curve labelled \\(D = AR\\) and a steeper marginal‑revenue curve \\(MR\\) are shown. The U‑shaped average total cost curve \\(ATC\\) lies above the upward‑sloping marginal‑cost curve \\(MC\\). Several horizontal price lines \\(P_1, P_2, P_3, P_4\\) intersect the demand curve at outputs \\(W, X, Y, Z\\)."
+    },
+    {
+      "id": "Econ1993_MPC_Line",
+      "file": "images/econ1993_q19_mpc_line.png",
+      "description": "Consumption function for Question 19. Horizontal axis: income \\(Y\\); vertical axis: consumption \\(C\\). A straight line from point \\(R\\) on the vertical axis to point \\(T\\) in the first quadrant represents \\(C = a + bY\\). Point \\(P\\) lies on the horizontal axis where a perpendicular up to the line meets it at \\(T\\). The marginal propensity to consume is the slope of the line, i.e. change in \\(C\\) over change in \\(Y\\)."
+    },
+    {
+      "id": "Econ1993_TR_AR_MR_Table",
+      "file": "images/econ1993_q20_21_tr_table.png",
+      "description": "Total‑, average‑ and marginal‑revenue table for Questions 20 and 21. Output \\(Q\\) (units) and total revenue \\(TR\\) (naira): \\(Q=1, TR=20\\); \\(Q=2, TR=38\\); \\(Q=3, TR=54\\); \\(Q=4, TR=68\\); \\(Q=5, TR=80\\). Average revenue \\(AR = TR/Q\\) and marginal revenue \\(MR = \\Delta TR / \\Delta Q\\) are tabulated alongside."
+    },
+    {
+      "id": "Econ1993_Unemployment_Waves",
+      "file": "images/econ1993_q47_cyclical_unemp.png",
+      "description": "Output–time diagram for Question 47. The horizontal axis measures time and the vertical axis measures either output or unemployment rate. A smooth long‑run trend line slopes upward, while a wavy dotted line oscillates above and below it, representing cyclical fluctuations in economic activity and unemployment."
+    },
+    {
+      "id": "Econ1993_IncomeComponents",
+      "file": "images/econ1993_q39_income_items.png",
+      "description": "Income‑components table for Question 39. Items and their amounts in billion naira (\\(\\text{N}bn\\)): (1) Wages and salaries: 380; (2) Profits and rents: 110; (3) Payments to foreigners on assets held in Nigeria: 10; (4) Income from foreign assets held by Nigerians resident abroad: 20; (5) Depreciation: 40. Used to compute net national income by the income approach."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "It is impossible to satisfy all human wants because",
+      "options": [
+        { "id": "A", "text": "areas of fertile land are very limited" },
+        { "id": "B", "text": "oceans and seas limit land space for farming" },
+        { "id": "C", "text": "resources are not equitably distributed" },
+        { "id": "D", "text": "available resources are limited" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The basic economic problem is **scarcity**: resources are limited relative to wants."
+    },
+    {
+      "id": 2,
+      "question": "The diagram in figure Econ1993_PPC_XY, showing the maximum possible combinations of commodities X and Y produced in Nigeria, is called the",
+      "options": [
+        { "id": "A", "text": "production indicator" },
+        { "id": "B", "text": "maximum production curve" },
+        { "id": "C", "text": "production possibility curve" },
+        { "id": "D", "text": "total output curve" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The curve represents the **production possibility frontier (PPF)** between goods X and Y."
+    },
+    {
+      "id": 3,
+      "question": "Using the same diagram (figure Econ1993_PPC_XY), how many units of good X are produced when 80 units of commodity Y are produced?",
+      "options": [
+        { "id": "A", "text": "80" },
+        { "id": "B", "text": "40" },
+        { "id": "C", "text": "20" },
+        { "id": "D", "text": "0" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "At \\(Q_Y = 80\\) the point on the PPF corresponds approximately to \\(Q_X = 20\\) units."
+    },
+    {
+      "id": 4,
+      "question": "The main function of the price system is to",
+      "options": [
+        { "id": "A", "text": "distribute resources equally among competing ends" },
+        { "id": "B", "text": "ensure efficient allocation of resources in the economic system" },
+        { "id": "C", "text": "allocate goods and services equally among citizens" },
+        { "id": "D", "text": "minimize cheating" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Through prices, resources are directed to their most valued uses, promoting **allocative efficiency**."
+    },
+    {
+      "id": 5,
+      "question": "A system in which the means of production is held in trust for the people by government is known as a",
+      "options": [
+        { "id": "A", "text": "socialist economy" },
+        { "id": "B", "text": "capitalist economy" },
+        { "id": "C", "text": "subsistence economy" },
+        { "id": "D", "text": "mixed economy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Under **socialism**, the state owns and manages the major means of production on behalf of the people."
+    },
+    {
+      "id": 6,
+      "question": "The working population refers to",
+      "options": [
+        { "id": "A", "text": "a population where the death rate is falling" },
+        { "id": "B", "text": "the population within the 0–14 age group" },
+        { "id": "C", "text": "the economically active segment of the population" },
+        { "id": "D", "text": "the dependent population" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Working population is the **economically active group**, usually ages 15–64."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following factors is NOT responsible for the rural–urban drift in Nigeria?",
+      "options": [
+        { "id": "A", "text": "The infrastructural facilities in cities" },
+        { "id": "B", "text": "Declining fertility of rural farm lands" },
+        { "id": "C", "text": "Rural electrification programme" },
+        { "id": "D", "text": "Higher living standards in urban areas" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Rural electrification **improves rural conditions** and tends to reduce, not increase, migration to cities."
+    },
+    {
+      "id": 8,
+      "question": "An accurate census is important to a country because it helps",
+      "options": [
+        { "id": "A", "text": "in solving unemployment problems" },
+        { "id": "B", "text": "to ensure equitable population redistribution relative to natural resources" },
+        { "id": "C", "text": "in deciding on the creation of more local governments" },
+        { "id": "D", "text": "in providing a sound basis for formulating development policy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reliable population data are essential as a **basis for planning and development policy**."
+    },
+    {
+      "id": 9,
+      "question": "If 502.75 million tonnes of grains are consumed annually by a population of 88.5 million people, the per capita grain consumption is",
+      "options": [
+        { "id": "A", "text": "6.00 tonnes" },
+        { "id": "B", "text": "5.68 tonnes" },
+        { "id": "C", "text": "0.60 tonnes" },
+        { "id": "D", "text": "0.57 tonnes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Per capita consumption \\(= 502.75 / 88.5 \\approx 5.68\\) tonnes."
+    },
+    {
+      "id": 10,
+      "question": "In the theory of production and cost, the average total cost of a firm is minimized when the marginal cost curve and the average total cost curve intersect at its",
+      "options": [
+        { "id": "A", "text": "lowest point" },
+        { "id": "B", "text": "middle point" },
+        { "id": "C", "text": "maximum point" },
+        { "id": "D", "text": "downward‑sloping section" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The \\(MC\\) curve cuts \\(ATC\\) at the **minimum point** of \\(ATC\\)."
+    },
+    {
+      "id": 11,
+      "question": "A firm faces diminishing returns when its",
+      "options": [
+        { "id": "A", "text": "total output diminishes" },
+        { "id": "B", "text": "average output diminishes" },
+        { "id": "C", "text": "marginal output diminishes" },
+        { "id": "D", "text": "marginal revenue diminishes" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Diminishing returns set in once **marginal product** (marginal output) begins to fall."
+    },
+    {
+      "id": 12,
+      "question": "If labour productivity in the cement industry is increasing as output of cement is expanded, then the amount of labour required per unit of output is",
+      "options": [
+        { "id": "A", "text": "less than zero" },
+        { "id": "B", "text": "decreasing" },
+        { "id": "C", "text": "constant" },
+        { "id": "D", "text": "increasing" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If productivity (output per worker) rises, the **labour input per unit of output falls**—it is decreasing."
+    },
+    {
+      "id": 13,
+      "question": "If profit maximization is assumed to be the objective of a business enterprise, labour must be paid a wage rate equal to the",
+      "options": [
+        { "id": "A", "text": "marginal revenue of the enterprise" },
+        { "id": "B", "text": "marginal revenue product of labour in the enterprise" },
+        { "id": "C", "text": "average revenue of the enterprise" },
+        { "id": "D", "text": "marginal cost of production" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In competitive factor markets, firms hire labour up to where **wage = marginal revenue product of labour (MRP\\_L)**."
+    },
+    {
+      "id": 14,
+      "question": "From the demand–supply diagram in figure Econ1993_DemandShift, the shift in the demand curve from \\(D_0D_0\\) to \\(D_1D_1\\) implies",
+      "options": [
+        { "id": "A", "text": "a rise in the demand for the commodity" },
+        { "id": "B", "text": "fluctuation in the demand for the commodity" },
+        { "id": "C", "text": "a fall in the demand for the commodity" },
+        { "id": "D", "text": "an equilibrium in the demand for the commodity" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The new curve \\(D_1\\) lies to the **right** of \\(D_0\\), indicating an increase in demand at every price."
+    },
+    {
+      "id": 15,
+      "question": "If the equilibrium price for a certain commodity is \\(\\text{N}120.00\\) and the government fixes its price at \\(\\text{N}110.00\\), the quantity supplied will be",
+      "options": [
+        { "id": "A", "text": "greater than the equilibrium supply" },
+        { "id": "B", "text": "smaller than the equilibrium supply" },
+        { "id": "C", "text": "the same as the equilibrium supply" },
+        { "id": "D", "text": "a determinant of the market forces of equilibrium" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A price ceiling below equilibrium creates a **shortage**; suppliers now offer **less** than at the equilibrium price."
+    },
+    {
+      "id": 16,
+      "question": "If the price elasticity of demand for a certain commodity is less than unity, then",
+      "options": [
+        { "id": "A", "text": "an increase in the price of the commodity will raise the total revenue of the producer" },
+        { "id": "B", "text": "an increase in price leaves the total revenue unchanged" },
+        { "id": "C", "text": "a decrease in price raises the total revenue of the supplier" },
+        { "id": "D", "text": "a decrease in price leaves the total revenue constant" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "For inelastic demand (\\(|E_d|<1\\)), price and total revenue move in the **same direction**."
+    },
+    {
+      "id": 17,
+      "question": "Using the monopoly cost–revenue diagram in figure Econ1993_Monopoly_MC_ATC, what is the lowest possible price the monopolist could charge and still break even without there being excess demand?",
+      "options": [
+        { "id": "A", "text": "P\u2081" },
+        { "id": "B", "text": "P\u2082" },
+        { "id": "C", "text": "P\u2083" },
+        { "id": "D", "text": "P\u2084" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Break‑even occurs where **price equals average total cost** on the demand curve. The exact price label cannot be read clearly from the scan; consult the original diagram or marking scheme."
+    },
+    {
+      "id": 18,
+      "question": "At equilibrium one of the distinctive features of monopoly compared with perfect competition is that in the former",
+      "options": [
+        { "id": "A", "text": "price is always equal to marginal cost" },
+        { "id": "B", "text": "supply is always equal to demand" },
+        { "id": "C", "text": "price is always higher than marginal cost" },
+        { "id": "D", "text": "there are always many buyers and many sellers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A monopolist equates **MC and MR**, not MC and price; since \\(P > MR\\) on a downward‑sloping demand curve, we have **\\(P > MC\\)**."
+    },
+    {
+      "id": 19,
+      "question": "In the consumption–income diagram in figure Econ1993_MPC_Line, the marginal propensity to consume (MPC) is equal to",
+      "options": [
+        { "id": "A", "text": "RP / TP" },
+        { "id": "B", "text": "TP / RP" },
+        { "id": "C", "text": "RT / PP" },
+        { "id": "D", "text": "PT / RP" }
+      ],
+      "correctAnswer": null,
+      "explanation": "MPC is the **slope** of the consumption function, i.e. \\(\\Delta C / \\Delta Y\\). From the triangle formed, this equals the vertical change divided by the horizontal change (e.g. \\(RT / PT\\)). The precise ratio given by the labelled segments is unclear in the scan."
+    },
+    {
+      "id": 20,
+      "question": "Using the revenue table in figure Econ1993_TR_AR_MR_Table, given an output of 3 units, the average revenue is",
+      "options": [
+        { "id": "A", "text": "N16.00" },
+        { "id": "B", "text": "N18.00" },
+        { "id": "C", "text": "N20.00" },
+        { "id": "D", "text": "N24.00" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "At \\(Q = 3\\), \\(TR = 54\\). So \\(AR = TR / Q = 54/3 = 18\\)."
+    },
+    {
+      "id": 21,
+      "question": "Using the same table, determine the marginal revenue if the total revenue is \\(\\text{N}80.00\\).",
+      "options": [
+        { "id": "A", "text": "N12.00" },
+        { "id": "B", "text": "N14.00" },
+        { "id": "C", "text": "N16.00" },
+        { "id": "D", "text": "N18.00" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "TR of \\(80\\) corresponds to \\(Q = 5\\). \\(MR_5 = TR_5 - TR_4 = 80 - 68 = 12\\)."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following functions does the wholesaler perform to save the retailer the burden of carrying large stock?",
+      "options": [
+        { "id": "A", "text": "I and II only" },
+        { "id": "B", "text": "I and IV only" },
+        { "id": "C", "text": "II and III only" },
+        { "id": "D", "text": "II and IV only" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Relevant functions: **I. Breaking bulk** and **II. Packing goods in smaller containers**, which reduce retailers’ stock‑holding needs."
+    },
+    {
+      "id": 23,
+      "question": "Production is said to be completed when",
+      "options": [
+        { "id": "A", "text": "goods and services reach the consumers" },
+        { "id": "B", "text": "prices of goods or services are determined" },
+        { "id": "C", "text": "goods are sold to the wholesaler" },
+        { "id": "D", "text": "goods are packaged" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Economically, production is complete only when goods **reach and satisfy final consumers**."
+    },
+    {
+      "id": 24,
+      "question": "A debenture share entitles its holder to",
+      "options": [
+        { "id": "A", "text": "participate in the annual general meeting of the company" },
+        { "id": "B", "text": "share in the dividends declared" },
+        { "id": "C", "text": "receive a fixed interest on sums invested" },
+        { "id": "D", "text": "have a representation on the Board of Directors" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Debenture holders are **creditors** and receive a fixed rate of interest."
+    },
+    {
+      "id": 25,
+      "question": "A public liability company is different from a private limited company because it",
+      "options": [
+        { "id": "A", "text": "is registered with the Registrar of Companies" },
+        { "id": "B", "text": "has legal entity" },
+        { "id": "C", "text": "can raise capital of any size by way of loans" },
+        { "id": "D", "text": "can sell shares in the Stock Exchange" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Only public limited companies can have their shares **traded on the stock exchange**."
+    },
+    {
+      "id": 26,
+      "question": "A modern corporation is owned by",
+      "options": [
+        { "id": "A", "text": "debenture holders" },
+        { "id": "B", "text": "ordinary shareholders" },
+        { "id": "C", "text": "preference shareholders" },
+        { "id": "D", "text": "creditors" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ordinary shareholders are the **residual owners** of the company."
+    },
+    {
+      "id": 27,
+      "question": "Wheat grows best in",
+      "options": [
+        { "id": "A", "text": "tropical climate" },
+        { "id": "B", "text": "temperate climate" },
+        { "id": "C", "text": "equatorial climate" },
+        { "id": "D", "text": "hot desert" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Wheat is typically a **temperate‑climate** crop."
+    },
+    {
+      "id": 28,
+      "question": "On the basis of the contribution to employment, the most important economic sector in West Africa is",
+      "options": [
+        { "id": "A", "text": "industry" },
+        { "id": "B", "text": "agriculture" },
+        { "id": "C", "text": "construction" },
+        { "id": "D", "text": "commerce" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Agriculture employs the **largest share of the labour force** in most West African countries."
+    },
+    {
+      "id": 29,
+      "question": "The most popularly adopted industrialization strategy in West Africa is",
+      "options": [
+        { "id": "A", "text": "import substitution" },
+        { "id": "B", "text": "export promotion" },
+        { "id": "C", "text": "ports development" },
+        { "id": "D", "text": "infant industries protection" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Many West African countries initially pursued **import‑substitution industrialization**."
+    },
+    {
+      "id": 30,
+      "question": "One of the most important factors that should be considered in the location of an industry is",
+      "options": [
+        { "id": "A", "text": "nearness to the financial centre" },
+        { "id": "B", "text": "assured patronage by government functionaries" },
+        { "id": "C", "text": "availability of inputs and market" },
+        { "id": "D", "text": "availability of adequate security" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Firms locate where **raw materials and markets** are easily accessible."
+    },
+    {
+      "id": 31,
+      "question": "Since the mid‑1980s, the most disturbing development in the industrial sector in Nigeria is",
+      "options": [
+        { "id": "A", "text": "labour intensity" },
+        { "id": "B", "text": "capital intensity" },
+        { "id": "C", "text": "poor technology" },
+        { "id": "D", "text": "capacity under‑utilization" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Economic crises led to **very high levels of idle industrial capacity**."
+    },
+    {
+      "id": 32,
+      "question": "The money market is a financial market that specializes in the provision of",
+      "options": [
+        { "id": "A", "text": "short‑term loans and advances" },
+        { "id": "B", "text": "medium‑term loans" },
+        { "id": "C", "text": "long‑term loans" },
+        { "id": "D", "text": "venture capital for development projects" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Money markets deal in **short‑term funds and instruments** (e.g. treasury bills, call money)."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following programmes in the monetary sector is aimed at enhancing the banking habit of rural areas?",
+      "options": [
+        { "id": "A", "text": "The deregulation of the banking system" },
+        { "id": "B", "text": "The increase in the number of merchant banks" },
+        { "id": "C", "text": "The community banking scheme" },
+        { "id": "D", "text": "The deregulation of interest rate" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Community banks were established specifically to **mobilize savings and extend banking services to rural communities**."
+    },
+    {
+      "id": 34,
+      "question": "If the sum of \\(\\text{N}80{,}000\\) is deposited in a bank and the cash‑reserve ratio of the banking system is \\(10\\%\\), calculate the total sum of credit that can be created from the deposit.",
+      "options": [
+        { "id": "A", "text": "N100,000" },
+        { "id": "B", "text": "N800,000" },
+        { "id": "C", "text": "N1,000,000" },
+        { "id": "D", "text": "N80,000" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Money multiplier \\(k = 1/CR = 1/0.10 = 10\\). Total credit \\(= k \\times 80{,}000 = 800{,}000\\)."
+    },
+    {
+      "id": 35,
+      "question": "Economic development is distinguishable from economic growth because the former",
+      "options": [
+        { "id": "A", "text": "is not concerned with growth parameters" },
+        { "id": "B", "text": "affects only the poor people" },
+        { "id": "C", "text": "also includes an efficient distribution of economic growth" },
+        { "id": "D", "text": "is an increase in the production of goods and services" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Development implies growth **plus structural and welfare improvements**, including a better distribution of income."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following can be considered as being outside the objectives of public finance?",
+      "options": [
+        { "id": "A", "text": "The allocation of resources to various sectors of the economy" },
+        { "id": "B", "text": "The objective of even distribution of income and wealth" },
+        { "id": "C", "text": "The achievement of economic stability" },
+        { "id": "D", "text": "The deregulation of the economy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Resource allocation, redistribution and stabilization are core public‑finance objectives; **deregulation policy** is not."
+    },
+    {
+      "id": 37,
+      "question": "The joint ventures operating in the Nigerian oil industry are between",
+      "options": [
+        { "id": "A", "text": "the NNPC and independent marketers" },
+        { "id": "B", "text": "the NNPC and multinational companies" },
+        { "id": "C", "text": "the NNPC and producers/marketers" },
+        { "id": "D", "text": "multinational corporations and independent marketers" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Joint ventures typically involve **NNPC and multinational oil companies**."
+    },
+    {
+      "id": 38,
+      "question": "Which of the following are the major disadvantages of a direct system of taxation?",
+      "options": [
+        { "id": "A", "text": "I and II only" },
+        { "id": "B", "text": "I and III only" },
+        { "id": "C", "text": "II and III only" },
+        { "id": "D", "text": "I, II and III" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Direct taxes can **discourage work (I)**, are **difficult to assess and collect (II)**, and suffer from **assessment imperfections (III)**."
+    },
+    {
+      "id": 39,
+      "question": "Using the income table in figure Econ1993_IncomeComponents, calculate the net national income at factor cost (in billion naira).",
+      "options": [
+        { "id": "A", "text": "N500 bn" },
+        { "id": "B", "text": "N460 bn" },
+        { "id": "C", "text": "N540 bn" },
+        { "id": "D", "text": "N490 bn" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Domestic factor income: \\(380 + 110 = 490\\). Net factor income from abroad: \\(20 - 10 = 10\\). Gross national income at factor cost: \\(490 + 10 = 500\\). Subtract depreciation \\(40\\) to obtain **net national income**: \\(500 - 40 = 460\\)."
+    },
+    {
+      "id": 40,
+      "question": "According to the income approach to national income measurement, the national income of a country is equal to",
+      "options": [
+        { "id": "A", "text": "the value of all output produced in the country over the relevant period of time at market prices" },
+        { "id": "B", "text": "the value of output at factor cost" },
+        { "id": "C", "text": "the value added of production" },
+        { "id": "D", "text": "C + I + G" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The income approach sums **factor incomes**, yielding national income measured at **factor cost**."
+    },
+    {
+      "id": 41,
+      "question": "The best index for international comparison of standards of living is",
+      "options": [
+        { "id": "A", "text": "gross national product" },
+        { "id": "B", "text": "national income" },
+        { "id": "C", "text": "per capita income" },
+        { "id": "D", "text": "gross national income" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For comparing countries, **per capita income** (national income divided by population) is most appropriate."
+    },
+    {
+      "id": 42,
+      "question": "The \\(GDP\\) of Nigeria will be greater than her \\(GNP\\) if",
+      "options": [
+        { "id": "A", "text": "the value of goods and services imported into Nigeria is greater than the value of those exported" },
+        { "id": "B", "text": "consumption is greater than investment" },
+        { "id": "C", "text": "government expenditure is greater than foreign aid received" },
+        { "id": "D", "text": "the value of goods and services produced by Nigerian business abroad is less than that of foreign businesses in Nigeria" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If income earned by foreigners in Nigeria exceeds income earned by Nigerians abroad, **net factor income from abroad is negative** and \\(GDP > GNP\\)."
+    },
+    {
+      "id": 43,
+      "question": "Below equilibrium, the gap between aggregate demand and the full‑employment level of income is called the",
+      "options": [
+        { "id": "A", "text": "inflationary gap" },
+        { "id": "B", "text": "income gap" },
+        { "id": "C", "text": "unemployment gap" },
+        { "id": "D", "text": "deflationary gap" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If planned spending at full‑employment income is **too low**, the shortfall is a **deflationary gap**."
+    },
+    {
+      "id": 44,
+      "question": "Which of the following are advantages of Nigeria’s membership of ECOWAS? \nI. A greater opportunity for trade according to comparative cost advantage. \nII. A larger market for industries producing under conditions of decreasing cost. \nIII. Competition for home‑based monopolistic firms.",
+      "options": [
+        { "id": "A", "text": "I and II only" },
+        { "id": "B", "text": "I and III only" },
+        { "id": "C", "text": "II and III only" },
+        { "id": "D", "text": "I, II and III" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "All three are **benefits of regional economic integration**."
+    },
+    {
+      "id": 45,
+      "question": "Comparative advantage implies that a country will specialize in producing the commodity",
+      "options": [
+        { "id": "A", "text": "with the highest opportunity cost" },
+        { "id": "B", "text": "for which output per worker is lower than in other countries" },
+        { "id": "C", "text": "with the lowest opportunity cost" },
+        { "id": "D", "text": "for which output per worker is the same as in other countries" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Comparative advantage is based on **lower opportunity cost**, not necessarily higher absolute productivity."
+    },
+    {
+      "id": 46,
+      "question": "Devaluation is effective in improving the balance of payments when",
+      "options": [
+        { "id": "A", "text": "demand for imports is price inelastic" },
+        { "id": "B", "text": "demand for imports is interest inelastic" },
+        { "id": "C", "text": "production for export is low" },
+        { "id": "D", "text": "demand for exports is price elastic" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Devaluation improves the trade balance only if **foreign demand for exports is price elastic** (and usually if import demand is also elastic)."
+    },
+    {
+      "id": 47,
+      "question": "In the output–time diagram in figure Econ1993_Unemployment_Waves, what type of unemployment is revealed by the dotted lines?",
+      "options": [
+        { "id": "A", "text": "frictional unemployment" },
+        { "id": "B", "text": "cyclical unemployment" },
+        { "id": "C", "text": "structural unemployment" },
+        { "id": "D", "text": "underemployment" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The wavy path around a trend line depicts **business cycles**, whose associated joblessness is cyclical unemployment."
+    },
+    {
+      "id": 48,
+      "question": "From which of the following does Nigeria derive trade concessions?",
+      "options": [
+        { "id": "A", "text": "I.M.F." },
+        { "id": "B", "text": "World Bank" },
+        { "id": "C", "text": "A.D.B." },
+        { "id": "D", "text": "E.E.C." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Preferential trade concessions for Nigeria historically came from the **European Economic Community (EEC)**."
+    },
+    {
+      "id": 49,
+      "question": "Tariffs on imports are meant to",
+      "options": [
+        { "id": "A", "text": "prevent a country from becoming a dumping ground for foreign goods" },
+        { "id": "B", "text": "discourage exports" },
+        { "id": "C", "text": "encourage exports" },
+        { "id": "D", "text": "increase the level of external dependency" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Import tariffs **protect domestic industries** and help avoid the economy becoming a dumping ground."
+    },
+    {
+      "id": 50,
+      "question": "The International Bank for Reconstruction and Development is important to developing countries because it",
+      "options": [
+        { "id": "A", "text": "gives loans to member countries for legal proceedings" },
+        { "id": "B", "text": "offers grants and aid for defence" },
+        { "id": "C", "text": "offers loans to member countries for socio‑economic activities" },
+        { "id": "D", "text": "offers grants and aid to finance luxury projects" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The IBRD (World Bank) provides **long‑term loans and development assistance** for socio‑economic projects."
+    }
+  ]
+}
