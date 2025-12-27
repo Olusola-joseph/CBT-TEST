@@ -82,6 +82,11 @@ class EconomicsCBTExamApp {
                     this.questions = subjectData.questions;
                 }
                 
+                // Store figures data for use in getDiagramPath method
+                if (subjectData.figures) {
+                    this.figures = subjectData.figures;
+                }
+                
                 // Update the database with the loaded questions
                 if (examDB && examDB.db) {
                     try {
@@ -315,11 +320,22 @@ class EconomicsCBTExamApp {
         // Update question display - using innerHTML to support HTML tags like <u>
         document.getElementById("q-number").textContent = `Question ${question.id}`;
         
-        // Clean up the question text to remove BODMAS references and fix underlines for regular questions
-        let cleanQuestion = question.question;
+        // Handle diagrams in economics questions
+        let questionHtml = question.question;
         
-        const fixedQuestionHtml = cleanQuestion;
-        document.getElementById("question-text").innerHTML = fixedQuestionHtml; // Changed to innerHTML to support HTML tags
+        // If the question has a figureId, add the diagram to the question display
+        if (question.figureId) {
+            // Find the figure information in the loaded subject data
+            // For now, we'll add a placeholder that would be replaced with actual diagram
+            questionHtml = `<div class="question-with-diagram">
+                <div class="diagram-placeholder">
+                    <img src="${this.getDiagramPath(question.figureId)}" alt="Diagram for question" class="question-diagram" onerror="this.style.display='none';">
+                </div>
+                <div class="question-text">${question.question}</div>
+            </div>`;
+        }
+        
+        document.getElementById("question-text").innerHTML = questionHtml;
         document.getElementById("current-q").textContent = index + 1;
         document.getElementById("total-q").textContent = this.questions.length;
         
@@ -455,6 +471,46 @@ class EconomicsCBTExamApp {
         });
     }
 
+    getDiagramPath(figureId) {
+        // This method should return the path to the diagram based on the figureId
+        // First check if we have figures data loaded
+        if (this.figures && Array.isArray(this.figures)) {
+            // If we have figures data, find the matching figure
+            const figure = this.figures.find(fig => fig.id === figureId);
+            if (figure && figure.file) {
+                // Return the exact path from the JSON file, which should be relative to the HTML file
+                // The JSON contains paths like "images/econ1983_q4_demand_supply.png"
+                // Since images are in src/data/subjects/images, the path from HTML root would be:
+                // "src/data/subjects/images/econ1983_q4_demand_supply.png"
+                if (figure.file.startsWith('images/')) {
+                    return `src/data/subjects/${figure.file}`;
+                }
+                return figure.file;
+            }
+        }
+        
+        // If not found or figures not loaded, construct a default path
+        // This follows the pattern from the JSON files (e.g., images/econ1983_q4_demand_supply.png)
+        if (figureId && typeof figureId === 'string') {
+            // Convert the figureId to the expected image path format
+            // Example: "Econ1983_Fig1" -> "images/econ1983_q1_*.png" (we'll use a generic pattern)
+            const idLower = figureId.toLowerCase();
+            if (idLower.includes('econ')) {
+                // Try to extract year and convert to image path
+                const match = figureId.match(/Econ(\d{4})_Fig(\d+)/i);
+                if (match) {
+                    const year = match[1];
+                    const figNum = match[2];
+                    return `src/data/subjects/images/econ${year}_q${figNum}_diagram.png`;
+                }
+            }
+            return `src/data/subjects/images/${figureId.toLowerCase()}.png`;
+        }
+        
+        // Default fallback
+        return `src/data/subjects/images/default_diagram.png`;
+    }
+
     // Remove the old submitExam method since it's now handled by the modal
     // The endExam method is still used but called from the modal confirm button
 
@@ -549,6 +605,17 @@ class EconomicsCBTExamApp {
         // Clean up the question text to remove BODMAS references and fix underlines
         let cleanQuestion = question.question;
 
+        // Handle diagrams in review section as well
+        let questionDisplay = cleanQuestion;
+        if (question.figureId) {
+            questionDisplay = `<div class="question-with-diagram">
+                <div class="diagram-placeholder">
+                    <img src="${this.getDiagramPath(question.figureId)}" alt="Diagram for question" class="question-diagram" onerror="this.style.display='none';">
+                </div>
+                <div class="question-text">${cleanQuestion}</div>
+            </div>`;
+        }
+
         // Clean up explanation too
         let cleanExplanation = question.explanation || 'No explanation available.';
 
@@ -560,7 +627,7 @@ class EconomicsCBTExamApp {
                 </div>
             </div>
             <div class="review-question">
-                <h4>${cleanQuestion}</h4>  <!-- Using cleaned and fixed question to render HTML -->
+                <h4>${questionDisplay}</h4>  <!-- Using cleaned and fixed question to render HTML -->
 
                 <div class="options-review">
                     ${question.options.map(option => {
