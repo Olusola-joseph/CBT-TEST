@@ -1,0 +1,633 @@
+{
+  "year": 1990,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1990_CircularFlow",
+      "file": "images/econ1990_q3_4_circular_flow.png",
+      "description": "Circular‑flow diagram for Questions 3 and 4. Households are on the left, business firms (and government) on the right. The upper part is labelled “GOODS AND SERVICES” with real flows of goods and services; the lower part is labelled “PAYMENT FOR GOODS AND SERVICES”. Inside is a box “FACTORS OF PRODUCTION” with arrows showing real flows of factor services from households to firms and money flows of factor payments in the opposite direction. One of the money‑flow arrows is labelled **Y**. The lower half of the diagram shows all money flows; the upper half shows real flows."
+    },
+    {
+      "id": "Econ1990_TeaLemon_Graphs",
+      "file": "images/econ1990_q16_tea_lemon_graphs.png",
+      "description": "Four small graphs for Question 16, labelled A–D. Each has price of tea \\(P_{\\text{tea}}\\) on the vertical axis and quantity of lemon demanded \\(Q_{\\text{lemon}}\\) on the horizontal axis. One graph shows a downward‑sloping curve (negative relationship), one an upward‑sloping curve, one a vertical line and one a horizontal line. Candidates must choose the graph that best represents the price–quantity relationship between tea and lemon if they are perfect complements."
+    },
+    {
+      "id": "Econ1990_PerfectComp_Supply",
+      "file": "images/econ1990_q17_mc_ac_supply.png",
+      "description": "Cost‑curve diagram for Question 17. The vertical axis is price/cost and the horizontal axis is output \\(Q\\). A U‑shaped average cost curve and an upward‑sloping marginal cost curve intersect at point **T**. Points **R**, **S**, **T**, **X**, **Y** mark different segments of the marginal‑cost curve. Candidates are asked which labelled segment represents the supply curve of a perfectly competitive firm (i.e. the portion of the marginal‑cost curve above the minimum of the average variable cost)."
+    },
+    {
+      "id": "Econ1990_TaxRate_Curves",
+      "file": "images/econ1990_q35_36_tax_rate_curves.png",
+      "description": "Diagram for Questions 35 and 36 showing three curves X, Y and Z relating tax rate (vertical axis) to income (horizontal axis). Curve X is a straight line through the origin with constant slope; curve Y is concave/convex such that the tax rate rises more than proportionately with income; curve Z rises less than proportionately with income. Candidates must identify which curves represent progressive and proportional tax systems."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "If one orange costs 20 kobo and one kilogram of beef costs \\(\\text{N}1.00\\), the opportunity cost of one kilogram of beef in terms of oranges is",
+      "options": [
+        { "id": "A", "text": "1 orange" },
+        { "id": "B", "text": "3 oranges" },
+        { "id": "C", "text": "5 oranges" },
+        { "id": "D", "text": "N0.80" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "One kilogram of beef costs \\(\\text{N}1.00 = 100\\) kobo. Each orange costs 20 kobo, so \\(100/20 = 5\\) oranges. The opportunity cost of 1 kg of beef is **5 oranges forgone**."
+    },
+    {
+      "id": 2,
+      "question": "In economic life, choice among alternatives depends mainly on the",
+      "options": [
+        { "id": "A", "text": "income of the decision maker" },
+        { "id": "B", "text": "scarcity of resources" },
+        { "id": "C", "text": "scale of preference of the decision maker" },
+        { "id": "D", "text": "status of the decision maker" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Given scarcity, a consumer must rank wants. Actual choice between alternatives is guided by the **individual's scale of preference**."
+    },
+    {
+      "id": 3,
+      "question": "In the circular‑flow diagram (figure Econ1990_CircularFlow), the flow labelled **Y** refers to",
+      "options": [
+        { "id": "A", "text": "real income" },
+        { "id": "B", "text": "factor payments" },
+        { "id": "C", "text": "factor inputs" },
+        { "id": "D", "text": "national income" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Flow **Y** is the money flow from firms to households in payment for factor services—wages, rent, interest and profit—i.e. **factor payments**."
+    },
+    {
+      "id": 4,
+      "question": "In the same diagram (figure Econ1990_CircularFlow), the lower half indicates",
+      "options": [
+        { "id": "A", "text": "the flow of goods and services" },
+        { "id": "B", "text": "payment for goods and services" },
+        { "id": "C", "text": "the flow of income (money flows)" },
+        { "id": "D", "text": "government transactions" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The lower part of the circular flow shows **money flows**—payments for goods, services and factors—i.e. the flow of income."
+    },
+    {
+      "id": 5,
+      "question": "One of the major advantages of specialization is that",
+      "options": [
+        { "id": "A", "text": "the worker becomes a tender of machines" },
+        { "id": "B", "text": "it causes more employment of labour" },
+        { "id": "C", "text": "less machinery is required for production" },
+        { "id": "D", "text": "the worker wastes less time between operations" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Specialization allows workers to concentrate on a narrow task, thereby **reducing time lost in switching between operations** and increasing efficiency."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following rewards is associated with entrepreneurship as a factor of production?",
+      "options": [
+        { "id": "A", "text": "Salaries" },
+        { "id": "B", "text": "Profits" },
+        { "id": "C", "text": "Interest" },
+        { "id": "D", "text": "Rent" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The entrepreneur’s reward for bearing risk and organizing production is **profit**."
+    },
+    {
+      "id": 7,
+      "question": "A firm achieves least‑cost production by substituting factors until",
+      "options": [
+        { "id": "A", "text": "their prices are equal" },
+        { "id": "B", "text": "the ratio of their marginal physical products equals the ratio of their prices" },
+        { "id": "C", "text": "their marginal physical products are each equal to their factor prices" },
+        { "id": "D", "text": "their marginal physical products are each equal to their marginal costs" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The least‑cost condition is \\( \\dfrac{MP_L}{MP_K} = \\dfrac{w}{r} \\); i.e. **the ratio of marginal physical products equals the ratio of factor prices**."
+    },
+    {
+      "id": 8,
+      "question": "Economies of scale operate only when",
+      "options": [
+        { "id": "A", "text": "marginal cost is falling with input" },
+        { "id": "B", "text": "average cost is falling with output" },
+        { "id": "C", "text": "fixed cost is variable" },
+        { "id": "D", "text": "variable cost is less than fixed cost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Long‑run economies of scale exist when **average cost declines as output increases**."
+    },
+    {
+      "id": 9,
+      "question": "At the point of profit maximization for a firm, marginal cost is",
+      "options": [
+        { "id": "A", "text": "minimum" },
+        { "id": "B", "text": "falling" },
+        { "id": "C", "text": "constant" },
+        { "id": "D", "text": "rising" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Profit is maximized at the output where **marginal cost equals marginal revenue and marginal cost is rising**."
+    },
+    {
+      "id": 10,
+      "question": "A situation in which all inputs are doubled and output also doubles is known as",
+      "options": [
+        { "id": "A", "text": "constant proportion" },
+        { "id": "B", "text": "constant returns" },
+        { "id": "C", "text": "increasing returns to scale" },
+        { "id": "D", "text": "constant returns to scale" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "When output changes in exactly the same proportion as all inputs, there are **constant returns to scale**."
+    },
+    {
+      "id": 11,
+      "question": "Question 11 (in the original paper) concerns a condition under which the market demand curve shifts to the left. The exact wording in the scan is unclear.",
+      "options": [
+        { "id": "A", "text": "Option text illegible in scan" },
+        { "id": "B", "text": "Option text illegible in scan" },
+        { "id": "C", "text": "Option text illegible in scan" },
+        { "id": "D", "text": "Option text illegible in scan" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The scan does not clearly show the full text or options for Question 11. In theory, a leftward shift of demand occurs when factors such as **income (for a normal good) fall, price of a complement falls, or tastes change unfavourably**. Please consult a clearer copy of the 1990 paper for the exact wording and key."
+    },
+    {
+      "id": 12,
+      "question": "The law of diminishing marginal utility indicates that if a consumer increases his consumption of a commodity continuously, his",
+      "options": [
+        { "id": "A", "text": "total utility must fall" },
+        { "id": "B", "text": "marginal utility must fall" },
+        { "id": "C", "text": "marginal utility may rise even though his total utility is falling" },
+        { "id": "D", "text": "marginal utility may fall even though his total utility may be rising" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "As more units are consumed, **marginal utility falls**, though total utility may still be rising for a while; this is captured in option D."
+    },
+    {
+      "id": 13,
+      "question": "Technical progress that leads to a reduction in cost will generally result in",
+      "options": [
+        { "id": "A", "text": "an increase in equilibrium price and quantity" },
+        { "id": "B", "text": "a decrease in equilibrium price and quantity" },
+        { "id": "C", "text": "an increase in equilibrium price and a decrease in equilibrium quantity" },
+        { "id": "D", "text": "a decrease in equilibrium price and an increase in equilibrium quantity" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Cost‑reducing technical progress shifts the supply curve rightwards, causing **lower equilibrium price and higher equilibrium quantity**."
+    },
+    {
+      "id": 14,
+      "question": "If an increase in income induces a reduction in the demand for beans, beans can be referred to as",
+      "options": [
+        { "id": "A", "text": "a normal good" },
+        { "id": "B", "text": "an inferior good" },
+        { "id": "C", "text": "a substitute" },
+        { "id": "D", "text": "a Giffen good" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Demand for an **inferior good** falls when income rises."
+    },
+    {
+      "id": 15,
+      "question": "The demand for a product is said to be price inelastic if",
+      "options": [
+        { "id": "A", "text": "the price elasticity of demand is less than one" },
+        { "id": "B", "text": "the price elasticity of demand is greater than one" },
+        { "id": "C", "text": "a reduction in price results in an increase in quantity demanded" },
+        { "id": "D", "text": "an increase in price results in a decrease in quantity demanded" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Price inelastic demand means \\(|E_d| < 1\\); percentage change in quantity is less than percentage change in price."
+    },
+    {
+      "id": 16,
+      "question": "Which of the graphs in figure Econ1990_TeaLemon_Graphs represents the price–quantity relationship between tea and lemon if they are perfect complements?",
+      "options": [
+        { "id": "A", "text": "Graph A" },
+        { "id": "B", "text": "Graph B" },
+        { "id": "C", "text": "Graph C" },
+        { "id": "D", "text": "Graph D" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Perfect complements are consumed together; a rise in the price of tea would reduce the quantity demanded of lemon, implying a **negative cross‑price relationship**. The correct option is the graph with a downward‑sloping curve, but the small scan does not allow a confident mapping of labels A–D to individual graphs."
+    },
+    {
+      "id": 17,
+      "question": "In the cost‑curve diagram (figure Econ1990_PerfectComp_Supply), R, T and X are points on the marginal‑cost and average‑cost curves of a perfectly competitive firm. The supply curve of the firm is indicated by",
+      "options": [
+        { "id": "A", "text": "segment TX" },
+        { "id": "B", "text": "segment RT" },
+        { "id": "C", "text": "segment ST" },
+        { "id": "D", "text": "segment TY" }
+      ],
+      "correctAnswer": null,
+      "explanation": "For a perfectly competitive firm, the supply curve is the **portion of the marginal‑cost curve above the minimum of the average variable cost curve**. The exact labelled segment cannot be read clearly from the scan; please verify with the original diagram."
+    },
+    {
+      "id": 18,
+      "question": "An imperfect market in which there is only one buyer of a commodity is",
+      "options": [
+        { "id": "A", "text": "monopsony" },
+        { "id": "B", "text": "oligopoly" },
+        { "id": "C", "text": "monopoly" },
+        { "id": "D", "text": "duopoly" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **monopsony** is a market with a single buyer."
+    },
+    {
+      "id": 19,
+      "question": "The tailoring service is competitive partly because it consists largely of",
+      "options": [
+        { "id": "A", "text": "large‑scale enterprises" },
+        { "id": "B", "text": "medium‑scale enterprises" },
+        { "id": "C", "text": "small‑scale enterprises" },
+        { "id": "D", "text": "government‑owned enterprises" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Tailoring services are typically provided by **many small‑scale firms**, which is consistent with a competitive market."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is applicable to a monopolistic firm operating at the output where marginal cost equals marginal revenue?",
+      "options": [
+        { "id": "A", "text": "cost of production is at a minimum" },
+        { "id": "B", "text": "the plant is of optimum size" },
+        { "id": "C", "text": "price is above marginal revenue" },
+        { "id": "D", "text": "average variable cost is at a minimum" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "At the profit‑maximizing output of a monopolist, \\(MC = MR\\) and the **price charged exceeds marginal revenue** because the firm faces a downward‑sloping demand curve."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following is the major function of the wholesaler?",
+      "options": [
+        { "id": "A", "text": "bulk breaking" },
+        { "id": "B", "text": "provision of useful information to the manufacturer on products" },
+        { "id": "C", "text": "provision of after‑sales service to consumers" },
+        { "id": "D", "text": "provision of warehousing facility" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Although wholesalers perform several functions, their **primary role** is bulk breaking: buying in large quantities and selling in smaller lots."
+    },
+    {
+      "id": 22,
+      "question": "In the distribution channels for goods and services, the middleman’s mark‑up margin provides a rough measure for the",
+      "options": [
+        { "id": "A", "text": "quantity discount allowed final consumers" },
+        { "id": "B", "text": "reward for business entrepreneurship" },
+        { "id": "C", "text": "effectiveness of government control over monopoly marketing channels" },
+        { "id": "D", "text": "extent of exploitation of the final consumer" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A high mark‑up margin indicates a large difference between cost and selling price and is often interpreted as a measure of **how much consumers are exploited**."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following reasons could induce a manufacturer to bypass the wholesaler in the distribution chain?",
+      "options": [
+        { "id": "A", "text": "to provide the quantity needed by retailers" },
+        { "id": "B", "text": "to collect useful information on his product" },
+        { "id": "C", "text": "to provide warehousing facilities" },
+        { "id": "D", "text": "to violate government regulation on distribution" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Selling directly to retailers or consumers allows the manufacturer to **obtain first‑hand information** about buyers and market conditions."
+    },
+    {
+      "id": 24,
+      "question": "A major difference between a state‑owned enterprise and a private enterprise is that the former",
+      "options": [
+        { "id": "A", "text": "is not expected to cover its cost of production while the latter is" },
+        { "id": "B", "text": "is not always expected to maximize profits while the latter is" },
+        { "id": "C", "text": "has shareholders while the latter does not" },
+        { "id": "D", "text": "has a board of directors while the latter does not" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Public enterprises are generally established to provide social services and are **not primarily profit‑oriented**, unlike private firms."
+    },
+    {
+      "id": 25,
+      "question": "Divorce of ownership from control is a characteristic of a",
+      "options": [
+        { "id": "A", "text": "sole proprietorship" },
+        { "id": "B", "text": "limited liability company" },
+        { "id": "C", "text": "partnership" },
+        { "id": "D", "text": "private limited company only" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a **limited liability company**, ownership is by shareholders while control is exercised by directors and managers."
+    },
+    {
+      "id": 26,
+      "question": "Capital provided by individuals to the firm by purchasing stocks is called",
+      "options": [
+        { "id": "A", "text": "debt capital" },
+        { "id": "B", "text": "fixed capital" },
+        { "id": "C", "text": "circulating capital" },
+        { "id": "D", "text": "equity capital" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Money raised by issuing shares represents **equity capital**."
+    },
+    {
+      "id": 27,
+      "question": "Which of the following factors is the most important in siting a petro‑chemical plant?",
+      "options": [
+        { "id": "A", "text": "nearness to the source of raw materials" },
+        { "id": "B", "text": "nearness to the source of power" },
+        { "id": "C", "text": "availability of labour" },
+        { "id": "D", "text": "proximity of financial institutions" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Petro‑chemical plants are heavily dependent on bulky raw materials (crude oil, natural gas); hence **closeness to raw materials** is crucial."
+    },
+    {
+      "id": 28,
+      "question": "Which of the following will be the effect of allowing only economic factors to dictate the location of industries in Nigeria?",
+      "options": [
+        { "id": "A", "text": "there will be an unbalanced spread in the distribution of industries" },
+        { "id": "B", "text": "the less developed parts of the country will be able to attract more industries" },
+        { "id": "C", "text": "only the government will be able to finance the establishment of industries" },
+        { "id": "D", "text": "a more even development of the different parts of the country will be assured" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "If only profit motives determine location, industries will concentrate in already developed, profitable areas, causing **regional imbalance**."
+    },
+    {
+      "id": 29,
+      "question": "If the same basket of goods which cost \\(\\text{N}12.00\\) in 1985 costs \\(\\text{N}15.00\\) in 1987, taking 1985 as base year (index = 100), the price index for 1987 is",
+      "options": [
+        { "id": "A", "text": "25" },
+        { "id": "B", "text": "80" },
+        { "id": "C", "text": "10" },
+        { "id": "D", "text": "125" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Price index for 1987: \\(P_{1987} = (15/12) \\times 100 = 125\\)."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following is most likely to be inflationary?",
+      "options": [
+        { "id": "A", "text": "tax increase" },
+        { "id": "B", "text": "increase in unemployment" },
+        { "id": "C", "text": "budget surplus" },
+        { "id": "D", "text": "wage increases" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rising wages increase production costs and/or aggregate demand, which tends to **push prices upward**."
+    },
+    {
+      "id": 31,
+      "question": "The basic purpose of imposing legal reserve requirements on commercial banks is to",
+      "options": [
+        { "id": "A", "text": "assure the profitability of commercial banks" },
+        { "id": "B", "text": "provide a device through which credit creation by banks can be controlled" },
+        { "id": "C", "text": "provide a proper ratio between earning and non‑bank assets" },
+        { "id": "D", "text": "provide the Central Bank with working capital" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "By changing reserve requirements the central bank can **control the extent of credit creation** in the banking system."
+    },
+    {
+      "id": 32,
+      "question": "Find the total credit that the banking system can create if primary deposits are \\(\\text{N}100.00\\) and the cash‑reserve ratio is 25%.",
+      "options": [
+        { "id": "A", "text": "N700.00" },
+        { "id": "B", "text": "N600.00" },
+        { "id": "C", "text": "N500.00" },
+        { "id": "D", "text": "N400.00" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Money multiplier \\(k = 1/CR = 1/0.25 = 4\\). Total deposits (and hence credit) = \\(k \\times\\) primary deposits = \\(4 \\times 100 = \\text{N}400\\)."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is a liability of a commercial bank?",
+      "options": [
+        { "id": "A", "text": "deposits in the bank" },
+        { "id": "B", "text": "loans made by the bank to individual users" },
+        { "id": "C", "text": "loans made by the bank to other banks" },
+        { "id": "D", "text": "bonds purchased by the bank" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Customer **deposits** are obligations that the bank must repay on demand or at maturity; they are liabilities."
+    },
+    {
+      "id": 34,
+      "question": "A tax on a commodity whose supply is perfectly inelastic is",
+      "options": [
+        { "id": "A", "text": "shifted completely to the consumer" },
+        { "id": "B", "text": "completely borne by the supplier" },
+        { "id": "C", "text": "divided in the ratio 60:40 between the consumer and the supplier" },
+        { "id": "D", "text": "divided half‑and‑half between the producer and the consumer" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "With perfectly inelastic supply (vertical curve), quantity cannot change, so the entire tax is usually **passed on to consumers in higher prices**."
+    },
+    {
+      "id": 35,
+      "question": "Using the tax‑rate diagram in figure Econ1990_TaxRate_Curves, the relationship between tax rate and income which is relevant to a progressive tax is shown by",
+      "options": [
+        { "id": "A", "text": "curve X" },
+        { "id": "B", "text": "curve Y" },
+        { "id": "C", "text": "curve Z" },
+        { "id": "D", "text": "curves X and Z" }
+      ],
+      "correctAnswer": null,
+      "explanation": "For a **progressive tax**, the average tax rate rises with income, so the correct curve should be the one where the tax rate increases more than proportionately with income (convex/upward‑curving). The exact labels cannot be read clearly from the small scan."
+    },
+    {
+      "id": 36,
+      "question": "With reference to the same diagram (figure Econ1990_TaxRate_Curves), the relationship between tax rate and income which is relevant to a proportional tax is depicted by",
+      "options": [
+        { "id": "A", "text": "curves Z and Y" },
+        { "id": "B", "text": "curve X" },
+        { "id": "C", "text": "curve Y only" },
+        { "id": "D", "text": "curve Z only" }
+      ],
+      "correctAnswer": null,
+      "explanation": "A **proportional tax** has a constant tax rate regardless of income, represented by a straight line with constant slope (or a horizontal line if the vertical axis is the rate). The scan does not clearly show which labelled curve (probably X) has this property."
+    },
+    {
+      "id": 37,
+      "question": "Under a system of freely floating exchange rates, an increase in the international value of a country’s currency (an appreciation) will tend to",
+      "options": [
+        { "id": "A", "text": "increase its exports and reduce its imports" },
+        { "id": "B", "text": "reduce its exports and increase its imports" },
+        { "id": "C", "text": "cause gold to flow into the country" },
+        { "id": "D", "text": "create a surplus of its currency in foreign markets" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Currency appreciation makes domestic goods more expensive to foreigners and foreign goods cheaper domestically, so **exports fall and imports rise**."
+    },
+    {
+      "id": 38,
+      "question": "Balance of trade is the difference between a country’s",
+      "options": [
+        { "id": "A", "text": "exports and imports of goods and services" },
+        { "id": "B", "text": "capital inflows and capital outflows" },
+        { "id": "C", "text": "visible and invisible balances" },
+        { "id": "D", "text": "exports and imports of goods" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **balance of trade** concerns only **visible items (goods)**: exports of goods minus imports of goods."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is likely to reduce a surplus in the balance of payments of a country?",
+      "options": [
+        { "id": "A", "text": "devaluation" },
+        { "id": "B", "text": "increased tariff on imports" },
+        { "id": "C", "text": "export promotion" },
+        { "id": "D", "text": "currency appreciation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A **surplus** can be reduced by policies that decrease exports or increase imports; an appreciation makes exports dearer and imports cheaper, tending to do both."
+    },
+    {
+      "id": 40,
+      "question": "Which of the following is a tariff?",
+      "options": [
+        { "id": "A", "text": "limit on the amount of goods which can be imported" },
+        { "id": "B", "text": "interest rate on foreign loans" },
+        { "id": "C", "text": "government payment to domestic producers" },
+        { "id": "D", "text": "tax on imported goods" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A **tariff** is a tax imposed on imported (and sometimes exported) goods."
+    },
+    {
+      "id": 41,
+      "question": "Question 41 in the original paper deals with the effect of changes in price and elasticity on total expenditure on imports. The detailed wording is not fully legible in the scan.",
+      "options": [
+        { "id": "A", "text": "Option text illegible" },
+        { "id": "B", "text": "Option text illegible" },
+        { "id": "C", "text": "Option text illegible" },
+        { "id": "D", "text": "Option text illegible" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Generally, total expenditure on a good (\\(P \\times Q\\)) increases when price rises **if demand is inelastic**, and decreases if demand is elastic. Please consult a clear copy for the exact question and key."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following is most likely to hinder labour mobility in Nigeria?",
+      "options": [
+        { "id": "A", "text": "higher wages elsewhere" },
+        { "id": "B", "text": "cultural similarities" },
+        { "id": "C", "text": "good accommodation" },
+        { "id": "D", "text": "ignorance of job opportunities elsewhere" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If workers are **unaware of job opportunities** in other regions or occupations, mobility is reduced."
+    },
+    {
+      "id": 43,
+      "question": "If birth rate is constant and death rate declines, population",
+      "options": [
+        { "id": "A", "text": "falls" },
+        { "id": "B", "text": "expands" },
+        { "id": "C", "text": "stabilizes" },
+        { "id": "D", "text": "oscillates" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With births unchanged and fewer deaths, **natural increase rises**, so population grows."
+    },
+    {
+      "id": 44,
+      "question": "If the government invests the sum of \\(\\text{N}1{,}000\\) and the marginal propensity to consume is \\(0.75\\), what is the change in income?",
+      "options": [
+        { "id": "A", "text": "N1,000" },
+        { "id": "B", "text": "N4,000" },
+        { "id": "C", "text": "N6,000" },
+        { "id": "D", "text": "N14,000" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Multiplier \\(k = 1/(1 - MPC) = 1/(1 - 0.75) = 4\\). Change in income: \\(\\Delta Y = k \\times \\Delta I = 4 \\times 1{,}000 = \\text{N}4{,}000\\)."
+    },
+    {
+      "id": 45,
+      "question": "The system of measurement of national income as the sum of all final demands is known as the",
+      "options": [
+        { "id": "A", "text": "income approach" },
+        { "id": "B", "text": "expenditure approach" },
+        { "id": "C", "text": "output approach" },
+        { "id": "D", "text": "value‑added approach" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Summing all **final expenditures** on goods and services gives national income via the **expenditure approach**."
+    },
+    {
+      "id": 46,
+      "question": "Disposable income is an income which",
+      "options": [
+        { "id": "A", "text": "is available for consumption and savings" },
+        { "id": "B", "text": "is used only for consumption" },
+        { "id": "C", "text": "is equal to personal income minus transfer payments" },
+        { "id": "D", "text": "excludes all forms of government tax" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Disposable income is **personal income after direct taxes**, available to be either **consumed or saved**."
+    },
+    {
+      "id": 47,
+      "question": "In equilibrium in the circular flow of income, injections are equal to",
+      "options": [
+        { "id": "A", "text": "withdrawals (leakages)" },
+        { "id": "B", "text": "surplus of imports over exports" },
+        { "id": "C", "text": "government spending" },
+        { "id": "D", "text": "wages" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Macro‑equilibrium in the income‑expenditure model occurs where **injections (I + G + X) equal leakages (S + T + M)**."
+    },
+    {
+      "id": 48,
+      "question": "Social overhead capital refers to",
+      "options": [
+        { "id": "A", "text": "balanced growth" },
+        { "id": "B", "text": "gross investment" },
+        { "id": "C", "text": "the building of infrastructures" },
+        { "id": "D", "text": "capital formation" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Social overhead capital is **basic infrastructure** such as roads, power, water and communication facilities."
+    },
+    {
+      "id": 49,
+      "question": "The most common index used for measuring development is",
+      "options": [
+        { "id": "A", "text": "the level of illiteracy" },
+        { "id": "B", "text": "per capita income" },
+        { "id": "C", "text": "nutritional level" },
+        { "id": "D", "text": "population growth rate" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Despite its limitations, **real per capita income** is the most widely used single indicator of economic development."
+    },
+    {
+      "id": 50,
+      "question": "Agriculture is central to Nigeria’s economic development because",
+      "options": [
+        { "id": "A", "text": "Nigeria’s comparative advantage lies mainly in agro‑allied industries" },
+        { "id": "B", "text": "agriculture is the largest employer of labour" },
+        { "id": "C", "text": "agriculture accounts for an insignificant share of domestic product" },
+        { "id": "D", "text": "Nigeria earns limitless foreign exchange from agriculture" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In Nigeria a large proportion of the labour force is engaged in agriculture; thus it is **the main employer of labour** and central to livelihoods."
+    }
+  ]
+}
