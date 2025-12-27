@@ -1,0 +1,633 @@
+{
+  "year": 1989,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1989_LabourMarket_MinWage",
+      "file": "images/econ1989_q11_min_wage_labour.png",
+      "description": "Labour‑market diagram for Question 11 with wage on the vertical axis labelled \\(W\\) and labour on the horizontal axis labelled \\(L\\). A downward‑sloping demand curve \\(D\\) and an upward‑sloping supply curve \\(S\\) intersect at equilibrium. A horizontal line at the minimum wage level \\(\\overline{W}\\), marked OW, lies above the equilibrium wage, creating excess supply of labour (unemployment)."
+    },
+    {
+      "id": "Econ1989_Px_QdY",
+      "file": "images/econ1989_q12_priceX_quantityY.png",
+      "description": "Cross‑demand diagram for Question 12. The vertical axis shows the price of commodity \\(X\\) (\\(P_X\\)); the horizontal axis shows the quantity demanded of commodity \\(Y\\) (\\(Q_Y\\)). An upward‑sloping curve indicates a positive relationship between \\(P_X\\) and \\(Q_Y\\): as \\(P_X\\) increases, \\(Q_Y\\) also increases."
+    },
+    {
+      "id": "Econ1989_Profit_TC_TR_Table",
+      "file": "images/econ1989_q19_output_tc_tr_table.png",
+      "description": "Table for Question 19 showing several output levels \\(Q\\) (in tonnes) with corresponding total cost \\(TC\\) and total revenue \\(TR\\) values. Candidates are to compute profit \\(\\pi = TR - TC\\) for each \\(Q\\) and identify the profit‑maximizing output level."
+    },
+    {
+      "id": "Econ1989_BOP_CurrentAccount_Table",
+      "file": "images/econ1989_q39_bop_table.png",
+      "description": "Balance of payments table for Question 39. Items (in million naira): visible exports 55.54, visible imports 53.32, invisible exports 30.56, invisible imports 28.70, giving a balance of 4.08. In MathJax: visible balance = \\(55.54 - 53.32\\), invisible balance = \\(30.56 - 28.70\\); overall current‑account balance = \\(4.08\\) million."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "In its simplified form, the circular flow of income concept refers to the",
+      "options": [
+        { "id": "A", "text": "real flows in goods and services between the product and factor markets" },
+        { "id": "B", "text": "monetary payments for goods and services produced by individual firms" },
+        { "id": "C", "text": "transactions in goods and services and payments for such transactions between individual firms and households" },
+        { "id": "D", "text": "money flows associated with transactions between individual firms and households only" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In its basic form, the circular flow shows **real and money flows between households and firms** in product and factor markets."
+    },
+    {
+      "id": 2,
+      "question": "The need to construct a scale of preference is necessitated by",
+      "options": [
+        { "id": "A", "text": "the need to satisfy wants" },
+        { "id": "B", "text": "scarcity and the need for choice" },
+        { "id": "C", "text": "scarcity of resources" },
+        { "id": "D", "text": "non‑availability of factors of production" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Because resources are scarce relative to wants, people must **rank their wants and choose**, hence a scale of preference."
+    },
+    {
+      "id": 3,
+      "question": "A shift in the production possibility frontier could result from",
+      "options": [
+        { "id": "A", "text": "the need to satisfy wants" },
+        { "id": "B", "text": "scarcity and the need for choice" },
+        { "id": "C", "text": "scarcity of resources" },
+        { "id": "D", "text": "changes in the availability of factors of production" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The PPF shifts when there is a **change in factor endowments or technology**, i.e. in the availability or quality of resources."
+    },
+    {
+      "id": 4,
+      "question": "The primary problem of economics is",
+      "options": [
+        { "id": "A", "text": "to obtain a more equitable distribution of money income" },
+        { "id": "B", "text": "producing a given output with the lowest cost combination of factors of production" },
+        { "id": "C", "text": "adoption of capital‑intensive technology" },
+        { "id": "D", "text": "increasing the quantity of the fixed factor of production" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Given the options, the best description of the central economic problem—how to allocate scarce resources efficiently—is **producing output with the least‑cost combination of factors**."
+    },
+    {
+      "id": 5,
+      "question": "Efficiency in production involves",
+      "options": [
+        { "id": "A", "text": "reducing the size of the work force" },
+        { "id": "B", "text": "producing a given output with the lowest cost combination of factors of production" },
+        { "id": "C", "text": "adopting the quantity of the fixed factors of production" },
+        { "id": "D", "text": "increasing the quantity of the fixed factor of production" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Productive efficiency means **producing a given output at minimum cost**, using the least‑cost combination of resources."
+    },
+    {
+      "id": 6,
+      "question": "If X represents the factors of production and Y represents the factor price, which of the following sets of association is correct?",
+      "options": [
+        { "id": "A", "text": "(Land, rent), (capital, wage), (labour, profit)" },
+        { "id": "B", "text": "(Land, interest), (capital, profits), (labour, wage)" },
+        { "id": "C", "text": "(Land, wage), (capital, interest), (labour, rent)" },
+        { "id": "D", "text": "(Land, rent), (capital, interest), (labour, wage)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The conventional factor–reward pairs are **land–rent, labour–wages, capital–interest, enterprise–profit**."
+    },
+    {
+      "id": 7,
+      "question": "If the cost of production for a firm continues to increase as its output rises, the firm is said to be experiencing",
+      "options": [
+        { "id": "A", "text": "large‑scale production" },
+        { "id": "B", "text": "profit maximization" },
+        { "id": "C", "text": "economies of scale" },
+        { "id": "D", "text": "diseconomies of scale" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "When average or marginal cost rises with increased output, the firm is experiencing **diseconomies of scale**."
+    },
+    {
+      "id": 8,
+      "question": "Given perfect competition in the capital market, the opportunity cost of capital is adequately reflected by the",
+      "options": [
+        { "id": "A", "text": "interest rate" },
+        { "id": "B", "text": "returns on capital" },
+        { "id": "C", "text": "alternative capital foregone" },
+        { "id": "D", "text": "shadow price of foreign exchange" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In a competitive capital market, the **interest rate** measures the opportunity cost of using capital."
+    },
+    {
+      "id": 9,
+      "question": "If at 10 kobo per kg, 1 000 kg of yam were purchased and at 5 kobo per kg, 1 500 kg were purchased, the resultant price elasticity of demand is",
+      "options": [
+        { "id": "A", "text": "0.33" },
+        { "id": "B", "text": "0.0001" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "10 000" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Using the arc elasticity formula, \\(E_d = (\\Delta Q / \\Delta P) \\times ((P_1 + P_2)/(Q_1 + Q_2))\\). Substituting \\(Q_1 = 1000\\), \\(Q_2 = 1500\\), \\(P_1 = 10\\), \\(P_2 = 5\\) gives an elasticity of about \\(0.6\\) in absolute value. None of the visible options clearly matches this, so the official key should be checked."
+    },
+    {
+      "id": 10,
+      "question": "If, as the price of a commodity rises, the quantity demanded of the commodity remains the same, then the demand for the commodity is",
+      "options": [
+        { "id": "A", "text": "static" },
+        { "id": "B", "text": "infinitely elastic" },
+        { "id": "C", "text": "externally determined" },
+        { "id": "D", "text": "perfectly inelastic" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If quantity demanded does not change when price changes, demand is **perfectly inelastic**."
+    },
+    {
+      "id": 11,
+      "question": "In the labour‑market diagram (see figure Econ1989_LabourMarket_MinWage), what happens when the minimum wage is fixed at OW?",
+      "options": [
+        { "id": "A", "text": "Unemployment is reduced" },
+        { "id": "B", "text": "Unemployment results" },
+        { "id": "C", "text": "The demand schedule will shift" },
+        { "id": "D", "text": "The supply schedule will become steeper" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A minimum wage set **above equilibrium** creates excess supply of labour, i.e. unemployment."
+    },
+    {
+      "id": 12,
+      "question": "If the curve in figure Econ1989_Px_QdY shows the relationship between the price of commodity X and the quantity demanded of commodity Y, then X and Y are",
+      "options": [
+        { "id": "A", "text": "complementary goods" },
+        { "id": "B", "text": "substitutes" },
+        { "id": "C", "text": "inferior goods" },
+        { "id": "D", "text": "luxury goods" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A rise in \\(P_X\\) causes \\(Q_Y\\) to rise, indicating a **positive cross‑price elasticity**, so X and Y are substitutes."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following factors is an important determinant of the magnitude of price elasticity of demand?",
+      "options": [
+        { "id": "A", "text": "The production period" },
+        { "id": "B", "text": "Cost of storage" },
+        { "id": "C", "text": "Durability of the product" },
+        { "id": "D", "text": "Availability of factors of production" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For durable goods, purchases can often be postponed when price rises, making demand **more price elastic**."
+    },
+    {
+      "id": 14,
+      "question": "The marginal theory of distribution makes an assertion that the price of any factor depends upon its marginal",
+      "options": [
+        { "id": "A", "text": "utility" },
+        { "id": "B", "text": "productivity" },
+        { "id": "C", "text": "rate of substitution" },
+        { "id": "D", "text": "revenue" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "According to the marginal productivity theory, a factor’s remuneration depends on its **marginal productivity**."
+    },
+    {
+      "id": 15,
+      "question": "In order to increase its profit margin, the monopolist can manipulate",
+      "options": [
+        { "id": "A", "text": "both price and output" },
+        { "id": "B", "text": "either price or output" },
+        { "id": "C", "text": "only price" },
+        { "id": "D", "text": "only output" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A monopolist is a price maker and can **choose either the price or the output level** (with the other then determined by the demand curve), but cannot set both independently."
+    },
+    {
+      "id": 16,
+      "question": "For a perfectly competitive industry, a fundamental requirement of the demand curve faced by individual firms is that it should be",
+      "options": [
+        { "id": "A", "text": "downward sloping and price inelastic" },
+        { "id": "B", "text": "perfectly price elastic" },
+        { "id": "C", "text": "downward sloping but price inelastic" },
+        { "id": "D", "text": "perfectly price inelastic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each firm in perfect competition is a price taker and faces a **horizontal (perfectly elastic) demand curve** at the market price."
+    },
+    {
+      "id": 17,
+      "question": "The merging of firms engaged in different stages of production and marketing is called",
+      "options": [
+        { "id": "A", "text": "external economies of scale" },
+        { "id": "B", "text": "vertical integration" },
+        { "id": "C", "text": "horizontal integration" },
+        { "id": "D", "text": "economic union" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Combining firms at different stages of the same production process is **vertical integration**."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following is an important function of the retailer?",
+      "options": [
+        { "id": "A", "text": "Grants credit to the wholesaler" },
+        { "id": "B", "text": "Breaks bulk and sells products in small units" },
+        { "id": "C", "text": "Reduces cost of distribution" },
+        { "id": "D", "text": "Generates demand for products through advertisement" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A key role of retailers is **breaking bulk**, selling in small quantities suitable for consumers."
+    },
+    {
+      "id": 19,
+      "question": "The table in figure Econ1989_Profit_TC_TR_Table gives various levels of output (Q) and the corresponding total cost of production (TC) and total revenue (TR) for a firm. Which output level results in maximum profit?",
+      "options": [
+        { "id": "A", "text": "400" },
+        { "id": "B", "text": "500" },
+        { "id": "C", "text": "600" },
+        { "id": "D", "text": "700" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Profit at each output level is \\(\\pi = TR - TC\\). The level with the highest positive \\(\\pi\\) is the profit‑maximizing output. The exact answer depends on the TC and TR numbers in the table."
+    },
+    {
+      "id": 20,
+      "question": "One of the purposes of advertisement in marketing is to",
+      "options": [
+        { "id": "A", "text": "change the quality of the product" },
+        { "id": "B", "text": "raise the quantity of the product demanded as its price falls" },
+        { "id": "C", "text": "shift the demand curve for the product to the right" },
+        { "id": "D", "text": "raise production costs" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Successful advertising **increases demand**, represented by a rightward shift of the demand curve."
+    },
+    {
+      "id": 21,
+      "question": "The size of a business unit tends to be small if the activity",
+      "options": [
+        { "id": "A", "text": "involves mass production of goods" },
+        { "id": "B", "text": "requires a large capital" },
+        { "id": "C", "text": "requires division of labour" },
+        { "id": "D", "text": "involves the provision of direct services" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Direct personal services (e.g. hairdressing, tailoring) are typically provided by **small‑scale business units**."
+    },
+    {
+      "id": 22,
+      "question": "Which type of business organization has the attribute of effectively combining management with control?",
+      "options": [
+        { "id": "A", "text": "Sole proprietorship" },
+        { "id": "B", "text": "Partnership" },
+        { "id": "C", "text": "Limited liability company" },
+        { "id": "D", "text": "Co‑operatives" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In a **sole proprietorship**, the owner both manages and controls the business directly."
+    },
+    {
+      "id": 23,
+      "question": "The co‑operative as a form of business organization differs from partnership by having",
+      "options": [
+        { "id": "A", "text": "several sources of capital for business financing" },
+        { "id": "B", "text": "ability to issue preferred stocks to members" },
+        { "id": "C", "text": "entrenched democratic control in the conduct of business" },
+        { "id": "D", "text": "established rules and regulations governing the activities of its members" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Co‑operatives are run on **democratic principles** (one‑member‑one‑vote), unlike partnerships where control is based on agreement among partners."
+    },
+    {
+      "id": 24,
+      "question": "The type of business finance that entitles the holder to a fixed rate of dividend is",
+      "options": [
+        { "id": "A", "text": "preferred stock" },
+        { "id": "B", "text": "common stock" },
+        { "id": "C", "text": "debenture" },
+        { "id": "D", "text": "bank loan" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Preference shares** carry a fixed rate of dividend, unlike ordinary shares whose dividends vary."
+    },
+    {
+      "id": 25,
+      "question": "Which of the business organizations listed below is characterized by limited authority and liability of the individual owners?",
+      "options": [
+        { "id": "A", "text": "Sole proprietorship" },
+        { "id": "B", "text": "Partnership" },
+        { "id": "C", "text": "Joint stock company" },
+        { "id": "D", "text": "Co‑operative society" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a **joint stock (limited liability) company**, shareholders’ liability is limited to the value of their shares."
+    },
+    {
+      "id": 26,
+      "question": "A company is said to be highly geared if the",
+      "options": [
+        { "id": "A", "text": "value of fixed interest loans is high compared with share capital" },
+        { "id": "B", "text": "value of share capital is high compared with fixed interest loans" },
+        { "id": "C", "text": "dividend rate is high" },
+        { "id": "D", "text": "interest on debentures is high" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**High gearing** means a large proportion of capital is financed by fixed‑interest debt relative to equity."
+    },
+    {
+      "id": 27,
+      "question": "Industries that are geographically localized are characterized by",
+      "options": [
+        { "id": "A", "text": "relatively low transport cost for both raw materials and output and factor mobility" },
+        { "id": "B", "text": "relatively heavy transport cost for raw materials only" },
+        { "id": "C", "text": "constant returns to scale" },
+        { "id": "D", "text": "significant economies of scale arising from localization" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Localization gives rise to **external economies of scale** (shared infrastructure, skilled labour, etc.)."
+    },
+    {
+      "id": 28,
+      "question": "The term 'double coincidence of wants' is usually associated with a",
+      "options": [
+        { "id": "A", "text": "bilateral exchange mechanism" },
+        { "id": "B", "text": "monetary exchange mechanism" },
+        { "id": "C", "text": "stock exchange system" },
+        { "id": "D", "text": "barter exchange mechanism" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In **barter**, each party must want what the other offers—a double coincidence of wants."
+    },
+    {
+      "id": 29,
+      "question": "A major factor affecting the value of money is the",
+      "options": [
+        { "id": "A", "text": "price level" },
+        { "id": "B", "text": "banking habit" },
+        { "id": "C", "text": "transaction motive" },
+        { "id": "D", "text": "divisible nature of money" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The **purchasing power of money** varies inversely with the general price level."
+    },
+    {
+      "id": 30,
+      "question": "Cost‑push inflation is caused by",
+      "options": [
+        { "id": "A", "text": "growth of government expenditure" },
+        { "id": "B", "text": "increase in factor prices" },
+        { "id": "C", "text": "increase in money supply" },
+        { "id": "D", "text": "hoarding" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cost‑push inflation results from **rising production costs** (e.g. higher wages, raw‑material prices)."
+    },
+    {
+      "id": 31,
+      "question": "The stock exchange market is where",
+      "options": [
+        { "id": "A", "text": "businessmen borrow some capital" },
+        { "id": "B", "text": "the federal government trades on treasury bills" },
+        { "id": "C", "text": "existing bonds and stocks are traded" },
+        { "id": "D", "text": "new stocks and shares are bought or sold" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A stock exchange is a **secondary market** for trading existing securities (shares, bonds)."
+    },
+    {
+      "id": 32,
+      "question": "Commercial bank reserves at the Central Bank have the effect of",
+      "options": [
+        { "id": "A", "text": "controlling credit and money supply" },
+        { "id": "B", "text": "encouraging banking operations" },
+        { "id": "C", "text": "advancing trade prospects" },
+        { "id": "D", "text": "reducing bank frauds" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "By varying reserve requirements, the central bank **controls banks’ ability to create credit and money**."
+    },
+    {
+      "id": 33,
+      "question": "A tax is defined as progressive if",
+      "options": [
+        { "id": "A", "text": "the proportion of income paid as tax increases as the income level increases" },
+        { "id": "B", "text": "the proportion of income paid as tax increases as the income level decreases" },
+        { "id": "C", "text": "all income groups pay the same percentage of their income as tax" },
+        { "id": "D", "text": "the proportion of income taken by the tax is a fixed nominal amount of income for all income groups" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In a **progressive tax**, higher‑income earners pay a larger **percentage** of their income in tax."
+    },
+    {
+      "id": 34,
+      "question": "Government intervention in an economy is often justified on the ground that",
+      "options": [
+        { "id": "A", "text": "wants are unlimited while resources are scarce" },
+        { "id": "B", "text": "productivity is higher in the public than in the private sector" },
+        { "id": "C", "text": "the free market may not work or produce desired results" },
+        { "id": "D", "text": "opportunity cost of government expenditure is zero" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Governments intervene because **markets sometimes fail** or do not yield socially desirable outcomes."
+    },
+    {
+      "id": 35,
+      "question": "The three major groups of government revenue are",
+      "options": [
+        { "id": "A", "text": "investment income, direct tax and indirect tax" },
+        { "id": "B", "text": "import duties, excise tax and export duties" },
+        { "id": "C", "text": "company tax, personal income tax and import duties" },
+        { "id": "D", "text": "company tax, import duties and excise tax" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Broadly, government revenue consists of **taxes (direct and indirect)** plus **income from public investments/enterprises**."
+    },
+    {
+      "id": 36,
+      "question": "The main objectives of public expenditures does NOT include",
+      "options": [
+        { "id": "A", "text": "stabilization of the national economy" },
+        { "id": "B", "text": "achievement of a more equitable income distribution" },
+        { "id": "C", "text": "meeting the social needs of the people" },
+        { "id": "D", "text": "revenue sharing and profit maximization" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Governments do not aim at **profit maximization**; public expenditure is for stabilization, redistribution and social services."
+    },
+    {
+      "id": 37,
+      "question": "A perfect example of a public good is",
+      "options": [
+        { "id": "A", "text": "air" },
+        { "id": "B", "text": "education" },
+        { "id": "C", "text": "defence" },
+        { "id": "D", "text": "transport" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "National **defence** is the textbook example of a non‑rival, non‑excludable public good."
+    },
+    {
+      "id": 38,
+      "question": "A balanced budget is defined as a condition of",
+      "options": [
+        { "id": "A", "text": "balance of payments equilibrium" },
+        { "id": "B", "text": "equality of aggregate demand and aggregate supply" },
+        { "id": "C", "text": "equality of planned receipts and planned expenditure" },
+        { "id": "D", "text": "equality of planned exports and planned imports" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A government budget is balanced when **planned revenue equals planned expenditure**."
+    },
+    {
+      "id": 39,
+      "question": "The amount, N4.08 million, shown as balance in figure Econ1989_BOP_CurrentAccount_Table represents",
+      "options": [
+        { "id": "A", "text": "terms of payments" },
+        { "id": "B", "text": "balance on current account" },
+        { "id": "C", "text": "balance of trade" },
+        { "id": "D", "text": "terms of trade" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The 4.08 million combines **visible and invisible balances**, so it is the **current‑account balance**, not just visible trade."
+    },
+    {
+      "id": 40,
+      "question": "By using exchange controls, a country tries to eliminate a balance of payments deficit by",
+      "options": [
+        { "id": "A", "text": "limiting her imports to the currency value of her exports" },
+        { "id": "B", "text": "reducing her imports to encourage value of exports" },
+        { "id": "C", "text": "limiting her exports to the currency value of her imports" },
+        { "id": "D", "text": "overvaluing the country's currency" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Exchange controls primarily aim to **restrict imports** so that their value does not exceed export earnings."
+    },
+    {
+      "id": 41,
+      "question": "The law of comparative advantage states that a country should specialize in the production of a commodity",
+      "options": [
+        { "id": "A", "text": "for which local demand is greatest" },
+        { "id": "B", "text": "in which its opportunity cost is lower than that of the trade partner" },
+        { "id": "C", "text": "for which foreign demand is greatest" },
+        { "id": "D", "text": "for which there is abundant supply of raw materials" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Comparative advantage is based on **lower opportunity cost** relative to other countries."
+    },
+    {
+      "id": 42,
+      "question": "International and inter‑regional trade differ primarily because",
+      "options": [
+        { "id": "A", "text": "comparative advantage is relevant to the former but not the latter" },
+        { "id": "B", "text": "products flow across national boundaries" },
+        { "id": "C", "text": "there are different resource supplies among countries of the world" },
+        { "id": "D", "text": "one resulted from GATT" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "International trade involves **cross‑border transactions**, subject to different currencies, laws and policies."
+    },
+    {
+      "id": 43,
+      "question": "Optimum population is the population level at which",
+      "options": [
+        { "id": "A", "text": "death rate is at a minimum" },
+        { "id": "B", "text": "per capita income is maximum" },
+        { "id": "C", "text": "population size is at maximum" },
+        { "id": "D", "text": "death rate is equal to birth rate" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "At **optimum population**, resources and population are balanced so that **per capita income is highest**."
+    },
+    {
+      "id": 44,
+      "question": "The group of people engaged in banking or insurance services by occupational distributions are classified as",
+      "options": [
+        { "id": "A", "text": "primary producers" },
+        { "id": "B", "text": "secondary producers" },
+        { "id": "C", "text": "tertiary producers" },
+        { "id": "D", "text": "technical producers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Banking and insurance are **tertiary (service) sector** activities."
+    },
+    {
+      "id": 45,
+      "question": "The difference between gross national product and net national product is equal to",
+      "options": [
+        { "id": "A", "text": "gross investment" },
+        { "id": "B", "text": "net investment" },
+        { "id": "C", "text": "net foreign income" },
+        { "id": "D", "text": "capital depreciation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "NNP = GNP minus **depreciation (capital consumption)**, so the difference is depreciation."
+    },
+    {
+      "id": 46,
+      "question": "The value of the total output produced within Nigeria by residents (citizens and non‑citizens) is referred to as the",
+      "options": [
+        { "id": "A", "text": "gross national product" },
+        { "id": "B", "text": "disposable income" },
+        { "id": "C", "text": "national income" },
+        { "id": "D", "text": "gross domestic product" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "**Gross domestic product (GDP)** measures output produced within a country's borders, regardless of ownership."
+    },
+    {
+      "id": 47,
+      "question": "The multiplier is defined as",
+      "options": [
+        { "id": "A", "text": "the ratio of the change in income to the change in investment" },
+        { "id": "B", "text": "the change in investment divided by the change in income" },
+        { "id": "C", "text": "\\(\\dfrac{1}{1 - MPS}\\)" },
+        { "id": "D", "text": "\\(\\dfrac{1}{MPC}\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "By definition, the Keynesian investment multiplier \\(k\\) is **the ratio of the change in income to the change in autonomous investment**, \\(k = \\Delta Y / \\Delta I\\). (Formally, \\(k = 1/(1 - MPC) = 1/MPS\\).)"
+    },
+    {
+      "id": 48,
+      "question": "If C stands for consumption expenditure, I for investment, X for exports and M for imports, then national income is",
+      "options": [
+        { "id": "A", "text": "C + I + X + M" },
+        { "id": "B", "text": "C + I + X - M" },
+        { "id": "C", "text": "C + I - X + M" },
+        { "id": "D", "text": "C + I + X" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ignoring government for simplicity, the national income identity is \\(Y = C + I + (X - M)\\)."
+    },
+    {
+      "id": 49,
+      "question": "A sustained increase in the per capita income of a country over a period of time is called",
+      "options": [
+        { "id": "A", "text": "economic growth" },
+        { "id": "B", "text": "economic development" },
+        { "id": "C", "text": "structural change" },
+        { "id": "D", "text": "stagflation" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Economic growth** refers to a sustained increase in a country's real per capita income or output."
+    },
+    {
+      "id": 50,
+      "question": "The primary goal of development planning in Nigeria is to",
+      "options": [
+        { "id": "A", "text": "increase profitability of enterprises" },
+        { "id": "B", "text": "achieve a rapid increase in the welfare and standard of living of Nigerians" },
+        { "id": "C", "text": "increase the level of gross domestic product" },
+        { "id": "D", "text": "make Nigeria a super‑power" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The central aim of development planning is improved **welfare and living standards** for the population."
+    }
+  ]
+}
