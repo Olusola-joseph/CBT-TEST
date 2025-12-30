@@ -1,1 +1,629 @@
 
+{
+  "year": 1997,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1997_PPC_I_II",
+      "file": "images/econ1997_q11_12_ppc.png",
+      "description": "Production possibility diagram for Questions 11 and 12. Vertical axis: consumer goods; horizontal axis: capital goods. Two concave production possibility curves are drawn: an inner frontier labelled I and an outer frontier labelled II. Point P lies on curve I. Movement from curve I to curve II represents an outward shift of the production possibility frontier (economic growth)."
+    },
+    {
+      "id": "Econ1997_SAC_Curves",
+      "file": "images/econ1997_q13_sac_curves.png",
+      "description": "Short‑run cost diagram for Question 13 labelled 'Graph of costs'. Vertical axis measures cost and horizontal axis measures quantity of output per period. Four U‑shaped curves are drawn and labelled I, II, III and IV. One of them represents the firm's short‑run average variable cost curve (SAVC)."
+    },
+    {
+      "id": "Econ1997_PerfComp_Cost",
+      "file": "images/econ1997_q20_cost_mc.png",
+      "description": "Perfect‑competition cost diagram for Question 20. Vertical axis: cost; horizontal axis: quantity. A U‑shaped average‑cost curve lies above a short‑run marginal‑cost curve labelled SMC. A horizontal line through the diagram is labelled AR = MR = P, representing the perfectly elastic demand faced by the firm. The AR line intersects SMC at point F. The minimum point of the AC curve is G. Vertical coordinates M and N mark different cost levels on the axis."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "With a given level of money income, a consumer maximizes satisfaction from the consumption of goods and services when",
+      "options": [
+        { "id": "A", "text": "total utility derived from each good or service is increasing at an increasing rate" },
+        { "id": "B", "text": "marginal utility derived from each good or service is increasing at the same rate" },
+        { "id": "C", "text": "marginal utility derived per naira spent is the same for all the goods and services" },
+        { "id": "D", "text": "total utility derived from all the goods and services is large" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The **equi‑marginal principle** states that a consumer maximizes utility when \\(MU_x/P_x = MU_y/P_y = \\dots\\) for all goods."
+    },
+    {
+      "id": 2,
+      "question": "Ike’s scale of preference reveals that he prefers bananas to pawpaw, pawpaw to oranges and oranges to bananas. Ike’s preferences are therefore",
+      "options": [
+        { "id": "A", "text": "inconsistent" },
+        { "id": "B", "text": "consistent" },
+        { "id": "C", "text": "transitive" },
+        { "id": "D", "text": "rational" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "His preferences are **cyclical** (banana ≻ pawpaw ≻ orange ≻ banana), violating transitivity and thus inconsistent."
+    },
+    {
+      "id": 3,
+      "question": "One of the features of a free market economy is that",
+      "options": [
+        { "id": "A", "text": "resources are directed by the price mechanism" },
+        { "id": "B", "text": "workers do not earn equal wages" },
+        { "id": "C", "text": "the profit motive is severely constrained" },
+        { "id": "D", "text": "decisions on the economy are taken by bureaucratic structures" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In a market economy, the **price mechanism** allocates resources."
+    },
+    {
+      "id": 4,
+      "question": "One of the fundamental differences between a capitalist and a socialist economy is that while",
+      "options": [
+        { "id": "A", "text": "the former is characterized by complete government ownership of resources, the latter is characterized by complete private ownership" },
+        { "id": "B", "text": "in the former, prices act as signals in the allocation of resources; in the latter, it is the central authority that performs this function" },
+        { "id": "C", "text": "taxes are levied in a capitalist economy; there is no taxation in a socialist economy" },
+        { "id": "D", "text": "income and wealth are equally distributed in the socialist economy; this is not so in a capitalist economy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Capitalism relies on **price signals** for resource allocation, whereas socialism relies on **central planning**."
+    },
+    {
+      "id": 5,
+      "question": "Given that at the beginning of 1973, Nigeria with a population of 75 million had a birth rate of 3% per annum. This implies that in that year",
+      "options": [
+        { "id": "A", "text": "the population increased by 2.25 million" },
+        { "id": "B", "text": "there were 2.25 million live births" },
+        { "id": "C", "text": "the government had to make provisions for 2.25 million children" },
+        { "id": "D", "text": "2.25 million children were born" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Births = \\(0.03 \\times 75\\text{ million} = 2.25\\text{ million}\\)."
+    },
+    {
+      "id": 6,
+      "question": "When a country’s population is experiencing increasing returns, that country is said to be",
+      "options": [
+        { "id": "A", "text": "overpopulated" },
+        { "id": "B", "text": "economically poor" },
+        { "id": "C", "text": "over‑producing goods and services" },
+        { "id": "D", "text": "underpopulated" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Increasing returns to population imply that output per head rises as population grows; this is characteristic of an **under‑populated** country."
+    },
+    {
+      "id": 7,
+      "question": "In a country, if the proportion of people who are below 15 years is 45% and those above 60 years is 30%, this implies that the",
+      "options": [
+        { "id": "A", "text": "dependency ratio is high" },
+        { "id": "B", "text": "population is optimum" },
+        { "id": "C", "text": "active population is large" },
+        { "id": "D", "text": "population is growing according to Malthus theory" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A large share of young and old (non‑working) people means a **high dependency ratio**."
+    },
+    {
+      "id": 8,
+      "question": "One of the objectives of Nigeria’s current population policy is to",
+      "options": [
+        { "id": "A", "text": "reduce the birth rate" },
+        { "id": "B", "text": "reduce the emigration rate" },
+        { "id": "C", "text": "increase the birth rate" },
+        { "id": "D", "text": "enhance longevity" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Nigeria’s population policy seeks to **slow population growth**, mainly by reducing fertility."
+    },
+    {
+      "id": 9,
+      "question": "Labour productivity is the ratio of",
+      "options": [
+        { "id": "A", "text": "labour to output" },
+        { "id": "B", "text": "man‑hours to output" },
+        { "id": "C", "text": "output to man‑hours" },
+        { "id": "D", "text": "average products to man‑hours" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Productivity of labour is **output per worker per hour**, i.e. \\(\\text{output} / \\text{man‑hours}\\)."
+    },
+    {
+      "id": 10,
+      "question": "The type of cost which has to be covered for a firm to continue production in the short run is the",
+      "options": [
+        { "id": "A", "text": "overhead cost" },
+        { "id": "B", "text": "fixed cost" },
+        { "id": "C", "text": "marginal cost" },
+        { "id": "D", "text": "average variable cost" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The shutdown condition is \\(P \\geq AVC\\); the firm must at least cover **average variable cost**."
+    },
+    {
+      "id": 11,
+      "question": "Referring to the production‑possibility diagram in figure Econ1997_PPC_I_II, the current stage of the economy is depicted in curve I. Point P suggests that the economy is",
+      "options": [
+        { "id": "A", "text": "reaching full employment but not full production" },
+        { "id": "B", "text": "attaining full production but not full employment" },
+        { "id": "C", "text": "undercapitalized" },
+        { "id": "D", "text": "attaining both full employment and full production" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The exact location of point P relative to curves I and II is not sufficiently clear in the scan to determine whether it indicates unemployment (inside the curve) or full utilization (on the curve)."
+    },
+    {
+      "id": 12,
+      "question": "The movement of curve I to II in figure Econ1997_PPC_I_II suggests",
+      "options": [
+        { "id": "A", "text": "an improvement in capital‑goods technology but not in consumer‑goods technology" },
+        { "id": "B", "text": "a movement from unemployment to full employment" },
+        { "id": "C", "text": "that the output for society has declined" },
+        { "id": "D", "text": "a gain in consumer‑goods technique and not in capital‑goods technique" }
+      ],
+      "correctAnswer": null,
+      "explanation": "An outward shift of the PPF generally indicates **economic growth** (improvement in technology and/or resources). The options in the low‑resolution scan are ambiguous; a precise choice cannot be made without a clearer copy."
+    },
+    {
+      "id": 13,
+      "question": "In the cost diagram of figure Econ1997_SAC_Curves, the curve which represents the firm’s short‑run average variable cost is curve",
+      "options": [
+        { "id": "A", "text": "I" },
+        { "id": "B", "text": "II" },
+        { "id": "C", "text": "III" },
+        { "id": "D", "text": "IV" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Without a clearer reproduction of the four curves (average fixed, average variable, average total and marginal cost), it is not possible to state confidently which is the SAVC curve."
+    },
+    {
+      "id": 14,
+      "question": "A good is said to be inferior if its demand",
+      "options": [
+        { "id": "A", "text": "rises as income rises" },
+        { "id": "B", "text": "falls as income rises" },
+        { "id": "C", "text": "rises as its price falls" },
+        { "id": "D", "text": "is perfectly inelastic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For an **inferior good**, income elasticity is negative: demand falls as income rises."
+    },
+    {
+      "id": 15,
+      "question": "Given a market demand curve \\(Q_d = 120 - 2P\\) and a supply curve \\(Q_s = 4P\\), the equilibrium price and quantity respectively are",
+      "options": [
+        { "id": "A", "text": "20 and 80" },
+        { "id": "B", "text": "30 and 120" },
+        { "id": "C", "text": "40 and 60" },
+        { "id": "D", "text": "60 and 240" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At equilibrium, \\(Q_d = Q_s\\): \\(120 - 2P = 4P \\Rightarrow 120 = 6P \\Rightarrow P = 20\\). Then \\(Q = 4P = 80\\)."
+    },
+    {
+      "id": 16,
+      "question": "If a demand curve that intersects a perfectly inelastic supply curve shifts rightward, then",
+      "options": [
+        { "id": "A", "text": "the equilibrium price and quantity will increase" },
+        { "id": "B", "text": "only the price will increase" },
+        { "id": "C", "text": "only the quantity will increase" },
+        { "id": "D", "text": "the price will remain constant" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With a **vertical supply curve**, quantity is fixed; a rightward shift in demand raises only the **price**."
+    },
+    {
+      "id": 17,
+      "question": "The elasticity of demand for a firm’s product is 2. If the firm reduces its prices by 20 per cent, its sales revenue will increase by",
+      "options": [
+        { "id": "A", "text": "10 per cent" },
+        { "id": "B", "text": "20 per cent" },
+        { "id": "C", "text": "30 per cent" },
+        { "id": "D", "text": "40 per cent" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Elasticity \\(e = 2 = \\frac{\\%\\Delta Q}{\\%\\Delta P}\\). A 20% price cut implies \\(\\%\\Delta P = -20\\%\\) and \\(\\%\\Delta Q = 2 \\times (-20\\%) = +40\\%\\). Change in revenue ≈ \\(\\%\\Delta P + \\%\\Delta Q = -20\\% + 40\\% = +20\\%\\)."
+    },
+    {
+      "id": 18,
+      "question": "If the percentage change in the income of the consumers of an industrial product is less than the resulting percentage change in the quantity demanded of the product, then the income elasticity of demand for the product is",
+      "options": [
+        { "id": "A", "text": "less than one" },
+        { "id": "B", "text": "equal to one" },
+        { "id": "C", "text": "greater than one" },
+        { "id": "D", "text": "equal to zero" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Income elasticity \\(E_y = \\frac{\\%\\Delta Q}{\\%\\Delta Y}\\). If \\(|\\%\\Delta Q| > |\\%\\Delta Y|\\), then \\(|E_y| > 1\\): a **luxury good**."
+    },
+    {
+      "id": 19,
+      "question": "A market where there are many differentiated products is called",
+      "options": [
+        { "id": "A", "text": "monopoly" },
+        { "id": "B", "text": "perfect competition" },
+        { "id": "C", "text": "monopolistic competition" },
+        { "id": "D", "text": "oligopoly" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In **monopolistic competition**, many firms sell differentiated products."
+    },
+    {
+      "id": 20,
+      "question": "Refer to the perfect‑competition cost diagram in figure Econ1997_PerfComp_Cost. From the diagram, the profit‑maximizing quantity of output is determined by the point",
+      "options": [
+        { "id": "A", "text": "M" },
+        { "id": "B", "text": "N" },
+        { "id": "C", "text": "H" },
+        { "id": "D", "text": "F" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A competitive firm maximizes profit where **\\(MC (SMC) = MR = P\\)**; this intersection is labelled F."
+    },
+    {
+      "id": 21,
+      "question": "The best channel of distribution of baked bread is through",
+      "options": [
+        { "id": "A", "text": "wholesalers to retailers then to consumers" },
+        { "id": "B", "text": "direct sales to consumers" },
+        { "id": "C", "text": "wholesalers to consumers" },
+        { "id": "D", "text": "retailers to consumers" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Because bread is **perishable and low‑value**, a short channel—**retailers to consumers**—is most appropriate."
+    },
+    {
+      "id": 22,
+      "question": "A form of business organization which is characterized by limited authority and liability of the individual owners is the",
+      "options": [
+        { "id": "A", "text": "sole proprietorship" },
+        { "id": "B", "text": "partnership" },
+        { "id": "C", "text": "joint‑stock company" },
+        { "id": "D", "text": "co‑operative society" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a **joint‑stock (limited‑liability) company**, shareholders have limited liability and delegate authority to managers."
+    },
+    {
+      "id": 23,
+      "question": "The shares that must be redeemed first at liquidation of a company are",
+      "options": [
+        { "id": "A", "text": "preference shares" },
+        { "id": "B", "text": "non‑voting ordinary shares" },
+        { "id": "C", "text": "ordinary shares" },
+        { "id": "D", "text": "debentures" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Although not technically shares, **debentures** (bondholders) are repaid before any class of shareholders at liquidation."
+    },
+    {
+      "id": 24,
+      "question": "The suggestion that peasants in Africa have backward‑bending supply curves of output implies that their response to an increase in the price of their crops will be to",
+      "options": [
+        { "id": "A", "text": "increase their output" },
+        { "id": "B", "text": "decrease their output" },
+        { "id": "C", "text": "keep their output constant" },
+        { "id": "D", "text": "hoard their output" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With a **backward‑bending supply curve**, higher prices allow farmers to meet income targets with **less output**, so they reduce supply."
+    },
+    {
+      "id": 25,
+      "question": "The most important requirement for increasing agricultural output in Nigeria is",
+      "options": [
+        { "id": "A", "text": "for government to go into large‑scale farming" },
+        { "id": "B", "text": "to employ relevant foreign technology and reform the land tenure system" },
+        { "id": "C", "text": "to increase farmers’ incomes and improve farming techniques" },
+        { "id": "D", "text": "to employ more extension workers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Higher **incentives for farmers and improved techniques** are central to raising output."
+    },
+    {
+      "id": 26,
+      "question": "What is the effect of inelastic demand for agricultural products on the income of a farmer?",
+      "options": [
+        { "id": "A", "text": "a price rise results in its fall" },
+        { "id": "B", "text": "a price rise results in its rise" },
+        { "id": "C", "text": "a price fall results in its rise" },
+        { "id": "D", "text": "a price rise leaves the income unchanged" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With **inelastic demand**, total revenue (and hence income) moves in the **same direction as price**."
+    },
+    {
+      "id": 27,
+      "question": "Plywood industries are often located near the source of",
+      "options": [
+        { "id": "A", "text": "finance" },
+        { "id": "B", "text": "labour" },
+        { "id": "C", "text": "power" },
+        { "id": "D", "text": "raw materials" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Plywood production uses bulky timber, so firms locate close to **raw‑material sources**."
+    },
+    {
+      "id": 28,
+      "question": "A firm is said to have benefited from external economies in production if it has realized",
+      "options": [
+        { "id": "A", "text": "a more efficient management of resources" },
+        { "id": "B", "text": "a better combination of factors of production" },
+        { "id": "C", "text": "reduced resource costs due to operations of other firms" },
+        { "id": "D", "text": "a higher profits level due to increased sales" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "External economies are **cost reductions** arising from industry‑wide expansion or spillovers from other firms."
+    },
+    {
+      "id": 29,
+      "question": "One of the dangers of the localization of industries is",
+      "options": [
+        { "id": "A", "text": "residual unemployment" },
+        { "id": "B", "text": "mass unemployment" },
+        { "id": "C", "text": "structural unemployment" },
+        { "id": "D", "text": "cyclical unemployment" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Regions dependent on a few localized industries are vulnerable to **structural unemployment** if those industries decline."
+    },
+    {
+      "id": 30,
+      "question": "A glut in the world market for crude oil means",
+      "options": [
+        { "id": "A", "text": "a fall in crude‑oil production" },
+        { "id": "B", "text": "an excess supply of crude petroleum" },
+        { "id": "C", "text": "a higher crude‑oil price offered by the buyer" },
+        { "id": "D", "text": "a higher crude‑oil price demanded by the seller" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A **glut** is an excess supply over demand."
+    },
+    {
+      "id": 31,
+      "question": "The main problem of the Organization of Petroleum Exporting Countries (OPEC) is how to",
+      "options": [
+        { "id": "A", "text": "prevent members from violating their quota" },
+        { "id": "B", "text": "enhance the quality of petroleum products" },
+        { "id": "C", "text": "compete with the North Sea producers" },
+        { "id": "D", "text": "ensure viable crude‑oil reserves" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "OPEC’s effectiveness depends on **members adhering to production quotas**."
+    },
+    {
+      "id": 32,
+      "question": "The most important attribute of money is",
+      "options": [
+        { "id": "A", "text": "homogeneity" },
+        { "id": "B", "text": "relative scarcity" },
+        { "id": "C", "text": "divisibility" },
+        { "id": "D", "text": "general acceptability" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To function as money, an item must be **widely accepted** in payment for goods and debts."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is inflationary?",
+      "options": [
+        { "id": "A", "text": "an increase in taxation" },
+        { "id": "B", "text": "an increase in savings" },
+        { "id": "C", "text": "a decrease in money supply" },
+        { "id": "D", "text": "an increase in government expenditure" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Higher government spending raises aggregate demand and tends to be **inflationary**."
+    },
+    {
+      "id": 34,
+      "question": "In commercial banking, an account from which the customer cannot withdraw money instantly is a",
+      "options": [
+        { "id": "A", "text": "demand deposit account" },
+        { "id": "B", "text": "time‑deposit account" },
+        { "id": "C", "text": "special deposit account" },
+        { "id": "D", "text": "savings deposit account" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Time deposits** (fixed deposits) require notice before withdrawal."
+    },
+    {
+      "id": 35,
+      "question": "Banks can create more money by",
+      "options": [
+        { "id": "A", "text": "increasing their cash ratio with the Central Bank" },
+        { "id": "B", "text": "issuing more bank cheques" },
+        { "id": "C", "text": "accepting more deposits from customers" },
+        { "id": "D", "text": "lending out money from customers’ deposits" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Through the **credit‑creation process**, banks lend a fraction of deposits, which then become deposits elsewhere."
+    },
+    {
+      "id": 36,
+      "question": "Stocks and shares as well as bonds are examples of instruments used in the",
+      "options": [
+        { "id": "A", "text": "commodity markets" },
+        { "id": "B", "text": "money markets" },
+        { "id": "C", "text": "capital markets" },
+        { "id": "D", "text": "security markets" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Long‑term securities like **shares and bonds** are traded in **capital markets**."
+    },
+    {
+      "id": 37,
+      "question": "The use of legally permissible means to reduce tax liabilities is known as tax",
+      "options": [
+        { "id": "A", "text": "evasion" },
+        { "id": "B", "text": "avoidance" },
+        { "id": "C", "text": "relief" },
+        { "id": "D", "text": "exemption" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using loopholes within the law to reduce tax is **tax avoidance**."
+    },
+    {
+      "id": 38,
+      "question": "The greatest proportion of government revenue in Nigeria comes from",
+      "options": [
+        { "id": "A", "text": "export of raw materials" },
+        { "id": "B", "text": "income taxes on individuals and businesses" },
+        { "id": "C", "text": "customs duties and excise taxes" },
+        { "id": "D", "text": "loans and grants from industrially advanced countries" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Historically, Nigeria’s public revenue has been dominated by **oil and other raw‑material exports**."
+    },
+    {
+      "id": 39,
+      "question": "One of the factors which is likely to check the growth of public debts is",
+      "options": [
+        { "id": "A", "text": "bridging the resources gap" },
+        { "id": "B", "text": "debt repudiation" },
+        { "id": "C", "text": "debt rescheduling" },
+        { "id": "D", "text": "debt‑equity swap" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A **debt‑equity swap** converts debt into equity investments, reducing outstanding public debt."
+    },
+    {
+      "id": 40,
+      "question": "If the marginal propensity to consume is 0.75 and private investment increases by N10 billion while government expenditure decreases by N15 billion, GDP will decrease by",
+      "options": [
+        { "id": "A", "text": "N12 billion" },
+        { "id": "B", "text": "N15 billion" },
+        { "id": "C", "text": "N20 billion" },
+        { "id": "D", "text": "N25 billion" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Net change in autonomous spending: \\(\\Delta A = +10 - 15 = -5\\) billion. Multiplier \\(k = 1/(1-0.75) = 4\\). So \\(\\Delta Y = k\\Delta A = 4 \\times (-5) = -20\\) billion."
+    },
+    {
+      "id": 41,
+      "question": "Given: \nInvestment \\(I = \\text{N}100\\) million, \nConsumption \\(C = 200m + 0.75Y\\), \nIncome \\(Y = C + I\\). \nWhat is the equilibrium income level (to the nearest million)?",
+      "options": [
+        { "id": "A", "text": "N100 million" },
+        { "id": "B", "text": "N300 million" },
+        { "id": "C", "text": "N1,000 million" },
+        { "id": "D", "text": "N1,200 million" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Substitute: \\(Y = (200 + 0.75Y) + 100\\). So \\(Y - 0.75Y = 300 \\Rightarrow 0.25Y = 300 \\Rightarrow Y = 1,200\\) million."
+    },
+    {
+      "id": 42,
+      "question": "The total money values of all goods and services produced in a country during a certain period is measured by using the",
+      "options": [
+        { "id": "A", "text": "income method" },
+        { "id": "B", "text": "expenditure method" },
+        { "id": "C", "text": "output method" },
+        { "id": "D", "text": "factor method" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "This description fits the **output (product) method** of measuring national income."
+    },
+    {
+      "id": 43,
+      "question": "Privatization of government‑owned companies means the",
+      "options": [
+        { "id": "A", "text": "relinquishing of government’s equity participation to private individuals" },
+        { "id": "B", "text": "recapitalization of distressed government‑owned companies" },
+        { "id": "C", "text": "joint participation of government and private individuals" },
+        { "id": "D", "text": "commercialization and deregulation of the economy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Privatization involves **selling government shares** to private investors."
+    },
+    {
+      "id": 44,
+      "question": "The major determinant of the total volume of output in an economy is the",
+      "options": [
+        { "id": "A", "text": "level of wholesale prices" },
+        { "id": "B", "text": "size of the labour force" },
+        { "id": "C", "text": "level of total expenditure" },
+        { "id": "D", "text": "composition of consumer spending" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In Keynesian analysis, short‑run output is determined by **aggregate demand (total expenditure)**."
+    },
+    {
+      "id": 45,
+      "question": "The most important factor in ensuring economic development is the",
+      "options": [
+        { "id": "A", "text": "effective mobilization of domestic savings" },
+        { "id": "B", "text": "presence of foreign capital" },
+        { "id": "C", "text": "formulation of appropriate government policies" },
+        { "id": "D", "text": "attraction of foreign aids and grants" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Sustained development requires **high domestic savings and investment**."
+    },
+    {
+      "id": 46,
+      "question": "Which of the following classes of goods accounts for the largest proportion of Nigeria’s imports?",
+      "options": [
+        { "id": "A", "text": "food and animal products" },
+        { "id": "B", "text": "consumer goods" },
+        { "id": "C", "text": "chemicals" },
+        { "id": "D", "text": "machinery and transport equipment" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Nigeria’s import bill is dominated by **capital goods and transport equipment**."
+    },
+    {
+      "id": 47,
+      "question": "Counter‑trading is an international arrangement whereby",
+      "options": [
+        { "id": "A", "text": "goods and services are exchanged in a manner similar to barter" },
+        { "id": "B", "text": "goods and services are sold on the counter" },
+        { "id": "C", "text": "crude oil is sold to a foreign country" },
+        { "id": "D", "text": "goods are shipped to countries on which the United Nations has placed a trade embargo" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Counter‑trade involves **barter‑like exchanges of goods and services**, often used when currencies are scarce."
+    },
+    {
+      "id": 48,
+      "question": "In recent years, Nigeria’s balance of payments has continued to register a deficit due to\nI. increased government overseas spending.\nII. increasing prices of exports.\nIII. rising import prices.\nIV. more payments to overseas investors.",
+      "options": [
+        { "id": "A", "text": "I, II and III" },
+        { "id": "B", "text": "I, II and IV" },
+        { "id": "C", "text": "I, III and IV" },
+        { "id": "D", "text": "II, III and IV" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "High overseas spending, rising import prices and more interest/dividend payments **worsen the balance of payments**; rising export prices would usually improve it."
+    },
+    {
+      "id": 49,
+      "question": "The organization which provides credits to help countries achieve short‑term balance in their balance of payments is the",
+      "options": [
+        { "id": "A", "text": "Economic Community of West African States" },
+        { "id": "B", "text": "International Monetary Fund" },
+        { "id": "C", "text": "International Bank for Reconstruction and Development" },
+        { "id": "D", "text": "African Development Bank" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The **IMF** provides short‑term balance‑of‑payments support."
+    },
+    {
+      "id": 50,
+      "question": "An important feature of a cartel is that",
+      "options": [
+        { "id": "A", "text": "members do not reduce price below the cartel price" },
+        { "id": "B", "text": "each member has a fixed output above which it is not expected to produce" },
+        { "id": "C", "text": "a powerful member fixes the price at which others will sell" },
+        { "id": "D", "text": "members fix the prices for their products" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In a **cartel**, firms collude to fix prices (and often output) instead of competing."
+    }
+  ]
+}
