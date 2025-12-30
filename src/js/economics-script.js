@@ -11,8 +11,8 @@ class EconomicsCBTExamApp {
         this.questions = [];
         this.selectedSubject = 'Economics';
         this.selectedYear = 'jamb_1983'; // Default year for Economics
-        // Economics has years from 1983-1993
-        this.years = ['jamb_1983', 'jamb_1984', 'jamb_1985', 'jamb_1986', 'jamb_1987', 'jamb_1988', 'jamb_1989', 'jamb_1990', 'jamb_1991', 'jamb_1992', 'jamb_1993']; // Available years for Economics
+        // Economics has years from 1983-2004
+        this.years = ['jamb_1983', 'jamb_1984', 'jamb_1985', 'jamb_1986', 'jamb_1987', 'jamb_1988', 'jamb_1989', 'jamb_1990', 'jamb_1991', 'jamb_1992', 'jamb_1993', 'jamb_1994', 'jamb_1995', 'jamb_1996', 'jamb_1997', 'jamb_1998', 'jamb_1999', 'jamb_2000', 'jamb_2001', 'jamb_2002', 'jamb_2003', 'jamb_2004']; // Available years for Economics
         
         // Initialize database
         this.initDatabase();
@@ -479,7 +479,7 @@ class EconomicsCBTExamApp {
                 optionElement.classList.add('selected');
             }
 
-            const fixedOptionText = option.text
+            const fixedOptionText = option.text;
             optionElement.innerHTML = `
                 <input type="radio" id="opt-${question.id}-${option.id}" name="question-${question.id}"
                     value="${option.id}" ${isSelected ? 'checked' : ''}>
@@ -488,6 +488,11 @@ class EconomicsCBTExamApp {
 
             optionElement.addEventListener('click', () => {
                 this.selectOption(question.id, option.id);
+                // Also ensure the radio button is checked
+                const radioBtn = optionElement.querySelector('input[type="radio"]');
+                if (radioBtn) {
+                    radioBtn.checked = true;
+                }
             });
             
             // Add keyboard event listener for the option
@@ -511,6 +516,11 @@ class EconomicsCBTExamApp {
         options.forEach(option => {
             option.classList.add('selected');
             option.focus(); // Focus the selected option for better keyboard navigation
+            // Also check the radio button in this option
+            const radioBtn = option.querySelector('input[type="radio"]');
+            if (radioBtn) {
+                radioBtn.checked = true;
+            }
         });
 
         // Remove selection from other options for this question
@@ -518,6 +528,11 @@ class EconomicsCBTExamApp {
         allOptions.forEach(option => {
             if (option.dataset.optionId !== optionId) {
                 option.classList.remove('selected');
+                // Uncheck radio buttons in other options for the same question
+                const radioBtn = option.querySelector(`input[name="question-${questionId}"]`);
+                if (radioBtn) {
+                    radioBtn.checked = false;
+                }
             }
         });
 

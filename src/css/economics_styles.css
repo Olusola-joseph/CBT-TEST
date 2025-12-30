@@ -42,7 +42,8 @@
 }
 
 .option-item {
-    display: block;
+    display: flex;
+    align-items: center;
     margin: 10px 0;
     padding: 12px;
     border: 2px solid #e0e0e0;
@@ -68,14 +69,16 @@
 }
 
 .option-item input[type="radio"] {
-    display: none;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .option-item label {
-    display: block;
+    display: inline-block;
     cursor: pointer;
     margin: 0;
     padding: 0 10px;
+    flex-grow: 1;
 }
 
 /* Review section with diagrams */

@@ -6,6 +6,11 @@ __pycache__/
 *.obj
 dist/
 build/
+*.class
+*.exe
+*.dll
+*.so
+*.a
 *.out
 
 # Dependencies
@@ -26,24 +31,22 @@ target/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Coverage reports
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compressed files
+# Common compressed files
 *.zip
 *.gz
 *.tar
