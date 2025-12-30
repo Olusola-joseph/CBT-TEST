@@ -1,1 +1,633 @@
-
+{
+  "year": 1994,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1994_ProdFunction_Diminishing",
+      "file": "images/econ1994_q6_production_function.png",
+      "description": "Production‑function diagram for Question 6. Horizontal axis: variable factor input; vertical axis: output. The curve rises from the origin and passes through points I, J, K and L. The slope increases up to J (increasing marginal product) and then decreases from J to K to L (diminishing marginal product). Diminishing returns set in at point J, where marginal product begins to fall though total product is still rising."
+    },
+    {
+      "id": "Econ1994_PPC_CountryX",
+      "file": "images/econ1994_q12_ppc_country_x.png",
+      "description": "Production possibility curve of country X for Question 12. Vertical axis: capital goods; horizontal axis: consumer goods. The frontier is a downward‑sloping concave curve from point W on the vertical axis to point N on the horizontal axis. Points Y and Z lie on the curve, while point X lies strictly inside the curve, indicating under‑utilization of resources."
+    },
+    {
+      "id": "Econ1994_DemandSupply_Table",
+      "file": "images/econ1994_q20_21_demand_supply_table.png",
+      "description": "Demand and supply schedule for Questions 20 and 21. Table columns: Price (N), Quantity Demanded, Quantity Supplied. Rows: (10, 50, 450), (20, 150, 350), (30, 250, 250), (40, 350, 150), (50, 450, 50). Equilibrium occurs at price N30 where quantity demanded equals quantity supplied (250 units)."
+    },
+    {
+      "id": "Econ1994_MR_Table",
+      "file": "images/econ1994_q22_marginal_revenue_table.png",
+      "description": "Total‑revenue schedule for Question 22. Price is fixed at N5. Quantities sold successively: 15, 16, 17, 18 units. Total revenue rises in equal increments of N5, so marginal revenue \\(MR = \\Delta TR / \\Delta Q = 5\\) naira."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "The basic economic problems of the society include",
+      "options": [
+        { "id": "A", "text": "what to produce, how and for whom" },
+        { "id": "B", "text": "how to produce and sell" },
+        { "id": "C", "text": "scarcity, when to produce and how" },
+        { "id": "D", "text": "scarcity, for whom to produce and where" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The fundamental economic questions are **what to produce, how to produce and for whom to produce**."
+    },
+    {
+      "id": 2,
+      "question": "Opportunity cost is an economic cost and an economic concept which describes the",
+      "options": [
+        { "id": "A", "text": "monetary equivalent of the utility of a commodity" },
+        { "id": "B", "text": "amount of time or money invested on a commodity" },
+        { "id": "C", "text": "sacrifice made for the satisfaction of a want" },
+        { "id": "D", "text": "cost of retaining an optimum level of production of commodities" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opportunity cost is the **value of the best alternative forgone** when a choice is made."
+    },
+    {
+      "id": 3,
+      "question": "If the marginal propensity to consume is 0.80 and the investment expenditure changes from N100 million to N140 million in a given economy, find the change in equilibrium income using the multiplier formula \\(K = \\dfrac{1}{1 - MPC}\\).",
+      "options": [
+        { "id": "A", "text": "N20 million" },
+        { "id": "B", "text": "N40 million" },
+        { "id": "C", "text": "N80 million" },
+        { "id": "D", "text": "N200 million" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "With \\(MPC = 0.8\\), \\(K = 1/(1-0.8) = 5\\). The change in investment is \\(\\Delta I = 40\\) million, so \\(\\Delta Y = K\\Delta I = 5 \\times 40 = 200\\) million."
+    },
+    {
+      "id": 4,
+      "question": "The circular flow of income defines the",
+      "options": [
+        { "id": "A", "text": "relationship between ends and means in the economic system" },
+        { "id": "B", "text": "allocation of income to various members of the household" },
+        { "id": "C", "text": "flow of goods, services and money among the various macro‑sectors of the economy" },
+        { "id": "D", "text": "micro‑economic relationship in economic analysis" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The circular‑flow model shows how **goods, services and money** move between households, firms, government and the rest of the world."
+    },
+    {
+      "id": 5,
+      "question": "The necessity of choice is due to the fact that",
+      "options": [
+        { "id": "A", "text": "human wants are insatiable" },
+        { "id": "B", "text": "consumers like to maximize satisfaction" },
+        { "id": "C", "text": "resources are abundant" },
+        { "id": "D", "text": "consumers are selective" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Because wants are unlimited but resources are scarce, individuals and societies **must choose** how to allocate them."
+    },
+    {
+      "id": 6,
+      "question": "The graph in figure Econ1994_ProdFunction_Diminishing represents a production function. At which of the points does diminishing returns set in?",
+      "options": [
+        { "id": "A", "text": "I" },
+        { "id": "B", "text": "J" },
+        { "id": "C", "text": "K" },
+        { "id": "D", "text": "L" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Diminishing returns begin where **marginal product starts to fall**, i.e. where the total‑product curve becomes less steep; this occurs at point J."
+    },
+    {
+      "id": 7,
+      "question": "In a mixed economy, decisions to produce are taken by",
+      "options": [
+        { "id": "A", "text": "men and women acting in their own best interest" },
+        { "id": "B", "text": "the government acting in the interest of the country" },
+        { "id": "C", "text": "the market women, the labour unions and the employers’ association" },
+        { "id": "D", "text": "private individuals, organizations and the government" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In a **mixed economy** both the private sector and the government make production decisions."
+    },
+    {
+      "id": 8,
+      "question": "Every economy requires an accurate census because it assists in",
+      "options": [
+        { "id": "A", "text": "solving inflation problems" },
+        { "id": "B", "text": "providing a sound framework for policy formulation" },
+        { "id": "C", "text": "stimulating economic activities in the national economy" },
+        { "id": "D", "text": "solving unemployment problems" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Reliable population data provide a **basis for planning and policy formulation**."
+    },
+    {
+      "id": 9,
+      "question": "The population of country X in 1990 was 35 million. The births were 450,000 while it recorded 210,000 deaths. In the same year, its immigrants were 20,000 and 10,000 of its citizens left the country. Calculate the total population of the country at the end of 1990.",
+      "options": [
+        { "id": "A", "text": "24,250,000" },
+        { "id": "B", "text": "25,350,000" },
+        { "id": "C", "text": "34,750,000" },
+        { "id": "D", "text": "35,250,000" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Net natural increase: \\(450{,}000 - 210{,}000 = 240{,}000\\). Net migration: \\(20{,}000 - 10{,}000 = 10{,}000\\). Population change \\(= 250{,}000\\). Final population: \\(35{,}000{,}000 + 250{,}000 = 35{,}250{,}000\\)."
+    },
+    {
+      "id": 10,
+      "question": "If the actual population in a country is less than the optimum population, then",
+      "options": [
+        { "id": "A", "text": "it is desirable to have a large population" },
+        { "id": "B", "text": "it is necessary to have an improved technology to sustain the population" },
+        { "id": "C", "text": "it is desirable to have a smaller population" },
+        { "id": "D", "text": "the available resources are inadequate to sustain the population" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "When population is **below optimum**, additional people raise output per head, so it is desirable for population to grow."
+    },
+    {
+      "id": 11,
+      "question": "Unemployment can be reduced by",
+      "options": [
+        { "id": "A", "text": "restricting the productive base of the economy" },
+        { "id": "B", "text": "adopting capital‑intensive techniques of production" },
+        { "id": "C", "text": "adopting more labour‑intensive techniques of production" },
+        { "id": "D", "text": "adopting a mixture of labour‑ and capital‑intensive techniques of production" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In labour‑surplus developing countries, using **labour‑intensive methods** helps absorb more workers and reduce unemployment."
+    },
+    {
+      "id": 12,
+      "question": "Refer to the production possibility curve of country X in figure Econ1994_PPC_CountryX. If the economy is operating at point X (inside the curve), the implication is that",
+      "options": [
+        { "id": "A", "text": "the productive capacity is being fully utilized" },
+        { "id": "B", "text": "the productive capacity is not being fully utilized" },
+        { "id": "C", "text": "too little of consumer goods is being produced" },
+        { "id": "D", "text": "there is a disequilibrium between the production of capital and consumer goods" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Point X lies **inside** the PPF, indicating unemployment or under‑utilization of resources."
+    },
+    {
+      "id": 13,
+      "question": "When the Total Product (TP) is at its maximum point, the Marginal Product (MP) and the Average Product (AP) respectively are",
+      "options": [
+        { "id": "A", "text": "zero and decreasing" },
+        { "id": "B", "text": "decreasing and zero" },
+        { "id": "C", "text": "negative and decreasing" },
+        { "id": "D", "text": "both at their maximum" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "TP is maximized when **MP = 0**; at that point AP has already started to fall."
+    },
+    {
+      "id": 14,
+      "question": "In the long run, all production factors are",
+      "options": [
+        { "id": "A", "text": "fixed" },
+        { "id": "B", "text": "semi‑fixed" },
+        { "id": "C", "text": "variable" },
+        { "id": "D", "text": "semi‑variable" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "By definition, the long run is the period in which **all inputs can be varied**."
+    },
+    {
+      "id": 15,
+      "question": "A company’s expenditure on raw materials is regarded as",
+      "options": [
+        { "id": "A", "text": "explicit cost" },
+        { "id": "B", "text": "implicit cost" },
+        { "id": "C", "text": "prime cost" },
+        { "id": "D", "text": "average cost" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In cost accounting, **prime cost** comprises direct materials and direct labour used in production."
+    },
+    {
+      "id": 16,
+      "question": "The basic relationship between the cost of production and the market",
+      "options": [
+        { "id": "A", "text": "always reflects the cost of labour" },
+        { "id": "B", "text": "reflects variable but not fixed costs of production" },
+        { "id": "C", "text": "does not rise above variable costs" },
+        { "id": "D", "text": "is determined by the cost of production and the current rate of inflation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Market prices generally depend on **production costs plus a margin**, which is influenced by inflation."
+    },
+    {
+      "id": 17,
+      "question": "A firm determines its profits when it studies its",
+      "options": [
+        { "id": "A", "text": "marginal cost" },
+        { "id": "B", "text": "average cost" },
+        { "id": "C", "text": "total cost" },
+        { "id": "D", "text": "average cost relative to price in the market" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Profit per unit depends on **price minus average cost**; comparing AC with market price shows whether the firm is making profit or loss."
+    },
+    {
+      "id": 18,
+      "question": "An increase in the supply of labour in a factory while other things remain equal will lead to",
+      "options": [
+        { "id": "A", "text": "an increase in the wage rate and an increase in the number of people employed" },
+        { "id": "B", "text": "a decrease in the wage rate and a decrease in employment" },
+        { "id": "C", "text": "an increase in the wage rate and a decrease in employment" },
+        { "id": "D", "text": "a decrease in the wage rate and an increase in employment" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A rightward shift of labour supply reduces the **equilibrium wage** but increases **employment**."
+    },
+    {
+      "id": 19,
+      "question": "A demand which is positively related to price is true of",
+      "options": [
+        { "id": "A", "text": "normal goods" },
+        { "id": "B", "text": "Giffen goods" },
+        { "id": "C", "text": "ostentatious goods" },
+        { "id": "D", "text": "capital goods" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A **Giffen good** is defined as one for which quantity demanded rises when its price rises (over some range)."
+    },
+    {
+      "id": 20,
+      "question": "Using the demand–supply schedule in figure Econ1994_DemandSupply_Table, what is the equilibrium quantity?",
+      "options": [
+        { "id": "A", "text": "50" },
+        { "id": "B", "text": "250" },
+        { "id": "C", "text": "350" },
+        { "id": "D", "text": "450" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Equilibrium occurs where \\(Q_d = Q_s\\). From the table this is at price N30 with quantity **250 units**."
+    },
+    {
+      "id": 21,
+      "question": "Above the equilibrium point in that market, a further rise in price tends to",
+      "options": [
+        { "id": "A", "text": "increase demand and restrict supply" },
+        { "id": "B", "text": "restrict demand and restrict supply" },
+        { "id": "C", "text": "increase demand and decrease supply" },
+        { "id": "D", "text": "decrease demand and increase supply" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A higher price causes a **movement up** the demand curve (lower quantity demanded) and a **movement up** the supply curve (higher quantity supplied)."
+    },
+    {
+      "id": 22,
+      "question": "From the total‑revenue table in figure Econ1994_MR_Table where price is N5 and quantity sold rises from 15 to 18 units, the marginal revenue is",
+      "options": [
+        { "id": "A", "text": "N5" },
+        { "id": "B", "text": "N6" },
+        { "id": "C", "text": "N8" },
+        { "id": "D", "text": "N10" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "With constant price \\(P = 5\\), total revenue \\(TR = P \\times Q\\), so **marginal revenue equals price**, \\(MR = 5\\)."
+    },
+    {
+      "id": 23,
+      "question": "Elasticity of demand is an effective tool in the hands of a producer in that it enables him to",
+      "options": [
+        { "id": "A", "text": "raise his profits and lower his cost" },
+        { "id": "B", "text": "discourage buyers from cheating" },
+        { "id": "C", "text": "determine what he will produce" },
+        { "id": "D", "text": "set his price to maximize his profit" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Knowledge of price elasticity helps the firm to **choose price/output combinations** that maximize revenue or profit."
+    },
+    {
+      "id": 24,
+      "question": "Cross elasticity of demand can be mathematically expressed as the",
+      "options": [
+        { "id": "A", "text": "percentage change in quantity of commodity X divided by the percentage change in quantity of commodity Y" },
+        { "id": "B", "text": "percentage change in quantity demanded divided by the percentage change in price" },
+        { "id": "C", "text": "percentage change in quantity demanded of commodity X divided by the percentage change in price of commodity Y" },
+        { "id": "D", "text": "percentage change in price of commodity Y divided by the percentage change in income" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Cross elasticity: \\(E_{xy} = \\dfrac{\\%\\Delta Q_x}{\\%\\Delta P_y}\\)."
+    },
+    {
+      "id": 25,
+      "question": "The basic idea behind brand differentiation under an imperfect market arrangement is to",
+      "options": [
+        { "id": "A", "text": "stimulate demand for rival product" },
+        { "id": "B", "text": "create demand for the particular product" },
+        { "id": "C", "text": "enable the product to penetrate the market" },
+        { "id": "D", "text": "enable the product to compete with others" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Product (brand) differentiation aims to **distinguish one firm’s product** so it can compete effectively with rivals."
+    },
+    {
+      "id": 26,
+      "question": "In the long run, a firm in a perfectly competitive market will make",
+      "options": [
+        { "id": "A", "text": "normal profit" },
+        { "id": "B", "text": "abnormal profit" },
+        { "id": "C", "text": "marginal profit" },
+        { "id": "D", "text": "no profit" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Free entry and exit ensure that, in the long run, firms in perfect competition earn **normal profit (zero economic profit)**."
+    },
+    {
+      "id": 27,
+      "question": "Output restriction, fixing of prices and creating obstacles to free entry into the market are features of",
+      "options": [
+        { "id": "A", "text": "pure monopoly" },
+        { "id": "B", "text": "perfect competition" },
+        { "id": "C", "text": "monopolistic competition" },
+        { "id": "D", "text": "monopsonist competition" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "These are classic characteristics of **monopoly**."
+    },
+    {
+      "id": 28,
+      "question": "A major shortcoming of the sole proprietorship form of business is lack of",
+      "options": [
+        { "id": "A", "text": "working capital" },
+        { "id": "B", "text": "patronage" },
+        { "id": "C", "text": "continuity" },
+        { "id": "D", "text": "market" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The business may end with the death or retirement of the owner; thus **continuity is weak**."
+    },
+    {
+      "id": 29,
+      "question": "In the event of liquidation of a private limited liability company, the shareholder’s liability is limited to their total",
+      "options": [
+        { "id": "A", "text": "income from all sources" },
+        { "id": "B", "text": "family assets" },
+        { "id": "C", "text": "collateral offered for bank loans" },
+        { "id": "D", "text": "investments in the company" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Shareholders risk losing only the **amount they invested (paid‑up capital)**."
+    },
+    {
+      "id": 30,
+      "question": "The major factor that causes fluctuations in the supply of agricultural produce is",
+      "options": [
+        { "id": "A", "text": "high price" },
+        { "id": "B", "text": "pests" },
+        { "id": "C", "text": "weather variations" },
+        { "id": "D", "text": "rural–urban migration" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Agricultural output is highly sensitive to **weather and climate conditions**."
+    },
+    {
+      "id": 31,
+      "question": "The system of agricultural practice which involves hunting, gathering and growing of food crops for family consumption only is described as",
+      "options": [
+        { "id": "A", "text": "peasant agriculture" },
+        { "id": "B", "text": "plantation agriculture" },
+        { "id": "C", "text": "co‑operative farming" },
+        { "id": "D", "text": "subsistence farming" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "**Subsistence farming** is mainly for the farmer’s own consumption, not for sale."
+    },
+    {
+      "id": 32,
+      "question": "What is the term used to describe a policy aimed at promoting the local production of goods which are usually imported?",
+      "options": [
+        { "id": "A", "text": "deregulation" },
+        { "id": "B", "text": "import substitution" },
+        { "id": "C", "text": "tariff reduction" },
+        { "id": "D", "text": "backward integration" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Import‑substitution policy** encourages domestic production of goods formerly imported."
+    },
+    {
+      "id": 33,
+      "question": "Labour‑intensive strategy to industrialization emphasizes the use of",
+      "options": [
+        { "id": "A", "text": "steam" },
+        { "id": "B", "text": "manual methods of production" },
+        { "id": "C", "text": "synthetic raw materials" },
+        { "id": "D", "text": "hydro‑electric power" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Labour‑intensive techniques rely mainly on **human labour rather than machinery**."
+    },
+    {
+      "id": 34,
+      "question": "Petroleum is the mainstay of the Nigerian economy because it is the",
+      "options": [
+        { "id": "A", "text": "main foreign‑exchange earner" },
+        { "id": "B", "text": "greatest employer of labour" },
+        { "id": "C", "text": "greater contributor to the growth of agriculture" },
+        { "id": "D", "text": "source of high income for its workers" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Oil exports provide the **bulk of Nigeria’s foreign‑exchange earnings**."
+    },
+    {
+      "id": 35,
+      "question": "An indigenous company wholly owned by the Federal Government of Nigeria which currently engages in prospecting for oil is",
+      "options": [
+        { "id": "A", "text": "the Nigerian National Oil Company" },
+        { "id": "B", "text": "Peak Petroleum Industries Nigeria Limited" },
+        { "id": "C", "text": "Nigeria Exploration and Production Company" },
+        { "id": "D", "text": "the Nigerian National Petroleum Corporation (NNPC)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **NNPC** is Nigeria’s state‑owned oil corporation."
+    },
+    {
+      "id": 36,
+      "question": "An increase in both the legal reserve ratio and the discount rate has the effect of",
+      "options": [
+        { "id": "A", "text": "increasing the quantity of money in circulation" },
+        { "id": "B", "text": "decreasing the quantity of money in circulation" },
+        { "id": "C", "text": "increasing the value of money" },
+        { "id": "D", "text": "decreasing the value of money" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Higher reserve and discount rates restrict bank lending, **reducing the money supply** (and indirectly increasing the value of money)."
+    },
+    {
+      "id": 37,
+      "question": "Inflation in the Nigerian economy may be fueled by increase in",
+      "options": [
+        { "id": "A", "text": "the dollar price of crude oil alone" },
+        { "id": "B", "text": "the sale of company shares" },
+        { "id": "C", "text": "government expenditure" },
+        { "id": "D", "text": "sale of government bonds" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Rising **government spending** increases aggregate demand and can cause demand‑pull inflation."
+    },
+    {
+      "id": 38,
+      "question": "Gresham’s law in economics shows that",
+      "options": [
+        { "id": "A", "text": "good money drives out bad money" },
+        { "id": "B", "text": "bad money drives out good money" },
+        { "id": "C", "text": "the value of money varies inversely with the price level" },
+        { "id": "D", "text": "gold must be available to maintain the value of paper money" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Gresham’s law: **‘Bad money drives out good’** when both are legal tender at a fixed rate."
+    },
+    {
+      "id": 39,
+      "question": "Monetary policy aimed at reducing demand‑pull inflation in the country may be carried out through",
+      "options": [
+        { "id": "A", "text": "increase in taxation of private companies, public corporations and private individuals" },
+        { "id": "B", "text": "increase in cash‑reserve ratio of commercial banks and sales of government securities" },
+        { "id": "C", "text": "decrease in government expenditure on education" },
+        { "id": "D", "text": "direct price control in the market place" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tight **monetary policy** uses higher reserve requirements and open‑market sales to reduce money supply and aggregate demand."
+    },
+    {
+      "id": 40,
+      "question": "A progressive tax structure is designed to",
+      "options": [
+        { "id": "A", "text": "take more from the income of the poor" },
+        { "id": "B", "text": "take more from the income of the rich" },
+        { "id": "C", "text": "take equal proportion of income from both the rich and the poor" },
+        { "id": "D", "text": "reduce the problems emanating from tax imposition" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a **progressive tax**, the average tax rate rises with income; high‑income earners pay a higher **proportion** of their income."
+    },
+    {
+      "id": 41,
+      "question": "Taxes and government expenditures are instruments of",
+      "options": [
+        { "id": "A", "text": "monetary policy" },
+        { "id": "B", "text": "tax policy" },
+        { "id": "C", "text": "economic policy" },
+        { "id": "D", "text": "fiscal policy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Government spending and taxation form **fiscal policy**."
+    },
+    {
+      "id": 42,
+      "question": "The national income of a country indicates that the gross national income (GNI) was N17,700 million and the gross domestic product (GDP) was N16,800 million. The difference of N900 million represents",
+      "options": [
+        { "id": "A", "text": "debt repayments" },
+        { "id": "B", "text": "investments abroad" },
+        { "id": "C", "text": "net income from abroad" },
+        { "id": "D", "text": "capital consumption" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "By definition, \\(GNI = GDP + \\text{net factor income from abroad}\\); so the difference is **net income from abroad**."
+    },
+    {
+      "id": 43,
+      "question": "If national income rises by 6% and population rises by 3%, per capita income will",
+      "options": [
+        { "id": "A", "text": "rise by 6 percent" },
+        { "id": "B", "text": "fall by 3 percent" },
+        { "id": "C", "text": "fall by 6 percent" },
+        { "id": "D", "text": "rise by 3 percent" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Approximate growth of per capita income = growth of income minus growth of population: \\(6\\% - 3\\% = 3\\%\\)."
+    },
+    {
+      "id": 44,
+      "question": "One of the ways by which the government can speed up economic development is through the",
+      "options": [
+        { "id": "A", "text": "increase in consumption pattern of the people" },
+        { "id": "B", "text": "encouragement of savings, investment and equitable distribution of goods and services" },
+        { "id": "C", "text": "increase in the rate of population growth so as to ensure that the country has a large labour force" },
+        { "id": "D", "text": "encouragement of importation of raw materials to produce consumer goods" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Higher **savings and investment** and fairer distribution support faster, sustainable development."
+    },
+    {
+      "id": 45,
+      "question": "A sustained increase in the production of goods and services in a country is called economic",
+      "options": [
+        { "id": "A", "text": "development" },
+        { "id": "B", "text": "growth" },
+        { "id": "C", "text": "diversification" },
+        { "id": "D", "text": "planning" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Economic growth** refers to a sustained increase in real output or income over time."
+    },
+    {
+      "id": 46,
+      "question": "One of the techniques for rectifying a deficit balance of payments is",
+      "options": [
+        { "id": "A", "text": "import promotion" },
+        { "id": "B", "text": "devaluation" },
+        { "id": "C", "text": "physical intervention" },
+        { "id": "D", "text": "borrowing from abroad" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A **devaluation** makes exports cheaper and imports dearer, helping to correct a deficit."
+    },
+    {
+      "id": 47,
+      "question": "The main objective of the Economic Community of West African States (ECOWAS) is to",
+      "options": [
+        { "id": "A", "text": "establish a West African Development Bank" },
+        { "id": "B", "text": "create a West African army" },
+        { "id": "C", "text": "introduce a common currency for the sub‑region" },
+        { "id": "D", "text": "promote the free movement of persons, goods and services within the sub‑region" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A key ECOWAS objective is **free movement of people, goods and services** within West Africa."
+    },
+    {
+      "id": 48,
+      "question": "In international trade, shipping and other freight charges are treated as",
+      "options": [
+        { "id": "A", "text": "invisible items" },
+        { "id": "B", "text": "unilateral transfers" },
+        { "id": "C", "text": "capital transactions" },
+        { "id": "D", "text": "autonomous capital transactions" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Freight and insurance are **services**, recorded as **invisible items** in the current account."
+    },
+    {
+      "id": 49,
+      "question": "A situation in which a commodity is sold abroad below its cost of production in the home country is known as",
+      "options": [
+        { "id": "A", "text": "dumping" },
+        { "id": "B", "text": "counter trade" },
+        { "id": "C", "text": "bilateral trade" },
+        { "id": "D", "text": "trade liberalization" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Dumping** is exporting goods at prices lower than the cost of production or the domestic price."
+    },
+    {
+      "id": 50,
+      "question": "The borrowing rights of a member country of the International Monetary Fund are determined by",
+      "options": [
+        { "id": "A", "text": "the seriousness of the country’s economic problems" },
+        { "id": "B", "text": "its balance of payments position" },
+        { "id": "C", "text": "its quota to the Fund" },
+        { "id": "D", "text": "the size of its gold reserve" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A member’s access to IMF resources is largely based on its **financial quota** in the Fund."
+    }
+  ]
+}
