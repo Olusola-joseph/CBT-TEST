@@ -1,1 +1,623 @@
-
+{
+  "year": 2003,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ2003_PPF_VWXZ",
+      "file": "images/econ2003_q5_6_ppf.png",
+      "description": "Production‑possibility frontier (PPF) of a country used for Questions 5 and 6. Concave curve between consumer goods and producer goods, with labeled points V, W, X, Y and Z. Points on the curve (V, W, X, Y) show full‑employment combinations; Z lies outside the original frontier and is attainable only with technological progress or increased resources."
+    },
+    {
+      "id": "Econ2003_CostTable",
+      "file": "images/econ2003_q15_16_cost_table.png",
+      "description": "Short‑run cost schedule for Questions 15 and 16. Output per day Q (units): 20, 30, 40, 50, 60, 70, 80. Fixed cost (FC) per day: ₦60 for all outputs. Total cost (TC) per day (₦): 100, 120, 130, 135, 150, 170, 190. Average total cost ATC = TC/Q. Average variable cost AVC = (TC − FC)/Q."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "The price of a good rises from ₦5 to ₦8 and the quantity demanded falls from 200 to 190 units. Over this price range, the demand curve is",
+      "options": [
+        { "id": "A", "text": "fairly inelastic" },
+        { "id": "B", "text": "fairly elastic" },
+        { "id": "C", "text": "perfectly inelastic" },
+        { "id": "D", "text": "perfectly elastic" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Arc elasticity: \\(E_d = \\dfrac{\\Delta Q}{\\Delta P} \\times \\dfrac{P_1+P_2}{Q_1+Q_2} = \\dfrac{-10}{3} \\times \\dfrac{5+8}{200+190} \\approx -0.11\\). Since \\(|E_d| < 1\\), demand is inelastic (but not perfectly), i.e. fairly inelastic."
+    },
+    {
+      "id": 2,
+      "question": "In economic analysis, a statement is said to be normative if it",
+      "options": [
+        { "id": "A", "text": "can be tested scientifically" },
+        { "id": "B", "text": "relates to value judgement" },
+        { "id": "C", "text": "is contradictory" },
+        { "id": "D", "text": "is incorrect" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Normative statements express **value judgements** about what ought to be."
+    },
+    {
+      "id": 3,
+      "question": "Utility is the satisfaction derived from",
+      "options": [
+        { "id": "A", "text": "production" },
+        { "id": "B", "text": "distribution" },
+        { "id": "C", "text": "consumption" },
+        { "id": "D", "text": "demand" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Utility is the satisfaction obtained from **consuming** goods and services."
+    },
+    {
+      "id": 4,
+      "question": "If there is an increase in demand without a corresponding increase in supply, there will be a",
+      "options": [
+        { "id": "A", "text": "fall in price" },
+        { "id": "B", "text": "rise in price" },
+        { "id": "C", "text": "shift in supply curve to the right" },
+        { "id": "D", "text": "shift in demand curve to the left" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Higher demand with fixed supply moves equilibrium to a **higher price**."
+    },
+    {
+      "id": 5,
+      "question": "Using the production possibility curve of a country (figure Econ2003_PPF_VWXZ), an improvement in technology will enable the country to produce at",
+      "options": [
+        { "id": "A", "text": "V" },
+        { "id": "B", "text": "W" },
+        { "id": "C", "text": "X" },
+        { "id": "D", "text": "Z" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Point Z lies **outside** the original PPF and becomes attainable only after technological progress or increased resources."
+    },
+    {
+      "id": 6,
+      "question": "If the country is currently producing at point Y on the same PPF, it can increase production of producer goods by moving to",
+      "options": [
+        { "id": "A", "text": "V" },
+        { "id": "B", "text": "W" },
+        { "id": "C", "text": "X" },
+        { "id": "D", "text": "Z" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Moving along the PPF towards **W** represents more producer goods and fewer consumer goods."
+    },
+    {
+      "id": 7,
+      "question": "In a table (not shown), the price of commodity Y is ₦2 and that of X is ₦1 while the individual has an income of ₦12. Determine the combination of the two commodities the individual should consume to maximize his utility.",
+      "options": [
+        { "id": "A", "text": "3y and 3x" },
+        { "id": "B", "text": "6y and 4x" },
+        { "id": "C", "text": "3y and 6x" },
+        { "id": "D", "text": "5y and 5x" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The optimum bundle satisfies \\(MU_x/P_x = MU_y/P_y\\) and \\(P_x X + P_y Y = 12\\). The marginal utilities from the original table are needed to compute this; they are not legible in the scan."
+    },
+    {
+      "id": 8,
+      "question": "When two variables are positively related, the graph of the relationship",
+      "options": [
+        { "id": "A", "text": "is a straight line" },
+        { "id": "B", "text": "is a downward‑sloping curve" },
+        { "id": "C", "text": "is an upward‑sloping curve" },
+        { "id": "D", "text": "has a negative intercept" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A positive relationship means that as one variable increases, the other increases; the curve therefore **slopes upward**."
+    },
+    {
+      "id": 9,
+      "question": "For an inferior good, a decrease in real income leads to",
+      "options": [
+        { "id": "A", "text": "an outward shift of the demand curve" },
+        { "id": "B", "text": "an inward shift of the demand curve" },
+        { "id": "C", "text": "a lowered equilibrium price" },
+        { "id": "D", "text": "a change in quantity demanded" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Inferior‑good demand **increases** when income falls."
+    },
+    {
+      "id": 10,
+      "question": "In a planned economy the emphasis is on",
+      "options": [
+        { "id": "A", "text": "individual choice and decisions" },
+        { "id": "B", "text": "public ownership and control" },
+        { "id": "C", "text": "private ownership and control" },
+        { "id": "D", "text": "prices and competition" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Centrally planned economies rely on **public ownership and central decisions**."
+    },
+    {
+      "id": 11,
+      "question": "Price elasticity of supply is a ratio of the change in",
+      "options": [
+        { "id": "A", "text": "quantity supplied to the change in demand" },
+        { "id": "B", "text": "original quantity to a change in new quantity" },
+        { "id": "C", "text": "quantity supplied to the change in price" },
+        { "id": "D", "text": "price to the change in quantity supplied" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "By definition: \\(E_s = \\dfrac{\\%\\Delta Q_s}{\\%\\Delta P}\\)."
+    },
+    {
+      "id": 12,
+      "question": "The long‑run average‑cost curve is called a planning curve because it shows what happens to costs when",
+      "options": [
+        { "id": "A", "text": "variable inputs are increased" },
+        { "id": "B", "text": "fixed factors are increased" },
+        { "id": "C", "text": "different sizes of plants are built" },
+        { "id": "D", "text": "a bigger size of plant is built" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The LRAC envelope connects the lowest short‑run AC for different **plant sizes**."
+    },
+    {
+      "id": 13,
+      "question": "Imperfect market is characterized by",
+      "options": [
+        { "id": "A", "text": "many buyers and few sellers" },
+        { "id": "B", "text": "a large number of buyers and sellers" },
+        { "id": "C", "text": "non‑preferential treatment" },
+        { "id": "D", "text": "perfect mobility of factors of production" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Monopoly/oligopoly involve **few sellers facing many buyers**."
+    },
+    {
+      "id": 14,
+      "question": "Short‑run period in production is a period for a firm to be able to change its",
+      "options": [
+        { "id": "A", "text": "variable inputs" },
+        { "id": "B", "text": "total outputs" },
+        { "id": "C", "text": "total revenue" },
+        { "id": "D", "text": "scale of operation" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In the short run, only **variable inputs** can be adjusted."
+    },
+    {
+      "id": 15,
+      "question": "Using the table in figure Econ2003_CostTable, the average total cost (ATC) at 30 units of output is",
+      "options": [
+        { "id": "A", "text": "₦120.00" },
+        { "id": "B", "text": "₦60.00" },
+        { "id": "C", "text": "₦40.00" },
+        { "id": "D", "text": "₦3.00" }
+      ],
+      "correctAnswer": null,
+      "explanation": "At \\(Q = 30\\), \\(TC = 120\\). Thus \\(ATC = TC/Q = 120/30 = ₦4.00\\). None of the options shows ₦4.00, so the printed options appear inconsistent with the data."
+    },
+    {
+      "id": 16,
+      "question": "From the same table, at 60 units of output the average variable cost (AVC) is",
+      "options": [
+        { "id": "A", "text": "₦150.00" },
+        { "id": "B", "text": "₦90.00" },
+        { "id": "C", "text": "₦2.50" },
+        { "id": "D", "text": "₦1.50" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "At \\(Q = 60\\), \\(TC = 150\\), \\(FC = 60\\). So \\(VC = 150 − 60 = 90\\). \\(AVC = 90/60 = ₦1.50\\)."
+    },
+    {
+      "id": 17,
+      "question": "If the demand curve facing a firm is sharply downward‑sloping, the firm is likely to be",
+      "options": [
+        { "id": "A", "text": "a perfect competitor" },
+        { "id": "B", "text": "a monopolistic competitor as it can have a limited influence on price" },
+        { "id": "C", "text": "an oligopolist as it can collude with other firms to have some influence on price" },
+        { "id": "D", "text": "a monopolist and can have considerable influence on price" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A monopolist faces the entire market demand and therefore a **steep downward‑sloping demand curve**."
+    },
+    {
+      "id": 18,
+      "question": "A normal supply curve is usually positively sloped",
+      "options": [
+        { "id": "A", "text": "because the relationship between supply and price is negative" },
+        { "id": "B", "text": "because supply and price is negative" },
+        { "id": "C", "text": "since price and demand is negative" },
+        { "id": "D", "text": "since price and supply is positive" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "As price increases, firms are willing to supply more; the **direct relationship** makes the curve slope upward."
+    },
+    {
+      "id": 19,
+      "question": "The best method of production in an under‑populated country is",
+      "options": [
+        { "id": "A", "text": "labour‑extensive" },
+        { "id": "B", "text": "land‑intensive" },
+        { "id": "C", "text": "capital‑intensive" },
+        { "id": "D", "text": "labour‑intensive" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Where labour is scarce relative to capital, **capital‑intensive** production is appropriate."
+    },
+    {
+      "id": 20,
+      "question": "Insurance companies, pension and provident funds and unit trusts are all examples of",
+      "options": [
+        { "id": "A", "text": "government financial agencies" },
+        { "id": "B", "text": "non‑governmental organizations" },
+        { "id": "C", "text": "non‑bank financial institutions" },
+        { "id": "D", "text": "rural‑based revenue mobilisers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "They are **non‑bank financial intermediaries**."
+    },
+    {
+      "id": 21,
+      "question": "For a firm, value added can be defined as the difference between the",
+      "options": [
+        { "id": "A", "text": "value of its output and the cost of production" },
+        { "id": "B", "text": "total revenue and total cost" },
+        { "id": "C", "text": "input prices and product prices" },
+        { "id": "D", "text": "value of its output and inputs purchased from other firms" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Value added = \\(\\text{Sales value} − \\text{value of intermediate inputs}\\)."
+    },
+    {
+      "id": 22,
+      "question": "Securities are described as listed when they are",
+      "options": [
+        { "id": "A", "text": "bought and sold purely for development purposes" },
+        { "id": "B", "text": "mobilized as short‑term debt instruments" },
+        { "id": "C", "text": "mobilized as long‑term debt instruments" },
+        { "id": "D", "text": "traded on a recognized stock market" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Listed securities are **quoted on a stock exchange**."
+    },
+    {
+      "id": 23,
+      "question": "The commercial banks differ from non‑bank financial institutions because they",
+      "options": [
+        { "id": "A", "text": "accept deposits withdrawable by cheque" },
+        { "id": "B", "text": "mobilize savings" },
+        { "id": "C", "text": "invest surplus funds" },
+        { "id": "D", "text": "contribute to economic development" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Only commercial banks provide **chequeable demand deposits**."
+    },
+    {
+      "id": 24,
+      "question": "Inflation that is usually associated with periods of trade boom is",
+      "options": [
+        { "id": "A", "text": "cost‑push inflation" },
+        { "id": "B", "text": "demand‑pull inflation" },
+        { "id": "C", "text": "creeping inflation" },
+        { "id": "D", "text": "stagnation" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A trade boom increases aggregate demand, leading to **demand‑pull inflation**."
+    },
+    {
+      "id": 25,
+      "question": "The term “Near Money” is best described as",
+      "options": [
+        { "id": "A", "text": "a financial asset that is convertible to cash" },
+        { "id": "B", "text": "a financial instrument that is readily convertible to cash" },
+        { "id": "C", "text": "government financial instrument that is convertible to cash" },
+        { "id": "D", "text": "time deposits with low interest rates" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Near money** comprises assets that are quickly and easily convertible into cash."
+    },
+    {
+      "id": 26,
+      "question": "The distinguishing characteristic between the money market and the capital market lies in whether the",
+      "options": [
+        { "id": "A", "text": "funds mobilized are private or public" },
+        { "id": "B", "text": "securities are primary or secondary" },
+        { "id": "C", "text": "debt instruments provided are long‑term or short‑term" },
+        { "id": "D", "text": "securities are in debentures or ordinary shares" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Money markets deal with **short‑term** funds; capital markets with **long‑term** funds."
+    },
+    {
+      "id": 27,
+      "question": "If Nigeria’s composite price index in 1999 was 140.03 and 144.05 in 2000, the rate of inflation in 2000 was approximately",
+      "options": [
+        { "id": "A", "text": "4.02%" },
+        { "id": "B", "text": "2.10%" },
+        { "id": "C", "text": "2.06%" },
+        { "id": "D", "text": "1.03%" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Inflation ≈ \\(\\frac{144.05 - 140.03}{140.03} \\times 100 ≈ 2.87\\%\\). The printed options do not match this exactly."
+    },
+    {
+      "id": 28,
+      "question": "The monetary‑control instrument most effectively used by the Central Bank of Nigeria is the",
+      "options": [
+        { "id": "A", "text": "discount rate" },
+        { "id": "B", "text": "reserve ratio" },
+        { "id": "C", "text": "margin requirements" },
+        { "id": "D", "text": "open‑market operations" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Open‑market operations provide the **main day‑to‑day tool** for controlling money supply."
+    },
+    {
+      "id": 29,
+      "question": "The major objectives of a revenue allocation formula in a country is to",
+      "options": [
+        { "id": "A", "text": "share revenue between the public and private sectors" },
+        { "id": "B", "text": "ensure the financial viability of the country" },
+        { "id": "C", "text": "share revenue between the different tiers of government" },
+        { "id": "D", "text": "divert revenue from areas of surplus to areas of need" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nigeria’s revenue‑allocation formula divides revenue among **federal, state and local governments**."
+    },
+    {
+      "id": 30,
+      "question": "The effectiveness of devaluation as a solution to a balance‑of‑payments problem depends on the",
+      "options": [
+        { "id": "A", "text": "relative elasticities of demand" },
+        { "id": "B", "text": "foreign investments of business" },
+        { "id": "C", "text": "value of visible and invisible goods" },
+        { "id": "D", "text": "value of invisible items of both domestic and foreign trades" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Devaluation improves the BOP if the demand for exports and imports is **sufficiently elastic** (Marshall–Lerner condition)."
+    },
+    {
+      "id": 31,
+      "question": "The IBRD as an international monetary institution is concerned with the",
+      "options": [
+        { "id": "A", "text": "balance‑of‑payments problems of member nations" },
+        { "id": "B", "text": "financing of private business in member nations" },
+        { "id": "C", "text": "development of infrastructure in member nations" },
+        { "id": "D", "text": "improvement of trade among member nations" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The IBRD (World Bank) finances **development and infrastructure** projects."
+    },
+    {
+      "id": 32,
+      "question": "An advantage of the sole‑proprietorship over the partnership form of business organization is that it",
+      "options": [
+        { "id": "A", "text": "enjoys limited liability for debt in the event of failure" },
+        { "id": "B", "text": "its existence is limited by an individual’s lifespan" },
+        { "id": "C", "text": "relies on the decision of friends to succeed" },
+        { "id": "D", "text": "has conflict in management virtually non‑existent" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Single ownership means **little or no management conflict**."
+    },
+    {
+      "id": 33,
+      "question": "The distinction between capital and recurrent expenditure lies in the",
+      "options": [
+        { "id": "A", "text": "amount of expenditure involved" },
+        { "id": "B", "text": "source of the revenue generated" },
+        { "id": "C", "text": "nature of the goods and services to be provided" },
+        { "id": "D", "text": "time frame to the expenditure" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Capital expenditure creates/maintains **long‑term assets**; recurrent covers **regular services and wages**."
+    },
+    {
+      "id": 34,
+      "question": "Under a floating exchange‑rate regime, the determinant of the exchange rate is the",
+      "options": [
+        { "id": "A", "text": "system of government" },
+        { "id": "B", "text": "demand for and supply of foreign goods" },
+        { "id": "C", "text": "highest denomination of the currency" },
+        { "id": "D", "text": "an Act of the National Assembly" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Floating exchange rates are determined by **market demand and supply for foreign exchange**."
+    },
+    {
+      "id": 35,
+      "question": "To compare the standard of living among nations, the most widely used economic indicator is",
+      "options": [
+        { "id": "A", "text": "per‑capita nominal income" },
+        { "id": "B", "text": "real domestic output" },
+        { "id": "C", "text": "real gross national income" },
+        { "id": "D", "text": "real per‑capita income" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Real **per‑capita income** adjusts for inflation and population."
+    },
+    {
+      "id": 36,
+      "question": "The labour force of a country can be determined by examining the",
+      "options": [
+        { "id": "A", "text": "sex distribution of the population" },
+        { "id": "B", "text": "occupational distribution of the population" },
+        { "id": "C", "text": "age structure of the population" },
+        { "id": "D", "text": "geographical distribution of the population" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The labour force is essentially the **working‑age population**."
+    },
+    {
+      "id": 37,
+      "question": "Two basic features common to an industry are",
+      "options": [
+        { "id": "A", "text": "similarity of products and production processes" },
+        { "id": "B", "text": "similarity of products and sources of raw materials" },
+        { "id": "C", "text": "production processes and sources of capital" },
+        { "id": "D", "text": "sources of capital and labour supply" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "An industry groups firms producing **similar products using related processes**."
+    },
+    {
+      "id": 38,
+      "question": "A country is said to be over‑populated when",
+      "options": [
+        { "id": "A", "text": "there are too many able‑bodied men and women in the country" },
+        { "id": "B", "text": "the resources are more than enough to cater for the population" },
+        { "id": "C", "text": "the size of the population is greater than the annual budget" },
+        { "id": "D", "text": "the resources are inadequate to cater for the population" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Over‑population occurs when **resources are insufficient relative to population**."
+    },
+    {
+      "id": 39,
+      "question": "When a union is composed of workers with the same skill, it is called",
+      "options": [
+        { "id": "A", "text": "an industrial union" },
+        { "id": "B", "text": "a workers’ union" },
+        { "id": "C", "text": "a craft union" },
+        { "id": "D", "text": "a technical union" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A **craft union** consists of workers of the same trade (e.g. carpenters)."
+    },
+    {
+      "id": 40,
+      "question": "An adverse environmental impact of the petroleum industry on the economy is",
+      "options": [
+        { "id": "A", "text": "the vandalisation of oil equipment" },
+        { "id": "B", "text": "oil spillage" },
+        { "id": "C", "text": "communal riots" },
+        { "id": "D", "text": "foreign‑exchange earnings" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Oil spills** cause pollution and ecological damage."
+    },
+    {
+      "id": 41,
+      "question": "An important factor hindering the rapid development of the industrial sector in Nigeria is",
+      "options": [
+        { "id": "A", "text": "excessive demand for finished products" },
+        { "id": "B", "text": "the dominance of the oil sector" },
+        { "id": "C", "text": "rural–urban migration" },
+        { "id": "D", "text": "inadequate infrastructural facilities" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Poor electricity, roads, ports etc. are a key constraint on industrial growth."
+    },
+    {
+      "id": 42,
+      "question": "The demand for labour is an example of",
+      "options": [
+        { "id": "A", "text": "competitive demand" },
+        { "id": "B", "text": "derived demand" },
+        { "id": "C", "text": "composite demand" },
+        { "id": "D", "text": "joint demand" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Labour is demanded because of the **goods and services it helps to produce**."
+    },
+    {
+      "id": 43,
+      "question": "The major role of multi‑national companies in the petroleum industry in Nigeria is",
+      "options": [
+        { "id": "A", "text": "oil prospecting only" },
+        { "id": "B", "text": "oil marketing only" },
+        { "id": "C", "text": "the establishment of refineries" },
+        { "id": "D", "text": "oil prospecting and marketing" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Multinationals typically handle both **exploration/production and marketing**."
+    },
+    {
+      "id": 44,
+      "question": "Fixing the prices of agricultural products can be a problem because of the",
+      "options": [
+        { "id": "A", "text": "unpredictable output of farmers" },
+        { "id": "B", "text": "instability of government policies" },
+        { "id": "C", "text": "activities of marketing boards" },
+        { "id": "D", "text": "size of agricultural exports" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Weather and pests make **farm output variable**, so a fixed price may cause big surpluses or shortages."
+    },
+    {
+      "id": 45,
+      "question": "Occupational mobility as applied to factors of production means the case by which",
+      "options": [
+        { "id": "A", "text": "factors can be transferred from one place to another" },
+        { "id": "B", "text": "factors can be transferred from one form of use to another" },
+        { "id": "C", "text": "resources can be transferred from one place to another" },
+        { "id": "D", "text": "resources can be transferred from one form to another" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Occupational mobility refers to movement of a factor (especially labour) **between different occupations/uses**."
+    },
+    {
+      "id": 46,
+      "question": "The labour force of a country can be determined by examining the",
+      "options": [
+        { "id": "A", "text": "sex distribution of the population" },
+        { "id": "B", "text": "occupational distribution of the population" },
+        { "id": "C", "text": "age structure of the population" },
+        { "id": "D", "text": "geographical distribution of the population" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Again, **age structure** determines the size of the working‑age population."
+    },
+    {
+      "id": 47,
+      "question": "Two basic features common to an industry are",
+      "options": [
+        { "id": "A", "text": "similarity of products and production processes" },
+        { "id": "B", "text": "similarity of products and sources of raw materials" },
+        { "id": "C", "text": "production processes and source of capital" },
+        { "id": "D", "text": "sources of capital and labour supply" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Firms in the same industry produce **similar products using related processes**."
+    },
+    {
+      "id": 48,
+      "question": "A country is said to be over‑populated when",
+      "options": [
+        { "id": "A", "text": "there are too many able‑bodied men and women in the country" },
+        { "id": "B", "text": "the resources are more than enough to cater for the population" },
+        { "id": "C", "text": "the size of the population is greater than the annual budget" },
+        { "id": "D", "text": "the resources are inadequate to cater for the population" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Over‑population means the **population is too large relative to available resources**."
+    },
+    {
+      "id": 49,
+      "question": "When a union is composed of workers with the same skill, it is called",
+      "options": [
+        { "id": "A", "text": "an industrial union" },
+        { "id": "B", "text": "a workers’ union" },
+        { "id": "C", "text": "a craft union" },
+        { "id": "D", "text": "a technical union" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A **craft union** organizes workers by skill or trade."
+    },
+    {
+      "id": 50,
+      "question": "An adverse environmental impact of the petroleum industry on the economy is",
+      "options": [
+        { "id": "A", "text": "the vandalisation of oil equipment" },
+        { "id": "B", "text": "oil spillage" },
+        { "id": "C", "text": "communal riots" },
+        { "id": "D", "text": "foreign‑exchange earnings" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Oil spillage causes **pollution** and long‑term environmental degradation."
+    }
+  ]
+}
