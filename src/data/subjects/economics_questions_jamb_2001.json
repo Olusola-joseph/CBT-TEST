@@ -1,1 +1,633 @@
-
+{
+  "year": 2001,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ2001_TU_Curve",
+      "file": "images/econ2001_q7_total_utility.png",
+      "description": "Total‑utility curve for Question 7. Horizontal axis: Quantity; vertical axis: Total Utility. The curve rises, reaches a maximum at point M and then bends downwards. Marginal utility at any quantity is the slope of the TU curve; at point M the slope is zero."
+    },
+    {
+      "id": "Econ2001_DemandSchedule_Eggs",
+      "file": "images/econ2001_q24_eggs_demand_schedule.png",
+      "description": "Demand and supply table for eggs in Question 24. Columns: price per dozen (₦), quantity demanded (dozens) and quantity supplied (dozens). Data: ₦100 → Qd 410, Qs 570; ₦90 → Qd 450, Qs 530; ₦80 → Qd 490, Qs 490; ₦70 → Qd 530, Qs 450; ₦60 → Qd 570, Qs 410. Equilibrium occurs when Qd = Qs at ₦80."
+    },
+    {
+      "id": "Econ2001_MC_AVC",
+      "file": "images/econ2001_q20_mc_avc.png",
+      "description": "Short‑run cost diagram for Question 20. U‑shaped average variable‑cost (AVC) curve and marginal‑cost (MC) curve; the upper envelope labelled T is the long‑run average‑cost curve. Segment UT of the MC curve above the minimum point of AVC represents the firm’s short‑run supply curve in a perfectly competitive market."
+    },
+    {
+      "id": "Econ2001_Labour_Market",
+      "file": "images/econ2001_q36_labour_market.png",
+      "description": "Labour‑market diagram for Question 36. Vertical axis: wage (W); horizontal axis: labour. Upward‑sloping supply curve of labour S_L and downward‑sloping demand curve D_L. Three horizontal wage lines W₁, W₂ and W₃ and a higher line W_F are drawn, showing different wage rates; the lowest one indicates the minimum wage."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "If the price elasticity of demand for a good is 0.43, an increase in the price of the good will result in",
+      "options": [
+        { "id": "A", "text": "an increase in profit by 43%" },
+        { "id": "B", "text": "a net gain" },
+        { "id": "C", "text": "a decrease in profit by 43%" },
+        { "id": "D", "text": "a net loss" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With \\(|E_d| = 0.43 < 1\\), demand is inelastic; a price increase raises total revenue and hence profit, giving a **net gain**."
+    },
+    {
+      "id": 2,
+      "question": "In a free‑market economy the price system allocates resources",
+      "options": [
+        { "id": "A", "text": "under government’s directives" },
+        { "id": "B", "text": "to ensure general welfare" },
+        { "id": "C", "text": "to their best alternative uses" },
+        { "id": "D", "text": "to reduce poverty" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The price system directs resources to their **most valued alternative uses**."
+    },
+    {
+      "id": 3,
+      "question": "At consumer equilibrium, the slope of the indifference curve is",
+      "options": [
+        { "id": "A", "text": "half the slope of the budget‑constraint line" },
+        { "id": "B", "text": "equal to the slope of the budget‑constraint line" },
+        { "id": "C", "text": "greater than the slope of the budget‑constraint line" },
+        { "id": "D", "text": "less than the slope of the budget‑constraint line" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Equilibrium occurs when **MRS = price ratio**, i.e. slope of indifference curve equals slope of budget line."
+    },
+    {
+      "id": 4,
+      "question": "For a supply curve, an increase in the price of a commodity will result in",
+      "options": [
+        { "id": "A", "text": "a decrease in supply" },
+        { "id": "B", "text": "a decrease in the quantity supplied" },
+        { "id": "C", "text": "an increase in supply" },
+        { "id": "D", "text": "an increase in the quantity supplied" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A movement **upwards along** a given supply curve corresponds to an **increase in quantity supplied**."
+    },
+    {
+      "id": 5,
+      "question": "A normal good with close substitutes is likely to have price elasticity of demand",
+      "options": [
+        { "id": "A", "text": "between zero and one" },
+        { "id": "B", "text": "equal to unity" },
+        { "id": "C", "text": "less than unity" },
+        { "id": "D", "text": "greater than unity" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Close substitutes make demand **price‑elastic** (\\(|E_d| > 1\\))."
+    },
+    {
+      "id": 6,
+      "question": "Economics is regarded as a social science because it",
+      "options": [
+        { "id": "A", "text": "adopts the scientific method in production" },
+        { "id": "B", "text": "is an agent of socialization" },
+        { "id": "C", "text": "applies the scientific method in the study of human behaviour" },
+        { "id": "D", "text": "deals with social problems" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Economics is a social science since it **uses scientific methods** to study human economic behaviour."
+    },
+    {
+      "id": 7,
+      "question": "The diagram in figure Econ2001_TU_Curve shows the total‑utility curve. At the point M, marginal utility",
+      "options": [
+        { "id": "A", "text": "increases" },
+        { "id": "B", "text": "is unity" },
+        { "id": "C", "text": "diminishes" },
+        { "id": "D", "text": "is zero" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Marginal utility is the **slope of TU**; at the maximum of TU (point M) the slope is zero."
+    },
+    {
+      "id": 8,
+      "question": "A change in supply is best described as a",
+      "options": [
+        { "id": "A", "text": "movement along the supply curve" },
+        { "id": "B", "text": "shift of the supply curve to the left or to the right" },
+        { "id": "C", "text": "shift of the supply curve to the left" },
+        { "id": "D", "text": "shift of the supply curve to the right" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A **change in supply** (as opposed to quantity supplied) means the whole supply curve shifts."
+    },
+    {
+      "id": 9,
+      "question": "When a generalization is made based on observed facts, it is known as",
+      "options": [
+        { "id": "A", "text": "deductive reasoning" },
+        { "id": "B", "text": "inductive reasoning" },
+        { "id": "C", "text": "theoretical reasoning" },
+        { "id": "D", "text": "normative reasoning" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Inductive reasoning** draws general conclusions from specific observations."
+    },
+    {
+      "id": 10,
+      "question": "A major problem facing all economies is how to",
+      "options": [
+        { "id": "A", "text": "increase consumption of imported goods" },
+        { "id": "B", "text": "improve trade among nations" },
+        { "id": "C", "text": "transform from a developing to a developed economy" },
+        { "id": "D", "text": "allocate scarce resources" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The central economic problem is **allocating scarce resources** among competing uses."
+    },
+    {
+      "id": 11,
+      "question": "A vertical supply curve indicates that",
+      "options": [
+        { "id": "A", "text": "the quantity supplied is responsive to price" },
+        { "id": "B", "text": "the same fixed quantity will be supplied no matter the price" },
+        { "id": "C", "text": "an increase in price will result in an increase in the quantity supplied" },
+        { "id": "D", "text": "there is a fixed price for the commodity below which no supply will be made" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A vertical supply curve is **perfectly inelastic**: quantity is fixed regardless of price."
+    },
+    {
+      "id": 12,
+      "question": "In a demand curve, the relationship between price and quantity is",
+      "options": [
+        { "id": "A", "text": "in determinate" },
+        { "id": "B", "text": "direct" },
+        { "id": "C", "text": "nil" },
+        { "id": "D", "text": "inverse" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Law of demand: price and quantity demanded are **inversely related**."
+    },
+    {
+      "id": 13,
+      "question": "If the arithmetic mean of the numbers \\(1, 2, 5, 6, x\\) is 8.0, find the value of \\(x\\).",
+      "options": [
+        { "id": "A", "text": "7.0" },
+        { "id": "B", "text": "6.0" },
+        { "id": "C", "text": "8.5" },
+        { "id": "D", "text": "8.0" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The mean is \\(\\frac{1+2+5+6+x}{5} = 8\\Rightarrow 14+x=40\\Rightarrow x=26\\). None of the visible options matches; the printed data may differ in the original paper."
+    },
+    {
+      "id": 14,
+      "question": "The fixing of the price of an item above or below the equilibrium price is most likely to take place in a",
+      "options": [
+        { "id": "A", "text": "centrally planned economy" },
+        { "id": "B", "text": "free market economy" },
+        { "id": "C", "text": "developed economy" },
+        { "id": "D", "text": "mixed economy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Price controls (ceilings/floors) are characteristic of a **centrally planned** system."
+    },
+    {
+      "id": 15,
+      "question": "A consumer’s scale of preference is an arrangement of his",
+      "options": [
+        { "id": "A", "text": "scarce resources in order of importance" },
+        { "id": "B", "text": "needs in order of importance" },
+        { "id": "C", "text": "sources of income and their importance" },
+        { "id": "D", "text": "requirements and how to satisfy them" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A scale of preference ranks **wants/needs** in order of importance."
+    },
+    {
+      "id": 16,
+      "question": "A firm’s shut‑down point is reached when the average revenue fails to cover the",
+      "options": [
+        { "id": "A", "text": "average variable cost" },
+        { "id": "B", "text": "marginal cost" },
+        { "id": "C", "text": "average total cost" },
+        { "id": "D", "text": "average fixed cost" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Shutdown occurs when **price (AR) < minimum AVC**; the firm cannot cover variable costs."
+    },
+    {
+      "id": 17,
+      "question": "Internal economies of scale are expected to bring about",
+      "options": [
+        { "id": "A", "text": "an increase in short‑run average cost" },
+        { "id": "B", "text": "an increase in long‑run average cost" },
+        { "id": "C", "text": "a decrease in long‑run average cost" },
+        { "id": "D", "text": "a decrease in short‑run average cost" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Economies of scale reduce **long‑run average cost** as output expands."
+    },
+    {
+      "id": 18,
+      "question": "In the long run, a monopolist maximizes his profit when the marginal cost equals",
+      "options": [
+        { "id": "A", "text": "total revenue" },
+        { "id": "B", "text": "marginal revenue" },
+        { "id": "C", "text": "average cost" },
+        { "id": "D", "text": "price" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Profit maximization condition: **MC = MR**."
+    },
+    {
+      "id": 19,
+      "question": "The long run is a period during which a firm",
+      "options": [
+        { "id": "A", "text": "sells input to purchase fixed asset" },
+        { "id": "B", "text": "varies all its inputs" },
+        { "id": "C", "text": "sources all its inputs from within" },
+        { "id": "D", "text": "replaces all its inputs" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In the long run **all factors are variable**."
+    },
+    {
+      "id": 20,
+      "question": "An important feature of perfect competition is that",
+      "options": [
+        { "id": "A", "text": "the movement of goods and services is restricted" },
+        { "id": "B", "text": "there is adequate knowledge of existing prices" },
+        { "id": "C", "text": "prices are centrally administered" },
+        { "id": "D", "text": "individual economic units can influence prices" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Perfect competition assumes **perfect information** about prices."
+    },
+    {
+      "id": 21,
+      "question": "If government fixes price below the equilibrium price, what effect will it have on demand?",
+      "options": [
+        { "id": "A", "text": "Quantity demanded and supplied will be equal" },
+        { "id": "B", "text": "Quantity supplied will be greater than quantity demanded" },
+        { "id": "C", "text": "Quantity demanded will increase" },
+        { "id": "D", "text": "Quantity demanded will decrease" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A price ceiling below equilibrium makes the good cheaper, so **quantity demanded increases** (and excess demand arises)."
+    },
+    {
+      "id": 22,
+      "question": "An imperfect market exists where",
+      "options": [
+        { "id": "A", "text": "the product is homogeneous" },
+        { "id": "B", "text": "there is perfect information among the few buyers and sellers" },
+        { "id": "C", "text": "both buyers and sellers have free entry into and exit from the market" },
+        { "id": "D", "text": "the location of some sellers gives them an advantage over others" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Location advantages and product differentiation create **imperfect competition**."
+    },
+    {
+      "id": 23,
+      "question": "A production function relates",
+      "options": [
+        { "id": "A", "text": "cost to output" },
+        { "id": "B", "text": "wage to profit" },
+        { "id": "C", "text": "cost to input" },
+        { "id": "D", "text": "output to input" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Production function: \\(Q = f(K,L,...)\\): relationship between **inputs and output**."
+    },
+    {
+      "id": 24,
+      "question": "Using the demand schedule for eggs (figure Econ2001_DemandSchedule_Eggs), what is the equilibrium price?",
+      "options": [
+        { "id": "A", "text": "N100" },
+        { "id": "B", "text": "N110" },
+        { "id": "C", "text": "N60" },
+        { "id": "D", "text": "N80" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Equilibrium where \\(Q_d = Q_s\\): at \\(P = 80\\), \\(Q_d = Q_s = 490\\)."
+    },
+    {
+      "id": 25,
+      "question": "A major advantage of specialization and division of labour is that",
+      "options": [
+        { "id": "A", "text": "time wastage will be minimized" },
+        { "id": "B", "text": "trade unions will be encouraged" },
+        { "id": "C", "text": "there will be a ready market for labour" },
+        { "id": "D", "text": "workers will be adequately rewarded" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Specialization reduces **time lost in switching tasks**, increasing efficiency."
+    },
+    {
+      "id": 26,
+      "question": "Which of the following is an example of a fixed cost?",
+      "options": [
+        { "id": "A", "text": "fuel cost" },
+        { "id": "B", "text": "electricity bill" },
+        { "id": "C", "text": "rent on building" },
+        { "id": "D", "text": "transportation cost" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Rent on premises does not vary with output in the short run and is a **fixed cost**."
+    },
+    {
+      "id": 27,
+      "question": "In the agricultural sector, improved extension services facilitate",
+      "options": [
+        { "id": "A", "text": "acquisition of techniques" },
+        { "id": "B", "text": "arable crop production" },
+        { "id": "C", "text": "mobility of labour" },
+        { "id": "D", "text": "livestock production" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Extension services help farmers acquire **modern techniques and knowledge**."
+    },
+    {
+      "id": 28,
+      "question": "A disadvantage of concentrating industries in an area is that it could",
+      "options": [
+        { "id": "A", "text": "lead to collusion among firms" },
+        { "id": "B", "text": "result in environmental pollution" },
+        { "id": "C", "text": "bring about diseconomies of scale" },
+        { "id": "D", "text": "increase the cost of production" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Industrial concentration often causes **pollution and congestion**."
+    },
+    {
+      "id": 29,
+      "question": "The losses suffered by a sole proprietor are",
+      "options": [
+        { "id": "A", "text": "usually equal to the amount invested" },
+        { "id": "B", "text": "usually less than the amount invested" },
+        { "id": "C", "text": "limited to the amount invested" },
+        { "id": "D", "text": "not limited to the amount invested" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A sole proprietor has **unlimited liability**; personal assets may be used to cover business debts."
+    },
+    {
+      "id": 30,
+      "question": "To facilitate the exportation of crude oil from Nigeria, special",
+      "options": [
+        { "id": "A", "text": "airstrips were constructed for jets to evacuate the oil" },
+        { "id": "B", "text": "roads were built to connect the major oil wells to the ports" },
+        { "id": "C", "text": "pipelines were laid to connect the major oil wells to the ports" },
+        { "id": "D", "text": "railway lines were constructed to connect the major oil wells to the ports" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "**Pipelines** are the principal means of moving crude oil from well‑heads to export terminals."
+    },
+    {
+      "id": 31,
+      "question": "An industry is a",
+      "options": [
+        { "id": "A", "text": "company producing unrelated commodities" },
+        { "id": "B", "text": "group of firms producing related commodities" },
+        { "id": "C", "text": "group of firms producing distinct commodities" },
+        { "id": "D", "text": "firm producing differentiated commodities" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An industry consists of **all firms producing similar/related products**."
+    },
+    {
+      "id": 32,
+      "question": "The raising of funds by selling stocks to the public is called",
+      "options": [
+        { "id": "A", "text": "equity financing" },
+        { "id": "B", "text": "stock financing" },
+        { "id": "C", "text": "debt financing" },
+        { "id": "D", "text": "loan financing" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Issuing shares raises **equity capital**."
+    },
+    {
+      "id": 33,
+      "question": "A tax that increases at a higher percentage as income increases is called",
+      "options": [
+        { "id": "A", "text": "a proportional tax" },
+        { "id": "B", "text": "a regressive tax" },
+        { "id": "C", "text": "a progressive tax" },
+        { "id": "D", "text": "an income tax" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a **progressive tax**, the average tax rate rises with income."
+    },
+    {
+      "id": 34,
+      "question": "The price paid for labour services is the",
+      "options": [
+        { "id": "A", "text": "commission rate" },
+        { "id": "B", "text": "wage rate" },
+        { "id": "C", "text": "income rate" },
+        { "id": "D", "text": "salary rate" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "General term for payment to labour is **wage rate**."
+    },
+    {
+      "id": 35,
+      "question": "The capital market is a market for financial assets such as",
+      "options": [
+        { "id": "A", "text": "bankers’ acceptances" },
+        { "id": "B", "text": "treasury bills" },
+        { "id": "C", "text": "long‑term securities" },
+        { "id": "D", "text": "commercial papers" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Capital markets trade **long‑term securities** (shares, bonds)."
+    },
+    {
+      "id": 36,
+      "question": "In national income accounting, NNP is derived by subtracting from the GNP",
+      "options": [
+        { "id": "A", "text": "unspent payments" },
+        { "id": "B", "text": "indirect taxes" },
+        { "id": "C", "text": "allowance for wastage" },
+        { "id": "D", "text": "capital consumption (depreciation)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Net National Product = **GNP − depreciation**."
+    },
+    {
+      "id": 37,
+      "question": "Economic growth can be accelerated through",
+      "options": [
+        { "id": "A", "text": "balancing of savings and consumption" },
+        { "id": "B", "text": "postponement of current consumption" },
+        { "id": "C", "text": "planned current consumption" },
+        { "id": "D", "text": "increased current consumption" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Postponing consumption increases **savings and investment**, speeding growth."
+    },
+    {
+      "id": 38,
+      "question": "An increase in the discount rate is an indication of a Central Bank’s intention to pursue",
+      "options": [
+        { "id": "A", "text": "an expansionary monetary policy" },
+        { "id": "B", "text": "a disciplined monetary policy" },
+        { "id": "C", "text": "a dynamic monetary policy" },
+        { "id": "D", "text": "a contractionary monetary policy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Raising the discount (bank) rate discourages borrowing, i.e. **contractionary policy**."
+    },
+    {
+      "id": 39,
+      "question": "The efficiency of labour can be increased by",
+      "options": [
+        { "id": "A", "text": "constant training of workers" },
+        { "id": "B", "text": "retirement of workers on a regular basis" },
+        { "id": "C", "text": "engaging expatriates only" },
+        { "id": "D", "text": "placing an embargo on recruitment" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Training raises workers’ **skills and productivity**."
+    },
+    {
+      "id": 40,
+      "question": "In Nigeria, revenue sharing from the Federation Account is between the",
+      "options": [
+        { "id": "A", "text": "executive, the judiciary and the legislature" },
+        { "id": "B", "text": "federal and state governments and the parastatals" },
+        { "id": "C", "text": "federal and state governments and the senate" },
+        { "id": "D", "text": "federal, state and local governments" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Federation Account revenues are shared among **federal, state and local governments**."
+    },
+    {
+      "id": 41,
+      "question": "The reduction of high fertility rate is a measure in population control designed to make the",
+      "options": [
+        { "id": "A", "text": "female population higher than the male" },
+        { "id": "B", "text": "female and male population equal" },
+        { "id": "C", "text": "male population higher than the female" },
+        { "id": "D", "text": "growth in population more sustainable" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Lower fertility aims at achieving **sustainable population growth**."
+    },
+    {
+      "id": 42,
+      "question": "National debt is an expected outcome of a",
+      "options": [
+        { "id": "A", "text": "deficit budget" },
+        { "id": "B", "text": "consolidated budget" },
+        { "id": "C", "text": "balanced budget" },
+        { "id": "D", "text": "surplus budget" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **budget deficit** must typically be financed by borrowing, adding to national debt."
+    },
+    {
+      "id": 43,
+      "question": "The distribution channel that contributes most to the cost of production is",
+      "options": [
+        { "id": "A", "text": "producer → wholesaler → consumer" },
+        { "id": "B", "text": "producer → retailer → consumer" },
+        { "id": "C", "text": "producer → retailer → wholesaler → consumer" },
+        { "id": "D", "text": "producer → wholesaler → retailer → consumer" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **longest channel** with more middlemen (D) adds the greatest cost margins."
+    },
+    {
+      "id": 44,
+      "question": "Money may not be accepted as a store of value if",
+      "options": [
+        { "id": "A", "text": "its value is unstable" },
+        { "id": "B", "text": "it is easily transferable" },
+        { "id": "C", "text": "its value is stable" },
+        { "id": "D", "text": "it is easily divisible" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "If money’s purchasing power is **unstable**, people will not wish to hold it as a store of value."
+    },
+    {
+      "id": 45,
+      "question": "In order to accelerate economic development a country must",
+      "options": [
+        { "id": "A", "text": "stimulate her population growth rate" },
+        { "id": "B", "text": "pursue a high population growth rate" },
+        { "id": "C", "text": "pursue a rational population policy" },
+        { "id": "D", "text": "pursue an incremental population policy" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A **rational population policy** ensures population growth is consistent with resources and development goals."
+    },
+    {
+      "id": 46,
+      "question": "If the labour force in a given community is 2,000,000, the wage‑employed are 200,000 and the unemployed are 80,000, what is the unemployment rate in the community?",
+      "options": [
+        { "id": "A", "text": "0.4%" },
+        { "id": "B", "text": "40.0%" },
+        { "id": "C", "text": "10.0%" },
+        { "id": "D", "text": "0.4%" }
+      ],
+      "correctAnswer": null,
+      "explanation": "If the labour force is defined as employed plus unemployed (\\(200{,}000 + 80{,}000 = 280{,}000\\)), then unemployment rate is \\(80{,}000/280{,}000 ≈ 28.6\\%\\), which does not match the visible options. The original data/options may differ; consult the official paper."
+    },
+    {
+      "id": 47,
+      "question": "GNP is not a good measure of social welfare because there are unrecorded",
+      "options": [
+        { "id": "A", "text": "indirect taxes" },
+        { "id": "B", "text": "social services" },
+        { "id": "C", "text": "government subsidies" },
+        { "id": "D", "text": "transfer payments" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Many **non‑market social services** and environmental effects are not reflected in GNP."
+    },
+    {
+      "id": 48,
+      "question": "Loans from the World Bank to developing countries are mainly to support",
+      "options": [
+        { "id": "A", "text": "the establishment of more universities" },
+        { "id": "B", "text": "capital‑intensive technology" },
+        { "id": "C", "text": "infrastructural investments" },
+        { "id": "D", "text": "their low level of consumption" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "World Bank lending typically finances **large infrastructure and development projects**."
+    },
+    {
+      "id": 49,
+      "question": "The major reason why nations engage in international trade is that",
+      "options": [
+        { "id": "A", "text": "it allows free movement of factors of production" },
+        { "id": "B", "text": "it makes possible the use of capital‑intensive methods of production" },
+        { "id": "C", "text": "nations are substantially different in their endowments of economic resources" },
+        { "id": "D", "text": "it affords the trading nations the opportunity to earn high profit" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Countries trade because **resource endowments differ**, giving rise to comparative advantage."
+    },
+    {
+      "id": 50,
+      "question": "A country with an over‑valued currency will most likely",
+      "options": [
+        { "id": "A", "text": "expect balance of payments surplus" },
+        { "id": "B", "text": "have increased demand for her exports" },
+        { "id": "C", "text": "increase her foreign reserves" },
+        { "id": "D", "text": "decrease her foreign reserves" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Over‑valuation makes imports cheap and exports dear, causing **BOP deficits** and a fall in foreign‑exchange reserves."
+    }
+  ]
+}
