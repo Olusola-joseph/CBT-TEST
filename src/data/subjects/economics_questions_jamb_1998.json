@@ -1,1 +1,653 @@
-
+{
+  "year": 1998,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1998_PPF_FullEmployment",
+      "file": "images/econ1998_q1_ppf_full_employment.png",
+      "description": "Production‑possibility diagram for Question 1. Horizontal axis: Goods X; vertical axis: Goods Y. A concave frontier runs from the Y‑axis intercept through points P and M to the X‑axis intercept labelled L. Point N lies inside the curve. Full‑employment/efficient points are on the curve (e.g. P and M); L on the axis and N inside are inefficient."
+    },
+    {
+      "id": "Econ1998_MU_Table",
+      "file": "images/econ1998_q2_marginal_utility_table.png",
+      "description": "Marginal‑utility table for Question 2. Units of consumption of commodity X and corresponding marginal utility (MU) in 'utils': \\(1 \\to 100\\), \\(2 \\to 80\\), \\(3 \\to 50\\), \\(4 \\to 20\\). Total utility for \\(n\\) units is \\(TU_n = \\sum_{i=1}^n MU_i\\)."
+    },
+    {
+      "id": "Econ1998_PopAge_Table",
+      "file": "images/econ1998_q6_7_population_age_distribution.png",
+      "description": "Age‑distribution table for Questions 6 and 7. Age ranges (years) and percentage of population in 1960 and 1990: 60 and above: 35% (1960), 38% (1990); 18–59: 40%, 42%; 1–17: 25%, 20%. Dependants are 0–17 and 60+; active population is 18–59."
+    },
+    {
+      "id": "Econ1998_SR_Cost_Table",
+      "file": "images/econ1998_q11_short_run_costs.png",
+      "description": "Short‑run cost schedule for Question 11. Columns: Total output Q (units), fixed cost FC (₦), variable cost VC (₦). Data: (100, 100, 100), (120, 100, 110), (160, 100, 120), (200, 100, 140), (240, 100, 160). Total cost is \\(TC = FC + VC\\); average total cost is \\(ATC = TC/Q\\)."
+    },
+    {
+      "id": "Econ1998_PriceControl",
+      "file": "images/econ1998_q13_price_control.png",
+      "description": "Price‑control diagram for Question 13. Downward‑sloping demand curve D and upward‑sloping supply curve S intersect at equilibrium price between \\(P_1\\) and \\(P_2\\). A horizontal line at price \\(P_2\\) is imposed by government above equilibrium, representing a minimum (support) price."
+    },
+    {
+      "id": "Econ1998_ConsumerSurplus",
+      "file": "images/econ1998_q14_consumer_surplus.png",
+      "description": "Demand diagram for Question 14. Vertical axis: price; horizontal axis: quantity. A downward‑sloping demand curve D meets the price line \\(P_1\\). The triangular area between the demand curve and the horizontal price line, from Q = 0 to Q = Q\\_1, is shaded as consumer surplus."
+    },
+    {
+      "id": "Econ1998_Shifted_Demand_Supply",
+      "file": "images/econ1998_q15_multi_shift.png",
+      "description": "Diagram for Question 15. Original demand curve \\(D_0D_0\\) and original supply curve \\(S_0S_0\\) intersect at quantity \\(Q_2\\). New demand curve \\(D_1D_1\\) and new supply curve \\(S_1S_1\\) intersect at a different quantity labelled among \\(Q_1, Q_2, Q_3, Q_4\\). Candidates must select the new equilibrium quantity."
+    },
+    {
+      "id": "Econ1998_PerfComp_Cost",
+      "file": "images/econ1998_q19_mc_ac_mr.png",
+      "description": "Cost and revenue diagram for Question 19. Vertical axis: price/cost; horizontal axis: quantity. U‑shaped average‑cost curve AC and upward‑sloping marginal‑cost curve MC. A horizontal marginal‑revenue curve MR at price P intersects MC at point L and AC at a different point. Vertical projections from O, N, K, L, F mark alternative output levels."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "In the production‑possibility diagram for goods X and Y (figure Econ1998_PPF_FullEmployment), full employment is indicated by point",
+      "options": [
+        { "id": "A", "text": "L" },
+        { "id": "B", "text": "M" },
+        { "id": "C", "text": "N" },
+        { "id": "D", "text": "P" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Points on the PPF (P and M) represent full employment, while point N (inside the curve) and L (on an axis) indicate under‑utilization. The scan does not clearly show which of P or M the examiners designated; consult an official key."
+    },
+    {
+      "id": 2,
+      "question": "Using the marginal‑utility schedule in figure Econ1998_MU_Table, the total utility for an individual who consumes 3 units of commodity X is",
+      "options": [
+        { "id": "A", "text": "50 units" },
+        { "id": "B", "text": "150 units" },
+        { "id": "C", "text": "230 units" },
+        { "id": "D", "text": "250 units" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Total utility for 3 units: \\(TU_3 = 100 + 80 + 50 = 230\\) units."
+    },
+    {
+      "id": 3,
+      "question": "One of the economic problems of Nigeria today arises from",
+      "options": [
+        { "id": "A", "text": "the over‑utilization of human and natural resources" },
+        { "id": "B", "text": "the inavailability of mineral resources" },
+        { "id": "C", "text": "inadequate manpower resources" },
+        { "id": "D", "text": "the underutilization of human and natural resources" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Nigeria’s problem is not lack of resources but their **underutilization and misallocation**."
+    },
+    {
+      "id": 4,
+      "question": "In certain circumstances, a centrally planned economy adopts the rationing system because of",
+      "options": [
+        { "id": "A", "text": "the scarcity of goods and services in the market" },
+        { "id": "B", "text": "low real and money wages" },
+        { "id": "C", "text": "the need for equitable distribution of goods and services" },
+        { "id": "D", "text": "transportation and distribution problems" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Rationing is typically used to **ensure fair and equitable distribution** when goods are scarce."
+    },
+    {
+      "id": 5,
+      "question": "Given that \\(B\\) = births, \\(D\\) = deaths, \\(X\\) = emigrants and \\(M\\) = immigrants, the population of a country over a period of time will rise if",
+      "options": [
+        { "id": "A", "text": "B = D and X > M" },
+        { "id": "B", "text": "B - D = 0 and M > X" },
+        { "id": "C", "text": "D - B = 0 and M = X" },
+        { "id": "D", "text": "X > M and D > B" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If births equal deaths (\\(B-D=0\\)) and **immigration exceeds emigration** (\\(M > X\\)), population increases."
+    },
+    {
+      "id": 6,
+      "question": "Using the age‑distribution table in figure Econ1998_PopAge_Table, the change in the dependency ratio between 1960 and 1990 is that it",
+      "options": [
+        { "id": "A", "text": "increased by 5%" },
+        { "id": "B", "text": "increased by 2%" },
+        { "id": "C", "text": "decreased by 2%" },
+        { "id": "D", "text": "decreased by 5%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dependants (%): 1960 = \\(35 + 25 = 60\\); 1990 = \\(38 + 20 = 58\\). Dependent share fell from 60% to 58%, i.e. **decreased by 2 percentage points**."
+    },
+    {
+      "id": 7,
+      "question": "From the same table (figure Econ1998_PopAge_Table), in 1990 the difference between the dependent population and the active population ratio is",
+      "options": [
+        { "id": "A", "text": "22%" },
+        { "id": "B", "text": "20%" },
+        { "id": "C", "text": "16%" },
+        { "id": "D", "text": "4%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dependants = \\(38 + 20 = 58\\)%; active = 42%. Difference = \\(58 - 42 = 16\\)%."
+    },
+    {
+      "id": 8,
+      "question": "The short‑run period in production is defined as a period when",
+      "options": [
+        { "id": "A", "text": "there is at least one fixed factor" },
+        { "id": "B", "text": "all costs of production must be covered" },
+        { "id": "C", "text": "the output cannot be varied" },
+        { "id": "D", "text": "current output is not profitable" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In the **short run** at least one factor of production is fixed."
+    },
+    {
+      "id": 9,
+      "question": "Specialization often improves economic performance because it",
+      "options": [
+        { "id": "A", "text": "permits exploitation of economies of scale" },
+        { "id": "B", "text": "incorporates external economies" },
+        { "id": "C", "text": "is based on the law of variable proportions" },
+        { "id": "D", "text": "allocates resources according to absolute advantage" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "By focusing on particular tasks, firms can produce on a larger scale and enjoy **economies of scale**."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following statements best describes the relationship between average product and marginal product?",
+      "options": [
+        { "id": "A", "text": "Marginal product and average product curves rise and fall together" },
+        { "id": "B", "text": "Marginal product equals average product at the minimum point of the latter" },
+        { "id": "C", "text": "Average product curve will rise as long as marginal product is greater than average product" },
+        { "id": "D", "text": "Marginal product equals average product at the maximum point of the former" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "AP rises when **MP > AP**, peaks where **MP = AP**, and falls when **MP < AP**."
+    },
+    {
+      "id": 11,
+      "question": "Using the cost schedule in figure Econ1998_SR_Cost_Table, the average total cost when output is 200 units is",
+      "options": [
+        { "id": "A", "text": "N1.00" },
+        { "id": "B", "text": "N1.20" },
+        { "id": "C", "text": "N1.40" },
+        { "id": "D", "text": "N2.40" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "At \\(Q = 200\\), \\(TC = 100 + 140 = 240\\). Hence \\(ATC = TC/Q = 240/200 = 1.2\\) naira."
+    },
+    {
+      "id": 12,
+      "question": "When a firm is reaping economies of large‑scale production, it experiences a fall in its",
+      "options": [
+        { "id": "A", "text": "long‑run marginal cost" },
+        { "id": "B", "text": "long‑run average cost" },
+        { "id": "C", "text": "long‑run total cost" },
+        { "id": "D", "text": "short‑run marginal cost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Economies of scale mean **falling long‑run average cost (LRAC)** as output increases."
+    },
+    {
+      "id": 13,
+      "question": "In the price‑control diagram (figure Econ1998_PriceControl), the price \\(P_2\\) is referred to as",
+      "options": [
+        { "id": "A", "text": "minimum price" },
+        { "id": "B", "text": "mark‑up price" },
+        { "id": "C", "text": "maximum price" },
+        { "id": "D", "text": "mark‑down price" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Since \\(P_2\\) is set **above the equilibrium price** to support producers, it is a **minimum (floor) price**."
+    },
+    {
+      "id": 14,
+      "question": "In the demand diagram (figure Econ1998_ConsumerSurplus), the shaded triangle is known as",
+      "options": [
+        { "id": "A", "text": "excess supply" },
+        { "id": "B", "text": "consumer surplus" },
+        { "id": "C", "text": "excess consumption" },
+        { "id": "D", "text": "producer surplus" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Consumer surplus is the **area between the demand curve and the price line** up to the quantity purchased."
+    },
+    {
+      "id": 15,
+      "question": "In the multi‑shift demand–supply diagram (figure Econ1998_Shifted_Demand_Supply), \\(D_0D_0\\) is the original demand curve, \\(S_0S_0\\) the original supply curve, \\(D_1D_1\\) the new demand curve and \\(S_1S_1\\) the new supply curve. The new equilibrium quantity is",
+      "options": [
+        { "id": "A", "text": "Q1" },
+        { "id": "B", "text": "Q2" },
+        { "id": "C", "text": "Q3" },
+        { "id": "D", "text": "Q4" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The scan does not clearly show the intersection point of \\(D_1D_1\\) and \\(S_1S_1\\); please confirm the correct label with a clearer diagram or official key."
+    },
+    {
+      "id": 16,
+      "question": "If an increase in the price of a commodity leads to an increase in total revenue, then the demand for this commodity is",
+      "options": [
+        { "id": "A", "text": "normal" },
+        { "id": "B", "text": "elastic" },
+        { "id": "C", "text": "inelastic" },
+        { "id": "D", "text": "abnormal" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "With **inelastic demand** (\\(|E_d| < 1\\)), price and total revenue move in the same direction."
+    },
+    {
+      "id": 17,
+      "question": "Given that the elasticity of demand for a commodity is 2.5, the percentage change in quantity demanded as a result of a 10 per cent change in its price is",
+      "options": [
+        { "id": "A", "text": "0.25" },
+        { "id": "B", "text": "0.40" },
+        { "id": "C", "text": "4.00" },
+        { "id": "D", "text": "25.00" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Price elasticity: \\(E_d = \\frac{\\%\\Delta Q}{\\%\\Delta P}\\). So \\(\\%\\Delta Q = E_d \\times \\%\\Delta P = 2.5 \\times 10\\% = 25\\%\\)."
+    },
+    {
+      "id": 18,
+      "question": "The producer in a perfectly competitive market is faced with a demand curve whose elasticity is",
+      "options": [
+        { "id": "A", "text": "unitary" },
+        { "id": "B", "text": "greater than one" },
+        { "id": "C", "text": "infinite" },
+        { "id": "D", "text": "less than one" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each firm in perfect competition faces a **perfectly elastic (horizontal) demand curve**, i.e. infinite elasticity."
+    },
+    {
+      "id": 19,
+      "question": "In the cost‑revenue diagram (figure Econ1998_PerfComp_Cost), profit is maximized at the output level",
+      "options": [
+        { "id": "A", "text": "ON" },
+        { "id": "B", "text": "OK" },
+        { "id": "C", "text": "OL" },
+        { "id": "D", "text": "OF" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Profit maximization occurs where \\(MR = MC\\); this intersection corresponds to output **OL**."
+    },
+    {
+      "id": 20,
+      "question": "Unlike the retailer, the wholesaler provides",
+      "options": [
+        { "id": "A", "text": "useful information to the manufacturer about consumers’ taste" },
+        { "id": "B", "text": "after‑sales service to the consumer" },
+        { "id": "C", "text": "useful information to the customers on the benefits and uses of the product" },
+        { "id": "D", "text": "useful information about market trends and finance to the manufacturer" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "As a link between producers and retailers, wholesalers are well placed to provide **feedback on consumer preferences** to manufacturers."
+    },
+    {
+      "id": 21,
+      "question": "Liquidation of a limited liability company implies that the",
+      "options": [
+        { "id": "A", "text": "company may not pay its debt" },
+        { "id": "B", "text": "debts of the company can only be paid from its own assets" },
+        { "id": "C", "text": "debts of the company are paid from both business and private funds of the owners" },
+        { "id": "D", "text": "debts of the company must be paid from public funds only" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With **limited liability**, shareholders’ personal assets are protected; company debts are settled from **company assets only**."
+    },
+    {
+      "id": 22,
+      "question": "One form of business organization which is not motivated solely by the profit objective is the",
+      "options": [
+        { "id": "A", "text": "joint‑stock company" },
+        { "id": "B", "text": "private limited company" },
+        { "id": "C", "text": "co‑operative society" },
+        { "id": "D", "text": "ordinary partnership" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Co‑operative societies aim at **mutual benefit of members**, not just profit maximization."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following can have their shares quoted on the stock exchange?",
+      "options": [
+        { "id": "A", "text": "public corporations" },
+        { "id": "B", "text": "a partnership" },
+        { "id": "C", "text": "a consumer co‑operative" },
+        { "id": "D", "text": "a public limited liability company" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Only **public limited liability companies (plc)** are listed and traded on the stock exchange."
+    },
+    {
+      "id": 24,
+      "question": "The sector that employs the largest proportion of the active labour force in Nigeria is the",
+      "options": [
+        { "id": "A", "text": "oil sector" },
+        { "id": "B", "text": "federal civil service" },
+        { "id": "C", "text": "financial sector" },
+        { "id": "D", "text": "agricultural sector" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "**Agriculture** remains the largest employer of labour in Nigeria."
+    },
+    {
+      "id": 25,
+      "question": "An entirely domestic effort directed at improving agricultural production in Nigeria is the",
+      "options": [
+        { "id": "A", "text": "Agricultural Development Programme" },
+        { "id": "B", "text": "Agro‑Industrial Development Scheme" },
+        { "id": "C", "text": "Food and Agricultural Organization" },
+        { "id": "D", "text": "National Land Development Authority" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The **Agricultural Development Programme (ADP)** is a Nigerian government initiative; FAO is international."
+    },
+    {
+      "id": 26,
+      "question": "A factor that influences the location of a firm near its market is the",
+      "options": [
+        { "id": "A", "text": "transportation of bulky raw materials" },
+        { "id": "B", "text": "external economies" },
+        { "id": "C", "text": "high cost of transporting finished goods" },
+        { "id": "D", "text": "availability of skilled manpower" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If it is expensive to move finished goods, firms reduce cost by locating **close to the market**."
+    },
+    {
+      "id": 27,
+      "question": "In many developing countries, infrastructural problem is acute due to the shortage of",
+      "options": [
+        { "id": "A", "text": "industries and industrial equipment" },
+        { "id": "B", "text": "savings, investment and consumption" },
+        { "id": "C", "text": "natural resources for development" },
+        { "id": "D", "text": "supporting services that encourage economic activities" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Infrastructural facilities (roads, power, communication) are **supporting services**; their shortage hampers development."
+    },
+    {
+      "id": 28,
+      "question": "Export‑promotion policy is primarily concerned with the",
+      "options": [
+        { "id": "A", "text": "processing of raw materials to increase their value" },
+        { "id": "B", "text": "making of international routes safe for export commodities" },
+        { "id": "C", "text": "reduction in the number of imported items" },
+        { "id": "D", "text": "encouragement of the production of export commodities" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Export promotion focuses on **stimulating the production and sale of exports**."
+    },
+    {
+      "id": 29,
+      "question": "The petroleum industry in Nigeria is",
+      "options": [
+        { "id": "A", "text": "the sole source of the nation’s revenue" },
+        { "id": "B", "text": "the oldest industry in the country" },
+        { "id": "C", "text": "the mainstay of the economy" },
+        { "id": "D", "text": "a factor in the decline in the nation’s foreign reserves" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Oil is the **mainstay** of Nigeria’s economy, contributing most export and government revenue."
+    },
+    {
+      "id": 30,
+      "question": "Crude petroleum is a good example of a",
+      "options": [
+        { "id": "A", "text": "lasting asset" },
+        { "id": "B", "text": "wasting asset" },
+        { "id": "C", "text": "synthetic product" },
+        { "id": "D", "text": "costless resource" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Crude oil reserves **deplete over time**; they are a wasting asset."
+    },
+    {
+      "id": 31,
+      "question": "One of the techniques of monetary control used by the Central Bank of Nigeria is",
+      "options": [
+        { "id": "A", "text": "selective credit control" },
+        { "id": "B", "text": "budget deficit" },
+        { "id": "C", "text": "foreign exchange control" },
+        { "id": "D", "text": "monitoring the general price level" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Selective credit control (e.g. varying credit terms by sector) is a classic **monetary‑policy tool**."
+    },
+    {
+      "id": 32,
+      "question": "Which of the following is true about the value of money?",
+      "options": [
+        { "id": "A", "text": "It varies inversely with the price level" },
+        { "id": "B", "text": "It varies directly with the price level" },
+        { "id": "C", "text": "It depreciates in the period of deflation" },
+        { "id": "D", "text": "It is not affected by the price level" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Real value of money \\(\\propto 1/P\\); as **price level rises, the value of money falls**."
+    },
+    {
+      "id": 33,
+      "question": "If the reserve requirement for commercial banking in Nigeria were 30%, a commercial bank which receives an initial cash deposit of N3,000 is in a position to lend out",
+      "options": [
+        { "id": "A", "text": "N9,000" },
+        { "id": "B", "text": "N3,300" },
+        { "id": "C", "text": "N2,770" },
+        { "id": "D", "text": "N2,100" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Required reserves = \\(0.30 \\times 3000 = 900\\). Maximum loan = \\(3000 - 900 = 2100\\)."
+    },
+    {
+      "id": 34,
+      "question": "An issue of bank‑notes not backed by gold but by government securities is known as",
+      "options": [
+        { "id": "A", "text": "fiduciary issue" },
+        { "id": "B", "text": "guaranteed money" },
+        { "id": "C", "text": "seigniorage" },
+        { "id": "D", "text": "legal tender" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **fiduciary issue** is currency backed by the government’s credit/securities rather than gold."
+    },
+    {
+      "id": 35,
+      "question": "A rise in the market price of fixed‑interest securities is an indication that the",
+      "options": [
+        { "id": "A", "text": "supply of money has decreased" },
+        { "id": "B", "text": "liquidity preference has increased" },
+        { "id": "C", "text": "market rate of interest has risen" },
+        { "id": "D", "text": "market rate of interest has fallen" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Bond prices move **inversely** with interest rates; higher bond prices imply **lower market interest rates**."
+    },
+    {
+      "id": 36,
+      "question": "An increase in government expenditure will lead to",
+      "options": [
+        { "id": "A", "text": "investment opportunities for foreign investors" },
+        { "id": "B", "text": "an increase in the level of aggregate demand" },
+        { "id": "C", "text": "an increase in total tax revenue" },
+        { "id": "D", "text": "availability of substitutes for the commodity" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Government spending is a component of aggregate demand: **AD = C + I + G + (X−M)**; higher \\(G\\) raises AD."
+    },
+    {
+      "id": 37,
+      "question": "When an indirect tax is levied on the producer of a good, the burden on the consumer will depend largely on the",
+      "options": [
+        { "id": "A", "text": "elasticity of demand for the good" },
+        { "id": "B", "text": "proportion of the consumer’s income spent on the goods" },
+        { "id": "C", "text": "elasticity of demand and supply of the commodity" },
+        { "id": "D", "text": "availability of substitutes for the commodity" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Tax incidence depends on the **relative elasticities of demand and supply**."
+    },
+    {
+      "id": 38,
+      "question": "If a government wants to reduce the level of inflation, it will",
+      "options": [
+        { "id": "A", "text": "run a budget surplus" },
+        { "id": "B", "text": "run a budget deficit" },
+        { "id": "C", "text": "run a balance budget" },
+        { "id": "D", "text": "borrow more money" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A **budget surplus** withdraws demand from the economy and helps curb inflation."
+    },
+    {
+      "id": 39,
+      "question": "If a country’s national income increased from N1000 billion to N1100 billion over a period of 2 years, what was the average annual rate of growth of national income over the period?",
+      "options": [
+        { "id": "A", "text": "5%" },
+        { "id": "B", "text": "15%" },
+        { "id": "C", "text": "20%" },
+        { "id": "D", "text": "100%" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Total growth = \\(100/1000 = 10\\%\\) over 2 years; average per year = \\(10\\%/2 = 5\\%\\)."
+    },
+    {
+      "id": 40,
+      "question": "A fall in the marginal propensity to save will lead to",
+      "options": [
+        { "id": "A", "text": "a decrease in national income" },
+        { "id": "B", "text": "an increase in national income" },
+        { "id": "C", "text": "no change in national income" },
+        { "id": "D", "text": "an increase in disposable income" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If \\(MPS\\) falls (so **\\(MPC\\) rises**), the multiplier \\(k = 1/(1-MPC)\\) increases; for given injections, **national income rises**."
+    },
+    {
+      "id": 41,
+      "question": "Which of the following is a transfer payment?",
+      "options": [
+        { "id": "A", "text": "dividend to a shareholder" },
+        { "id": "B", "text": "gift to a motherless babies’ home" },
+        { "id": "C", "text": "salary to a worker" },
+        { "id": "D", "text": "rent to a landlord" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A **gift or donation** is a transfer payment; it is not made in return for current production."
+    },
+    {
+      "id": 42,
+      "question": "The major objective of economic growth is to",
+      "options": [
+        { "id": "A", "text": "redistribute income and other benefits of growth" },
+        { "id": "B", "text": "equalize opportunities for education and employment" },
+        { "id": "C", "text": "increase the aggregate expenditure on goods and services" },
+        { "id": "D", "text": "increase the real per capita income" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Economic growth is typically measured as a sustained rise in **real per capita income/output**."
+    },
+    {
+      "id": 43,
+      "question": "The Family Support Programme in Nigeria essentially focuses on",
+      "options": [
+        { "id": "A", "text": "the generation of employment" },
+        { "id": "B", "text": "the alleviation of poverty" },
+        { "id": "C", "text": "agricultural and industrial development" },
+        { "id": "D", "text": "economic emancipation of women" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The FSP aimed at **improving family welfare and reducing poverty**, especially among women and children."
+    },
+    {
+      "id": 44,
+      "question": "Economically, underdeveloped countries are characterized by",
+      "options": [
+        { "id": "A", "text": "high rate of population growth and low rate of economic growth" },
+        { "id": "B", "text": "high rate of economic growth and low rate of population growth" },
+        { "id": "C", "text": "high rate of population growth and high rate of economic growth" },
+        { "id": "D", "text": "low rate of population growth and low rate of economic growth" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Many underdeveloped countries experience **rapid population growth** but **slow economic growth**."
+    },
+    {
+      "id": 45,
+      "question": "One of the major consequences of urban‑biased development programmes in Nigeria is that they",
+      "options": [
+        { "id": "A", "text": "led to rapid rural‑urban migration" },
+        { "id": "B", "text": "led to unprecedented urban wealth" },
+        { "id": "C", "text": "transformed rural areas into urban centres" },
+        { "id": "D", "text": "increased the level of specialized manpower in the cities" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Concentrating development in cities encourages **mass migration from rural to urban areas**."
+    },
+    {
+      "id": 46,
+      "question": "Development plans have not been successful in some developing countries largely because of",
+      "options": [
+        { "id": "A", "text": "very large working population" },
+        { "id": "B", "text": "increasing level of consumption" },
+        { "id": "C", "text": "scarcity of industrial raw materials" },
+        { "id": "D", "text": "shortage of skilled labour and experts" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Implementation is often hampered by **shortage of skilled personnel and managerial expertise**."
+    },
+    {
+      "id": 47,
+      "question": "The balance of visible trade is the difference between the value of",
+      "options": [
+        { "id": "A", "text": "imported and exported goods" },
+        { "id": "B", "text": "imported and exported services" },
+        { "id": "C", "text": "current account and capital account" },
+        { "id": "D", "text": "exchange rate of local and foreign currencies" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Visible trade refers to **tangible goods**; balance of trade = value of exports of goods minus imports of goods."
+    },
+    {
+      "id": 48,
+      "question": "If a country has a balance of payments surplus on current accounts, this means that",
+      "options": [
+        { "id": "A", "text": "the total invisible export is greater than invisible import" },
+        { "id": "B", "text": "the value of goods exported must be greater than the value of goods imported" },
+        { "id": "C", "text": "there must be a positive balance on capital account" },
+        { "id": "D", "text": "the aggregate of the balance of trade and the invisible balance must be positive" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **current account** equals balance of trade (goods) plus net invisibles; a surplus implies the **sum is positive**."
+    },
+    {
+      "id": 49,
+      "question": "If a country operates a freely floating exchange rate system and suffers a balance of payments deficit, the deficit can be eliminated through",
+      "options": [
+        { "id": "A", "text": "a rise in the external value of its currency" },
+        { "id": "B", "text": "a fall in the external value of its currency" },
+        { "id": "C", "text": "an increase in the volume of imports" },
+        { "id": "D", "text": "the consumption of more foreign goods" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Under floating rates, a deficit leads to **currency depreciation**, which makes exports cheaper and imports dearer, helping to correct the deficit."
+    },
+    {
+      "id": 50,
+      "question": "The Economic Commission for Africa was set up by the",
+      "options": [
+        { "id": "A", "text": "UNO" },
+        { "id": "B", "text": "ECOWAS" },
+        { "id": "C", "text": "OAU" },
+        { "id": "D", "text": "IMF" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The Economic Commission for Africa is a **regional commission of the United Nations (UNO)**."
+    }
+  ]
+}
