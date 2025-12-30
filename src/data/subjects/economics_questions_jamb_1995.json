@@ -1,1 +1,634 @@
 
+{
+  "year": 1995,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1995_CircularFlow",
+      "file": "images/econ1995_q2_circular_flow.png",
+      "description": "Circular‑flow diagram for Question 2. On the left is a box labelled Households, on the right a box labelled Business Units. A horizontal arrow on the upper side, labelled L, goes from Households to Business Units (real flow of factors); a lower arrow M goes from Business Units to Households (flow of finished goods and services). A circular arrow N completes the flow around the outside. One of the arrows K, L, M, N corresponds to consumption expenditure."
+    },
+    {
+      "id": "Econ1995_MP_Table",
+      "file": "images/econ1995_q13_mp_table.png",
+      "description": "Production table for Question 13. Columns: Number of workers and Total Output (units). Data: (1, 24), (2, 46), (3, 60), (4, 84), (5, 95), (6, 110), (7, 115). Marginal product of worker \\(n\\) is \\(MP_n = Q_n - Q_{n-1}\\), and average product is \\(AP_n = Q_n / n\\)."
+    },
+    {
+      "id": "Econ1995_AC_MC_Diagram",
+      "file": "images/econ1995_q14_profit_ac_mc.png",
+      "description": "Short‑run cost and revenue diagram for Question 14. Vertical axis: Price (P), horizontal axis: Quantity (Q). Downward‑sloping demand curve D, upward‑sloping marginal‑cost curve MC, U‑shaped average‑cost curve AC. At price \\(P_2\\) and quantity \\(Q_2\\), total revenue is the rectangle \\(P_2Q_2\\) and profit is the area between price and AC."
+    },
+    {
+      "id": "Econ1995_Tax_ZeroElastic",
+      "file": "images/econ1995_q44_45_tax_zero_elastic.png",
+      "description": "Indirect‑tax diagram for Questions 44–45. Vertical axis: price \\(P\\); horizontal axis: quantity \\(Q\\). Demand curve D is vertical (zero price elasticity of demand). Two upward‑sloping supply curves: \\(S_1\\) (before tax) and \\(S_2\\) (after tax). Initial equilibrium at price \\(P_1\\) and quantity \\(Q_0\\); after tax, price rises to \\(P_2\\) and supply curve shifts to \\(S_2\\). Areas between \\(P_1\\) and \\(P_2\\) along \\(Q_0\\) represent tax borne by consumers and producers."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "The ultimate objective of economics is to",
+      "options": [
+        { "id": "A", "text": "make effort to understand how the economy works" },
+        { "id": "B", "text": "make the best use of scarce resources" },
+        { "id": "C", "text": "organize production at the lowest cost" },
+        { "id": "D", "text": "decide under what circumstances in the economy" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Economics is about **allocating scarce resources** efficiently among competing uses."
+    },
+    {
+      "id": 2,
+      "question": "In the circular flow of income above (figure Econ1995_CircularFlow), the direction of flow of payments for consumption purchases is shown by the arrow",
+      "options": [
+        { "id": "A", "text": "K" },
+        { "id": "B", "text": "L" },
+        { "id": "C", "text": "M" },
+        { "id": "D", "text": "N" }
+      ],
+      "correctAnswer": "N",
+      "explanation": "Households pay money **to business units for goods**, represented by the outer arrow N."
+    },
+    {
+      "id": 3,
+      "question": "A student discovers that he simultaneously needs a biro, an exercise book, an eraser and a ruler, but he can purchase only one of these items. What is the first thing he is expected to do?",
+      "options": [
+        { "id": "A", "text": "Check how much money he has" },
+        { "id": "B", "text": "Find out which is the cheapest of the items" },
+        { "id": "C", "text": "Draw up a scale of preference" },
+        { "id": "D", "text": "Weigh the opportunity cost of each item against the others" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When faced with many wants and limited means, the first step is to **rank wants in a scale of preference**."
+    },
+    {
+      "id": 4,
+      "question": "What to produce in any society is determined by the",
+      "options": [
+        { "id": "A", "text": "expenditure of the people on different commodities" },
+        { "id": "B", "text": "competition among the different producers" },
+        { "id": "C", "text": "competition among the difference consumers" },
+        { "id": "D", "text": "supply and demand in the factor markets" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Consumer expenditure patterns (effective demand) signal to producers **which goods are wanted**."
+    },
+    {
+      "id": 5,
+      "question": "The active intervention of the central authorities in the management of a country’s economy rests upon the",
+      "options": [
+        { "id": "A", "text": "failure of the market forces to produce satisfactorily" },
+        { "id": "B", "text": "superiority of the centrally planned economy over the private enterprise economy" },
+        { "id": "C", "text": "result‑oriented nature of the private enterprise economy" },
+        { "id": "D", "text": "cost‑minimization strategy of a mixed economy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Government intervenes largely to correct **market failures**."
+    },
+    {
+      "id": 6,
+      "question": "The problems of conducting census include",
+      "options": [
+        { "id": "A", "text": "high rate of rural‑urban migration" },
+        { "id": "B", "text": "poor geographical distribution of population" },
+        { "id": "C", "text": "high birth rate in the country" },
+        { "id": "D", "text": "poor town planning in urban areas" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Frequent **rural–urban migration** makes it difficult to count people accurately."
+    },
+    {
+      "id": 7,
+      "question": "An ageing population is a population",
+      "options": [
+        { "id": "A", "text": "with a high dependency ratio" },
+        { "id": "B", "text": "with many young people" },
+        { "id": "C", "text": "in which the number of old persons is increasing" },
+        { "id": "D", "text": "that is dominated by very old people" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An ageing population is one where the **proportion of elderly people is rising**."
+    },
+    {
+      "id": 8,
+      "question": "The population of Ohaha L.G.A. was 480,000 in December 1980 out of which 60% were females. If within one year no births were recorded, but 5% of the males died, what will be the population of the L.G.A. in December 1981?",
+      "options": [
+        { "id": "A", "text": "96,000" },
+        { "id": "B", "text": "192,000" },
+        { "id": "C", "text": "288,000" },
+        { "id": "D", "text": "470,400" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Initial males = 40% of 480,000 = 192,000. Deaths = 5% of males = 9,600. New population = 480,000 − 9,600 = **470,400**."
+    },
+    {
+      "id": 9,
+      "question": "What is meant by labour supply?",
+      "options": [
+        { "id": "A", "text": "number of people in working population" },
+        { "id": "B", "text": "number of men and hours they work" },
+        { "id": "C", "text": "number of hours during which the middle‑aged persons work" },
+        { "id": "D", "text": "number of workforce multiplied by the hours they work" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Economists measure labour supply in **man‑hours**, i.e. number of workers × hours worked."
+    },
+    {
+      "id": 10,
+      "question": "The advantages which firms obtain directly from expanding their operations are referred to as",
+      "options": [
+        { "id": "A", "text": "internal economies of scale" },
+        { "id": "B", "text": "external economies of scale" },
+        { "id": "C", "text": "economies of localization" },
+        { "id": "D", "text": "economies of resource allocation" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cost advantages enjoyed by a firm due to its own expansion are **internal economies of scale**."
+    },
+    {
+      "id": 11,
+      "question": "The factor of production that has the highest degree of mobility is",
+      "options": [
+        { "id": "A", "text": "land" },
+        { "id": "B", "text": "labour" },
+        { "id": "C", "text": "capital" },
+        { "id": "D", "text": "entrepreneurship" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Financial **capital** can usually be moved most easily between uses and locations."
+    },
+    {
+      "id": 12,
+      "question": "Any payment to a factor of production in excess of what is necessary to keep that factor in its present employment is known as",
+      "options": [
+        { "id": "A", "text": "real income" },
+        { "id": "B", "text": "profit" },
+        { "id": "C", "text": "economic rent" },
+        { "id": "D", "text": "real wage" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "**Economic rent** is the surplus over transfer earnings required to keep a factor in its current use."
+    },
+    {
+      "id": 13,
+      "question": "Using the production table in figure Econ1995_MP_Table, the marginal product of the 2nd worker and the average product of the 5th worker respectively are",
+      "options": [
+        { "id": "A", "text": "23 and 20" },
+        { "id": "B", "text": "22 and 19" },
+        { "id": "C", "text": "14 and 19" },
+        { "id": "D", "text": "11 and 20" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Marginal product: \\(MP_2 = 46 - 24 = 22\\). Average product of 5th worker: \\(AP_5 = 95 / 5 = 19\\)."
+    },
+    {
+      "id": 14,
+      "question": "Given that \\(TC = TFC + TVC\\) and \\(TR = AR \\times Q\\), profit \\(\\pi\\) is equal to",
+      "options": [
+        { "id": "A", "text": "\\((AR + Q) - TFC\\)" },
+        { "id": "B", "text": "\\(\\dfrac{(TFC + TVC)}{Q}\\)" },
+        { "id": "C", "text": "\\((AR \\times Q) - TC\\)" },
+        { "id": "D", "text": "\\dfrac{(TC \\times Q)}{AR}\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Profit \\(\\pi = TR - TC = AR \\times Q - TC\\)."
+    },
+    {
+      "id": 15,
+      "question": "The opportunity cost of the use of productive resources which a producer owns and so does not pay for constitutes",
+      "options": [
+        { "id": "A", "text": "a fixed cost" },
+        { "id": "B", "text": "an implicit cost" },
+        { "id": "C", "text": "a variable cost" },
+        { "id": "D", "text": "a prime cost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Forgone earnings on self‑owned resources are **implicit costs**."
+    },
+    {
+      "id": 16,
+      "question": "The effect of changes in the condition of demand on a demand schedule with the price constant is",
+      "options": [
+        { "id": "A", "text": "movement along the demand curve" },
+        { "id": "B", "text": "deflation of the demand curve" },
+        { "id": "C", "text": "hyperbola formation by the demand curve" },
+        { "id": "D", "text": "shift of the demand curve" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Changes in factors **other than price** cause the entire demand curve to shift."
+    },
+    {
+      "id": 17,
+      "question": "Which of the following statements is TRUE of the effect of changes in demand and supply on price?",
+      "options": [
+        { "id": "A", "text": "A decrease in supply will lead to a fall in price and a fall in the quantity bought and sold" },
+        { "id": "B", "text": "An increase in demand will lead to a fall in price and in the quantity bought and sold" },
+        { "id": "C", "text": "A decrease in demand will lead to a rise in price and in the quantity bought and sold" },
+        { "id": "D", "text": "An increase in supply will lead to a fall in price and a rise in the quantity bought and sold" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "With demand constant, **increased supply** lowers equilibrium price and raises equilibrium quantity."
+    },
+    {
+      "id": 18,
+      "question": "In a free market economy, available resources are more efficiently allocated by complete reliance on",
+      "options": [
+        { "id": "A", "text": "development planning" },
+        { "id": "B", "text": "strategic planning" },
+        { "id": "C", "text": "capital budgeting" },
+        { "id": "D", "text": "price system" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In a market economy, the **price mechanism** allocates resources."
+    },
+    {
+      "id": 19,
+      "question": "In order to maximize his profit, a businessman who faces a very elastic demand for his products is advised to",
+      "options": [
+        { "id": "A", "text": "slightly increase the price of his products" },
+        { "id": "B", "text": "slightly reduce the price of his products" },
+        { "id": "C", "text": "leave his prices unchanged" },
+        { "id": "D", "text": "discriminate his prices" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With **elastic demand**, a small price cut leads to a larger percentage rise in quantity sold and hence higher revenue."
+    },
+    {
+      "id": 20,
+      "question": "What is the price elasticity of demand for commodity X, if at a price of N25 the quantity demanded is 80 and when the price is reduced to N20 the quantity demanded is 100?",
+      "options": [
+        { "id": "A", "text": "1.25" },
+        { "id": "B", "text": "1.45" },
+        { "id": "C", "text": "0.25" },
+        { "id": "D", "text": "0.15" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Using arc elasticity: \\(E_d = \\dfrac{\\Delta Q}{\\Delta P} \\times \\dfrac{P_1 + P_2}{Q_1 + Q_2} = \\dfrac{20}{-5} \\times \\dfrac{25+20}{80+100} \\approx -1.25\\). In absolute value elasticity is **1.25** (elastic)."
+    },
+    {
+      "id": 21,
+      "question": "If \\(Y\\) represents the income earned by workers in a factory, find the range of their income which satisfies the inequality \\(4Y - 300 > 500\\).",
+      "options": [
+        { "id": "A", "text": "Y > 300" },
+        { "id": "B", "text": "Y > 250" },
+        { "id": "C", "text": "Y > 200" },
+        { "id": "D", "text": "Y > 150" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Solve: \\(4Y - 300 > 500 \\Rightarrow 4Y > 800 \\Rightarrow Y > 200\\). (Based on the algebra the correct inequality is **Y > 200**, so the official answer is likely C; however the scanned inequality may have different constants. Please verify with a clearer copy.)"
+    },
+    {
+      "id": 22,
+      "question": "Both in the short run and in the long run, a firm maximizes its profits when",
+      "options": [
+        { "id": "A", "text": "MC = MR" },
+        { "id": "B", "text": "AC = MC" },
+        { "id": "C", "text": "AVC = AC" },
+        { "id": "D", "text": "MC = AVC" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The general profit‑maximization condition is **marginal cost equals marginal revenue (MC = MR)**."
+    },
+    {
+      "id": 23,
+      "question": "In recent times, agriculture in Nigeria tends to lose its vital labour force as a result of",
+      "options": [
+        { "id": "A", "text": "lack of an effective agricultural policy" },
+        { "id": "B", "text": "employment opportunities in the oil sector" },
+        { "id": "C", "text": "rural‑urban drift" },
+        { "id": "D", "text": "low prices of agricultural products" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Many young people leave rural farming areas for city jobs—**rural–urban migration**."
+    },
+    {
+      "id": 24,
+      "question": "Stocking small quantities of a variety of goods is a function of the",
+      "options": [
+        { "id": "A", "text": "manufacturer" },
+        { "id": "B", "text": "wholesaler" },
+        { "id": "C", "text": "retailer" },
+        { "id": "D", "text": "consumer" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Retailers break bulk and **stock many varieties in small quantities** for consumers."
+    },
+    {
+      "id": 25,
+      "question": "In a joint‑stock company, preference shareholders are those who receive",
+      "options": [
+        { "id": "A", "text": "high dividends when profits are high and little or nothing when profits are low" },
+        { "id": "B", "text": "a fixed rate of dividend and have the first claim on net profits of the company" },
+        { "id": "C", "text": "the remaining profits after all other shareholders have been paid" },
+        { "id": "D", "text": "dividends quarterly when others receive annually" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Preference shares carry a **fixed dividend** and priority over ordinary shares."
+    },
+    {
+      "id": 26,
+      "question": "The major reason for the survival of small shops despite competition from large business enterprises is because of",
+      "options": [
+        { "id": "A", "text": "the small capital outlay involved" },
+        { "id": "B", "text": "regularity and constant supply of commodities" },
+        { "id": "C", "text": "their local services and longer hours of operation" },
+        { "id": "D", "text": "they take prompt decisions and actions" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Small shops often survive due to **personalized local service and convenient hours**."
+    },
+    {
+      "id": 27,
+      "question": "One of the major advantages of public enterprises is that",
+      "options": [
+        { "id": "A", "text": "they are highly subsidized" },
+        { "id": "B", "text": "they are the largest employers of labour" },
+        { "id": "C", "text": "their operations are highly standardized" },
+        { "id": "D", "text": "they take prompt decisions and actions" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Public enterprises often receive **subsidies**, allowing them to provide services at low prices."
+    },
+    {
+      "id": 28,
+      "question": "When public enterprises become commercialized it means that",
+      "options": [
+        { "id": "A", "text": "the product of the enterprises are further subsidized" },
+        { "id": "B", "text": "they are expected to operate with the primary aim of making profits" },
+        { "id": "C", "text": "the government has decided to divest itself of such enterprises" },
+        { "id": "D", "text": "the staff of the enterprises will be laid off" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Commercialization requires public enterprises to **operate on commercial, profit‑oriented lines**."
+    },
+    {
+      "id": 29,
+      "question": "Which of the following statements are TRUE of agriculture in Nigeria? \nI. It provides food for the growing population.\nII. A large proportion of the population is engaged in it.\nIII. Agricultural products are used as raw materials by local industries.\nIV. It serves as a source of heavy equipment to local industries.",
+      "options": [
+        { "id": "A", "text": "I, II and III only" },
+        { "id": "B", "text": "II and III only" },
+        { "id": "C", "text": "I, II, III and IV" },
+        { "id": "D", "text": "II and IV only" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Statements I–III are true; IV is false since agriculture does not supply **heavy equipment**."
+    },
+    {
+      "id": 30,
+      "question": "The government can influence the price of agricultural products by",
+      "options": [
+        { "id": "A", "text": "fixing minimum prices when agricultural output is low" },
+        { "id": "B", "text": "fixing maximum prices in years of bumper harvests" },
+        { "id": "C", "text": "the use of buffer stocks as stabilization funds" },
+        { "id": "D", "text": "paying all farmers producing identical crops a uniform amount of money" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "**Buffer‑stock schemes** are used to stabilize agricultural prices over time."
+    },
+    {
+      "id": 31,
+      "question": "The crucial factors which determine the location of petroleum refineries in Nigeria are availability of raw materials and",
+      "options": [
+        { "id": "A", "text": "capital" },
+        { "id": "B", "text": "political consideration" },
+        { "id": "C", "text": "nearness to source of power" },
+        { "id": "D", "text": "labour" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Refineries require large amounts of **energy/power**, hence siting near power and crude sources."
+    },
+    {
+      "id": 32,
+      "question": "Infant industries denote industries which",
+      "options": [
+        { "id": "A", "text": "are introducing new products" },
+        { "id": "B", "text": "are too young to compete in the world market" },
+        { "id": "C", "text": "produce baby food and mother‑care products" },
+        { "id": "D", "text": "are allowed time enough to mature for recognition" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An **infant industry** is a newly established industry that needs protection from foreign competition."
+    },
+    {
+      "id": 33,
+      "question": "When compared with a labour‑intensive industry, a capital‑intensive industry employs more",
+      "options": [
+        { "id": "A", "text": "workers than capital" },
+        { "id": "B", "text": "workers than machinery" },
+        { "id": "C", "text": "raw material than capital" },
+        { "id": "D", "text": "machinery than workers" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Capital‑intensive production uses **more machines relative to labour**."
+    },
+    {
+      "id": 34,
+      "question": "The major source of Nigeria’s foreign exchange is the export of",
+      "options": [
+        { "id": "A", "text": "skilled manpower" },
+        { "id": "B", "text": "palm‑kernel and cocoa" },
+        { "id": "C", "text": "crude oil" },
+        { "id": "D", "text": "groundnuts and cotton" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nigeria earns most foreign exchange from **crude‑oil exports**."
+    },
+    {
+      "id": 35,
+      "question": "The most important goal of OPEC is to",
+      "options": [
+        { "id": "A", "text": "present a united front for the purpose of raising prices of crude oil" },
+        { "id": "B", "text": "bring unity among the petroleum exporting states" },
+        { "id": "C", "text": "ensure political stability among member states" },
+        { "id": "D", "text": "ensure that rules on quota production are strictly followed" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "OPEC’s primary role is to **coordinate policies to influence oil prices**, mainly by adjusting supply quotas."
+    },
+    {
+      "id": 36,
+      "question": "The Central Bank’s expansionary monetary policy is justified at a period",
+      "options": [
+        { "id": "A", "text": "when the inflation rate is high and the economy is experiencing a boom" },
+        { "id": "B", "text": "of economic depression accompanied by low capacity utilization" },
+        { "id": "C", "text": "when trade unions are clamouring for higher wages" },
+        { "id": "D", "text": "when the price of crude petroleum is rising" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Expansionary policy is appropriate during **recession or depression** to stimulate demand."
+    },
+    {
+      "id": 37,
+      "question": "The sharp increases in the prices of most goods and services during the last quarter of 1994 in Nigeria were mainly due to",
+      "options": [
+        { "id": "A", "text": "a ban on importation of foreign goods" },
+        { "id": "B", "text": "population upsurge" },
+        { "id": "C", "text": "the introduction of value‑added tax" },
+        { "id": "D", "text": "increase in transport costs" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The introduction of **VAT** raised prices of many goods and services."
+    },
+    {
+      "id": 38,
+      "question": "The best method to curb inflation in Nigeria is to",
+      "options": [
+        { "id": "A", "text": "reduce importation of commodities" },
+        { "id": "B", "text": "increase the general level of production" },
+        { "id": "C", "text": "reduce the volume of money supply" },
+        { "id": "D", "text": "set up price control boards" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sustained inflation can be best addressed by **expanding domestic production**, easing supply constraints."
+    },
+    {
+      "id": 39,
+      "question": "A bank is said to be distressed when it",
+      "options": [
+        { "id": "A", "text": "is unable to deal with the Central Bank" },
+        { "id": "B", "text": "has a low capital base" },
+        { "id": "C", "text": "has low level of deposits" },
+        { "id": "D", "text": "experiences serious liquidity crisis" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A distressed bank cannot meet its obligations; it suffers a **liquidity crisis**."
+    },
+    {
+      "id": 40,
+      "question": "One method through which the Central Bank can restrict the commercial banks’ power of credit expansion is to",
+      "options": [
+        { "id": "A", "text": "demand for increased special deposits" },
+        { "id": "B", "text": "decrease the cash ratio" },
+        { "id": "C", "text": "buy securities in the open market" },
+        { "id": "D", "text": "reduce the rate of interest at which banks borrow from it" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Increasing **special (or compulsory) deposits / reserve ratio** reduces banks’ ability to extend credit."
+    },
+    {
+      "id": 41,
+      "question": "Which of the following is mostly used to determine the cost of living?",
+      "options": [
+        { "id": "A", "text": "marginal changes in prices" },
+        { "id": "B", "text": "consumer price index" },
+        { "id": "C", "text": "prices of imported and exported commodities" },
+        { "id": "D", "text": "producer price index" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The **consumer price index (CPI)** measures changes in the cost of a typical basket of consumer goods and services."
+    },
+    {
+      "id": 42,
+      "question": "The demands made on each other by the agricultural and industrial sectors as the economy grows are reflected in",
+      "options": [
+        { "id": "A", "text": "backward and forward linkages" },
+        { "id": "B", "text": "horizontal and vertical linkages" },
+        { "id": "C", "text": "vertical linkages" },
+        { "id": "D", "text": "functional linkages" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Agriculture supplies raw materials to industry (backward linkage) and demands industrial inputs (forward linkage)."
+    },
+    {
+      "id": 43,
+      "question": "Foreign exchange rate in a free market economy is determined by",
+      "options": [
+        { "id": "A", "text": "the government" },
+        { "id": "B", "text": "the Central Bank" },
+        { "id": "C", "text": "demand and supply" },
+        { "id": "D", "text": "commercial banks" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a free (floating) system, exchange rates are set by **market demand and supply for currencies**."
+    },
+    {
+      "id": 44,
+      "question": "Using the indirect‑tax diagram in figure Econ1995_Tax_ZeroElastic, the total tax revenue is represented by the area",
+      "options": [
+        { "id": "A", "text": "\\(P_1EHF_0\\)" },
+        { "id": "B", "text": "\\(P_1HQP_0\\)" },
+        { "id": "C", "text": "\\(P_2E Q_0\\)" },
+        { "id": "D", "text": "\\(P_2EDP_0\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Tax revenue equals **tax per unit × quantity**; with perfectly inelastic demand quantity is \\(Q_0\\) and tax per unit is \\(P_2 - P_1\\). The rectangle with height \\(P_2P_1\\) and width \\(Q_0O\\) (labelled \\(P_2EDP_0\\) in the diagram) represents total tax."
+    },
+    {
+      "id": 45,
+      "question": "From the same diagram, the tax imposed is borne",
+      "options": [
+        { "id": "A", "text": "totally by the consumer" },
+        { "id": "B", "text": "totally by the producer" },
+        { "id": "C", "text": "equally by both the consumer and the producer" },
+        { "id": "D", "text": "by the government" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "With **zero price elasticity of demand**, the full tax can be shifted to consumers via higher prices."
+    },
+    {
+      "id": 46,
+      "question": "Ajanka, a medical student entitled to an annual allowance of N6,000, decides to leave the university to take up a job where he earns N7,000 per annum. By this singular act, the national income level will",
+      "options": [
+        { "id": "A", "text": "increase by N1,000" },
+        { "id": "B", "text": "decrease by N7,000" },
+        { "id": "C", "text": "increase by N7,000" },
+        { "id": "D", "text": "increase by N13,000" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "He previously received **transfer income** (allowance) which is not part of national income; by working he now adds N7,000 to NI but loses N6,000 of transfer, so net increase = **N1,000**."
+    },
+    {
+      "id": 47,
+      "question": "An increasing population might be of economic benefit to a country if",
+      "options": [
+        { "id": "A", "text": "the female population is greater than the male population" },
+        { "id": "B", "text": "the dependency ratio is increasing continuously" },
+        { "id": "C", "text": "a continuously higher proportion falls into the working‑class category" },
+        { "id": "D", "text": "the rural and urban proportions are balanced" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Population growth is beneficial if the growth is mainly in the **working‑age, productive group**."
+    },
+    {
+      "id": 48,
+      "question": "The demands made on each other by the agricultural and industrial sectors as the economy grows are reflected in",
+      "options": [
+        { "id": "A", "text": "backward and forward linkages" },
+        { "id": "B", "text": "horizontal and vertical linkages" },
+        { "id": "C", "text": "vertical linkages" },
+        { "id": "D", "text": "functional linkages" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Same rationale as Question 42: **backward and forward linkages** capture such interdependence."
+    },
+    {
+      "id": 49,
+      "question": "Foreign exchange rate in a free market economy is determined by",
+      "options": [
+        { "id": "A", "text": "the government" },
+        { "id": "B", "text": "the Central Bank" },
+        { "id": "C", "text": "demand and supply" },
+        { "id": "D", "text": "commercial banks" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Already answered in Q43; **market forces** set the exchange rate."
+    },
+    {
+      "id": 50,
+      "question": "The primary objective of all international economic organizations is to",
+      "options": [
+        { "id": "A", "text": "ensure that third‑world countries get a better share of the world’s resources" },
+        { "id": "B", "text": "promote international economic co‑operation for the mutual benefit of all members" },
+        { "id": "C", "text": "enforce structural‑adjustment programmes on less developed countries" },
+        { "id": "D", "text": "encourage exports from the developed to the less developed countries" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Organizations like IMF, World Bank and WTO exist primarily to **promote economic co‑operation and stability among nations**."
+    }
+  ]
+}
