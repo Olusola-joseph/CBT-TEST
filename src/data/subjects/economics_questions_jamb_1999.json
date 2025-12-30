@@ -1,1 +1,633 @@
-
+{
+  "year": 1999,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ1999_DemandSupply_Shifts",
+      "file": "images/econ1999_q9_10_multi_equilibria.png",
+      "description": "Diagram for Questions 9 and 10. Vertical axis: price \\(P\\); horizontal axis: quantity \\(Q\\). Initial demand and supply curves \\(D_0\\) and \\(S_0\\) intersect at equilibrium point \\(E_0\\). Two additional demand curves \\(D_1, D_2\\) and two additional supply curves \\(S_1, S_2\\) shift outwards and inwards, creating new equilibria \\(E_1, E_2, E_3, E_4, E_5\\)."
+    },
+    {
+      "id": "Econ1999_JointDerivedDemand",
+      "file": "images/econ1999_q11_joint_derived_demand.png",
+      "description": "Two small graphs for Question 11. Left graph: two demand curves \\(D_s\\) (for sugar) and \\(D\\) (for tea) with supply curve \\(S_s\\); both demand curves shift simultaneously showing joint demand. Right graph: demand curve \\(D\\) and two supply curves \\(S_0, S_1\\) showing derived demand."
+    },
+    {
+      "id": "Econ1999_Wages_SectorTable",
+      "file": "images/econ1999_q16_sector_employment.png",
+      "description": "Table for Question 16 listing sectors I–VII and number of people employed. Sectors: (I) Agriculture, forestry and fishing 10,050; (II) Mining and quarrying 1,500; (III) Transport and communication 2,000,000; (IV) Manufacturing 1,750,000; (V) Basic construction 750,000; (VI) Distributive 3,000,000; (VII) Administration 1,250,000. Total number of people engaged in tertiary production must be computed."
+    },
+    {
+      "id": "Econ1999_NationalIncome_Table",
+      "file": "images/econ1999_q32_national_income_table.png",
+      "description": "Income‑components table for Question 32. Items and amounts (Nm): Wages 9000, Salaries 7000, Government pensions 1500, Unemployment pay and other social benefits 1000, Rent and interest 1500, Profits 1500. Candidates must compute national income by summing factor incomes and excluding transfer payments (pensions, unemployment benefits)."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "In a firm, three employees earn N5,500 each, four earn N3,300 each, two earn N5,000 each and one earns N7,000. The mean income of the employees is",
+      "options": [
+        { "id": "A", "text": "N5,200" },
+        { "id": "B", "text": "N4,760" },
+        { "id": "C", "text": "N4,670" },
+        { "id": "D", "text": "N2,080" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total income: \\(3\\times5500 + 4\\times3300 + 2\\times5000 + 1\\times7000 = 16,500 + 13,200 + 10,000 + 7,000 = 46,700\\). Number of employees \\(= 10\\). Mean = \\(46,700/10 = 4,670\\). (Note: options seem misprinted; arithmetically the answer is **N4,670**, option C. Use official marking scheme to confirm.)"
+    },
+    {
+      "id": 2,
+      "question": "Abubakar has the choice of buying either a house or a Mercedes‑Benz car for N1.5m plus N0.5m running cost. If he decides to buy the Mercedes‑Benz car, his opportunity cost is",
+      "options": [
+        { "id": "A", "text": "N1.5m" },
+        { "id": "B", "text": "N2.0m" },
+        { "id": "C", "text": "the house" },
+        { "id": "D", "text": "the car" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Opportunity cost is the **alternative forgone**—here, the house."
+    },
+    {
+      "id": 3,
+      "question": "The shape of a production possibility frontier is determined by the",
+      "options": [
+        { "id": "A", "text": "increasing relative costs" },
+        { "id": "B", "text": "returns to scale" },
+        { "id": "C", "text": "diminishing returns to a fixed factor" },
+        { "id": "D", "text": "increasing returns to a variable factor" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The concave PPF reflects **increasing opportunity cost** (increasing relative costs)."
+    },
+    {
+      "id": 4,
+      "question": "Normative economics deals with",
+      "options": [
+        { "id": "A", "text": "what is and not what should be" },
+        { "id": "B", "text": "facts and not figures" },
+        { "id": "C", "text": "facts and figures" },
+        { "id": "D", "text": "value judgements" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Normative economics concerns **value judgements** about what ought to be."
+    },
+    {
+      "id": 5,
+      "question": "The determinants of elasticity include",
+      "options": [
+        { "id": "A", "text": "price, time and availability of alternatives" },
+        { "id": "B", "text": "technology and cost of production" },
+        { "id": "C", "text": "time and availability of alternatives" },
+        { "id": "D", "text": "price, time and technological changes" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Key determinants: **availability of substitutes, proportion of income spent (price) and time to adjust**."
+    },
+    {
+      "id": 6,
+      "question": "From the income–expenditure table: in Period 1 family income is N1,000 and expenditure on clothing is N100; in Period 2 income is N1,500 and expenditure is N200. The income elasticity of demand for clothing is",
+      "options": [
+        { "id": "A", "text": "0.5" },
+        { "id": "B", "text": "2.0" },
+        { "id": "C", "text": "2.5" },
+        { "id": "D", "text": "5.0" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Income elasticity \\(E_y = \\frac{\\%\\Delta Q}{\\%\\Delta Y}\\). Here expenditure is proportional to quantity: \\(Q_1=100, Q_2=200\\). \\(\\%\\Delta Q = (200-100)/100 = 100\\%\\); \\(\\%\\Delta Y = (1500-1000)/1000 = 50\\%\\). So \\(E_y = 100/50 = 2.0\\)."
+    },
+    {
+      "id": 7,
+      "question": "A capitalist economy is one characterized by the",
+      "options": [
+        { "id": "A", "text": "private ownership of factors of production" },
+        { "id": "B", "text": "ownership of factors of production by rich members of the society" },
+        { "id": "C", "text": "use of capital and labour in fixed proportions during production" },
+        { "id": "D", "text": "use of capital‑intensive methods of production" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Capitalism is defined by **private ownership** of the means of production."
+    },
+    {
+      "id": 8,
+      "question": "In a planned economy, what shall be produced is determined primarily by",
+      "options": [
+        { "id": "A", "text": "what the consumer wants" },
+        { "id": "B", "text": "government decisions" },
+        { "id": "C", "text": "price mechanism" },
+        { "id": "D", "text": "the pattern of consumer spending" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In centrally planned economies, **the government plans** production."
+    },
+    {
+      "id": 9,
+      "question": "In the multiple‑equilibrium diagram (figure Econ1999_DemandSupply_Shifts), points \\(E_0\\) and \\(E_5\\) are respectively equilibrium points for",
+      "options": [
+        { "id": "A", "text": "D₀ and S₁" },
+        { "id": "B", "text": "D₀ and S₂" },
+        { "id": "C", "text": "D₂ and S₁" },
+        { "id": "D", "text": "D₂ and S₂" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The lettering of equilibria and curves is not legible enough in the scan to assign each point accurately."
+    },
+    {
+      "id": 10,
+      "question": "Identify three important factors that can make \\(E_0\\) become either \\(E_5\\) or \\(E_4\\) in the same diagram.",
+      "options": [
+        { "id": "A", "text": "technology, weather and population" },
+        { "id": "B", "text": "technology, price and tastes" },
+        { "id": "C", "text": "weather, price and technology" },
+        { "id": "D", "text": "population, weather and tastes" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Shifts in both demand and supply can result from **population (demand), technology (supply) and weather (particularly for agricultural goods)**."
+    },
+    {
+      "id": 11,
+      "question": "The two graphs in figure Econ1999_JointDerivedDemand illustrate",
+      "options": [
+        { "id": "A", "text": "joint demand" },
+        { "id": "B", "text": "derived demand" },
+        { "id": "C", "text": "composite demand" },
+        { "id": "D", "text": "competitive demand" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The left graph shows **joint demand** for complements (e.g. tea and sugar); the right graph is for a factor whose demand depends on demand for a product."
+    },
+    {
+      "id": 12,
+      "question": "In the right‑hand graph of figure Econ1999_JointDerivedDemand, consumer equilibrium at point K implies that",
+      "options": [
+        { "id": "A", "text": "G" },
+        { "id": "B", "text": "H" },
+        { "id": "C", "text": "J" },
+        { "id": "D", "text": "K" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Equilibrium is by definition at **point K** where the relevant curves intersect."
+    },
+    {
+      "id": 13,
+      "question": "A utility‑maximizing household will allocate its expenditure so that",
+      "options": [
+        { "id": "A", "text": "more naira is spent on commodities with the highest utility" },
+        { "id": "B", "text": "less naira is spent on commodities with the lowest utility" },
+        { "id": "C", "text": "the utility of the last naira spent on each commodity is equal" },
+        { "id": "D", "text": "the amount spent on each commodity is equal" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Equi‑marginal principle: maximize utility when **marginal utility per naira** is equal across goods."
+    },
+    {
+      "id": 14,
+      "question": "The downward‑sloping part of the long‑run average cost curve of a firm may be attributable to",
+      "options": [
+        { "id": "A", "text": "diminishing returns" },
+        { "id": "B", "text": "the law of variable proportions" },
+        { "id": "C", "text": "diseconomies of scale" },
+        { "id": "D", "text": "increasing returns to scale" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Falling LRAC occurs when there are **increasing returns to scale (economies of scale)**."
+    },
+    {
+      "id": 15,
+      "question": "The main function of price in the economic system is to",
+      "options": [
+        { "id": "A", "text": "allocate scarce resources among competing uses" },
+        { "id": "B", "text": "ensure equitable distribution of income and wealth" },
+        { "id": "C", "text": "determine demand for and supply of goods and services" },
+        { "id": "D", "text": "remove all the constraints on production of goods and services" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Prices act as **signals guiding resource allocation** among competing uses."
+    },
+    {
+      "id": 16,
+      "question": "Using the sector‑employment table in figure Econ1999_Wages_SectorTable, calculate the total number of people engaged in tertiary production.",
+      "options": [
+        { "id": "A", "text": "5,000,000" },
+        { "id": "B", "text": "6,250,000" },
+        { "id": "C", "text": "11,750,000" },
+        { "id": "D", "text": "12,250,000" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tertiary sectors: Transport & communication (2,000,000) + Distributive (3,000,000) + Administration (1,250,000) = **6,250,000**."
+    },
+    {
+      "id": 17,
+      "question": "One of the characteristics of an imperfect market is the",
+      "options": [
+        { "id": "A", "text": "large number of buyers and sellers in the market" },
+        { "id": "B", "text": "awareness of market conditions by buyers" },
+        { "id": "C", "text": "availability of substitutes" },
+        { "id": "D", "text": "heterogeneity of products" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In imperfect markets (e.g. monopolistic competition), products are **differentiated**, not homogeneous."
+    },
+    {
+      "id": 18,
+      "question": "A characteristic of the average fixed‑cost curve is that it",
+      "options": [
+        { "id": "A", "text": "rises and falls faster than the marginal cost" },
+        { "id": "B", "text": "is V‑shaped and intersects the price axis" },
+        { "id": "C", "text": "is always higher than the average variable cost" },
+        { "id": "D", "text": "falls continuously but is never equal to zero" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Average fixed cost \\(AFC = TFC/Q\\) **declines continuously** as output rises and approaches zero but never reaches it."
+    },
+    {
+      "id": 19,
+      "question": "In perfect competition, every firm is a price",
+      "options": [
+        { "id": "A", "text": "maker" },
+        { "id": "B", "text": "taker" },
+        { "id": "C", "text": "giver" },
+        { "id": "D", "text": "bidder" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Competitive firms are **price takers**, accepting the market price."
+    },
+    {
+      "id": 20,
+      "question": "Given that the total fixed cost is N10,000, total variable cost N25,000 and output 100 units, find the average total cost of producing one unit.",
+      "options": [
+        { "id": "A", "text": "N60" },
+        { "id": "B", "text": "N45" },
+        { "id": "C", "text": "N35" },
+        { "id": "D", "text": "N30" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Total cost \\(TC = 10,000 + 25,000 = 35,000\\). \\(ATC = TC/Q = 35,000/100 = N350\\). (None of the options match this calculation; the printed numbers may be miscopied. Check official paper for correct data.)"
+    },
+    {
+      "id": 21,
+      "question": "Which of the following falls continuously as output expands?",
+      "options": [
+        { "id": "A", "text": "average fixed cost" },
+        { "id": "B", "text": "marginal cost" },
+        { "id": "C", "text": "average variable cost" },
+        { "id": "D", "text": "average cost" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Only **AFC** continuously declines with output."
+    },
+    {
+      "id": 22,
+      "question": "A major obstacle to rapid agricultural development in Nigeria is the",
+      "options": [
+        { "id": "A", "text": "ineffective use of crude implements" },
+        { "id": "B", "text": "inability of farmers to adopt modern technology" },
+        { "id": "C", "text": "introduction of the Green Revolution programme" },
+        { "id": "D", "text": "declining population growth rate" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Slow adoption of **modern technology** keeps productivity low."
+    },
+    {
+      "id": 23,
+      "question": "The land‑tenure system in Nigeria impedes agricultural production because",
+      "options": [
+        { "id": "A", "text": "land fragmentation makes possible easy access to land ownership" },
+        { "id": "B", "text": "it discourages specialization of factors of production" },
+        { "id": "C", "text": "it limits opportunity for mass production of agricultural goods" },
+        { "id": "D", "text": "smallholders generally do not get enough fertilizers to use" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Fragmented holdings make mechanization and **large‑scale farming** difficult."
+    },
+    {
+      "id": 24,
+      "question": "The major problems of co‑operative societies in Nigeria is that",
+      "options": [
+        { "id": "A", "text": "they often lack cohesion and continuity" },
+        { "id": "B", "text": "their liability is unlimited to members" },
+        { "id": "C", "text": "voting is by proxy" },
+        { "id": "D", "text": "their management style is poor" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Many co‑operatives suffer from **weak cohesion and continuity**, often collapsing after initial enthusiasm."
+    },
+    {
+      "id": 25,
+      "question": "The primary objective of establishing the Export Processing Zone is to",
+      "options": [
+        { "id": "A", "text": "facilitate agricultural production" },
+        { "id": "B", "text": "encourage the production and processing of export commodities" },
+        { "id": "C", "text": "erect structures that will facilitate the processing of imported raw materials" },
+        { "id": "D", "text": "erect structures near the port" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Export Processing Zones aim at **promoting export‑oriented manufacturing**."
+    },
+    {
+      "id": 26,
+      "question": "The first petroleum exploring company to discover crude petroleum in Nigeria was",
+      "options": [
+        { "id": "A", "text": "Mobil" },
+        { "id": "B", "text": "Texaco" },
+        { "id": "C", "text": "Agip" },
+        { "id": "D", "text": "Shell‑BP" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "**Shell‑BP** discovered commercial oil at Oloibiri in 1956."
+    },
+    {
+      "id": 27,
+      "question": "Concentrating industries in one place is advantageous because there are gains in terms of",
+      "options": [
+        { "id": "A", "text": "external economies" },
+        { "id": "B", "text": "internal economies" },
+        { "id": "C", "text": "economies of scale" },
+        { "id": "D", "text": "cost economies" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Industrial concentration yields **external economies of scale** (shared infrastructure, skilled labour pools)."
+    },
+    {
+      "id": 28,
+      "question": "Import‑substitution industrialization refers to",
+      "options": [
+        { "id": "A", "text": "the concentration of industries for even development" },
+        { "id": "B", "text": "selling up of industries for regional development" },
+        { "id": "C", "text": "a situation in which local industries are set up to produce goods formerly imported" },
+        { "id": "D", "text": "the banning of imports which are substitutes for domestically produced goods" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "ISI encourages **domestic production of previously imported goods**."
+    },
+    {
+      "id": 29,
+      "question": "An entrepreneur will continue to employ labour up to a point where",
+      "options": [
+        { "id": "A", "text": "costs are minimized" },
+        { "id": "B", "text": "maximum efficiency is attained" },
+        { "id": "C", "text": "wages are equal to marginal product of labour" },
+        { "id": "D", "text": "marginal product of labour is equal to zero" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Profit maximization requires hiring until **wage = MRP\\_L**; with perfect competition, \\(MRP_L = P \\times MP_L\\)."
+    },
+    {
+      "id": 30,
+      "question": "Optimum population is defined as the level of population at which",
+      "options": [
+        { "id": "A", "text": "per capita output is maximized" },
+        { "id": "B", "text": "population is neither increasing nor decreasing" },
+        { "id": "C", "text": "total national income is maximized" },
+        { "id": "D", "text": "marginal efficiency of population is maximized" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Optimum population balances people and resources so that **output per head is highest**."
+    },
+    {
+      "id": 31,
+      "question": "When a worker earns more than the wage just sufficient to keep him in his job, the excess income is called",
+      "options": [
+        { "id": "A", "text": "hyper‑inflation" },
+        { "id": "B", "text": "stagflation" },
+        { "id": "C", "text": "moderate inflation" },
+        { "id": "D", "text": "galloping inflation" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The scanned options seem unrelated; conceptually the excess above transfer earnings is **economic rent** to labour, but that is not among visible choices."
+    },
+    {
+      "id": 32,
+      "question": "Using the income‑components table in figure Econ1999_NationalIncome_Table, calculate the national income.",
+      "options": [
+        { "id": "A", "text": "N18,500m" },
+        { "id": "B", "text": "N19,000m" },
+        { "id": "C", "text": "N19,500m" },
+        { "id": "D", "text": "N20,500m" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Factor incomes: Wages (9000) + Salaries (7000) + Rent & interest (1500) + Profits (1500) = 19,000. Pensions and unemployment pay are **transfer payments** and excluded."
+    },
+    {
+      "id": 33,
+      "question": "National income at factor cost means national income at",
+      "options": [
+        { "id": "A", "text": "current prices" },
+        { "id": "B", "text": "nominal prices" },
+        { "id": "C", "text": "last year’s prices" },
+        { "id": "D", "text": "prices based on base year excluding indirect taxes plus subsidies" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Factor‑cost valuation excludes indirect taxes and includes subsidies; usually at **constant/base‑year prices** when real."
+    },
+    {
+      "id": 34,
+      "question": "The value of the multiplier depends on",
+      "options": [
+        { "id": "A", "text": "MPC and level of income" },
+        { "id": "B", "text": "level of personal income" },
+        { "id": "C", "text": "level of personal savings" },
+        { "id": "D", "text": "government policy and MPC" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Simple multiplier \\(k = 1/(1-MPC)\\); it directly depends on **MPC** (and indirectly on income level in more complex models)."
+    },
+    {
+      "id": 35,
+      "question": "One of the major problems of product distribution in most developing countries is",
+      "options": [
+        { "id": "A", "text": "lack of storage facilities" },
+        { "id": "B", "text": "large number of middlemen" },
+        { "id": "C", "text": "inadequate manpower" },
+        { "id": "D", "text": "inadequate means of transportation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Poor **transport infrastructure** is a key bottleneck."
+    },
+    {
+      "id": 36,
+      "question": "Non‑bank financial intermediaries do not",
+      "options": [
+        { "id": "A", "text": "provide credit facilities" },
+        { "id": "B", "text": "accept deposits" },
+        { "id": "C", "text": "accept demand deposits" },
+        { "id": "D", "text": "sell shares" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Unlike banks, institutions like finance houses **do not offer demand‑deposit accounts**."
+    },
+    {
+      "id": 37,
+      "question": "Inflation which is caused mainly by increases in the prices of factors of production is described as",
+      "options": [
+        { "id": "A", "text": "cost‑push inflation" },
+        { "id": "B", "text": "demand‑pull inflation" },
+        { "id": "C", "text": "crawling inflation" },
+        { "id": "D", "text": "spiral inflation" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Cost‑push inflation** results from rising input costs."
+    },
+    {
+      "id": 38,
+      "question": "The relationship between the value of money and the price level is",
+      "options": [
+        { "id": "A", "text": "direct" },
+        { "id": "B", "text": "unpredictable" },
+        { "id": "C", "text": "diverse" },
+        { "id": "D", "text": "inverse" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Real purchasing power of money is **inversely related** to the general price level."
+    },
+    {
+      "id": 39,
+      "question": "People hold money for",
+      "options": [
+        { "id": "A", "text": "charity" },
+        { "id": "B", "text": "safekeeping" },
+        { "id": "C", "text": "profit‑making" },
+        { "id": "D", "text": "speculative purposes" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Besides transactions and precautionary motives, Keynes emphasized the **speculative motive**—holding money to speculate on interest‑rate changes."
+    },
+    {
+      "id": 40,
+      "question": "Bills of exchange originate from a",
+      "options": [
+        { "id": "A", "text": "central bank" },
+        { "id": "B", "text": "commercial bank" },
+        { "id": "C", "text": "community bank" },
+        { "id": "D", "text": "development bank" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Bills of exchange are typically drawn and discounted through **commercial banks**."
+    },
+    {
+      "id": 41,
+      "question": "If high unemployment goes hand in hand with rising prices, the situation created is",
+      "options": [
+        { "id": "A", "text": "hyper‑inflation" },
+        { "id": "B", "text": "stagflation" },
+        { "id": "C", "text": "moderate inflation" },
+        { "id": "D", "text": "galloping inflation" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Stagflation** combines stagnation (high unemployment) with inflation."
+    },
+    {
+      "id": 42,
+      "question": "One of the functions of money is that it helps to",
+      "options": [
+        { "id": "A", "text": "detect frauds in matters of exchange" },
+        { "id": "B", "text": "postpone payments without loss of count" },
+        { "id": "C", "text": "store information about the intrinsic benefits of an item" },
+        { "id": "D", "text": "record information about the valuation of an item" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Money serves as a **standard of deferred payment**, allowing postponement of payments."
+    },
+    {
+      "id": 43,
+      "question": "Fiscal policy involves changes in",
+      "options": [
+        { "id": "A", "text": "open‑market operations" },
+        { "id": "B", "text": "revenue and expenditure of government" },
+        { "id": "C", "text": "money supply to the economy" },
+        { "id": "D", "text": "imports and exports" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Fiscal policy concerns **taxation and government spending**."
+    },
+    {
+      "id": 44,
+      "question": "Economic development may be defined as economic growth",
+      "options": [
+        { "id": "A", "text": "in a given country" },
+        { "id": "B", "text": "over a long period" },
+        { "id": "C", "text": "and improved health facilities" },
+        { "id": "D", "text": "and improved distribution of wealth" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Development implies growth plus **improvements in welfare and distribution**."
+    },
+    {
+      "id": 45,
+      "question": "The price of a good will not be affected by the imposition of a sales tax on it if the",
+      "options": [
+        { "id": "A", "text": "supply is inelastic" },
+        { "id": "B", "text": "demand is inelastic" },
+        { "id": "C", "text": "supply is perfectly elastic" },
+        { "id": "D", "text": "demand is perfectly elastic" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "With **perfectly elastic demand**, firms bear the tax and cannot raise price."
+    },
+    {
+      "id": 46,
+      "question": "A free‑trade area emerges when",
+      "options": [
+        { "id": "A", "text": "traders from one part of the country can move freely to other parts" },
+        { "id": "B", "text": "customs regulations are harmonized among countries" },
+        { "id": "C", "text": "a group of countries decide to remove restrictions on imports from one another" },
+        { "id": "D", "text": "the UNCTAD is in force" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a **free‑trade area**, member countries remove tariffs and quotas on trade among themselves."
+    },
+    {
+      "id": 47,
+      "question": "Devaluation helps in checking adverse balance of payments if the",
+      "options": [
+        { "id": "A", "text": "demand for imports is elastic" },
+        { "id": "B", "text": "demand for imports is inelastic" },
+        { "id": "C", "text": "supply of exports is elastic" },
+        { "id": "D", "text": "demand for exports is inelastic" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "For devaluation to improve BOP, **demand for imports should be elastic** (so import volume falls sharply as price rises) and export demand elastic."
+    },
+    {
+      "id": 48,
+      "question": "Gains from trade depend on",
+      "options": [
+        { "id": "A", "text": "comparative advantage" },
+        { "id": "B", "text": "absolute advantage" },
+        { "id": "C", "text": "distributive cost advantage" },
+        { "id": "D", "text": "absolute cost advantage" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Countries benefit from trade when they specialize according to **comparative advantage**."
+    },
+    {
+      "id": 49,
+      "question": "Favourable terms of trade is important to a country because it facilitates",
+      "options": [
+        { "id": "A", "text": "economic prosperity for importers and exporters" },
+        { "id": "B", "text": "export of hard currency by the government" },
+        { "id": "C", "text": "economic prosperity for the country" },
+        { "id": "D", "text": "import of hard currency by the government" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Better terms of trade mean the country gets **more imports for a given volume of exports**, enhancing national welfare."
+    },
+    {
+      "id": 50,
+      "question": "The most acceptable economic measure for trade protection is to",
+      "options": [
+        { "id": "A", "text": "improve standards of living" },
+        { "id": "B", "text": "protect infant industries" },
+        { "id": "C", "text": "safeguard strategic industries" },
+        { "id": "D", "text": "promote foreign trade" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Protection is most justifiable to support **infant industries** until they become competitive."
+    }
+  ]
+}
