@@ -1,0 +1,155 @@
+/* Economics-specific styles for CBT Exam Platform */
+
+/* Question container with diagram support */
+.question-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.question-with-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.diagram-placeholder {
+    text-align: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.question-diagram {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+}
+
+.question-text {
+    width: 100%;
+}
+
+/* Options container styling */
+.options-container {
+    margin-top: 15px;
+}
+
+.option-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+}
+
+.option-item:focus {
+    outline: 2px solid #4a90e2;
+    outline-offset: 2px;
+}
+
+.option-item:hover {
+    border-color: #4a90e2;
+    background-color: #f8f9fa;
+}
+
+.option-item.selected {
+    border-color: #4a90e2;
+    background-color: #e3f2fd;
+}
+
+.option-item input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.option-item label {
+    display: inline-block;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 10px;
+    flex-grow: 1;
+}
+
+/* Review section with diagrams */
+.review-question .question-with-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.review-question .diagram-placeholder {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.review-question .question-diagram {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+}
+
+.review-question .question-text {
+    width: 100%;
+    text-align: center;
+}
+
+/* Responsive adjustments for questions with diagrams */
+@media (min-width: 768px) {
+    .question-with-diagram {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .diagram-placeholder {
+        flex: 0 0 auto;
+        margin-bottom: 0;
+        max-width: 40%;
+    }
+    
+    .question-text {
+        flex: 1;
+        min-width: 0;
+    }
+    
+    .review-question .question-with-diagram {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .review-question .diagram-placeholder {
+        flex: 0 0 auto;
+        margin-bottom: 0;
+        max-width: 40%;
+    }
+    
+    .review-question .question-text {
+        flex: 1;
+        min-width: 0;
+    }
+}
+
+/* Ensure diagrams don't overflow on smaller screens */
+@media (max-width: 767px) {
+    .question-diagram,
+    .review-question .question-diagram {
+        max-width: 100%;
+        height: auto;
+    }
+}
