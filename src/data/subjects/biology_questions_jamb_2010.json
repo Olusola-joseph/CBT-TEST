@@ -1,0 +1,587 @@
+{
+  "year": 2010,
+  "paper": "Biology",
+  "subject": "Biology",
+  "figures": [
+    {
+      "id": "Bio2010_Animals_I_IV",
+      "description": "Four vertebrates labelled I–IV used in Questions 6 and 7. Each is drawn in its own quadrant. (Original exam shows a fish, amphibian and two terrestrial vertebrates to compare dependence on water for reproduction.)",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'><rect x='0' y='0' width='120' height='120' fill='none' stroke='black'/><rect x='120' y='0' width='120' height='120' fill='none' stroke='black'/><rect x='0' y='120' width='120' height='120' fill='none' stroke='black'/><rect x='120' y='120' width='120' height='120' fill='none' stroke='black'/><text x='10' y='20' font-size='16'>I</text><text x='130' y='20' font-size='16'>II</text><text x='10' y='140' font-size='16'>III</text><text x='130' y='140' font-size='16'>IV</text><text x='20' y='60' font-size='10'>[animal drawings as in original paper]</text></svg>"
+    },
+    {
+      "id": "Bio2010_Bird",
+      "description": "Side view of a bird used in Questions 9 and 10. Region I indicates the contour feathers on the body.",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='260' height='160' viewBox='0 0 260 160'><path d='M40 120 L70 60 L130 40 L180 60 L150 120 Z' fill='none' stroke='black'/><circle cx='180' cy='55' r='10' fill='none' stroke='black'/><line x1='60' y1='100' x2='40' y2='140' stroke='black'/><line x1='80' y1='100' x2='60' y2='140' stroke='black'/><line x1='110' y1='60' x2='210' y2='80' stroke='black' marker-end='url(#arrow)'/><defs><marker id='arrow' markerWidth='6' markerHeight='6' refX='5' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='black'/></marker></defs><text x='215' y='85' font-size='12'>I</text><text x='10' y='150' font-size='10'>[schematic bird outline; arrow to region I]</text></svg>"
+    },
+    {
+      "id": "Bio2010_Root_Transpiration",
+      "description": "Diagram of a plant root / stem region used for Questions 12 and 13. Arrows I–IV indicate movements of water and solutes through xylem and phloem and gases during photosynthesis.",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='220' viewBox='0 0 200 220'><path d='M100 10 C80 40 80 80 90 140 C95 170 95 200 100 210 C105 200 105 170 110 140 C120 80 120 40 100 10 Z' fill='none' stroke='black'/><line x1='60' y1='80' x2='100' y2='90' stroke='black' marker-end='url(#arrow)'/><text x='50' y='75' font-size='12'>I</text><line x1='140' y1='60' x2='110' y2='80' stroke='black' marker-end='url(#arrow)'/><text x='145' y='55' font-size='12'>II</text><line x1='60' y1='150' x2='95' y2='150' stroke='black' marker-end='url(#arrow)'/><text x='50' y='155' font-size='12'>III</text><line x1='140' y1='170' x2='110' y2='160' stroke='black' marker-end='url(#arrow)'/><text x='145' y='175' font-size='12'>IV</text><defs><marker id='arrow' markerWidth='6' markerHeight='6' refX='5' refY='3' orient='auto'><path d='M0 0 L6 3 L0 6 Z' fill='black'/></marker></defs><text x='15' y='210' font-size='10'>[simplified root / stem with arrows I–IV]</text></svg>"
+    },
+    {
+      "id": "Bio2010_TreeHeight_Distribution",
+      "description": "Height‑frequency curves for trees in four plantations I–IV used in Questions 42 and 43. X‑axis: height of trees (m); Y‑axis: percentage of tree population. Four overlapping bell‑shaped curves with different height ranges.",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='260' height='180' viewBox='0 0 260 180'><line x1='30' y1='150' x2='230' y2='150' stroke='black'/><line x1='30' y1='20' x2='30' y2='150' stroke='black'/><text x='20' y='15' font-size='10'>%</text><text x='120' y='170' font-size='10'>Height of trees (m)</text><path d='M40 145 Q60 80 80 145' fill='none' stroke='black'/><text x='70' y='80' font-size='10'>I</text><path d='M70 145 Q100 50 130 145' fill='none' stroke='black'/><text x='110' y='45' font-size='10'>II</text><path d='M110 145 Q140 90 170 145' fill='none' stroke='black'/><text x='150' y='90' font-size='10'>III</text><path d='M150 145 Q190 110 220 145' fill='none' stroke='black'/><text x='205' y='110' font-size='10'>IV</text></svg>"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Biology Question Paper Type is given to you?",
+      "options": [
+        { "id": "A", "text": "Type A" },
+        { "id": "B", "text": "Type B" },
+        { "id": "C", "text": "Type C" },
+        { "id": "D", "text": "Type D" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Which of the following characterizes a mature plant cell?",
+      "options": [
+        { "id": "A", "text": "the cytoplasm fills up the entire cell space" },
+        { "id": "B", "text": "the nucleus is pushed to the centre of the cell" },
+        { "id": "C", "text": "the cell wall is made up of cellulose" },
+        { "id": "D", "text": "the nucleus is small and irregular in shape" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is NOT a function of the nucleus of a cell?",
+      "options": [
+        { "id": "A", "text": "it controls the life processes of the cell" },
+        { "id": "B", "text": "it translates genetic information for the manufacture of proteins" },
+        { "id": "C", "text": "it stores and carries hereditary information" },
+        { "id": "D", "text": "it is a reservoir of energy for the cell" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 4,
+      "question": "The dominant phase in the life cycle of a fern is the",
+      "options": [
+        { "id": "A", "text": "gametophyte" },
+        { "id": "B", "text": "prothallus" },
+        { "id": "C", "text": "sporophyte" },
+        { "id": "D", "text": "antheridium" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Parental care is exhibited by",
+      "options": [
+        { "id": "A", "text": "toads" },
+        { "id": "B", "text": "snails" },
+        { "id": "C", "text": "earthworms" },
+        { "id": "D", "text": "birds" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 6,
+      "question": "Use the diagram of animals I–IV (figure Bio2010_Animals_I_IV). With respect to their decreasing dependence on aquatic conditions for reproduction, which of the following is the correct arrangement of the animals represented?",
+      "options": [
+        { "id": "A", "text": "I, IV, II and III" },
+        { "id": "B", "text": "IV, III, II and I" },
+        { "id": "C", "text": "I, II, IV and III" },
+        { "id": "D", "text": "III, II, IV and I" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Bio2010_Animals_I_IV"
+    },
+    {
+      "id": 7,
+      "question": "Which of the animals in the same diagram represents the oldest creatures in terms of evolutionary history?",
+      "options": [
+        { "id": "A", "text": "III" },
+        { "id": "B", "text": "II" },
+        { "id": "C", "text": "I" },
+        { "id": "D", "text": "IV" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Bio2010_Animals_I_IV"
+    },
+    {
+      "id": 8,
+      "question": "Which of the following groups of cells is devoid of true nuclei?",
+      "options": [
+        { "id": "A", "text": "algae" },
+        { "id": "B", "text": "monera" },
+        { "id": "C", "text": "fungi" },
+        { "id": "D", "text": "viruses" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Use the bird diagram (figure Bio2010_Bird). The main function of the feathers covering the part labelled I is to",
+      "options": [
+        { "id": "A", "text": "prevent ectoparasites from attacking the animal" },
+        { "id": "B", "text": "generate heat to keep the animal warm" },
+        { "id": "C", "text": "provide some power for flight" },
+        { "id": "D", "text": "serve as insulator to maintain body heat" }
+      ],
+      "correctAnswer": "D",
+      "figureId": "Bio2010_Bird"
+    },
+    {
+      "id": 10,
+      "question": "Based on the shape and structure of the beak and feet in the same diagram, the bird represented is likely to feed mainly on",
+      "options": [
+        { "id": "A", "text": "flesh" },
+        { "id": "B", "text": "fruits" },
+        { "id": "C", "text": "seeds" },
+        { "id": "D", "text": "nectar" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Bio2010_Bird"
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is true of the transverse section of a dicot stem?",
+      "options": [
+        { "id": "A", "text": "the epidermis is completely encircled by the cortex" },
+        { "id": "B", "text": "the xylem is more interiorly located than the phloem" },
+        { "id": "C", "text": "the cambium lies between the cortex and the vascular bundles" },
+        { "id": "D", "text": "the vascular bundles are randomly scattered within the cortex" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Use the root / stem diagram (figure Bio2010_Root_Transpiration). The movement of material in the xylem and phloem tissues of the plant are represented by the arrows labelled",
+      "options": [
+        { "id": "A", "text": "III and IV respectively" },
+        { "id": "B", "text": "II and I respectively" },
+        { "id": "C", "text": "I and II respectively" },
+        { "id": "D", "text": "I and III respectively" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Bio2010_Root_Transpiration"
+    },
+    {
+      "id": 13,
+      "question": "During photosynthesis, the arrow labelled II in the same diagram represents the",
+      "options": [
+        { "id": "A", "text": "escape of mineral salts" },
+        { "id": "B", "text": "absorption of energy from the sun" },
+        { "id": "C", "text": "release of carbon (IV) oxide" },
+        { "id": "D", "text": "release of oxygen as a by‑product" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Bio2010_Root_Transpiration"
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is lacking in the diet of a person with kwashiorkor?",
+      "options": [
+        { "id": "A", "text": "vitamins" },
+        { "id": "B", "text": "proteins" },
+        { "id": "C", "text": "carbohydrates" },
+        { "id": "D", "text": "fat" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 15,
+      "question": "The mode of nutrition of sundew and bladderwort can be described as",
+      "options": [
+        { "id": "A", "text": "autotrophic" },
+        { "id": "B", "text": "saprophytic" },
+        { "id": "C", "text": "holozoic" },
+        { "id": "D", "text": "chemosynthetic" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 16,
+      "question": "When the mixture of a food substance and Benedict’s solution was warmed, the solution changed from blue to brick‑red. This indicates the presence of",
+      "options": [
+        { "id": "A", "text": "reducing sugar" },
+        { "id": "B", "text": "fatty acid" },
+        { "id": "C", "text": "sucrose" },
+        { "id": "D", "text": "amino acid" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 17,
+      "question": "The primary structure responsible for pumping blood for circulation through the mammalian circulatory system is the",
+      "options": [
+        { "id": "A", "text": "veins" },
+        { "id": "B", "text": "right auricle" },
+        { "id": "C", "text": "arteries" },
+        { "id": "D", "text": "left ventricle" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 18,
+      "question": "Circulation of blood to all parts of the body except the lungs is through",
+      "options": [
+        { "id": "A", "text": "the pulmonary artery" },
+        { "id": "B", "text": "systemic circulation" },
+        { "id": "C", "text": "the lymphatic system" },
+        { "id": "D", "text": "pulmonary circulation" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Yeast respires anaerobically to convert simple sugar to carbon (IV) oxide and",
+      "options": [
+        { "id": "A", "text": "alcohol" },
+        { "id": "B", "text": "acid" },
+        { "id": "C", "text": "oxygen" },
+        { "id": "D", "text": "water" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 20,
+      "question": "The sheet of muscle that separates the thoracic and the abdominal cavities is the",
+      "options": [
+        { "id": "A", "text": "diaphragm" },
+        { "id": "B", "text": "intercostal muscle" },
+        { "id": "C", "text": "pleural membrane" },
+        { "id": "D", "text": "pericardium" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 21,
+      "question": "The oily substance that lubricates the mammalian hair to keep it flexible and water‑repellent is secreted by the",
+      "options": [
+        { "id": "A", "text": "sweat glands" },
+        { "id": "B", "text": "sebaceous glands" },
+        { "id": "C", "text": "fatty cells" },
+        { "id": "D", "text": "granular layer" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 22,
+      "question": "The outer layer of the kidney where the Bowman’s capsules are found is the",
+      "options": [
+        { "id": "A", "text": "cortex" },
+        { "id": "B", "text": "pelvis" },
+        { "id": "C", "text": "medulla" },
+        { "id": "D", "text": "pyramid" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 23,
+      "question": "Which of the following stimuli is likely to elicit a nastic response in an organism?",
+      "options": [
+        { "id": "A", "text": "touch" },
+        { "id": "B", "text": "light intensity" },
+        { "id": "C", "text": "chemical substances" },
+        { "id": "D", "text": "gravity" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 24,
+      "question": "In the male reproductive system of a mammal, sperm is stored in the",
+      "options": [
+        { "id": "A", "text": "vas deferens" },
+        { "id": "B", "text": "urethra" },
+        { "id": "C", "text": "epididymis" },
+        { "id": "D", "text": "seminiferous tubules" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 25,
+      "question": "Chemosynthetic organisms are capable of manufacturing their food from simple inorganic substances through the process of",
+      "options": [
+        { "id": "A", "text": "oxidation" },
+        { "id": "B", "text": "denitrification" },
+        { "id": "C", "text": "reduction" },
+        { "id": "D", "text": "phosphorylation" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 26,
+      "question": "The part of the human gut that has an acidic content is the",
+      "options": [
+        { "id": "A", "text": "stomach" },
+        { "id": "B", "text": "duodenum" },
+        { "id": "C", "text": "ileum" },
+        { "id": "D", "text": "colon" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 27,
+      "question": "Consider the following correspondences:\nI. Stomata → Spirogyra\nII. Alveoli → Earthworm\nIII. Malpighian tubule → Mammal\nIV. Contractile vacuole → Protozoa.\nWhich of the above structures is correctly matched with the organism in which it is found?",
+      "options": [
+        { "id": "A", "text": "III" },
+        { "id": "B", "text": "II" },
+        { "id": "C", "text": "I" },
+        { "id": "D", "text": "IV" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 28,
+      "question": "A food chain always begins with a",
+      "options": [
+        { "id": "A", "text": "consumer" },
+        { "id": "B", "text": "decomposer" },
+        { "id": "C", "text": "producer" },
+        { "id": "D", "text": "primary consumer" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 29,
+      "question": "Mycorrhizae promote plant growth by",
+      "options": [
+        { "id": "A", "text": "absorbing inorganic ions from the soil" },
+        { "id": "B", "text": "protecting it from infection" },
+        { "id": "C", "text": "helping it to utilize atmospheric nitrogen" },
+        { "id": "D", "text": "serving as a growth regulator" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 30,
+      "question": "The barrier between maternal and foetal blood is the",
+      "options": [
+        { "id": "A", "text": "placenta" },
+        { "id": "B", "text": "liver" },
+        { "id": "C", "text": "umbilical cord" },
+        { "id": "D", "text": "uterine wall" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 31,
+      "question": "The blood component that has the greatest affinity for oxygen is the",
+      "options": [
+        { "id": "A", "text": "lymphocytes" },
+        { "id": "B", "text": "leucocytes" },
+        { "id": "C", "text": "erythrocytes" },
+        { "id": "D", "text": "thrombocytes" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 32,
+      "question": "Which of the following organisms is mainly found in the marine habitat?",
+      "options": [
+        { "id": "A", "text": "Achatina" },
+        { "id": "B", "text": "Tilapia" },
+        { "id": "C", "text": "Dog fish" },
+        { "id": "D", "text": "Tortoise" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 33,
+      "question": "The two halves of the pelvic girdle are joined together at the",
+      "options": [
+        { "id": "A", "text": "pubic symphysis" },
+        { "id": "B", "text": "ilium" },
+        { "id": "C", "text": "pubis" },
+        { "id": "D", "text": "obturator foramen" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 34,
+      "question": "I. Adoption of appropriate nocturnal habits\nII. Burrowing\nIII. Adjusting their internal body temperature\nIV. Possession of many sweat pores.\nWhich of the above are ways in which desert animals adapt to extreme heat of the environment?",
+      "options": [
+        { "id": "A", "text": "I and IV only" },
+        { "id": "B", "text": "II and III only" },
+        { "id": "C", "text": "I and II only" },
+        { "id": "D", "text": "I, II and III only" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 35,
+      "question": "Low annual rainfall, sparse vegetation, high diurnal temperatures and cold nights are characteristic features of the",
+      "options": [
+        { "id": "A", "text": "tropical rainforest" },
+        { "id": "B", "text": "desert" },
+        { "id": "C", "text": "montane forest" },
+        { "id": "D", "text": "Guinea savanna" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 36,
+      "question": "The activity of an organism which affects the survival of another organism in the same habitat constitutes",
+      "options": [
+        { "id": "A", "text": "an edaphic factor" },
+        { "id": "B", "text": "an abiotic factor" },
+        { "id": "C", "text": "a biotic factor" },
+        { "id": "D", "text": "a physiographic factor" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 37,
+      "question": "The average number of individuals of a species per unit area of the habitat is the",
+      "options": [
+        { "id": "A", "text": "population density" },
+        { "id": "B", "text": "population frequency" },
+        { "id": "C", "text": "population size" },
+        { "id": "D", "text": "population distribution" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 38,
+      "question": "The vector for yellow fever is the",
+      "options": [
+        { "id": "A", "text": "Aedes mosquito" },
+        { "id": "B", "text": "Anopheles mosquito" },
+        { "id": "C", "text": "tsetse fly" },
+        { "id": "D", "text": "blackfly" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 39,
+      "question": "The loss of soil through erosion can be reduced by",
+      "options": [
+        { "id": "A", "text": "watering" },
+        { "id": "B", "text": "crop rotation" },
+        { "id": "C", "text": "manuring" },
+        { "id": "D", "text": "irrigation" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 40,
+      "question": "The protozoan Plasmodium falciparum is transmitted by",
+      "options": [
+        { "id": "A", "text": "female Anopheles mosquitoes" },
+        { "id": "B", "text": "female Aedes mosquitoes" },
+        { "id": "C", "text": "female Culex mosquitoes" },
+        { "id": "D", "text": "female blackfly" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 41,
+      "question": "A dilute solution of phenylthiocarbamide tastes bitter to some people and is tasteless to others. This is an example of",
+      "options": [
+        { "id": "A", "text": "taste‑bud variation" },
+        { "id": "B", "text": "discontinuous variation" },
+        { "id": "C", "text": "morphological variation" },
+        { "id": "D", "text": "continuous variation" }
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 42,
+      "question": "Use the tree‑height distribution diagram (figure Bio2010_TreeHeight_Distribution). In which plantation are all the trees between the height of 2–4 m?",
+      "options": [
+        { "id": "A", "text": "III" },
+        { "id": "B", "text": "II" },
+        { "id": "C", "text": "I" },
+        { "id": "D", "text": "IV" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Bio2010_TreeHeight_Distribution"
+    },
+    {
+      "id": 43,
+      "question": "Which of the following is a true feature of plantation II in the same diagram?",
+      "options": [
+        { "id": "A", "text": "it has the highest number of trees of about 2 m high" },
+        { "id": "B", "text": "it has the highest number of trees" },
+        { "id": "C", "text": "it has the highest number of tall trees" },
+        { "id": "D", "text": "the height of all its trees range between 2 m and 6 m" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Bio2010_TreeHeight_Distribution"
+    },
+    {
+      "id": 44,
+      "question": "Thyroxine and adrenalin are examples of hormones which control",
+      "options": [
+        { "id": "A", "text": "blood grouping" },
+        { "id": "B", "text": "tongue rolling" },
+        { "id": "C", "text": "behavioural patterns" },
+        { "id": "D", "text": "colour variation" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 45,
+      "question": "A pair of genes that control a trait is referred to as",
+      "options": [
+        { "id": "A", "text": "an allele" },
+        { "id": "B", "text": "recessive" },
+        { "id": "C", "text": "dominant" },
+        { "id": "D", "text": "a hybrid" }
+      ],
+      "correctAnswer": "A"
+    },
+    {
+      "id": 46,
+      "question": "The chromosome number of a cell before and after the process of meiosis is conventionally represented as",
+      "options": [
+        { "id": "A", "text": "2n → 2n" },
+        { "id": "B", "text": "n → n" },
+        { "id": "C", "text": "n → 2n" },
+        { "id": "D", "text": "2n → n" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 47,
+      "question": "If both parents are heterozygous for a trait, the probability that an offspring will be recessive for that trait is",
+      "options": [
+        { "id": "A", "text": "3/4" },
+        { "id": "B", "text": "1/2" },
+        { "id": "C", "text": "1/4" },
+        { "id": "D", "text": "1" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 48,
+      "question": "At what stage in the life history of a mammal is the sex of an individual set?",
+      "options": [
+        { "id": "A", "text": "at adolescence" },
+        { "id": "B", "text": "at puberty" },
+        { "id": "C", "text": "at birth" },
+        { "id": "D", "text": "at conception" }
+      ],
+      "correctAnswer": "D"
+    },
+    {
+      "id": 49,
+      "question": "The main distinguishing features between the soldier termite and other members of the caste are the",
+      "options": [
+        { "id": "A", "text": "presence of wings, possession of a small head and large thorax" },
+        { "id": "B", "text": "presence of wings, possession of a large thorax and a small head" },
+        { "id": "C", "text": "absence of wings, possession of strong mandibles and a large head" },
+        { "id": "D", "text": "absence of wings, possession of big head and the absence of mandible" }
+      ],
+      "correctAnswer": "C"
+    },
+    {
+      "id": 50,
+      "question": "The flippers of a whale and the fins of a fish are examples of",
+      "options": [
+        { "id": "A", "text": "divergent evolution" },
+        { "id": "B", "text": "coevolution" },
+        { "id": "C", "text": "continuous variation" },
+        { "id": "D", "text": "convergent evolution" }
+      ],
+      "correctAnswer": "D"
+    }
+  ]
+}
