@@ -1,1 +1,633 @@
-
+{
+  "year": 2004,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ2004_Monopoly_SR",
+      "file": "images/econ2004_q7_monopoly_sr.png",
+      "description": "Short‑run cost and revenue diagram for Question 7. Vertical axis: price/cost; horizontal axis: quantity. A downward‑sloping demand curve, a marginal‑revenue curve, and U‑shaped MC and AC curves are drawn. Profit‑maximizing output is at Q₂ where MR = MC."
+    },
+    {
+      "id": "Econ2004_IncomeBeansRice",
+      "file": "images/econ2004_q38_beans_rice_table.png",
+      "description": "Opportunity‑cost table for Question 38. Combinations of beans and rice (in units): K → (15, 19); L → (20, 17); M → (24, 16). Movement from combination K to L implies giving up some rice to gain more beans."
+    },
+    {
+      "id": "Econ2004_Shift_DemandSupply",
+      "file": "images/econ2004_q44_shift_demand_supply.png",
+      "description": "Demand–supply shift diagram for Question 44. Initial demand D₁ and supply S₁ intersect at E₁. New demand curve D₂ and new supply curve S₂ intersect at a different equilibrium E₃. Points E₁–E₅ indicate alternative equilibria."
+    },
+    {
+      "id": "Econ2004_Supply_Shift_TN",
+      "file": "images/econ2004_q45_46_supply_shift.png",
+      "description": "Supply curve S shifting rightward from T to N for Questions 45–46. At the same demand curve, this indicates an increase in supply leading to lower equilibrium price and higher quantity."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "By advertising, a monopolistic competitive firm tries to shift its",
+      "options": [
+        { "id": "A", "text": "supply curve to the right" },
+        { "id": "B", "text": "demand curve to the right" },
+        { "id": "C", "text": "supply curve to the left" },
+        { "id": "D", "text": "demand curve to the left" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Advertising aims to **increase demand** for the firm’s differentiated product, shifting its demand curve to the right."
+    },
+    {
+      "id": 2,
+      "question": "Given that \\(Y = C + I\\) and \\(C = bY\\) where \\(b = 0.8\\), what is the multiplier?",
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "10" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Marginal propensity to consume \\(MPC = b = 0.8\\). Multiplier \\(k = 1/(1-MPC) = 1/(1-0.8) = 1/0.2 = 5\\)."
+    },
+    {
+      "id": 3,
+      "question": "The role of the Central Bank in the economic development of Nigeria is to",
+      "options": [
+        { "id": "A", "text": "give short‑ and medium‑term loans to the public" },
+        { "id": "B", "text": "give financial and technical advice to customers" },
+        { "id": "C", "text": "use cheques and bank drafts to facilitate business transactions" },
+        { "id": "D", "text": "maintain a stable price system" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A key role of the Central Bank is **monetary stability**, i.e. maintaining price stability."
+    },
+    {
+      "id": 4,
+      "question": "The primary function of non‑bank financial institutions is to",
+      "options": [
+        { "id": "A", "text": "manage investment portfolios for government" },
+        { "id": "B", "text": "mobilize savings for investment" },
+        { "id": "C", "text": "grant loans to banks" },
+        { "id": "D", "text": "receive deposits from banks" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Institutions like insurance companies and pension funds **mobilize savings** and channel them into investment."
+    },
+    {
+      "id": 5,
+      "question": "At the maximum point of the total product curve of a firm, marginal revenue is",
+      "options": [
+        { "id": "A", "text": "decreasing" },
+        { "id": "B", "text": "increasing" },
+        { "id": "C", "text": "constant" },
+        { "id": "D", "text": "zero" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "At the maximum of total product, **marginal product is zero**. If the firm sells at a constant price, marginal revenue product at that point is also zero."
+    },
+    {
+      "id": 6,
+      "question": "In an open economy, the GNP is measured as",
+      "options": [
+        { "id": "A", "text": "C + I + G + X" },
+        { "id": "B", "text": "C + I + G + (X − M)" },
+        { "id": "C", "text": "C + I + G + M − D" },
+        { "id": "D", "text": "C + I + G" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For an open economy without government transfers, **GNP = C + I + G + (X − M)**."
+    },
+    {
+      "id": 7,
+      "question": "The diagram (figure Econ2004_Monopoly_SR) represents the short‑run position of a monopolist. The profit‑maximizing output is at",
+      "options": [
+        { "id": "A", "text": "Q₁" },
+        { "id": "B", "text": "Q₂" },
+        { "id": "C", "text": "Q₃" },
+        { "id": "D", "text": "Q₄" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A monopolist maximizes profit where **MR = MC**; in the diagram this occurs at \\(Q_2\\)."
+    },
+    {
+      "id": 8,
+      "question": "The capital market provides business firms with the avenue to",
+      "options": [
+        { "id": "A", "text": "lease capital equipment" },
+        { "id": "B", "text": "obtain long‑term funds" },
+        { "id": "C", "text": "obtain short‑term funds" },
+        { "id": "D", "text": "purchase capital equipment" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Capital markets are for **long‑term financing** (shares, bonds)."
+    },
+    {
+      "id": 9,
+      "question": "Which of the financial institutions is charged with the formulation of monetary policies in Nigeria?",
+      "options": [
+        { "id": "A", "text": "The Central Bank of Nigeria" },
+        { "id": "B", "text": "The Nigeria Deposit Insurance Corporation" },
+        { "id": "C", "text": "The Abuja Commodity Exchange" },
+        { "id": "D", "text": "The Lagos Stock Exchange" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The **Central Bank of Nigeria** is responsible for monetary policy."
+    },
+    {
+      "id": 10,
+      "question": "GDP differs from GNP because GDP",
+      "options": [
+        { "id": "A", "text": "is inclusive of depreciation" },
+        { "id": "B", "text": "emphasizes the final goods and services produced within the country in a particular period" },
+        { "id": "C", "text": "emphasizes the market value of all final goods and services produced by nationals" },
+        { "id": "D", "text": "emphasizes the market value of all final goods and services produced by nationals anywhere" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "GDP counts production **within a country’s borders**, regardless of ownership."
+    },
+    {
+      "id": 11,
+      "question": "The distinction between perfect competition and monopolistic competition is that the latter is characterized by",
+      "options": [
+        { "id": "A", "text": "a single market price" },
+        { "id": "B", "text": "many buyers and sellers" },
+        { "id": "C", "text": "product differentiation" },
+        { "id": "D", "text": "homogeneity of product" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In monopolistic competition, firms sell **differentiated products**."
+    },
+    {
+      "id": 12,
+      "question": "The downstream activities of oil companies in Nigeria involve",
+      "options": [
+        { "id": "A", "text": "refining and distribution" },
+        { "id": "B", "text": "prospecting and drilling" },
+        { "id": "C", "text": "off‑shore drilling" },
+        { "id": "D", "text": "management of spillage and pollution" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Downstream operations include **refining, marketing and distribution**."
+    },
+    {
+      "id": 13,
+      "question": "The movement of goods and services from the producers to the consumers is referred to as",
+      "options": [
+        { "id": "A", "text": "external trade" },
+        { "id": "B", "text": "the distribution chain" },
+        { "id": "C", "text": "the circular flow" },
+        { "id": "D", "text": "consumption" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "This is the **distribution (or marketing) channel**."
+    },
+    {
+      "id": 14,
+      "question": "The purpose of conducting a census is to enable a country to",
+      "options": [
+        { "id": "A", "text": "plan her capital inflow and outflow" },
+        { "id": "B", "text": "determine the growth rate of population" },
+        { "id": "C", "text": "determine the optimum level of population" },
+        { "id": "D", "text": "plan her growth and development" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Accurate population data are crucial for **development planning**."
+    },
+    {
+      "id": 15,
+      "question": "A major cause of the slow pace of industrialization in Nigeria is inadequate",
+      "options": [
+        { "id": "A", "text": "raw materials" },
+        { "id": "B", "text": "landmass" },
+        { "id": "C", "text": "skilled labour" },
+        { "id": "D", "text": "communal labour" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Industrialization is hindered by **shortage of skilled manpower and technical know‑how**."
+    },
+    {
+      "id": 16,
+      "question": "The maximum wage legislation seeks to",
+      "options": [
+        { "id": "A", "text": "fix wages above the equilibrium wage rate" },
+        { "id": "B", "text": "set wages below the equilibrium wage rate" },
+        { "id": "C", "text": "deter employers from exploiting their employees" },
+        { "id": "D", "text": "ensure an upper limit to the wages payable" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A **maximum (ceiling) wage** law sets an upper bound on wages."
+    },
+    {
+      "id": 17,
+      "question": "The marketing of agricultural commodities in Nigeria is hampered by",
+      "options": [
+        { "id": "A", "text": "lack of adequate storage facilities" },
+        { "id": "B", "text": "the existence of farmers’ associations" },
+        { "id": "C", "text": "the existence of commodity exchange" },
+        { "id": "D", "text": "the abolition of marketing boards" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Poor **storage and preservation** facilities cause wastage and unstable supply."
+    },
+    {
+      "id": 18,
+      "question": "Import duty concessions on industrial inputs directly benefit the",
+      "options": [
+        { "id": "A", "text": "consumers" },
+        { "id": "B", "text": "external sector" },
+        { "id": "C", "text": "commercial sector" },
+        { "id": "D", "text": "manufacturers" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Lower duties on inputs reduce production costs, benefiting **manufacturers**."
+    },
+    {
+      "id": 19,
+      "question": "The labour force in Nigeria falls between the ages of",
+      "options": [
+        { "id": "A", "text": "18 and 45" },
+        { "id": "B", "text": "18 and 55" },
+        { "id": "C", "text": "18 and 60" },
+        { "id": "D", "text": "18 and 30" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The official Nigerian working‑age population is typically **18–60 years**."
+    },
+    {
+      "id": 20,
+      "question": "Government’s involvement in agricultural business in Nigeria is most manifested in the",
+      "options": [
+        { "id": "A", "text": "establishment of farm settlements in each state of the federation" },
+        { "id": "B", "text": "establishment of credit guarantee schemes for small‑scale farmers" },
+        { "id": "C", "text": "formation of farmers’ co‑operative societies" },
+        { "id": "D", "text": "procurement and distribution of fertilizers" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "One prominent involvement has been **buying and distributing fertilizers** to farmers."
+    },
+    {
+      "id": 21,
+      "question": "The difference between birth and death rates of a given population is referred to as the",
+      "options": [
+        { "id": "A", "text": "mortality rate" },
+        { "id": "B", "text": "fertility rate" },
+        { "id": "C", "text": "natural growth rate" },
+        { "id": "D", "text": "linear growth rate" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Birth rate minus death rate gives the **natural increase (growth) rate**."
+    },
+    {
+      "id": 22,
+      "question": "Fiscal policy is the government’s plan to control aggregate demand by manipulating",
+      "options": [
+        { "id": "A", "text": "the demand and supply of money" },
+        { "id": "B", "text": "revenue and expenditure" },
+        { "id": "C", "text": "tastes and preferences of consumers" },
+        { "id": "D", "text": "the structure of production and employment" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Fiscal policy works through **taxation and government spending**."
+    },
+    {
+      "id": 23,
+      "question": "A country is said to have absolute advantage when she",
+      "options": [
+        { "id": "A", "text": "has a higher opportunity cost in the production of a good" },
+        { "id": "B", "text": "can sell to other countries without buying from them" },
+        { "id": "C", "text": "can produce more of any good with fewer resources" },
+        { "id": "D", "text": "has a lower opportunity cost in the production of a good" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Absolute advantage means being able to produce **more output with the same resources** (or same output with fewer resources)."
+    },
+    {
+      "id": 24,
+      "question": "The European Union was formed to promote free trade within member nations by",
+      "options": [
+        { "id": "A", "text": "promoting free trade within member nations" },
+        { "id": "B", "text": "promoting economic integration in non‑member countries" },
+        { "id": "C", "text": "assisting countries to achieve their economic goals" },
+        { "id": "D", "text": "financing development projects in member nations" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "EU’s main objective is **economic integration and free movement** among member countries."
+    },
+    {
+      "id": 25,
+      "question": "If budget deficits are financed by borrowing, the crowding‑out effects can be offset by an increase in",
+      "options": [
+        { "id": "A", "text": "government expenditure" },
+        { "id": "B", "text": "savings" },
+        { "id": "C", "text": "interest rates" },
+        { "id": "D", "text": "exchange rates" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Higher **private savings** provide funds for both government and private investment, reducing crowding‑out."
+    },
+    {
+      "id": 26,
+      "question": "When the importation of a commodity is limited to a definite quantity, the trade‑control measure used is known as",
+      "options": [
+        { "id": "A", "text": "exchange control" },
+        { "id": "B", "text": "tax relief" },
+        { "id": "C", "text": "devaluation" },
+        { "id": "D", "text": "quotas" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A **quota** is a quantitative limit on imports."
+    },
+    {
+      "id": 27,
+      "question": "The excess of aggregate expenditure over full‑employment level of output is referred to as",
+      "options": [
+        { "id": "A", "text": "GNP gap" },
+        { "id": "B", "text": "deflationary gap" },
+        { "id": "C", "text": "inflationary gap" },
+        { "id": "D", "text": "recessionary gap" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "When planned spending exceeds full‑employment output, there is an **inflationary gap**."
+    },
+    {
+      "id": 28,
+      "question": "The tax levied on goods and services at each stage of production is",
+      "options": [
+        { "id": "A", "text": "surtax" },
+        { "id": "B", "text": "VAT" },
+        { "id": "C", "text": "ad valorem tax" },
+        { "id": "D", "text": "PAYE" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "**Value Added Tax (VAT)** is charged at each stage of production/distribution."
+    },
+    {
+      "id": 29,
+      "question": "The number of shareholders in a private limited liability company ranges from",
+      "options": [
+        { "id": "A", "text": "two to seven" },
+        { "id": "B", "text": "two to three" },
+        { "id": "C", "text": "two to fifty" },
+        { "id": "D", "text": "two to twenty" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In many jurisdictions including Nigeria, a private company must have **2–50 shareholders**."
+    },
+    {
+      "id": 30,
+      "question": "A major reason for having national development plans is to",
+      "options": [
+        { "id": "A", "text": "ensure efficient use of available resources" },
+        { "id": "B", "text": "involve people in national programmes" },
+        { "id": "C", "text": "make government spend more on production" },
+        { "id": "D", "text": "ensure that more citizens are involved in planning" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Planning seeks to allocate scarce resources **efficiently** among competing uses."
+    },
+    {
+      "id": 31,
+      "question": "The difference between payments and receipts for visible trade is called",
+      "options": [
+        { "id": "A", "text": "bilateral trade" },
+        { "id": "B", "text": "current balance" },
+        { "id": "C", "text": "balance of payment" },
+        { "id": "D", "text": "balance of trade" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Balance of trade = **exports of goods − imports of goods**."
+    },
+    {
+      "id": 32,
+      "question": "One of the causes of the present high rate of inflation in Nigeria is",
+      "options": [
+        { "id": "A", "text": "increasing budget surplus" },
+        { "id": "B", "text": "increasing factors costs" },
+        { "id": "C", "text": "exchange‑rate appreciation" },
+        { "id": "D", "text": "high capacity utilization" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Rising input costs (wages, energy, imported materials) lead to **cost‑push inflation**."
+    },
+    {
+      "id": 33,
+      "question": "The final stage in the production process of any commodity involves its movement from the",
+      "options": [
+        { "id": "A", "text": "retailer to the wholesaler" },
+        { "id": "B", "text": "producer to the wholesaler" },
+        { "id": "C", "text": "retailer to the consumer" },
+        { "id": "D", "text": "wholesaler to the retailer" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Production is complete when the good reaches the **final consumer**."
+    },
+    {
+      "id": 34,
+      "question": "A change in demand for a normal good means",
+      "options": [
+        { "id": "A", "text": "a shift in the demand curve" },
+        { "id": "B", "text": "a change in the price elasticity" },
+        { "id": "C", "text": "the demand changes as price changes" },
+        { "id": "D", "text": "a movement along a given demand curve" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "‘Change in demand’ means the **whole demand curve shifts** due to non‑price factors."
+    },
+    {
+      "id": 35,
+      "question": "In the indifference‑curve diagram (three curves I, II, III and budget line S₁), a rational consumer will choose to consume at point",
+      "options": [
+        { "id": "A", "text": "M" },
+        { "id": "B", "text": "J" },
+        { "id": "C", "text": "K" },
+        { "id": "D", "text": "L" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Optimal choice is where the highest attainable indifference curve is **tangent to the budget line**; that point is J."
+    },
+    {
+      "id": 36,
+      "question": "In order to increase revenue, the seller of a commodity whose demand is fairly elastic is advised to",
+      "options": [
+        { "id": "A", "text": "increase price" },
+        { "id": "B", "text": "reduce output" },
+        { "id": "C", "text": "reduce price" },
+        { "id": "D", "text": "retain price" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "With **elastic demand (|E_d|>1)**, a price reduction causes proportionately larger increase in quantity demanded, increasing total revenue."
+    },
+    {
+      "id": 37,
+      "question": "In any set of data, the median represents the",
+      "options": [
+        { "id": "A", "text": "value that is most representative of the data" },
+        { "id": "B", "text": "mid‑position when the values are arranged in ascending or descending order" },
+        { "id": "C", "text": "mid‑position when the values are arranged randomly" },
+        { "id": "D", "text": "difference between the highest and lowest values" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The **median** is the middle observation after arranging data in order."
+    },
+    {
+      "id": 38,
+      "question": "The table below shows the combinations of beans and rice that can be purchased by a consumer:\nK: (15 beans, 19 rice), L: (20 beans, 17 rice), M: (24 beans, 16 rice).\nThe opportunity cost of moving from K to L is",
+      "options": [
+        { "id": "A", "text": "2 units of rice" },
+        { "id": "B", "text": "5 units of beans" },
+        { "id": "C", "text": "17 units of rice" },
+        { "id": "D", "text": "20 units of beans" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Move K→L: beans increase by 5, rice falls from 19 to 17. Opportunity cost of 5 extra beans is **2 units of rice**."
+    },
+    {
+      "id": 39,
+      "question": "One of the assumptions of ordinal utility in consumer behaviour is that",
+      "options": [
+        { "id": "A", "text": "consumers are irrational" },
+        { "id": "B", "text": "marginal utility rises continuously" },
+        { "id": "C", "text": "utility is measurable" },
+        { "id": "D", "text": "utility can only be ranked" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ordinal utility assumes that utility **cannot be measured**, only **ranked** by preference order."
+    },
+    {
+      "id": 40,
+      "question": "A large standard deviation is an indication of",
+      "options": [
+        { "id": "A", "text": "the size of the sample" },
+        { "id": "B", "text": "a wide spread around the mean" },
+        { "id": "C", "text": "a wide difference between the mean and the mode" },
+        { "id": "D", "text": "the difference between the highest and the lowest values" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Standard deviation measures **dispersion of observations around the mean**; a large value implies wide spread."
+    },
+    {
+      "id": 41,
+      "question": "A major characteristic of a mixed economy is that",
+      "options": [
+        { "id": "A", "text": "economic decisions are made by both the rich and the poor" },
+        { "id": "B", "text": "both primary and secondary production are undertaken" },
+        { "id": "C", "text": "the federal and the state governments undertake joint projects" },
+        { "id": "D", "text": "economic activities are undertaken by both the public and private sectors" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In a **mixed economy**, both government and private sector play important roles in production."
+    },
+    {
+      "id": 42,
+      "question": "Given the cost function \\(C = 160 + 36Q\\), what is the average cost at 20 units of output?",
+      "options": [
+        { "id": "A", "text": "₦720" },
+        { "id": "B", "text": "₦216.00" },
+        { "id": "C", "text": "₦44.00" },
+        { "id": "D", "text": "₦880.00" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Total cost at \\(Q=20\\): \\(C = 160 + 36\\times20 = 160 + 720 = 880\\). Average cost \\(AC = 880 / 20 = ₦44\\)."
+    },
+    {
+      "id": 43,
+      "question": "If an increase in the price of good X leads to an increase in the supply of good Y, X and Y are said to be",
+      "options": [
+        { "id": "A", "text": "jointly supplied" },
+        { "id": "B", "text": "competitive" },
+        { "id": "C", "text": "composite" },
+        { "id": "D", "text": "jointly demanded" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Producers shift resources from X to Y when X becomes relatively more profitable; goods are **competitive in supply**."
+    },
+    {
+      "id": 44,
+      "question": "The diagram with shifts in both demand and supply curves (figure Econ2004_Shift_DemandSupply) shows new equilibrium points E₁–E₅. What is the new equilibrium point after the shifts?",
+      "options": [
+        { "id": "A", "text": "E₃" },
+        { "id": "B", "text": "E₁" },
+        { "id": "C", "text": "E₄" },
+        { "id": "D", "text": "E₂" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The new demand curve D₂ intersects new supply S₂ at **E₃**."
+    },
+    {
+      "id": 45,
+      "question": "Referring to the supply‑shift diagram (figure Econ2004_Supply_Shift_TN), when there is a change from point T to N along the supply curve, it implies that",
+      "options": [
+        { "id": "A", "text": "supply has increased" },
+        { "id": "B", "text": "quantity supplied has increased" },
+        { "id": "C", "text": "quantity demanded has increased" },
+        { "id": "D", "text": "price has fallen" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Movement **along** an unchanged supply curve from T to N shows an increase in **quantity supplied** due to higher price."
+    },
+    {
+      "id": 46,
+      "question": "A movement from point M to T on the same diagram implies that there has been",
+      "options": [
+        { "id": "A", "text": "a decrease in supply" },
+        { "id": "B", "text": "an increase in demand" },
+        { "id": "C", "text": "a decrease in price" },
+        { "id": "D", "text": "an increase in price" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Moving upward along a supply curve (M→T) represents a **rise in price** and quantity supplied."
+    },
+    {
+      "id": 47,
+      "question": "A necessary condition for specialization in an economy is the existence of",
+      "options": [
+        { "id": "A", "text": "a regulated market" },
+        { "id": "B", "text": "a competitive market" },
+        { "id": "C", "text": "a medium of exchange" },
+        { "id": "D", "text": "adequate capital" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Specialization requires **money (a medium of exchange)** to overcome the problem of barter."
+    },
+    {
+      "id": 48,
+      "question": "A firm operating at full capacity will experience rising short‑run total costs when",
+      "options": [
+        { "id": "A", "text": "prices of its variable inputs rise" },
+        { "id": "B", "text": "prices of its variable inputs fall" },
+        { "id": "C", "text": "there is a change in management" },
+        { "id": "D", "text": "labour productivity increases" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Higher prices of variable inputs (e.g. wages, raw materials) raise **short‑run total cost**."
+    },
+    {
+      "id": 49,
+      "question": "In a textile factory, the cost of cotton used is a typical example of",
+      "options": [
+        { "id": "A", "text": "an average cost" },
+        { "id": "B", "text": "a variable cost" },
+        { "id": "C", "text": "a total cost" },
+        { "id": "D", "text": "a fixed cost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cotton usage varies with output; it is a **variable cost**."
+    },
+    {
+      "id": 50,
+      "question": "A black market can occur when",
+      "options": [
+        { "id": "A", "text": "supply is in excess of demand" },
+        { "id": "B", "text": "consumption of the commodity is restricted" },
+        { "id": "C", "text": "prices are set by government above the equilibrium" },
+        { "id": "D", "text": "prices are set by government below the equilibrium" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A government‑imposed **price ceiling below equilibrium** creates shortages and encourages black‑market selling at higher prices."
+    }
+  ]
+}
