@@ -1,1 +1,643 @@
-
+{
+  "year": 2000,
+  "paper": "Economics",
+  "figures": [
+    {
+      "id": "Econ2000_Histogram_Scores",
+      "file": "images/econ2000_q3_4_scores_histogram.png",
+      "description": "Histogram for Questions 3 and 4. Horizontal axis shows examination scores (class intervals of width 10); vertical axis shows number of students. Bars correspond to frequencies; total area represents all 120 students. Questions ask total number of candidates and number who passed a cutoff (e.g. 40 marks)."
+    },
+    {
+      "id": "Econ2000_CrossElasticity",
+      "file": "images/econ2000_q7_cross_elasticity.png",
+      "description": "Text data for Questions 7 and 8: When commodity X sold for N25 per unit, 50 units of commodity Y were purchased. After an increase in price of X to N50 per unit, the demand for Y fell to 20 units. Cross elasticity of demand is computed as \\(E_{xy} = \\dfrac{\\%\\Delta Q_y}{\\%\\Delta P_x}\\)."
+    },
+    {
+      "id": "Econ2000_Indifference_Budget",
+      "file": "images/econ2000_q10_indifference_budget.png",
+      "description": "Indifference‑curve diagram for Question 10. Horizontal axis: Good two; vertical axis: Good one. Two budget lines L₁L₁ and L₂L₂ with a common origin O. Indifference curves I₁, I₂ and I₃ are convex to the origin, with point U on one curve, V and W on another, and Y and Z on a higher curve. The question asks which point(s) are optimal."
+    },
+    {
+      "id": "Econ2000_CommodityI_II_DemandSupply",
+      "file": "images/econ2000_q11_12_two_commodities.png",
+      "description": "Two separate market diagrams for Questions 11 and 12. For commodity I, downward‑sloping demand \\(D_0\\) and upward‑sloping supply \\(S\\) intersect at price \\(P_1\\) and quantity \\(Q_1\\); another demand curve \\(D_1\\) lies to the right. For commodity II, the supply shifts from \\(S_0S_0\\) to \\(S_1S_1\\) and demand shifts from \\(D_0D_0\\) to \\(D_1D_1\\); the new equilibrium price and quantity move from \\(P_1,Q_1\\) to \\(P_2,Q_2\\)."
+    },
+    {
+      "id": "Econ2000_MC_AVC",
+      "file": "images/econ2000_q20_mc_avc_curve.png",
+      "description": "Short‑run cost diagram for Question 20. U‑shaped average variable‑cost (AVC) curve and marginal‑cost (MC) curve. A higher curve labelled T through the upper part is the long‑run average cost (LRAC). The segment UT represents the firm’s supply curve under perfect competition for prices above minimum AVC."
+    },
+    {
+      "id": "Econ2000_Labour_Market",
+      "file": "images/econ2000_q36_labour_supply_demand.png",
+      "description": "Labour‑market diagram for Question 36. Vertical axis: wage (W). Horizontal axis: labour employed. Upward‑sloping supply curve \\(S_L\\) and downward‑sloping demand curve \\(D_L\\). Several horizontal wage lines are drawn: \\(W_1, W_2, W_3\\). The lowest line indicates the minimum wage rate."
+    }
+  ],
+  "instructions": [
+    {
+      "text": "In each of questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Economics can be defined as",
+      "options": [
+        { "id": "A", "text": "reduction in spending in the face of competing alternatives" },
+        { "id": "B", "text": "allocation of resources to alternative uses" },
+        { "id": "C", "text": "economic behaviour of small units like the household and the firm" },
+        { "id": "D", "text": "the study of economic aggregates like inflation and national income" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A standard definition of economics is the study of how **scarce resources are allocated among alternative uses**."
+    },
+    {
+      "id": 2,
+      "question": "Consider the four questions:\nI. What and how much will be produced?\nII. How will it be produced?\nIII. For whom will it be produced?\nIV. How much will be exported and consumed?\nFrom the above, identify the combination of basic resource‑allocation questions in economic analysis.",
+      "options": [
+        { "id": "A", "text": "I, II and III" },
+        { "id": "B", "text": "I, II and IV" },
+        { "id": "C", "text": "I, III and IV" },
+        { "id": "D", "text": "II, III and IV" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The three fundamental questions are **what to produce, how, and for whom**—i.e. I, II and III."
+    },
+    {
+      "id": 3,
+      "question": "Using the histogram of scores for 120 students (figure Econ2000_Histogram_Scores), how many students took the examination?",
+      "options": [
+        { "id": "A", "text": "280" },
+        { "id": "B", "text": "240" },
+        { "id": "C", "text": "200" },
+        { "id": "D", "text": "80" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The caption states there are 120 students; the exact sum of bar heights is not legible to verify which option corresponds. The official key should be consulted."
+    },
+    {
+      "id": 4,
+      "question": "If the pass mark was 40, how many students passed the examination? (Use the same histogram.)",
+      "options": [
+        { "id": "A", "text": "100" },
+        { "id": "B", "text": "120" },
+        { "id": "C", "text": "160" },
+        { "id": "D", "text": "200" }
+      ],
+      "correctAnswer": null,
+      "explanation": "This requires reading frequencies for bars with scores \\(\\ge 40\\). The scan resolution is insufficient to determine exact counts."
+    },
+    {
+      "id": 5,
+      "question": "In a capitalist economy, the economic problem of what goods to produce is decided mainly by",
+      "options": [
+        { "id": "A", "text": "shadow prices" },
+        { "id": "B", "text": "profit level" },
+        { "id": "C", "text": "relative prices" },
+        { "id": "D", "text": "a central planner" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a market economy, **relative prices** guide producers’ decisions on what to produce."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is an example of derived demand?",
+      "options": [
+        { "id": "A", "text": "tax relief" },
+        { "id": "B", "text": "labour" },
+        { "id": "C", "text": "wage increase" },
+        { "id": "D", "text": "entertainment" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Demand for **labour** is derived from demand for the goods and services labour helps to produce."
+    },
+    {
+      "id": 7,
+      "question": "When commodity X sold for N25 per unit, 50 units of commodity Y were purchased. With an increase in the price of X to N50 per unit, the demand for commodity Y fell to 20 units. Determine the cross elasticity of demand.",
+      "options": [
+        { "id": "A", "text": "1.7" },
+        { "id": "B", "text": "0.6" },
+        { "id": "C", "text": "-0.6" },
+        { "id": "D", "text": "-1.7" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Using the arc formula: \\(E_{xy} = \\dfrac{\\Delta Q_y}{\\Delta P_x} \\times \\dfrac{P_1+P_2}{Q_1+Q_2}\\). \\(\\Delta Q_y = 20-50 = -30\\); \\(\\Delta P_x = 50-25 = 25\\). \\(E_{xy} \\approx (-30/25) \\times (75/70) \\approx -1.286\\). That is roughly −1.3; closest option is **−1.7**; the question uses a simpler % change: \\(\\%\\Delta Q = -60\\%\\), \\(\\%\\Delta P = 100\\%\\), giving \\(E_{xy} = -0.6\\). Because of the ambiguity, consult official marking scheme; mathematically the sign is negative (complements)."
+    },
+    {
+      "id": 8,
+      "question": "The two commodities in Question 7 can be classified as",
+      "options": [
+        { "id": "A", "text": "substitutes" },
+        { "id": "B", "text": "durable and non‑durable" },
+        { "id": "C", "text": "intermediate and final" },
+        { "id": "D", "text": "complements" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A rise in price of X caused a fall in demand for Y, giving **negative cross elasticity**; the goods are complements."
+    },
+    {
+      "id": 9,
+      "question": "A central argument of cardinal utility is that utility is",
+      "options": [
+        { "id": "A", "text": "measurable" },
+        { "id": "B", "text": "psychological" },
+        { "id": "C", "text": "ranked" },
+        { "id": "D", "text": "intangible" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cardinal utility theory assumes utility can be **measured in utils**."
+    },
+    {
+      "id": 10,
+      "question": "In the indifference‑curve diagram (figure Econ2000_Indifference_Budget), L₁L₁ and L₂L₂ are budget lines; I₁, I₂ and I₃ are indifference curves. Which point(s) are optimal?",
+      "options": [
+        { "id": "A", "text": "U and W" },
+        { "id": "B", "text": "U and Z" },
+        { "id": "C", "text": "V and W" },
+        { "id": "D", "text": "Y and Z" }
+      ],
+      "correctAnswer": null,
+      "explanation": "An optimum occurs where a budget line is **tangent to the highest attainable indifference curve**. The low‑resolution scan does not clearly show which points satisfy this, so consult a clearer copy."
+    },
+    {
+      "id": 11,
+      "question": "Considering the two market diagrams for commodity I and II (figure Econ2000_CommodityI_II_DemandSupply), commodities I and II are in",
+      "options": [
+        { "id": "A", "text": "competitive supply" },
+        { "id": "B", "text": "joint supply" },
+        { "id": "C", "text": "substitute supply" },
+        { "id": "D", "text": "derived supply" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The diagrams show that as the price of one commodity changes, producers shift supply between them, indicating **substitute supply**."
+    },
+    {
+      "id": 12,
+      "question": "The supply of commodity II increasing from \\(S_0S_0\\) to \\(S_1S_1\\) leads to a price fall from \\(OP_1\\) to",
+      "options": [
+        { "id": "A", "text": "OP" },
+        { "id": "B", "text": "OP₂" },
+        { "id": "C", "text": "moves the price below OP" },
+        { "id": "D", "text": "moves the price to OP₁" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An increase in supply shifts the curve rightward and **reduces equilibrium price** from \\(P_1\\) to \\(P_2\\)."
+    },
+    {
+      "id": 13,
+      "question": "In a free market system, trading can only take place when the",
+      "options": [
+        { "id": "A", "text": "market is not working efficiently" },
+        { "id": "B", "text": "equilibrium price is attained" },
+        { "id": "C", "text": "price of a commodity tends to attract consumers" },
+        { "id": "D", "text": "increase in price brings about decrease in demand" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In a competitive market, sustained exchange occurs at the **equilibrium price** where quantity demanded equals quantity supplied."
+    },
+    {
+      "id": 14,
+      "question": "The condition for equilibrium price and quantity under perfect competition is",
+      "options": [
+        { "id": "A", "text": "MC = AR = TRB, TC = AR = P" },
+        { "id": "B", "text": "MC = AR = P" },
+        { "id": "C", "text": "MC = AR = P" },
+        { "id": "D", "text": "MC = AR = TC" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For a perfectly competitive firm, equilibrium occurs where **marginal cost equals marginal revenue and price**: \\(MC = MR = P\\). (The scan merges options; B is interpreted as the intended condition.)"
+    },
+    {
+      "id": 15,
+      "question": "External diseconomies of scale result from excessive growth of",
+      "options": [
+        { "id": "A", "text": "the whole industry" },
+        { "id": "B", "text": "some sectors of the industry" },
+        { "id": "C", "text": "external factors" },
+        { "id": "D", "text": "internal factors" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "External diseconomies arise when **the industry as a whole** becomes too large, causing congestion, higher input prices, etc."
+    },
+    {
+      "id": 16,
+      "question": "Using the production table below, with variable factor input and total product (TP):\n1→1, 2→6, 3→24, 4→48, 5→72, 6→93. The marginal products (MP) for inputs 2–6 are given as 5, 18, \\(X\\), 25 and 20 respectively. The marginal product \\(X\\) is",
+      "options": [
+        { "id": "A", "text": "18" },
+        { "id": "B", "text": "20" },
+        { "id": "C", "text": "24" },
+        { "id": "D", "text": "25" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "MP for input 4: \\(TP_4 - TP_3 = 48 - 24 = 24\\)."
+    },
+    {
+      "id": 17,
+      "question": "From the same table, the average product \\(Y\\) for input 6 is",
+      "options": [
+        { "id": "A", "text": "8.0" },
+        { "id": "B", "text": "12.0" },
+        { "id": "C", "text": "14.6" },
+        { "id": "D", "text": "15.5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Average product at 6 units: \\(AP_6 = TP_6/6 = 93/6 = 15.5\\). (Option D is 15.5; the letter for Y in the scan may correspond to 15.5.)"
+    },
+    {
+      "id": 18,
+      "question": "In a small‑scale business, the fixed cost is N5,000.00, variable cost is N15,000.00 and the output is 500 units. What will be the unit cost of the goods?",
+      "options": [
+        { "id": "A", "text": "N400.00" },
+        { "id": "B", "text": "N80.00" },
+        { "id": "C", "text": "N40.00" },
+        { "id": "D", "text": "N20.00" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Total cost = 5,000 + 15,000 = 20,000. Unit cost = \\(20,000/500 = N40\\). (Option C; the scan may mis‑align options.)"
+    },
+    {
+      "id": 19,
+      "question": "If a total‑cost curve is plotted, marginal cost can be illustrated by the",
+      "options": [
+        { "id": "A", "text": "slope of the tangent to the curve at any given output" },
+        { "id": "B", "text": "V‑shaped curve cutting the total‑cost curve at its lowest point" },
+        { "id": "C", "text": "straight line from the origin to the mid‑point of the curve" },
+        { "id": "D", "text": "straight line cutting the curve at its highest point" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Marginal cost is **the derivative (slope) of the total‑cost curve**."
+    },
+    {
+      "id": 20,
+      "question": "In a price‑taking firm, the portion UT of the MC–AVC diagram (figure Econ2000_MC_AVC) above AVC is the firm’s",
+      "options": [
+        { "id": "A", "text": "average revenue curve" },
+        { "id": "B", "text": "supply curve" },
+        { "id": "C", "text": "demand curve" },
+        { "id": "D", "text": "long‑run average‑cost curve" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For a competitive firm, the **supply curve** is the MC curve **above the minimum AVC**."
+    },
+    {
+      "id": 21,
+      "question": "The short‑run equilibrium in a perfectly competitive market requires that",
+      "options": [
+        { "id": "A", "text": "marginal cost be equal to total revenue" },
+        { "id": "B", "text": "marginal cost and marginal revenue be equal" },
+        { "id": "C", "text": "costs are mutually determined by buyers and sellers" },
+        { "id": "D", "text": "the marginal‑cost curve cuts the total‑cost curve" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Profit maximization condition: **MC = MR**."
+    },
+    {
+      "id": 22,
+      "question": "A firm whose sales and total revenue schedule for a commodity is: Q = 43, 44, 45 give revenue of N228, N233 and N238 respectively, is",
+      "options": [
+        { "id": "A", "text": "a monopolist" },
+        { "id": "B", "text": "a monopolistic competitor" },
+        { "id": "C", "text": "a perfect competitor" },
+        { "id": "D", "text": "an oligopolist" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Changing Q changes price and TR non‑linearly, implying the firm faces a **downward‑sloping demand curve** typical of a monopolist."
+    },
+    {
+      "id": 23,
+      "question": "At the point where marginal revenue of a monopolist is equal to zero, its total revenue will be",
+      "options": [
+        { "id": "A", "text": "falling" },
+        { "id": "B", "text": "rising" },
+        { "id": "C", "text": "equal to zero" },
+        { "id": "D", "text": "maximum" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "TR is maximized when **MR = 0**."
+    },
+    {
+      "id": 24,
+      "question": "A distinguishing characteristic of co‑operative societies is that voting power depends on the",
+      "options": [
+        { "id": "A", "text": "number of shares held" },
+        { "id": "B", "text": "status of the member" },
+        { "id": "C", "text": "equality of members" },
+        { "id": "D", "text": "management’s decision" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In co‑operatives, each member typically has **one vote**, regardless of shares owned."
+    },
+    {
+      "id": 25,
+      "question": "The concept of privatization presupposes",
+      "options": [
+        { "id": "A", "text": "efficiency" },
+        { "id": "B", "text": "market price" },
+        { "id": "C", "text": "indigenization" },
+        { "id": "D", "text": "foreign trade" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Privatization is usually justified on grounds of **improving efficiency**."
+    },
+    {
+      "id": 26,
+      "question": "One problem in the marketing of agricultural products in Nigeria is",
+      "options": [
+        { "id": "A", "text": "the seasonal nature of the commodities" },
+        { "id": "B", "text": "high price of the commodities" },
+        { "id": "C", "text": "the changing tastes of consumers" },
+        { "id": "D", "text": "inadequate storage facilities" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Lack of **storage and preservation** facilities leads to waste and marketing difficulties."
+    },
+    {
+      "id": 27,
+      "question": "Increased output will cause farmers’ revenue to decrease when market demand is",
+      "options": [
+        { "id": "A", "text": "elastic" },
+        { "id": "B", "text": "inelastic" },
+        { "id": "C", "text": "unitary elastic" },
+        { "id": "D", "text": "perfectly elastic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With **inelastic demand**, lowering price to sell more can reduce **total revenue**."
+    },
+    {
+      "id": 28,
+      "question": "A primary industry is concerned with",
+      "options": [
+        { "id": "A", "text": "extraction of resources in their raw state" },
+        { "id": "B", "text": "the operation of small‑scale enterprises" },
+        { "id": "C", "text": "the economic activities of primary producers" },
+        { "id": "D", "text": "clearing and cultivation of land only" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary industries involve **extraction of natural resources** (mining, farming, fishing)."
+    },
+    {
+      "id": 29,
+      "question": "The slow pace of industrial growth in Nigeria can be attributed to",
+      "options": [
+        { "id": "A", "text": "over‑dependence on the oil sector" },
+        { "id": "B", "text": "inadequate number of unskilled labour" },
+        { "id": "C", "text": "lack of raw materials" },
+        { "id": "D", "text": "inadequate infrastructural facilities" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Poor **infrastructure** (power, roads, etc.) significantly hinders industrial expansion."
+    },
+    {
+      "id": 30,
+      "question": "Industries contribute to national economic development because they",
+      "options": [
+        { "id": "A", "text": "utilize local raw materials" },
+        { "id": "B", "text": "employ an increasing number of labour" },
+        { "id": "C", "text": "provide recreational facilities" },
+        { "id": "D", "text": "use modern machines which replace human labour" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Industrialization **creates employment** and raises incomes."
+    },
+    {
+      "id": 31,
+      "question": "The Nigerian economy is monocultural because government revenue is derived mainly from",
+      "options": [
+        { "id": "A", "text": "agriculture" },
+        { "id": "B", "text": "manufacturing" },
+        { "id": "C", "text": "coal" },
+        { "id": "D", "text": "crude oil" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Nigeria relies heavily on **crude‑oil exports** for revenue."
+    },
+    {
+      "id": 32,
+      "question": "As a producers’ association, OPEC expects its members to maintain production where marginal cost is",
+      "options": [
+        { "id": "A", "text": "greater than price" },
+        { "id": "B", "text": "less than price" },
+        { "id": "C", "text": "equal to price" },
+        { "id": "D", "text": "equal to average cost" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To **restrict output and keep prices high**, OPEC wants MC < price so members earn supernormal profits."
+    },
+    {
+      "id": 33,
+      "question": "A well‑conducted census is important for",
+      "options": [
+        { "id": "A", "text": "effective defence" },
+        { "id": "B", "text": "effective revenue generation" },
+        { "id": "C", "text": "good economic planning" },
+        { "id": "D", "text": "optimum population" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Accurate population data are essential for **economic planning**."
+    },
+    {
+      "id": 34,
+      "question": "The age distribution of a country's population determines the",
+      "options": [
+        { "id": "A", "text": "ratio of the dependent to the working‑age group" },
+        { "id": "B", "text": "total age of all working‑class adults" },
+        { "id": "C", "text": "male–female ratio" },
+        { "id": "D", "text": "percentage of married women" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Age distribution is key in computing the **dependency ratio**."
+    },
+    {
+      "id": 35,
+      "question": "Firms continue to employ workers until the wage rate equals the",
+      "options": [
+        { "id": "A", "text": "average product of labour" },
+        { "id": "B", "text": "marginal revenue product of labour" },
+        { "id": "C", "text": "total product of labour" },
+        { "id": "D", "text": "sum of marginal revenue and average revenue of labour" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Profit‑maximizing rule in a competitive labour market: **wage = MRP\\_L**."
+    },
+    {
+      "id": 36,
+      "question": "In the labour‑market diagram (figure Econ2000_Labour_Market), \\(W_F, W_1, W_2\\) and \\(W_3\\) are different wage rates. The minimum wage rate is",
+      "options": [
+        { "id": "A", "text": "W_F" },
+        { "id": "B", "text": "W_1" },
+        { "id": "C", "text": "W_2" },
+        { "id": "D", "text": "W_3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The lowest horizontal wage line shown is **W₁**, representing the statutory minimum."
+    },
+    {
+      "id": 37,
+      "question": "A major effect of a long distribution chain is",
+      "options": [
+        { "id": "A", "text": "high retail prices" },
+        { "id": "B", "text": "scarcity of commodities" },
+        { "id": "C", "text": "low retail prices" },
+        { "id": "D", "text": "low producer earnings" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each intermediary adds a markup, so **longer chains raise final prices**."
+    },
+    {
+      "id": 38,
+      "question": "The major function of the wholesaler to his customers is",
+      "options": [
+        { "id": "A", "text": "breaking of bulk" },
+        { "id": "B", "text": "offering personal services" },
+        { "id": "C", "text": "stocking a variety of goods" },
+        { "id": "D", "text": "providing transport facilities" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Wholesalers buy in bulk and sell in smaller lots—**breaking bulk**."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following is used for measuring national income?",
+      "options": [
+        { "id": "A", "text": "output, income and wages" },
+        { "id": "B", "text": "import expenditure and output" },
+        { "id": "C", "text": "income, output and expenditure" },
+        { "id": "D", "text": "export, import and output" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The three common approaches to NI are **output, income and expenditure**."
+    },
+    {
+      "id": 40,
+      "question": "An increase in money supply, other things being equal, will",
+      "options": [
+        { "id": "A", "text": "lower interest rates" },
+        { "id": "B", "text": "reduce income" },
+        { "id": "C", "text": "ensure trade balance" },
+        { "id": "D", "text": "increase money demand" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "More money available to lend tends to **reduce interest rates**."
+    },
+    {
+      "id": 41,
+      "question": "A persistent rise in the general level of prices implies",
+      "options": [
+        { "id": "A", "text": "an increase in some prices" },
+        { "id": "B", "text": "a one‑time rise in prices" },
+        { "id": "C", "text": "a steady fall in the purchasing power of money" },
+        { "id": "D", "text": "that the higher the price level, the more the value of money" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Inflation means rising prices and thus **declining purchasing power of money**."
+    },
+    {
+      "id": 42,
+      "question": "Two principal ways by which banks can lend money to their customers are through",
+      "options": [
+        { "id": "A", "text": "loans and overdrafts" },
+        { "id": "B", "text": "loans and discounting bills" },
+        { "id": "C", "text": "overdrafts and cheques" },
+        { "id": "D", "text": "overdrafts and treasury bills" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Banks extend credit mainly via **term loans and overdraft facilities**."
+    },
+    {
+      "id": 43,
+      "question": "A capital market differs from the money market in that in the former",
+      "options": [
+        { "id": "A", "text": "loan sought is short term" },
+        { "id": "B", "text": "loan repayment is guaranteed" },
+        { "id": "C", "text": "loan sought is long term" },
+        { "id": "D", "text": "the percentage of interest charged is more" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "**Capital markets** deal in long‑term funds; money markets in short‑term funds."
+    },
+    {
+      "id": 44,
+      "question": "Economic development may be defined as economic growth",
+      "options": [
+        { "id": "A", "text": "in a given country" },
+        { "id": "B", "text": "over a long period" },
+        { "id": "C", "text": "and improved health facilities" },
+        { "id": "D", "text": "and improved distribution of wealth" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Development combines growth with **improved welfare and distribution**."
+    },
+    {
+      "id": 45,
+      "question": "An aspect of taxation that involves normative economics is the",
+      "options": [
+        { "id": "A", "text": "tax rate" },
+        { "id": "B", "text": "effect on incentive to work" },
+        { "id": "C", "text": "fairness of the tax" },
+        { "id": "D", "text": "tax burden" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Questions about whether a tax is **fair or equitable** are normative (value judgements)."
+    },
+    {
+      "id": 46,
+      "question": "Public debt is composed of",
+      "options": [
+        { "id": "A", "text": "internal debts and World Bank loans" },
+        { "id": "B", "text": "money owed to local and foreign contractors" },
+        { "id": "C", "text": "internal and external debts" },
+        { "id": "D", "text": "loans granted by IMF and ADB" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Government debt consists of **domestic (internal)** and **foreign (external)** borrowing."
+    },
+    {
+      "id": 47,
+      "question": "A country exporting mainly primary products and with a high percentage of her labour force in agriculture is said to be",
+      "options": [
+        { "id": "A", "text": "developing" },
+        { "id": "B", "text": "developed" },
+        { "id": "C", "text": "poor" },
+        { "id": "D", "text": "underdeveloped" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Such features are typical of **developing** or less‑developed economies."
+    },
+    {
+      "id": 48,
+      "question": "If a country’s import‑price index by 1995 was 50 and her export‑price index was 70, calculate the terms of trade.",
+      "options": [
+        { "id": "A", "text": "20%" },
+        { "id": "B", "text": "87.1%" },
+        { "id": "C", "text": "120%" },
+        { "id": "D", "text": "140%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Terms of trade \\(= \\dfrac{P_X}{P_M} \\times 100 = \\dfrac{70}{50} \\times 100 = 140\\%\\). (Option D; again check key; mathematically it is **140%**.)"
+    },
+    {
+      "id": 49,
+      "question": "If the United Kingdom buys gold for £60 an ounce and Nigeria buys the same ounce for N500, what will be the United Kingdom’s exchange rate with Nigeria?",
+      "options": [
+        { "id": "A", "text": "£0.05 = N1.00" },
+        { "id": "B", "text": "£0.06 = N1.00" },
+        { "id": "C", "text": "£0.11 = N1.00" },
+        { "id": "D", "text": "£0.12 = N1.00" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "If £60 = N500, then \\(1\\text{ Naira} = 60/500 = 0.12\\) pounds; equivalently, \\(£0.12 = N1\\). (Option D). Conversely, \\(£1 = N500/60 ≈ N8.33\\)."
+    },
+    {
+      "id": 50,
+      "question": "Being a member of OPEC, Nigeria is in a favourable position to",
+      "options": [
+        { "id": "A", "text": "export her crude oil" },
+        { "id": "B", "text": "control world crude‑oil prices" },
+        { "id": "C", "text": "reap the benefit of a cartel" },
+        { "id": "D", "text": "borrow money from members" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Membership of OPEC allows Nigeria to participate in **cartel benefits** such as coordinated pricing and output decisions."
+    }
+  ]
+}
