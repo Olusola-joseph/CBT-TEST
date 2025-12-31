@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Cell background -->
+  <rect width="400" height="300" fill="#f0f8ff" />
+  
+  <!-- Cell outline -->
+  <ellipse cx="200" cy="150" rx="150" ry="100" fill="none" stroke="#333" stroke-width="2" />
+  
+  <!-- Nucleus -->
+  <circle cx="150" cy="120" r="30" fill="#ffcccb" stroke="#333" stroke-width="1" />
+  <text x="130" y="125" font-size="14" fill="#333">Nucleus</text>
+  
+  <!-- Mitochondria -->
+  <ellipse cx="250" cy="120" rx="25" ry="15" fill="#98fb98" stroke="#333" stroke-width="1" />
+  <text x="230" y="125" font-size="14" fill="#333">Mitochondria</text>
+  
+  <!-- Golgi Apparatus -->
+  <path d="M220,170 Q240,160 260,170 Q240,190 220,180 Z" fill="#dda0dd" stroke="#333" stroke-width="1" />
+  <text x="220" y="200" font-size="14" fill="#333">Golgi Apparatus</text>
+  
+  <!-- Title -->
+  <text x="120" y="50" font-size="18" fill="#333" font-weight="bold">Animal Cell Diagram</text>
+</svg>

@@ -1,10 +1,52 @@
-/* Economics-specific styles for CBT Exam Platform */
+/* Biology-specific styles for CBT Exam Platform */
 
 /* Question container with diagram support */
 .question-body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+/* Diagram container styling */
+.diagram-container {
+    margin: 20px 0;
+    padding: 15px;
+    border: 2px solid #4a90e2;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.diagram-container h5 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2c3e50;
+    font-size: 1.1em;
+}
+
+.diagram-container svg,
+.diagram-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.diagram-btn {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.diagram-btn:hover {
+    background-color: #357abd;
 }
 
 .question-with-diagram {

@@ -1,0 +1,72 @@
+{
+  "year": 2020,
+  "paper": "Biology",
+  "subject": "Biology",
+  "figures": [
+    {
+      "id": "Bio2020_CellStructure",
+      "description": "Diagram of an animal cell showing major organelles for Questions 1-3",
+      "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='250' viewBox='0 0 300 250'><rect x='20' y='20' width='260' height='210' rx='10' fill='#f0f8ff' stroke='#333' stroke-width='2'/><circle cx='100' cy='100' r='30' fill='#ffcccb' stroke='#333' stroke-width='1'/><text x='80' y='105' font-size='12' fill='#333'>Nucleus</text><circle cx='200' cy='80' r='25' fill='#98fb98' stroke='#333' stroke-width='1'/><text x='180' y='85' font-size='12' fill='#333'>Mitochondria</text><rect x='180' y='130' width='40' height='30' fill='#dda0dd' stroke='#333' stroke-width='1'/><text x='165' y='150' font-size='10' fill='#333'>Golgi Apparatus</text></svg>"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Use the cell diagram above. Which structure is responsible for energy production in the cell?",
+      "options": [
+        {"id": "A", "text": "Nucleus"},
+        {"id": "B", "text": "Mitochondria"},
+        {"id": "C", "text": "Golgi Apparatus"},
+        {"id": "D", "text": "Cell Membrane"}
+      ],
+      "correctAnswer": "B",
+      "figureId": "Bio2020_CellStructure"
+    },
+    {
+      "id": 2,
+      "question": "Which organelle controls the activities of the cell?",
+      "options": [
+        {"id": "A", "text": "Mitochondria"},
+        {"id": "B", "text": "Nucleus"},
+        {"id": "C", "text": "Ribosome"},
+        {"id": "D", "text": "Endoplasmic reticulum"}
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 3,
+      "question": "In the same cell diagram, what is the function of the Golgi Apparatus?",
+      "options": [
+        {"id": "A", "text": "Protein synthesis"},
+        {"id": "B", "text": "Energy production"},
+        {"id": "C", "text": "Processing and packaging of proteins"},
+        {"id": "D", "text": "Cell division"}
+      ],
+      "correctAnswer": "C",
+      "figureId": "Bio2020_CellStructure"
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is true about plant cells but not animal cells?",
+      "options": [
+        {"id": "A", "text": "They have mitochondria"},
+        {"id": "B", "text": "They have cell walls"},
+        {"id": "C", "text": "They have nuclei"},
+        {"id": "D", "text": "They have ribosomes"}
+      ],
+      "correctAnswer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Based on the cell structure shown in the image file, identify the organelle responsible for protein synthesis.",
+      "options": [
+        {"id": "A", "text": "Mitochondria"},
+        {"id": "B", "text": "Ribosome"},
+        {"id": "C", "text": "Nucleus"},
+        {"id": "D", "text": "Golgi apparatus"}
+      ],
+      "correctAnswer": "B",
+      "diagram": "/src/data/subjects/images/bio_sample_cell_diagram.svg"
+    }
+  ]
+}
