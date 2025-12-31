@@ -7,6 +7,17 @@
     gap: 20px;
 }
 
+/* Instruction styling */
+.question-instruction {
+    background-color: #e8f4fd;
+    border: 1px solid #b3d9ff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #004085;
+}
+
 /* Diagram container styling */
 .diagram-container {
     margin: 20px 0;

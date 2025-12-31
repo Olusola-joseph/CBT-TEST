@@ -1,31 +1,11 @@
- INFO  Accepting connections at http://localhost:38617
-ill be installed: serve@14.2.5
- INFO  Accepting connections at http://localhost:1234
- HTTP  12/30/2025 3:34:49 PM 127.0.0.1 HEAD /biology.html
- HTTP  12/30/2025 3:34:49 PM 127.0.0.1 Returned 301 in 543 ms
- HTTP  12/30/2025 3:34:53 PM 127.0.0.1 HEAD /
- HTTP  12/30/2025 3:34:53 PM 127.0.0.1 Returned 200 in 47 ms
- HTTP  12/30/2025 3:36:10 PM 127.0.0.1 HEAD /biology.html
- HTTP  12/30/2025 3:36:10 PM 127.0.0.1 Returned 301 in 2 ms
- HTTP  12/30/2025 3:36:12 PM 127.0.0.1 HEAD /biology
- HTTP  12/30/2025 3:36:12 PM 127.0.0.1 Returned 200 in 103 ms
- HTTP  12/30/2025 3:36:17 PM 127.0.0.1 HEAD /
- HTTP  12/30/2025 3:36:17 PM 127.0.0.1 Returned 200 in 20 ms
- HTTP  12/30/2025 3:36:22 PM 127.0.0.1 GET /biology
- HTTP  12/30/2025 3:36:22 PM 127.0.0.1 Returned 200 in 29 ms
- HTTP  12/30/2025 3:36:25 PM 127.0.0.1 GET /biology
- HTTP  12/30/2025 3:36:25 PM 127.0.0.1 Returned 200 in 42 ms
- HTTP  12/30/2025 3:36:28 PM 127.0.0.1 HEAD /src/js/biology-script.js
- HTTP  12/30/2025 3:36:28 PM 127.0.0.1 Returned 200 in 54 ms
- HTTP  12/30/2025 3:36:30 PM 127.0.0.1 HEAD /src/css/biology_styles.css
- HTTP  12/30/2025 3:36:30 PM 127.0.0.1 Returned 200 in 63 ms
- HTTP  12/30/2025 3:36:32 PM 127.0.0.1 HEAD /src/data/subjects/biology_questions_jamb_2010.json
- HTTP  12/30/2025 3:36:32 PM 127.0.0.1 Returned 200 in 83 ms
- HTTP  12/30/2025 3:36:35 PM 127.0.0.1 GET /biology
- HTTP  12/30/2025 3:36:35 PM 127.0.0.1 Returned 200 in 61 ms
- HTTP  12/30/2025 3:36:37 PM 127.0.0.1 GET /
- HTTP  12/30/2025 3:36:37 PM 127.0.0.1 Returned 200 in 27 ms
- HTTP  12/30/2025 3:36:40 PM 127.0.0.1 GET /src/data/subjects/biology_questions_jamb_2010.json
- HTTP  12/30/2025 3:36:40 PM 127.0.0.1 Returned 200 in 63 ms
- HTTP  12/30/2025 3:36:43 PM 127.0.0.1 GET /src/data/subjects/biology_questions_jamb_2010.json
- HTTP  12/30/2025 3:36:43 PM 127.0.0.1 Returned 200 in 55 ms
+ INFO  Accepting connections at http://localhost:3000
+ HTTP  12/31/2025 3:01:55 PM 127.0.0.1 GET /
+ HTTP  12/31/2025 3:01:55 PM 127.0.0.1 Returned 200 in 1116 ms
+ HTTP  12/31/2025 3:01:59 PM 127.0.0.1 GET /src/data/subjects/images/first_image_biology_2010.png
+ HTTP  12/31/2025 3:01:59 PM 127.0.0.1 Returned 200 in 94 ms
+ HTTP  12/31/2025 3:02:01 PM 127.0.0.1 GET /test_biology_display.html
+ HTTP  12/31/2025 3:02:01 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  12/31/2025 3:02:04 PM 127.0.0.1 GET /test_biology_display.html
+ HTTP  12/31/2025 3:02:04 PM 127.0.0.1 Returned 301 in 1 ms
+ HTTP  12/31/2025 3:02:04 PM 127.0.0.1 GET /test_biology_display
+ HTTP  12/31/2025 3:02:04 PM 127.0.0.1 Returned 200 in 54 ms
