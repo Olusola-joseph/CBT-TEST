@@ -4,40 +4,45 @@
 __pycache__/
 *.o
 *.obj
-
+dist/
+build/
+target/
 # Dependencies
 .venv/
 venv/
 node_modules/
-dist/
-build/
-
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-
 # Environment
 .env
 .env.local
 *.env.*
-
 # Editors
 .vscode/
 .idea/
-
+# Python specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
 # Coverage
+.coverage
 coverage/
 htmlcov/
-.coverage
-
 # MyPy
 .mypy_cache/
-
 # Pytest
 .pytest_cache/
-
-# OS generated files
+# Distribution
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+# System files
 .DS_Store
 Thumbs.db
 ```

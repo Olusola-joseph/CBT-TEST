@@ -416,9 +416,14 @@ class BiologyCBTExamApp {
         // Check if this question has a figure reference
         if (question.figureId) {
             const figure = this.figures.find(fig => fig.id === question.figureId);
-            if (figure && figure.svg) {
-                // Add the figure SVG to the question
-                questionHtml += `<div class="diagram-container"><h5>Figure:</h5>${figure.svg}</div>`;
+            if (figure) {
+                if (figure.svg) {
+                    // Add the figure SVG to the question
+                    questionHtml += `<div class="diagram-container"><h5>Figure:</h5>${figure.svg}</div>`;
+                } else if (figure.image) {
+                    // Add the figure image to the question
+                    questionHtml += `<div class="diagram-container"><h5>Figure:</h5><img src="${figure.image}" alt="${figure.description || 'Question Figure'}" style="max-width: 100%; height: auto; display: block; margin: 10px auto;"></div>`;
+                }
             }
         }
         // Also check for general diagram property
@@ -675,8 +680,12 @@ class BiologyCBTExamApp {
         // Add figure or diagram to the question if available
         if (question.figureId) {
             const figure = this.figures ? this.figures.find(fig => fig.id === question.figureId) : null;
-            if (figure && figure.svg) {
-                cleanQuestion += `<div class="diagram-container"><h5>Figure:</h5>${figure.svg}</div>`;
+            if (figure) {
+                if (figure.svg) {
+                    cleanQuestion += `<div class="diagram-container"><h5>Figure:</h5>${figure.svg}</div>`;
+                } else if (figure.image) {
+                    cleanQuestion += `<div class="diagram-container"><h5>Figure:</h5><img src="${figure.image}" alt="${figure.description || 'Question Figure'}" style="max-width: 100%; height: auto; display: block; margin: 10px auto;"></div>`;
+                }
             }
         }
         // Also check for general diagram property
