@@ -10,22 +10,22 @@
   "figures": [
     {
       "id": "Bio2010_Animals_I_IV",
-      "file": "images/bio2010_q6_7_animals.png",
+      "file": "images/first_image_biology_2010.png",
       "description": "Four vertebrates labelled I–IV used in Questions 6 and 7; arranged in a 2×2 grid. The animals differ in their dependence on water for reproduction."
     },
     {
       "id": "Bio2010_Bird",
-      "file": "images/bio2010_q9_10_bird.png",
+      "file": "images/second_image_biology_2010.png",
       "description": "Side view of a bird used in Questions 9 and 10. Part I indicates the contour feathers covering most of the body."
     },
     {
       "id": "Bio2010_Root_XylemPhloem",
-      "file": "images/bio2010_q12_13_root.png",
+      "file": "images/third_iimage_biology_2010.png",
       "description": "Diagram of a plant root/stem region used in Questions 12 and 13, with arrows I–IV showing movement of water and solutes in xylem and phloem and the gases involved in photosynthesis."
     },
     {
       "id": "Bio2010_TreeHeight_Distribution",
-      "file": "images/bio2010_q42_43_tree_height.png",
+      "file": "images/fouth_image_biology_2010.png",
       "description": "Graph of percentage of tree population against height of trees for four plantations I–IV, used in Questions 42 and 43."
     }
   ],
