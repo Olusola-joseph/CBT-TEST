@@ -22,6 +22,21 @@
       "id": "Bio2010_TreeHeight_Distribution",
       "description": "Height‑frequency curves for trees in four plantations I–IV used in Questions 42 and 43. X‑axis: height of trees (m); Y‑axis: percentage of tree population. Four overlapping bell‑shaped curves with different height ranges.",
       "svg": "<svg xmlns='http://www.w3.org/2000/svg' width='260' height='180' viewBox='0 0 260 180'><line x1='30' y1='150' x2='230' y2='150' stroke='black'/><line x1='30' y1='20' x2='30' y2='150' stroke='black'/><text x='20' y='15' font-size='10'>%</text><text x='120' y='170' font-size='10'>Height of trees (m)</text><path d='M40 145 Q60 80 80 145' fill='none' stroke='black'/><text x='70' y='80' font-size='10'>I</text><path d='M70 145 Q100 50 130 145' fill='none' stroke='black'/><text x='110' y='45' font-size='10'>II</text><path d='M110 145 Q140 90 170 145' fill='none' stroke='black'/><text x='150' y='90' font-size='10'>III</text><path d='M150 145 Q190 110 220 145' fill='none' stroke='black'/><text x='205' y='110' font-size='10'>IV</text></svg>"
+    },
+    {
+      "id": "Bio2010_Cell_Structure",
+      "description": "Microscopic image of a plant cell showing organelles for question on cell structure.",
+      "image": "src/data/subjects/images/first_image_biology_2010.png"
+    },
+    {
+      "id": "Bio2010_Anatomical_Structure",
+      "description": "Anatomical diagram showing organ systems for questions related to organ structure and function.",
+      "image": "src/data/subjects/images/second_image_biology_2010.png"
+    },
+    {
+      "id": "Bio2010_Biochemical_Process",
+      "description": "Diagram showing a biochemical process like photosynthesis or respiration for metabolic process questions.",
+      "image": "src/data/subjects/images/third_iimage_biology_2010.png"
     }
   ],
   "questions": [
@@ -45,7 +60,8 @@
         { "id": "C", "text": "the cell wall is made up of cellulose" },
         { "id": "D", "text": "the nucleus is small and irregular in shape" }
       ],
-      "correctAnswer": "C"
+      "correctAnswer": "C",
+      "figureId": "Bio2010_Cell_Structure"
     },
     {
       "id": 3,
@@ -216,7 +232,8 @@
         { "id": "C", "text": "arteries" },
         { "id": "D", "text": "left ventricle" }
       ],
-      "correctAnswer": "D"
+      "correctAnswer": "D",
+      "figureId": "Bio2010_Anatomical_Structure"
     },
     {
       "id": 18,
@@ -238,7 +255,8 @@
         { "id": "C", "text": "oxygen" },
         { "id": "D", "text": "water" }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "figureId": "Bio2010_Biochemical_Process"
     },
     {
       "id": 20,
@@ -315,7 +333,8 @@
         { "id": "C", "text": "ileum" },
         { "id": "D", "text": "colon" }
       ],
-      "correctAnswer": "A"
+      "correctAnswer": "A",
+      "figureId": "Bio2010_Anatomical_Structure"
     },
     {
       "id": 27,
