@@ -677,21 +677,14 @@ class BiologyCBTExamApp {
         let cleanQuestion = question.question.replace(/using BODMAS rule/gi, '');
         cleanQuestion = cleanQuestion.replace(/BODMAS/gi, '');
 
-        // Add instruction if available
-        if (question.instruction) {
-            cleanQuestion = `<div class="question-instruction">${question.instruction}</div>` + cleanQuestion;
-        }
-        
         // Add figure or diagram to the question if available
         if (question.figureId) {
             const figure = this.figures ? this.figures.find(fig => fig.id === question.figureId) : null;
             if (figure) {
-                // Fix the image path to point to the correct location
-                const imagePath = figure.file.startsWith('images/') ? `src/data/subjects/${figure.file}` : figure.file;
                 if (figure.svg) {
                     cleanQuestion += `<div class="diagram-container"><h5>Figure:</h5>${figure.svg}</div>`;
-                } else if (imagePath) {
-                    cleanQuestion += `<div class="diagram-container"><h5>Figure:</h5><img src="${imagePath}" alt="${figure.description || 'Question Figure'}" style="max-width: 100%; height: auto; display: block; margin: 10px auto;"></div>`;
+                } else if (figure.image) {
+                    cleanQuestion += `<div class="diagram-container"><h5>Figure:</h5><img src="${figure.image}" alt="${figure.description || 'Question Figure'}" style="max-width: 100%; height: auto; display: block; margin: 10px auto;"></div>`;
                 }
             }
         }
