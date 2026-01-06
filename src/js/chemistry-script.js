@@ -478,36 +478,35 @@ class ChemistryCBTExamApp {
         
         if (question.options && Array.isArray(question.options)) {
             question.options.forEach((option, idx) => {
-                const optionLetter = String.fromCharCode(65 + idx); // A, B, C, D, E...
+                // Handle both formats: object with id/text and simple string
+                let optionLetter, optionText;
+                if (typeof option === 'object' && option.id && option.text) {
+                    optionLetter = option.id;
+                    optionText = option.text;
+                } else {
+                    // Fallback to array index if option is not an object
+                    optionLetter = String.fromCharCode(65 + idx); // A, B, C, D, E...
+                    optionText = option;
+                }
                 
                 const optionElement = document.createElement("div");
                 optionElement.className = "option-item";
-                optionElement.innerHTML = `
-                    <input type="radio" id="option-${index}-${idx}" name="question-${index}" value="${optionLetter}">
-                    <label for="option-${index}-${idx}">${optionLetter}. ${option}</label>
-                `;
+                optionElement.dataset.optionId = optionLetter;
                 
                 // Check if this option was previously selected
-                if (this.answers[question.id] === optionLetter) {
-                    optionElement.querySelector('input').checked = true;
+                const isSelected = this.answers[question.id] === optionLetter;
+                if (isSelected) {
                     optionElement.classList.add('selected');
                 }
                 
-                // Add event listener to track answer selection
+                optionElement.innerHTML = `
+                    <input type="radio" id="opt-${question.id}-${optionLetter}" name="question-${question.id}"
+                        value="${optionLetter}" ${isSelected ? 'checked' : ''}>
+                    <label for="opt-${question.id}-${optionLetter}">${optionLetter}. ${optionText}</label>
+                `;
+                
                 optionElement.addEventListener('click', () => {
-                    // Remove selected class from all options in this question
-                    document.querySelectorAll(`#options-container .option-item`).forEach(item => {
-                        item.classList.remove('selected');
-                    });
-                    
-                    // Add selected class to clicked option
-                    optionElement.classList.add('selected');
-                    
-                    // Save the answer
-                    this.answers[question.id] = optionLetter;
-                    
-                    // Update the question list to show answered status
-                    this.updateQuestionListStatus();
+                    this.selectOption(question.id, optionLetter);
                 });
                 
                 optionsContainer.appendChild(optionElement);
@@ -536,6 +535,28 @@ class ChemistryCBTExamApp {
         }
         // If not found in figures data, return a default path
         return `src/data/images/${figureId.toLowerCase()}.png`;
+    }
+    
+    selectOption(questionId, optionId) {
+        // Store the answer in the answers object
+        this.answers[questionId] = optionId;
+
+        // Update UI to show selected option
+        const options = document.querySelectorAll(`.option-item[data-option-id="${optionId}"]`);
+        options.forEach(option => {
+            option.classList.add('selected');
+        });
+
+        // Remove selection from other options for this question
+        const allOptions = document.querySelectorAll(`.option-item`);
+        allOptions.forEach(option => {
+            if (option.dataset.optionId !== optionId) {
+                option.classList.remove('selected');
+            }
+        });
+
+        // Update question list to show answered state
+        this.updateQuestionListStatus();
     }
     
     updateNavigationButtons() {
