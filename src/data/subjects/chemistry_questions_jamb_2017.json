@@ -1,0 +1,530 @@
+{
+  "year": 2017,
+  "subject": "Chemistry",
+  "paperType": null,
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Chem2017_Fig1_Solubility_Curves",
+      "file": "upload_1.png",
+      "description": "Fig. 1: Solubility (g per 100 g H2O) versus Temperature (K) for two solutes labeled X and Y. Used in Question 2."
+    },
+    {
+      "id": "Chem2017_Q14_Table_Electrolysis",
+      "file": "upload_3.png",
+      "description": "A small table listing possible products at the anode and cathode during electrolysis of dilute sulphuric acid using platinum electrodes. Used in Question 14."
+    },
+    {
+      "id": "Chem2017_Q22_AcylChloride_Hydrolysis_Options",
+      "file": "upload_5.png",
+      "description": "Reaction/structures diagram under Question 22 showing an acyl chloride and answer options depicting hydrolysis products (acid + alcohol / acid + HCl etc.)."
+    },
+    {
+      "id": "Chem2017_Q27_ElectronShells_YZ",
+      "file": "upload_6.png",
+      "description": "Electron-shell diagrams for atoms Y and Z showing transfer of an electron from Y to Z. Used in Question 27."
+    },
+    {
+      "id": "Chem2017_Q34_StructuralFormula_EthanoicAcid",
+      "file": "upload_7.png",
+      "description": "Multiple structural formula options for ethanoic acid. Used in Question 34."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "The flame used by welders in cutting metals is",
+      "options": [
+        { "id": "A", "text": "butane gas flame" },
+        { "id": "B", "text": "acetylene flame" },
+        { "id": "C", "text": "kerosene flame" },
+        { "id": "D", "text": "oxy-acetylene flame" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Oxy-acetylene produces a very high-temperature flame suitable for welding/cutting metals."
+    },
+    {
+      "id": 2,
+      "instruction": "At room temperature (300 K) in Fig. 1.",
+      "question": "Which statement is correct?",
+      "options": [
+        { "id": "A", "text": "Y is twice as soluble as X." },
+        { "id": "B", "text": "X is twice as soluble as Y." },
+        { "id": "C", "text": "X and Y are soluble to the same extent." },
+        { "id": "D", "text": "X is three times as soluble as Y." }
+      ],
+      "correctAnswer": null,
+      "figureId": "Chem2017_Fig1_Solubility_Curves",
+      "explanation": "The figure is present, but in the provided image the solubility values at exactly 300 K and the labels identifying which curve is X versus Y are not readable with enough certainty to justify a precise ratio (2× or 3×)."
+    },
+    {
+      "id": 3,
+      "question": "Tetraoxosulphate (VI) acid is prepared using the reaction \\(\\text{SO}_3(g)+\\text{H}_2\\text{O}(l)\\rightarrow\\text{H}_2\\text{SO}_4(l)\\). Given \\(\\Delta H_f^\\circ\\) for \\(\\text{SO}_3(g),\\ \\text{H}_2\\text{O}(l),\\ \\text{H}_2\\text{SO}_4(l)\\) as \\(-395\\,\\text{kJ mol}^{-1}\\), \\(-286\\,\\text{kJ mol}^{-1}\\) and \\(-811\\,\\text{kJ mol}^{-1}\\) respectively, the enthalpy change accompanying this reaction is",
+      "options": [
+        { "id": "A", "text": "-1032 kJ" },
+        { "id": "B", "text": "-130 kJ" },
+        { "id": "C", "text": "+130 kJ" },
+        { "id": "D", "text": "+1032 kJ" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\\(\\Delta H = \\sum \\Delta H_f^\\circ(\\text{products}) - \\sum \\Delta H_f^\\circ(\\text{reactants})\\). Reactants: \\(-395 + (-286) = -681\\). Product: \\(-811\\). Thus \\(\\Delta H = -811 - (-681) = -130\\,\\text{kJ}\\)."
+    },
+    {
+      "id": 4,
+      "question": "In two separate experiments 0.36 g and 0.71 g of chlorine combined with a metal X to give Y and Z, an analysis showed that Y and Z contain 0.20 g and 0.40 g of X respectively. The data above represents the law of",
+      "options": [
+        { "id": "A", "text": "multiple proportion" },
+        { "id": "B", "text": "conservation of mass" },
+        { "id": "C", "text": "constant composition" },
+        { "id": "D", "text": "reciprocal proportion" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Check mass ratios of Cl to X: for Y, \\(\\frac{0.36}{0.20}=1.8\\). For Z, \\(\\frac{0.71}{0.40}=1.775\\approx 1.8\\) (difference consistent with rounding/measurement). Nearly the same mass ratio indicates constant composition (definite proportions)."
+    },
+    {
+      "id": 5,
+      "question": "If an element X of atomic number \\(z\\) and mass number \\(y\\) is irradiated by an intense concentration of neutrons, the relevant nuclear equation is",
+      "options": [
+        { "id": "A", "text": "\\(^{y}_{z}X + ^{1}_{0}n \\rightarrow ^{y-1}_{z+1}X\\)" },
+        { "id": "B", "text": "\\(^{y}_{z}X + ^{1}_{0}n \\rightarrow ^{y+1}_{z+1}X\\)" },
+        { "id": "C", "text": "\\(^{y}_{z}X + ^{1}_{0}n \\rightarrow ^{y}_{z+1}X\\)" },
+        { "id": "D", "text": "\\(^{y}_{z}X + ^{1}_{0}n \\rightarrow ^{y+1}_{z-1}X\\)" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Neutron capture should increase mass number by 1 and keep atomic number unchanged: \\(^{y}_{z}X + ^{1}_{0}n \\rightarrow ^{y+1}_{z}X\\). This correct expression is not among options A–D as shown."
+    },
+    {
+      "id": 6,
+      "question": "The vapour density of a gas may be defined as",
+      "options": [
+        { "id": "A", "text": "the mass of a unit volume of the gas compared to an equal volume of water vapour." },
+        { "id": "B", "text": "the mass of a unit volume of the gas compared to an equal volume of hydrogen." },
+        { "id": "C", "text": "the mass of a unit volume of the gas compared to an equal volume of oxygen." },
+        { "id": "D", "text": "The mass of a unit volume of the gas minus the vapour pressure of water." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Vapour density is traditionally defined relative to hydrogen: \\(\\text{VD} = \\frac{M}{2}\\) when hydrogen is the reference gas."
+    },
+    {
+      "id": 7,
+      "question": "30 cm\\(^3\\) of oxygen at 10 atmosphere pressure is placed in a 20 dm\\(^3\\) container. Calculate the new pressure if temperature is kept constant.",
+      "options": [
+        { "id": "A", "text": "6.7 atm" },
+        { "id": "B", "text": "15.0 atm" },
+        { "id": "C", "text": "60.0 atm" },
+        { "id": "D", "text": "66.0 atm" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Use Boyle’s law \\(P_1V_1=P_2V_2\\) with consistent units. \\(V_1=30\\,\\text{cm}^3=0.03\\,\\text{dm}^3\\), \\(V_2=20\\,\\text{dm}^3\\). \\(P_2=10\\times\\frac{0.03}{20}=0.015\\,\\text{atm}\\). This value is not among the options, suggesting a unit/printing issue in the question as shown."
+    },
+    {
+      "id": 8,
+      "question": "A liquid begins to boil when",
+      "options": [
+        { "id": "A", "text": "its vapour pressure is equal to the vapour pressure of its solid at the given temperature" },
+        { "id": "B", "text": "molecules start escaping its surface" },
+        { "id": "C", "text": "its vapour pressure equals the atmospheric pressure" },
+        { "id": "D", "text": "its volume is slightly increased" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Boiling occurs when vapour pressure equals external (atmospheric) pressure, allowing bubbles to form throughout the liquid."
+    },
+    {
+      "id": 9,
+      "question": "Four elements W, X, Y and Z have atomic numbers 2, 6, 16 and 20 respectively. Which of these elements is a metal?",
+      "options": [
+        { "id": "A", "text": "X" },
+        { "id": "B", "text": "W" },
+        { "id": "C", "text": "Z" },
+        { "id": "D", "text": "Y" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Atomic number 20 is calcium, a metal. The others are He (2), C (6), S (16)."
+    },
+    {
+      "id": 10,
+      "question": "When cathode rays are deflected unto the electrode of an electrometer, the instrument becomes",
+      "options": [
+        { "id": "A", "text": "negatively charged" },
+        { "id": "B", "text": "positively charged" },
+        { "id": "C", "text": "neutral" },
+        { "id": "D", "text": "bipolar" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cathode rays are streams of electrons; depositing electrons makes the electrometer negatively charged."
+    },
+    {
+      "id": 11,
+      "question": "When large hydrocarbon molecules are heated at high temperature in the presence of a catalyst to give smaller molecules, the process is known as",
+      "options": [
+        { "id": "A", "text": "disintegration" },
+        { "id": "B", "text": "polymerization" },
+        { "id": "C", "text": "cracking" },
+        { "id": "D", "text": "degradation" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Cracking breaks long-chain hydrocarbons into smaller alkanes/alkenes using heat and often a catalyst."
+    },
+    {
+      "id": 12,
+      "question": "If concentrated sulphuric acid is added to sugar and warmed gently, the sugar changes from white to brown and finally to a black mass of carbon. In this reaction, concentrated sulphuric acid is acting as",
+      "options": [
+        { "id": "A", "text": "a drying agent" },
+        { "id": "B", "text": "an oxidizing agent" },
+        { "id": "C", "text": "a dehydrating agent" },
+        { "id": "D", "text": "a reducing agent" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Concentrated H2SO4 removes water from sugar (dehydration), leaving carbon (charring)."
+    },
+    {
+      "id": 13,
+      "question": "Smoke consists of",
+      "options": [
+        { "id": "A", "text": "solid particles dispersed in liquid" },
+        { "id": "B", "text": "solid or liquid particles dispersed in gas" },
+        { "id": "C", "text": "gas or liquid particles dispersed in liquid" },
+        { "id": "D", "text": "liquid particles dispersed in liquid" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Smoke is an aerosol: fine solid (and sometimes liquid) particles suspended in a gas (air)."
+    },
+    {
+      "id": 14,
+      "instruction": "Use the table (figure Chem2017_Q14_Table_Electrolysis).",
+      "question": "In the electrolysis of dilute sulphuric acid using platinum electrodes, the products obtained at the anode and cathode are:",
+      "options": [
+        { "id": "A", "text": "Anode: sulphur; Cathode: hydrogen" },
+        { "id": "B", "text": "Anode: hydrogen; Cathode: oxygen" },
+        { "id": "C", "text": "Anode: oxygen; Cathode: hydrogen" },
+        { "id": "D", "text": "Anode: hydrogen; Cathode: sulphate ions" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Chem2017_Q14_Table_Electrolysis",
+      "explanation": "With inert Pt electrodes in dilute H2SO4, water is oxidized at the anode to O2 and reduced at the cathode to H2."
+    },
+    {
+      "id": 15,
+      "question": "\\(\\text{P}_{(g)} + \\text{Q}_{(g)} \\rightleftharpoons 3\\text{R}_{(s)} + \\text{S}_{(g)}\\), \\(\\Delta H < 0\\). Which of the following will increase the yield of R?",
+      "options": [
+        { "id": "A", "text": "using a larger closed vessel" },
+        { "id": "B", "text": "increasing the temperature" },
+        { "id": "C", "text": "removing some S" },
+        { "id": "D", "text": "adding a positive catalyst" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Removing product S shifts equilibrium to the right, increasing formation of R (Le Châtelier)."
+    },
+    {
+      "id": 16,
+      "question": "The mass of silver deposited when a current of 10 A passed through a solution of silver salt for 4830 s is",
+      "options": [
+        { "id": "A", "text": "108.0 g" },
+        { "id": "B", "text": "54.0 g" },
+        { "id": "C", "text": "27.0 g" },
+        { "id": "D", "text": "13.5 g" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Charge \\(Q=It=10\\times 4830=48300\\,\\text{C}\\). Moles of electrons \\(=\\frac{48300}{96500}=0.50\\,\\text{mol e}^-\\). For Ag\\(^+ + e^- \\rightarrow\\) Ag, moles Ag = 0.50. Mass \\(=0.50\\times 108=54\\,\\text{g}\\). That matches option B, not C."
+    },
+    {
+      "id": 17,
+      "question": "\\(\\text{CO}_{(g)} + \\text{H}_2\\text{O}_{(g)} \\rightarrow \\text{CO}_{2(g)} + \\text{H}_{2(g)}\\). From the reaction above, calculate the standard heat change if the standard enthalpies of formation of \\(\\text{CO}_2(g)\\), \\(\\text{H}_2\\text{O}(g)\\) and \\(\\text{CO}(g)\\) in kJ mol\\(^{-1}\\) are -394, -242 and -110 respectively.",
+      "options": [
+        { "id": "A", "text": "-282 kJ mol^-1" },
+        { "id": "B", "text": "-42 kJ mol^-1" },
+        { "id": "C", "text": "+42 kJ mol^-1" },
+        { "id": "D", "text": "+262 kJ mol^-1" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\\(\\Delta H = [(-394)+0] - [(-110)+(-242)] = -394 - (-352) = -42\\,\\text{kJ mol}^{-1}\\)."
+    },
+    {
+      "id": 18,
+      "question": "If the electron configuration of an element is \\(1s^2\\,2s^2\\,2p^5\\), how many unpaired electrons are there?",
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "5" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For \\(2p^5\\), five electrons occupy three p-orbitals leaving one unpaired electron."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following gases can best be used for demonstrating the fountain experiment? (i) Nitrogen (ii) Ammonia (iii) Nitrogen (IV) oxide (iv) Hydrogen chloride",
+      "options": [
+        { "id": "A", "text": "(ii) and (iii)" },
+        { "id": "B", "text": "(i) and (iii)" },
+        { "id": "C", "text": "(ii) and (iv)" },
+        { "id": "D", "text": "(ii) only" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Fountain experiment requires a gas highly soluble in water. Ammonia (NH3) and hydrogen chloride (HCl) are very soluble, producing the fountain effect."
+    },
+    {
+      "id": 20,
+      "question": "The coloured nature of transition metal ions are associated with their partially filled",
+      "options": [
+        { "id": "A", "text": "f-orbital" },
+        { "id": "B", "text": "s-orbital" },
+        { "id": "C", "text": "p-orbital" },
+        { "id": "D", "text": "d-orbital" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Partially filled d-orbitals allow d–d transitions that cause colour."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following separation processes is most likely to yield high quality ethanol (\\(\\ge 95\\%\\)) from palm wine?",
+      "options": [
+        { "id": "A", "text": "fractional distillation without a dehydrant" },
+        { "id": "B", "text": "simple distillation with a dehydrant" },
+        { "id": "C", "text": "fractional distillation with a dehydrant" },
+        { "id": "D", "text": "column chromatography" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Fractional distillation concentrates ethanol, and a dehydrant removes water to achieve high purity."
+    },
+    {
+      "id": 22,
+      "instruction": "Use the structure/options diagram (figure Chem2017_Q22_AcylChloride_Hydrolysis_Options).",
+      "question": "The products formed on hydrolysis of the compound shown are",
+      "options": [
+        { "id": "A", "text": "Option A (as shown in the image)" },
+        { "id": "B", "text": "Option B (as shown in the image)" },
+        { "id": "C", "text": "Option C (as shown in the image)" },
+        { "id": "D", "text": "Option D (as shown in the image)" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Chem2017_Q22_AcylChloride_Hydrolysis_Options",
+      "explanation": "The hydrolyzed reactant and the option structures are not legible enough in the provided image to transcribe reliably (the substituents/labels cannot be read clearly), so the correct option cannot be determined from this upload alone."
+    },
+    {
+      "id": 23,
+      "question": "In the reaction: \\(3\\text{CuO} + 2\\text{NH}_3 \\rightarrow 3\\text{Cu} + 3\\text{H}_2\\text{O} + \\text{N}_2\\), how many electrons are transferred for each mole of copper produced?",
+      "options": [
+        { "id": "A", "text": "\\(4.0\\times 10^{23}\\)" },
+        { "id": "B", "text": "\\(3.0\\times 10^{23}\\)" },
+        { "id": "C", "text": "\\(1.2\\times 10^{24}\\)" },
+        { "id": "D", "text": "\\(6.0\\times 10^{24}\\)" }
+      ],
+      "correctAnswer": null,
+      "explanation": "From CuO to Cu: Cu is reduced from +2 to 0, requiring 2 electrons per Cu atom. Therefore, per mole of Cu produced, electrons transferred = 2 mol e− = \\(2N_A\\approx 1.204\\times 10^{24}\\) electrons. That corresponds to option C (\\(1.2\\times 10^{24}\\))."
+    },
+    {
+      "id": 24,
+      "question": "The electronic configuration of an element is \\(1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^3\\). How many unpaired electrons are there in the element?",
+      "options": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The \\(3p^3\\) subshell has three electrons occupying three p-orbitals singly (Hund’s rule), so 3 unpaired electrons."
+    },
+    {
+      "id": 25,
+      "question": "8.0 g of an element X reacted with an excess of copper(II) tetraoxosulphate (VI) solution to deposit 21.3 g of copper. The correct equation for the reaction is",
+      "options": [
+        { "id": "A", "text": "\\(X_{(s)} + \\text{CuSO}_{4(aq)} \\rightarrow \\text{Cu}_{(s)} + X\\text{SO}_{4(aq)}\\)" },
+        { "id": "B", "text": "\\(X_{(s)} + 2\\text{CuSO}_{4(aq)} \\rightarrow 2\\text{Cu}_{(s)} + X(\\text{SO}_4)_{2(aq)}\\)" },
+        { "id": "C", "text": "\\(2X_{(s)} + \\text{CuSO}_{4(aq)} \\rightarrow \\text{Cu}_{(s)} + X_2\\text{SO}_{4(aq)}\\)" },
+        { "id": "D", "text": "\\(2X_{(s)} + 3\\text{CuSO}_{4(aq)} \\rightarrow 3\\text{Cu}_{(s)} + X_2(\\text{SO}_4)_{3(aq)}\\)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Moles Cu deposited = \\(\\frac{21.3}{64}=0.3328\\) mol. Each Cu\\(^{2+}\\) reduced to Cu needs 2e−. If X forms \\(X^{2+}\\), then 1 mol X supplies 2e− and reduces 1 mol Cu\\(^{2+}\\) (ratio 1:1). If X forms \\(X^{+}\\), ratio would differ. The option consistent with X being divalent and forming \\(X(\\text{SO}_4)_2\\) is B, which shows 1 X displacing 2 Cu, implying X is tetravalent; however to deposit 0.3328 mol Cu, moles X would be 0.1664 mol in option B. That gives molar mass \\(\\frac{8.0}{0.1664}\\approx 48\\), a plausible metal. Hence the stoichiometry that fits the given mass data is option B."
+    },
+    {
+      "id": 26,
+      "question": "In the manufacture of iron in the blast furnace, iron(III) oxide is mixed with coke and limestone, and different reactions occur in the process. Which of the following statements are true with respect to these reactions?",
+      "options": [
+        { "id": "A", "text": "The coke is a powerful reducing agent and easily converts the iron oxide to iron." },
+        { "id": "B", "text": "The calcium carbonate reacts with SiO2, an earthy impurity in the ore, to form calcium silicate." },
+        { "id": "C", "text": "The coke will react with the iron produced to form steel." },
+        { "id": "D", "text": "The calcium carbonate decomposes to give calcium oxide, which then forms calcium silicate with the earthy impurity." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In the blast furnace, limestone \\(\\text{CaCO}_3\\) decomposes: \\(\\text{CaCO}_3\\rightarrow \\text{CaO}+\\text{CO}_2\\). The CaO removes silica impurity: \\(\\text{CaO}+\\text{SiO}_2\\rightarrow \\text{CaSiO}_3\\) (slag). This full correct description is option D."
+    },
+    {
+      "id": 27,
+      "instruction": "Use the electron-shell diagram (figure Chem2017_Q27_ElectronShells_YZ).",
+      "question": "The electrons of two atoms Y and Z are arranged in shells as shown above. The bond formed between the atoms of Y and Z is",
+      "options": [
+        { "id": "A", "text": "ionic" },
+        { "id": "B", "text": "covalent" },
+        { "id": "C", "text": "dative" },
+        { "id": "D", "text": "metallic" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Chem2017_Q27_ElectronShells_YZ",
+      "explanation": "The diagram shows transfer of an electron from Y to Z, forming ions; electron transfer indicates an ionic bond."
+    },
+    {
+      "id": 28,
+      "question": "A gas sample with an initial volume of 3.25 dm\\(^3\\) is heated and allowed to expand to 9.75 dm\\(^3\\) at constant pressure. What is the ratio of the final absolute temperature to the initial absolute temperature?",
+      "options": [
+        { "id": "A", "text": "3:1" },
+        { "id": "B", "text": "5:2" },
+        { "id": "C", "text": "5:4" },
+        { "id": "D", "text": "8:3" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At constant pressure, Charles’ law: \\(\\frac{V_2}{V_1}=\\frac{T_2}{T_1}\\). \\(\\frac{9.75}{3.25}=3\\), so \\(T_2:T_1=3:1\\)."
+    },
+    {
+      "id": 29,
+      "question": "The chemical used for coagulation in water purification is",
+      "options": [
+        { "id": "A", "text": "aluminium tetraoxosulphate (VI)" },
+        { "id": "B", "text": "copper tetraoxosulphate (VI)" },
+        { "id": "C", "text": "sodium tetraoxosulphate (VI)" },
+        { "id": "D", "text": "calcium tetraoxosulphate (VI)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Aluminium salts (e.g., alum/aluminium sulphate) hydrolyze to form gelatinous Al(OH)3 which coagulates suspended particles."
+    },
+    {
+      "id": 30,
+      "question": "A liquid that will dissolve fat is",
+      "options": [
+        { "id": "A", "text": "hydrochloric acid" },
+        { "id": "B", "text": "calcium hydroxide" },
+        { "id": "C", "text": "kerosene" },
+        { "id": "D", "text": "water" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Fats are non-polar and dissolve in non-polar solvents such as kerosene."
+    },
+    {
+      "id": 31,
+      "question": "When air, which contains the gases: oxygen, nitrogen, carbon dioxide, water vapour and the rare gases, is passed through alkaline pyrogallol and then over quicklime, the only gases left are:",
+      "options": [
+        { "id": "A", "text": "nitrogen and carbon dioxide" },
+        { "id": "B", "text": "the rare gases" },
+        { "id": "C", "text": "nitrogen and oxygen" },
+        { "id": "D", "text": "nitrogen and the rare gases" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Alkaline pyrogallol removes O2. Quicklime removes CO2 and H2O. Remaining gases are N2 and noble (rare) gases."
+    },
+    {
+      "id": 32,
+      "question": "The number of atoms in one mole of a substance is equal to",
+      "options": [
+        { "id": "A", "text": "the atomic number" },
+        { "id": "B", "text": "the Avogadro number" },
+        { "id": "C", "text": "the gas constant" },
+        { "id": "D", "text": "the number of electrons" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "One mole contains Avogadro’s number \\(N_A\\) of entities."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following terms indicates the number of bonds that can be formed by an atom?",
+      "options": [
+        { "id": "A", "text": "oxidation number" },
+        { "id": "B", "text": "valence" },
+        { "id": "C", "text": "atomic number" },
+        { "id": "D", "text": "electronegativity" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Valence (valency) is the bonding capacity of an atom."
+    },
+    {
+      "id": 34,
+      "instruction": "Use the structural formula options (figure Chem2017_Q34_StructuralFormula_EthanoicAcid).",
+      "question": "The structural formula of ethanoic acid is",
+      "options": [
+        { "id": "A", "text": "Option A (as shown in the image)" },
+        { "id": "B", "text": "Option B (as shown in the image)" },
+        { "id": "C", "text": "Option C (as shown in the image)" },
+        { "id": "D", "text": "Option D (as shown in the image)" },
+        { "id": "E", "text": "Option E (as shown in the image)" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Chem2017_Q34_StructuralFormula_EthanoicAcid",
+      "explanation": "Ethanoic acid is \\(\\text{CH}_3\\text{COOH}\\). The option showing \\(\\text{H}_3\\text{C}-\\text{C}(=\\text{O})-\\text{OH}\\) corresponds to option A in the image."
+    },
+    {
+      "id": 35,
+      "question": "Environmental pollution is worsened by the release from automobile exhausts of",
+      "options": [
+        { "id": "A", "text": "water vapour" },
+        { "id": "B", "text": "steam" },
+        { "id": "C", "text": "smoke" },
+        { "id": "D", "text": "heavy metals" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Automobile exhausts can contain heavy metals (notably lead from leaded petrol historically), which are toxic pollutants."
+    },
+    {
+      "id": 36,
+      "question": "What volume of 0.5 mol dm\\(^{-3}\\) \\(\\text{H}_2\\text{SO}_4\\) will exactly neutralize 20 cm\\(^3\\) of 0.1 mol dm\\(^{-3}\\) NaOH solution?",
+      "options": [
+        { "id": "A", "text": "2.0 cm\\(^3\\)" },
+        { "id": "B", "text": "5.0 cm\\(^3\\)" },
+        { "id": "C", "text": "6.8 cm\\(^3\\)" },
+        { "id": "D", "text": "8.3 cm\\(^3\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Reaction: \\(\\text{H}_2\\text{SO}_4 + 2\\text{NaOH} \\rightarrow \\text{Na}_2\\text{SO}_4 + 2\\text{H}_2\\text{O}\\). Moles NaOH = \\(0.1\\times\\frac{20}{1000}=0.002\\). Moles H2SO4 needed = \\(0.002/2=0.001\\). Volume acid = \\(\\frac{0.001}{0.5}=0.002\\,\\text{dm}^3=2.0\\,\\text{cm}^3\\)."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following is an electrolyte?",
+      "options": [
+        { "id": "A", "text": "alcohol" },
+        { "id": "B", "text": "sodium acetate solution" },
+        { "id": "C", "text": "solid potassium hydroxide" },
+        { "id": "D", "text": "mercury" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An electrolyte conducts electricity in solution via ions; sodium acetate solution contains ions and conducts."
+    },
+    {
+      "id": 38,
+      "question": "\\(\\text{Na}_2\\text{S}_2\\text{O}_3(aq) + 2\\text{HCl}(aq) \\rightarrow 2\\text{NaCl}(aq) + \\text{H}_2\\text{O}(l) + \\text{SO}_2(g) + \\text{S}(s)\\). Which of the following would introduce the greatest increase in the rate of the chemical reaction above?",
+      "options": [
+        {
+          "id": "A",
+          "text": "An increase in temperature and a decrease in the concentration of the reactants."
+        }
+      ],
+      "correctAnswer": null,
+      "explanation": "Only option A is visible in the provided image; options B–D are cut off, so the correct option cannot be determined from the upload."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following substances has the lowest vapour density? [O = 16, Cl = 35.5, H = 1, C = 12]",
+      "options": [
+        { "id": "A", "text": "ethanoic acid" },
+        { "id": "B", "text": "propanol" },
+        { "id": "C", "text": "dichloromethane" },
+        { "id": "D", "text": "ethanal" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Lowest vapour density corresponds to lowest molar mass (since \\(\\text{VD}=\\frac{M}{2}\\)). Molar masses: ethanoic acid \\(\\text{C}_2\\text{H}_4\\text{O}_2=60\\); propanol \\(\\text{C}_3\\text{H}_8\\text{O=60}\\); dichloromethane \\(\\text{CH}_2\\text{Cl}_2=12+2+71=85\\); ethanal \\(\\text{C}_2\\text{H}_4\\text{O=44}\\). Smallest is ethanal."
+    },
+    {
+      "id": 40,
+      "question": "The presence of an impurity in a substance will cause the melting point to",
+      "options": [
+        { "id": "A", "text": "be zero" },
+        { "id": "B", "text": "reduce" },
+        { "id": "C", "text": "increase" },
+        { "id": "D", "text": "be stable" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Impurities disrupt lattice formation and lower the melting point (melting point depression)."
+    }
+  ],
+  "missingQuestions": [
+    "Question 38 options B–D are not visible in the provided images.",
+    "Questions 41–50 are not present in the uploaded images."
+  ]
+}
