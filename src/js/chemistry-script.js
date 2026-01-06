@@ -337,6 +337,14 @@ class ChemistryCBTExamApp {
             });
         }
         
+        // Review button
+        const reviewBtn = document.getElementById('review-btn');
+        if (reviewBtn) {
+            reviewBtn.addEventListener('click', () => {
+                this.showReview();
+            });
+        }
+        
         // Review finish button
         const reviewFinishBtn = document.getElementById('review-finish-btn');
         if (reviewFinishBtn) {
@@ -695,6 +703,183 @@ class ChemistryCBTExamApp {
         this.reviewAnswers = { ...this.answers };
     }
     
+    showReview() {
+        this.currentQuestionIndex = 0;
+        this.showScreen('review-screen');
+        this.renderReviewQuestion();
+        this.updateReviewNavigation();
+    }
+
+    renderReviewQuestion() {
+        const question = this.questions[this.currentQuestionIndex];
+        const reviewContainer = document.getElementById('review-container');
+
+        if (!reviewContainer) return;
+
+        const userAnswer = this.answers[question.id];
+        const isCorrect = userAnswer === question.correct_answer;
+
+        let userAnswerText = 'No answer selected';
+        if (userAnswer) {
+            // Find the option text based on the user's answer
+            let optionText = '';
+            if (Array.isArray(question.options)) {
+                for (const option of question.options) {
+                    if (typeof option === 'object' && option.id === userAnswer) {
+                        optionText = option.text;
+                        break;
+                    } else if (typeof option === 'string' && 
+                              String.fromCharCode(65 + question.options.indexOf(option)) === userAnswer) {
+                        optionText = option;
+                        break;
+                    }
+                }
+            }
+            userAnswerText = `${userAnswer}. ${optionText}`;
+        }
+
+        // Find correct answer text
+        let correctAnswerText = 'Unknown';
+        if (question.correct_answer && Array.isArray(question.options)) {
+            for (const option of question.options) {
+                if (typeof option === 'object' && option.id === question.correct_answer) {
+                    correctAnswerText = `${question.correct_answer}. ${option.text}`;
+                    break;
+                } else if (typeof option === 'string' && 
+                          String.fromCharCode(65 + question.options.indexOf(option)) === question.correct_answer) {
+                    correctAnswerText = `${question.correct_answer}. ${option}`;
+                    break;
+                }
+            }
+        }
+
+        // Handle diagrams in chemistry questions
+        let questionHtml = question.question;
+        if (question.figureId) {
+            questionHtml = `<div class="question-with-diagram">
+                <div class="diagram-placeholder">
+                    <img src="${this.getDiagramPath(question.figureId)}" alt="Diagram for question" class="question-diagram" onerror="this.style.display='none';">
+                </div>
+                <div class="question-text">${question.question}</div>
+            </div>`;
+        }
+
+        // Create beginner-friendly explanation
+        let explanation = question.explanation || 'No explanation available.';
+        // Make the explanation more beginner-friendly by adding some context
+        if (explanation && explanation !== 'No explanation available.') {
+            explanation = this.makeExplanationBeginnerFriendly(explanation);
+        }
+
+        reviewContainer.innerHTML = `
+            <div class="review-header">
+                <h3>Question ${this.currentQuestionIndex + 1} of ${this.questions.length}</h3>
+                <div class="question-status ${isCorrect ? 'correct' : userAnswer ? 'incorrect' : 'unanswered'}">
+                    ${isCorrect ? '✓ Correct' : userAnswer ? '✗ Incorrect' : '? Not Answered'}
+                </div>
+            </div>
+            <div class="review-question">
+                <h4>${questionHtml}</h4>
+
+                <div class="options-review">
+                    ${Array.isArray(question.options) ? question.options.map(option => {
+                        let optionId, optionText;
+                        if (typeof option === 'object' && option.id && option.text) {
+                            optionId = option.id;
+                            optionText = option.text;
+                        } else {
+                            // Handle simple string options
+                            const idx = question.options.indexOf(option);
+                            optionId = String.fromCharCode(65 + idx); // A, B, C, D, E...
+                            optionText = option;
+                        }
+
+                        const isUserSelection = userAnswer === optionId;
+                        const isCorrectOption = question.correct_answer === optionId;
+
+                        let optionClass = 'option-review';
+                        if (isCorrectOption) optionClass += ' correct-answer';
+                        if (isUserSelection && !isCorrectOption) optionClass += ' user-wrong-answer';
+                        if (isUserSelection && isCorrectOption) optionClass += ' user-correct-answer';
+
+                        return `
+                            <div class="${optionClass}">
+                                <strong>${optionId}.</strong> ${optionText}
+                                ${isUserSelection ? ' <span class="user-selection">(Your answer)</span>' : ''}
+                                ${isCorrectOption ? ' <span class="correct-indicator">(Correct answer)</span>' : ''}
+                            </div>
+                        `;
+                    }).join('') : ''}
+                </div>
+
+                <div class="explanation">
+                    <h5>Explanation:</h5>
+                    <p>${explanation}</p>
+                </div>
+            </div>
+        `;
+    }
+
+    // Method to make explanations more beginner-friendly
+    makeExplanationBeginnerFriendly(explanation) {
+        // Replace complex terms with simpler explanations
+        let friendlyExplanation = explanation;
+        
+        // Common chemistry terms that need simplification
+        friendlyExplanation = friendlyExplanation.replace(/\b(mole|moles)\b/gi, 'amount of substance');
+        friendlyExplanation = friendlyExplanation.replace(/\b(molarity)\b/gi, 'concentration (how much of a substance in solution)');
+        friendlyExplanation = friendlyExplanation.replace(/\b(ionic bond)\b/gi, 'bond between charged atoms');
+        friendlyExplanation = friendlyExplanation.replace(/\b(covalent bond)\b/gi, 'bond where atoms share electrons');
+        friendlyExplanation = friendlyExplanation.replace(/\b(electronegativity)\b/gi, 'how strongly an atom attracts electrons');
+        friendlyExplanation = friendlyExplanation.replace(/\b(catalyst)\b/gi, 'substance that speeds up a reaction without being used up');
+        friendlyExplanation = friendlyExplanation.replace(/\b(activation energy)\b/gi, 'minimum energy needed to start a reaction');
+        friendlyExplanation = friendlyExplanation.replace(/\b(Le Chatelier's principle)\b/gi, 'when conditions change, the equilibrium shifts to oppose the change');
+        
+        // Add more context for beginners
+        if (!friendlyExplanation.toLowerCase().includes('because') && 
+            !friendlyExplanation.toLowerCase().includes('this is because') &&
+            !friendlyExplanation.toLowerCase().includes('reason')) {
+            // Add a simple reason explanation if not already present
+            if (friendlyExplanation.length > 50) { // Only for longer explanations
+                friendlyExplanation += " This occurs due to the fundamental principles of chemistry.";
+            }
+        }
+        
+        return friendlyExplanation;
+    }
+
+    updateReviewNavigation() {
+        const prevBtn = document.getElementById('review-prev-btn');
+        const nextBtn = document.getElementById('review-next-btn');
+        const questionCounter = document.getElementById('review-question-counter');
+
+        if (prevBtn) {
+            prevBtn.disabled = this.currentQuestionIndex === 0;
+            prevBtn.onclick = () => {
+                if (this.currentQuestionIndex > 0) {
+                    this.currentQuestionIndex--;
+                    this.renderReviewQuestion();
+                    this.updateReviewNavigation();
+                }
+            };
+        }
+
+        if (nextBtn) {
+            nextBtn.disabled = this.currentQuestionIndex === this.questions.length - 1;
+            nextBtn.onclick = () => {
+                if (this.currentQuestionIndex < this.questions.length - 1) {
+                    this.currentQuestionIndex++;
+                    this.renderReviewQuestion();
+                    this.updateReviewNavigation();
+                }
+            };
+        }
+
+        if (questionCounter) {
+            questionCounter.textContent = `${this.currentQuestionIndex + 1} / ${this.questions.length}`;
+        }
+    }
+
     finishReview() {
         this.showScreen('results-screen');
     }

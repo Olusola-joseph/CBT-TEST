@@ -18,20 +18,19 @@ target/
 .venv/
 venv/
 node_modules/
-.julia/
-.zig/
 .mypy_cache/
 .pytest_cache/
 .gradle/
-coverage/
-htmlcov/
-.coverage
+julia-*/
+zig*/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 *.swo
+*.bak
+*.~*
 
 # Environment
 .env
@@ -48,7 +47,12 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Compressed files
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Common compressed files
 *.zip
 *.gz
 *.tar
