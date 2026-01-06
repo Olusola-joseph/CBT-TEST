@@ -1,0 +1,617 @@
+{
+  "year": 2012,
+  "subject": "Chemistry",
+  "paperType": "RED",
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Chem2012_Q30_Gas_Preparation_Apparatus",
+      "file": "upload_6.png",
+      "description": "Small laboratory setup shown beside Question 30 (includes a flask/bottle and a gas collection arrangement). Used with reaction \\(2\\text{HCl}_{(aq)} + \\text{CaCO}_{3(s)} \\rightarrow \\text{CaCl}_{2(s)} + \\text{CO}_{2(g)} + \\text{H}_2\\text{O}_{(l)}\\) and curves labeled L, M, N, P for \\(\\text{CO}_2\\) production."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Question Paper Type of Chemistry is given to you?",
+      "options": [
+        { "id": "A", "text": "Type Green" },
+        { "id": "B", "text": "Type Purple" },
+        { "id": "C", "text": "Type Red" },
+        { "id": "D", "text": "Type Yellow" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The header on the page states \"PAPER TYPE: RED\"."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following methods can be used to obtain pure water from a mixture of sand, water and methanoic acid?",
+      "options": [
+        { "id": "A", "text": "neutralization with NaOH followed by filtration" },
+        { "id": "B", "text": "neutralization with NaOH followed by distillation" },
+        { "id": "C", "text": "fractional distillation" },
+        { "id": "D", "text": "filtration followed by distillation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Sand is insoluble, so it is removed by filtration. The filtrate contains water and methanoic acid (miscible liquids), so distillation separates and collects the water as the distillate."
+    },
+    {
+      "id": 3,
+      "question": "How many atoms are present in 6.0 g of magnesium? [Mg = 24, \\(N_A = 6.02 \\times 10^{23}\\,\\text{mol}^{-1}\\)]",
+      "options": [
+        { "id": "A", "text": "\\(1.20 \\times 10^{22}\\)" },
+        { "id": "B", "text": "\\(2.41 \\times 10^{22}\\)" },
+        { "id": "C", "text": "\\(1.51 \\times 10^{23}\\)" },
+        { "id": "D", "text": "\\(3.02 \\times 10^{23}\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Moles of Mg \\(= \\frac{6.0}{24} = 0.25\\,\\text{mol}\\). Number of atoms \\(= 0.25\\times 6.02\\times 10^{23} = 1.505\\times 10^{23}\\approx 1.51\\times 10^{23}\\)."
+    },
+    {
+      "id": 4,
+      "question": "50 cm\\(^3\\) of gas was collected over water at 10\\(^\\circ\\)C and 765 mmHg. Calculate the volume of the gas at s.t.p. if the saturated vapour pressure of water at 10\\(^\\circ\\)C is 5 mmHg.",
+      "options": [
+        { "id": "A", "text": "49.19 cm\\(^3\\)" },
+        { "id": "B", "text": "48.87 cm\\(^3\\)" },
+        { "id": "C", "text": "48.55 cm\\(^3\\)" },
+        { "id": "D", "text": "48.23 cm\\(^3\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Dry gas pressure: \\(P_1 = 765 - 5 = 760\\,\\text{mmHg}\\). At STP, \\(P_2 = 760\\,\\text{mmHg}\\), \\(T_2 = 273\\,\\text{K}\\). Also \\(T_1 = 10 + 273 = 283\\,\\text{K}\\). Using \\(\\frac{P_1V_1}{T_1}=\\frac{P_2V_2}{T_2}\\) and \\(P_1=P_2\\): \\(V_2 = V_1\\frac{T_2}{T_1} = 50\\times\\frac{273}{283} \\approx 48.23\\,\\text{cm}^3\\)."
+    },
+    {
+      "id": 5,
+      "question": "An increase in the pressure exerted on gas at a constant temperature result in",
+      "options": [
+        { "id": "A", "text": "a decrease in the number of effective collisions" },
+        { "id": "B", "text": "a decrease in volume" },
+        { "id": "C", "text": "an increase in the average intermolecular distance" },
+        { "id": "D", "text": "an increase in volume" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "At constant temperature, increasing pressure compresses a gas so its volume decreases (Boyle’s law)."
+    },
+    {
+      "id": 6,
+      "question": "In the reaction \\(2\\text{H}_2(g) + \\text{O}_2(g) \\rightarrow 2\\text{H}_2\\text{O}(g)\\), what volume of hydrogen would be left over when 300 cm\\(^3\\) of oxygen and 1000 cm\\(^3\\) of hydrogen are exploded in a sealed tube?",
+      "options": [
+        { "id": "A", "text": "200 cm\\(^3\\)" },
+        { "id": "B", "text": "400 cm\\(^3\\)" },
+        { "id": "C", "text": "600 cm\\(^3\\)" },
+        { "id": "D", "text": "700 cm\\(^3\\)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Volume ratios follow coefficients: \\(\\text{H}_2:\\text{O}_2 = 2:1\\). For 300 cm\\(^3\\) \\(\\text{O}_2\\), required \\(\\text{H}_2\\) is \\(2\\times 300 = 600\\) cm\\(^3\\). Leftover \\(\\text{H}_2 = 1000-600 = 400\\) cm\\(^3\\)."
+    },
+    {
+      "id": 7,
+      "question": "I. Evaporation. II. Sublimation. III. Diffusion. IV. Brownian motion. Which of the above can correctly be listed as evidences for the particulate nature of matter?",
+      "options": [
+        { "id": "A", "text": "I and III only" },
+        { "id": "B", "text": "II and IV only" },
+        { "id": "C", "text": "I, II and III only" },
+        { "id": "D", "text": "I, II, III and IV" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "All four phenomena depend on matter being made of particles in constant motion (especially diffusion and Brownian motion)."
+    },
+    {
+      "id": 8,
+      "question": "If the elements X and Y have atomic numbers 11 and 17 respectively, what type of bond can they form?",
+      "options": [
+        { "id": "A", "text": "Dative" },
+        { "id": "B", "text": "Covalent" },
+        { "id": "C", "text": "Ionic" },
+        { "id": "D", "text": "Metallic" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Atomic number 11 is Na (metal) and 17 is Cl (non-metal). Electron transfer forms \\(\\text{Na}^+\\) and \\(\\text{Cl}^-\\), i.e., an ionic bond."
+    },
+    {
+      "id": 9,
+      "question": "A hydrogen atom which has lost an electron contains",
+      "options": [
+        { "id": "A", "text": "one proton only" },
+        { "id": "B", "text": "one neutron only" },
+        { "id": "C", "text": "one proton and one neutron" },
+        { "id": "D", "text": "one proton, one electron and one neutron" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A neutral hydrogen atom (protium) is 1 proton + 1 electron. Losing the electron leaves \\(\\text{H}^+\\), which is just one proton."
+    },
+    {
+      "id": 10,
+      "question": "The electronic configuration of \\(\\text{Mg}^{2+}\\) is",
+      "options": [
+        { "id": "A", "text": "\\(1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^2\\)" },
+        { "id": "B", "text": "\\(1s^2\\,2s^2\\,2p^6\\,3s^2\\)" },
+        { "id": "C", "text": "\\(1s^2\\,2s^2\\,2p^6\\)" },
+        { "id": "D", "text": "\\(1s^2\\,2s^2\\,2p^4\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Neutral Mg (Z = 12): \\(1s^2\\,2s^2\\,2p^6\\,3s^2\\). \\(\\text{Mg}^{2+}\\) loses the two \\(3s\\) electrons, leaving \\(1s^2\\,2s^2\\,2p^6\\)."
+    },
+    {
+      "id": 11,
+      "question": "Group VII elements are",
+      "options": [
+        { "id": "A", "text": "monoatomic" },
+        { "id": "B", "text": "good oxidizing agents" },
+        { "id": "C", "text": "highly electropositive" },
+        { "id": "D", "text": "electron donors" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Halogens (Group VII/17) readily gain electrons, so they oxidize other substances (they are oxidizing agents)."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is used to study the arrangement of particles in crystal lattices?",
+      "options": [
+        { "id": "A", "text": "Alpha-particles" },
+        { "id": "B", "text": "Beta-particles" },
+        { "id": "C", "text": "Gamma-rays" },
+        { "id": "D", "text": "X-rays" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Crystal structures are determined using X-ray diffraction."
+    },
+    {
+      "id": 13,
+      "question": "I. It has a varied composition from one place to another. II. its constituents can be separated by physical means III. It contains unreactive noble gases. Which of the above shows that air is a mixture?",
+      "options": [
+        { "id": "A", "text": "I and II only" },
+        { "id": "B", "text": "II and III only" },
+        { "id": "C", "text": "I and III only" },
+        { "id": "D", "text": "I, II and III" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Air has variable composition, can be separated physically (e.g., fractionation of liquid air), and contains inert noble gases mixed with other gases—features of a mixture."
+    },
+    {
+      "id": 14,
+      "question": "The chemicals used to soften hard water involves the addition of",
+      "options": [
+        { "id": "A", "text": "insoluble sodium compounds which form soluble solutions of calcium and magnesium" },
+        { "id": "B", "text": "soluble sodium compounds which form soluble solutions of calcium and magnesium ions" },
+        { "id": "C", "text": "soluble sodium compounds which form insoluble precipitates of calcium and magnesium ions" },
+        { "id": "D", "text": "insoluble precipitates of calcium and magnesium ions" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Hardness is due to \\(\\text{Ca}^{2+}\\) and \\(\\text{Mg}^{2+}\\). Adding soluble sodium salts like \\(\\text{Na}_2\\text{CO}_3\\) supplies \\(\\text{CO}_3^{2-}\\) to form insoluble precipitates (e.g., \\(\\text{CaCO}_3\\)), removing the ions."
+    },
+    {
+      "id": 15,
+      "question": "Chlorination of water for town supply is carried out to",
+      "options": [
+        { "id": "A", "text": "make the water colourless" },
+        { "id": "B", "text": "remove germs from the water" },
+        { "id": "C", "text": "make the water tasteful" },
+        { "id": "D", "text": "remove odour from the water" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Chlorine disinfects water by killing harmful microorganisms."
+    },
+    {
+      "id": 16,
+      "question": "The solubilities of different solutes in a given solvent can be compared by",
+      "options": [
+        { "id": "A", "text": "plotting their solubility curves on separate axes" },
+        { "id": "B", "text": "plotting their solubility curves on the same axes" },
+        { "id": "C", "text": "plotting some of the solubility curves on the x-axis and others on the y-axis" },
+        { "id": "D", "text": "plotting their solubility curves on the x-axis only" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Plotting on the same axes allows direct comparison at the same temperatures."
+    },
+    {
+      "id": 17,
+      "question": "Potassium trioxochlorate (V) has a solubility of 1.5 \\(\\text{mol dm}^{-3}\\) at 45\\(^\\circ\\)C. On cooling this solution to 20\\(^\\circ\\)C, the solubility was found to be 0.5 \\(\\text{mol dm}^{-3}\\). What mass of \\(\\text{KClO}_3\\) was crystallized out? [K = 39, Cl = 35.5, O = 16]",
+      "options": [
+        { "id": "A", "text": "1.00 g" },
+        { "id": "B", "text": "10.00 g" },
+        { "id": "C", "text": "12.25 g" },
+        { "id": "D", "text": "122.50 g" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Decrease in solubility \\(= 1.5 - 0.5 = 1.0\\,\\text{mol dm}^{-3}\\), so \\(1.0\\) mol crystallizes per \\(1\\,\\text{dm}^3\\). Molar mass of \\(\\text{KClO}_3\\): \\(39 + 35.5 + 3(16) = 122.5\\,\\text{g mol}^{-1}\\). Mass crystallized \\(= 1.0\\times 122.5 = 122.50\\,\\text{g}\\)."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following pollutants is associated with brain damage?",
+      "options": [
+        { "id": "A", "text": "Carbon (II) oxide" },
+        { "id": "B", "text": "Radioactive fallout" },
+        { "id": "C", "text": "Biodegradable waste" },
+        { "id": "D", "text": "Sulphur (IV) oxide" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Carbon(II) oxide (CO) reduces oxygen delivery by forming carboxyhaemoglobin; severe oxygen deprivation (hypoxia) can cause brain damage."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following will produce a solution with pH less than 7 at equivalent point?",
+      "options": [
+        { "id": "A", "text": "HNO\\(_3\\) + NaOH" },
+        { "id": "B", "text": "H\\(_2\\)SO\\(_4\\) + KOH" },
+        { "id": "C", "text": "HCl + Mg(OH)\\(_2\\)" },
+        { "id": "D", "text": "HNO\\(_3\\) + KOH" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A pH below 7 at equivalence is characteristic of a strong acid with a weak base. \\(\\text{Mg(OH)}_2\\) is not a strong alkali (sparingly soluble), so titration with HCl can yield an acidic equivalence solution compared with strong acid–strong base pairs."
+    },
+    {
+      "id": 20,
+      "question": "The number of hydronium ions produced by one molecule of an acid in aqueous solution is its",
+      "options": [
+        { "id": "A", "text": "basicity" },
+        { "id": "B", "text": "acid strength" },
+        { "id": "C", "text": "pH" },
+        { "id": "D", "text": "concentration" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Basicity is the number of ionizable hydrogen atoms an acid can donate, i.e., the number of \\(\\text{H}_3\\text{O}^+\\) it can produce per molecule."
+    },
+    {
+      "id": 21,
+      "question": "During a titration experiment, 0.05 moles of carbon (IV) oxide is liberated. What is the volume of gas liberated?",
+      "options": [
+        { "id": "A", "text": "22.40 dm\\(^3\\)" },
+        { "id": "B", "text": "11.20 dm\\(^3\\)" },
+        { "id": "C", "text": "2.24 dm\\(^3\\)" },
+        { "id": "D", "text": "1.12 dm\\(^3\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "At STP, molar volume \\(= 22.4\\,\\text{dm}^3\\,\\text{mol}^{-1}\\). Volume \\(= 0.05\\times 22.4 = 1.12\\,\\text{dm}^3\\)."
+    },
+    {
+      "id": 22,
+      "question": "A major factor considered in selecting a suitable method for preparing a simple salt is its",
+      "options": [
+        { "id": "A", "text": "Crystalline form" },
+        { "id": "B", "text": "melting point" },
+        { "id": "C", "text": "reactivity with dilute acids" },
+        { "id": "D", "text": "solubility in water" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Solubility determines whether a salt is prepared by precipitation (insoluble) or by titration/evaporation (soluble)."
+    },
+    {
+      "id": 23,
+      "question": "The oxidation number of boron in \\(\\text{NaBH}_4\\) is",
+      "options": [
+        { "id": "A", "text": "-3" },
+        { "id": "B", "text": "-1" },
+        { "id": "C", "text": "+1" },
+        { "id": "D", "text": "+3" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Treat \\(\\text{NaBH}_4\\) as \\(\\text{Na}^+\\) and \\(\\text{BH}_4^-\\). In \\(\\text{BH}_4^-\\), hydrogen is hydride \\((-1)\\). Let boron be \\(x\\): \\(x + 4(-1) = -1\\Rightarrow x-4=-1\\Rightarrow x=+3\\)."
+    },
+    {
+      "id": 24,
+      "question": "\\(2\\text{Na}_2\\text{O}_{2(s)} + 2\\text{H}_2\\text{O}_{(l)} \\rightarrow 4\\text{NaOH}_{(s)} + \\text{O}_{2(g)}\\). The substance that is oxidized in the reaction above is",
+      "options": [
+        { "id": "A", "text": "\\(\\text{Na}_2\\text{O}_2\\)" },
+        { "id": "B", "text": "NaOH(aq)" },
+        { "id": "C", "text": "\\(\\text{H}_2\\text{O}\\)" },
+        { "id": "D", "text": "\\(\\text{O}_2\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Oxygen in peroxide \\(\\text{Na}_2\\text{O}_2\\) has oxidation state \\(-1\\). In \\(\\text{O}_2\\) it is 0. Increase from \\(-1\\) to 0 is oxidation, so \\(\\text{Na}_2\\text{O}_2\\) (specifically its oxygen) is oxidized."
+    },
+    {
+      "id": 25,
+      "question": "What number of moles of \\(\\text{Cu}^{2+}\\) will be deposited by 360 coulombs of electricity? [\\(F = 96500\\,\\text{C mol}^{-1}\\)]",
+      "options": [
+        { "id": "A", "text": "\\(5.36 \\times 10^{-4}\\) mole" },
+        { "id": "B", "text": "\\(1.87 \\times 10^{-3}\\) mole" },
+        { "id": "C", "text": "\\(9.35 \\times 10^{-4}\\) mole" },
+        { "id": "D", "text": "\\(3.73 \\times 10^{-3}\\) mole" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Moles of electrons passed: \\(n(e^-) = \\frac{Q}{F} = \\frac{360}{96500} = 3.73\\times 10^{-3}\\,\\text{mol}\\) (approx). For \\(\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}\\), moles of Cu deposited \\(= \\frac{n(e^-)}{2} = \\frac{3.73\\times 10^{-3}}{2} = 1.865\\times 10^{-3}\\approx 1.87\\times 10^{-3}\\,\\text{mol}\\)."
+    },
+    {
+      "id": 26,
+      "question": "A metal M displaces zinc from \\(\\text{ZnCl}_2\\) solution. This shows that",
+      "options": [
+        { "id": "A", "text": "electrons flow from zinc to M" },
+        { "id": "B", "text": "M is more electropositive than zinc" },
+        { "id": "C", "text": "M is more electronegative than zinc" },
+        { "id": "D", "text": "zinc is more electropositive than M" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Displacement means M is more reactive (more easily oxidized) than Zn, i.e., more electropositive."
+    },
+    {
+      "id": 27,
+      "question": "\\(\\text{CO}_{(g)} + \\text{H}_2\\text{O}_{(g)} \\rightarrow \\text{CO}_{2(g)} + \\text{H}_{2(g)}\\). Calculate the standard heat change of the reaction above, if the standard enthalpies of formation (kJ mol\\(^{-1}\\)) of \\(\\text{CO}_{2(g)}\\), \\(\\text{H}_2\\text{O}_{(g)}\\) and \\(\\text{CO}_{(g)}\\) are \\(-394\\), \\(-242\\) and \\(-110\\) respectively.",
+      "options": [
+        { "id": "A", "text": "+262 kJ mol\\(^{-1}\\)" },
+        { "id": "B", "text": "-262 kJ mol\\(^{-1}\\)" },
+        { "id": "C", "text": "+42 kJ mol\\(^{-1}\\)" },
+        { "id": "D", "text": "-42 kJ mol\\(^{-1}\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Use \\(\\Delta H^\\circ = \\sum \\Delta H_f^\\circ(\\text{products}) - \\sum \\Delta H_f^\\circ(\\text{reactants})\\). Products: \\(-394 + 0\\). Reactants: \\(-110 + (-242) = -352\\). Thus \\(\\Delta H^\\circ = -394 - (-352) = -42\\,\\text{kJ mol}^{-1}\\)."
+    },
+    {
+      "id": 28,
+      "question": "An increase in entropy can best be illustrated by",
+      "options": [
+        { "id": "A", "text": "mixing of gases" },
+        { "id": "B", "text": "freezing of water" },
+        { "id": "C", "text": "the condensation of vapour" },
+        { "id": "D", "text": "solidifying candle wax" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mixing gases increases randomness/disorder (higher entropy). Freezing, condensation, and solidification reduce entropy."
+    },
+    {
+      "id": 29,
+      "question": "The highest rate of production of carbon (IV) oxide can be achieved using",
+      "options": [
+        { "id": "A", "text": "0.05 \\(\\text{mol dm}^{-3}\\) HCl and 5 g powdered \\(\\text{CaCO}_3\\)" },
+        { "id": "B", "text": "0.05 \\(\\text{mol dm}^{-3}\\) HCl and 5 g lump \\(\\text{CaCO}_3\\)" },
+        { "id": "C", "text": "0.10 \\(\\text{mol dm}^{-3}\\) HCl and 5 g powdered \\(\\text{CaCO}_3\\)" },
+        { "id": "D", "text": "0.025 \\(\\text{mol dm}^{-3}\\) HCl and 5 g powdered \\(\\text{CaCO}_3\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Reaction rate increases with higher acid concentration and larger surface area; powdered \\(\\text{CaCO}_3\\) has greater surface area and 0.10 \\(\\text{mol dm}^{-3}\\) is the highest concentration."
+    },
+    {
+      "id": 30,
+      "instruction": "Use the apparatus diagram (figure Chem2012_Q30_Gas_Preparation_Apparatus).",
+      "question": "\\(2\\text{HCl}_{(aq)} + \\text{CaCO}_{3(s)} \\rightarrow \\text{CaCl}_{2(s)} + \\text{CO}_{2(g)} + \\text{H}_2\\text{O}_{(l)}\\). From the reaction above, which of the curves represents the production of \\(\\text{CO}_2\\) gas as dilute HCl is added?",
+      "options": [
+        { "id": "A", "text": "L" },
+        { "id": "B", "text": "M" },
+        { "id": "C", "text": "N" },
+        { "id": "D", "text": "P" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Chem2012_Q30_Gas_Preparation_Apparatus",
+      "explanation": "In the provided image, the curves labeled L, M, N and P are not visible (only the apparatus and text are visible). Since the identifying graph/curves are missing from the upload, the correct option cannot be determined from the images alone."
+    },
+    {
+      "id": 31,
+      "question": "\\(2\\text{CO}_{(g)} + \\text{O}_{2(g)} \\rightleftharpoons 2\\text{CO}_{2(g)}\\). In the reaction above, high pressure will favour the forward reaction because",
+      "options": [
+        { "id": "A", "text": "high pressure favours gas formation" },
+        { "id": "B", "text": "the reaction is in dynamic equilibrium" },
+        { "id": "C", "text": "the reaction is exothermic" },
+        { "id": "D", "text": "the process occurs with a decrease in volume" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reactants have 3 moles of gas, products have 2 moles. Higher pressure favors the side with fewer moles of gas (smaller volume), i.e., the forward reaction."
+    },
+    {
+      "id": 32,
+      "question": "A piece of filter paper moistened with lead (II) ethanoate solution turns black when the paper is dropped into a gas likely to be",
+      "options": [
+        { "id": "A", "text": "sulphur (VI) oxide" },
+        { "id": "B", "text": "hydrogen chloride" },
+        { "id": "C", "text": "sulphur (VI) oxide" },
+        { "id": "D", "text": "hydrogen sulphide" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Hydrogen sulphide reacts with lead(II) ions to form black lead(II) sulphide, \\(\\text{PbS}\\)."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following gases has a characteristic pungent smell, turns red litmus paper blue and forms dense white fumes with hydrogen chloride gas?",
+      "options": [
+        { "id": "A", "text": "\\(\\text{N}_2\\)" },
+        { "id": "B", "text": "\\(\\text{N}_2\\text{O}\\)" },
+        { "id": "C", "text": "\\(\\text{Cl}_2\\)" },
+        { "id": "D", "text": "\\(\\text{NH}_3\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ammonia is basic (turns red litmus blue) and reacts with HCl to form \\(\\text{NH}_4\\text{Cl}\\), seen as dense white fumes."
+    },
+    {
+      "id": 34,
+      "question": "Commercial bleaching can be carried out using",
+      "options": [
+        { "id": "A", "text": "sulphur (IV) oxide and ammonia" },
+        { "id": "B", "text": "hydrogen sulphide and chlorine" },
+        { "id": "C", "text": "chlorine and sulphur (IV) oxide" },
+        { "id": "D", "text": "ammonia and chlorine" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both chlorine (oxidizing bleach) and sulphur(IV) oxide (reducing bleach) are used in bleaching processes; the option listing two bleaching agents is C."
+    },
+    {
+      "id": 35,
+      "question": "Mineral acids are usually added to commercial hydrogen peroxide to",
+      "options": [
+        { "id": "A", "text": "oxidize it" },
+        { "id": "B", "text": "decompose it" },
+        { "id": "C", "text": "minimize its decomposition" },
+        { "id": "D", "text": "reduce it to water and oxygen" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Acidic conditions help stabilize hydrogen peroxide, reducing its rate of decomposition."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following compounds will burn with a brick-red colour in a nonluminous Bunsen flame?",
+      "options": [
+        { "id": "A", "text": "LiCl" },
+        { "id": "B", "text": "NaCl" },
+        { "id": "C", "text": "CaClN\\(_2\\)" },
+        { "id": "D", "text": "MgClN\\(_2\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A brick-red flame indicates \\(\\text{Ca}^{2+}\\). The calcium-containing compound is option C."
+    },
+    {
+      "id": 37,
+      "question": "The purest form of iron which contains only about 0.1% carbon is",
+      "options": [
+        { "id": "A", "text": "pig iron" },
+        { "id": "B", "text": "wrought iron" },
+        { "id": "C", "text": "cast iron" },
+        { "id": "D", "text": "iron pyrite" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Wrought iron has very low carbon content (about 0.1% or less) compared with pig iron and cast iron."
+    },
+    {
+      "id": 38,
+      "question": "A common characteristic between zinc and the other transition elements is the ability to",
+      "options": [
+        { "id": "A", "text": "have variable oxidation states" },
+        { "id": "B", "text": "form complex ions" },
+        { "id": "C", "text": "act as a catalyst" },
+        { "id": "D", "text": "form coloured ions" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Zinc forms complex ions (e.g., \\([\\text{Zn(OH)}_4]^{2-}\\), \\([\\text{Zn(NH}_3)_4]^{2+}\\)). It does not commonly show variable oxidation states and its ions are generally colourless."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following metals is the least reactive?",
+      "options": [
+        { "id": "A", "text": "Pb" },
+        { "id": "B", "text": "Sn" },
+        { "id": "C", "text": "Hg" },
+        { "id": "D", "text": "Au" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Gold (Au) is a noble metal and is the least reactive among the listed metals."
+    },
+    {
+      "id": 40,
+      "question": "Geometric isomerism can exist in",
+      "options": [
+        { "id": "A", "text": "hex-3-ene" },
+        { "id": "B", "text": "hexane" },
+        { "id": "C", "text": "prop-1-ene" },
+        { "id": "D", "text": "3-methyl but-1-ene" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Hex-3-ene has a \\(\\text{C=C}\\) where each carbon has two different substituents, allowing cis/trans isomers. Terminal alkenes like prop-1-ene and 3-methylbut-1-ene do not show geometric isomerism."
+    },
+    {
+      "id": 41,
+      "question": "Alkanals can be distinguished from alkanones by the reaction with",
+      "options": [
+        { "id": "A", "text": "Sudan III stain" },
+        { "id": "B", "text": "starch iodide paper" },
+        { "id": "C", "text": "lithium tetrahydrido aluminate (III)" },
+        { "id": "D", "text": "Fehling’s solution" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Aldehydes reduce Fehling’s solution to brick-red \\(\\text{Cu}_2\\text{O}\\); ketones do not under the same conditions."
+    },
+    {
+      "id": 42,
+      "question": "The isomers of \\(\\text{C}_3\\text{H}_8\\text{O}\\) are",
+      "options": [
+        { "id": "A", "text": "1-propanol and 2-propanol" },
+        { "id": "B", "text": "1-propanol and 1-propanol" },
+        { "id": "C", "text": "2-propanol and 2-propanone" },
+        { "id": "D", "text": "2-propanol and 1-propanol" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\\(\\text{C}_3\\text{H}_8\\text{O}\\) corresponds to propanol alcohols: propan-1-ol and propan-2-ol."
+    },
+    {
+      "id": 43,
+      "question": "Carbohydrates are large molecules with the molecular formula \\(\\text{C}_x(\\text{H}_2\\text{O})_y\\). In which of the following pairs is x not equal to y?",
+      "options": [
+        { "id": "A", "text": "glucose and starch" },
+        { "id": "B", "text": "maltose and starch" },
+        { "id": "C", "text": "sucrose and fructose" },
+        { "id": "D", "text": "maltose and starch" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Monosaccharides like glucose/fructose typically have \\(x=y\\) (e.g., \\(\\text{C}_6\\text{H}_{12}\\text{O}_6\\)). Disaccharides like maltose have \\(x\\neq y\\) (e.g., \\(\\text{C}_{12}\\text{H}_{22}\\text{O}_{11}\\)), so any pair including maltose fits; option B does."
+    },
+    {
+      "id": 44,
+      "question": "A compound contains 40.0% C, 6.7% H, 53.3% O. If the molecular mass of the compound is 180, its molecular formula is [C = 12, H = 1, O = 16]",
+      "options": [
+        { "id": "A", "text": "CH\\(_2\\)O" },
+        { "id": "B", "text": "C\\(_3\\)H\\(_6\\)O\\(_3\\)" },
+        { "id": "C", "text": "C\\(_6\\)H\\(_6\\)O\\(_3\\)" },
+        { "id": "D", "text": "C\\(_6\\)H\\(_{12}\\)O\\(_6\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In 100 g: \\(n_C=\\frac{40.0}{12}=3.333\\), \\(n_H=\\frac{6.7}{1}=6.7\\), \\(n_O=\\frac{53.3}{16}=3.331\\). Divide by 3.331: C:H:O \\(\\approx 1:2:1\\) → empirical formula \\(\\text{CH}_2\\text{O}\\) (mass 30). Factor \\(=\\frac{180}{30}=6\\). Molecular formula \\(=(\\text{CH}_2\\text{O})_6=\\text{C}_6\\text{H}_{12}\\text{O}_6\\)."
+    },
+    {
+      "id": 45,
+      "question": "The alkyne that will give a white precipitate with silver trioxonitrate (V) is",
+      "options": [
+        { "id": "A", "text": "CH\\(_3\\)CH\\(_2\\)C\\(\\equiv\\)CCH\\(_2\\)CH\\(_3\\)" },
+        { "id": "B", "text": "CH\\(_3\\)C\\(\\equiv\\)CCH\\(_2\\)CH\\(_2\\)CH\\(_3\\)" },
+        { "id": "C", "text": "CH\\(_3\\)CH\\(_2\\)CH\\(_2\\)CH\\(_2\\)C\\(\\equiv\\)CH" },
+        { "id": "D", "text": "CH\\(_3\\)CH\\(_2\\)CH\\(_2\\)C\\(\\equiv\\)CCH\\(_2\\)CH\\(_3\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "White precipitate with silver nitrate (in ammoniacal conditions) indicates a terminal alkyne \\((\\equiv\\text{C–H})\\). Only option C is terminal: \\(\\ldots\\text{C}\\equiv\\text{CH}\\)."
+    },
+    {
+      "id": 46,
+      "question": "The saponification of an alkanoate to produce soap and alkanol involves",
+      "options": [
+        { "id": "A", "text": "dehydration" },
+        { "id": "B", "text": "esterification" },
+        { "id": "C", "text": "hydrolysis" },
+        { "id": "D", "text": "oxidation" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Saponification is alkaline hydrolysis of an ester to give an alcohol and a carboxylate salt (soap)."
+    },
+    {
+      "id": 47,
+      "question": "2-methyl propan-2-ol is an example of a",
+      "options": [
+        { "id": "A", "text": "primary alkanol" },
+        { "id": "B", "text": "secondary alkanol" },
+        { "id": "C", "text": "tertiary alkanol" },
+        { "id": "D", "text": "quaternary alkanol" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The carbon bearing the \\(-\\text{OH}\\) group is bonded to three other carbons, so it is a tertiary alcohol."
+    },
+    {
+      "id": 48,
+      "question": "The final oxidation product of alkanol, alkanal and alkanoes is",
+      "options": [
+        { "id": "A", "text": "alkanoic acid" },
+        { "id": "B", "text": "alkanoyl halide" },
+        { "id": "C", "text": "alkanoate" },
+        { "id": "D", "text": "alkanamide" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Primary alkanols oxidize to alkanals and further to alkanoic acids; alkanals also oxidize to alkanoic acids."
+    },
+    {
+      "id": 49,
+      "question": "Ethanol reacts with concentrated tetraoxosulphate (VI) acid at a temperature above 170\\(^\\circ\\)C to form",
+      "options": [
+        { "id": "A", "text": "ethanone" },
+        { "id": "B", "text": "ethene" },
+        { "id": "C", "text": "ethyne" },
+        { "id": "D", "text": "ethanal" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "At about 170\\(^\\circ\\)C, concentrated \\(\\text{H}_2\\text{SO}_4\\) dehydrates ethanol to ethene: \\(\\text{C}_2\\text{H}_5\\text{OH} \\rightarrow \\text{C}_2\\text{H}_4 + \\text{H}_2\\text{O}\\)."
+    },
+    {
+      "id": 50,
+      "question": "An example of oxidation - reduction enzyme is",
+      "options": [
+        { "id": "A", "text": "amylase" },
+        { "id": "B", "text": "protease" },
+        { "id": "C", "text": "lipase" },
+        { "id": "D", "text": "dehydrogenase" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Dehydrogenases catalyze redox reactions by transferring hydrogen/electrons between molecules."
+    }
+  ]
+}
