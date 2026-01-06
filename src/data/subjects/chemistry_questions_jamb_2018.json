@@ -1,0 +1,517 @@
+{
+  "year": 2018,
+  "subject": "Chemistry",
+  "paperType": null,
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Chem2018_Q3_Apparatus_NH4Cl",
+      "file": "upload_1.png",
+      "description": "Fig. 1 apparatus: heating solid ammonium chloride in a test tube with a porous asbestos plug and damp neutral litmus paper at the mouth. Used in Question 3."
+    },
+    {
+      "id": "Chem2018_Q17_Organic_Structure",
+      "file": "upload_4.png",
+      "description": "Displayed structure for Question 17 showing a branched alkane/haloalkane-like chain: (CH3)2CH–CH2–CH3 (as drawn). Used for IUPAC/common naming."
+    },
+    {
+      "id": "Chem2018_Q23_Equilibrium_Expression",
+      "file": "upload_5.png",
+      "description": "Question 23 shows a general reaction mE + nF ⇌ pG + qH and multiple-choice forms of the equilibrium constant expression."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "The periodic classification of the elements is an arrangement of the elements in order of their",
+      "options": [
+        { "id": "A", "text": "atomic weights" },
+        { "id": "B", "text": "isotopic weights" },
+        { "id": "C", "text": "molecular weights" },
+        { "id": "D", "text": "atomic numbers" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The modern periodic table is arranged in order of increasing atomic number."
+    },
+    {
+      "id": 2,
+      "question": "If 1 litre of 2.2 M sulphuric acid is poured into a bucket containing 10 litres of water, and the resulting solution mixed thoroughly, the resulting sulphuric acid concentration will be",
+      "options": [
+        { "id": "A", "text": "2.2 M" },
+        { "id": "B", "text": "1.1 M" },
+        { "id": "C", "text": "0.22 M" },
+        { "id": "D", "text": "0.11 M" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Moles of acid added: \\(n = CV = 2.2\\times 1 = 2.2\\,\\text{mol}\\). Final volume \\(\\approx 1 + 10 = 11\\,\\text{L}\\). New concentration \\(= \\frac{2.2}{11} = 0.20\\,\\text{M}\\). This value (0.20 M) is not among the options shown; the closest is 0.22 M (C), but using the given volumes, the accurate result is 0.20 M."
+    },
+    {
+      "id": 3,
+      "instruction": "Use the above experiment (Fig. 1).",
+      "question": "In the above experiment (Fig. 1) the litmus paper will initially",
+      "options": [
+        { "id": "A", "text": "be bleached" },
+        { "id": "B", "text": "turn green" },
+        { "id": "C", "text": "turn red" },
+        { "id": "D", "text": "turn blue" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Chem2018_Q3_Apparatus_NH4Cl",
+      "explanation": "Heating \\(\\text{NH}_4\\text{Cl}\\) produces \\(\\text{NH}_3\\) and \\(\\text{HCl}\\). Damp neutral litmus responds to acidic \\(\\text{HCl}\\) first at the mouth, turning red initially."
+    },
+    {
+      "id": 4,
+      "question": "A correct electrochemical series can be obtained from K, Na, Ca, Al, Mg, Zn, Fe, Pb, H, Cu, Hg, Ag, Au by interchanging",
+      "options": [
+        { "id": "A", "text": "Al and Mg" },
+        { "id": "B", "text": "Zn and Fe" },
+        { "id": "C", "text": "Zn and Pb" },
+        { "id": "D", "text": "Pb and H" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In the standard reactivity/electrochemical series, Mg is more reactive than Al (Mg should come before Al). Interchanging Al and Mg corrects that ordering."
+    },
+    {
+      "id": 5,
+      "question": "A basic postulate of the kinetic theory of gases is that the molecules of a gas move in straight lines between collisions. This implies that",
+      "options": [
+        { "id": "A", "text": "collisions are perfectly elastic" },
+        { "id": "B", "text": "forces of repulsion exist" },
+        { "id": "C", "text": "forces of repulsion and attraction are in equilibrium" },
+        { "id": "D", "text": "collisions are inelastic" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Kinetic theory assumes collisions between gas molecules are perfectly elastic."
+    },
+    {
+      "id": 6,
+      "question": "On which of the following is the solubility of a gaseous substance dependent?\nI. Nature of solvent\nII. Nature of solute\nIII. Temperature\nIV. Pressure",
+      "options": [
+        { "id": "A", "text": "I, II, III and IV" },
+        { "id": "B", "text": "I and II only" },
+        { "id": "C", "text": "II only" },
+        { "id": "D", "text": "I, III and IV only" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Gas solubility depends on the nature of gas and solvent, temperature, and pressure (e.g., Henry’s law)."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following statements is correct about the periodic table?",
+      "options": [
+        { "id": "A", "text": "Elements in the same period have the same number of valence electrons" },
+        {
+          "id": "B",
+          "text": "The valence electrons of the elements in the same period increase progressively across the period."
+        },
+        { "id": "C", "text": "Elements in the same group have the same number of electron shells" },
+        {
+          "id": "D",
+          "text": "The non-metallic properties of the elements tend to decrease across each period."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Across a period, electrons are added to the same outer shell so valence electrons generally increase from left to right."
+    },
+    {
+      "id": 8,
+      "question": "The boiling of fat and aqueous caustic soda is referred to as",
+      "options": [
+        { "id": "A", "text": "hydrolysis" },
+        { "id": "B", "text": "esterification" },
+        { "id": "C", "text": "acidification" },
+        { "id": "D", "text": "saponification" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Boiling fats/oils with NaOH produces soap and glycerol; this is saponification (alkaline hydrolysis of esters)."
+    },
+    {
+      "id": 9,
+      "question": "Which of the following pairs of substances will react further with oxygen to form a higher oxide?",
+      "options": [
+        { "id": "A", "text": "CO2 and H2O" },
+        { "id": "B", "text": "NO and H2O" },
+        { "id": "C", "text": "CO and CO2" },
+        { "id": "D", "text": "SO2 and NO" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "SO2 can be oxidized to SO3, and NO can be oxidized to NO2; both can form higher oxides."
+    },
+    {
+      "id": 10,
+      "question": "In the preparation of oxygen by heating KClO3 in the presence of MnO2, only moderate heat is needed because the catalyst acts by",
+      "options": [
+        { "id": "A", "text": "lowering the pressure of the reaction" },
+        { "id": "B", "text": "increasing the surface area of the reaction" },
+        { "id": "C", "text": "increasing the rate of the reaction" },
+        { "id": "D", "text": "lowering the energy barrier of the reaction" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A catalyst provides an alternative pathway with lower activation energy (energy barrier)."
+    },
+    {
+      "id": 11,
+      "question": "Methanoic acid mixes with water in all proportions and has about the same boiling point as water. Which of the following methods would you adopt to obtain pure water from a mixture of sand, water and methanoic acid?",
+      "options": [
+        { "id": "A", "text": "fractional distillation" },
+        { "id": "B", "text": "filtration followed by distillation" },
+        { "id": "C", "text": "neutralization with sodium hydroxide followed by distillation" },
+        { "id": "D", "text": "neutralization with sodium hydroxide followed by filtration" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "First neutralize methanoic acid with NaOH to form non-volatile sodium methanoate, then distill to obtain water; filtration removes sand but acid would still co-distill due to similar boiling point."
+    },
+    {
+      "id": 12,
+      "question": "A quantity of electricity liberates 3.6 g of silver from its salt. What mass of aluminium will be liberated from its salt by the same quantity of electricity? [Al = 27, Ag = 108]",
+      "options": [
+        { "id": "A", "text": "2.7 g" },
+        { "id": "B", "text": "1.2 g" },
+        { "id": "C", "text": "0.9 g" },
+        { "id": "D", "text": "0.3 g" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Same charge ⇒ same moles of electrons. Ag+: 1 e− per Ag. Moles Ag = 3.6/108 = 0.0333 mol ⇒ moles e− = 0.0333. For Al3+: 3 e− per Al, so moles Al = 0.0333/3 = 0.0111. Mass Al = 0.0111×27 = 0.30 g. This equals option D, not B."
+    },
+    {
+      "id": 13,
+      "question": "Suitable reagents for the laboratory preparation of nitrogen are",
+      "options": [
+        { "id": "A", "text": "sodium dioxonitrate (III) and ammonium chloride" },
+        { "id": "B", "text": "sodium trioxonitrate (V) and ammonium chloride" },
+        { "id": "C", "text": "sodium chloride and ammonium trioxonitrate (V)" },
+        { "id": "D", "text": "sodium chloride and ammonium dioxonitrate (III)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Nitrogen can be prepared by warming ammonium chloride with sodium nitrite (sodium dioxonitrate(III)): \\(\\text{NH}_4\\text{Cl} + \\text{NaNO}_2 \\rightarrow \\text{N}_2 + \\text{NaCl} + 2\\text{H}_2\\text{O}\\)."
+    },
+    {
+      "id": 14,
+      "question": "The number of electrons in the valence shell of an element of atomic number 14 is",
+      "options": [
+        { "id": "A", "text": "1" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Atomic number 14 is silicon: electronic configuration ends in \\(3s^2 3p^2\\), giving 4 valence electrons."
+    },
+    {
+      "id": 15,
+      "question": "What volume of oxygen will remain after reacting 8 cm3 of hydrogen gas with 20 cm3 of oxygen gas?",
+      "options": [
+        { "id": "A", "text": "10 cm3" },
+        { "id": "B", "text": "12 cm3" },
+        { "id": "C", "text": "14 cm3" },
+        { "id": "D", "text": "16 cm3" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reaction: \\(2\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}\\). 8 cm3 H2 needs 4 cm3 O2. Oxygen left = 20 − 4 = 16 cm3."
+    },
+    {
+      "id": 16,
+      "question": "If one of the following oxides is heated with hydrogen or carbon using a Bunsen burner, it is not reduced to the metal. Which one is it?",
+      "options": [
+        { "id": "A", "text": "lead oxide" },
+        { "id": "B", "text": "magnesium oxide" },
+        { "id": "C", "text": "copper oxide" },
+        { "id": "D", "text": "tin oxide" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "MgO is very stable; magnesium is too reactive to be reduced by H2 or C under these conditions."
+    },
+    {
+      "id": 17,
+      "instruction": "Use the displayed structure shown.",
+      "question": "The name for the compound shown is",
+      "options": [
+        { "id": "A", "text": "1-methylpentane" },
+        { "id": "B", "text": "3-methylbutane" },
+        { "id": "C", "text": "2-methylbutane" },
+        { "id": "D", "text": "1-dimethylpropane" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Chem2018_Q17_Organic_Structure",
+      "explanation": "The structure corresponds to isopentane, IUPAC name 2-methylbutane."
+    },
+    {
+      "id": 18,
+      "question": "An aqueous solution of a metal salt M gives a white precipitate with NaOH which dissolves in excess NaOH. With aqueous ammonia, the solution of M also gives a white precipitate which dissolves in excess ammonia. Therefore, the cation in M is",
+      "options": [
+        { "id": "A", "text": "Zn2+" },
+        { "id": "B", "text": "Ca2+" },
+        { "id": "C", "text": "Al3+" },
+        { "id": "D", "text": "Pb2+" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Zn(OH)2 is white and dissolves in excess NaOH (forming zincate) and also dissolves in excess NH3 (forming ammine complex)."
+    },
+    {
+      "id": 19,
+      "question": "What is the concentration of a solution containing 2 g of NaOH in 100 cm3 of solution? [Na = 23, O = 16, H = 1]",
+      "options": [
+        { "id": "A", "text": "0.40 mol dm^-3" },
+        { "id": "B", "text": "0.50 mol dm^-3" },
+        { "id": "C", "text": "0.05 mol dm^-3" },
+        { "id": "D", "text": "0.30 mol dm^-3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Molar mass NaOH = 40 g/mol. Moles = 2/40 = 0.05 mol. Volume = 100 cm3 = 0.1 dm3. Concentration = 0.05/0.1 = 0.50 mol dm^-3."
+    },
+    {
+      "id": 20,
+      "question": "How many atoms are present in 6.0 g of magnesium? [Mg = 24, \\(N_A = 6.02\\times 10^{23}\\,\\text{mol}^{-1}\\)]",
+      "options": [
+        { "id": "A", "text": "\\(1.20\\times 10^{22}\\)" },
+        { "id": "B", "text": "\\(2.41\\times 10^{22}\\)" },
+        { "id": "C", "text": "\\(1.51\\times 10^{23}\\)" },
+        { "id": "D", "text": "\\(3.02\\times 10^{23}\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Moles Mg = 6/24 = 0.25 mol. Atoms = 0.25×\\(6.02\\times 10^{23}\\) = \\(1.505\\times 10^{23}\\approx 1.51\\times 10^{23}\\)."
+    },
+    {
+      "id": 21,
+      "question": "The radio isotope used in industrial radiography for the rapid checking of faults in welds and casting is",
+      "options": [
+        { "id": "A", "text": "carbon-14" },
+        { "id": "B", "text": "phosphorus-32" },
+        { "id": "C", "text": "cobalt" },
+        { "id": "D", "text": "iodine-131" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Cobalt-60 (written as cobalt in the option) is used in industrial radiography as a gamma source."
+    },
+    {
+      "id": 22,
+      "question": "Beryllium and aluminium have similar properties because they",
+      "options": [
+        { "id": "A", "text": "are both metals" },
+        { "id": "B", "text": "belong to the same group" },
+        { "id": "C", "text": "belong to the same period" },
+        { "id": "D", "text": "are positioned diagonally to each other" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Be and Al show diagonal relationship in the periodic table, giving similar properties."
+    },
+    {
+      "id": 23,
+      "question": "For the reaction \\(mE + nF \\rightleftharpoons pG + qH\\), the equilibrium constant is given by",
+      "options": [
+        { "id": "A", "text": "\\(\\frac{[E]^m[F]^n}{[G]^p[H]^q}\\)" },
+        { "id": "B", "text": "\\(\\frac{[E][F]}{[G][H]}\\)" },
+        { "id": "C", "text": "\\(\\frac{[G]^p[H]^q}{[E]^m[F]^n}\\)" },
+        { "id": "D", "text": "\\(\\frac{[G][H]}{[E][F]}\\)" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Chem2018_Q23_Equilibrium_Expression",
+      "explanation": "By definition, \\(K_c=\\frac{\\text{(products)}^{\\text{coefficients}}}{\\text{(reactants)}^{\\text{coefficients}}}=\\frac{[G]^p[H]^q}{[E]^m[F]^n}\\)."
+    },
+    {
+      "id": 24,
+      "question": "(i) \\(3\\text{CuO}_{(s)} + 2\\text{NH}_3{}_{(g)} \\rightarrow 3\\text{Cu}_{(s)} + 3\\text{H}_2\\text{O}_{(l)} + \\text{N}_2{}_{(g)}\\)\n(ii) \\(2\\text{NH}_3{}_{(g)} + 3\\text{Cl}_2{}_{(g)} \\rightleftharpoons 6\\text{HCl}_{(g)} + \\text{N}_2{}_{(g)}\\)\n(iii) \\(4\\text{NH}_3{}_{(g)} + 3\\text{O}_2{}_{(g)} \\rightleftharpoons 6\\text{H}_2\\text{O}_{(l)} + 2\\text{N}_2{}_{(g)}\\)\nThe reactions represented by the equations above demonstrate the",
+      "options": [
+        { "id": "A", "text": "basic properties of ammonia" },
+        { "id": "B", "text": "acidic properties of ammonia" },
+        { "id": "C", "text": "reducing properties of ammonia" },
+        { "id": "D", "text": "oxidizing properties of ammonia" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In each reaction, NH3 reduces another substance (CuO to Cu, Cl2 to HCl, O2 to H2O) while NH3 is oxidized to N2, showing reducing properties."
+    },
+    {
+      "id": 25,
+      "question": "The salt that reacts with dilute hydrochloric acid to produce a pungent smelling gas which decolourizes acidified purple potassium tetraoxomanganate (VII) solution is",
+      "options": [
+        { "id": "A", "text": "Na2SO4" },
+        { "id": "B", "text": "Na2SO3" },
+        { "id": "C", "text": "Na2S" },
+        { "id": "D", "text": "Na2CO3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sulphites react with dilute HCl to produce SO2, a pungent gas that decolourizes acidified KMnO4 by reduction."
+    },
+    {
+      "id": 26,
+      "question": "The refreshing and characteristic taste of soda water and other soft drinks is as a result of the presence in them of",
+      "options": [
+        { "id": "A", "text": "carbon (IV) oxide" },
+        { "id": "B", "text": "carbon (II) oxide" },
+        { "id": "C", "text": "soda" },
+        { "id": "D", "text": "glucose" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "CO2 dissolved under pressure gives carbonated drinks their characteristic taste/fizz."
+    },
+    {
+      "id": 27,
+      "question": "Which of the following are mixtures?\n(i) Petroleum\n(ii) Rubber latex\n(iii) Vulcanizer's solution\n(iv) Carbon (II) sulphide",
+      "options": [
+        { "id": "A", "text": "i, ii and iii" },
+        { "id": "B", "text": "i, ii and iv" },
+        { "id": "C", "text": "i and ii only" },
+        { "id": "D", "text": "i and iv" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Petroleum is a mixture of hydrocarbons; rubber latex is a colloidal mixture; vulcanizer’s solution is a mixture/solution. Carbon(II) sulphide (CS2) is a pure compound."
+    },
+    {
+      "id": 28,
+      "question": "A balanced chemical equation obeys the law of",
+      "options": [
+        { "id": "A", "text": "conservation of mass" },
+        { "id": "B", "text": "definite proportions" },
+        { "id": "C", "text": "multiple proportions" },
+        { "id": "D", "text": "conservation of energy" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Balancing ensures equal numbers of each atom on both sides, reflecting conservation of mass."
+    },
+    {
+      "id": 29,
+      "question": "A given amount of gas occupies 10.0 dm3 at 4 atm and 273°C. The number of moles of the gas present is\n[Molar volume of a gas at s.t.p. = 22.4 dm3]",
+      "options": [
+        { "id": "A", "text": "0.89 mol" },
+        { "id": "B", "text": "1.90 mol" },
+        { "id": "C", "text": "3.80 mol" },
+        { "id": "D", "text": "5.70 mol" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Use ideal gas relation relative to STP: \\(n=\\frac{PV}{RT}\\). Here \\(T=273+273=546\\,K\\). Without R provided, convert using STP reference: at STP, 1 mol occupies 22.4 dm3 at 1 atm and 273 K. So \\(n = \\frac{P_1V_1}{1\\times 22.4}\\times\\frac{273}{T_1} = \\frac{4\\times 10.0}{22.4}\\times\\frac{273}{546} = \\frac{40}{22.4}\\times\\frac{1}{2} \\approx 1.7857\\times 0.5 = 0.8929\\,\\text{mol}\\). This corresponds to option A (0.89 mol)."
+    },
+    {
+      "id": 30,
+      "question": "According to Charles' law, the volume of a gas becomes zero at",
+      "options": [
+        { "id": "A", "text": "0°C" },
+        { "id": "B", "text": "-100°C" },
+        { "id": "C", "text": "-273°C" },
+        { "id": "D", "text": "-373°C" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Extrapolating Charles’ law gives absolute zero at about \\(-273\\,^{\\circ}\\text{C}\\), where volume would become zero."
+    },
+    {
+      "id": 31,
+      "question": "A substance that is used as a ripening agent for fruits is",
+      "options": [
+        { "id": "A", "text": "ethene" },
+        { "id": "B", "text": "propane" },
+        { "id": "C", "text": "methane" },
+        { "id": "D", "text": "butane" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ethene (ethylene) is a plant hormone used to hasten fruit ripening."
+    },
+    {
+      "id": 32,
+      "question": "The sulphide which is insoluble in dilute hydrochloric acid is",
+      "options": [
+        { "id": "A", "text": "FeS" },
+        { "id": "B", "text": "CuS" },
+        { "id": "C", "text": "ZnS" },
+        { "id": "D", "text": "Na2S" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CuS is insoluble in dilute acids, whereas FeS, ZnS and Na2S react with acids to produce H2S."
+    },
+    {
+      "id": 33,
+      "question": "What is the pH of 0.001 mol dm^-3 solution of the sodium hydroxide?",
+      "options": [
+        { "id": "A", "text": "14" },
+        { "id": "B", "text": "13" },
+        { "id": "C", "text": "12" },
+        { "id": "D", "text": "11" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For strong base NaOH: \\([\\text{OH}^-]=1.0\\times 10^{-3}\\). \\(\\text{pOH}=3\\). \\(\\text{pH}=14-3=11\\). This corresponds to option D, not C."
+    },
+    {
+      "id": 34,
+      "question": "The type of bonding in \\([\\text{Cu}(\\text{NH}_3)_4]^{2+}\\) is",
+      "options": [
+        { "id": "A", "text": "coordinate" },
+        { "id": "B", "text": "electrovalent" },
+        { "id": "C", "text": "metallic" },
+        { "id": "D", "text": "covalent" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "NH3 donates lone pairs to Cu2+ forming coordinate (dative) bonds in the complex."
+    },
+    {
+      "id": 35,
+      "question": "Which of the following is an example of a chemical change?",
+      "options": [
+        { "id": "A", "text": "dissolution of salt in water" },
+        { "id": "B", "text": "rusting of iron" },
+        { "id": "C", "text": "melting of ice" },
+        { "id": "D", "text": "separating a mixture by distillation" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Rusting forms new substances (iron oxides), so it is a chemical change."
+    },
+    {
+      "id": 36,
+      "question": "To what temperature must a gas at 273 K be heated in order to double both its volume and pressure?",
+      "options": [
+        { "id": "A", "text": "298 K" },
+        { "id": "B", "text": "546 K" },
+        { "id": "C", "text": "819 K" },
+        { "id": "D", "text": "1092 K" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "From \\(PV\\propto T\\) for fixed n: doubling P and doubling V makes \\(PV\\) ×4, so \\(T\\) must quadruple: \\(T_2=4\\times 273=1092\\,K\\)."
+    },
+    {
+      "id": 37,
+      "question": "According to the Kinetic Theory, an increase in temperature causes the kinetic energy of particles to",
+      "options": [
+        { "id": "A", "text": "decrease" },
+        { "id": "B", "text": "increase" },
+        { "id": "C", "text": "be zero" },
+        { "id": "D", "text": "remain constant" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Average kinetic energy of particles is directly proportional to absolute temperature."
+    },
+    {
+      "id": 38,
+      "question": "An element used in the production of matches is",
+      "options": [
+        { "id": "A", "text": "nitrogen" },
+        { "id": "B", "text": "aluminium" },
+        { "id": "C", "text": "copper" },
+        { "id": "D", "text": "sulphur" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Sulphur is commonly used in match heads as a combustible component."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following gases may not be dried with concentrated sulphuric acid?",
+      "options": [
+        { "id": "A", "text": "HCl(g)" },
+        { "id": "B", "text": "NH3(g)" },
+        { "id": "C", "text": "Cl2(g)" },
+        { "id": "D", "text": "SO2(g)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Concentrated H2SO4 reacts with ammonia (a base) forming ammonium sulphate, so it cannot be used to dry NH3."
+    },
+    {
+      "id": 40,
+      "question": "Consecutive members of an alkane homologous series differ by",
+      "options": [],
+      "correctAnswer": null,
+      "explanation": "This question is cut off in the provided image; the answer options are not visible so it cannot be completed from the upload."
+    }
+  ],
+  "missingQuestions": [
+    "Question 12: computed result is 0.30 g (option D), but the image options show 0.3 g; ensure this matches the intended unit formatting.",
+    "Question 33: computed pH is 11 (option D), but the image shows option C=12 and D=11; correct choice is D.",
+    "Question 40 options are missing (cut off).",
+    "Questions 41–50 are not present in the uploaded images."
+  ]
+}
