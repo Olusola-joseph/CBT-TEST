@@ -1,0 +1,642 @@
+{
+  "year": 2010,
+  "subject": "Chemistry",
+  "paperType": "A",
+  "instructions": [
+    {
+      "text": "In each of Questions 1 to 50, choose the option that best answers the question or completes the statement."
+    }
+  ],
+  "figures": [
+    {
+      "id": "Chem2010_Rate_Graph",
+      "file": "images/chem2010_q29_rate_graph.png",
+      "description": "Graph of mass of CO₂ produced (g) versus time (min) for reaction of excess acid with (i) marble chips and (ii) powdered marble. The powdered marble curve rises more steeply but both curves level at the same final mass. Used in Question 29 to illustrate the effect of surface area on the rate of reaction."
+    },
+    {
+      "id": "Chem2010_Gas_Apparatus_NOx",
+      "file": "images/chem2010_q32_gas_apparatus.png",
+      "description": "Lab apparatus for preparing a nitrogen oxide by warming copper turnings with about 50% trioxonitrate(V) acid and collecting the brown gas over water. Used in Question 32."
+    },
+    {
+      "id": "Chem2010_Asbestos_Catalyst",
+      "file": "images/chem2010_q34_asbestos_tube.png",
+      "description": "Contact‑process‑type apparatus showing sulphur(IV) oxide and oxygen passing over a catalyst supported on asbestos in a heated tube, producing sulphur(VI) oxide which is cooled in a surrounding freezing mixture. Used in Question 34."
+    },
+    {
+      "id": "Chem2010_Organic_Structure",
+      "file": "images/chem2010_q40_organic_structure.png",
+      "description": "Displayed structural formula of a branched alkane used in Question 40 to find its correct IUPAC name."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which chemistry paper type is given to you?",
+      "options": [
+        { "id": "A", "text": "Type A" },
+        { "id": "B", "text": "Type B" },
+        { "id": "C", "text": "Type C" },
+        { "id": "D", "text": "Type D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At the top of the question booklet JAMB prints the paper type. In the image you provided it clearly says **PAPER TYPE: A**, so Type A is the correct answer."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an example of a mixture?",
+      "options": [
+        { "id": "A", "text": "Common salt" },
+        { "id": "B", "text": "Blood" },
+        { "id": "C", "text": "Sand" },
+        { "id": "D", "text": "Washing soda" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A mixture contains two or more substances physically combined and separable by physical means. Common salt (NaCl), sand (SiO₂) and washing soda (Na₂CO₃·10H₂O) are pure compounds. **Blood** contains cells, proteins, salts and water mixed together, so it is a heterogeneous mixture."
+    },
+    {
+      "id": 3,
+      "question": "Calculate the percentage by mass of nitrogen in calcium trioxonitrate(V), Ca(NO₃)₂.\n[Ca = 40, N = 14, O = 16]",
+      "options": [
+        { "id": "A", "text": "8.5%" },
+        { "id": "B", "text": "13.1%" },
+        { "id": "C", "text": "17.1%" },
+        { "id": "D", "text": "27.6%" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "First find the molar mass: Ca(NO₃)₂ = 40 + 2(14 + 3×16) = 40 + 2(14 + 48) = 40 + 2×62 = 164 g mol⁻¹.\nNitrogen mass in the formula = 2 × 14 = 28 g. So percentage of N = (28/164)×100 ≈ **17.1%**."
+    },
+    {
+      "id": 4,
+      "question": "The droplets of water observed around a bottle of milk taken out of the refrigerator is due to the fact that the",
+      "options": [
+        { "id": "A", "text": "water vapour in the air around the bottle gains some energy from the bottle" },
+        { "id": "B", "text": "temperature of the milk drops as it loses heat into the surroundings" },
+        { "id": "C", "text": "saturated vapour pressure of the milk is equal to the atmospheric pressure" },
+        { "id": "D", "text": "water vapour in the air around the bottle loses some of its energy to the bottle" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The bottle taken from the fridge is cold. The warm, moist air around it is cooled on contact with the surface. As the air cools, **water vapour in the air loses energy to the cold bottle and condenses** into liquid droplets on the outside."
+    },
+    {
+      "id": 5,
+      "question": "The volume of a given gas is V cm³ at P mm Hg. What is the new volume of the gas if the pressure is reduced to half its value at constant temperature?",
+      "options": [
+        { "id": "A", "text": "4V cm³" },
+        { "id": "B", "text": "2V cm³" },
+        { "id": "C", "text": "V/2 cm³" },
+        { "id": "D", "text": "V cm³" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "At constant temperature, Boyle’s law holds: \\(P_1V_1 = P_2V_2\\). If \\(P_2 = P_1/2\\), then\n\\(V_2 = P_1V_1/P_2 = P_1V_1 / (P_1/2) = 2V_1\\). So the volume doubles to **2V**."
+    },
+    {
+      "id": 6,
+      "question": "Moving from left to right across a period, the general rise in the first ionization energy can be attributed to the",
+      "options": [
+        { "id": "A", "text": "decrease in nuclear charge" },
+        { "id": "B", "text": "increase in nuclear charge" },
+        { "id": "C", "text": "decrease in screening effect" },
+        { "id": "D", "text": "increase in screening effect" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Across a period the number of protons increases but electrons are added to the same shell. Shielding does not increase much, so the **effective nuclear charge increases**, pulling electrons closer and making them harder to remove. Hence first ionization energy rises."
+    },
+    {
+      "id": 7,
+      "question": "How many unpaired electron(s) are there in the nitrogen sub‑levels?",
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "none" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Nitrogen (Z = 7) has electronic configuration 1s² 2s² 2p³. In the p‑subshell, the three electrons occupy the three p‑orbitals singly (Hund’s rule). Therefore there are **three unpaired electrons**."
+    },
+    {
+      "id": 8,
+      "question": "The stability of the noble gases is due to the fact that they",
+      "options": [
+        { "id": "A", "text": "have no electron in their outermost shells" },
+        { "id": "B", "text": "have duplet or octet electron configurations" },
+        { "id": "C", "text": "belong to group zero of the periodic table" },
+        { "id": "D", "text": "are volatile in nature" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Noble gases such as He, Ne and Ar have **completely filled outer electron shells**, either 2 (duplet) or 8 (octet). A filled shell is very stable, so they have little tendency to gain or lose electrons."
+    },
+    {
+      "id": 9,
+      "question": "The maximum number of electrons in the L shell of an atom is",
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "18" },
+        { "id": "D", "text": "32" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The L shell is the shell with principal quantum number \\(n = 2\\). The maximum population is given by \\(2n^2 = 2 × 2^2 = 8\\) electrons."
+    },
+    {
+      "id": 10,
+      "question": "Elements in the same period in the periodic table have the same",
+      "options": [
+        { "id": "A", "text": "number of shells" },
+        { "id": "B", "text": "atomic number" },
+        { "id": "C", "text": "chemical properties" },
+        { "id": "D", "text": "physical properties" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A period corresponds to a given **highest occupied energy level (shell)**. All elements in period 2, for example, have two shells, even though their atomic numbers and properties differ."
+    },
+    {
+      "id": 11,
+      "question": "²₁D + ³₁T → ⁴₂He + ¹₀n + energy. The reaction above illustrates",
+      "options": [
+        { "id": "A", "text": "alpha decay" },
+        { "id": "B", "text": "artificial transmutation" },
+        { "id": "C", "text": "nuclear fusion" },
+        { "id": "D", "text": "nuclear fission" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In this process two **light nuclei** (deuterium and tritium) combine to form a **heavier nucleus** (helium) with the release of energy. This is the definition of **nuclear fusion**."
+    },
+    {
+      "id": 12,
+      "question": "A noble gas with a high power of fog penetration used in aerodrome beacons is",
+      "options": [
+        { "id": "A", "text": "krypton" },
+        { "id": "B", "text": "argon" },
+        { "id": "C", "text": "helium" },
+        { "id": "D", "text": "neon" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Krypton is used in specialised high‑intensity lamps because the light it produces can **penetrate fog effectively**, making it suitable for aerodrome beacons."
+    },
+    {
+      "id": 13,
+      "question": "Permanent hardness of water can be removed by",
+      "options": [
+        { "id": "A", "text": "filtration" },
+        { "id": "B", "text": "adding slaked lime" },
+        { "id": "C", "text": "adding caustic soda" },
+        { "id": "D", "text": "boiling" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Permanent hardness is caused by calcium and magnesium **sulphates and chlorides**, which do not decompose on boiling. Adding caustic soda (NaOH) precipitates the metal ions as hydroxides, thus removing the hardness."
+    },
+    {
+      "id": 14,
+      "question": "Substances employed as drying agents are usually",
+      "options": [
+        { "id": "A", "text": "amphoteric" },
+        { "id": "B", "text": "hygroscopic" },
+        { "id": "C", "text": "efflorescent" },
+        { "id": "D", "text": "acidic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Drying agents work by **absorbing water vapour** from gases or liquids. Substances that readily absorb moisture are called **hygroscopic** (e.g. anhydrous CaCl₂, P₂O₅)."
+    },
+    {
+      "id": 15,
+      "question": "Calculate the solubility in mol dm⁻³ of 40 g of CuSO₄ dissolved in 100 g of water at 120 °C.\n[Cu = 64, S = 32, O = 16]",
+      "options": [
+        { "id": "A", "text": "4.00" },
+        { "id": "B", "text": "2.50" },
+        { "id": "C", "text": "0.40" },
+        { "id": "D", "text": "0.25" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Molar mass CuSO₄ = 64 + 32 + 4×16 = 160 g mol⁻¹. Moles in 40 g = 40/160 = 0.25 mol. 100 g of water ≈ 0.100 dm³, so concentration (solubility) = moles/volume = 0.25/0.100 = **2.5 mol dm⁻³**."
+    },
+    {
+      "id": 16,
+      "question": "Coffee stains can best be removed by",
+      "options": [
+        { "id": "A", "text": "kerosene" },
+        { "id": "B", "text": "turpentine" },
+        { "id": "C", "text": "a solution of borax in water" },
+        { "id": "D", "text": "ammonia solution" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Coffee stains are organic and slightly acidic. An **alkaline borax solution (sodium tetraborate)** reacts with and dissolves the stain more effectively than kerosene or turpentine, which are for oily stains."
+    },
+    {
+      "id": 17,
+      "question": "Carbon(II) oxide is considered dangerous if inhaled mainly because it",
+      "options": [
+        { "id": "A", "text": "can cause injury to the nervous system" },
+        { "id": "B", "text": "competes with oxygen in the blood" },
+        { "id": "C", "text": "competes with carbon(IV) oxide in the blood" },
+        { "id": "D", "text": "can cause lung cancer" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CO binds to haemoglobin about 200 times more strongly than oxygen, forming carboxyhaemoglobin and **preventing oxygen from being transported** around the body, which can be fatal."
+    },
+    {
+      "id": 18,
+      "question": "The acid that is used to remove rust is",
+      "options": [
+        { "id": "A", "text": "boric acid" },
+        { "id": "B", "text": "hydrochloric acid" },
+        { "id": "C", "text": "trioxonitrate(V) acid (HNO₃)" },
+        { "id": "D", "text": "tetraoxosulphate(VI) acid (H₂SO₄)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Dilute **hydrochloric acid** dissolves rust (hydrated iron(III) oxide) by forming soluble iron(III) chloride, thereby removing the coating."
+    },
+    {
+      "id": 19,
+      "question": "Calculate the volume of 0.5 mol dm⁻³ H₂SO₄ that is neutralized by 25 cm³ of 0.1 mol dm⁻³ NaOH.",
+      "options": [
+        { "id": "A", "text": "5.0 cm³" },
+        { "id": "B", "text": "2.5 cm³" },
+        { "id": "C", "text": "0.4 cm³" },
+        { "id": "D", "text": "0.1 cm³" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Equation: H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O.\nMoles NaOH = 0.1 mol dm⁻³ × 25/1000 dm³ = 2.5×10⁻³ mol.\nMoles H₂SO₄ needed = (2.5×10⁻³)/2 = 1.25×10⁻³ mol.\nVolume of 0.5 M H₂SO₄ = n/C = (1.25×10⁻³)/0.5 = 2.5×10⁻³ dm³ = **2.5 cm³**."
+    },
+    {
+      "id": 20,
+      "question": "The colour of methyl orange in alkaline medium is",
+      "options": [
+        { "id": "A", "text": "yellow" },
+        { "id": "B", "text": "pink" },
+        { "id": "C", "text": "orange" },
+        { "id": "D", "text": "red" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Methyl orange shows **yellow in alkaline solution**, orange at neutrality and red in acid. So in a base it is yellow."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following salts is slightly soluble in water?",
+      "options": [
+        { "id": "A", "text": "AgCl" },
+        { "id": "B", "text": "CaSO₄" },
+        { "id": "C", "text": "Na₂CO₃" },
+        { "id": "D", "text": "PbCl₂" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "AgCl and PbCl₂ are practically insoluble; Na₂CO₃ is quite soluble. **Calcium sulphate (CaSO₄)** is one of the classic examples of a *sparingly* or *slightly* soluble salt."
+    },
+    {
+      "id": 22,
+      "question": "6AgNO₃(aq) + PH₃(g) + 3H₂O(l) → 6Ag(s) + H₃PO₃(aq) + 6HNO₃(aq).\nIn the above reaction, the reducing agent is",
+      "options": [
+        { "id": "A", "text": "HNO₃(aq)" },
+        { "id": "B", "text": "H₂O(l)" },
+        { "id": "C", "text": "PH₃(g)" },
+        { "id": "D", "text": "AgNO₃(aq)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Silver ion (Ag⁺) is reduced to Ag(s). The species that loses electrons (is oxidized) is **PH₃**, which is converted to H₃PO₃. Therefore PH₃ is the reducing agent."
+    },
+    {
+      "id": 23,
+      "question": "The IUPAC nomenclature of the compound LiAlH₄ is",
+      "options": [
+        { "id": "A", "text": "lithium tetrahydridoaluminate(III)" },
+        { "id": "B", "text": "aluminium tetrahydrido lithium" },
+        { "id": "C", "text": "tetrahydrido lithium aluminate(III)" },
+        { "id": "D", "text": "lithium aluminium hydride" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "LiAlH₄ is viewed as [AlH₄]⁻ with Li⁺. According to IUPAC, hydride ligands are called “hydrido”, so the anion is **tetrahydridoaluminate(III)**. With lithium as the cation, the full name is **lithium tetrahydridoaluminate(III)**."
+    },
+    {
+      "id": 24,
+      "question": "Iron can be protected from corrosion by coating the surface with",
+      "options": [
+        { "id": "A", "text": "gold" },
+        { "id": "B", "text": "silver" },
+        { "id": "C", "text": "copper" },
+        { "id": "D", "text": "zinc" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Coating iron with **zinc** (galvanization) provides sacrificial protection: zinc is more reactive and corrodes in preference to iron, preventing rusting."
+    },
+    {
+      "id": 25,
+      "question": "What quantity of aluminium is deposited when a current of 10 A is passed through a solution of an aluminium salt for 1930 s?\n[Al = 27, F = 96500 C mol⁻¹]",
+      "options": [
+        { "id": "A", "text": "0.2 g" },
+        { "id": "B", "text": "1.8 g" },
+        { "id": "C", "text": "5.4 g" },
+        { "id": "D", "text": "14.2 g" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total charge \\(Q = It = 10 × 1930 = 19300\\) C.\nMoles of electrons = Q/F ≈ 19300/96500 ≈ 0.20 mol e⁻.\nFor Al³⁺ + 3e⁻ → Al, moles of Al = 0.20/3 ≈ 0.0667 mol.\nMass = 0.0667 × 27 ≈ **1.8 g**."
+    },
+    {
+      "id": 26,
+      "question": "In which of the following is the entropy change positive?",
+      "options": [
+        { "id": "A", "text": "thermal dissociation of ammonium chloride" },
+        { "id": "B", "text": "reaction between an acid and a base" },
+        { "id": "C", "text": "addition of concentrated acid to water" },
+        { "id": "D", "text": "dissolution of sodium metal in water" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Thermal dissociation of solid NH₄Cl into gaseous NH₃ and HCl increases disorder: one solid becomes **two gases**. Entropy, a measure of disorder, therefore increases (ΔS > 0)."
+    },
+    {
+      "id": 27,
+      "question": "If a reaction is exothermic and there is a great disorder, it means that",
+      "options": [
+        { "id": "A", "text": "the reaction is static" },
+        { "id": "B", "text": "the reaction is in a state of equilibrium" },
+        { "id": "C", "text": "there will be a large increase in free energy" },
+        { "id": "D", "text": "there will be a large decrease in free energy" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "For spontaneity, Gibbs free energy is \\(ΔG = ΔH − TΔS\\). Here ΔH < 0 (exothermic) and ΔS > 0 (increased disorder), so \\(−TΔS\\) is also negative. Their sum is a **large negative ΔG**, i.e. a large decrease in free energy."
+    },
+    {
+      "id": 28,
+      "question": "In the preparation of oxygen by heating KClO₃ in the presence of MnO₂, only moderate heat is needed because the catalyst acts by",
+      "options": [
+        { "id": "A", "text": "lowering the pressure of the reaction" },
+        { "id": "B", "text": "increasing the surface area of the reactant" },
+        { "id": "C", "text": "increasing the rate of the reaction" },
+        { "id": "D", "text": "lowering the energy barrier of the reaction" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A catalyst provides an alternative reaction pathway with **lower activation energy (energy barrier)**, so less heat is required to start the decomposition of KClO₃."
+    },
+    {
+      "id": 29,
+      "instruction": "Use the graph (figure Chem2010_Rate_Graph) which compares the reaction of marble chips and powdered marble with acid.",
+      "question": "The graph above demonstrates the effect of",
+      "options": [
+        { "id": "A", "text": "surface area on the rate of reaction" },
+        { "id": "B", "text": "catalyst on the rate of reaction" },
+        { "id": "C", "text": "pressure on the rate of reaction" },
+        { "id": "D", "text": "concentration on the rate of reaction" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Chem2010_Rate_Graph",
+      "explanation": "Both curves eventually reach the same final mass of CO₂, so the amount of reactant is the same. The powdered marble curve is steeper at the start (faster CO₂ production), showing that **greater surface area increases the rate**."
+    },
+    {
+      "id": 30,
+      "question": "2H₂(g) + O₂(g) ⇌ 2H₂O(g); ΔH = −ve.\nWhat happens to the equilibrium constant of the reaction above if the temperature is increased?",
+      "options": [
+        { "id": "A", "text": "it is unaffected" },
+        { "id": "B", "text": "it becomes zero" },
+        { "id": "C", "text": "it decreases" },
+        { "id": "D", "text": "it increases" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The reaction is exothermic (heat is a product). According to Le Chatelier’s principle, increasing temperature favours the endothermic reverse reaction, which **reduces the ratio of products to reactants**, so the equilibrium constant K decreases."
+    },
+    {
+      "id": 31,
+      "question": "To a solution of an unknown compound, a little dilute tetraoxosulphate(VI) acid was added with some freshly prepared iron(II) tetraoxosulphate(VI) solution. The brown ring observed after the addition of a stream of concentrated tetraoxosulphate(VI) acid confirmed the presence of",
+      "options": [
+        { "id": "A", "text": "CO" },
+        { "id": "B", "text": "Cl⁻" },
+        { "id": "C", "text": "SO₄²⁻" },
+        { "id": "D", "text": "NO₃⁻" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The **brown‑ring test** is a standard qualitative test for nitrate ions. A brown complex forms at the interface when nitrate reacts with Fe²⁺ in the presence of concentrated H₂SO₄."
+    },
+    {
+      "id": 32,
+      "instruction": "Use the apparatus diagram (figure Chem2010_Gas_Apparatus_NOx).",
+      "question": "In the diagram above, the gas produced is",
+      "options": [
+        { "id": "A", "text": "NO" },
+        { "id": "B", "text": "NO₂" },
+        { "id": "C", "text": "N₂O" },
+        { "id": "D", "text": "N₂O₄" }
+      ],
+      "correctAnswer": "B",
+      "figureId": "Chem2010_Gas_Apparatus_NOx",
+      "explanation": "Heating copper with moderately concentrated nitric acid liberates **nitrogen(IV) oxide, NO₂**, a brown gas, which is what is seen in the gas jar."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following is used in rocket fuels?",
+      "options": [
+        { "id": "A", "text": "HNO₃" },
+        { "id": "B", "text": "CH₃COOH" },
+        { "id": "C", "text": "H₂SO₄" },
+        { "id": "D", "text": "HCl" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Concentrated **nitric acid** has strong oxidizing properties and has been used historically as an oxidizer in some liquid rocket propellant systems."
+    },
+    {
+      "id": 34,
+      "instruction": "Use the diagram of the catalyst tube (figure Chem2010_Asbestos_Catalyst).",
+      "question": "In the diagram above, the purpose of the asbestos is to",
+      "options": [
+        { "id": "A", "text": "absorb impurities" },
+        { "id": "B", "text": "catalyse the reaction" },
+        { "id": "C", "text": "solidify the gas" },
+        { "id": "D", "text": "dry the gas" }
+      ],
+      "correctAnswer": "B",
+      "figureId": "Chem2010_Asbestos_Catalyst",
+      "explanation": "The asbestos pad is impregnated with catalyst (e.g. V₂O₅). The asbestos **supports and distributes the catalyst**, allowing SO₂ and O₂ to react faster to form SO₃."
+    },
+    {
+      "id": 35,
+      "question": "A constituent common to bronze and solder is",
+      "options": [
+        { "id": "A", "text": "lead" },
+        { "id": "B", "text": "silver" },
+        { "id": "C", "text": "copper" },
+        { "id": "D", "text": "tin" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Bronze is an alloy of copper and **tin**; common soft solder is mainly lead and **tin**. Tin therefore occurs in both alloys."
+    },
+    {
+      "id": 36,
+      "question": "When iron is exposed to moist air, it gradually rusts. This is due to the formation of",
+      "options": [
+        { "id": "A", "text": "hydrated iron(III) oxide" },
+        { "id": "B", "text": "anhydrous iron(III) oxide" },
+        { "id": "C", "text": "anhydrous iron(II) oxide" },
+        { "id": "D", "text": "hydrated iron(II) oxide" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Rust is not pure oxide but is approximated as **Fe₂O₃·xH₂O**, i.e. hydrated iron(III) oxide formed in the presence of oxygen and water."
+    },
+    {
+      "id": 37,
+      "question": "A compound gives an orange‑red colour to a non‑luminous flame. This compound is likely to contain",
+      "options": [
+        { "id": "A", "text": "Na⁺" },
+        { "id": "B", "text": "Ca²⁺" },
+        { "id": "C", "text": "Fe³⁺" },
+        { "id": "D", "text": "Fe²⁺" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In flame tests, calcium salts give a **brick‑red/orange‑red** colour, sodium gives yellow and potassium lilac."
+    },
+    {
+      "id": 38,
+      "question": "Stainless steel is used for making",
+      "options": [
+        { "id": "A", "text": "magnets" },
+        { "id": "B", "text": "tools" },
+        { "id": "C", "text": "coins and medals" },
+        { "id": "D", "text": "moving parts of clocks" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Stainless steel is hard, resists corrosion and withstands wear, making it suitable for **cutlery, surgical instruments and tools**."
+    },
+    {
+      "id": 39,
+      "question": "The residual solids from the fractional distillation of petroleum are used as",
+      "options": [
+        { "id": "A", "text": "coatings of pipes" },
+        { "id": "B", "text": "raw materials for the cracking process" },
+        { "id": "C", "text": "fuel for driving tractors" },
+        { "id": "D", "text": "fuel for jet engines" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The residue (bitumen, asphalt) from fractional distillation is thick and sticky; it is used for **road surfacing and protective coatings of pipes**, not as normal fuel."
+    },
+    {
+      "id": 40,
+      "instruction": "Use the displayed organic structure (figure Chem2010_Organic_Structure).",
+      "question": "The IUPAC nomenclature of the compound above is",
+      "options": [
+        { "id": "A", "text": "4‑ethyloctane" },
+        { "id": "B", "text": "5‑ethyloctane" },
+        { "id": "C", "text": "5‑propylheptane" },
+        { "id": "D", "text": "3‑propylheptane" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Chem2010_Organic_Structure",
+      "explanation": "To name this compound you must identify the **longest continuous carbon chain**, number it to give the substituent the lowest possible number, and then state the substituent and parent alkane. The screenshot of the structure is too small to determine the exact chain confidently."
+    },
+    {
+      "id": 41,
+      "question": "Which of the following is used as fuel in miners’ lamp?",
+      "options": [
+        { "id": "A", "text": "ethanal" },
+        { "id": "B", "text": "ethyne" },
+        { "id": "C", "text": "ethene" },
+        { "id": "D", "text": "ethane" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Traditional miners’ lamps burned **ethyne (acetylene)**, which produces a bright flame when burned with air or oxygen."
+    },
+    {
+      "id": 42,
+      "question": "Which of the following organic compounds is very soluble in water?",
+      "options": [
+        { "id": "A", "text": "CH₃COOH" },
+        { "id": "B", "text": "C₂H₂" },
+        { "id": "C", "text": "C₂H₄" },
+        { "id": "D", "text": "CH₃COOC₂H₅" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ethanoic acid, **CH₃COOH**, forms hydrogen bonds with water and is very soluble. The hydrocarbons C₂H₂ and C₂H₄ and the ester CH₃COOC₂H₅ are much less polar and only slightly soluble."
+    },
+    {
+      "id": 43,
+      "question": "Benzene reacts with hydrogen in the presence of nickel catalyst at 180 °C to give",
+      "options": [
+        { "id": "A", "text": "xylene" },
+        { "id": "B", "text": "toluene" },
+        { "id": "C", "text": "cyclopentane" },
+        { "id": "D", "text": "cyclohexane" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Hydrogenation adds six hydrogen atoms to benzene, breaking the aromatic ring and forming **cyclohexane (C₆H₁₂)**."
+    },
+    {
+      "id": 44,
+      "question": "Which of the following is used to hasten the ripening of fruit?",
+      "options": [
+        { "id": "A", "text": "ethene" },
+        { "id": "B", "text": "ethanol" },
+        { "id": "C", "text": "ethyne" },
+        { "id": "D", "text": "ethane" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "**Ethene (ethylene)** is a plant hormone that stimulates fruit ripening, so it is used commercially to ripen bananas, oranges etc."
+    },
+    {
+      "id": 45,
+      "question": "The final products of the reaction between methane and chlorine in the presence of ultraviolet light are hydrogen chloride and",
+      "options": [
+        { "id": "A", "text": "trichloromethane" },
+        { "id": "B", "text": "dichloromethane" },
+        { "id": "C", "text": "tetrachloromethane" },
+        { "id": "D", "text": "chloromethane" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In the presence of UV light, chlorine radicals successively replace all four hydrogens in CH₄, ultimately giving **CCl₄ (tetrachloromethane)** and HCl."
+    },
+    {
+      "id": 46,
+      "question": "The correct order of increasing boiling points of the following compounds C₃H₇OH, C₇H₁₆ and C₄H₁₀ is",
+      "options": [
+        { "id": "A", "text": "C₃H₇OH → C₄H₁₀ → C₇H₁₆" },
+        { "id": "B", "text": "C₄H₁₀ → C₇H₁₆ → C₃H₇OH" },
+        { "id": "C", "text": "C₇H₁₆ → C₃H₇OH → C₄H₁₀" },
+        { "id": "D", "text": "C₄H₁₀ → C₃H₇OH → C₇H₁₆" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For alkanes, boiling point increases with molar mass: C₄H₁₀ < C₇H₁₆. Alcohols have hydrogen bonding and hence higher b.p. than similar‑sized alkanes, so C₃H₇OH has the highest boiling point. Therefore, **C₄H₁₀ < C₇H₁₆ < C₃H₇OH** (option B)."
+    },
+    {
+      "id": 47,
+      "question": "One of the major uses of alkanes is",
+      "options": [
+        { "id": "A", "text": "as domestic and industrial fuel" },
+        { "id": "B", "text": "in the hydrogenation of oils" },
+        { "id": "C", "text": "in the textile industries" },
+        { "id": "D", "text": "in the production of plastics" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Lower alkanes (methane, propane, butane) are the main components of **cooking gas, natural gas and petrol**, used widely as fuels."
+    },
+    {
+      "id": 48,
+      "question": "The haloalkanes used in dry‑cleaning industries are",
+      "options": [
+        { "id": "A", "text": "trichloromethane and tetrachloromethane" },
+        { "id": "B", "text": "chloroethene and dichloroethene" },
+        { "id": "C", "text": "trichloroethene and tetrachloroethene" },
+        { "id": "D", "text": "chloroethane and dichloroethane" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "**Trichloroethene (C₂HCl₃)** and **tetrachloroethene (C₂Cl₄)** are non‑flammable organic solvents commonly used in dry‑cleaning machines."
+    },
+    {
+      "id": 49,
+      "question": "Two hydrocarbons X and Y were treated with bromine water. X decolourized the solution and Y did not. Which class of compound does Y belong?",
+      "options": [
+        { "id": "A", "text": "benzene" },
+        { "id": "B", "text": "alkynes" },
+        { "id": "C", "text": "alkenes" },
+        { "id": "D", "text": "alkanes" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Alkenes and alkynes are unsaturated and add bromine, decolourizing bromine water. Hydrocarbon Y does **not react**, so it must be a **saturated alkane**."
+    },
+    {
+      "id": 50,
+      "question": "The compound that is used as an anaesthetic is",
+      "options": [
+        { "id": "A", "text": "CCl₄" },
+        { "id": "B", "text": "CHCl₃" },
+        { "id": "C", "text": "CH₂Cl₂" },
+        { "id": "D", "text": "CH₃Cl" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Historically, **chloroform (CHCl₃)** was widely used as a general anaesthetic (though now largely replaced because of toxicity)."
+    }
+  ]
+}
