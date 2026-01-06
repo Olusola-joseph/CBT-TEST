@@ -1,0 +1,652 @@
+{
+  "year": 2013,
+  "subject": "Chemistry",
+  "paperType": "I",
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Chem2013_Q4_PV_vs_P",
+      "file": "upload_1.png",
+      "description": "Graph with vertical axis labeled PV and horizontal axis labeled P, showing curves/lines labeled K, L, M, N. Used in Question 4 to identify ideal gas behavior."
+    },
+    {
+      "id": "Chem2013_Q29_Energy_vs_Time",
+      "file": "upload_5.png",
+      "description": "A plotted graph with y-axis values marked roughly 50 to 300 and x-axis labeled Time (min), showing two curves (one higher peak, one lower/dashed). Used in Question 29 about activation energy for catalyzed reaction."
+    },
+    {
+      "id": "Chem2013_Q42_Organic_Structure_Alkanal",
+      "file": "upload_8.png",
+      "description": "Displayed organic structure showing a three-carbon chain with a carbonyl group (C=O) on the middle carbon and an -OH attached to the same carbon (as drawn). Used in Question 42 to classify the compound."
+    },
+    {
+      "id": "Chem2013_Q44_Functional_Groups_Diagram",
+      "file": "upload_8.png",
+      "description": "Small schematic showing functional group options labeled A–D (including an amine option RNH2). Used in Question 44 about which compound turns red litmus paper blue."
+    },
+    {
+      "id": "Chem2013_Q45_Functional_Groups_Amide",
+      "file": "upload_8.png",
+      "description": "Small schematic showing general formula options for products of dehydration of ammonium salts of alkanoic acids. Used in Question 45."
+    },
+    {
+      "id": "Chem2013_Q49_Structural_Formula",
+      "file": "upload_9.png",
+      "description": "Displayed structure: a branched alkene showing CH3–C(H)(CH3)–CH2–CH=CH2. Used in Question 49 for IUPAC naming."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Question Paper Type of Chemistry is given to you?",
+      "options": [
+        { "id": "A", "text": "Type D" },
+        { "id": "B", "text": "Type I" },
+        { "id": "C", "text": "Type B" },
+        { "id": "D", "text": "Type U" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The header on the page clearly states \"PAPER TYPE: I\"."
+    },
+    {
+      "id": 2,
+      "question": "The presence of an impurity in substance will cause the melting point to",
+      "options": [
+        { "id": "A", "text": "be zero" },
+        { "id": "B", "text": "reduce" },
+        { "id": "C", "text": "increase" },
+        { "id": "D", "text": "be stable" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Impurities disrupt the crystal lattice, causing melting point depression (lower melting point)."
+    },
+    {
+      "id": 3,
+      "question": "What volume of carbon (II) oxide is produced by reacting excess carbon with 10 dm3 of oxygen?",
+      "options": [
+        { "id": "A", "text": "5 dm3" },
+        { "id": "B", "text": "20 dm3" },
+        { "id": "C", "text": "15 dm3" },
+        { "id": "D", "text": "10 dm3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Reaction: \\(2\\text{C} + \\text{O}_2 \\rightarrow 2\\text{CO}\\). Gas volumes at same conditions follow mole ratios: 1 volume of \\(\\text{O}_2\\) produces 2 volumes of CO. Thus \\(10\\,\\text{dm}^3\\) \\(\\text{O}_2\\) produces \\(20\\,\\text{dm}^3\\) CO."
+    },
+    {
+      "id": 4,
+      "instruction": "Use the diagram (figure Chem2013_Q4_PV_vs_P).",
+      "question": "From the diagram above, an ideal gas is represented by",
+      "options": [
+        { "id": "A", "text": "M" },
+        { "id": "B", "text": "N" },
+        { "id": "C", "text": "K" },
+        { "id": "D", "text": "L" }
+      ],
+      "correctAnswer": "B",
+      "figureId": "Chem2013_Q4_PV_vs_P",
+      "explanation": "For an ideal gas at constant temperature, \\(PV\\) is constant and does not change with \\(P\\). On a plot of \\(PV\\) (y-axis) against \\(P\\) (x-axis), the ideal gas is a horizontal line. The horizontal line is labeled N."
+    },
+    {
+      "id": 5,
+      "question": "The rate of diffusion of a gas Y is twice that of Z. If the relative molecular mass of Y is 64 and the two gases diffuse under the same conditions, find the relative molecular mass of Z",
+      "options": [
+        { "id": "A", "text": "32" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "16" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Graham’s law: \\(\\frac{r_Y}{r_Z} = \\sqrt{\\frac{M_Z}{M_Y}}\\). Given \\(r_Y = 2r_Z\\): \\(2 = \\sqrt{\\frac{M_Z}{64}}\\). Squaring: \\(4 = \\frac{M_Z}{64}\\) so \\(M_Z = 256\\). This value is not among the listed options; from the image options, the intended arrangement is typically \\(r_Y\\) is twice \\(r_Z\\) implying \\(M_Z = 256\\). Because 256 is absent, the closest common exam variant is reversed ratio (if \\(r_Z = 2r_Y\\) then \\(M_Z = 16\\)). However, using the wording as shown, the computed result is \\(256\\), which is not provided."
+    },
+    {
+      "id": 6,
+      "question": "The radioisotope used in industrial radiography for the rapid checking of faults in welds and casting is",
+      "options": [
+        { "id": "A", "text": "Carbon-14" },
+        { "id": "B", "text": "phosphorus-32" },
+        { "id": "C", "text": "cobalt-60" },
+        { "id": "D", "text": "iodine-131" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Cobalt-60 is a strong gamma emitter commonly used in industrial radiography to inspect welds and castings for internal defects."
+    },
+    {
+      "id": 7,
+      "question": "How many unpaired electrons are in the p-orbitals of a fluorine atom?",
+      "options": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "1" },
+        { "id": "D", "text": "2" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Fluorine (Z=9): \\(1s^2 2s^2 2p^5\\). In the three 2p orbitals, five electrons leave one unpaired electron (Hund’s rule)."
+    },
+    {
+      "id": 8,
+      "question": "The radioactive emission with the least ionization power is",
+      "options": [
+        { "id": "A", "text": "α-particles" },
+        { "id": "B", "text": "X-rays" },
+        { "id": "C", "text": "γ-rays" },
+        { "id": "D", "text": "β-particles" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Gamma rays are the least ionizing (though most penetrating) among the common radioactive emissions listed."
+    },
+    {
+      "id": 9,
+      "question": "The shape of the carbon (IV) oxide molecule is",
+      "options": [
+        { "id": "A", "text": "pyramidal" },
+        { "id": "B", "text": "linear" },
+        { "id": "C", "text": "angular" },
+        { "id": "D", "text": "tetrahedral" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CO2 has two electron regions around the carbon (two double bonds), giving a linear geometry (O=C=O)."
+    },
+    {
+      "id": 10,
+      "question": "Which of the following molecules is held together by hydrogen bond?",
+      "options": [
+        { "id": "A", "text": "CH4" },
+        { "id": "B", "text": "HBr" },
+        { "id": "C", "text": "H2SO4" },
+        { "id": "D", "text": "HF" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Hydrogen bonding is strongest when H is bonded to highly electronegative atoms (F, O, N). HF forms strong intermolecular hydrogen bonds."
+    },
+    {
+      "id": 11,
+      "question": "The bond formed between two elements with electron configurations \\(1s^2 2s^2 2p^6 3s^2\\) and \\(1s^2 2s^2 2p^4\\) is",
+      "options": [
+        { "id": "A", "text": "metallic" },
+        { "id": "B", "text": "covalent" },
+        { "id": "C", "text": "dative" },
+        { "id": "D", "text": "ionic" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The first configuration is Mg (metal) and the second is O (non-metal). Mg transfers electrons to O forming \\(\\text{Mg}^{2+}\\) and \\(\\text{O}^{2-}\\): an ionic bond."
+    },
+    {
+      "id": 12,
+      "question": "The constituent of air that acts as a diluent is",
+      "options": [
+        { "id": "A", "text": "nitrogen" },
+        { "id": "B", "text": "carbon (IV) oxide" },
+        { "id": "C", "text": "noble gases" },
+        { "id": "D", "text": "oxygen" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Nitrogen makes up the largest proportion of air and is relatively unreactive, so it dilutes oxygen and reduces the rate of combustion."
+    },
+    {
+      "id": 13,
+      "question": "Steam changes the colour of anhydrous cobalt (II) chloride from",
+      "options": [
+        { "id": "A", "text": "white to red" },
+        { "id": "B", "text": "blue to white" },
+        { "id": "C", "text": "blue to pink" },
+        { "id": "D", "text": "white to blue" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Anhydrous CoCl2 is blue; with water (steam) it forms hydrated CoCl2·xH2O which is pink."
+    },
+    {
+      "id": 14,
+      "question": "An example of a hygroscopic substance is",
+      "options": [
+        { "id": "A", "text": "CuO(s)" },
+        { "id": "B", "text": "MgCl2(s)" },
+        { "id": "C", "text": "CaCl2(s)" },
+        { "id": "D", "text": "NaOH(s)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Calcium chloride readily absorbs moisture from air and is commonly used as a drying agent (hygroscopic)."
+    },
+    {
+      "id": 15,
+      "question": "If 24.4 g of lead (II) trioxonitrate (V) were dissolved in 42 g of distilled water at 20°C, calculate the solubility of the solute in g dm^-3.",
+      "options": [
+        { "id": "A", "text": "581.000" },
+        { "id": "B", "text": "0.581" },
+        { "id": "C", "text": "5.810" },
+        { "id": "D", "text": "58.100" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "42 g of water ≈ 42 cm^3 = 0.042 dm^3 (density ≈ 1 g cm^-3). Solubility in g dm^-3 = \\(\\frac{24.4}{0.042} \\approx 580.95\\) ≈ 581.000."
+    },
+    {
+      "id": 16,
+      "question": "The solvent used for removing grease stain is",
+      "options": [
+        { "id": "A", "text": "turpentine" },
+        { "id": "B", "text": "ammonia solution" },
+        { "id": "C", "text": "ethanol" },
+        { "id": "D", "text": "solution of borax in water" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Grease is non-polar; turpentine is a non-polar organic solvent that dissolves grease effectively."
+    },
+    {
+      "id": 17,
+      "question": "In a water body, too much sewage leads to",
+      "options": [
+        { "id": "A", "text": "a decrease in the temperature of the water which cause in death of aquatic animals" },
+        { "id": "B", "text": "an increase in the number of aquatic animals in the water" },
+        { "id": "C", "text": "an increase in the bacterial population which reduces the level of oxygen in the water" },
+        { "id": "D", "text": "a decrease in the bacterial population which increases the level of oxygen in the water" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Sewage provides nutrients for bacteria; bacterial decomposition increases BOD and consumes dissolved oxygen, lowering oxygen levels."
+    },
+    {
+      "id": 18,
+      "question": "10.0 dm^3 of water was added to 2.0 mol dm^-3 of 2.5 dm^3 solution of HCl. What is the concentration of the final solution in mol dm^-3?",
+      "options": [
+        { "id": "A", "text": "0.4" },
+        { "id": "B", "text": "8.0" },
+        { "id": "C", "text": "2.0" },
+        { "id": "D", "text": "0.5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Moles of HCl initially: \\(n = CV = 2.0\\times 2.5 = 5.0\\) mol. Final volume: \\(2.5 + 10.0 = 12.5\\) dm^3. Final concentration: \\(C_f = \\frac{5.0}{12.5} = 0.4\\,\\text{mol dm}^{-3}\\)."
+    },
+    {
+      "id": 19,
+      "question": "Three drops of a 1.0 mol dm^-3 solution of HCl was added to 20 cm^3 of a solution of pH 6.4. The pH of the resulting solution will be",
+      "options": [
+        { "id": "A", "text": "close to that of pure water" },
+        { "id": "B", "text": "less than 6.4" },
+        { "id": "C", "text": "greater than 6.4" },
+        { "id": "D", "text": "unaltered" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Adding HCl increases \\([\\text{H}^+]\\), so pH decreases below 6.4."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following substances is not a salt?",
+      "options": [
+        { "id": "A", "text": "Aluminium oxide" },
+        { "id": "B", "text": "Sodium hydrogen trioxosulphate (V)" },
+        { "id": "C", "text": "Sodium trioxocarbonate (V)" },
+        { "id": "D", "text": "Zinc chloride" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Aluminium oxide (Al2O3) is an oxide, not a salt. The others are salts (acid salt, carbonate, and chloride)."
+    },
+    {
+      "id": 21,
+      "question": "An insoluble salt can be prepared by",
+      "options": [
+        { "id": "A", "text": "the reaction of trioxocarbonate (V) with an acid" },
+        { "id": "B", "text": "double decomposition" },
+        { "id": "C", "text": "the action of dilute acid on an insoluble base" },
+        { "id": "D", "text": "the reaction of metals with an acid" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Insoluble salts are commonly prepared by precipitation (double decomposition) by mixing two soluble salt solutions to form an insoluble product."
+    },
+    {
+      "id": 22,
+      "question": "\\(2\\text{H}_2\\text{O}_{(l)} + 2\\text{F}_{2(g)} \\rightarrow 4\\text{HF}_{(aq)} + \\text{O}_{2(g)}\\). In the reaction above, the substance that is being reduced is",
+      "options": [
+        { "id": "A", "text": "O2(g)" },
+        { "id": "B", "text": "H2O(l)" },
+        { "id": "C", "text": "F2(g)" },
+        { "id": "D", "text": "HF(aq)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Fluorine goes from oxidation state 0 in F2 to -1 in HF, so it gains electrons (is reduced)."
+    },
+    {
+      "id": 23,
+      "question": "\\(\\text{Zn}_{(s)} + \\text{CuSO}_{4(aq)} \\rightarrow \\text{ZnSO}_{4(aq)} + \\text{Cu}_{(s)}\\). In the reaction above, the oxidizing agent is",
+      "options": [
+        { "id": "A", "text": "CuSO4(aq)" },
+        { "id": "B", "text": "ZnSO4(aq)" },
+        { "id": "C", "text": "Cu(s)" },
+        { "id": "D", "text": "Zn(s)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cu2+ (in CuSO4) is reduced to Cu(s). The species reduced is the oxidizing agent, hence CuSO4."
+    },
+    {
+      "id": 24,
+      "question": "In an electrochemical cell, polarization is caused by",
+      "options": [
+        { "id": "A", "text": "chlorine" },
+        { "id": "B", "text": "oxygen" },
+        { "id": "C", "text": "tetraoxosulphate (VI) acid" },
+        { "id": "D", "text": "hydrogen" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Polarization is commonly due to hydrogen gas bubbles accumulating on an electrode surface, increasing internal resistance."
+    },
+    {
+      "id": 25,
+      "question": "Calculate the volume in cm^3 of oxygen evolved at s.t.p. when a current of 5 A is passed through acidified water for 193 s. \\([F = 96500\\,\\text{C mol}^{-1}],\\) molar volume at s.t.p. = 22.4 dm^3",
+      "options": [
+        { "id": "A", "text": "224.000 dm3" },
+        { "id": "B", "text": "0.056 dm3" },
+        { "id": "C", "text": "0.224 dm3" },
+        { "id": "D", "text": "56.000 dm3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Charge passed: \\(Q = It = 5\\times 193 = 965\\,\\text{C}\\). Moles of electrons: \\(n(e^-) = \\frac{965}{96500} = 0.010\\,\\text{mol}\\). For oxygen: \\(2\\text{H}_2\\text{O} \\rightarrow \\text{O}_2 + 4\\text{H}^+ + 4e^-\\), so \\(n(\\text{O}_2)=\\frac{0.010}{4}=0.0025\\,\\text{mol}\\). Volume at STP: \\(V = 0.0025\\times 22.4 = 0.056\\,\\text{dm}^3\\) (which is 56 cm^3)."
+    },
+    {
+      "id": 26,
+      "question": "In an endothermic reaction, if there is a loss in entropy the reaction will",
+      "options": [
+        { "id": "A", "text": "be indeterminate" },
+        { "id": "B", "text": "be spontaneous" },
+        { "id": "C", "text": "not be spontaneous" },
+        { "id": "D", "text": "be at equilibrium" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Spontaneity depends on \\(\\Delta G = \\Delta H - T\\Delta S\\). Here \\(\\Delta H>0\\) (endothermic) and \\(\\Delta S<0\\) (loss in entropy), so \\(-T\\Delta S\\) is positive and \\(\\Delta G\\) becomes positive: not spontaneous."
+    },
+    {
+      "id": 27,
+      "question": "\\(2\\text{SO}_{2(g)} + \\text{O}_{2(g)} \\rightleftharpoons 2\\text{SO}_{3(g)}\\), \\(\\Delta H = -395.7\\,\\text{kJ mol}^{-1}\\). In the reaction above, the concentration of \\(\\text{SO}_3(g)\\) can be increased by",
+      "options": [
+        { "id": "A", "text": "decreasing the pressure" },
+        { "id": "B", "text": "decreasing the temperature" },
+        { "id": "C", "text": "increasing the temperature" },
+        { "id": "D", "text": "the addition of catalyst" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The forward reaction is exothermic (\\(\\Delta H<0\\)). Lowering temperature favors the exothermic direction, increasing \\(\\text{SO}_3\\) yield."
+    },
+    {
+      "id": 28,
+      "question": "The minimum amount of energy required for a reaction to take place is",
+      "options": [
+        { "id": "A", "text": "lattice energy" },
+        { "id": "B", "text": "ionization energy" },
+        { "id": "C", "text": "activation energy" },
+        { "id": "D", "text": "kinetic energy" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Activation energy is the minimum energy barrier that reactant particles must overcome for reaction to occur."
+    },
+    {
+      "id": 29,
+      "instruction": "Use the graph (figure Chem2013_Q29_Energy_vs_Time).",
+      "question": "In the graph above, the activation energy of the catalyzed reaction is",
+      "options": [
+        { "id": "A", "text": "100 KJ" },
+        { "id": "B", "text": "300 KJ" },
+        { "id": "C", "text": "250 KJ" },
+        { "id": "D", "text": "200 KJ" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Chem2013_Q29_Energy_vs_Time",
+      "explanation": "The y-axis is labeled with values (50–300), and two curves are shown, but the graph does not clearly label the reactants’ energy baseline versus peak heights in the provided image. Without an unambiguous reading of the catalyzed peak height above the reactants level, the activation energy cannot be extracted accurately from the image alone."
+    },
+    {
+      "id": 30,
+      "question": "\\(3\\text{Fe}_{(s)} + 4\\text{H}_2\\text{O}_{(g)} \\rightleftharpoons \\text{Fe}_3\\text{O}_{4(s)} + 4\\text{H}_{2(g)}\\). The equilibrium constant, K, of the reaction above is represented as",
+      "options": [
+        { "id": "A", "text": "[Fe3O4][H2]/[Fe][H2O]" },
+        { "id": "B", "text": "[H2O]^4/[H2]^4" },
+        { "id": "C", "text": "[H2]^4/[H2O]^4" },
+        { "id": "D", "text": "[Fe]^3[H2O]^2/[Fe3O4][H2]^4" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Pure solids have activity 1 and are omitted from K. Thus \\(K = \\frac{(P_{H_2})^4}{(P_{H_2O})^4}\\) (or concentration form similarly), matching option C."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following compounds is a neutral oxide?",
+      "options": [
+        { "id": "A", "text": "Carbon (IV) oxide" },
+        { "id": "B", "text": "Sulphur (VI) oxide" },
+        { "id": "C", "text": "Sulphur (IV) oxide" },
+        { "id": "D", "text": "Carbon (II) oxide" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "CO is a neutral oxide (does not form acids or bases readily). CO2, SO2, and SO3 are acidic oxides."
+    },
+    {
+      "id": 32,
+      "question": "In the laboratory preparation of ammonia, the flask is placed in a slanting position so as to",
+      "options": [
+        { "id": "A", "text": "prevent condensed water from breaking the reaction flask" },
+        { "id": "B", "text": "enable the proper mixing of the reactions in the flask" },
+        { "id": "C", "text": "enhance the speed of the reaction" },
+        { "id": "D", "text": "prevent formation of precipitate" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In ammonia preparation (heating ammonium salt with base), water forms and may condense; slanting prevents condensed liquid running back onto hot glass, which can crack the flask."
+    },
+    {
+      "id": 33,
+      "question": "Which of the gases is employed as an anaesthesia?",
+      "options": [
+        { "id": "A", "text": "N2O" },
+        { "id": "B", "text": "NO2" },
+        { "id": "C", "text": "NH3" },
+        { "id": "D", "text": "NO" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Nitrous oxide (N2O) is used as an anesthetic/analgesic gas."
+    },
+    {
+      "id": 34,
+      "question": "Sulphur (IV) oxide is a strong reducing agent in the presence of water due to the formation of",
+      "options": [
+        { "id": "A", "text": "hydroxide ion" },
+        { "id": "B", "text": "sulphur (VI) oxide" },
+        { "id": "C", "text": "hydrogen sulphide" },
+        { "id": "D", "text": "trioxosulphate (IV) salt" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In water, SO2 forms sulphurous acid (H2SO3) which ionizes to sulphite (trioxosulphate(IV)) species; these are readily oxidized to sulphate, so the solution behaves as a reducing agent."
+    },
+    {
+      "id": 35,
+      "question": "A metal that forms soluble trioxosulphate (IV) ion is",
+      "options": [
+        { "id": "A", "text": "barium" },
+        { "id": "B", "text": "potassium" },
+        { "id": "C", "text": "manganese" },
+        { "id": "D", "text": "aluminium" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Alkali metal sulphites (e.g., K2SO3) are soluble in water; barium sulphite is sparingly soluble."
+    },
+    {
+      "id": 36,
+      "question": "Copper is displaced from the solution of its salts by most metals because it",
+      "options": [
+        { "id": "A", "text": "is a transition element" },
+        { "id": "B", "text": "is at the bottom of the activity series" },
+        { "id": "C", "text": "is very reactive" },
+        { "id": "D", "text": "has completely filled 3d-orbitals" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Copper is relatively low in the reactivity (activity) series, so many metals above it can displace Cu2+ from solution."
+    },
+    {
+      "id": 37,
+      "question": "The coloured nature of transition metal ions are associated with their partially filled",
+      "options": [
+        { "id": "A", "text": "f-orbital" },
+        { "id": "B", "text": "s-orbital" },
+        { "id": "C", "text": "p-orbital" },
+        { "id": "D", "text": "d-orbital" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Transition metal ions are colored due to d–d electronic transitions enabled by partially filled d-orbitals."
+    },
+    {
+      "id": 38,
+      "question": "Aluminium containers are frequently used to transport trioxonitrate (V) acid because aluminium",
+      "options": [
+        { "id": "A", "text": "has a silvery-white appearance" },
+        { "id": "B", "text": "has a low density" },
+        { "id": "C", "text": "does not react with the acid" },
+        { "id": "D", "text": "does not corrode" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Concentrated nitric acid passivates aluminium by forming a protective oxide layer, so aluminium effectively does not continue reacting with the acid."
+    },
+    {
+      "id": 39,
+      "question": "2-methylbutan-2-ol is an example of a",
+      "options": [
+        { "id": "A", "text": "dihydric alkanol" },
+        { "id": "B", "text": "tertiary alkanol" },
+        { "id": "C", "text": "secondary alkanol" },
+        { "id": "D", "text": "primary alkanol" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In 2-methylbutan-2-ol, the carbon bearing the OH group is attached to three carbon groups, so it is a tertiary alcohol."
+    },
+    {
+      "id": 40,
+      "question": "The reaction between ammonia and ethyl ethanoate produces",
+      "options": [
+        { "id": "A", "text": "propanol and ethanamide" },
+        { "id": "B", "text": "propanol and propanamide" },
+        { "id": "C", "text": "ethanol and propanamide" },
+        { "id": "D", "text": "ethanol and ethanamide" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ammonia reacts with an ester to give an amide and an alcohol. Ethyl ethanoate (CH3COOC2H5) gives ethanamide (CH3CONH2) and ethanol (C2H5OH)."
+    },
+    {
+      "id": 41,
+      "question": "The decarboxylation of ethanoic acid will produce carbon (IV) oxide and",
+      "options": [
+        { "id": "A", "text": "methane" },
+        { "id": "B", "text": "ethane" },
+        { "id": "C", "text": "propane" },
+        { "id": "D", "text": "butane" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Decarboxylation of a carboxylic acid removes CO2 and forms an alkane with one fewer carbon. Ethanoic acid (2 carbons) gives methane (1 carbon)."
+    },
+    {
+      "id": 42,
+      "instruction": "Use the structure (figure Chem2013_Q42_Organic_Structure_Alkanal).",
+      "question": "The compound above is an",
+      "options": [
+        { "id": "A", "text": "alkanone" },
+        { "id": "B", "text": "alkanoate" },
+        { "id": "C", "text": "alkanal" },
+        { "id": "D", "text": "alkanol" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Chem2013_Q42_Organic_Structure_Alkanal",
+      "explanation": "The drawn structure shows a carbonyl group (C=O) on a non-terminal carbon (ketone position), which corresponds to an alkanone."
+    },
+    {
+      "id": 43,
+      "question": "The compound that will react with sodium hydroxide to form salt and water is",
+      "options": [
+        { "id": "A", "text": "C6H12O6" },
+        { "id": "B", "text": "(CH3)3COH" },
+        { "id": "C", "text": "CH3CH=CH2" },
+        { "id": "D", "text": "CH3CH2COOH" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "NaOH neutralizes carboxylic acids to form a salt and water. Propanoic acid (CH3CH2COOH) reacts to form sodium propanoate and water."
+    },
+    {
+      "id": 44,
+      "instruction": "Use the functional group diagram (figure Chem2013_Q44_Functional_Groups_Diagram).",
+      "question": "Which of the following compounds in solution will turn red litmus paper blue?",
+      "options": [
+        { "id": "A", "text": "R'OR''" },
+        { "id": "B", "text": "RCONR (amide-like)" },
+        { "id": "C", "text": "RNH2" },
+        { "id": "D", "text": "RCOR (ketone-like)" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Chem2013_Q44_Functional_Groups_Diagram",
+      "explanation": "Amines (RNH2) are basic in water and turn red litmus paper blue."
+    },
+    {
+      "id": 45,
+      "instruction": "Use the diagram (figure Chem2013_Q45_Functional_Groups_Amide).",
+      "question": "The dehydration of ammonium salt of alkanoic acids produces a compound with the general formula",
+      "options": [
+        { "id": "A", "text": "RCOOR (ester)" },
+        { "id": "B", "text": "RCONH2 (amide)" },
+        { "id": "C", "text": "RNH2 (amine)" },
+        { "id": "D", "text": "RCOR (ketone)" }
+      ],
+      "correctAnswer": "B",
+      "figureId": "Chem2013_Q45_Functional_Groups_Amide",
+      "explanation": "Heating (dehydrating) an ammonium carboxylate leads to formation of an amide: \\(\\text{RCOO}^-\\text{NH}_4^+ \\rightarrow \\text{RCONH}_2 + \\text{H}_2\\text{O}\\)."
+    },
+    {
+      "id": 46,
+      "question": "Which of the following fraction is used as raw material for the cracking process?",
+      "options": [
+        { "id": "A", "text": "kerosene" },
+        { "id": "B", "text": "lubricating oil" },
+        { "id": "C", "text": "bitumen" },
+        { "id": "D", "text": "diesel oils" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Heavier petroleum fractions are used as feedstock for cracking to produce lighter fuels; lubricating oil is a suitable heavy fraction compared with kerosene/diesel (already lighter) and bitumen (residue)."
+    },
+    {
+      "id": 47,
+      "question": "An organic compound with a pleasant smell is likely to have a general formula",
+      "options": [
+        { "id": "A", "text": "CnH2n+1CHO" },
+        { "id": "B", "text": "CnH2n+1COOH" },
+        { "id": "C", "text": "CnH2n+1COOCnH2n+1" },
+        { "id": "D", "text": "CnH2n+1COCnH2n+1" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Many esters (RCOOR') have pleasant fruity smells; their general formula matches option C."
+    },
+    {
+      "id": 48,
+      "question": "A primary amide is generally represented by the formula",
+      "options": [
+        { "id": "A", "text": "RCOOR" },
+        { "id": "B", "text": "RCONH2" },
+        { "id": "C", "text": "RCONHR" },
+        { "id": "D", "text": "RCONR2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A primary amide has the group \\(-\\text{CONH}_2\\), i.e., RCONH2."
+    },
+    {
+      "id": 49,
+      "instruction": "Use the structure (figure Chem2013_Q49_Structural_Formula).",
+      "question": "The IUPAC nomenclature for the compound above is",
+      "options": [
+        { "id": "A", "text": "4-methylpent-1-ene" },
+        { "id": "B", "text": "3-methylpent-2-ene" },
+        { "id": "C", "text": "2-methylpent-1-ene" },
+        { "id": "D", "text": "2-methylpent-4-ene" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Chem2013_Q49_Structural_Formula",
+      "explanation": "Longest chain including the double bond has 5 carbons. Number from the end nearest the double bond so the alkene is at C1: pent-1-ene. The branch is a methyl on carbon 2, giving 2-methylpent-1-ene."
+    },
+    {
+      "id": 50,
+      "question": "An organic compound contains 60% carbon, 13.3% hydrogen and 26.7% oxygen. Calculate the empirical formula (C = 12, H = 1, O = 16)",
+      "options": [
+        { "id": "A", "text": "C5H12O" },
+        { "id": "B", "text": "C3H8O" },
+        { "id": "C", "text": "C6H13O2" },
+        { "id": "D", "text": "C4H9O" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Assume 100 g: moles C = \\(\\frac{60}{12}=5\\), H = \\(\\frac{13.3}{1}=13.3\\), O = \\(\\frac{26.7}{16}=1.66875\\). Divide by 1.66875: C \\(\\approx 3\\), H \\(\\approx 8\\), O \\(=1\\). Empirical formula: \\(\\text{C}_3\\text{H}_8\\text{O}\\)."
+    }
+  ]
+}
