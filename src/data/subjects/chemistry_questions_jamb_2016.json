@@ -1,0 +1,520 @@
+{
+  "year": 2016,
+  "subject": "Chemistry",
+  "paperType": null,
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Chem2016_Q4_Bohr_Diagram",
+      "file": "upload_1.png",
+      "description": "Bohr-style atom diagram with electrons on shells and nucleus labeled. Used in Question 4."
+    },
+    {
+      "id": "Chem2016_Q11_Energy_Profile",
+      "file": "upload_2.png",
+      "description": "Energy profile diagram (Energy in kJ mol^-1 vs reaction coordinate) labeled A+B (reactants), C+D (products), with marked segments X, Y, Z. Used in Question 11."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "An element X has two isotopes \\(^{20}_{10}X\\) and \\(^{22}_{10}X\\) present in the ratio 1:3. The relative atomic mass of X would be",
+      "options": [
+        { "id": "A", "text": "20.5" },
+        { "id": "B", "text": "21.0" },
+        { "id": "C", "text": "21.5" },
+        { "id": "D", "text": "22.0" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Weighted average \\(=\\frac{1\\times 20 + 3\\times 22}{1+3}=\\frac{86}{4}=21.5\\)."
+    },
+    {
+      "id": 2,
+      "question": "200 cm\\(^3\\) of oxygen diffuse through a porous plug in 50 seconds. How long will 80 cm\\(^3\\) of methane \\((\\text{CH}_4)\\) take to diffuse through the same porous plug under the same conditions?",
+      "options": [
+        { "id": "A", "text": "40 sec" },
+        { "id": "B", "text": "20 sec" },
+        { "id": "C", "text": "14 sec" },
+        { "id": "D", "text": "7 sec" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For oxygen: \\(r_{O_2}=\\frac{200}{50}=4\\,\\text{cm}^3\\text{s}^{-1}\\). By Graham’s law, \\(\\frac{r_{CH_4}}{r_{O_2}}=\\sqrt{\\frac{M_{O_2}}{M_{CH_4}}}=\\sqrt{\\frac{32}{16}}=\\sqrt{2}\\). So \\(r_{CH_4}=4\\sqrt{2}\\approx 5.657\\). Time \\(t=\\frac{80}{5.657}\\approx 14.1\\,\\text{s}\\approx 14\\,\\text{s}\\)."
+    },
+    {
+      "id": 3,
+      "question": "Which of the following terms indicates the number of bonds that can be formed by an atom?",
+      "options": [
+        { "id": "A", "text": "oxidation number" },
+        { "id": "B", "text": "valence" },
+        { "id": "C", "text": "atomic number" },
+        { "id": "D", "text": "electronegativity" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Valence (valency) is the combining capacity of an atom, i.e., number of bonds it can form."
+    },
+    {
+      "id": 4,
+      "instruction": "Use the diagram (figure Chem2016_Q4_Bohr_Diagram).",
+      "question": "The diagram above represents an atom of",
+      "options": [
+        { "id": "A", "text": "magnesium" },
+        { "id": "B", "text": "helium" },
+        { "id": "C", "text": "chlorine" },
+        { "id": "D", "text": "neon" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Chem2016_Q4_Bohr_Diagram",
+      "explanation": "The electron arrangement shown corresponds to \\(2,8,2\\) (three shells), which is magnesium (Z = 12)."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following gases is the most dangerous pollutant?",
+      "options": [
+        { "id": "A", "text": "hydrogen sulphide" },
+        { "id": "B", "text": "carbon monoxide" },
+        { "id": "C", "text": "sulphur(IV) oxide" },
+        { "id": "D", "text": "carbon dioxide" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "CO binds strongly to haemoglobin forming carboxyhaemoglobin, preventing oxygen transport."
+    },
+    {
+      "id": 6,
+      "question": "A side effect of soft water is that it",
+      "options": [
+        { "id": "A", "text": "gives offensive taste" },
+        { "id": "B", "text": "excess calcium is precipitated" },
+        { "id": "C", "text": "attacks lead contained in pipes" },
+        { "id": "D", "text": "encourages the growth of bacteria" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Soft water can be more corrosive and may dissolve lead from lead pipes."
+    },
+    {
+      "id": 7,
+      "question": "Farmlands affected by crude oil spillage can be decontaminated by",
+      "options": [
+        { "id": "A", "text": "adding acidic solutions" },
+        { "id": "B", "text": "using aerobic bacteria" },
+        { "id": "C", "text": "pouring water on the affected area" },
+        { "id": "D", "text": "burning off the oil from the area" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Aerobic bacteria can biodegrade hydrocarbons (bioremediation)."
+    },
+    {
+      "id": 8,
+      "question": "Which of the following functional groups will give gas bubbles when treated with a saturated solution of sodium hydrogen trioxocarbonate(IV)?",
+      "options": [
+        { "id": "A", "text": "\\(-\\text{NH}_3\\)" },
+        { "id": "B", "text": "\\(\\mathrm{R-COOH}\\)" },
+        { "id": "C", "text": "\\(-\\text{OH}\\)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Carboxylic acids react with bicarbonate to release \\(\\text{CO}_2\\) gas: \\(\\mathrm{RCOOH + NaHCO_3 \\rightarrow RCOONa + H_2O + CO_2\\uparrow}\\)."
+    },
+    {
+      "id": 9,
+      "question": "The oxidation state of Cr in \\(\\text{K}_2\\text{Cr}_2\\text{O}_7\\) is",
+      "options": [
+        { "id": "A", "text": "+7" },
+        { "id": "B", "text": "+6" },
+        { "id": "C", "text": "+5" },
+        { "id": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let Cr be \\(x\\): \\(2(+1)+2x+7(-2)=0\\Rightarrow 2x=12\\Rightarrow x=+6\\)."
+    },
+    {
+      "id": 10,
+      "question": "\\(2\\text{Na}_2\\text{O}_{2(s)} + 2\\text{H}_2\\text{O}_{(l)} \\rightarrow 4\\text{NaOH}_{(s)} + \\text{O}_{2(g)}\\). The substance that is oxidized in the reaction above is",
+      "options": [
+        { "id": "A", "text": "\\(\\text{Na}_2\\text{O}_2(s)\\)" },
+        { "id": "B", "text": "\\(\\text{NaOH}(aq)\\)" },
+        { "id": "C", "text": "\\(\\text{H}_2\\text{O}(l)\\)" },
+        { "id": "D", "text": "\\(\\text{O}_2(g)\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "O in peroxide is \\(-1\\) and becomes 0 in \\(\\text{O}_2\\), so peroxide oxygen is oxidized."
+    },
+    {
+      "id": 11,
+      "instruction": "Use the diagram (figure Chem2016_Q11_Energy_Profile).",
+      "question": "Z in diagram above represents",
+      "options": [
+        { "id": "A", "text": "heat of reaction" },
+        { "id": "B", "text": "activation energy" },
+        { "id": "C", "text": "free energy" },
+        { "id": "D", "text": "entropy of reaction" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Chem2016_Q11_Energy_Profile",
+      "explanation": "Z marks the vertical energy difference between reactants (A+B) and products (C+D), i.e., \\(\\Delta H\\) (heat of reaction)."
+    },
+    {
+      "id": 12,
+      "question": "The nucleus of an atom contains",
+      "options": [
+        { "id": "A", "text": "protons only" },
+        { "id": "B", "text": "neutrons only" },
+        { "id": "C", "text": "protons and electrons" },
+        { "id": "D", "text": "protons and neutrons" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The nucleus contains protons and neutrons."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following does NOT happen when a zinc rod is introduced into a solution of copper(II) sulphate?",
+      "options": [
+        { "id": "A", "text": "Electrons flow towards the zinc rod" },
+        { "id": "B", "text": "The zinc rod dissolves" },
+        { "id": "C", "text": "The temperature of the soil changes" },
+        { "id": "D", "text": "The blue colour of the solution gradually disappears" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Zn displaces Cu2+ (rod dissolves; blue colour fades). “Temperature of the soil changes” is unrelated."
+    },
+    {
+      "id": 14,
+      "question": "Which of the following statements is correct during the electrolysis of a caustic soda solution using platinum electrodes?",
+      "options": [
+        { "id": "A", "text": "Oxygen gas is given off at the cathode" },
+        { "id": "B", "text": "Hydrogen gas is given off at the anode" },
+        { "id": "C", "text": "Sodium metal is deposited at the cathode" },
+        { "id": "D", "text": "Alkalinity at the cathode increases" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "At the cathode, water is reduced to \\(\\text{H}_2\\) and \\(\\text{OH}^-\\), increasing alkalinity near the cathode."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following statements is INCORRECT?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Fractional distillation of crude petroleum will give the following hydrocarbon fuels in order of increasing boiling point: Butane < Petrol < Kerosene"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\text{H}_2\\text{C}=\\text{CH}_2\\) will serve as a monomer in the preparation of polythene"
+        },
+        {
+          "id": "C",
+          "text": "Both but-1-ene and but-1-yne will decolourize bromine readily"
+        },
+        {
+          "id": "D",
+          "text": "Calcium carbide will react with water to form any alkyne"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Calcium carbide forms ethyne specifically: \\(\\text{CaC}_2 + 2\\text{H}_2\\text{O} \\rightarrow \\text{C}_2\\text{H}_2 + \\text{Ca(OH)}_2\\), not “any alkyne”."
+    },
+    {
+      "id": 16,
+      "question": "The iron(III) oxide impurity in bauxite can be removed by",
+      "options": [
+        { "id": "A", "text": "fractional crystallization in acid solution" },
+        { "id": "B", "text": "dissolution in sodium hydroxide and filtration" },
+        { "id": "C", "text": "extraction with concentrated ammonia and reprecipitation" },
+        { "id": "D", "text": "electrolysis of molten mixture" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Bayer process: \\(\\text{Al}_2\\text{O}_3\\) dissolves in NaOH; \\(\\text{Fe}_2\\text{O}_3\\) remains insoluble and is filtered off."
+    },
+    {
+      "id": 17,
+      "question": "Aluminium is extracted commercially from its ore by",
+      "options": [
+        { "id": "A", "text": "heating aluminium oxide with coke in a furnace" },
+        { "id": "B", "text": "the electrolysis of fused aluminium oxide in cryolite" },
+        { "id": "C", "text": "treating cryolite with sodium hydroxide solution under pressure" },
+        { "id": "D", "text": "heating sodium aluminium silicate to a high temperature" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Hall–Héroult process: electrolysis of Al2O3 dissolved in molten cryolite."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following compounds gives a yellow residue when heated and also reacts with aqueous sodium hydroxide to give a white gelatinous precipitate soluble in excess sodium hydroxide solution?",
+      "options": [
+        { "id": "A", "text": "\\((\\text{NH}_4)_2\\text{CO}_3\\)" },
+        { "id": "B", "text": "\\(\\text{ZnCO}_3\\)" },
+        { "id": "C", "text": "\\(\\text{Al}_2(\\text{SO}_4)_3\\)" },
+        { "id": "D", "text": "\\(\\text{PbCO}_3\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A white gelatinous hydroxide soluble in excess NaOH indicates amphoteric \\(\\text{Al(OH)}_3\\). Hence an Al3+ salt such as \\(\\text{Al}_2(\\text{SO}_4)_3\\)."
+    },
+    {
+      "id": 19,
+      "question": "The least easily oxidized of the metals below is",
+      "options": [
+        { "id": "A", "text": "Cu" },
+        { "id": "B", "text": "Na" },
+        { "id": "C", "text": "Zn" },
+        { "id": "D", "text": "Al" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cu is least reactive among the listed metals."
+    },
+    {
+      "id": 20,
+      "question": "Which of the following chlorides would exhibit the least ionic character?",
+      "options": [
+        { "id": "A", "text": "\\(\\text{MgCl}_2\\)" },
+        { "id": "B", "text": "\\(\\text{CaCl}_2\\)" },
+        { "id": "C", "text": "\\(\\text{LiCl}\\)" },
+        { "id": "D", "text": "\\(\\text{AlCl}_3\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "\\(\\text{AlCl}_3\\) is most covalent (least ionic) due to high polarizing power of \\(\\text{Al}^{3+}\\)."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following CANNOT be obtained by fractional distillation of petroleum?",
+      "options": [
+        { "id": "A", "text": "Ether" },
+        { "id": "B", "text": "Methane" },
+        { "id": "C", "text": "Butane" },
+        { "id": "D", "text": "Hydrogen" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Fractional distillation gives hydrocarbon fractions; hydrogen is not obtained as a petroleum fraction by distillation."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is used as an antiknock in automobile engines?",
+      "options": [
+        { "id": "A", "text": "tetramethylsilane" },
+        { "id": "B", "text": "lead tetraethyl" },
+        { "id": "C", "text": "glycerol" },
+        { "id": "D", "text": "n-heptane" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tetraethyl lead is a classic antiknock additive."
+    },
+    {
+      "id": 23,
+      "question": "The Avogadro number of 24 g of magnesium is the same as that of",
+      "options": [
+        { "id": "A", "text": "1 g of hydrogen molecules" },
+        { "id": "B", "text": "16 g of oxygen molecules" },
+        { "id": "C", "text": "32 g of oxygen molecules" },
+        { "id": "D", "text": "35.5 g of chlorine molecules" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "24 g Mg ≈ 1 mol, and 32 g O\\(_2\\) = 1 mol. Same number of particles (Avogadro’s number)."
+    },
+    {
+      "id": 24,
+      "question": "In an electrolyte set-up to protect iron from corrosion, the iron is",
+      "options": [
+        { "id": "A", "text": "made the cathode" },
+        { "id": "B", "text": "made the anode" },
+        { "id": "C", "text": "used with a metal of lower electropositive potential" },
+        { "id": "D", "text": "initially coated with tin" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cathodic protection makes iron the cathode so it is not oxidized."
+    },
+    {
+      "id": 25,
+      "question": "The removal of rust from iron by treatment with tetraoxosulphate (VI) acid is based on the",
+      "options": [
+        { "id": "A", "text": "hydrolysis of the iron" },
+        { "id": "B", "text": "reaction of acid with base" },
+        { "id": "C", "text": "oxidation of the rust" },
+        { "id": "D", "text": "dehydration of the iron" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Rust (hydrated iron oxides/hydroxides) is neutralized/dissolved by acid (acid–base reaction)."
+    },
+    {
+      "id": 26,
+      "question": "The substance often used for vulcanization of rubber is",
+      "options": [
+        { "id": "A", "text": "chlorine" },
+        { "id": "B", "text": "hydrogen peroxide" },
+        { "id": "C", "text": "sulphur" },
+        { "id": "D", "text": "tetraoxosulphate (VI) acid" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Sulphur forms cross-links between polymer chains in vulcanization."
+    },
+    {
+      "id": 27,
+      "question": "Metals of the first transition series have special properties which are different from those of groups I and II elements because they have partially filled",
+      "options": [
+        { "id": "A", "text": "s-orbitals" },
+        { "id": "B", "text": "p-orbitals" },
+        { "id": "C", "text": "d-orbitals" },
+        { "id": "D", "text": "f-orbitals" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Partially filled d-orbitals cause typical transition-metal properties."
+    },
+    {
+      "id": 28,
+      "question": "A particle that contains 11 protons, 12 neutrons and 10 electrons is probably a",
+      "options": [
+        { "id": "A", "text": "neutral non-metal" },
+        { "id": "B", "text": "metallic ion" },
+        { "id": "C", "text": "non-metallic ion" },
+        { "id": "D", "text": "neutral metal" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "11 protons identifies Na; 10 electrons means \\(+1\\) ion (Na\\(^+\\)), a metallic ion."
+    },
+    {
+      "id": 29,
+      "question": "A catalyst increases the rate of a chemical reaction by providing a path that",
+      "options": [
+        { "id": "A", "text": "raises the activation energy" },
+        { "id": "B", "text": "increases the temperature" },
+        { "id": "C", "text": "lowers the activation energy" },
+        { "id": "D", "text": "increases the concentration" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Catalysts lower the activation energy barrier."
+    },
+    {
+      "id": 30,
+      "question": "A metal M displaces Zinc from \\(\\text{ZnCl}_2\\) solution. This shows that",
+      "options": [
+        { "id": "A", "text": "electrons flow from Zinc to M" },
+        { "id": "B", "text": "M is more electropositive than Zinc" },
+        { "id": "C", "text": "M is more electronegative than Zinc" },
+        { "id": "D", "text": "Zinc is more electropositive than M" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Displacement means M is more reactive (more electropositive) than Zn."
+    },
+    {
+      "id": 31,
+      "question": "Calculate the quantity of electricity in coulombs required to liberate 10 g of copper from a copper compound. [Cu = 64, \\(F = 96500\\,\\text{C mol}^{-1}\\)]",
+      "options": [
+        { "id": "A", "text": "32395.5" },
+        { "id": "B", "text": "30156.3" },
+        { "id": "C", "text": "60784.5" },
+        { "id": "D", "text": "15196.6" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Moles Cu \\(=\\frac{10}{64}=0.15625\\). For Cu\\(^{2+}\\), \\(Q=2nF=2(0.15625)(96500)\\approx 30156.3\\,\\text{C}\\)."
+    },
+    {
+      "id": 32,
+      "question": "The IUPAC names for the compounds \\(\\text{CH}_3\\text{COOH}\\) and \\(\\text{CH}_2{=}\\text{CH}_2\\) are respectively",
+      "options": [
+        { "id": "A", "text": "acetic acid and ethane" },
+        { "id": "B", "text": "ethanoic acid and ethene" },
+        { "id": "C", "text": "methanoic acid and ethylene" },
+        { "id": "D", "text": "ethanol and ethene" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\\(\\text{CH}_3\\text{COOH\\,=\\,ethanoic acid}\\); \\(\\text{CH}_2{=}\\text{CH}_2\\,=\\,ethene\\)."
+    },
+    {
+      "id": 33,
+      "question": "The boiling point of water is higher than that of methanol because",
+      "options": [
+        { "id": "A", "text": "water is an oxide while methanol is an alcohol" },
+        { "id": "B", "text": "intermolecular forces in water are stronger than those in methanol" },
+        { "id": "C", "text": "water is an inorganic compound while methanol is organic" },
+        { "id": "D", "text": "water is a compound while methanol is a covalent compound" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Water forms a more extensive hydrogen-bonded network, giving stronger intermolecular attraction."
+    },
+    {
+      "id": 34,
+      "question": "If an element X of atomic number \\(Z\\) and mass number \\(y\\) is irradiated by an intense concentration of neutrons, the relevant nuclear equation is",
+      "options": [
+        { "id": "A", "text": "\\(^{y}_{Z}X + ^{1}_{0}n \\rightarrow ^{y-1}_{Z+1}X\\)" },
+        { "id": "B", "text": "\\(^{y}_{Z}X + ^{1}_{0}n \\rightarrow ^{y+1}_{Z+1}X\\)" },
+        { "id": "C", "text": "\\(^{y}_{Z}X + ^{1}_{0}n \\rightarrow ^{y}_{Z+1}X\\)" },
+        { "id": "D", "text": "\\(^{y}_{Z}X + ^{1}_{0}n \\rightarrow ^{y+1}_{Z-1}X\\)" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Correct neutron capture is \\(^{y}_{Z}X + ^{1}_{0}n \\rightarrow ^{y+1}_{Z}X\\) (mass number increases by 1, atomic number unchanged). This option is not among A–D as shown in the image."
+    },
+    {
+      "id": 35,
+      "question": "Which combination of the following statements is correct? 1. Lowering the activation energy 2. conducting the reaction in a gaseous state 3. Increasing the temperature 4. removing the products as soon as they are formed 5. Powdering the reactant if solid",
+      "options": [
+        { "id": "A", "text": "1, 2 and 3" },
+        { "id": "B", "text": "1, 3 and 5" },
+        { "id": "C", "text": "2, 3 and 5" },
+        { "id": "D", "text": "3 and 4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Rate is increased by lowering activation energy (catalyst), increasing temperature, and increasing surface area (powdering solids)."
+    },
+    {
+      "id": 36,
+      "question": "An element with atomic number twelve is likely to be",
+      "options": [
+        { "id": "A", "text": "electrovalent with a valency of 1" },
+        { "id": "B", "text": "electrovalent with a valency of 2" },
+        { "id": "C", "text": "covalent with a valency of 2" },
+        { "id": "D", "text": "covalent with valency of 4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Atomic number 12 is Mg, forming Mg\\(^{2+}\\) (valency 2) and ionic compounds."
+    },
+    {
+      "id": 37,
+      "question": "Which of the following physical properties decreases across the periodic Table?",
+      "options": [
+        { "id": "A", "text": "ionization potential" },
+        { "id": "B", "text": "electron affinity" },
+        { "id": "C", "text": "electronegativity" },
+        { "id": "D", "text": "atomic radius" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Across a period, effective nuclear charge increases, so atomic radius decreases."
+    },
+    {
+      "id": 38,
+      "question": "If a gas occupies a container of volume 146 cm\\(^3\\) at 18°C and 0.971 atm, its volume in cm\\(^3\\) at s.t.p is",
+      "options": [
+        { "id": "A", "text": "133" },
+        { "id": "B", "text": "146" },
+        { "id": "C", "text": "266" },
+        { "id": "D", "text": "292" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\\(V_2=\\frac{P_1V_1T_2}{P_2T_1}=\\frac{0.971\\times 146\\times 273}{1\\times(18+273)}\\approx 133\\,\\text{cm}^3\\)."
+    },
+    {
+      "id": 39,
+      "question": "50 cm\\(^3\\) of carbon(II) oxide was exploded with 150 cm\\(^3\\) of air containing 20% oxygen by volume, which of the reactants was in excess?",
+      "options": [
+        { "id": "A", "text": "carbon(II) oxide" },
+        { "id": "B", "text": "carbon(IV) oxide" },
+        { "id": "C", "text": "oxygen" },
+        { "id": "D", "text": "nitrogen" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Oxygen available = 20% of 150 = 30 cm\\(^3\\) O\\(_2\\). Reaction \\(2\\text{CO}+\\text{O}_2\\rightarrow 2\\text{CO}_2\\). 50 cm\\(^3\\) CO needs 25 cm\\(^3\\) O\\(_2\\). Since 30 cm\\(^3\\) O\\(_2\\) is available, oxygen is in excess."
+    },
+    {
+      "id": 40,
+      "question": "The formula CH\\(_2\\)O for ethanoic acid is regarded as its",
+      "options": [
+        { "id": "A", "text": "molecular formula" },
+        { "id": "B", "text": "general formula" },
+        { "id": "C", "text": "empirical formula" },
+        { "id": "D", "text": "structural formula" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ethanoic acid is \\(\\text{C}_2\\text{H}_4\\text{O}_2\\); simplest ratio is \\(\\text{CH}_2\\text{O}\\) (empirical formula)."
+    }
+  ],
+  "missingQuestions": [
+    "Question 6 is present but only its stem/options appear split across images; it has been reconstructed from the visible text.",
+    "Question 21 is cut off (only the stem line is visible without full options) in the provided images.",
+    "Questions 41–50 are not present in the uploaded images."
+  ]
+}
