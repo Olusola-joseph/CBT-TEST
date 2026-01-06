@@ -530,6 +530,9 @@ class ChemistryCBTExamApp {
         
         // Update question list to highlight current question
         this.updateQuestionListHighlight();
+        
+        // Render MathJax equations if present
+        this.renderMathJax();
     }
     
     getDiagramPath(figureId) {
@@ -818,6 +821,9 @@ class ChemistryCBTExamApp {
                 </div>
             </div>
         `;
+        
+        // Render MathJax equations if present
+        this.renderMathJax();
     }
 
     // Method to make explanations more beginner-friendly
@@ -846,6 +852,24 @@ class ChemistryCBTExamApp {
         }
         
         return friendlyExplanation;
+    }
+
+    // Method to render MathJax equations in dynamically loaded content
+    renderMathJax() {
+        // Check if MathJax is loaded
+        if (window.MathJax) {
+            // Defer the typesetting to ensure content is rendered first
+            setTimeout(() => {
+                try {
+                    // Clear the restart queue to avoid conflicts
+                    MathJax.typesetClear();
+                    // Typeset all content with math
+                    MathJax.typeset(["#question-text", "#options-container", "#review-container"]);
+                } catch (error) {
+                    console.warn('MathJax rendering error:', error);
+                }
+            }, 100); // Small delay to ensure DOM is updated
+        }
     }
 
     updateReviewNavigation() {
