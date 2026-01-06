@@ -1,98 +1,56 @@
-/* Chemistry-specific styles for CBT Exam Platform */
-/* Extending the base styles with chemistry-specific customizations */
+/* Chemistry subject specific styles - using base styles from main CSS */
 
-/* Chemistry-themed colors */
-:root {
-    --chemistry-primary: #2e7d32;
-    --chemistry-primary-dark: #1b5e20;
-    --chemistry-primary-light: #4caf50;
-    --chemistry-accent: #ff9800;
-    --chemistry-light-bg: #e8f5e9;
-    --chemistry-dark-text: #1b5e20;
-}
-
-/* Chemistry subject header */
-header h1 {
-    color: var(--chemistry-primary);
-    border-bottom: 3px solid var(--chemistry-primary);
-}
-
-/* Chemistry-specific button styling */
-.year-btn:hover {
-    background-color: var(--chemistry-primary);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(46, 125, 50, 0.3);
-}
-
-.year-btn:active {
-    transform: translateY(0);
-}
-
-/* Chemistry question styling */
-.question-body {
-    border-left: 4px solid var(--chemistry-primary);
-}
-
-/* Chemistry-specific timer styling */
-#timer.warning {
-    background-color: var(--chemistry-accent);
-    color: white;
-}
-
-/* Chemistry navigation buttons */
-.btn-primary {
-    background-color: var(--chemistry-primary);
-}
-
-.btn-primary:hover {
-    background-color: var(--chemistry-primary-dark);
-}
-
-/* Chemistry answer selection */
-.option-item.selected {
-    border: 2px solid var(--chemistry-primary);
-    background-color: var(--chemistry-light-bg);
-}
-
-/* Chemistry question list */
-.question-list-item.answered {
-    background-color: var(--chemistry-light-bg);
-    border: 1px solid var(--chemistry-primary);
-}
-
-.question-list-item.current {
-    border: 2px solid var(--chemistry-primary-dark);
-    background-color: #c8e6c9;
-}
-
-/* Chemistry-specific modal styling */
-.modal-content {
-    border-top: 4px solid var(--chemistry-primary);
-}
-
-/* Responsive adjustments for chemistry theme */
-@media (max-width: 768px) {
-    .year-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .year-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Chemistry-specific instructions styling */
-.instructions-list ul li {
-    border-left: 3px solid var(--chemistry-primary);
-    padding-left: 15px;
-    margin: 8px 0;
-}
-
-/* Highlight chemistry-specific content */
+/* Chemistry-specific content highlighting if needed */
 .chemistry-highlight {
-    background-color: var(--chemistry-light-bg);
+    background-color: #e8f5e9;
     padding: 2px 5px;
     border-radius: 3px;
+}
+
+/* Diagram styling for chemistry questions - similar to biology */
+.question-with-diagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.diagram-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.question-diagram {
+    max-width: 100%;
+    max-height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+.question-text {
+    width: 100%;
+}
+
+/* Responsive adjustments for chemistry questions with diagrams */
+@media (min-width: 768px) {
+    .question-with-diagram {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    
+    .diagram-placeholder {
+        flex: 0 0 auto;
+        margin-bottom: 0;
+        max-width: 40%;
+    }
+    
+    .question-text {
+        flex: 1;
+        min-width: 0;
+    }
 }
