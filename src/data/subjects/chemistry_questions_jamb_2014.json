@@ -1,0 +1,657 @@
+{
+  "year": 2014,
+  "subject": "Chemistry",
+  "paperType": "E",
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Chem2014_Q26_Energy_Profile",
+      "file": "upload_5.png",
+      "description": "Energy profile diagram (Energy in kJ mol^-1 vs reaction coordinate) showing reactants A+B, products C+D, and marked vertical segments labeled X, Y, Z. Used in Question 26."
+    },
+    {
+      "id": "Chem2014_Q32_Q33_Gas_Purification_Setup",
+      "file": "upload_6.png",
+      "description": "Laboratory gas preparation/purification train with flasks/bottles including water and concentrated H2SO4, leading to a gas jar labeled chlorine. Used for Questions 32 and 33."
+    },
+    {
+      "id": "Chem2014_Q40_Organic_Structure_Haloalcohol",
+      "file": "upload_9.png",
+      "description": "Displayed structure of a four-carbon chain with substituents including -OH, Cl, and Br. Used in Question 40 for IUPAC naming."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Question Paper Type of Chemistry is given to you?",
+      "options": [
+        { "id": "A", "text": "Type F" },
+        { "id": "B", "text": "Type E" },
+        { "id": "C", "text": "Type L" },
+        { "id": "D", "text": "Type S" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The header on the page states \"PAPER TYPE: E\"."
+    },
+    {
+      "id": 2,
+      "question": "A mixture is different from a compound because",
+      "options": [
+        {
+          "id": "A",
+          "text": "the properties of a compound are those of its individual constituents while those of a mixture differ from its constituents"
+        },
+        {
+          "id": "B",
+          "text": "a mixture is always homogeneous while a compound is not"
+        },
+        {
+          "id": "C",
+          "text": "the constituent of a compound are chemically bound together while those of a mixture are not"
+        },
+        {
+          "id": "D",
+          "text": "a mixture can be represented by a chemical formula while a compound cannot"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In compounds, elements are chemically bonded in fixed ratios; in mixtures, components are not chemically bonded and can be separated by physical methods."
+    },
+    {
+      "id": 3,
+      "question": "What is the percentage of sulphur in sulphur (IV) oxide?",
+      "options": [
+        { "id": "A", "text": "66%" },
+        { "id": "B", "text": "25%" },
+        { "id": "C", "text": "40%" },
+        { "id": "D", "text": "50%" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "For \\(\\text{SO}_2\\): molar mass \\(= 32 + 2(16) = 64\\). Percentage of S \\(= \\frac{32}{64}\\times 100 = 50\\%\\). This computed value corresponds to option D, not A; using standard atomic masses, the correct percentage is 50%."
+    },
+    {
+      "id": 4,
+      "question": "A gas X diffuses twice as fast as gas Y. If the relative molecular mass of X is 32, calculate the relative molecular mass of Y.",
+      "options": [
+        { "id": "A", "text": "128" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "16" },
+        { "id": "D", "text": "64" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Graham’s law: \\(\\frac{r_X}{r_Y} = \\sqrt{\\frac{M_Y}{M_X}}\\). Given \\(r_X = 2r_Y\\): \\(2 = \\sqrt{\\frac{M_Y}{32}}\\). Squaring: \\(4 = \\frac{M_Y}{32}\\Rightarrow M_Y = 128\\)."
+    },
+    {
+      "id": 5,
+      "question": "200 cm\\(^3\\) of a gas at 25\\(^\\circ\\)C exerts a pressure of 700 mmHg. Calculate its pressure if its volume increases 350 cm\\(^3\\) at 75\\(^\\circ\\)C.",
+      "options": [
+        { "id": "A", "text": "342.53 mmHg" },
+        { "id": "B", "text": "1430.54 mmHg" },
+        { "id": "C", "text": "467.11 mmHg" },
+        { "id": "D", "text": "400.00 mmHg" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Use combined gas law \\(\\frac{P_1V_1}{T_1} = \\frac{P_2V_2}{T_2}\\). \\(T_1 = 25+273 = 298\\,\\text{K}\\), \\(T_2 = 75+273 = 348\\,\\text{K}\\). \\(V_1 = 200\\,\\text{cm}^3\\), \\(V_2 = 350\\,\\text{cm}^3\\), \\(P_1 = 700\\,\\text{mmHg}\\). Then \\(P_2 = P_1\\frac{V_1}{V_2}\\frac{T_2}{T_1} = 700\\times\\frac{200}{350}\\times\\frac{348}{298} \\approx 467.11\\,\\text{mmHg}\\)."
+    },
+    {
+      "id": 6,
+      "question": "An element X has electron configuration \\(1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^5\\). Which of the following statements is correct about the element?",
+      "options": [
+        { "id": "A", "text": "It has a completely filled p-orbital" },
+        { "id": "B", "text": "It has 5 electrons in its outermost shell." },
+        { "id": "C", "text": "It belongs to group II on the periodic table" },
+        { "id": "D", "text": "It is a halogen" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The outer configuration is \\(3s^2 3p^5\\) (7 valence electrons), characteristic of Group 17 (halogens)."
+    },
+    {
+      "id": 7,
+      "question": "Beryllium and aluminium have similar properties because they",
+      "options": [
+        { "id": "A", "text": "are both metals" },
+        { "id": "B", "text": "belong to the same group" },
+        { "id": "C", "text": "belong to the same period" },
+        { "id": "D", "text": "are positioned diagonally to each other" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Be and Al show diagonal relationship in the periodic table, giving similar chemical properties."
+    },
+    {
+      "id": 8,
+      "question": "If the difference in electronegativity of elements P and Q is 3.0. The bond that will be formed between them is",
+      "options": [
+        { "id": "A", "text": "metallic" },
+        { "id": "B", "text": "covalent" },
+        { "id": "C", "text": "co-ordinate" },
+        { "id": "D", "text": "ionic" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A large electronegativity difference (about 1.7 or greater) indicates electron transfer, hence ionic bonding."
+    },
+    {
+      "id": 9,
+      "question": "How many protons, neutrons and electrons respectively are present in the element \\(^{60}_{27}\\text{Co}\\)?",
+      "options": [
+        { "id": "A", "text": "27, 33 and 33" },
+        { "id": "B", "text": "33, 27 and 27" },
+        { "id": "C", "text": "27, 33, and 27" },
+        { "id": "D", "text": "60, 33 and 60" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Atomic number 27 gives 27 protons. Neutrons = 60 − 27 = 33. For a neutral atom, electrons = protons = 27."
+    },
+    {
+      "id": 10,
+      "question": "The radioactive radiation used in studying the arrangement of particles in giant organic molecules is",
+      "options": [
+        { "id": "A", "text": "γ-rays" },
+        { "id": "B", "text": "α-particles" },
+        { "id": "C", "text": "X-rays" },
+        { "id": "D", "text": "β-particles" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "X-ray diffraction is used to study structures/arrangements in large molecules and crystalline materials."
+    },
+    {
+      "id": 11,
+      "question": "A silicon-containing ore has 92% \\(^{28}\\text{Si}\\), 5% \\(^{29}\\text{Si}\\) and 3% \\(^{30}\\text{Si}\\). Calculate the relative atomic mass of the silicon.",
+      "options": [
+        { "id": "A", "text": "14.00" },
+        { "id": "B", "text": "29.00" },
+        { "id": "C", "text": "28.11" },
+        { "id": "D", "text": "28.00" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Weighted average: \\(0.92(28) + 0.05(29) + 0.03(30) = 25.76 + 1.45 + 0.90 = 28.11\\)."
+    },
+    {
+      "id": 12,
+      "question": "The nitrogen obtained from air has a density higher than the one from nitrogen-containing compounds because the one from air is contaminated with",
+      "options": [
+        { "id": "A", "text": "water vapour" },
+        { "id": "B", "text": "oxygen" },
+        { "id": "C", "text": "rare gases" },
+        { "id": "D", "text": "carbon (IV) oxide" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Nitrogen from air contains traces of heavier noble gases (especially argon), increasing its density."
+    },
+    {
+      "id": 13,
+      "question": "Water is said to be temporarily hard when it contains",
+      "options": [
+        { "id": "A", "text": "Ca(HCO3)2 and Mg(HCO3)2 salts" },
+        { "id": "B", "text": "Ca(HCO3)2 and CaCO3 salts" },
+        { "id": "C", "text": "Mg(HCO3)2 and CaSO4 salts" },
+        { "id": "D", "text": "CaSO4 and Ca(HCO3)2 salts" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Temporary hardness is due to calcium and magnesium hydrogencarbonates, removable by boiling."
+    },
+    {
+      "id": 14,
+      "question": "On exposure to the atmosphere, a hydrated salt loses its water of crystallization to become anhydrous. This phenomenon is referred to as",
+      "options": [
+        { "id": "A", "text": "efflorescence" },
+        { "id": "B", "text": "deliquescence" },
+        { "id": "C", "text": "hygroscopy" },
+        { "id": "D", "text": "hydrolysis" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Efflorescence is the loss of water of crystallization by hydrated salts on exposure to air."
+    },
+    {
+      "id": 15,
+      "question": "16.55 g of lead (II) trioxonitrate (V) was dissolved in 100 g of distilled water at 20°C, calculate the solubility of the solute in mol dm\\(^{-3}\\). [Pb = 207, N = 14, O = 16]",
+      "options": [
+        { "id": "A", "text": "0.05 g" },
+        { "id": "B", "text": "2.00 g" },
+        { "id": "C", "text": "1.00 g" },
+        { "id": "D", "text": "0.50 g" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The prompt asks for solubility in \\(\\text{mol dm}^{-3}\\), but the options shown in the image are in grams (g). From the data: molar mass of \\(\\text{Pb(NO}_3)_2\\) is \\(207 + 2(14 + 3\\times 16) = 207 + 2(62) = 331\\,\\text{g mol}^{-1}\\). Moles in 16.55 g: \\(\\frac{16.55}{331} = 0.050\\,\\text{mol}\\). 100 g water \\(\\approx 0.100\\,\\text{dm}^3\\). Concentration \\(= \\frac{0.050}{0.100} = 0.50\\,\\text{mol dm}^{-3}\\). The matching numerical option shown is \"0.50 g\" (D), but its unit conflicts with the question as printed."
+    },
+    {
+      "id": 16,
+      "question": "The dispersion of a liquid in a liquid medium will give",
+      "options": [
+        { "id": "A", "text": "an emulsion" },
+        { "id": "B", "text": "a fog" },
+        { "id": "C", "text": "a gel" },
+        { "id": "D", "text": "an aerosol" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A liquid dispersed in another liquid forms an emulsion (e.g., milk)."
+    },
+    {
+      "id": 17,
+      "question": "The major and most effective way of controlling pollution is to",
+      "options": [
+        {
+          "id": "A",
+          "text": "improve machinery so that the substances released from combustion are less harmful"
+        },
+        {
+          "id": "B",
+          "text": "pass strict laws against it by individuals and companies"
+        },
+        {
+          "id": "C",
+          "text": "educate people on the causes and effects of pollution"
+        },
+        {
+          "id": "D",
+          "text": "convert chemical wastes to harmless substances before releasing them into the environment"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Preventing pollution at source by treating wastes to harmless products before discharge is the most direct and effective control method among the options."
+    },
+    {
+      "id": 18,
+      "question": "The basicity of \\(\\text{CH}_3\\text{COOH}\\) is",
+      "options": [
+        { "id": "A", "text": "4" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Basicity is the number of replaceable (ionizable) hydrogen ions per molecule of acid. Ethanoic acid has one ionizable H in the -COOH group."
+    },
+    {
+      "id": 19,
+      "question": "The colour of litmus in a neutral medium is",
+      "options": [
+        { "id": "A", "text": "purple" },
+        { "id": "B", "text": "pink" },
+        { "id": "C", "text": "yellow" },
+        { "id": "D", "text": "orange" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Litmus is purple at neutral pH (about 7)."
+    },
+    {
+      "id": 20,
+      "question": "The mathematical expression of pH is",
+      "options": [
+        { "id": "A", "text": "\\(\\log_{10}[\\text{OH}^-]\\)" },
+        { "id": "B", "text": "\\(\\log_{10}\\!\\left(\\frac{1}{[\\text{H}_3\\text{O}^+]}\\right)\\)" },
+        { "id": "C", "text": "\\(\\log_{10}[\\text{H}_3\\text{O}^+]\\)" },
+        { "id": "D", "text": "\\(\\log_{10}\\!\\left(\\frac{1}{[\\text{OH}^-]}\\right)\\)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "By definition, \\(\\text{pH} = -\\log_{10}[\\text{H}^+]\\), equivalently \\(\\log_{10}\\!\\left(\\frac{1}{[\\text{H}^+]}\\right)\\). The option using \\([\\text{H}_3\\text{O}^+]\\) matches this."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following salts will turn blue litmus red?",
+      "options": [
+        { "id": "A", "text": "Sodium tetrahydroxozincate (II)" },
+        { "id": "B", "text": "Potassium hydrogen tetraoxosulphate (IV)" },
+        { "id": "C", "text": "Sodium trioxocarbonate (IV)" },
+        { "id": "D", "text": "Zinc chloride hydroxide" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A salt that turns blue litmus red is acidic. Potassium hydrogen tetraoxosulphate is an acid salt (contains replaceable H), giving an acidic solution."
+    },
+    {
+      "id": 22,
+      "question": "\\(\\text{Zn}_{(s)} + \\text{CuSO}_{4(aq)} \\rightarrow \\text{ZnSO}_{4(aq)} + \\text{Cu}_{(s)}\\). In the reaction above, the oxidation number of the reducing agent changes from",
+      "options": [
+        { "id": "A", "text": "0 to +4" },
+        { "id": "B", "text": "0 to +2" },
+        { "id": "C", "text": "+1 to +2" },
+        { "id": "D", "text": "+1 to +3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The reducing agent is Zn. Zn goes from 0 in Zn(s) to +2 in ZnSO4."
+    },
+    {
+      "id": 23,
+      "question": "\\(\\text{H}_2\\text{O}_{(g)} + \\text{C}_{(s)} \\rightarrow \\text{H}_{2(g)} + \\text{CO}_{(g)}\\). The oxidizing agent in the reaction above is",
+      "options": [
+        { "id": "A", "text": "CO(g)" },
+        { "id": "B", "text": "C(s)" },
+        { "id": "C", "text": "H2O(g)" },
+        { "id": "D", "text": "H2(g)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Oxidizing agent is reduced. Hydrogen in H2O goes from +1 to 0 in H2 (reduction), so H2O is the oxidizing agent."
+    },
+    {
+      "id": 24,
+      "question": "Calculate the quantity of electricity in coulombs required to liberate 10 g of copper from a copper compound. [Cu = 64, \\(F = 96500\\,\\text{C mol}^{-1}\\)]",
+      "options": [
+        { "id": "A", "text": "32395.5" },
+        { "id": "B", "text": "30156.3" },
+        { "id": "C", "text": "60784.5" },
+        { "id": "D", "text": "15196.5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Moles of Cu: \\(n = \\frac{10}{64} = 0.15625\\,\\text{mol}\\). For \\(\\text{Cu}^{2+} + 2e^- \\rightarrow \\text{Cu}\\), charge \\(Q = 2nF = 2(0.15625)(96500) = 30156.25\\,\\text{C}\\). This matches option B (30156.3), not C; using the given data, the correct option is B."
+    },
+    {
+      "id": 25,
+      "question": "How many faraday of electricity is required to produce 0.25 mole of copper?",
+      "options": [
+        { "id": "A", "text": "1.00F" },
+        { "id": "B", "text": "0.01F" },
+        { "id": "C", "text": "0.05F" },
+        { "id": "D", "text": "0.50F" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Copper is deposited from \\(\\text{Cu}^{2+}\\): 1 mol Cu needs 2 mol electrons = 2F. For 0.25 mol Cu, faradays needed \\(= 0.25\\times 2 = 0.50F\\). That corresponds to option D, not A."
+    },
+    {
+      "id": 26,
+      "instruction": "Use the diagram (figure Chem2014_Q26_Energy_Profile).",
+      "question": "Z in diagram below represents...",
+      "options": [
+        { "id": "A", "text": "heat of reaction" },
+        { "id": "B", "text": "activation energy" },
+        { "id": "C", "text": "free energy" },
+        { "id": "D", "text": "entropy of reaction" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Chem2014_Q26_Energy_Profile",
+      "explanation": "In the energy profile, Z is shown as the vertical difference between the energy level of reactants (A+B) and products (C+D). That vertical change corresponds to the enthalpy change (heat of reaction, \\(\\Delta H\\))."
+    },
+    {
+      "id": 27,
+      "question": "If the change in free energy of a system is -899 J mol\\(^{-1}\\) and the entropy change is 10 J mol\\(^{-1}\\) K\\(^{-1}\\) at 25°C, calculate the enthalpy change.",
+      "options": [
+        { "id": "A", "text": "+2081 J mol^-1" },
+        { "id": "B", "text": "-2081 J mol^-1" },
+        { "id": "C", "text": "-649 J mol^-1" },
+        { "id": "D", "text": "+649 J mol^-1" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Use \\(\\Delta G = \\Delta H - T\\Delta S\\). \\(T = 25 + 273 = 298\\,\\text{K}\\). So \\(\\Delta H = \\Delta G + T\\Delta S = -899 + 298\\times 10 = -899 + 2980 = 2081\\,\\text{J mol}^{-1}\\). This matches option A, not D."
+    },
+    {
+      "id": 28,
+      "question": "In an equilibrium reaction, which of the following conditions indicates that maximum yield of the product will be obtained?",
+      "options": [
+        { "id": "A", "text": "Equilibrium constant is very large" },
+        { "id": "B", "text": "\\(\\Delta H - T\\Delta S = 0\\)" },
+        { "id": "C", "text": "\\(\\Delta H > T\\Delta S\\)" },
+        { "id": "D", "text": "Equilibrium constant is less than zero" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A very large equilibrium constant means equilibrium lies far to the product side, giving maximum yield of products."
+    },
+    {
+      "id": 29,
+      "question": "In a chemical reaction, the change in concentration of a reactant with time is",
+      "options": [
+        { "id": "A", "text": "entropy of reaction" },
+        { "id": "B", "text": "enthalpy of reaction" },
+        { "id": "C", "text": "rate of reaction" },
+        { "id": "D", "text": "order of reaction" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Rate of reaction is defined as change in concentration per unit time."
+    },
+    {
+      "id": 30,
+      "question": "\\(\\text{Cr}_2\\text{O}_7^{2-}(aq) + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons 2\\text{CrO}_4^{2-}(aq) + 2\\text{H}^+_{(aq)}\\). What happens to the reaction above when the hydrogen ion concentration is increased?",
+      "options": [
+        { "id": "A", "text": "more of the products will be formed" },
+        { "id": "B", "text": "the reaction will not proceed" },
+        { "id": "C", "text": "the equilibrium position will shift to the right" },
+        { "id": "D", "text": "the equilibrium position will shift to the left." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Increasing \\([\\text{H}^+]\\) adds a product; by Le Châtelier’s principle the equilibrium shifts left to consume excess \\(\\text{H}^+\\), forming more dichromate."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following will liberate hydrogen from dilute tetraoxosulphate (VI) acid?",
+      "options": [
+        { "id": "A", "text": "Lead" },
+        { "id": "B", "text": "Magnesium" },
+        { "id": "C", "text": "Copper" },
+        { "id": "D", "text": "Gold" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Metals above hydrogen in the reactivity series displace hydrogen from dilute acids. Magnesium is above hydrogen; copper and gold are below, and lead is often protected by insoluble PbSO4."
+    },
+    {
+      "id": 32,
+      "instruction": "Use the diagram (figure Chem2014_Q32_Q33_Gas_Purification_Setup).",
+      "question": "In the diagram, the function of the concentrated \\(\\text{H}_2\\text{SO}_4\\) is to",
+      "options": [
+        { "id": "A", "text": "purify the gas" },
+        { "id": "B", "text": "dry the gas" },
+        { "id": "C", "text": "liquefy the gas" },
+        { "id": "D", "text": "remove odour" }
+      ],
+      "correctAnswer": "B",
+      "figureId": "Chem2014_Q32_Q33_Gas_Purification_Setup",
+      "explanation": "Concentrated \\(\\text{H}_2\\text{SO}_4\\) is a strong dehydrating agent used to remove water vapour, thus drying the gas."
+    },
+    {
+      "id": 33,
+      "instruction": "Use the diagram (figure Chem2014_Q32_Q33_Gas_Purification_Setup).",
+      "question": "The gas that is removed by the water in the flask is",
+      "options": [
+        { "id": "A", "text": "O2" },
+        { "id": "B", "text": "SO2" },
+        { "id": "C", "text": "HCl" },
+        { "id": "D", "text": "H2" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Chem2014_Q32_Q33_Gas_Purification_Setup",
+      "explanation": "In chlorine preparation, hydrogen chloride is a common impurity. Passing the gas through water removes HCl because it is very soluble, while chlorine is less soluble."
+    },
+    {
+      "id": 34,
+      "question": "Fluorine does not occur in the free state in nature because",
+      "options": [
+        { "id": "A", "text": "it is a poisonous gas" },
+        { "id": "B", "text": "it belongs to the halogen family" },
+        { "id": "C", "text": "it is inert" },
+        { "id": "D", "text": "of its high reactivity" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Fluorine is extremely reactive and quickly forms compounds (fluorides), so it is not found free in nature."
+    },
+    {
+      "id": 35,
+      "question": "In the extraction of sodium from fused sodium chloride, the anode is made of platinum because",
+      "options": [
+        { "id": "A", "text": "sodium is formed at the anode" },
+        { "id": "B", "text": "chlorine is formed at the anode" },
+        { "id": "C", "text": "sodium does not react with platinum" },
+        { "id": "D", "text": "chlorine does not react with platinum" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Chlorine is liberated at the anode and platinum is used because it is resistant to attack by chlorine."
+    },
+    {
+      "id": 36,
+      "question": "A compound that gives a brick-red colour to a non-luminous flame is likely to contain",
+      "options": [
+        { "id": "A", "text": "copper ions" },
+        { "id": "B", "text": "sodium ions" },
+        { "id": "C", "text": "calcium ions" },
+        { "id": "D", "text": "aluminium ions" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Calcium ions give a brick-red (orange-red) flame in flame tests."
+    },
+    {
+      "id": 37,
+      "question": "In the electrolytic extraction of calcium from calcium chloride, the cathode is",
+      "options": [
+        { "id": "A", "text": "zinc" },
+        { "id": "B", "text": "graphite" },
+        { "id": "C", "text": "platinum" },
+        { "id": "D", "text": "iron" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In the electrolysis of molten CaCl2, calcium metal is deposited at the cathode; iron/steel is commonly used as the cathode material in such setups (graphite is typically an anode)."
+    },
+    {
+      "id": 38,
+      "question": "A few drops of NaOH solution was added to an unknown salt forming a white precipitate which is insoluble in excess solution. The cation likely present is",
+      "options": [
+        { "id": "A", "text": "Zn2+" },
+        { "id": "B", "text": "Pb2+" },
+        { "id": "C", "text": "Ca2+" },
+        { "id": "D", "text": "Al3+" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Pb(OH)2 forms a white precipitate that is insoluble in excess NaOH under typical qualitative analysis conditions. (Zn(OH)2 and Al(OH)3 dissolve in excess NaOH.)"
+    },
+    {
+      "id": 39,
+      "question": "The general formula of haloalkanes where X represents the halide is",
+      "options": [
+        { "id": "A", "text": "CnH2n-1X" },
+        { "id": "B", "text": "CnH2nX" },
+        { "id": "C", "text": "CnH2n+2X" },
+        { "id": "D", "text": "CnH2n+1X" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Haloalkanes are derived from alkanes (\\(\\text{C}_n\\text{H}_{2n+2}\\)) by replacing one H with X, giving \\(\\text{C}_n\\text{H}_{2n+1}\\text{X}\\)."
+    },
+    {
+      "id": 40,
+      "instruction": "Use the structure (figure Chem2014_Q40_Organic_Structure_Haloalcohol).",
+      "question": "The IUPAC nomenclature of the compound above is",
+      "options": [
+        { "id": "A", "text": "2-bromo-3-chlorobutanol" },
+        { "id": "B", "text": "3-bromo-2-chlorobutanol" },
+        { "id": "C", "text": "3-chloro-2-bromobutanol" },
+        { "id": "D", "text": "2-chloro-3-bromobutanol" }
+      ],
+      "correctAnswer": "B",
+      "figureId": "Chem2014_Q40_Organic_Structure_Haloalcohol",
+      "explanation": "The parent chain is butanol with the -OH given the lowest possible number (butan-1-ol). Numbering from the OH end gives Cl at C2 and Br at C3. Substituents are listed alphabetically: bromo before chloro, giving 3-bromo-2-chlorobutanol."
+    },
+    {
+      "id": 41,
+      "question": "The alkanol obtained from the production of soap is",
+      "options": [
+        { "id": "A", "text": "propanol" },
+        { "id": "B", "text": "ethanol" },
+        { "id": "C", "text": "glycerol" },
+        { "id": "D", "text": "methanol" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Soap production (saponification of fats/oils) produces glycerol as the alcohol by-product."
+    },
+    {
+      "id": 42,
+      "question": "Ethyne is passed through a hot tube containing organo-nickel catalyst to produce",
+      "options": [
+        { "id": "A", "text": "isoprene" },
+        { "id": "B", "text": "polythene" },
+        { "id": "C", "text": "ethanol" },
+        { "id": "D", "text": "benzene" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Under suitable catalytic conditions, ethyne (acetylene) can trimerize to form benzene: \\(3\\text{C}_2\\text{H}_2 \\rightarrow \\text{C}_6\\text{H}_6\\)."
+    },
+    {
+      "id": 43,
+      "question": "Due to the unstable nature of ethyne, it is stored by dissolving in",
+      "options": [
+        { "id": "A", "text": "ethane-1,2-diol" },
+        { "id": "B", "text": "propanol" },
+        { "id": "C", "text": "ethanoic acid" },
+        { "id": "D", "text": "propanone" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ethyne is stored dissolved in acetone (propanone) in cylinders to reduce explosion risk."
+    },
+    {
+      "id": 44,
+      "question": "The process of converting starch to ethanol is",
+      "options": [
+        { "id": "A", "text": "cracking" },
+        { "id": "B", "text": "distillation" },
+        { "id": "C", "text": "fermentation" },
+        { "id": "D", "text": "oxidation" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Starch is first broken to sugars and then yeast fermentation converts sugars to ethanol and CO2."
+    },
+    {
+      "id": 45,
+      "question": "The polymer used in making car rear lights is",
+      "options": [
+        { "id": "A", "text": "Perspex" },
+        { "id": "B", "text": "Bakelite" },
+        { "id": "C", "text": "polystyrene" },
+        { "id": "D", "text": "polyacrylonitrile" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Perspex (PMMA) is a transparent, tough plastic used for lenses and light covers such as car rear lights."
+    },
+    {
+      "id": 46,
+      "question": "\\(\\text{CH}_3\\text{COOC}_2\\text{H}_5{}_{(l)} + \\text{H}_2\\text{O}_{(l)} \\rightleftharpoons \\text{CH}_3\\text{COOH}_{(aq)} + \\text{C}_2\\text{H}_5\\text{OH}_{(aq)}\\). The purpose of \\(\\text{H}^+\\) in the reaction above is to",
+      "options": [
+        { "id": "A", "text": "increase the yield of products" },
+        { "id": "B", "text": "maintain the solution at a constant pH" },
+        { "id": "C", "text": "increase the rate of the hydrolysis" },
+        { "id": "D", "text": "decrease the rate of the reverse reaction" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Acid (H+) catalyzes ester hydrolysis by lowering activation energy, increasing reaction rate without changing equilibrium position."
+    },
+    {
+      "id": 47,
+      "question": "A hydrocarbon has an empirical formula CH and a vapour density of 39. Determine its molecular formula. [C = 12, H = 1]",
+      "options": [
+        { "id": "A", "text": "C2H6" },
+        { "id": "B", "text": "C3H8" },
+        { "id": "C", "text": "C3H4" },
+        { "id": "D", "text": "C6H6" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Vapour density 39 implies molar mass \\(M = 2\\times 39 = 78\\). Empirical mass of CH is \\(12+1 = 13\\). Multiplier \\(= \\frac{78}{13} = 6\\). Molecular formula \\(= (\\text{CH})_6 = \\text{C}_6\\text{H}_6\\)."
+    },
+    {
+      "id": 48,
+      "question": "Polystyrene is widely used as packaging materials for fragile objects during transportation because of its",
+      "options": [
+        { "id": "A", "text": "lightness" },
+        { "id": "B", "text": "low density" },
+        { "id": "C", "text": "high density" },
+        { "id": "D", "text": "high compressibility" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Expanded polystyrene foam cushions shocks because it is easily compressed, absorbing impact energy to protect fragile objects."
+    },
+    {
+      "id": 49,
+      "question": "The process of converting linear alkanes to branched chain and cyclic hydrocarbons by heating in the presence of a catalyst to improve the quality of petrol is referred to as",
+      "options": [
+        { "id": "A", "text": "refining" },
+        { "id": "B", "text": "cracking" },
+        { "id": "C", "text": "reforming" },
+        { "id": "D", "text": "blending" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Catalytic reforming converts straight-chain hydrocarbons into branched/cyclic/aromatic hydrocarbons, increasing octane number."
+    },
+    {
+      "id": 50,
+      "question": "The petroleum fraction that is used in heating furnaces in industries is",
+      "options": [
+        { "id": "A", "text": "diesel oil" },
+        { "id": "B", "text": "gasoline" },
+        { "id": "C", "text": "kerosene" },
+        { "id": "D", "text": "lubricating oil" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Diesel (gas oil) is commonly used as fuel for industrial heating and furnaces compared with gasoline (motor fuel) and lubricating oil (non-fuel use)."
+    }
+  ]
+}
