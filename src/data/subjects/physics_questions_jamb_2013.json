@@ -1,0 +1,624 @@
+{
+  "year": 2013,
+  "subject": "Physics",
+  "paperType": "D",
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Phy2013_Q31_Refraction_Glass_Water",
+      "file": "upload_6.png",
+      "description": "Refraction diagram showing an interface with Glass (n = 1.52) and Water (n = 1.33), incident ray, normal, and refracted ray. Used in Question 31."
+    },
+    {
+      "id": "Phy2013_Q33_Optical_Instrument",
+      "file": "upload_6.png",
+      "description": "Ray diagram with two lenses (objective and eyepiece) and focal points marked (including Fe). Used in Question 33."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Question Paper Type of Physics is given to you?",
+      "options": [
+        { "id": "A", "text": "Type D" },
+        { "id": "B", "text": "Type I" },
+        { "id": "C", "text": "Type B" },
+        { "id": "D", "text": "Type U" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The header in the image clearly states \"PAPER TYPE: D\"."
+    },
+    {
+      "id": 2,
+      "question": "When a brick is taken from the earth’s surface to the moon, its mass",
+      "options": [
+        { "id": "A", "text": "remains constant" },
+        { "id": "B", "text": "reduces" },
+        { "id": "C", "text": "increases" },
+        { "id": "D", "text": "becomes zero" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mass is independent of location; only weight changes with the gravitational field."
+    },
+    {
+      "id": 3,
+      "question": "The resultant of two forces is 50 N. If the forces are perpendicular to each other and one of them makes an angle of 30° with the resultant, find its magnitude.",
+      "options": [
+        { "id": "A", "text": "100.0 N" },
+        { "id": "B", "text": "57.7 N" },
+        { "id": "C", "text": "43.3 N" },
+        { "id": "D", "text": "25.0 N" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Let the force be F and resultant be R. If F makes angle 30° with R, then \\(F = R\\cos 30^\\circ\\). So \\(F = 50\\times\\frac{\\sqrt{3}}{2} \\approx 43.3\\,N\\)."
+    },
+    {
+      "id": 4,
+      "question": "The pair of physical quantities that are scalar only are",
+      "options": [
+        { "id": "A", "text": "volume and area" },
+        { "id": "B", "text": "moment and momentum" },
+        { "id": "C", "text": "length and displacement" },
+        { "id": "D", "text": "impulse and time" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Volume and area are scalars. Moment (torque), momentum, displacement and impulse are vectors."
+    },
+    {
+      "id": 5,
+      "question": "A simple pendulum of length 0.4 m has a period of 2 s. What is the period a similar pendulum of length 0.8 m at the same place?",
+      "options": [
+        { "id": "A", "text": "8 s" },
+        { "id": "B", "text": "4 s" },
+        { "id": "C", "text": "\\(2\\sqrt{2}\\,s\\)" },
+        { "id": "D", "text": "\\(\\sqrt{2}\\,s\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For a pendulum, \\(T\\propto \\sqrt{L}\\). So \\(T_2=T_1\\sqrt{\\frac{0.8}{0.4}}=2\\sqrt{2}\\,s\\)."
+    },
+    {
+      "id": 6,
+      "question": "A train with an initial velocity of 20 m s\\(^{-1}\\) is subjected to a uniform deceleration of 2 m s\\(^{-2}\\). The time required to bring the train to a complete halt is",
+      "options": [
+        { "id": "A", "text": "5 s" },
+        { "id": "B", "text": "10 s" },
+        { "id": "C", "text": "20 s" },
+        { "id": "D", "text": "40 s" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Use \\(v=u+at\\). With \\(v=0\\), \\(u=20\\), \\(a=-2\\): \\(0=20-2t\\Rightarrow t=10\\,s\\)."
+    },
+    {
+      "id": 7,
+      "question": "Calculate the apparent weight loss of a man weighing 70 kg in an elevator moving downwards with an acceleration of 1.5 m s\\(^{-2}\\). [\\(g\\approx 10\\,m s^{-2}\\)]",
+      "options": [
+        { "id": "A", "text": "686 N" },
+        { "id": "B", "text": "595 N" },
+        { "id": "C", "text": "581 N" },
+        { "id": "D", "text": "1105 N" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Apparent weight (normal reaction) is \\(N=m(g-a)=70(10-1.5)=595\\,N\\). (The printed phrase “apparent weight loss” conflicts with the options; the computed apparent weight matches option B.)"
+    },
+    {
+      "id": 8,
+      "question": "A piece of cork floats in a liquid. What fraction of its volume will be immersed in the liquid? [Density of the cork = \\(0.25\\times 10^3\\,kg m^{-3}\\); density of the liquid = \\(1.25\\times 10^3\\,kg m^{-3}\\)]",
+      "options": [
+        { "id": "A", "text": "0.8" },
+        { "id": "B", "text": "0.5" },
+        { "id": "C", "text": "0.2" },
+        { "id": "D", "text": "0.1" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For floating equilibrium: fraction immersed \\(=\\rho_{cork}/\\rho_{liquid}=(0.25\\times 10^3)/(1.25\\times 10^3)=0.2\\)."
+    },
+    {
+      "id": 9,
+      "question": "An object is moving with a velocity of 5 m s\\(^{-1}\\). At what height must a similar body be situated to have a potential energy equal in value with kinetic energy of the moving body?",
+      "options": [
+        { "id": "A", "text": "25.0 m" },
+        { "id": "B", "text": "20.0 m" },
+        { "id": "C", "text": "1.3 m" },
+        { "id": "D", "text": "1.0 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Set \\(mgh = \\tfrac12 mv^2\\Rightarrow h=\\frac{v^2}{2g}=\\frac{25}{20}=1.25\\,m\\approx 1.3\\,m\\)."
+    },
+    {
+      "id": 10,
+      "question": "If a pump is capable of lifting 5000 kg of water through a vertical height of 60 m in 15 min, the power of the pump is",
+      "options": [
+        { "id": "A", "text": "\\(2.5\\times 10^{5}\\,J s^{-1}\\)" },
+        { "id": "B", "text": "\\(2.5\\times 10^{4}\\,J s^{-1}\\)" },
+        { "id": "C", "text": "\\(3.3\\times 10^{3}\\,J s^{-1}\\)" },
+        { "id": "D", "text": "\\(3.3\\times 10^{2}\\,J s^{-1}\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Work \\(W=mgh=5000\\times 10\\times 60=3.0\\times 10^6\\,J\\). Time \\(t=15\\,min=900\\,s\\). Power \\(P=W/t=3.0\\times 10^6/900\\approx 3.3\\times 10^3\\,W\\)."
+    },
+    {
+      "id": 11,
+      "question": "The coefficient of friction between two perfectly smooth surface is",
+      "options": [
+        { "id": "A", "text": "infinity" },
+        { "id": "B", "text": "one" },
+        { "id": "C", "text": "half" },
+        { "id": "D", "text": "zero" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Perfectly smooth implies no friction, so coefficient is 0."
+    },
+    {
+      "id": 12,
+      "question": "What effort will a machine of efficiency 90% apply to lift a load of 180 N if its effort arm is twice as long as its load arm?",
+      "options": [
+        { "id": "A", "text": "80 N" },
+        { "id": "B", "text": "90 N" },
+        { "id": "C", "text": "100 N" },
+        { "id": "D", "text": "120 N" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Velocity ratio \\(VR=2\\). Efficiency \\(\\eta=\\frac{MA}{VR}\\Rightarrow MA=\\eta\\,VR=0.9\\times 2=1.8\\). Effort \\(E=\\frac{L}{MA}=\\frac{180}{1.8}=100\\,N\\)."
+    },
+    {
+      "id": 13,
+      "question": "Calculate the work done when a force of 20 N stretches a spring by 50 mm.",
+      "options": [
+        { "id": "A", "text": "0.5 J" },
+        { "id": "B", "text": "1.5 J" },
+        { "id": "C", "text": "2.0 J" },
+        { "id": "D", "text": "2.5 J" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Work in stretching a spring: \\(W=\\tfrac12 Fx\\). With \\(F=20\\,N\\), \\(x=0.05\\,m\\): \\(W=\\tfrac12\\times 20\\times 0.05=0.5\\,J\\)."
+    },
+    {
+      "id": 14,
+      "question": "At what depth below the sea-level would one experience a change of pressure equal to one atmosphere? [Density of sea water = \\(10^3\\,kg m^{-3}\\); one atmosphere = \\(0.01\\times 10^5\\,N m^{-2}\\); \\(g=10\\,m s^{-2}\\)]",
+      "options": [
+        { "id": "A", "text": "0.1 m" },
+        { "id": "B", "text": "1.0 m" },
+        { "id": "C", "text": "10.0 m" },
+        { "id": "D", "text": "100.0 m" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Use \\(\\Delta P=\\rho gh\\Rightarrow h=\\frac{\\Delta P}{\\rho g}=\\frac{0.01\\times 10^5}{10^3\\times 10}=\\frac{1000}{10000}=0.1\\,m\\)."
+    },
+    {
+      "id": 15,
+      "question": "What volume of alcohol will have same mass as 4.2 m\\(^3\\) of petrol?",
+      "options": [
+        { "id": "A", "text": "0.8 m\\(^3\\)" },
+        { "id": "B", "text": "1.4 m\\(^3\\)" },
+        { "id": "C", "text": "3.6 m\\(^3\\)" },
+        { "id": "D", "text": "4.9 m\\(^3\\)" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The required densities of petrol and alcohol are not shown in the provided image; without densities, the volume of alcohol cannot be computed."
+    },
+    {
+      "id": 16,
+      "question": "Calculate the length which corresponds to a temperature of 20°C if the used steam points of an ungraduated thermometer are 400 mm apart.",
+      "options": [
+        { "id": "A", "text": "20 mm" },
+        { "id": "B", "text": "30 mm" },
+        { "id": "C", "text": "60 mm" },
+        { "id": "D", "text": "80 mm" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Linear scale: 0–100°C corresponds to 400 mm. For 20°C: \\(\\frac{20}{100}\\times 400=80\\,mm\\)."
+    },
+    {
+      "id": 17,
+      "question": "A wire of length 100.0 m at 30°C has linear expansivity of \\(2\\times 10^{-5}\\,K^{-1}\\). Calculate the length of the wire at a temperature of -10°C.",
+      "options": [
+        { "id": "A", "text": "100.08 m" },
+        { "id": "B", "text": "100.04 m" },
+        { "id": "C", "text": "99.96 m" },
+        { "id": "D", "text": "99.92 m" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Temperature drop \\(\\Delta T=-40\\,K\\). \\(\\Delta L=\\alpha L\\Delta T=(2\\times 10^{-5})(100)(-40)=-0.08\\,m\\). New length = 99.92 m."
+    },
+    {
+      "id": 18,
+      "question": "A gas at a pressure of \\(10^5\\,N m^{-2}\\) expands from 0.6 m\\(^3\\) to 1.2 m\\(^3\\) at constant temperature, the work done is",
+      "options": [
+        { "id": "A", "text": "\\(7.0\\times 10^{6}\\,J\\)" },
+        { "id": "B", "text": "\\(6.0\\times 10^{6}\\,J\\)" },
+        { "id": "C", "text": "\\(6.0\\times 10^{5}\\,J\\)" },
+        { "id": "D", "text": "\\(6.0\\times 10^{4}\\,J\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Using the only computable work expression from given data: \\(W=P\\Delta V\\) with \\(P=10^5\\) and \\(\\Delta V=0.6\\): \\(W=10^5\\times 0.6=6.0\\times 10^4\\,J\\). (Note: true isothermal work requires \\(n\\) and uses \\(nRT\\ln(V_2/V_1)\\), which are not provided.)"
+    },
+    {
+      "id": 19,
+      "question": "Two liquids X and Y having the same mass are supplied with the same quantity of heat. If the temperature rise in X is twice that of Y, the ratio of specific heat capacity of X to that of Y is",
+      "options": [
+        { "id": "A", "text": "2:1" },
+        { "id": "B", "text": "1:2" },
+        { "id": "C", "text": "4:1" },
+        { "id": "D", "text": "1:4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Since \\(Q=mc\\Delta T\\) and Q,m same, \\(c\\propto 1/\\Delta T\\). If \\(\\Delta T_X=2\\Delta T_Y\\), then \\(c_X=\\tfrac{1}{2}c_Y\\Rightarrow 1:2\\)."
+    },
+    {
+      "id": 20,
+      "question": "Foods cook quicker in salt water than in pure water because of the effect of",
+      "options": [
+        { "id": "A", "text": "dissolved substances on the boiling point" },
+        { "id": "B", "text": "atmospheric pressure on the boiling point" },
+        { "id": "C", "text": "food nutrients on the thermal energy" },
+        { "id": "D", "text": "salts on the thermal conductivity of water" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Salt raises boiling point (boiling point elevation), allowing higher cooking temperature."
+    },
+    {
+      "id": 21,
+      "question": "Steam from boiling water causes more damage on the skin than does boiling water because",
+      "options": [
+        { "id": "A", "text": "water has a high specific heat" },
+        { "id": "B", "text": "steam has latent heat of fusion" },
+        { "id": "C", "text": "the steam is at higher temperature than the water" },
+        { "id": "D", "text": "steam brings heat more easily by convection" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Physically correct reason: steam releases latent heat of vaporization upon condensing on the skin. None of the options states this (option B incorrectly says latent heat of fusion). Therefore no option accurately matches the correct explanation."
+    },
+    {
+      "id": 22,
+      "question": "What will happen to the boiling point of pure water when it is heated in a place 30 m below sea level?",
+      "options": [
+        { "id": "A", "text": "It will be more than 100°C" },
+        { "id": "B", "text": "It will be less than 100°C" },
+        { "id": "C", "text": "It will still be at 100°C" },
+        { "id": "D", "text": "It will be fluctuating" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Below sea level, atmospheric pressure is higher, increasing boiling point."
+    },
+    {
+      "id": 23,
+      "question": "The rise or fall of liquid in a narrow tube is because of the",
+      "options": [
+        { "id": "A", "text": "viscosity of the liquid" },
+        { "id": "B", "text": "surface tension of the liquid" },
+        { "id": "C", "text": "friction between the walls of the tube and the liquid" },
+        { "id": "D", "text": "osmotic pressure of the liquid" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Capillary action is due to surface tension (and adhesion)."
+    },
+    {
+      "id": 24,
+      "question": "The mechanism of heat transfer from one point to another through the vibration of the molecules of the medium is",
+      "options": [
+        { "id": "A", "text": "convection" },
+        { "id": "B", "text": "conduction" },
+        { "id": "C", "text": "radiation" },
+        { "id": "D", "text": "diffusion" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Conduction occurs by molecular vibration/collisions without bulk movement."
+    },
+    {
+      "id": 25,
+      "question": "A wave travels through stretched strings is known as",
+      "options": [
+        { "id": "A", "text": "electromagnetic wave" },
+        { "id": "B", "text": "micro wave" },
+        { "id": "C", "text": "mechanical wave" },
+        { "id": "D", "text": "seismic wave" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Waves on strings require a medium → mechanical."
+    },
+    {
+      "id": 26,
+      "question": "A transverse wave and a longitudinal wave travelling in the same direction in a medium differ essentially in their",
+      "options": [
+        { "id": "A", "text": "frequency" },
+        { "id": "B", "text": "amplitude" },
+        { "id": "C", "text": "direction of vibration of the particles of the medium" },
+        { "id": "D", "text": "period of vibration of the particles of the medium" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Transverse: vibration ⟂ propagation; longitudinal: vibration ∥ propagation."
+    },
+    {
+      "id": 27,
+      "question": "What is the velocity of sound at 100°C, if the velocity of sound at 0°C is 340 m s^-1?",
+      "options": [
+        { "id": "A", "text": "497 m s^-1" },
+        { "id": "B", "text": "440 m s^-1" },
+        { "id": "C", "text": "397 m s^-1" },
+        { "id": "D", "text": "240 m s^-1" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Using \\(v\\propto\\sqrt{T}\\): \\(v_2=340\\sqrt{\\frac{373}{273}}\\approx 397\\,m s^{-1}\\)."
+    },
+    {
+      "id": 28,
+      "question": "If a sonometer has a fundamental frequency of 450 Hz, what is the frequency of the fifth overtone?",
+      "options": [
+        { "id": "A", "text": "2700 Hz" },
+        { "id": "B", "text": "456 Hz" },
+        { "id": "C", "text": "44 Hz" },
+        { "id": "D", "text": "75 Hz" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "5th overtone = 6th harmonic = \\(6\\times 450=2700\\,Hz\\)."
+    },
+    {
+      "id": 29,
+      "question": "A man 1.5 m tall is standing 3 m in front of a pinhole camera whose distance between the hole and the screen is 0.1 m. What is the height of the image of the man on the screen?",
+      "options": [
+        { "id": "A", "text": "0.05 m" },
+        { "id": "B", "text": "0.15 m" },
+        { "id": "C", "text": "0.30 m" },
+        { "id": "D", "text": "1.00 m" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Similar triangles: \\(\\frac{h_i}{h_o}=\\frac{v}{u}=\\frac{0.1}{3}\\). \\(h_i=1.5\\times\\frac{0.1}{3}=0.05\\,m\\)."
+    },
+    {
+      "id": 30,
+      "question": "A ray of light passing through the centre of curvature of a concave mirror is reflected by the mirror at",
+      "options": [
+        { "id": "A", "text": "0°" },
+        { "id": "B", "text": "45°" },
+        { "id": "C", "text": "90°" },
+        { "id": "D", "text": "180°" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "It strikes normally and retraces its path, so incidence angle is 0°."
+    },
+    {
+      "id": 31,
+      "instruction": "Use the diagram (figure Phy2013_Q31_Refraction_Glass_Water).",
+      "question": "From the diagram below, calculate the incident angle i.",
+      "options": [
+        { "id": "A", "text": "41°" },
+        { "id": "B", "text": "49°" },
+        { "id": "C", "text": "55°" },
+        { "id": "D", "text": "61°" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Phy2013_Q31_Refraction_Glass_Water",
+      "explanation": "Snell’s law requires both indices and either incident or refracted angle. While n values are shown (1.52 and 1.33), the necessary angle marking is not legible in the provided image, so i cannot be computed reliably."
+    },
+    {
+      "id": 32,
+      "question": "Total internal reflection will not occur when light travels from",
+      "options": [
+        { "id": "A", "text": "water to air" },
+        { "id": "B", "text": "water into glass" },
+        { "id": "C", "text": "glass to air" },
+        { "id": "D", "text": "glass into water" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "TIR requires travel from denser to less dense. Water→glass is less→more dense, so TIR cannot occur."
+    },
+    {
+      "id": 33,
+      "instruction": "Use the diagram (figure Phy2013_Q33_Optical_Instrument).",
+      "question": "What does the diagram above represent?",
+      "options": [
+        { "id": "A", "text": "telescope in normal use" },
+        { "id": "B", "text": "microscope in normal use" },
+        { "id": "C", "text": "telescope in abnormal use" },
+        { "id": "D", "text": "microscope in abnormal use" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Phy2013_Q33_Optical_Instrument",
+      "explanation": "The diagram is too unclear to confidently distinguish microscope vs telescope and normal vs abnormal adjustment from the uploaded image."
+    },
+    {
+      "id": 34,
+      "question": "If the linear magnification of the objective and eyepiece convex lenses of a compound microscope are 4 and 7 respectively, calculate the angular magnification of the microscope.",
+      "options": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "11" },
+        { "id": "D", "text": "28" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Total magnification = objective magnification × eyepiece magnification = \\(4\\times 7=28\\)."
+    },
+    {
+      "id": 35,
+      "question": "The angle of deviation of light of various colours passing through a triangular prism increases in the order",
+      "options": [
+        { "id": "A", "text": "red → green → blue" },
+        { "id": "B", "text": "green → violet → blue" },
+        { "id": "C", "text": "blue → red → green" },
+        { "id": "D", "text": "blue → green → red" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Deviation increases with refractive index; red deviates least and blue/violet more. The given increasing order among the listed is red → green → blue."
+    },
+    {
+      "id": 36,
+      "question": "Calculate the force acting on an electron of charge \\(1.5\\times 10^{-19}\\,C\\) placed in an electric field of intensity \\(10^5\\,V m^{-1}\\).",
+      "options": [
+        { "id": "A", "text": "\\(1.5\\times 10^{-11}\\,N\\)" },
+        { "id": "B", "text": "\\(1.5\\times 10^{-12}\\,N\\)" },
+        { "id": "C", "text": "\\(1.5\\times 10^{-13}\\,N\\)" },
+        { "id": "D", "text": "\\(1.5\\times 10^{-14}\\,N\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Force \\(F=qE=(1.5\\times 10^{-19})(10^5)=1.5\\times 10^{-14}\\,N\\)."
+    },
+    {
+      "id": 37,
+      "question": "Capacitors are used in the induction coil to",
+      "options": [
+        { "id": "A", "text": "control circuits" },
+        { "id": "B", "text": "dissipate energy" },
+        { "id": "C", "text": "prevent electric sparks" },
+        { "id": "D", "text": "prevent distortion of electric fields" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "They reduce sparking at the contact breaker by absorbing induced emf."
+    },
+    {
+      "id": 38,
+      "question": "A cell of emf 1.5 V is connected in series with a 1 Ω resistor and a current of 0.3 A flows through the resistor. Find the internal resistance of the cell.",
+      "options": [
+        { "id": "A", "text": "4 Ω" },
+        { "id": "B", "text": "3.0 Ω" },
+        { "id": "C", "text": "1.5 Ω" },
+        { "id": "D", "text": "1.00 Ω" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Total resistance \\(R+r=\\frac{E}{I}=\\frac{1.5}{0.3}=5\\,\\Omega\\). With external \\(R=1\\,\\Omega\\), internal \\(r=5-1=4\\,\\Omega\\)."
+    },
+    {
+      "id": 39,
+      "question": "Which of the following obeys ohms law?",
+      "options": [
+        { "id": "A", "text": "electrolytes" },
+        { "id": "B", "text": "metals" },
+        { "id": "C", "text": "diode" },
+        { "id": "D", "text": "glass" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Metals behave approximately ohmically (linear V–I) at constant temperature."
+    },
+    {
+      "id": 40,
+      "question": "A house has ten 40 W and five 100 W bulbs. How much will it cost the owner of the house to keep them lit for 10 hours if the cost of a unit is N5?",
+      "options": [
+        { "id": "A", "text": "N90" },
+        { "id": "B", "text": "N50" },
+        { "id": "C", "text": "N45" },
+        { "id": "D", "text": "N40" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Total power \\(P=10\\times 40 + 5\\times 100 = 900\\,W = 0.9\\,kW\\). Energy in 10 h: \\(E=0.9\\times 10 = 9\\,kWh\\). Cost = \\(9\\times 5 = N45\\)."
+    },
+    {
+      "id": 41,
+      "question": "An electric device is rated 2000 W, 250 V. Calculate the maximum current it can take.",
+      "options": [
+        { "id": "A", "text": "9 A" },
+        { "id": "B", "text": "8 A" },
+        { "id": "C", "text": "7 A" },
+        { "id": "D", "text": "6 A" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Current \\(I=\\frac{P}{V}=\\frac{2000}{250}=8\\,A\\)."
+    },
+    {
+      "id": 42,
+      "question": "When a charge moves through an electric circuit in the direction of an electric force, it ____",
+      "options": [
+        { "id": "A", "text": "gains both potential and kinetic energy" },
+        { "id": "B", "text": "gains potential energy and kinetic energy" },
+        { "id": "C", "text": "loses potential energy and gains kinetic energy" },
+        { "id": "D", "text": "loses both potential and kinetic energy" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A charge moving along the electric force moves to lower potential, so electrical potential energy decreases and converts to kinetic energy (then dissipates)."
+    },
+    {
+      "id": 43,
+      "question": "To convert a galvanometer to voltmeter, a ____",
+      "options": [
+        { "id": "A", "text": "high resistance is connected to it in series" },
+        { "id": "B", "text": "high resistance is connected to it in parallel" },
+        { "id": "C", "text": "low resistance is connected to it in series" },
+        { "id": "D", "text": "low resistance is connected to it in parallel" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A large series resistor limits current so the galvanometer can measure voltage."
+    },
+    {
+      "id": 44,
+      "question": "Induced emfs are best explained using",
+      "options": [
+        { "id": "A", "text": "Ohm’s law" },
+        { "id": "B", "text": "Faraday’s law" },
+        { "id": "C", "text": "Coulomb’s law" },
+        { "id": "D", "text": "Lenz’s law" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Faraday’s law gives \\(\\mathcal{E} = -\\frac{d\\Phi}{dt}\\), explaining induced emf quantitatively."
+    },
+    {
+      "id": 45,
+      "question": "If a current of 2.5 A flows through an electrolyte for 3 hours and 1.8 g of a substance is deposited, what is the mass of the substance that will be deposited if a current of 4 A flows through it for 4.8 hours?",
+      "options": [
+        { "id": "A", "text": "2.4 g" },
+        { "id": "B", "text": "3.2 g" },
+        { "id": "C", "text": "4.6 g" },
+        { "id": "D", "text": "4.8 g" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Since \\(m\\propto It\\): \\(m_2 = 1.8\\times\\frac{4\\times 4.8}{2.5\\times 3}=1.8\\times 2.56=4.608\\,g\\approx 4.6\\,g\\)."
+    },
+    {
+      "id": 46,
+      "question": "Calculate the energy of the third level of an atom if the ground state energy is -24 eV",
+      "options": [
+        { "id": "A", "text": "-9.20 eV" },
+        { "id": "B", "text": "-8.20 eV" },
+        { "id": "C", "text": "-2.75 eV" },
+        { "id": "D", "text": "-1.75 eV" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Using \\(E_n=\\frac{E_1}{n^2}\\): \\(E_3=-\\frac{24}{9}=-2.67\\,eV\\). None of the options equals -2.67 eV; the closest is -2.75 eV (C), but the exact value from the given ground state energy is -2.67 eV."
+    },
+    {
+      "id": 47,
+      "question": "In photo-emission, the number of photoelectrons ejected per second depends on the ____",
+      "options": [
+        { "id": "A", "text": "frequency of the beam" },
+        { "id": "B", "text": "work function of the metal" },
+        { "id": "C", "text": "threshold frequency of the metal" },
+        { "id": "D", "text": "intensity of the beam" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "For frequency above threshold, emission rate depends on photon flux (intensity)."
+    },
+    {
+      "id": 48,
+      "question": "The particle nature of light is demonstrated by the",
+      "options": [
+        { "id": "A", "text": "photoelectric effect" },
+        { "id": "B", "text": "speed of light" },
+        { "id": "C", "text": "colours of light" },
+        { "id": "D", "text": "diffraction of light" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Photoelectric effect requires quantized photons."
+    },
+    {
+      "id": 49,
+      "question": "The energy of a photon having a wavelength of \\(10^{-10}\\,m\\) is (\\(h = 6.63\\times 10^{-34}\\,J s\\), \\(c = 3.0\\times 10^8\\,m s^{-1}\\))",
+      "options": [
+        { "id": "A", "text": "\\(2.0\\times 10^{-15}\\,J\\)" },
+        { "id": "B", "text": "\\(1.7\\times 10^{-13}\\,J\\)" },
+        { "id": "C", "text": "\\(2.0\\times 10^{-12}\\,J\\)" },
+        { "id": "D", "text": "\\(1.7\\times 10^{-12}\\,J\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Photon energy \\(E=\\frac{hc}{\\lambda}=\\frac{(6.63\\times 10^{-34})(3.0\\times 10^8)}{10^{-10}}=1.989\\times 10^{-15}\\,J\\approx 2.0\\times 10^{-15}\\,J\\)."
+    },
+    {
+      "id": 50,
+      "question": "The bond between silicon and germanium is ____",
+      "options": [
+        { "id": "A", "text": "dative" },
+        { "id": "B", "text": "covalent" },
+        { "id": "C", "text": "trivalent" },
+        { "id": "D", "text": "ionic" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Si and Ge are Group 14 elements; bonding between them is by electron sharing (covalent)."
+    }
+  ]
+}
