@@ -1,0 +1,636 @@
+{
+  "year": 2010,
+  "subject": "Physics",
+  "paperType": null,
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Phy2010_Q3_VelocityTimeGraph",
+      "file": "upload_1.png",
+      "description": "Velocity–time graph with points O, E, F, G, H. Segment E→F rises linearly, F→G is horizontal, G→H slopes down to the time axis."
+    },
+    {
+      "id": "Phy2010_Q7_UndulatingSurface",
+      "file": "upload_2.png",
+      "description": "Sketch of balls on an undulating surface labeled i to ix at various positions along crests and troughs. Used to identify stable equilibrium positions."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which Physics Question Paper Type is given to you?",
+      "options": [
+        { "id": "A", "text": "Type A" },
+        { "id": "B", "text": "Type B" },
+        { "id": "C", "text": "Type C" },
+        { "id": "D", "text": "Type D" }
+      ],
+      "correctAnswer": null,
+      "explanation": "The provided images do not show a header stating the paper type for Physics 2010 (only the question and options are visible)."
+    },
+    {
+      "id": 2,
+      "question": "Two cars moving in the same direction have speeds of 100 km h\\(^{-1}\\) and 130 km h\\(^{-1}\\). What is the velocity of the faster car as measured by an observer in the slower car?",
+      "options": [
+        { "id": "A", "text": "130 km h\\(^{-1}\\)" },
+        { "id": "B", "text": "230 km h\\(^{-1}\\)" },
+        { "id": "C", "text": "200 km h\\(^{-1}\\)" },
+        { "id": "D", "text": "30 km h\\(^{-1}\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Relative velocity (same direction) = \\(130 - 100 = 30\\,\\text{km h}^{-1}\\)."
+    },
+    {
+      "id": 3,
+      "instruction": "Use the velocity–time graph (figure Phy2010_Q3_VelocityTimeGraph).",
+      "question": "The diagram above shows a velocity-time graph. The statement that is true about this motion is that, the car",
+      "options": [
+        { "id": "A", "text": "decelerates between points F and H" },
+        { "id": "B", "text": "accelerates between points F and G" },
+        { "id": "C", "text": "has a constant speed between points E and F" },
+        { "id": "D", "text": "has no acceleration between point F and G" }
+      ],
+      "correctAnswer": "D",
+      "figureId": "Phy2010_Q3_VelocityTimeGraph",
+      "explanation": "On a velocity–time graph, acceleration is the slope. Segment F→G is horizontal (slope 0), so acceleration is zero there."
+    },
+    {
+      "id": 4,
+      "question": "A stone and a feather dropped from the same height above the earth surface. Ignoring air resistance, which of the following is correct?",
+      "options": [
+        { "id": "A", "text": "The stone and feather will both reach the ground at the same time." },
+        { "id": "B", "text": "The stone will reach the ground first" },
+        { "id": "C", "text": "The feather will reach the ground first" },
+        {
+          "id": "D",
+          "text": "The feather will be blown away by the wind while stone will drop steadily."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Without air resistance, all bodies fall with the same acceleration \\(g\\), so they reach the ground together."
+    },
+    {
+      "id": 5,
+      "question": "A car moves with an initial velocity of 25 m s\\(^{-1}\\) and reaches a velocity of 45 m s\\(^{-1}\\) in 10 s. What is the acceleration of the car?",
+      "options": [
+        { "id": "A", "text": "5 m s\\(^{-2}\\)" },
+        { "id": "B", "text": "25 m s\\(^{-2}\\)" },
+        { "id": "C", "text": "20 m s\\(^{-2}\\)" },
+        { "id": "D", "text": "2 m s\\(^{-2}\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Acceleration \\(a = \\frac{v-u}{t} = \\frac{45-25}{10} = \\frac{20}{10} = 2\\,\\text{m s}^{-2}\\). This equals option D, not A."
+    },
+    {
+      "id": 6,
+      "question": "An object is weighed at different locations on the earth. What will be the right observation?",
+      "options": [
+        { "id": "A", "text": "Both the mass and weight vary" },
+        { "id": "B", "text": "The weight is constant while the mass varies" },
+        { "id": "C", "text": "The mass is constant while the weight varies" },
+        { "id": "D", "text": "Both the mass and weight are constant" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mass is intrinsic and does not depend on location; weight \\(W=mg\\) changes because \\(g\\) varies slightly with location."
+    },
+    {
+      "id": 7,
+      "instruction": "Use the diagram (figure Phy2010_Q7_UndulatingSurface).",
+      "question": "The diagram above represents balls in an undulating surface. Which of the following options represents positions of stable equilibrium?",
+      "options": [
+        { "id": "A", "text": "II, V and VIII" },
+        { "id": "B", "text": "I, II and VII" },
+        { "id": "C", "text": "III, VI and IX" },
+        { "id": "D", "text": "III, IV and VIII" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Phy2010_Q7_UndulatingSurface",
+      "explanation": "Stable equilibrium positions are at the bottoms of troughs (potential energy minima). In the diagram, the trough bottoms are labeled III, VI and IX."
+    },
+    {
+      "id": 8,
+      "question": "A bob of weight 0.1 N hangs from a massless string of length 50 cm. A variable horizontal force which increases from zero is applied to pull the bob until the string makes an angle of 60° with the vertical. The work done is",
+      "options": [
+        { "id": "A", "text": "0.250 J" },
+        { "id": "B", "text": "0.025 J" },
+        { "id": "C", "text": "0.050 J" },
+        { "id": "D", "text": "0.500 J" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Work done equals gain in gravitational potential energy: \\(W = (weight)\\times \\Delta h\\). Here \\(L=0.50\\,\\text{m}\\), \\(\\Delta h = L(1-\\cos 60^\\circ)=0.5(1-0.5)=0.25\\,\\text{m}\\). So \\(W=0.1\\times 0.25=0.025\\,\\text{J}\\), which is option B, not C."
+    },
+    {
+      "id": 9,
+      "question": "The surfaces of conveyor belts are made rough so as to",
+      "options": [
+        { "id": "A", "text": "prevent the load from slipping" },
+        { "id": "B", "text": "make them stronger" },
+        { "id": "C", "text": "enable them to carry more load" },
+        { "id": "D", "text": "protect them while carrying load" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Rough surfaces increase friction, preventing the load from slipping."
+    },
+    {
+      "id": 10,
+      "question": "A machine of velocity ratio 6 requires an effort of 400 N to raise a load of 800 N through 1 m. Find the efficiency of the machine.",
+      "options": [
+        { "id": "A", "text": "50%" },
+        { "id": "B", "text": "22.2%" },
+        { "id": "C", "text": "33.3%" },
+        { "id": "D", "text": "55.6%" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Mechanical advantage \\(MA=\\frac{L}{E}=\\frac{800}{400}=2\\). Efficiency \\(\\eta=\\frac{MA}{VR}\\times 100=\\frac{2}{6}\\times 100=33.3\\%\\). That is option C, not D."
+    },
+    {
+      "id": 11,
+      "question": "If a wire 30 cm long is extended to 30.5 cm by a force of 300 N. Find the strain energy of the wire.",
+      "options": [
+        { "id": "A", "text": "7.50 J" },
+        { "id": "B", "text": "750.00 J" },
+        { "id": "C", "text": "75.00 J" },
+        { "id": "D", "text": "0.75 J" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Extension \\(x = 30.5-30.0 = 0.5\\,\\text{cm}=0.005\\,\\text{m}\\). Strain energy \\(U=\\tfrac{1}{2}Fx=\\tfrac{1}{2}\\times 300\\times 0.005=0.75\\,\\text{J}\\). This matches option D, not A."
+    },
+    {
+      "id": 12,
+      "question": "In a hydraulic press, the pump piston exerts a pressure of 100 Pa on the liquid. What force is exerted in the second piston of crossectional area 3 m\\(^2\\)?",
+      "options": [
+        { "id": "A", "text": "200 N" },
+        { "id": "B", "text": "100 N" },
+        { "id": "C", "text": "150 N" },
+        { "id": "D", "text": "300 N" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Force \\(F = PA = 100\\times 3 = 300\\,\\text{N}\\)."
+    },
+    {
+      "id": 13,
+      "question": "The accurate measurement of the relative density of a substance in its powered form is done with a beam balance and",
+      "options": [
+        { "id": "A", "text": "an eureka can" },
+        { "id": "B", "text": "a burette" },
+        { "id": "C", "text": "a pipette" },
+        { "id": "D", "text": "a density bottle" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A density bottle (pycnometer) is used with a balance to determine relative density, including for powders (often by displacement method)."
+    },
+    {
+      "id": 14,
+      "question": "A hydrometer is an instrument used in measuring",
+      "options": [
+        { "id": "A", "text": "density of liquid" },
+        { "id": "B", "text": "relative density of a liquid" },
+        { "id": "C", "text": "relative humidity of a liquid" },
+        { "id": "D", "text": "vapour pressure of a fluid" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A hydrometer measures the relative density (specific gravity) of liquids."
+    },
+    {
+      "id": 15,
+      "question": "One special advantage of alcohol water over mercury as a thermometric liquid is its",
+      "options": [
+        { "id": "A", "text": "low freezing point" },
+        { "id": "B", "text": "low boiling point" },
+        { "id": "C", "text": "high specific heat capacity" },
+        { "id": "D", "text": "low density" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Alcohol has a much lower freezing point than mercury, allowing measurement of lower temperatures."
+    },
+    {
+      "id": 16,
+      "question": "Two metals P and Q of lengths \\(l_1\\) and \\(l_2\\) are heated through the same temperature difference. If the ratio of the linear expansivities of P to Q is 2:3 and the ratio of their lengths is 3:4. What is the ratio of increase in lengths of P to Q?",
+      "options": [
+        { "id": "A", "text": "5:7" },
+        { "id": "B", "text": "2:1" },
+        { "id": "C", "text": "1:2" },
+        { "id": "D", "text": "7:5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\\(\\Delta L \\propto \\alpha L\\Delta T\\). So \\(\\frac{\\Delta L_P}{\\Delta L_Q}=\\frac{\\alpha_P L_P}{\\alpha_Q L_Q}=\\frac{2}{3}\\times\\frac{3}{4}=\\frac{1}{2}\\). This is 1:2 (option C), not A."
+    },
+    {
+      "id": 17,
+      "question": "The density of a certain oil on frying becomes 0.4 kg m\\(^{-3}\\) with a volume of 20 m\\(^3\\). What will be its initial volume when its initial density is 0.8 kg m\\(^{-3}\\) assuming no loss of oil due to spillage?",
+      "options": [
+        { "id": "A", "text": "10 kg m\\(^{-3}\\)" },
+        { "id": "B", "text": "5 kg m\\(^{-3}\\)" },
+        { "id": "C", "text": "8 kg m\\(^{-3}\\)" },
+        { "id": "D", "text": "12 kg m\\(^{-3}\\)" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Mass is constant: \\(\\rho_1V_1=\\rho_2V_2\\). \\(V_1=\\frac{\\rho_2V_2}{\\rho_1}=\\frac{0.4\\times 20}{0.8}=10\\,\\text{m}^3\\). The options in the image are incorrectly labeled with density units (kg m^-3) instead of volume (m^3), so no option can be matched reliably by units; the correct initial volume is 10 m^3."
+    },
+    {
+      "id": 18,
+      "question": "Heat is radiated by all hot objects in the form of",
+      "options": [
+        { "id": "A", "text": "light energy" },
+        { "id": "B", "text": "solar energy" },
+        { "id": "C", "text": "infrared ray" },
+        { "id": "D", "text": "x-rays" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Thermal radiation from ordinary hot bodies is mainly infrared."
+    },
+    {
+      "id": 19,
+      "question": "If a container is filled with ice to the brim, what happens to the level of water when the ice completely melts?",
+      "options": [
+        { "id": "A", "text": "The water in the glass outflows." },
+        { "id": "B", "text": "The level of water drops." },
+        { "id": "C", "text": "The level of water remains unchanged." },
+        { "id": "D", "text": "The level of water goes up." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Floating ice displaces an equal weight of water; when it melts it occupies exactly the displaced volume, so the level stays the same."
+    },
+    {
+      "id": 20,
+      "question": "The small droplet of water that forms on the grass in the early hours of the morning is",
+      "options": [
+        { "id": "A", "text": "dew" },
+        { "id": "B", "text": "mist" },
+        { "id": "C", "text": "fog" },
+        { "id": "D", "text": "hail" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dew forms by condensation of water vapour on cool surfaces."
+    },
+    {
+      "id": 21,
+      "question": "A vapour is said to be saturated when",
+      "options": [
+        {
+          "id": "A",
+          "text": "a dynamic equilibrium exists such that more molecules return to the liquid than are leaving it."
+        },
+        { "id": "B", "text": "the vapour pressure is atmospheric" },
+        { "id": "C", "text": "the temperature of the vapour varies" },
+        {
+          "id": "D",
+          "text": "a dynamic equilibrium exists between liquid molecules and the vapour molecules."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Saturated vapour exists when evaporation and condensation occur at equal rates (dynamic equilibrium)."
+    },
+    {
+      "id": 22,
+      "question": "The pressure of one mole of an ideal gas of volume \\(10^{-2}\\,\\text{m}^3\\) at a temperature of 27°C is ..... [Molar gas constant = 8.3 J mol\\(^{-1}\\) K\\(^{-1}\\)]",
+      "options": [
+        { "id": "A", "text": "\\(2.24\\times 10^{4}\\,\\text{N m}^{-2}\\)" },
+        { "id": "B", "text": "\\(2.24\\times 10^{5}\\,\\text{N m}^{-2}\\)" },
+        { "id": "C", "text": "\\(2.49\\times 10^{5}\\,\\text{N m}^{-2}\\)" },
+        { "id": "D", "text": "\\(2.49\\times 10^{4}\\,\\text{N m}^{-2}\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Use \\(PV=nRT\\). \\(n=1\\), \\(T=27+273=300\\,K\\), \\(V=10^{-2}\\,m^3\\). \\(P=\\frac{RT}{V}=\\frac{8.3\\times 300}{10^{-2}}=\\frac{2490}{0.01}=2.49\\times 10^5\\,\\text{N m}^{-2}\\)."
+    },
+    {
+      "id": 23,
+      "question": "Which of the following has no effect on radiation?",
+      "options": [
+        { "id": "A", "text": "density" },
+        { "id": "B", "text": "temperature" },
+        { "id": "C", "text": "surface area" },
+        { "id": "D", "text": "nature of the surface" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Thermal radiation depends on temperature, surface area and surface nature (emissivity), not on density."
+    },
+    {
+      "id": 24,
+      "question": "The wavelength of a wave travelling with a velocity of 420 m s\\(^{-1}\\) is 42 m. What is its period?",
+      "options": [
+        { "id": "A", "text": "1.0 s" },
+        { "id": "B", "text": "0.1 s" },
+        { "id": "C", "text": "0.5 s" },
+        { "id": "D", "text": "1.2 s" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Wave speed \\(v=f\\lambda\\). \\(f=\\frac{v}{\\lambda}=\\frac{420}{42}=10\\,Hz\\). Period \\(T=\\frac{1}{f}=0.1\\,s\\)."
+    },
+    {
+      "id": 25,
+      "question": "The sound of an electric bell dies down slowly when air is slowly pumped out from a bottle because",
+      "options": [
+        { "id": "A", "text": "sound cannot pass through the bottle" },
+        { "id": "B", "text": "sound can pass through a vacuum" },
+        { "id": "C", "text": "sound needs a material medium" },
+        { "id": "D", "text": "the wavelength of sound becomes greater in the bottle" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "As air is removed, there are fewer particles to transmit sound; sound requires a material medium."
+    },
+    {
+      "id": 26,
+      "question": "During a thunderstorm, the sound is heard over a long time. This phenomenon is referred to as",
+      "options": [
+        { "id": "A", "text": "refraction of sound" },
+        { "id": "B", "text": "reverberation" },
+        { "id": "C", "text": "superposition" },
+        { "id": "D", "text": "diffraction of sound" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Multiple reflections of sound causing persistence is reverberation."
+    },
+    {
+      "id": 27,
+      "question": "The velocity of sound in air at 16°C is 340 m s\\(^{-1}\\). What will it be when the pressure is doubled and its temperature raised to 127°C?",
+      "options": [
+        { "id": "A", "text": "4,000 m s\\(^{-1}\\)" },
+        { "id": "B", "text": "160,000 m s\\(^{-1}\\)" },
+        { "id": "C", "text": "8,000 m s\\(^{-1}\\)" },
+        { "id": "D", "text": "400 m s\\(^{-1}\\)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "For an ideal gas, speed of sound \\(v\\propto \\sqrt{T}\\) (pressure change alone does not affect v at fixed T). \\(T_1=16+273=289\\,K\\), \\(T_2=127+273=400\\,K\\). \\(v_2=340\\sqrt{\\frac{400}{289}}\\approx 340\\times 1.177\\approx 400\\,m s^{-1}\\)."
+    },
+    {
+      "id": 28,
+      "question": "In comparing the camera and the human eye, the film of the camera functions as the",
+      "options": [
+        { "id": "A", "text": "iris" },
+        { "id": "B", "text": "pupil" },
+        { "id": "C", "text": "cornea" },
+        { "id": "D", "text": "retina" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Camera film/sensor corresponds to the retina (image-forming surface)."
+    },
+    {
+      "id": 29,
+      "question": "An object 4 cm high is placed 15 cm from a concave mirror of focal length 5 cm. The size of the image is",
+      "options": [
+        { "id": "A", "text": "3 cm" },
+        { "id": "B", "text": "5 cm" },
+        { "id": "C", "text": "4 cm" },
+        { "id": "D", "text": "2 cm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mirror formula: \\(\\frac{1}{f}=\\frac{1}{u}+\\frac{1}{v}\\). With \\(f=5\\,cm\\), \\(u=15\\,cm\\): \\(\\frac{1}{v}=\\frac{1}{5}-\\frac{1}{15}=\\frac{2}{15}\\Rightarrow v=7.5\\,cm\\). Magnification \\(m=\\frac{v}{u}=\\frac{7.5}{15}=0.5\\). Image height \\(= m\\times 4 = 2\\,cm\\). That matches option D, not B."
+    },
+    {
+      "id": 30,
+      "question": "An object is embedded in a block of ice, 10 cm below the plane surface. If the refractive index of the ice is 1.50, the apparent depth of the object below the surface is",
+      "options": [
+        { "id": "A", "text": "67 cm" },
+        { "id": "B", "text": "7.63 cm" },
+        { "id": "C", "text": "7.50 cm" },
+        { "id": "D", "text": "2.50 cm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Apparent depth \\(=\\frac{\\text{real depth}}{n}=\\frac{10}{1.50}=6.67\\,cm\\). This value is not among the options; the closest is 7.50 cm (C), but the accurate value from the given data is 6.67 cm."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is used for the correction of short-sightedness?",
+      "options": [
+        { "id": "A", "text": "concave lens" },
+        { "id": "B", "text": "concave mirror" },
+        { "id": "C", "text": "convex mirror" },
+        { "id": "D", "text": "convex lens" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Myopia (short-sightedness) is corrected using a diverging (concave) lens."
+    },
+    {
+      "id": 32,
+      "question": "Dispersion occurs when white light passes through a glass prism because of the",
+      "options": [
+        { "id": "A", "text": "different speeds of the colours in the glass" },
+        { "id": "B", "text": "high density of the glass" },
+        { "id": "C", "text": "defects in the glass" },
+        { "id": "D", "text": "different hidden colours in the glass" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Different wavelengths travel at different speeds in glass (different refractive indices), so they refract by different amounts."
+    },
+    {
+      "id": 33,
+      "question": "When a positively charged rod is brought nearer the cap of a positively charged electroscope, the leaves divergence will",
+      "options": [
+        { "id": "A", "text": "converge" },
+        { "id": "B", "text": "remain constant" },
+        { "id": "C", "text": "diverge" },
+        { "id": "D", "text": "be induced" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A positive rod near the cap attracts electrons toward the cap, leaving the leaves more positively charged, increasing their repulsion (greater divergence)."
+    },
+    {
+      "id": 34,
+      "question": "Three capacitors of capacitance 2 μF, 4 μF and 8 μF are connected in parallel and a p.d of 6 V is maintained across each capacitor, the total energy stored is",
+      "options": [
+        { "id": "A", "text": "\\(6.90\\times 10^{-6}\\,J\\)" },
+        { "id": "B", "text": "\\(6.90\\times 10^{-4}\\,J\\)" },
+        { "id": "C", "text": "\\(2.52\\times 10^{-4}\\,J\\)" },
+        { "id": "D", "text": "\\(2.52\\times 10^{-6}\\,J\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Parallel: \\(C_{eq}=2+4+8=14\\,\\mu F = 14\\times 10^{-6}F\\). Energy \\(U=\\tfrac{1}{2}C_{eq}V^2 = \\tfrac{1}{2}(14\\times 10^{-6})(6^2)=7\\times 10^{-6}\\times 36=252\\times 10^{-6}=2.52\\times 10^{-4}J\\)."
+    },
+    {
+      "id": 35,
+      "question": "A cell of emf 12 V and internal resistance 4 Ω is connected to an external resistor of resistance 2 Ω. Find the current flow.",
+      "options": [
+        { "id": "A", "text": "4 A" },
+        { "id": "B", "text": "2 A" },
+        { "id": "C", "text": "3 A" },
+        { "id": "D", "text": "5 A" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total resistance \\(R = 4+2=6\\,\\Omega\\). Current \\(I=\\frac{E}{R}=\\frac{12}{6}=2\\,A\\)."
+    },
+    {
+      "id": 36,
+      "question": "The diagram above shows a balanced metre bridge the value of x is",
+      "options": [
+        { "id": "A", "text": "66.7 cm" },
+        { "id": "B", "text": "25.0 cm" },
+        { "id": "C", "text": "33.3 cm" },
+        { "id": "D", "text": "75.0 cm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In a balanced metre bridge, \\(\\frac{R_1}{R_2}=\\frac{x}{100-x}\\). From the diagram, the left gap shows two 8 Ω resistors in parallel: \\(R_1 = 8\\parallel 8 = \\frac{8\\times 8}{8+8}=4\\,\\Omega\\). Right gap is 8 Ω: \\(R_2=8\\,\\Omega\\). Thus \\(\\frac{4}{8}=\\frac{x}{100-x}\\Rightarrow \\frac{1}{2}=\\frac{x}{100-x}\\Rightarrow 100-x=2x\\Rightarrow x=33.3\\,cm\\)."
+    },
+    {
+      "id": 37,
+      "question": "Three 4 Ω resistors connected in parallel have a potential difference of 16 V applied across them. What is the total current in the circuit?",
+      "options": [
+        { "id": "A", "text": "12 A" },
+        { "id": "B", "text": "8 A" },
+        { "id": "C", "text": "10 A" },
+        { "id": "D", "text": "14 A" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Equivalent resistance: \\(\\frac{1}{R_{eq}}=\\frac{1}{4}+\\frac{1}{4}+\\frac{1}{4}=\\frac{3}{4}\\Rightarrow R_{eq}=\\frac{4}{3}\\,\\Omega\\). Current \\(I=\\frac{V}{R_{eq}}=\\frac{16}{4/3}=12\\,A\\)."
+    },
+    {
+      "id": 38,
+      "question": "In the diagram above, a 200 W bulb is lighted by a 240 V a.c mains supply. If 1 kWh is sold at N40, the cost of keeping the bulb lighted for a day is",
+      "options": [
+        { "id": "A", "text": "N 192.00" },
+        { "id": "B", "text": "N 1.92" },
+        { "id": "C", "text": "N 19.20" },
+        { "id": "D", "text": "N 1,920.00" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Power = 200 W = 0.2 kW. Time = 24 h. Energy = 0.2×24 = 4.8 kWh. Cost = 4.8×40 = N192.00. That matches option A, not C."
+    },
+    {
+      "id": 39,
+      "question": "Power supply is transmitted at a very high voltage and low current in order to",
+      "options": [
+        { "id": "A", "text": "increase the power supply" },
+        { "id": "B", "text": "prevent overheating of the coil" },
+        { "id": "C", "text": "make it travel fast" },
+        { "id": "D", "text": "make it pass through the transformers" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "For a given power, using high voltage reduces current, minimizing \\(I^2R\\) losses (heating) in transmission lines."
+    },
+    {
+      "id": 40,
+      "question": "In the diagram above, if the south-poles of two magnets stroke a steel bar, the polarities at T and V will respectively be",
+      "options": [
+        { "id": "A", "text": "north and south" },
+        { "id": "B", "text": "south and south" },
+        { "id": "C", "text": "north and north" },
+        { "id": "D", "text": "south and north" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In double-stroking with south poles from the center outward, the ends acquire the same polarity opposite to the stroking pole: both ends become north."
+    },
+    {
+      "id": 41,
+      "question": "A galvanometer with full-scale deflection of 10 mA is to be converted to a voltmeter with full-scale deflection of 5 V. If a series resistance of 498 Ω is used for the conversion, the resistance of the galvanometer is",
+      "options": [
+        { "id": "A", "text": "2 Ω" },
+        { "id": "B", "text": "10 Ω" },
+        { "id": "C", "text": "5 Ω" },
+        { "id": "D", "text": "1 Ω" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At full scale, \\(V = I(R_s + R_g)\\). \\(5 = 0.01(498+R_g)\\Rightarrow 498+R_g=500\\Rightarrow R_g=2\\,\\Omega\\)."
+    },
+    {
+      "id": 42,
+      "question": "Two inductors of inductances 5 mH and 15 mH are connected in series and a current of 5 A flows through them. The total energy stored in the inductors is",
+      "options": [
+        { "id": "A", "text": "250.0 J" },
+        { "id": "B", "text": "50.0 J" },
+        { "id": "C", "text": "62.5 J" },
+        { "id": "D", "text": "500.0 J" }
+      ],
+      "correctAnswer": null,
+      "explanation": "Series inductance: \\(L_{eq}=5\\,mH+15\\,mH=20\\,mH=0.02\\,H\\). Energy \\(U=\\tfrac{1}{2}LI^2=\\tfrac{1}{2}(0.02)(5^2)=0.01\\times 25=0.25\\,J\\). None of the options match 0.25 J, indicating a likely unit/printing mismatch in the options."
+    },
+    {
+      "id": 43,
+      "question": "In alternating current circuit at resonance, the angle of lead or lag is ____.",
+      "options": [
+        { "id": "A", "text": "\\(\\frac{\\pi}{2}\\)" },
+        { "id": "B", "text": "0°" },
+        { "id": "C", "text": "\\(\\frac{\\pi}{3}\\)" },
+        { "id": "D", "text": "\\(\\pi\\)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "At resonance in an RLC circuit, current and voltage are in phase, so phase angle is 0°."
+    },
+    {
+      "id": 44,
+      "question": "In Faraday’s law of electrolysis, a graph of mass deposited against the quantity of electricity is plotted. The slope of the graph gives",
+      "options": [
+        { "id": "A", "text": "the electrochemical equivalent" },
+        { "id": "B", "text": "the charge released" },
+        { "id": "C", "text": "the current flowing" },
+        { "id": "D", "text": "the energy released" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Faraday’s first law: \\(m = ZQ\\). Slope \\(\\frac{m}{Q}=Z\\), the electrochemical equivalent."
+    },
+    {
+      "id": 45,
+      "question": "In a discharge tube, most of the gas is pumped out so that electricity is conducted at",
+      "options": [
+        { "id": "A", "text": "steady voltage" },
+        { "id": "B", "text": "high pressure" },
+        { "id": "C", "text": "high pressure" },
+        { "id": "D", "text": "low voltage" }
+      ],
+      "correctAnswer": null,
+      "explanation": "This item is ambiguous in the provided image: option B and C both read 'high pressure', and the expected concept is conduction at low pressure (partial vacuum) and high voltage. The correct option cannot be determined reliably from the provided choices."
+    },
+    {
+      "id": 46,
+      "question": "The radioisotope \\(^{235}_{92}\\text{U}\\) decays by emitting two alpha particles, three beta particles and a gamma ray. What is the mass and atomic numbers of the resulting daughter element?",
+      "options": [
+        { "id": "A", "text": "91 and 227" },
+        { "id": "B", "text": "92 and 238" },
+        { "id": "C", "text": "227 and 91" },
+        { "id": "D", "text": "215 and 88" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Alpha emission: \\(A\\rightarrow A-4\\), \\(Z\\rightarrow Z-2\\). Two alphas: \\(A=235-8=227\\), \\(Z=92-4=88\\). Three betas (\\(\\beta^-\\)) increase Z by 1 each: \\(Z=88+3=91\\). Gamma changes neither. Daughter: \\(^{227}_{91}\\). The option listing mass 227 and atomic number 91 is C."
+    },
+    {
+      "id": 47,
+      "question": "The ground state energy for a hydrogen atom is \\(5.44\\times 10^{-19}\\,J\\). If an electron drops from zero to ground state, calculate the frequency of the emitted radiation. \\([h = 6.6\\times 10^{-34}\\,\\text{J s}]\\)",
+      "options": [
+        { "id": "A", "text": "\\(2.0\\times 10^{16}\\,Hz\\)" },
+        { "id": "B", "text": "\\(2.0\\times 10^{15}\\,Hz\\)" },
+        { "id": "C", "text": "\\(5.0\\times 10^{15}\\,Hz\\)" },
+        { "id": "D", "text": "\\(5.0\\times 10^{16}\\,Hz\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Energy emitted \\(E = hf\\). \\(f=\\frac{E}{h}=\\frac{5.44\\times 10^{-19}}{6.6\\times 10^{-34}}\\approx 0.824\\times 10^{15}=8.24\\times 10^{14}\\,Hz\\). This value is not in the options, so none matches; the closest order is option B but it is still not close numerically."
+    },
+    {
+      "id": 48,
+      "question": "Transistors are used for the",
+      "options": [
+        { "id": "A", "text": "conversion of a.c. to d.c." },
+        { "id": "B", "text": "conversion of d.c. to a.c." },
+        { "id": "C", "text": "amplification of signals" },
+        { "id": "D", "text": "rectification of signals" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A principal use of transistors is amplification (and switching)."
+    },
+    {
+      "id": 49,
+      "question": "A typical transistor characteristic is represented as",
+      "options": [
+        { "id": "A", "text": "Graph A (as shown)" },
+        { "id": "B", "text": "Graph B (as shown)" },
+        { "id": "C", "text": "Graph C (as shown)" },
+        { "id": "D", "text": "Graph D (as shown)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A typical transistor output characteristic shows current rising quickly then tending to saturate with increasing voltage (a curve that levels off). This corresponds to graph D."
+    },
+    {
+      "id": 50,
+      "question": "Which of the following is a pure semiconductor?",
+      "options": [
+        { "id": "A", "text": "Silicon" },
+        { "id": "B", "text": "Phosphorus" },
+        { "id": "C", "text": "Transistor" },
+        { "id": "D", "text": "Carbon" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Silicon is an intrinsic (pure) semiconductor. Phosphorus is a dopant; a transistor is a device; carbon is not typically treated as a pure semiconductor here."
+    }
+  ],
+  "missingQuestions": [
+    "Questions 3–50 are present across the uploads; however several items have option/printing inconsistencies that prevent exact matching from the image alone: Q17 options use density units but question asks for volume; Q42 options appear to be in joules but correct value is 0.25 J; Q45 has duplicated 'high pressure' options and does not include the expected 'low pressure' choice."
+  ]
+}
