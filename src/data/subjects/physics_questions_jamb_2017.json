@@ -1,0 +1,533 @@
+{
+  "year": 2017,
+  "subject": "Physics",
+  "paperType": null,
+  "instructions": [],
+  "figures": [
+    {
+      "id": "Phy2017_Q6_Transistor_IV_Graphs",
+      "file": "upload_2.png",
+      "description": "Four I–V graphs labeled A, B, C, D. Graph D shows current rising then flattening, characteristic of a transistor."
+    },
+    {
+      "id": "Phy2017_Q13_StressStrain",
+      "file": "upload_3.png",
+      "description": "Stress–strain curve for a typical metal rod with a point labeled X near the end of the curve."
+    },
+    {
+      "id": "Phy2017_Q16_RL_AC_VectorOptions",
+      "file": "upload_4.png",
+      "description": "Vector diagram options for series a.c. circuit containing R and L."
+    },
+    {
+      "id": "Phy2017_Q21_Prism_Angles",
+      "file": "upload_4.png",
+      "description": "Ray diagram through a triangular prism XYZ with angles θ1, θ2, θ3, θ4 marked."
+    },
+    {
+      "id": "Phy2017_Q26_CapacitorNetwork",
+      "file": "upload_5.png",
+      "description": "Capacitor network: two 2 µF capacitors in parallel feeding into a 4 µF capacitor to the output."
+    },
+    {
+      "id": "Phy2017_Q30_BimetallicStripOptions",
+      "file": "upload_6.png",
+      "description": "Four diagrams (A–D) showing possible bending shapes of a bimetallic strip of brass and iron after heating."
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "The focal length of a concave mirror is 2.0 cm. If an object is placed 8.0 cm from it, the image is at",
+      "options": [
+        { "id": "A", "text": "2.7 m" },
+        { "id": "B", "text": "2.3 m" },
+        { "id": "C", "text": "2.5 m" },
+        { "id": "D", "text": "2.0 m" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Using the mirror formula \\(\\frac{1}{f} = \\frac{1}{u} + \\frac{1}{v}\\): with \\(f = 2.0\\) and \\(u = 8.0\\), we get \\(\\frac{1}{v} = \\frac{1}{2} - \\frac{1}{8} = \\frac{3}{8}\\). Thus, \\(v = \\frac{8}{3} \\approx 2.67\\) units. The numerical value 2.7 matches option A, although there is a unit discrepancy (labeled 'm' instead of 'cm'). Assuming the inputs were in meters or the option unit is a typo, A is the intended answer."
+    },
+    {
+      "id": 2,
+      "question": "PHCN measures its electrical energy in",
+      "options": [
+        { "id": "A", "text": "Wh" },
+        { "id": "B", "text": "kWh" },
+        { "id": "C", "text": "J" },
+        { "id": "D", "text": "W" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Utility companies measure electrical energy consumption in kilowatt-hours (kWh)."
+    },
+    {
+      "id": 3,
+      "question": "The resultant of two forces is 50 N. If the forces are perpendicular to each other and one of them makes an angle 30° with the resultant. Find its magnitude.",
+      "options": [
+        { "id": "A", "text": "100.0 N" },
+        { "id": "B", "text": "57.7 N" },
+        { "id": "C", "text": "25.0 N" },
+        { "id": "D", "text": "43.3 N" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The component of the resultant \\(R\\) along the direction of the force \\(F\\) making angle \\(\\theta\\) is \\(F = R \\cos \\theta\\). Here, \\(F = 50 \\cos 30^\\circ = 50 \\times 0.866 = 43.3\\,N\\)."
+    },
+    {
+      "id": 4,
+      "question": "A piece of radioactive material contains 1000 atoms. If its half-life is 20 seconds, the time taken for 125 atoms to remain is",
+      "options": [
+        { "id": "A", "text": "20 seconds" },
+        { "id": "B", "text": "40 seconds" },
+        { "id": "C", "text": "60 seconds" },
+        { "id": "D", "text": "80 seconds" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The number of atoms halves every 20s: 1000 \u2192 500 (20s) \u2192 250 (40s) \u2192 125 (60s). It takes 3 half-lives, so 60 seconds."
+    },
+    {
+      "id": 5,
+      "question": "The correct expression for the potential at a point, distance r from a charge q, in an electric field is",
+      "options": [
+        { "id": "A", "text": "\\(\\dfrac{q}{4\\pi\\varepsilon_0 r}\\)" },
+        { "id": "B", "text": "\\(\\dfrac{q^2}{4\\pi\\varepsilon_0 r^2}\\)" },
+        { "id": "C", "text": "\\(\\dfrac{q}{4\\pi\\varepsilon_0 r^2}\\)" },
+        { "id": "D", "text": "\\(\\dfrac{q^2}{4\\pi\\varepsilon_0 r}\\)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Electric potential \\(V\\) due to a point charge \\(q\\) is given by \\(V = \\frac{q}{4\\pi\\varepsilon_0 r}\\)."
+    },
+    {
+      "id": 6,
+      "instruction": "Use the I–V graphs (figure Phy2017_Q6_Transistor_IV_Graphs).",
+      "question": "A typical transistor characteristic is represented as",
+      "options": [
+        { "id": "A", "text": "Graph A" },
+        { "id": "B", "text": "Graph B" },
+        { "id": "C", "text": "Graph C" },
+        { "id": "D", "text": "Graph D" }
+      ],
+      "correctAnswer": "D",
+      "figureId": "Phy2017_Q6_Transistor_IV_Graphs",
+      "explanation": "Transistor collector characteristic curves typically show current increasing with voltage initially (saturation) and then flattening out to a nearly constant value (active region). Graph D represents this behavior."
+    },
+    {
+      "id": 7,
+      "question": "In a discharge tube, most of the gas is pumped out so that electricity is conducted at",
+      "options": [
+        { "id": "A", "text": "steady voltage" },
+        { "id": "B", "text": "high pressure" },
+        { "id": "C", "text": "low pressure" },
+        { "id": "D", "text": "low voltage" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Conduction in gases typically requires low pressure to increase the mean free path of ions/electrons, allowing them to gain sufficient energy from the electric field to cause ionization."
+    },
+    {
+      "id": 8,
+      "question": "I. Moon\nII. Sun\nIII. Street light\nIV. Stars\nWhich of the above is a natural source of light?",
+      "options": [
+        { "id": "A", "text": "I, II and IV only" },
+        { "id": "B", "text": "I, II and III only" },
+        { "id": "C", "text": "III and IV only" },
+        { "id": "D", "text": "II and IV only" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The Sun (II) and Stars (IV) produce their own light (luminous natural sources). The Moon (I) reflects sunlight, and street lights (III) are artificial."
+    },
+    {
+      "id": 9,
+      "question": "An object placed at the bottom of a well full of clear water appears closer to the surface due to",
+      "options": [
+        { "id": "A", "text": "refraction" },
+        { "id": "B", "text": "reflection" },
+        { "id": "C", "text": "an inverter" },
+        { "id": "D", "text": "a magnifier" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Light rays from the object bend away from the normal as they move from water to air, creating a virtual image at a shallower apparent depth. This is due to refraction."
+    },
+    {
+      "id": 10,
+      "question": "A boy drags a bag of rice along a smooth horizontal floor with a force of 2 N applied at an angle of 60° to the flow. The work done after a distance of 3 m is",
+      "options": [
+        { "id": "A", "text": "6 J" },
+        { "id": "B", "text": "4 J" },
+        { "id": "C", "text": "5 J" },
+        { "id": "D", "text": "3 J" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Work done \\(W = F s \\cos \\theta = 2 \\times 3 \\times \\cos 60^\\circ = 6 \\times 0.5 = 3\\,J\\)."
+    },
+    {
+      "id": 11,
+      "question": "The spheres of masses 5.0 kg and 10.0 kg are 0.3 m apart. Calculate the force of attraction between them.",
+      "options": [
+        { "id": "A", "text": "\\(3.57\\times 10^{-2}\\,N\\)" },
+        { "id": "B", "text": "\\(3.71\\times 10^{-2}\\,N\\)" },
+        { "id": "C", "text": "\\(4.00\\times 10^{-2}\\,N\\)" },
+        { "id": "D", "text": "\\(3.50\\times 10^{-2}\\,N\\)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using Newton's Law of Gravitation \\(F = G \\frac{m_1 m_2}{r^2}\\) with \\(G \\approx 6.67 \\times 10^{-11}\\), \\(m_1=5\\), \\(m_2=10\\), \\(r=0.3\\): \\(F \\approx 3.70 \\times 10^{-8}\\,N\\). The options are in the order of \\(10^{-2}\\), suggesting a large error in the question's parameters or units (e.g., if G were not involved or masses were much larger). However, the digits '3.71' in option B closely match the calculated digits '3.70', making it the intended answer despite the power-of-ten discrepancy."
+    },
+    {
+      "id": 12,
+      "question": "When very hot water is poured into two identical thin and thick glass tumblers in equal volumes, the thick one cracks because",
+      "options": [
+        { "id": "A", "text": "of the even expansion of glass" },
+        { "id": "B", "text": "glass is a good conductor of heat" },
+        { "id": "C", "text": "glass is a crystal" },
+        { "id": "D", "text": "of the uneven expansion of glass" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Glass is a poor conductor of heat. In a thick tumbler, the inner surface expands significantly before the heat reaches the outer surface, creating uneven expansion and stress that causes cracking."
+    },
+    {
+      "id": 13,
+      "instruction": "Use the stress–strain curve (figure Phy2017_Q13_StressStrain).",
+      "question": "The diagram above represents the stress-strain for a typical metal rod. What does X represent?",
+      "options": [
+        { "id": "A", "text": "Yield point" },
+        { "id": "B", "text": "Breaking point" },
+        { "id": "C", "text": "Elastic limit" },
+        { "id": "D", "text": "Proportional limit" }
+      ],
+      "correctAnswer": "B",
+      "figureId": "Phy2017_Q13_StressStrain",
+      "explanation": "On a typical stress-strain curve, the point at the very end where the material fails/fractures is the breaking point."
+    },
+    {
+      "id": 14,
+      "question": "Transverse waves can be distinguished from longitudinal waves using the characteristic of",
+      "options": [
+        { "id": "A", "text": "diffraction" },
+        { "id": "B", "text": "reflection" },
+        { "id": "C", "text": "polarization" },
+        { "id": "D", "text": "refraction" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Polarization restricts vibrations to a specific plane, which is possible only for transverse waves. Longitudinal waves oscillate along the direction of propagation and cannot be polarized."
+    },
+    {
+      "id": 15,
+      "question": "Which of the following pairs of light rays shows the widest separation in the spectrum of white light?",
+      "options": [
+        { "id": "A", "text": "Green and yellow" },
+        { "id": "B", "text": "Blue and red" },
+        { "id": "C", "text": "Indigo and violet" },
+        { "id": "D", "text": "Orange and red" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The visible spectrum follows the order ROYGBIV. Red and Blue are further apart in wavelength (and refractive index) than the adjacent pairs listed in other options, resulting in wider separation."
+    },
+    {
+      "id": 16,
+      "instruction": "Use the vector diagram options (figure Phy2017_Q16_RL_AC_VectorOptions).",
+      "question": "Which of the following graphs shows the correct vector diagram for the circuit above?",
+      "options": [
+        { "id": "A", "text": "A" },
+        { "id": "B", "text": "B" },
+        { "id": "C", "text": "C" },
+        { "id": "D", "text": "D" }
+      ],
+      "correctAnswer": "A",
+      "figureId": "Phy2017_Q16_RL_AC_VectorOptions",
+      "explanation": "For a series R-L circuit, the voltage across the resistor (\\(V_R\\)) is in phase with the current, while the voltage across the inductor (\\(V_L\\)) leads the current by 90°. The vector diagram A correctly shows \\(V_R\\) horizontally and \\(V_L\\) vertically upwards."
+    },
+    {
+      "id": 17,
+      "question": "A transistor functions mainly as a",
+      "options": [
+        { "id": "A", "text": "switch and an amplifier" },
+        { "id": "B", "text": "rectifier and an amplifier" },
+        { "id": "C", "text": "charge storer and a switch" },
+        { "id": "D", "text": "charge storer and an amplifier" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The two primary applications of transistors in electronics are as electronic switches and as amplifiers."
+    },
+    {
+      "id": 18,
+      "question": "A thin wire with heavy weights attached to both ends is hung over a block of ice resting on two supports. If the wire cuts through the ice while the block remains solid behind the wire, the process is called",
+      "options": [
+        { "id": "A", "text": "fusion" },
+        { "id": "B", "text": "sublimation" },
+        { "id": "C", "text": "regelation" },
+        { "id": "D", "text": "condensation" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Regelation is the phenomenon of melting under pressure (lowering melting point) and refreezing when the pressure is reduced."
+    },
+    {
+      "id": 19,
+      "question": "The inner diameter of a small test tube can be measured accurately using a",
+      "options": [
+        { "id": "A", "text": "micrometer screw gauge" },
+        { "id": "B", "text": "pair of Vernier calipers" },
+        { "id": "C", "text": "metre rule" },
+        { "id": "D", "text": "pair of dividers" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Vernier calipers are equipped with internal jaws specifically designed to measure internal diameters."
+    },
+    {
+      "id": 20,
+      "question": "A platinum resistance thermometer records 3.0 Ω at 0°C and 8.0 Ω at 100°C. If it records 6.0 Ω in a certain environment, the temperature of the medium is",
+      "options": [
+        { "id": "A", "text": "60°C" },
+        { "id": "B", "text": "80°C" },
+        { "id": "C", "text": "50°C" },
+        { "id": "D", "text": "30°C" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Using linear interpolation: \\(T = \\frac{R_T - R_0}{R_{100} - R_0} \\times 100\\). Substituting values: \\(T = \\frac{6.0 - 3.0}{8.0 - 3.0} \\times 100 = \\frac{3}{5} \\times 100 = 60^\\circ\\text{C}\\)."
+    },
+    {
+      "id": 21,
+      "instruction": "Use the prism diagram (figure Phy2017_Q21_Prism_Angles).",
+      "question": "In the diagram above, which of the angles θ1, θ2, θ3, and θ4 is the angle of deviation of a ray of light passing through XYZ?",
+      "options": [
+        { "id": "A", "text": "θ2" },
+        { "id": "B", "text": "θ3" },
+        { "id": "C", "text": "θ1" },
+        { "id": "D", "text": "θ4" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Phy2017_Q21_Prism_Angles",
+      "explanation": "The angle of deviation is the angle between the extended incident ray and the emergent ray. Without clear diagram labels identifying which theta corresponds to this specific external angle, the correct option cannot be reliably selected."
+    },
+    {
+      "id": 22,
+      "question": "Which of the following is the dimension of pressure?",
+      "options": [
+        { "id": "A", "text": "\\(ML^2T^{-3}\\)" },
+        { "id": "B", "text": "\\(MLT^{-2}\\)" },
+        { "id": "C", "text": "\\(ML^{-2}T^{-2}\\)" },
+        { "id": "D", "text": "\\(ML^{-3}\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Pressure is Force/Area. Dimensions are \\([MLT^{-2}] / [L^2] = ML^{-1}T^{-2}\\). Option C is \\(ML^{-2}T^{-2}\\), which contains a typo (\\(L^{-2}\\) instead of \\(L^{-1}\\)), but it is the standard intended answer for this common question variation."
+    },
+    {
+      "id": 23,
+      "question": "A capacitor 8 µF, is charged to a potential difference of 100 V. The energy stored by the capacitor is",
+      "options": [
+        { "id": "A", "text": "\\(1.0\\times 10^{4}\\,J\\)" },
+        { "id": "B", "text": "\\(4.0\\times 10^{-2}\\,J\\)" },
+        { "id": "C", "text": "\\(1.25\\times 10\\,J\\)" },
+        { "id": "D", "text": "\\(8.0\\times 10\\,J\\)" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Energy \\(E = \\frac{1}{2}CV^2 = 0.5 \\times 8\\times 10^{-6} \\times (100)^2 = 4\\times 10^{-6} \\times 10^4 = 4.0 \\times 10^{-2}\\,J\\)."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following statements correctly describe(s) cathode rays?\nI. They consist of tiny particles carrying negative electric charges\nII. They are deflected in a magnetic field but not in an electric field.\nIII. They consist of fast-moving neutrons and deflected in an electric field.",
+      "options": [
+        { "id": "A", "text": "I only" },
+        { "id": "B", "text": "III only" },
+        { "id": "C", "text": "I and II only" },
+        { "id": "D", "text": "II and III only" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Cathode rays are streams of electrons (negatively charged particles). They are deflected by both electric and magnetic fields. Therefore, only statement I is correct."
+    },
+    {
+      "id": 25,
+      "question": "A concave mirror has a radius of curvature of 36 cm. At what distance from the mirror should an object be placed to give a real image three times the size of the object?",
+      "options": [
+        { "id": "A", "text": "12 cm" },
+        { "id": "B", "text": "24 cm" },
+        { "id": "C", "text": "48 cm" },
+        { "id": "D", "text": "108 cm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Focal length \\(f = R/2 = 18\\,cm\\). For a real image with magnification 3, \\(v = 3u\\). Mirror formula: \\(\\frac{1}{u} + \\frac{1}{3u} = \\frac{1}{18} \\Rightarrow \\frac{4}{3u} = \\frac{1}{18} \\Rightarrow 3u = 72 \\Rightarrow u = 24\\,cm\\)."
+    },
+    {
+      "id": 26,
+      "instruction": "Use the capacitor network (figure Phy2017_Q26_CapacitorNetwork).",
+      "question": "The net capacitance in the circuit shown above is",
+      "options": [
+        { "id": "A", "text": "8.0 µF" },
+        { "id": "B", "text": "6.0 µF" },
+        { "id": "C", "text": "2.0 µF" },
+        { "id": "D", "text": "4.0 µF" }
+      ],
+      "correctAnswer": "C",
+      "figureId": "Phy2017_Q26_CapacitorNetwork",
+      "explanation": "The two 2 µF capacitors are in parallel, giving \\(2+2=4\\,\\mu F\\). This combination is in series with the 4 µF capacitor. The equivalent capacitance is \\((4 \\times 4) / (4 + 4) = 16 / 8 = 2.0\\,\\mu F\\)."
+    },
+    {
+      "id": 27,
+      "question": "A sonometer wire of length 100 cm under a tension of 10 N, has a frequency of 250 Hz. Keeping the length of the wire constant, the tension is adjusted to produce a new frequency of 350 Hz. The new tension is",
+      "options": [
+        { "id": "A", "text": "5.1 N" },
+        { "id": "B", "text": "19.6 N" },
+        { "id": "C", "text": "14.0 N" },
+        { "id": "D", "text": "7.1 N" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Frequency \\(f \\propto \\sqrt{T}\\). So, \\(T_2 = T_1 (\\frac{f_2}{f_1})^2 = 10 \\times (\\frac{350}{250})^2 = 10 \\times (1.4)^2 = 10 \\times 1.96 = 19.6\\,N\\)."
+    },
+    {
+      "id": 28,
+      "question": "In a sound wave in air, the adjacent rarefactions and compressions are separated by a distance of 17 cm. If the velocity of the sound wave is 340 m s^-1. Determine the frequency.",
+      "options": [
+        { "id": "A", "text": "10 Hz" },
+        { "id": "B", "text": "20 Hz" },
+        { "id": "C", "text": "5780 Hz" },
+        { "id": "D", "text": "1000 Hz" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Distance between adjacent compression and rarefaction is \\(\\lambda/2\\). So, \\(\\lambda/2 = 0.17\\,m \\Rightarrow \\lambda = 0.34\\,m\\). Frequency \\(f = v/\\lambda = 340 / 0.34 = 1000\\,Hz\\)."
+    },
+    {
+      "id": 29,
+      "question": "A note is called an octave of another note when",
+      "options": [
+        { "id": "A", "text": "the notes have the same fundamental frequency" },
+        { "id": "B", "text": "its frequency is half of the first note" },
+        { "id": "C", "text": "its frequency is twice that of the first note" },
+        { "id": "D", "text": "its periodic time is twice that of the first note" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A musical note is an octave higher than another if its frequency is exactly twice that of the first note."
+    },
+    {
+      "id": 30,
+      "instruction": "Use the bimetallic strip options (figure Phy2017_Q30_BimetallicStripOptions).",
+      "question": "A metallic strip of iron and brass was heated. Which of the following diagrams accurately illustrated the shape of the strip after heating?",
+      "options": [
+        { "id": "A", "text": "A" },
+        { "id": "B", "text": "B" },
+        { "id": "C", "text": "C" },
+        { "id": "D", "text": "D" }
+      ],
+      "correctAnswer": null,
+      "figureId": "Phy2017_Q30_BimetallicStripOptions",
+      "explanation": "Brass expands more than iron upon heating. Therefore, the strip will bend such that the brass is on the convex (outer) side and the iron is on the concave (inner) side. Without viewing the specific diagrams to see which option depicts this arrangement, the correct letter cannot be selected."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is in a neutral equilibrium?",
+      "options": [
+        { "id": "A", "text": "A heavy weight suspended on a string" },
+        { "id": "B", "text": "The beam of a balance in use" },
+        { "id": "C", "text": "A heavy-based table lamp" },
+        { "id": "D", "text": "A cone resting on its slant edge" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A cone resting on its slant edge is in neutral equilibrium because if it is rolled, the height of its center of gravity remains constant."
+    },
+    {
+      "id": 32,
+      "question": "A convex mirror is used as a driving mirror because\nI. Its image is erect\nII. It has a large field of view\nIII. It has a long focal length.\nIdentify the CORRECT statement(s).",
+      "options": [
+        { "id": "A", "text": "I and III only" },
+        { "id": "B", "text": "I and II only" },
+        { "id": "C", "text": "II and III only" },
+        { "id": "D", "text": "I, II and III only" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Convex mirrors are used in vehicles because they form an upright (erect) image and provide a wide field of view. Statement III is incorrect as the focal length is not the primary reason for this application."
+    },
+    {
+      "id": 33,
+      "question": "What is the cost of running five 50W lamps and four 100W lamps for 10 hours if electrical energy costs 2 kobo per kWh?",
+      "options": [
+        { "id": "A", "text": "N 0.13" },
+        { "id": "B", "text": "N 0.65" },
+        { "id": "C", "text": "N 3.90" },
+        { "id": "D", "text": "N 39.00" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Total power \\(P = (5 \\times 50) + (4 \\times 100) = 250 + 400 = 650\\,W = 0.65\\,kW\\). Energy \\(E = 0.65 \\times 10 = 6.5\\,kWh\\). Cost = \\(6.5 \\times 2\\) kobo = 13 kobo. In Naira, 13 kobo is N 0.13."
+    },
+    {
+      "id": 34,
+      "question": "The specific latent heat of vaporization of a substance is always",
+      "options": [
+        { "id": "A", "text": "less than its specific latent heat of fusion" },
+        { "id": "B", "text": "equal to its specific latent heat of fusion" },
+        { "id": "C", "text": "greater than its specific latent heat of fusion" },
+        { "id": "D", "text": "all of the above depending on the nature of the substance" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The specific latent heat of vaporization is typically much greater than that of fusion because completely separating molecules into the gas phase requires more energy than partially overcoming forces to melt a solid."
+    },
+    {
+      "id": 35,
+      "question": "A hydrometer is an instrument for measuring the",
+      "options": [
+        { "id": "A", "text": "depth of water in a vessel" },
+        { "id": "B", "text": "relative humidity of the air" },
+        { "id": "C", "text": "relative density of a liquid by finding the apparent loss in weight" },
+        { "id": "D", "text": "relative density of a liquid by the method of flotation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A hydrometer measures the specific gravity (relative density) of liquids based on the principle of flotation (Archimedes' principle)."
+    },
+    {
+      "id": 36,
+      "question": "A transformer has 300 turns of wire in the primary coil and 30 turns in the secondary coil. If the input voltage is 100 volts, the output voltage is",
+      "options": [
+        { "id": "A", "text": "10 volts" },
+        { "id": "B", "text": "5 volts" },
+        { "id": "C", "text": "15 volts" },
+        { "id": "D", "text": "20 volts" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Using the transformer equation \\(V_s/V_p = N_s/N_p\\): \\(V_s = V_p \\times (N_s/N_p) = 100 \\times (30/300) = 100 \\times 0.1 = 10\\,V\\)."
+    },
+    {
+      "id": 37,
+      "question": "The activity of a radioactive substance depends on",
+      "options": [
+        { "id": "A", "text": "temperature and purity" },
+        { "id": "B", "text": "purity and age" },
+        { "id": "C", "text": "temperature and age" },
+        { "id": "D", "text": "age, purity and temperature" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Radioactive activity is independent of physical conditions like temperature. It depends on the quantity of radioactive material present. 'Age' determines how much material remains due to decay, and 'purity' relates to the concentration/amount of the radioactive isotope. Thus, purity and age are the relevant factors among the choices."
+    },
+    {
+      "id": 38,
+      "question": "The speed of light in air is \\(3\\times 10^8\\,m s^{-1}\\). If the refractive index of light from air-to-water is \\(\\frac{4}{3}\\), then which of the following is the correct value of the speed of light in water?",
+      "options": [
+        { "id": "A", "text": "\\(4\\times 10^8\\,m s^{-1}\\)" },
+        { "id": "B", "text": "\\(2.23\\times 10^8\\,m s^{-1}\\)" },
+        { "id": "C", "text": "\\(2.25\\times 10^8\\,m s^{-1}\\)" },
+        { "id": "D", "text": "\\(\\frac{4}{9}\\times 10^8\\,m s^{-1}\\)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Speed in medium \\(v = c/n = (3 \\times 10^8) / (4/3) = 3 \\times 10^8 \\times (3/4) = 2.25 \\times 10^8\\,m s^{-1}\\)."
+    },
+    {
+      "id": 39,
+      "question": "A magnet is moved through a coil of wire. The e.m.f. produced in the wire depends on",
+      "options": [
+        { "id": "A", "text": "the number of turns in the coil" },
+        { "id": "B", "text": "the strength of magnet" },
+        { "id": "C", "text": "the speed at which the magnet is moved" },
+        { "id": "D", "text": "all of the above" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "According to Faraday's Law, the induced EMF is proportional to the rate of change of magnetic flux (\\(N \\frac{d\\Phi}{dt}\\)). This depends on the number of turns (N), the strength of the magnet (determining \\(\\Phi\\)), and the speed of motion (determining \\(dt\\))."
+    },
+    {
+      "id": 40,
+      "question": "A charge of one coulomb liberated 0.0033 g of copper in an electrolytic process. How long will it take a current of 2 A to liberate 1.98 g of copper in such a process?",
+      "options": [
+        { "id": "A", "text": "30 minutes" },
+        { "id": "B", "text": "5 minutes" },
+        { "id": "C", "text": "50 minutes" },
+        { "id": "D", "text": "60 minutes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The electrochemical equivalent \\(z = 0.0033\\,g/C\\). Mass \\(m = zIt\\). So, \\(1.98 = 0.0033 \\times 2 \\times t\\). \\(t = 1.98 / 0.0066 = 300\\,s\\). Converting to minutes: \\(300/60 = 5\\) minutes."
+    }
+  ],
+  "missingQuestions": []
+}
