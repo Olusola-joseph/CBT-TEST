@@ -6,17 +6,17 @@
   "figures": [
     {
       "id": "Phy2014_Q6_VelocityTimeGraph_MNPSQ",
-      "file": "upload_2.png",
+      "file": "2014_Q6.png",
       "description": "Velocity–time graph with labeled points M, N, S, P, Q. Segments MN rises, NS is horizontal, SP rises, PQ falls to the time axis. Used in Question 6."
     },
     {
       "id": "Phy2014_Q17_LoadExtensionCurve",
-      "file": "upload_4.png",
+      "file": "2014_Q17.png",
       "description": "Load (N) versus extension graph with labeled points O, Q, R, S, T, showing elastic and plastic regions. Used in Question 17."
     },
     {
       "id": "Phy2014_Q28_StationaryWave_ClosedTube",
-      "file": "upload_6.png",
+      "file": "2014_Q28.png",
       "description": "Diagram of stationary wave in a closed tube with wavelength 40 cm and resonating air column length L marked. Used in Question 28."
     },
     {
@@ -31,7 +31,7 @@
     },
     {
       "id": "Phy2014_Q50_Transistor_IV_Graphs",
-      "file": "upload_11.png",
+      "file": "2014_Q50.png",
       "description": "Set of four I–V plots labeled A, B, C, D. Used in Question 50."
     }
   ],
@@ -40,10 +40,22 @@
       "id": 1,
       "question": "Which question paper type of physics is given to you",
       "options": [
-        { "id": "A", "text": "Type F" },
-        { "id": "B", "text": "Type E" },
-        { "id": "C", "text": "Type L" },
-        { "id": "D", "text": "Type S" }
+        {
+          "id": "A",
+          "text": "Type F"
+        },
+        {
+          "id": "B",
+          "text": "Type E"
+        },
+        {
+          "id": "C",
+          "text": "Type L"
+        },
+        {
+          "id": "D",
+          "text": "Type S"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "The header shows \"PAPER TYPE: F\"."
@@ -52,10 +64,22 @@
       "id": 2,
       "question": "What is the least possible error encountered when taking measurement with a meter rule?",
       "options": [
-        { "id": "A", "text": "0.1 mm" },
-        { "id": "B", "text": "1.0 mm" },
-        { "id": "C", "text": "0.5 mm" },
-        { "id": "D", "text": "0.2 mm" }
+        {
+          "id": "A",
+          "text": "0.1 mm"
+        },
+        {
+          "id": "B",
+          "text": "1.0 mm"
+        },
+        {
+          "id": "C",
+          "text": "0.5 mm"
+        },
+        {
+          "id": "D",
+          "text": "0.2 mm"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "A meter rule typically has 1 mm smallest division. The least possible reading error is about half the smallest division: \\(\\pm 0.5\\,\\text{mm}\\)."
@@ -64,10 +88,22 @@
       "id": 3,
       "question": "A quantity which requires magnitude and direction to be specified is",
       "options": [
-        { "id": "A", "text": "Temperature" },
-        { "id": "B", "text": "Distance" },
-        { "id": "C", "text": "Displacement" },
-        { "id": "D", "text": "Mass" }
+        {
+          "id": "A",
+          "text": "Temperature"
+        },
+        {
+          "id": "B",
+          "text": "Distance"
+        },
+        {
+          "id": "C",
+          "text": "Displacement"
+        },
+        {
+          "id": "D",
+          "text": "Mass"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Displacement is a vector quantity (magnitude + direction)."
@@ -76,10 +112,22 @@
       "id": 4,
       "question": "I. Electrical potential\nII. Torque\nIII. Kinetic Energy\nIV. Momentum.\nWhich of the quantities listed are vectors?",
       "options": [
-        { "id": "A", "text": "II and IV" },
-        { "id": "B", "text": "I and II" },
-        { "id": "C", "text": "I and III" },
-        { "id": "D", "text": "II and III" }
+        {
+          "id": "A",
+          "text": "II and IV"
+        },
+        {
+          "id": "B",
+          "text": "I and II"
+        },
+        {
+          "id": "C",
+          "text": "I and III"
+        },
+        {
+          "id": "D",
+          "text": "II and III"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Torque and momentum are vectors. Electrical potential and kinetic energy are scalars."
@@ -88,10 +136,22 @@
       "id": 5,
       "question": "Which type of motion do the wheels of a moving car undergo?",
       "options": [
-        { "id": "A", "text": "Vibratory and translational motion" },
-        { "id": "B", "text": "Random and translational motion" },
-        { "id": "C", "text": "Rotational and oscillatory motion" },
-        { "id": "D", "text": "Translational and rotational motion" }
+        {
+          "id": "A",
+          "text": "Vibratory and translational motion"
+        },
+        {
+          "id": "B",
+          "text": "Random and translational motion"
+        },
+        {
+          "id": "C",
+          "text": "Rotational and oscillatory motion"
+        },
+        {
+          "id": "D",
+          "text": "Translational and rotational motion"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "A rolling wheel rotates about its axle while the car moves forward (translation)."
@@ -101,23 +161,48 @@
       "instruction": "Use the velocity–time graph (figure Phy2014_Q6_VelocityTimeGraph_MNPSQ).",
       "question": "From the diagram below, the region of zero acceleration is",
       "options": [
-        { "id": "A", "text": "MN" },
-        { "id": "B", "text": "NS" },
-        { "id": "C", "text": "SP" },
-        { "id": "D", "text": "PQ" }
+        {
+          "id": "A",
+          "text": "MN"
+        },
+        {
+          "id": "B",
+          "text": "NS"
+        },
+        {
+          "id": "C",
+          "text": "SP"
+        },
+        {
+          "id": "D",
+          "text": "PQ"
+        }
       ],
       "correctAnswer": "B",
       "figureId": "Phy2014_Q6_VelocityTimeGraph_MNPSQ",
-      "explanation": "Acceleration is the slope of a velocity–time graph. Zero acceleration corresponds to a horizontal segment; NS is horizontal."
+      "explanation": "Acceleration is the slope of a velocity–time graph. Zero acceleration corresponds to a horizontal segment; NS is horizontal.",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q6.png"
     },
     {
       "id": 7,
       "question": "A car accelerates uniformly from rest at 3 m s\\(^{-2}\\); its velocity after traveling a distance of 24 m is",
       "options": [
-        { "id": "A", "text": "12 m s\\(^{-1}\\)" },
-        { "id": "B", "text": "144 m s\\(^{-1}\\)" },
-        { "id": "C", "text": "72 m s\\(^{-1}\\)" },
-        { "id": "D", "text": "36 m s\\(^{-1}\\)" }
+        {
+          "id": "A",
+          "text": "12 m s\\(^{-1}\\)"
+        },
+        {
+          "id": "B",
+          "text": "144 m s\\(^{-1}\\)"
+        },
+        {
+          "id": "C",
+          "text": "72 m s\\(^{-1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "36 m s\\(^{-1}\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Use \\(v^2=u^2+2as\\). From rest \\(u=0\\): \\(v^2=2(3)(24)=144\\Rightarrow v=12\\,\\text{m s}^{-1}\\)."
@@ -126,10 +211,22 @@
       "id": 8,
       "question": "Calculate the escape velocity of a satellite launched from the earth's surface if the radius of the earth is \\(6.4\\times 10^6\\,m\\)",
       "options": [
-        { "id": "A", "text": "25.3 km s\\(^{-1}\\)" },
-        { "id": "B", "text": "4.2 km s\\(^{-1}\\)" },
-        { "id": "C", "text": "4.0 km s\\(^{-1}\\)" },
-        { "id": "D", "text": "11.3 km s\\(^{-1}\\)" }
+        {
+          "id": "A",
+          "text": "25.3 km s\\(^{-1}\\)"
+        },
+        {
+          "id": "B",
+          "text": "4.2 km s\\(^{-1}\\)"
+        },
+        {
+          "id": "C",
+          "text": "4.0 km s\\(^{-1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "11.3 km s\\(^{-1}\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Escape velocity \\(v_e=\\sqrt{2gR}\\). Using \\(g\\approx 10\\,\\text{m s}^{-2}\\), \\(R=6.4\\times 10^6\\,m\\): \\(v_e=\\sqrt{2\\times 10\\times 6.4\\times 10^6}=\\sqrt{1.28\\times 10^8}\\approx 1.13\\times 10^4\\,\\text{m s}^{-1}=11.3\\,\\text{km s}^{-1}\\)."
@@ -138,10 +235,22 @@
       "id": 9,
       "question": "An object of weight 80 kg on earth is taken to a planet where acceleration due to gravity is one-third of its value on earth. The weight of the object on the planet is",
       "options": [
-        { "id": "A", "text": "48 N" },
-        { "id": "B", "text": "12 N" },
-        { "id": "C", "text": "27 N" },
-        { "id": "D", "text": "36 N" }
+        {
+          "id": "A",
+          "text": "48 N"
+        },
+        {
+          "id": "B",
+          "text": "12 N"
+        },
+        {
+          "id": "C",
+          "text": "27 N"
+        },
+        {
+          "id": "D",
+          "text": "36 N"
+        }
       ],
       "correctAnswer": null,
       "explanation": "Weight should scale with \\(g\\): \\(W' = \\frac{1}{3}W\\). However the question states “weight 80 kg” (kg is mass unit), and the answer options are in N but unusually small. If the intended weight was 80 N, then \\(W'\\approx 26.7\\,N\\) ≈ 27 N (option C). If intended mass was 80 kg, weight would be hundreds of newtons. Due to this unit inconsistency, the correct option cannot be determined with certainty from the image."
@@ -150,10 +259,22 @@
       "id": 10,
       "question": "One of the conditions necessary for an object to be in equilibrium when acted upon by a number of parallel forces is that the vector sum of the forces is",
       "options": [
-        { "id": "A", "text": "Average" },
-        { "id": "B", "text": "Zero" },
-        { "id": "C", "text": "Negative" },
-        { "id": "D", "text": "Positive" }
+        {
+          "id": "A",
+          "text": "Average"
+        },
+        {
+          "id": "B",
+          "text": "Zero"
+        },
+        {
+          "id": "C",
+          "text": "Negative"
+        },
+        {
+          "id": "D",
+          "text": "Positive"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "For translational equilibrium, the resultant (vector sum) of forces must be zero."
@@ -162,10 +283,22 @@
       "id": 11,
       "question": "What happens when three coplanar non-parallel forces are in equilibrium?",
       "options": [
-        { "id": "A", "text": "Their lines of action are parallel." },
-        { "id": "B", "text": "They are represented in magnitude only" },
-        { "id": "C", "text": "They are represented in direction only" },
-        { "id": "D", "text": "Their lines of action meet at a point" }
+        {
+          "id": "A",
+          "text": "Their lines of action are parallel."
+        },
+        {
+          "id": "B",
+          "text": "They are represented in magnitude only"
+        },
+        {
+          "id": "C",
+          "text": "They are represented in direction only"
+        },
+        {
+          "id": "D",
+          "text": "Their lines of action meet at a point"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "For three coplanar non-parallel forces to be in equilibrium, their lines of action must be concurrent (meet at one point)."
@@ -174,10 +307,22 @@
       "id": 12,
       "question": "An object of mass 20 kg is released from a height of 10 m above the ground level. The kinetic energy of the object just before it hits the ground is",
       "options": [
-        { "id": "A", "text": "200 J" },
-        { "id": "B", "text": "4000 J" },
-        { "id": "C", "text": "2000 J" },
-        { "id": "D", "text": "500 J" }
+        {
+          "id": "A",
+          "text": "200 J"
+        },
+        {
+          "id": "B",
+          "text": "4000 J"
+        },
+        {
+          "id": "C",
+          "text": "2000 J"
+        },
+        {
+          "id": "D",
+          "text": "500 J"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Ignoring air resistance, loss of PE becomes KE: \\(KE=mgh=20\\times 10\\times 10=2000\\,J\\)."
@@ -186,10 +331,22 @@
       "id": 13,
       "question": "The energy in the nucleus of atoms produce heat which can be used to generate",
       "options": [
-        { "id": "A", "text": "Kinetic energy" },
-        { "id": "B", "text": "Mechanical energy" },
-        { "id": "C", "text": "Electrical energy" },
-        { "id": "D", "text": "Potential energy" }
+        {
+          "id": "A",
+          "text": "Kinetic energy"
+        },
+        {
+          "id": "B",
+          "text": "Mechanical energy"
+        },
+        {
+          "id": "C",
+          "text": "Electrical energy"
+        },
+        {
+          "id": "D",
+          "text": "Potential energy"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Nuclear energy produces heat that drives turbines to generate electrical energy."
@@ -198,10 +355,22 @@
       "id": 14,
       "question": "A machine whose efficiency is 75% is used to lift a load of 1000 N. Calculate the effort put in to the machine if it has a velocity ratio of 4.",
       "options": [
-        { "id": "A", "text": "343.32 N" },
-        { "id": "B", "text": "233.33 N" },
-        { "id": "C", "text": "333.33 N" },
-        { "id": "D", "text": "334.33 N" }
+        {
+          "id": "A",
+          "text": "343.32 N"
+        },
+        {
+          "id": "B",
+          "text": "233.33 N"
+        },
+        {
+          "id": "C",
+          "text": "333.33 N"
+        },
+        {
+          "id": "D",
+          "text": "334.33 N"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Efficiency \\(\\eta=\\frac{MA}{VR}\\). So \\(MA=\\eta\\,VR=0.75\\times 4=3\\). Since \\(MA=\\frac{L}{E}\\), effort \\(E=\\frac{L}{MA}=\\frac{1000}{3}=333.33\\,N\\)."
@@ -210,10 +379,22 @@
       "id": 15,
       "question": "A wheel and an axle is used to raise a load whose weight is 800 N when an effort of 250 N is applied. If the radii of the wheel and axle are 800 mm and 200 mm respectively, the efficiency of the machine is",
       "options": [
-        { "id": "A", "text": "90%" },
-        { "id": "B", "text": "80%" },
-        { "id": "C", "text": "85%" },
-        { "id": "D", "text": "87%" }
+        {
+          "id": "A",
+          "text": "90%"
+        },
+        {
+          "id": "B",
+          "text": "80%"
+        },
+        {
+          "id": "C",
+          "text": "85%"
+        },
+        {
+          "id": "D",
+          "text": "87%"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Mechanical advantage \\(MA=\\frac{800}{250}=3.2\\). Velocity ratio \\(VR=\\frac{800}{200}=4\\). Efficiency \\(\\eta=\\frac{MA}{VR}\\times 100=\\frac{3.2}{4}\\times 100=80\\%\\)."
@@ -222,10 +403,22 @@
       "id": 16,
       "question": "A force of 500 N is applied to a steel wire of cross-sectional area 0.2 m\\(^2\\), the tensile stress is",
       "options": [
-        { "id": "A", "text": "\\(2.5\\times 10^{4}\\,\\text{N m}^{-2}\\)" },
-        { "id": "B", "text": "\\(1.0\\times 10^{2}\\,\\text{N m}^{-2}\\)" },
-        { "id": "C", "text": "\\(1.0\\times 10^{3}\\,\\text{N m}^{-2}\\)" },
-        { "id": "D", "text": "\\(2.5\\times 10^{3}\\,\\text{N m}^{-2}\\)" }
+        {
+          "id": "A",
+          "text": "\\(2.5\\times 10^{4}\\,\\text{N m}^{-2}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(1.0\\times 10^{2}\\,\\text{N m}^{-2}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(1.0\\times 10^{3}\\,\\text{N m}^{-2}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(2.5\\times 10^{3}\\,\\text{N m}^{-2}\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Stress \\(\\sigma=\\frac{F}{A}=\\frac{500}{0.2}=2500\\,\\text{N m}^{-2}=2.5\\times 10^3\\,\\text{N m}^{-2}\\)."
@@ -235,23 +428,48 @@
       "instruction": "Use the load–extension graph (figure Phy2014_Q17_LoadExtensionCurve).",
       "question": "From the diagram above, the point that represent the elastic limit is",
       "options": [
-        { "id": "A", "text": "Q" },
-        { "id": "B", "text": "R" },
-        { "id": "C", "text": "S" },
-        { "id": "D", "text": "T" }
+        {
+          "id": "A",
+          "text": "Q"
+        },
+        {
+          "id": "B",
+          "text": "R"
+        },
+        {
+          "id": "C",
+          "text": "S"
+        },
+        {
+          "id": "D",
+          "text": "T"
+        }
       ],
       "correctAnswer": "B",
       "figureId": "Phy2014_Q17_LoadExtensionCurve",
-      "explanation": "Elastic limit is the point beyond which deformation is no longer fully elastic (end of Hooke’s law/elastic region). On the typical curve shown, this corresponds to point R."
+      "explanation": "Elastic limit is the point beyond which deformation is no longer fully elastic (end of Hooke’s law/elastic region). On the typical curve shown, this corresponds to point R.",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q17.png"
     },
     {
       "id": 18,
       "question": "The small droplet of water that forms on the grass in early hours of the morning is",
       "options": [
-        { "id": "A", "text": "hail" },
-        { "id": "B", "text": "mist" },
-        { "id": "C", "text": "dew" },
-        { "id": "D", "text": "fog" }
+        {
+          "id": "A",
+          "text": "hail"
+        },
+        {
+          "id": "B",
+          "text": "mist"
+        },
+        {
+          "id": "C",
+          "text": "dew"
+        },
+        {
+          "id": "D",
+          "text": "fog"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Dew forms by condensation of water vapour on cool grass surfaces."
@@ -260,10 +478,22 @@
       "id": 19,
       "question": "What is the equivalent of 20 K in Celsius scale?",
       "options": [
-        { "id": "A", "text": "293 °C" },
-        { "id": "B", "text": "68 °C" },
-        { "id": "C", "text": "360 °C" },
-        { "id": "D", "text": "-253 °C" }
+        {
+          "id": "A",
+          "text": "293 °C"
+        },
+        {
+          "id": "B",
+          "text": "68 °C"
+        },
+        {
+          "id": "C",
+          "text": "360 °C"
+        },
+        {
+          "id": "D",
+          "text": "-253 °C"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Convert: \\(\\,^{\\circ}C = K - 273\\). So \\(20-273=-253\\,^{\\circ}C\\)."
@@ -272,10 +502,22 @@
       "id": 20,
       "question": "A glass bottle of initial volume \\(2\\times 10^4\\,\\text{cm}^3\\) is heated from 20°C to 50°C. If the linear expansively of the glass is \\(9\\times 10^{-6}\\,K^{-1}\\), the volume of the bottle at 50°C is",
       "options": [
-        { "id": "A", "text": "20016.2 cm^3" },
-        { "id": "B", "text": "20005.4 cm^3" },
-        { "id": "C", "text": "20008.1 cm^3" },
-        { "id": "D", "text": "20013.5 cm^3" }
+        {
+          "id": "A",
+          "text": "20016.2 cm^3"
+        },
+        {
+          "id": "B",
+          "text": "20005.4 cm^3"
+        },
+        {
+          "id": "C",
+          "text": "20008.1 cm^3"
+        },
+        {
+          "id": "D",
+          "text": "20013.5 cm^3"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Volume expansivity \\(\\beta\\approx 3\\alpha=3(9\\times 10^{-6})=2.7\\times 10^{-5}\\,K^{-1}\\). \\(\\Delta T=30\\,K\\). \\(\\Delta V=\\beta V\\Delta T = (2.7\\times 10^{-5})(2\\times 10^4)(30)=16.2\\,\\text{cm}^3\\). New volume \\(=20000+16.2=20016.2\\,\\text{cm}^3\\)."
@@ -284,10 +526,22 @@
       "id": 21,
       "question": "The equation \\(P^aV^bT^c = \\text{constant}\\) reduces to Charles Law if",
       "options": [
-        { "id": "A", "text": "a=1, b=1 and c=0" },
-        { "id": "B", "text": "a=1, b=0 and c=-1" },
-        { "id": "C", "text": "a=0, b=1 and c=1" },
-        { "id": "D", "text": "a=0, b=1 and c=-1" }
+        {
+          "id": "A",
+          "text": "a=1, b=1 and c=0"
+        },
+        {
+          "id": "B",
+          "text": "a=1, b=0 and c=-1"
+        },
+        {
+          "id": "C",
+          "text": "a=0, b=1 and c=1"
+        },
+        {
+          "id": "D",
+          "text": "a=0, b=1 and c=-1"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Charles’ law: \\(\\frac{V}{T}=\\text{constant}\\) at constant pressure. This corresponds to \\(P^0V^1T^{-1}=\\text{constant}\\), i.e., a=0, b=1, c=-1."
@@ -296,10 +550,22 @@
       "id": 22,
       "question": "The quantity of heat needed to raise the temperature of a body by 1 K is the body's",
       "options": [
-        { "id": "A", "text": "Heat capacity" },
-        { "id": "B", "text": "Internal energy" },
-        { "id": "C", "text": "Specific heat capacity" },
-        { "id": "D", "text": "Latent heat of fusion" }
+        {
+          "id": "A",
+          "text": "Heat capacity"
+        },
+        {
+          "id": "B",
+          "text": "Internal energy"
+        },
+        {
+          "id": "C",
+          "text": "Specific heat capacity"
+        },
+        {
+          "id": "D",
+          "text": "Latent heat of fusion"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Heat capacity is the heat required to raise the temperature of the whole body by 1 K."
@@ -308,10 +574,22 @@
       "id": 23,
       "question": "The melting point of a substance is equivalent to its",
       "options": [
-        { "id": "A", "text": "Vapour pressure" },
-        { "id": "B", "text": "solidification temperature" },
-        { "id": "C", "text": "liquidification temperature" },
-        { "id": "D", "text": "solidification pressures" }
+        {
+          "id": "A",
+          "text": "Vapour pressure"
+        },
+        {
+          "id": "B",
+          "text": "solidification temperature"
+        },
+        {
+          "id": "C",
+          "text": "liquidification temperature"
+        },
+        {
+          "id": "D",
+          "text": "solidification pressures"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "For a pure substance, melting point equals freezing (solidification) point."
@@ -320,10 +598,22 @@
       "id": 24,
       "question": "The temperature at which the water vapor present in the air is just sufficient to saturate air is",
       "options": [
-        { "id": "A", "text": "Boiling point" },
-        { "id": "B", "text": "Ice point" },
-        { "id": "C", "text": "Saturation point" },
-        { "id": "D", "text": "Dew point" }
+        {
+          "id": "A",
+          "text": "Boiling point"
+        },
+        {
+          "id": "B",
+          "text": "Ice point"
+        },
+        {
+          "id": "C",
+          "text": "Saturation point"
+        },
+        {
+          "id": "D",
+          "text": "Dew point"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Dew point is the temperature at which air becomes saturated with water vapour."
@@ -332,13 +622,22 @@
       "id": 25,
       "question": "Heat transfer by convection in a liquid is due to the",
       "options": [
-        { "id": "A", "text": "latent heat of vaporization of the liquid" },
+        {
+          "id": "A",
+          "text": "latent heat of vaporization of the liquid"
+        },
         {
           "id": "B",
           "text": "increased vibration of the molecules of the liquid about their mean position"
         },
-        { "id": "C", "text": "variation of density of the liquid" },
-        { "id": "D", "text": "expansion of the liquid as it is heated" }
+        {
+          "id": "C",
+          "text": "variation of density of the liquid"
+        },
+        {
+          "id": "D",
+          "text": "expansion of the liquid as it is heated"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Convection currents arise because heating changes density; less dense (warmer) fluid rises and denser (cooler) fluid sinks."
@@ -347,10 +646,22 @@
       "id": 26,
       "question": "The distance between two successive crests of a wave is 15 cm and the velocity 300 m s^-1. Calculate the frequency.",
       "options": [
-        { "id": "A", "text": "\\(2.0\\times 10^2\\,Hz\\)" },
-        { "id": "B", "text": "\\(4.5\\times 10^3\\,Hz\\)" },
-        { "id": "C", "text": "\\(2.0\\times 10^3\\,Hz\\)" },
-        { "id": "D", "text": "\\(4.5\\times 10^2\\,Hz\\)" }
+        {
+          "id": "A",
+          "text": "\\(2.0\\times 10^2\\,Hz\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(4.5\\times 10^3\\,Hz\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(2.0\\times 10^3\\,Hz\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(4.5\\times 10^2\\,Hz\\)"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Wavelength \\(\\lambda=15\\,cm=0.15\\,m\\). Frequency \\(f=\\frac{v}{\\lambda}=\\frac{300}{0.15}=2000\\,Hz=2.0\\times 10^3\\,Hz\\)."
@@ -359,10 +670,22 @@
       "id": 27,
       "question": "A boy receives the echo of his clap reflected by a nearby hill 0.8 s later. How far is he from the hill?",
       "options": [
-        { "id": "A", "text": "528 m" },
-        { "id": "B", "text": "66 m" },
-        { "id": "C", "text": "136 m" },
-        { "id": "D", "text": "264 m" }
+        {
+          "id": "A",
+          "text": "528 m"
+        },
+        {
+          "id": "B",
+          "text": "66 m"
+        },
+        {
+          "id": "C",
+          "text": "136 m"
+        },
+        {
+          "id": "D",
+          "text": "264 m"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Echo time is for to-and-fro travel. Using \\(v\\approx 330\\,m s^{-1}\\): distance \\(d=\\frac{vt}{2}=\\frac{330\\times 0.8}{2}=132\\,m\\). Closest option is C (136 m), not D. (Options suggest a different speed; if \\(v=660\\,m s^{-1}\\) then 264 m. With standard sound speed, C is the closest.)"
@@ -372,23 +695,48 @@
       "instruction": "Use the diagram (figure Phy2014_Q28_StationaryWave_ClosedTube).",
       "question": "The diagram above show a stationary wave of wavelength 40 cm in a closed tube. The length l is the resonating air column is",
       "options": [
-        { "id": "A", "text": "10 cm" },
-        { "id": "B", "text": "20 cm" },
-        { "id": "C", "text": "30 cm" },
-        { "id": "D", "text": "40 cm" }
+        {
+          "id": "A",
+          "text": "10 cm"
+        },
+        {
+          "id": "B",
+          "text": "20 cm"
+        },
+        {
+          "id": "C",
+          "text": "30 cm"
+        },
+        {
+          "id": "D",
+          "text": "40 cm"
+        }
       ],
       "correctAnswer": null,
       "figureId": "Phy2014_Q28_StationaryWave_ClosedTube",
-      "explanation": "The resonating length depends on whether the pattern corresponds to the fundamental (\\(L=\\lambda/4\\)) or a higher odd harmonic (\\(L=3\\lambda/4\\), etc.). The provided image does not show the node/antinode labeling clearly enough to identify which mode is drawn, so L cannot be determined reliably."
+      "explanation": "The resonating length depends on whether the pattern corresponds to the fundamental (\\(L=\\lambda/4\\)) or a higher odd harmonic (\\(L=3\\lambda/4\\), etc.). The provided image does not show the node/antinode labeling clearly enough to identify which mode is drawn, so L cannot be determined reliably.",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q28.png"
     },
     {
       "id": 29,
       "question": "An object is placed 10 m from a pinhole camera of length 25 cm. Calculate the linear magnification.",
       "options": [
-        { "id": "A", "text": "\\(2.5\\times 10^{-2}\\)" },
-        { "id": "B", "text": "\\(2.5\\times 10^{-1}\\)" },
-        { "id": "C", "text": "\\(2.5\\times 10^{1}\\)" },
-        { "id": "D", "text": "\\(2.5\\times 10^{2}\\)" }
+        {
+          "id": "A",
+          "text": "\\(2.5\\times 10^{-2}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(2.5\\times 10^{-1}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(2.5\\times 10^{1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(2.5\\times 10^{2}\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Magnification \\(m=\\frac{v}{u}\\). Here \\(v=25\\,cm=0.25\\,m\\), \\(u=10\\,m\\). \\(m=0.25/10=0.025=2.5\\times 10^{-2}\\)."
@@ -397,10 +745,22 @@
       "id": 30,
       "question": "The focal length of a concave mirror is 2.0 cm. If an object is placed 8.0 cm from it, the image is at",
       "options": [
-        { "id": "A", "text": "2.7 m" },
-        { "id": "B", "text": "2.0 m" },
-        { "id": "C", "text": "2.3 m" },
-        { "id": "D", "text": "2.5 m" }
+        {
+          "id": "A",
+          "text": "2.7 m"
+        },
+        {
+          "id": "B",
+          "text": "2.0 m"
+        },
+        {
+          "id": "C",
+          "text": "2.3 m"
+        },
+        {
+          "id": "D",
+          "text": "2.5 m"
+        }
       ],
       "correctAnswer": null,
       "explanation": "Use mirror formula \\(\\frac{1}{f}=\\frac{1}{u}+\\frac{1}{v}\\). With \\(f=2\\,cm\\), \\(u=8\\,cm\\): \\(\\frac{1}{v}=\\frac{1}{2}-\\frac{1}{8}=\\frac{3}{8}\\Rightarrow v=\\frac{8}{3}=2.67\\,cm\\). Options are in meters, so there is a unit mismatch; the correct image distance is 2.67 cm."
@@ -409,10 +769,22 @@
       "id": 31,
       "question": "In a compound microscope, the objective and the eye piece focal lengths are",
       "options": [
-        { "id": "A", "text": "Long" },
-        { "id": "B", "text": "Short" },
-        { "id": "C", "text": "The same" },
-        { "id": "D", "text": "At infinity" }
+        {
+          "id": "A",
+          "text": "Long"
+        },
+        {
+          "id": "B",
+          "text": "Short"
+        },
+        {
+          "id": "C",
+          "text": "The same"
+        },
+        {
+          "id": "D",
+          "text": "At infinity"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "A compound microscope uses a short focal length objective and a short focal length eyepiece to achieve large magnification; thus “short” best describes them."
@@ -421,10 +793,22 @@
       "id": 32,
       "question": "When a telescope is in normal use, the final image is at",
       "options": [
-        { "id": "A", "text": "The focus" },
-        { "id": "B", "text": "The radius of curvature" },
-        { "id": "C", "text": "The near point" },
-        { "id": "D", "text": "Infinity" }
+        {
+          "id": "A",
+          "text": "The focus"
+        },
+        {
+          "id": "B",
+          "text": "The radius of curvature"
+        },
+        {
+          "id": "C",
+          "text": "The near point"
+        },
+        {
+          "id": "D",
+          "text": "Infinity"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "In normal adjustment, an astronomical telescope forms the final image at infinity for relaxed viewing."
@@ -433,10 +817,22 @@
       "id": 33,
       "question": "When a negatively charged rod is brought near the cap of a charged gold leaf electroscope which has positive charges, the leaf",
       "options": [
-        { "id": "A", "text": "Collapses" },
-        { "id": "B", "text": "Collapses and diverges again" },
-        { "id": "C", "text": "Diverges" },
-        { "id": "D", "text": "Remains the same" }
+        {
+          "id": "A",
+          "text": "Collapses"
+        },
+        {
+          "id": "B",
+          "text": "Collapses and diverges again"
+        },
+        {
+          "id": "C",
+          "text": "Diverges"
+        },
+        {
+          "id": "D",
+          "text": "Remains the same"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "A negative rod induces electrons to move toward the cap, reducing positive charge on the leaf and decreasing divergence (collapse)."
@@ -445,10 +841,22 @@
       "id": 34,
       "question": "What charge is stored in a 0.1 F capacitor when a 10 V supply is connected across it?",
       "options": [
-        { "id": "A", "text": "1 C" },
-        { "id": "B", "text": "5 C" },
-        { "id": "C", "text": "4 C" },
-        { "id": "D", "text": "2 C" }
+        {
+          "id": "A",
+          "text": "1 C"
+        },
+        {
+          "id": "B",
+          "text": "5 C"
+        },
+        {
+          "id": "C",
+          "text": "4 C"
+        },
+        {
+          "id": "D",
+          "text": "2 C"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Charge \\(Q=CV=0.1\\times 10=1\\,C\\)."
@@ -458,10 +866,22 @@
       "instruction": "Use the capacitor network (figure Phy2014_Q35_CapacitorNetwork).",
       "question": "Calculate the effective capacitance of the circuit above",
       "options": [
-        { "id": "A", "text": "1 µF" },
-        { "id": "B", "text": "2 µF" },
-        { "id": "C", "text": "3 µF" },
-        { "id": "D", "text": "4 µF" }
+        {
+          "id": "A",
+          "text": "1 µF"
+        },
+        {
+          "id": "B",
+          "text": "2 µF"
+        },
+        {
+          "id": "C",
+          "text": "3 µF"
+        },
+        {
+          "id": "D",
+          "text": "4 µF"
+        }
       ],
       "correctAnswer": null,
       "figureId": "Phy2014_Q35_CapacitorNetwork",
@@ -471,10 +891,22 @@
       "id": 36,
       "question": "The maximum power transfer occurs in a cell when the external resistance is",
       "options": [
-        { "id": "A", "text": "Twice the internal resistance of the cell" },
-        { "id": "B", "text": "The same as the internal resistance of the cell" },
-        { "id": "C", "text": "Greater than the internal resistance of the cell" },
-        { "id": "D", "text": "Less than the internal resistance of the cell" }
+        {
+          "id": "A",
+          "text": "Twice the internal resistance of the cell"
+        },
+        {
+          "id": "B",
+          "text": "The same as the internal resistance of the cell"
+        },
+        {
+          "id": "C",
+          "text": "Greater than the internal resistance of the cell"
+        },
+        {
+          "id": "D",
+          "text": "Less than the internal resistance of the cell"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Maximum power transfer theorem: maximum power is delivered when \\(R_{external}=r_{internal}\\)."
@@ -483,10 +915,22 @@
       "id": 37,
       "question": "If a metal wire 4 m long and crosssectional area 0.8 mm2 has a resistance of 60 Ω, find the resistivity of the wire",
       "options": [
-        { "id": "A", "text": "\\(5.3\\times 10^{-7}\\,\\Omega m\\)" },
-        { "id": "B", "text": "\\(3.0\\times 10^{-5}\\,\\Omega m\\)" },
-        { "id": "C", "text": "\\(1.2\\times 10^{-6}\\,\\Omega m\\)" },
-        { "id": "D", "text": "\\(3.2\\times 10^{-6}\\,\\Omega m\\)" }
+        {
+          "id": "A",
+          "text": "\\(5.3\\times 10^{-7}\\,\\Omega m\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(3.0\\times 10^{-5}\\,\\Omega m\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(1.2\\times 10^{-6}\\,\\Omega m\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(3.2\\times 10^{-6}\\,\\Omega m\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Resistivity \\(\\rho=\\frac{RA}{L}\\). Area \\(A=0.8\\,\\text{mm}^2=0.8\\times 10^{-6}\\,m^2\\). \\(\\rho=\\frac{60\\times 0.8\\times 10^{-6}}{4}=12\\times 10^{-6}=1.2\\times 10^{-5}\\,\\Omega m\\). None matches exactly; closest is B (3.0×10^-5) or D (3.2×10^-6) but neither equals 1.2×10^-5. This indicates an inconsistency between the given values and options."
@@ -495,10 +939,22 @@
       "id": 38,
       "question": "A circuit has a resistance of 200 Ω. The resistance of the circuit can be reduced to 120 Ω when",
       "options": [
-        { "id": "A", "text": "A 300 Ω resistor is connected to it in parallel" },
-        { "id": "B", "text": "An 80 Ω resistor is connected to it in series" },
-        { "id": "C", "text": "A 150 Ω resistor is connected to it in parallel" },
-        { "id": "D", "text": "A 240 Ω resistor is connected to it in series" }
+        {
+          "id": "A",
+          "text": "A 300 Ω resistor is connected to it in parallel"
+        },
+        {
+          "id": "B",
+          "text": "An 80 Ω resistor is connected to it in series"
+        },
+        {
+          "id": "C",
+          "text": "A 150 Ω resistor is connected to it in parallel"
+        },
+        {
+          "id": "D",
+          "text": "A 240 Ω resistor is connected to it in series"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Parallel reduces resistance: \\(R_{eq}=\\frac{200R}{200+R}=120\\). Solve: \\(120(200+R)=200R\\Rightarrow 24000+120R=200R\\Rightarrow 24000=80R\\Rightarrow R=300\\,\\Omega\\)."
@@ -507,10 +963,22 @@
       "id": 39,
       "question": "PHCN measures its electrical energy in",
       "options": [
-        { "id": "A", "text": "W" },
-        { "id": "B", "text": "kWh" },
-        { "id": "C", "text": "Wh" },
-        { "id": "D", "text": "J" }
+        {
+          "id": "A",
+          "text": "W"
+        },
+        {
+          "id": "B",
+          "text": "kWh"
+        },
+        {
+          "id": "C",
+          "text": "Wh"
+        },
+        {
+          "id": "D",
+          "text": "J"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Electric energy consumption for billing is measured in kilowatt-hour (kWh)."
@@ -519,10 +987,22 @@
       "id": 40,
       "question": "What is the best method of demagnetizing a steel bar magnet?",
       "options": [
-        { "id": "A", "text": "Hammering" },
-        { "id": "B", "text": "Heating it" },
-        { "id": "C", "text": "Rough handling it" },
-        { "id": "D", "text": "Solenoid method" }
+        {
+          "id": "A",
+          "text": "Hammering"
+        },
+        {
+          "id": "B",
+          "text": "Heating it"
+        },
+        {
+          "id": "C",
+          "text": "Rough handling it"
+        },
+        {
+          "id": "D",
+          "text": "Solenoid method"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Best method is using an alternating current in a solenoid and gradually reducing the current (AC demagnetization)."
@@ -531,10 +1011,22 @@
       "id": 41,
       "question": "The magnitude of the angle of dip at the equator is",
       "options": [
-        { "id": "A", "text": "360°" },
-        { "id": "B", "text": "0°" },
-        { "id": "C", "text": "90°" },
-        { "id": "D", "text": "180°" }
+        {
+          "id": "A",
+          "text": "360°"
+        },
+        {
+          "id": "B",
+          "text": "0°"
+        },
+        {
+          "id": "C",
+          "text": "90°"
+        },
+        {
+          "id": "D",
+          "text": "180°"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "At the magnetic equator, Earth’s field is horizontal, so dip angle is 0°."
@@ -544,10 +1036,22 @@
       "instruction": "Use the diagram (figure Phy2014_Q42_Q43_TransformerDiagram).",
       "question": "The diagram above is that of",
       "options": [
-        { "id": "A", "text": "a step-up transformer" },
-        { "id": "B", "text": "a step-down transformer" },
-        { "id": "C", "text": "an auto transformer" },
-        { "id": "D", "text": "an oil transformer" }
+        {
+          "id": "A",
+          "text": "a step-up transformer"
+        },
+        {
+          "id": "B",
+          "text": "a step-down transformer"
+        },
+        {
+          "id": "C",
+          "text": "an auto transformer"
+        },
+        {
+          "id": "D",
+          "text": "an oil transformer"
+        }
       ],
       "correctAnswer": null,
       "figureId": "Phy2014_Q42_Q43_TransformerDiagram",
@@ -558,10 +1062,22 @@
       "instruction": "Use the diagram (figure Phy2014_Q42_Q43_TransformerDiagram).",
       "question": "The electromotive force in the secondary winding is",
       "options": [
-        { "id": "A", "text": "increasing" },
-        { "id": "B", "text": "reducing" },
-        { "id": "C", "text": "stabilizing" },
-        { "id": "D", "text": "varying" }
+        {
+          "id": "A",
+          "text": "increasing"
+        },
+        {
+          "id": "B",
+          "text": "reducing"
+        },
+        {
+          "id": "C",
+          "text": "stabilizing"
+        },
+        {
+          "id": "D",
+          "text": "varying"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2014_Q42_Q43_TransformerDiagram",
@@ -571,10 +1087,22 @@
       "id": 44,
       "question": "What type of reaction is represented by the equation \\(^{2}_{1}X + ^{2}_{1}X \\rightarrow ^{3}_{2}X + ^{1}_{0}n + \\text{energy}\\)?",
       "options": [
-        { "id": "A", "text": "Ionization" },
-        { "id": "B", "text": "Fusion" },
-        { "id": "C", "text": "Fission" },
-        { "id": "D", "text": "Chain" }
+        {
+          "id": "A",
+          "text": "Ionization"
+        },
+        {
+          "id": "B",
+          "text": "Fusion"
+        },
+        {
+          "id": "C",
+          "text": "Fission"
+        },
+        {
+          "id": "D",
+          "text": "Chain"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Two light nuclei combine to form a heavier nucleus with energy released: nuclear fusion."
@@ -583,10 +1111,22 @@
       "id": 45,
       "question": "When an atom undergoes a beta decay, the atomic number of the nucleus",
       "options": [
-        { "id": "A", "text": "Remains unchanged" },
-        { "id": "B", "text": "Decreases by one" },
-        { "id": "C", "text": "Increases by one" },
-        { "id": "D", "text": "Becomes zero" }
+        {
+          "id": "A",
+          "text": "Remains unchanged"
+        },
+        {
+          "id": "B",
+          "text": "Decreases by one"
+        },
+        {
+          "id": "C",
+          "text": "Increases by one"
+        },
+        {
+          "id": "D",
+          "text": "Becomes zero"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "In \\(\\beta^-\\) decay, a neutron turns into a proton, so atomic number increases by 1."
@@ -595,10 +1135,22 @@
       "id": 46,
       "question": "Calculate the mass of the copper deposited during electrolysis when a current of 4 A passes through a copper salt for 2 hours. [ece of Copper \\(z=3.3\\times 10^{-7}\\,\\text{kg C}^{-1}\\)]",
       "options": [
-        { "id": "A", "text": "\\(2.9\\times 10^{5}\\,kg\\)" },
-        { "id": "B", "text": "\\(9.5\\times 10^{-7}\\,kg\\)" },
-        { "id": "C", "text": "\\(9.5\\times 10^{-3}\\,kg\\)" },
-        { "id": "D", "text": "\\(2.9\\times 10^{-4}\\,kg\\)" }
+        {
+          "id": "A",
+          "text": "\\(2.9\\times 10^{5}\\,kg\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(9.5\\times 10^{-7}\\,kg\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(9.5\\times 10^{-3}\\,kg\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(2.9\\times 10^{-4}\\,kg\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Charge \\(Q=It=4\\times (2\\times 3600)=28800\\,C\\). Mass \\(m=zQ=(3.3\\times 10^{-7})(28800)=9.504\\times 10^{-3}\\,kg\\). This matches option C, not D."
@@ -607,10 +1159,22 @@
       "id": 47,
       "question": "Which gas produces a pink coloured light in a discharge tube?",
       "options": [
-        { "id": "A", "text": "Mercury" },
-        { "id": "B", "text": "Argon" },
-        { "id": "C", "text": "Air" },
-        { "id": "D", "text": "Neon" }
+        {
+          "id": "A",
+          "text": "Mercury"
+        },
+        {
+          "id": "B",
+          "text": "Argon"
+        },
+        {
+          "id": "C",
+          "text": "Air"
+        },
+        {
+          "id": "D",
+          "text": "Neon"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Neon gives a characteristic reddish/pink glow in discharge tubes (neon lamps)."
@@ -619,10 +1183,22 @@
       "id": 48,
       "question": "When \\(^{210}_{82}\\text{Pb}\\) decays to \\(^{206}_{80}\\text{Pb}\\), it emits",
       "options": [
-        { "id": "A", "text": "two alpha and two beta particles" },
-        { "id": "B", "text": "an alpha particle" },
-        { "id": "C", "text": "one beta particle" },
-        { "id": "D", "text": "one alpha and one beta particle" }
+        {
+          "id": "A",
+          "text": "two alpha and two beta particles"
+        },
+        {
+          "id": "B",
+          "text": "an alpha particle"
+        },
+        {
+          "id": "C",
+          "text": "one beta particle"
+        },
+        {
+          "id": "D",
+          "text": "one alpha and one beta particle"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Mass number drops 210→206 (−4) and atomic number drops 82→80 (−2), which corresponds to alpha emission."
@@ -631,10 +1207,22 @@
       "id": 49,
       "question": "In a common emitter configuration, the output voltage is through the",
       "options": [
-        { "id": "A", "text": "Resistor" },
-        { "id": "B", "text": "Base" },
-        { "id": "C", "text": "Collector" },
-        { "id": "D", "text": "Emitter" }
+        {
+          "id": "A",
+          "text": "Resistor"
+        },
+        {
+          "id": "B",
+          "text": "Base"
+        },
+        {
+          "id": "C",
+          "text": "Collector"
+        },
+        {
+          "id": "D",
+          "text": "Emitter"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "In a common-emitter amplifier, the output is taken from the collector circuit (collector relative to emitter)."
@@ -644,14 +1232,27 @@
       "instruction": "Use the I–V plots (figure Phy2014_Q50_Transistor_IV_Graphs).",
       "question": "Which of the graph below shows the characteristic of an i-v transistor?",
       "options": [
-        { "id": "A", "text": "Graph A" },
-        { "id": "B", "text": "Graph B" },
-        { "id": "C", "text": "Graph C" },
-        { "id": "D", "text": "Graph D" }
+        {
+          "id": "A",
+          "text": "Graph A"
+        },
+        {
+          "id": "B",
+          "text": "Graph B"
+        },
+        {
+          "id": "C",
+          "text": "Graph C"
+        },
+        {
+          "id": "D",
+          "text": "Graph D"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2014_Q50_Transistor_IV_Graphs",
-      "explanation": "A transistor output characteristic typically rises with voltage and then tends toward saturation (levels off). Among the shown plots, graph D best matches that shape."
+      "explanation": "A transistor output characteristic typically rises with voltage and then tends toward saturation (levels off). Among the shown plots, graph D best matches that shape.",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q50.png"
     }
   ],
   "missingQuestions": [

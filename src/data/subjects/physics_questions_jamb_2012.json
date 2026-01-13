@@ -6,27 +6,27 @@
   "figures": [
     {
       "id": "Phy2012_Q4_VectorDiagram",
-      "file": "upload_1.png",
+      "file": "2012_Q4.png",
       "description": "Vector diagram with vectors labeled Q, R, S, T meeting at point O; one vector is labeled 8 N. Used in Question 4."
     },
     {
       "id": "Phy2012_Q5_VelocityTimeGraph",
-      "file": "upload_2.png",
+      "file": "2012_Q5.png",
       "description": "Velocity–time graph: constant velocity at 60 m/s from 0–20 s, then decreases linearly to 0 at 25 s. Used in Question 5."
     },
     {
       "id": "Phy2012_Q11_ForceDistanceGraph",
-      "file": "upload_3.png",
+      "file": "2012_Q11.png",
       "description": "Force–distance graph with piecewise linear segments. Used in Question 11."
     },
     {
       "id": "Phy2012_Q12_InclinedPlane_Block",
-      "file": "upload_3.png",
+      "file": "2012_Q12.png",
       "description": "Block on an inclined plane at angle α, just about to slide down. Used in Question 12."
     },
     {
       "id": "Phy2012_Q27_WaveDisplacementGraph",
-      "file": "upload_7.png",
+      "file": "2012_Q27.png",
       "description": "Displacement vs wave direction (x) sinusoidal sketch with points O and F separated by distance x. Used in Question 27."
     }
   ],
@@ -35,10 +35,22 @@
       "id": 1,
       "question": "Which Question paper type of physics as indicated above is given to you",
       "options": [
-        { "id": "A", "text": "Type Green" },
-        { "id": "B", "text": "Type Purple" },
-        { "id": "C", "text": "Type Red" },
-        { "id": "D", "text": "Type Yellow" }
+        {
+          "id": "A",
+          "text": "Type Green"
+        },
+        {
+          "id": "B",
+          "text": "Type Purple"
+        },
+        {
+          "id": "C",
+          "text": "Type Red"
+        },
+        {
+          "id": "D",
+          "text": "Type Yellow"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "The header shows \"PAPER TYPE: PURPLE\"."
@@ -47,10 +59,22 @@
       "id": 2,
       "question": "In order to remove the error of parallax when taking measurements with a metre rule, the eye should be focused",
       "options": [
-        { "id": "A", "text": "slantingly towards the left on the markings" },
-        { "id": "B", "text": "slantingly towards the right on the markings" },
-        { "id": "C", "text": "vertically downwards on the markings" },
-        { "id": "D", "text": "vertically upwards on the markings" }
+        {
+          "id": "A",
+          "text": "slantingly towards the left on the markings"
+        },
+        {
+          "id": "B",
+          "text": "slantingly towards the right on the markings"
+        },
+        {
+          "id": "C",
+          "text": "vertically downwards on the markings"
+        },
+        {
+          "id": "D",
+          "text": "vertically upwards on the markings"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Parallax error is eliminated when the eye is directly above the mark (line of sight perpendicular to the scale)."
@@ -59,10 +83,22 @@
       "id": 3,
       "question": "A load is pulled at a uniform speed along horizontal floor by a rope at 45° to floor. If the force in the rope is 1500 N, what is the frictional force on the load?",
       "options": [
-        { "id": "A", "text": "1524 N" },
-        { "id": "B", "text": "1350 N" },
-        { "id": "C", "text": "1260 N" },
-        { "id": "D", "text": "1061 N" }
+        {
+          "id": "A",
+          "text": "1524 N"
+        },
+        {
+          "id": "B",
+          "text": "1350 N"
+        },
+        {
+          "id": "C",
+          "text": "1260 N"
+        },
+        {
+          "id": "D",
+          "text": "1061 N"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Uniform speed implies zero net horizontal force, so friction equals the horizontal component of the pull: \\(F\\cos 45^\\circ=1500\\times\\frac{\\sqrt{2}}{2}\\approx 1061\\,\\text{N}\\)."
@@ -72,37 +108,75 @@
       "instruction": "Use the diagram (figure Phy2012_Q4_VectorDiagram).",
       "question": "From the diagram above, OT is",
       "options": [
-        { "id": "A", "text": "18 N" },
-        { "id": "B", "text": "14 N" },
-        { "id": "C", "text": "5 N" },
-        { "id": "D", "text": "2 N" }
+        {
+          "id": "A",
+          "text": "18 N"
+        },
+        {
+          "id": "B",
+          "text": "14 N"
+        },
+        {
+          "id": "C",
+          "text": "5 N"
+        },
+        {
+          "id": "D",
+          "text": "2 N"
+        }
       ],
       "correctAnswer": null,
       "figureId": "Phy2012_Q4_VectorDiagram",
-      "explanation": "The diagram shows one labeled magnitude (8 N) but other necessary magnitudes/angles are not readable enough to compute OT accurately from the provided image."
+      "explanation": "The diagram shows one labeled magnitude (8 N) but other necessary magnitudes/angles are not readable enough to compute OT accurately from the provided image.",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q4.png"
     },
     {
       "id": 5,
       "instruction": "Use the graph (figure Phy2012_Q5_VelocityTimeGraph).",
       "question": "From the velocity-time graph shown above, which of the following quantities CANNOT be determined?",
       "options": [
-        { "id": "A", "text": "Deceleration" },
-        { "id": "B", "text": "Initial velocity" },
-        { "id": "C", "text": "Total distance travelled" },
-        { "id": "D", "text": "Initial acceleration" }
+        {
+          "id": "A",
+          "text": "Deceleration"
+        },
+        {
+          "id": "B",
+          "text": "Initial velocity"
+        },
+        {
+          "id": "C",
+          "text": "Total distance travelled"
+        },
+        {
+          "id": "D",
+          "text": "Initial acceleration"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2012_Q5_VelocityTimeGraph",
-      "explanation": "A velocity–time graph gives initial velocity (value at t=0), deceleration (negative slope segment), and total distance (area under curve). The graph does not provide an initial accelerating segment to measure a nonzero initial acceleration."
+      "explanation": "A velocity–time graph gives initial velocity (value at t=0), deceleration (negative slope segment), and total distance (area under curve). The graph does not provide an initial accelerating segment to measure a nonzero initial acceleration.",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q5.png"
     },
     {
       "id": 6,
       "question": "Calculate the total distance covered by a train before coming to rest if its initial speed is 30 m s^-1 with a constant retardation of 0.1 m s^-2.",
       "options": [
-        { "id": "A", "text": "5500 m" },
-        { "id": "B", "text": "4500 m" },
-        { "id": "C", "text": "4200 m" },
-        { "id": "D", "text": "3000 m" }
+        {
+          "id": "A",
+          "text": "5500 m"
+        },
+        {
+          "id": "B",
+          "text": "4500 m"
+        },
+        {
+          "id": "C",
+          "text": "4200 m"
+        },
+        {
+          "id": "D",
+          "text": "3000 m"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Using \\(v^2=u^2+2as\\) with \\(v=0\\), \\(u=30\\), \\(a=-0.1\\): \\(0=900-0.2s\\Rightarrow s=4500\\,\\text{m}\\)."
@@ -111,10 +185,22 @@
       "id": 7,
       "question": "A car starts from rest and moves with a uniform acceleration of 30 m s^-2 for 20 s. Calculate the distance covered at the end of the motion.",
       "options": [
-        { "id": "A", "text": "6 km" },
-        { "id": "B", "text": "12 km" },
-        { "id": "C", "text": "18 km" },
-        { "id": "D", "text": "24 km" }
+        {
+          "id": "A",
+          "text": "6 km"
+        },
+        {
+          "id": "B",
+          "text": "12 km"
+        },
+        {
+          "id": "C",
+          "text": "18 km"
+        },
+        {
+          "id": "D",
+          "text": "24 km"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "From rest: \\(s=\\tfrac{1}{2}at^2=\\tfrac{1}{2}\\times 30\\times 20^2=15\\times 400=6000\\,\\text{m}=6\\,\\text{km}\\)."
@@ -123,10 +209,22 @@
       "id": 8,
       "question": "A rocket is fired from the earth's surface to a distant planet. By Newton’s law of universal gravitation, the force F will",
       "options": [
-        { "id": "A", "text": "increase as r reduces" },
-        { "id": "B", "text": "increase as G varies" },
-        { "id": "C", "text": "remains constant" },
-        { "id": "D", "text": "increases as r increases" }
+        {
+          "id": "A",
+          "text": "increase as r reduces"
+        },
+        {
+          "id": "B",
+          "text": "increase as G varies"
+        },
+        {
+          "id": "C",
+          "text": "remains constant"
+        },
+        {
+          "id": "D",
+          "text": "increases as r increases"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Gravitational force varies as \\(F\\propto \\frac{1}{r^2}\\), so it increases when separation r decreases."
@@ -135,10 +233,22 @@
       "id": 9,
       "question": "If a freely suspended object is pulled to one side and released, it oscillates about the point of suspension because the",
       "options": [
-        { "id": "A", "text": "acceleration is directly proportional to the displacement" },
-        { "id": "B", "text": "motion is directed away from the equilibrium point" },
-        { "id": "C", "text": "acceleration is directly proportional to the square of the displacement" },
-        { "id": "D", "text": "velocity is minimum at the equilibrium point" }
+        {
+          "id": "A",
+          "text": "acceleration is directly proportional to the displacement"
+        },
+        {
+          "id": "B",
+          "text": "motion is directed away from the equilibrium point"
+        },
+        {
+          "id": "C",
+          "text": "acceleration is directly proportional to the square of the displacement"
+        },
+        {
+          "id": "D",
+          "text": "velocity is minimum at the equilibrium point"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "For small oscillations, the restoring acceleration is proportional to displacement (SHM condition)."
@@ -147,10 +257,22 @@
       "id": 10,
       "question": "An object moves in a circular path of radius 0.5 m with a speed of 1 m s^-1. What is its angular velocity?",
       "options": [
-        { "id": "A", "text": "8 rad s^-1" },
-        { "id": "B", "text": "4 rad s^-1" },
-        { "id": "C", "text": "2 rad s^-1" },
-        { "id": "D", "text": "1 rad s^-1" }
+        {
+          "id": "A",
+          "text": "8 rad s^-1"
+        },
+        {
+          "id": "B",
+          "text": "4 rad s^-1"
+        },
+        {
+          "id": "C",
+          "text": "2 rad s^-1"
+        },
+        {
+          "id": "D",
+          "text": "1 rad s^-1"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Angular velocity \\(\\omega=\\frac{v}{r}=\\frac{1}{0.5}=2\\,\\text{rad s}^{-1}\\)."
@@ -160,37 +282,75 @@
       "instruction": "Use the graph (figure Phy2012_Q11_ForceDistanceGraph).",
       "question": "From the diagram above, calculate the work done when the particle moves from x = 0 m to x = 80 m.",
       "options": [
-        { "id": "A", "text": "1200 J" },
-        { "id": "B", "text": "2400 J" },
-        { "id": "C", "text": "6000 J" },
-        { "id": "D", "text": "7000 J" }
+        {
+          "id": "A",
+          "text": "1200 J"
+        },
+        {
+          "id": "B",
+          "text": "2400 J"
+        },
+        {
+          "id": "C",
+          "text": "6000 J"
+        },
+        {
+          "id": "D",
+          "text": "7000 J"
+        }
       ],
       "correctAnswer": "B",
       "figureId": "Phy2012_Q11_ForceDistanceGraph",
-      "explanation": "Work is the area under the force–distance curve from 0 to 80 m. The region is a triangle with base 80 m and height 60 N, so \\(W=\\tfrac{1}{2}\\times 80\\times 60=2400\\,\\text{J}\\)."
+      "explanation": "Work is the area under the force–distance curve from 0 to 80 m. The region is a triangle with base 80 m and height 60 N, so \\(W=\\tfrac{1}{2}\\times 80\\times 60=2400\\,\\text{J}\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q11.png"
     },
     {
       "id": 12,
       "instruction": "Use the diagram (figure Phy2012_Q12_InclinedPlane_Block).",
       "question": "The diagram above shows a wooden block just about to slide down an inclined plane whose inclination to the horizontal is α. The coefficient of frictional force between the block and the plane is",
       "options": [
-        { "id": "A", "text": "sin α" },
-        { "id": "B", "text": "tan α" },
-        { "id": "C", "text": "cot α" },
-        { "id": "D", "text": "cos α" }
+        {
+          "id": "A",
+          "text": "sin α"
+        },
+        {
+          "id": "B",
+          "text": "tan α"
+        },
+        {
+          "id": "C",
+          "text": "cot α"
+        },
+        {
+          "id": "D",
+          "text": "cos α"
+        }
       ],
       "correctAnswer": "B",
       "figureId": "Phy2012_Q12_InclinedPlane_Block",
-      "explanation": "At limiting equilibrium: \\(mg\\sin\\alpha=\\mu mg\\cos\\alpha\\Rightarrow \\mu=\\tan\\alpha\\)."
+      "explanation": "At limiting equilibrium: \\(mg\\sin\\alpha=\\mu mg\\cos\\alpha\\Rightarrow \\mu=\\tan\\alpha\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q12.png"
     },
     {
       "id": 13,
       "question": "An object of mass 20 kg slides down an inclined plane at an angle of 30° to the horizontal. The coefficient of an active friction is",
       "options": [
-        { "id": "A", "text": "0.2" },
-        { "id": "B", "text": "0.3" },
-        { "id": "C", "text": "0.5" },
-        { "id": "D", "text": "0.6" }
+        {
+          "id": "A",
+          "text": "0.2"
+        },
+        {
+          "id": "B",
+          "text": "0.3"
+        },
+        {
+          "id": "C",
+          "text": "0.5"
+        },
+        {
+          "id": "D",
+          "text": "0.6"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The question as shown is missing additional information (e.g., acceleration or whether it moves with constant velocity). The coefficient of kinetic friction cannot be uniquely determined from the given text alone."
@@ -199,10 +359,22 @@
       "id": 14,
       "question": "A block and tackle is used to raise a load of 25 N through a vertical distance of 30 m. What is the efficiency of the system if the work done against friction is 1500 J? [g ≈ 10 m s^-2]",
       "options": [
-        { "id": "A", "text": "62.5%" },
-        { "id": "B", "text": "73.3%" },
-        { "id": "C", "text": "83.3%" },
-        { "id": "D", "text": "94.3%" }
+        {
+          "id": "A",
+          "text": "62.5%"
+        },
+        {
+          "id": "B",
+          "text": "73.3%"
+        },
+        {
+          "id": "C",
+          "text": "83.3%"
+        },
+        {
+          "id": "D",
+          "text": "94.3%"
+        }
       ],
       "correctAnswer": null,
       "explanation": "Useful work output = \\(25\\times 30 = 750\\,J\\). Input work = output + friction = \\(750+1500=2250\\,J\\). Efficiency = \\(\\frac{750}{2250}\\times 100\\% = 33.3\\%\\). This is not among the provided options, indicating a mismatch in the question/options as shown in the image."
@@ -211,10 +383,22 @@
       "id": 15,
       "question": "If a load of 1 kg stretches a cord by 1.2 cm, what is the force constant of the cord? [g ≈ 10 m s^-2]",
       "options": [
-        { "id": "A", "text": "866 N m^-1" },
-        { "id": "B", "text": "833 N m^-1" },
-        { "id": "C", "text": "769 N m^-1" },
-        { "id": "D", "text": "667 N m^-1" }
+        {
+          "id": "A",
+          "text": "866 N m^-1"
+        },
+        {
+          "id": "B",
+          "text": "833 N m^-1"
+        },
+        {
+          "id": "C",
+          "text": "769 N m^-1"
+        },
+        {
+          "id": "D",
+          "text": "667 N m^-1"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Using Hooke’s law: \\(F=mg=10\\,N\\), \\(x=1.2\\,cm=0.012\\,m\\). \\(k=\\frac{F}{x}=\\frac{10}{0.012}=833.3\\,\\text{N m}^{-1}\\)."
@@ -223,10 +407,22 @@
       "id": 16,
       "question": "An object of volume 1 m3 and mass 2 kg is totally immersed in a liquid of density 1 kg m^-3. Calculate its apparent weight.",
       "options": [
-        { "id": "A", "text": "20 N" },
-        { "id": "B", "text": "10 N" },
-        { "id": "C", "text": "2 N" },
-        { "id": "D", "text": "1 N" }
+        {
+          "id": "A",
+          "text": "20 N"
+        },
+        {
+          "id": "B",
+          "text": "10 N"
+        },
+        {
+          "id": "C",
+          "text": "2 N"
+        },
+        {
+          "id": "D",
+          "text": "1 N"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Weight \\(=mg=2\\times 10=20\\,N\\). Upthrust \\(=\\rho gV=1\\times 10\\times 1=10\\,N\\). Apparent weight \\(=20-10=10\\,N\\)."
@@ -235,10 +431,22 @@
       "id": 17,
       "question": "The pressure at any point in a liquid at rest depends only on the",
       "options": [
-        { "id": "A", "text": "depth and the density" },
-        { "id": "B", "text": "mass and the volume" },
-        { "id": "C", "text": "quantity and the surface area" },
-        { "id": "D", "text": "surface area and the viscosity" }
+        {
+          "id": "A",
+          "text": "depth and the density"
+        },
+        {
+          "id": "B",
+          "text": "mass and the volume"
+        },
+        {
+          "id": "C",
+          "text": "quantity and the surface area"
+        },
+        {
+          "id": "D",
+          "text": "surface area and the viscosity"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Hydrostatic pressure depends on \\(\\rho\\) and depth \\(h\\): \\(p=\\rho gh\\)."
@@ -247,10 +455,22 @@
       "id": 18,
       "question": "A balloon whose volume is 300 m3 is filled with hydrogen. If the density of air is 1.3 kg m^-3, find the up thrust on the balloon. [g ≈ 10 m s^-2]",
       "options": [
-        { "id": "A", "text": "3000 N" },
-        { "id": "B", "text": "3800 N" },
-        { "id": "C", "text": "3900 N" },
-        { "id": "D", "text": "4200 N" }
+        {
+          "id": "A",
+          "text": "3000 N"
+        },
+        {
+          "id": "B",
+          "text": "3800 N"
+        },
+        {
+          "id": "C",
+          "text": "3900 N"
+        },
+        {
+          "id": "D",
+          "text": "4200 N"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Upthrust equals weight of displaced air: \\(F_b=\\rho_{air}gV=1.3\\times 10\\times 300=3900\\,N\\)."
@@ -259,10 +479,22 @@
       "id": 19,
       "question": "Clinical thermometers are examples of",
       "options": [
-        { "id": "A", "text": "pressure gas thermometer" },
-        { "id": "B", "text": "resistance thermometer" },
-        { "id": "C", "text": "alcohol thermometer" },
-        { "id": "D", "text": "mercury-in-glass thermometer" }
+        {
+          "id": "A",
+          "text": "pressure gas thermometer"
+        },
+        {
+          "id": "B",
+          "text": "resistance thermometer"
+        },
+        {
+          "id": "C",
+          "text": "alcohol thermometer"
+        },
+        {
+          "id": "D",
+          "text": "mercury-in-glass thermometer"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Clinical thermometers are mercury-in-glass thermometers."
@@ -271,10 +503,22 @@
       "id": 20,
       "question": "Two metals P and Q are heated through the same temperature difference. If the ratio of the linear expansivities of P to Q is 2:3 and the ratio of their lengths is 3:4 respectively, the ratio of the increase in lengths of P to Q is",
       "options": [
-        { "id": "A", "text": "1:2" },
-        { "id": "B", "text": "2:1" },
-        { "id": "C", "text": "8:9" },
-        { "id": "D", "text": "9:8" }
+        {
+          "id": "A",
+          "text": "1:2"
+        },
+        {
+          "id": "B",
+          "text": "2:1"
+        },
+        {
+          "id": "C",
+          "text": "8:9"
+        },
+        {
+          "id": "D",
+          "text": "9:8"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "\\(\\Delta L \\propto \\alpha L\\). Ratio \\(\\frac{\\Delta L_P}{\\Delta L_Q}=\\frac{2}{3}\\times\\frac{3}{4}=\\frac{1}{2}\\Rightarrow 1:2\\)."
@@ -283,10 +527,22 @@
       "id": 21,
       "question": "2000 cm3 of a gas is collected at 27°C and 700 mmHg. What is the volume of the gas at standard temperature and pressure?",
       "options": [
-        { "id": "A", "text": "1896.5 cm3" },
-        { "id": "B", "text": "1767.3 cm3" },
-        { "id": "C", "text": "1676.3 cm3" },
-        { "id": "D", "text": "1456.5 cm3" }
+        {
+          "id": "A",
+          "text": "1896.5 cm3"
+        },
+        {
+          "id": "B",
+          "text": "1767.3 cm3"
+        },
+        {
+          "id": "C",
+          "text": "1676.3 cm3"
+        },
+        {
+          "id": "D",
+          "text": "1456.5 cm3"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Combined gas law: \\(V_2=V_1\\frac{P_1}{P_2}\\frac{T_2}{T_1}\\). \\(V_1=2000\\), \\(P_1=700\\), \\(P_2=760\\), \\(T_1=300\\,K\\), \\(T_2=273\\,K\\). \\(V_2\\approx 2000\\times\\frac{700}{760}\\times\\frac{273}{300}\\approx 1.67\\times 10^3\\,cm^3\\approx 1676\\,cm^3\\)."
@@ -295,10 +551,22 @@
       "id": 22,
       "question": "Calculate the temperature change when 500 J of heat is supplied to 100 g of water. (Specific heat capacity of water = 4200 J kg^-1 K^-1)",
       "options": [
-        { "id": "A", "text": "12.1°C" },
-        { "id": "B", "text": "2.1°C" },
-        { "id": "C", "text": "1.2°C" },
-        { "id": "D", "text": "0.1°C" }
+        {
+          "id": "A",
+          "text": "12.1°C"
+        },
+        {
+          "id": "B",
+          "text": "2.1°C"
+        },
+        {
+          "id": "C",
+          "text": "1.2°C"
+        },
+        {
+          "id": "D",
+          "text": "0.1°C"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "\\(\\Delta T=\\frac{Q}{mc}=\\frac{500}{0.1\\times 4200}=1.19\\,^{\\circ}C\\approx 1.2\\,^{\\circ}C\\)."
@@ -307,10 +575,22 @@
       "id": 23,
       "question": "Which of the following is NOT a factor that can increase the rate of evaporation of water in a lake?",
       "options": [
-        { "id": "A", "text": "Increase in the pressure of the atmosphere" },
-        { "id": "B", "text": "Rise in temperature" },
-        { "id": "C", "text": "Increase in the average speed of the molecules of water" },
-        { "id": "D", "text": "Increase in the kinetic energy of the molecules of water" }
+        {
+          "id": "A",
+          "text": "Increase in the pressure of the atmosphere"
+        },
+        {
+          "id": "B",
+          "text": "Rise in temperature"
+        },
+        {
+          "id": "C",
+          "text": "Increase in the average speed of the molecules of water"
+        },
+        {
+          "id": "D",
+          "text": "Increase in the kinetic energy of the molecules of water"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Increased atmospheric pressure reduces evaporation; the other factors increase evaporation."
@@ -319,10 +599,22 @@
       "id": 24,
       "question": "The quantity of heat energy required to melt completely 1 kg of ice at -30°C is [latent heat of fusion = \\(3.5\\times 10^5\\,J kg^{-1}\\), specific heat capacity of ice = \\(2.1\\times 10^3\\,J kg^{-1} K^{-1}\\)]",
       "options": [
-        { "id": "A", "text": "\\(4.13\\times 10^{5}\\,J\\)" },
-        { "id": "B", "text": "\\(4.13\\times 10^{3}\\,J\\)" },
-        { "id": "C", "text": "\\(3.56\\times 10^{4}\\,J\\)" },
-        { "id": "D", "text": "\\(3.56\\times 10^{2}\\,J\\)" }
+        {
+          "id": "A",
+          "text": "\\(4.13\\times 10^{5}\\,J\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(4.13\\times 10^{3}\\,J\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(3.56\\times 10^{4}\\,J\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(3.56\\times 10^{2}\\,J\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Total heat \\(= mc\\Delta T + mL = 1(2.1\\times 10^3)(30) + 1(3.5\\times 10^5)=6.3\\times 10^4+3.5\\times 10^5=4.13\\times 10^5\\,J\\)."
@@ -331,10 +623,22 @@
       "id": 25,
       "question": "I. It is a rapid, constant and irregular motion of tiny particles.\nII. It gives evidence that tiny particles of matter called molecules exist.\nIII. It takes place only in gases.\nIV. It gives evidence that molecules are in a constant state of random motion.\nWhich of the combinations above is correct about Brownian motion?",
       "options": [
-        { "id": "A", "text": "I, II and III" },
-        { "id": "B", "text": "II, III and IV only" },
-        { "id": "C", "text": "I, III and IV only" },
-        { "id": "D", "text": "I, II and IV only" }
+        {
+          "id": "A",
+          "text": "I, II and III"
+        },
+        {
+          "id": "B",
+          "text": "II, III and IV only"
+        },
+        {
+          "id": "C",
+          "text": "I, III and IV only"
+        },
+        {
+          "id": "D",
+          "text": "I, II and IV only"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Brownian motion supports I, II, and IV; III is false because Brownian motion occurs in liquids as well."
@@ -343,10 +647,22 @@
       "id": 26,
       "question": "The equation of a wave travelling in a horizontal direction is expressed as \\(y = 15\\sin\\left(\\frac{2\\pi}{5}(60t-x)\\right)\\) what is its wavelength?",
       "options": [
-        { "id": "A", "text": "60 m" },
-        { "id": "B", "text": "15 m" },
-        { "id": "C", "text": "5 m" },
-        { "id": "D", "text": "2 m" }
+        {
+          "id": "A",
+          "text": "60 m"
+        },
+        {
+          "id": "B",
+          "text": "15 m"
+        },
+        {
+          "id": "C",
+          "text": "5 m"
+        },
+        {
+          "id": "D",
+          "text": "2 m"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "The wave number \\(k=\\frac{2\\pi}{5}\\Rightarrow \\lambda=\\frac{2\\pi}{k}=5\\,m\\)."
@@ -356,23 +672,48 @@
       "instruction": "Use the diagram (figure Phy2012_Q27_WaveDisplacementGraph).",
       "question": "From the diagram above, if the particle F is at a distance x from O to the right, the phase of the vibration will be different from that at O by",
       "options": [
-        { "id": "A", "text": "\\(\\frac{2\\pi x}{\\lambda}\\)" },
-        { "id": "B", "text": "\\(\\frac{\\pi x}{\\lambda}\\)" },
-        { "id": "C", "text": "\\(\\frac{\\lambda}{2\\pi x}\\)" },
-        { "id": "D", "text": "\\(\\frac{\\lambda}{\\pi x}\\)" }
+        {
+          "id": "A",
+          "text": "\\(\\frac{2\\pi x}{\\lambda}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\frac{\\pi x}{\\lambda}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(\\frac{\\lambda}{2\\pi x}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\frac{\\lambda}{\\pi x}\\)"
+        }
       ],
       "correctAnswer": "A",
       "figureId": "Phy2012_Q27_WaveDisplacementGraph",
-      "explanation": "Phase difference over distance x is \\(\\Delta\\phi=\\frac{2\\pi}{\\lambda}x\\)."
+      "explanation": "Phase difference over distance x is \\(\\Delta\\phi=\\frac{2\\pi}{\\lambda}x\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q27.png"
     },
     {
       "id": 28,
       "question": "Which of the following factors will affect the velocity of sound?",
       "options": [
-        { "id": "A", "text": "An increase in the pitch of the sound" },
-        { "id": "B", "text": "An increase in the loudness of the sound" },
-        { "id": "C", "text": "Wind travelling in the same direction of the sound" },
-        { "id": "D", "text": "A change in the atmospheric pressure at constant temperature" }
+        {
+          "id": "A",
+          "text": "An increase in the pitch of the sound"
+        },
+        {
+          "id": "B",
+          "text": "An increase in the loudness of the sound"
+        },
+        {
+          "id": "C",
+          "text": "Wind travelling in the same direction of the sound"
+        },
+        {
+          "id": "D",
+          "text": "A change in the atmospheric pressure at constant temperature"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Wind affects the speed of sound relative to the ground by adding/subtracting from the wave speed."
@@ -381,10 +722,22 @@
       "id": 29,
       "question": "The characteristics of a vibration that determines its intensity is the",
       "options": [
-        { "id": "A", "text": "Frequency" },
-        { "id": "B", "text": "Overtone" },
-        { "id": "C", "text": "Wavelength" },
-        { "id": "D", "text": "Amplitude" }
+        {
+          "id": "A",
+          "text": "Frequency"
+        },
+        {
+          "id": "B",
+          "text": "Overtone"
+        },
+        {
+          "id": "C",
+          "text": "Wavelength"
+        },
+        {
+          "id": "D",
+          "text": "Amplitude"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Intensity is proportional to the square of amplitude; larger amplitude gives greater intensity."
@@ -393,10 +746,22 @@
       "id": 30,
       "question": "Where a man can place his face to get an enlarged image when using a concave mirror to shave.",
       "options": [
-        { "id": "A", "text": "between the centre of curvature and the principal focus" },
-        { "id": "B", "text": "at principal focus" },
-        { "id": "C", "text": "between the principal focus and the pole" },
-        { "id": "D", "text": "At the centre of the curvature" }
+        {
+          "id": "A",
+          "text": "between the centre of curvature and the principal focus"
+        },
+        {
+          "id": "B",
+          "text": "at principal focus"
+        },
+        {
+          "id": "C",
+          "text": "between the principal focus and the pole"
+        },
+        {
+          "id": "D",
+          "text": "At the centre of the curvature"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "For a concave mirror, an enlarged upright image is formed when the object is between the focal point and the pole."
@@ -405,10 +770,22 @@
       "id": 31,
       "question": "A pinhole camera is placed 300 m in front of a building so that the image is formed on a screen 5 cm from the pinhole. If the image is 2.5 cm high, the height of the building will be",
       "options": [
-        { "id": "A", "text": "25 m" },
-        { "id": "B", "text": "50 m" },
-        { "id": "C", "text": "100 m" },
-        { "id": "D", "text": "150 m" }
+        {
+          "id": "A",
+          "text": "25 m"
+        },
+        {
+          "id": "B",
+          "text": "50 m"
+        },
+        {
+          "id": "C",
+          "text": "100 m"
+        },
+        {
+          "id": "D",
+          "text": "150 m"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Similar triangles: \\(\\frac{h_i}{h_o}=\\frac{v}{u}\\). \\(u=300\\,m=30000\\,cm\\), \\(v=5\\,cm\\), \\(h_i=2.5\\,cm\\). \\(h_o=\\frac{2.5\\times 30000}{5}=15000\\,cm=150\\,m\\)."
@@ -417,10 +794,22 @@
       "id": 32,
       "question": "The magnification of an object 2 cm tall when placed 10 cm in front of a plane mirror is",
       "options": [
-        { "id": "A", "text": "6.0" },
-        { "id": "B", "text": "1.0" },
-        { "id": "C", "text": "0.7" },
-        { "id": "D", "text": "0.6" }
+        {
+          "id": "A",
+          "text": "6.0"
+        },
+        {
+          "id": "B",
+          "text": "1.0"
+        },
+        {
+          "id": "C",
+          "text": "0.7"
+        },
+        {
+          "id": "D",
+          "text": "0.6"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Plane mirrors produce images of the same size as the object; magnification = 1."
@@ -429,9 +818,18 @@
       "id": 33,
       "question": "After reflection from concave mirror, rays of light from the sun converges",
       "options": [
-        { "id": "A", "text": "At the radius of curvature" },
-        { "id": "B", "text": "At the focus" },
-        { "id": "C", "text": "Beyond the radius of curvature" }
+        {
+          "id": "A",
+          "text": "At the radius of curvature"
+        },
+        {
+          "id": "B",
+          "text": "At the focus"
+        },
+        {
+          "id": "C",
+          "text": "Beyond the radius of curvature"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Parallel rays from the sun converge at the principal focus of a concave mirror."
@@ -440,10 +838,22 @@
       "id": 34,
       "question": "A glass block of thickness 10 cm is placed on an object. If an observer views the object vertically, the displacement of the object is",
       "options": [
-        { "id": "A", "text": "3.33 cm" },
-        { "id": "B", "text": "5.00 cm" },
-        { "id": "C", "text": "6.67 cm" },
-        { "id": "D", "text": "8.50 cm" }
+        {
+          "id": "A",
+          "text": "3.33 cm"
+        },
+        {
+          "id": "B",
+          "text": "5.00 cm"
+        },
+        {
+          "id": "C",
+          "text": "6.67 cm"
+        },
+        {
+          "id": "D",
+          "text": "8.50 cm"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "For glass \\(n\\approx 1.5\\): apparent depth \\(=\\frac{10}{1.5}=6.67\\,cm\\). Displacement \\(=10-6.67=3.33\\,cm\\)."
@@ -452,10 +862,22 @@
       "id": 35,
       "question": "I. Rays of light travel from a less dense medium to a denser medium\nII. The angle of incidence is greater than critical angle.\nIII. Rays of light travel from a denser medium to a less dense medium\nWhich of the statements above are conditions for total internal reflection to occur?",
       "options": [
-        { "id": "A", "text": "I & II only" },
-        { "id": "B", "text": "I & III only" },
-        { "id": "C", "text": "II & III only" },
-        { "id": "D", "text": "II only" }
+        {
+          "id": "A",
+          "text": "I & II only"
+        },
+        {
+          "id": "B",
+          "text": "I & III only"
+        },
+        {
+          "id": "C",
+          "text": "II & III only"
+        },
+        {
+          "id": "D",
+          "text": "II only"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Total internal reflection requires (III) denser to less dense, and (II) angle of incidence greater than critical angle."
@@ -464,10 +886,22 @@
       "id": 36,
       "question": "The use of lenses is NOT applicable in the",
       "options": [
-        { "id": "A", "text": "projector" },
-        { "id": "B", "text": "human eye" },
-        { "id": "C", "text": "periscope" },
-        { "id": "D", "text": "telescope" }
+        {
+          "id": "A",
+          "text": "projector"
+        },
+        {
+          "id": "B",
+          "text": "human eye"
+        },
+        {
+          "id": "C",
+          "text": "periscope"
+        },
+        {
+          "id": "D",
+          "text": "telescope"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "A periscope primarily uses mirrors/prisms rather than lenses."
@@ -476,10 +910,22 @@
       "id": 37,
       "question": "Dispersion of white light is the ability of white light to",
       "options": [
-        { "id": "A", "text": "Penetrate air, water and glass" },
-        { "id": "B", "text": "Move in a straight line" },
-        { "id": "C", "text": "Move around corners" },
-        { "id": "D", "text": "Separate to its component colours" }
+        {
+          "id": "A",
+          "text": "Penetrate air, water and glass"
+        },
+        {
+          "id": "B",
+          "text": "Move in a straight line"
+        },
+        {
+          "id": "C",
+          "text": "Move around corners"
+        },
+        {
+          "id": "D",
+          "text": "Separate to its component colours"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Dispersion means splitting white light into its component colours."
@@ -488,10 +934,22 @@
       "id": 38,
       "question": "A newly charged 12 V accumulator can easily start a car whereas eight new dry cells in series with an effective e.m.f. of 12 V cannot start the same car because",
       "options": [
-        { "id": "A", "text": "The current capacity is high" },
-        { "id": "B", "text": "The current capacity is low" },
-        { "id": "C", "text": "It cannot be re-charged" },
-        { "id": "D", "text": "It cannot easily be connected to a car" }
+        {
+          "id": "A",
+          "text": "The current capacity is high"
+        },
+        {
+          "id": "B",
+          "text": "The current capacity is low"
+        },
+        {
+          "id": "C",
+          "text": "It cannot be re-charged"
+        },
+        {
+          "id": "D",
+          "text": "It cannot easily be connected to a car"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Dry cells cannot supply the large current needed (high internal resistance/low current capacity)."
@@ -500,10 +958,22 @@
       "id": 39,
       "question": "Six identical cells, each of e.m.f. 2 V are connected as shown above. The effective e.m.f. of the cell is",
       "options": [
-        { "id": "A", "text": "0 V" },
-        { "id": "B", "text": "4 V" },
-        { "id": "C", "text": "6 V" },
-        { "id": "D", "text": "12 V" }
+        {
+          "id": "A",
+          "text": "0 V"
+        },
+        {
+          "id": "B",
+          "text": "4 V"
+        },
+        {
+          "id": "C",
+          "text": "6 V"
+        },
+        {
+          "id": "D",
+          "text": "12 V"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The connection diagram is not readable enough to determine how many cells are effectively in series/opposition, so the resultant e.m.f. cannot be determined reliably from the upload."
@@ -512,10 +982,22 @@
       "id": 40,
       "question": "The fuse in an electric devise is always connected to the ----",
       "options": [
-        { "id": "A", "text": "Neutral side of an electric supply" },
-        { "id": "B", "text": "Earth side of an electric supply" },
-        { "id": "C", "text": "Live side of an electric supply" },
-        { "id": "D", "text": "Terminal side of an electric supply" }
+        {
+          "id": "A",
+          "text": "Neutral side of an electric supply"
+        },
+        {
+          "id": "B",
+          "text": "Earth side of an electric supply"
+        },
+        {
+          "id": "C",
+          "text": "Live side of an electric supply"
+        },
+        {
+          "id": "D",
+          "text": "Terminal side of an electric supply"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "The fuse is connected in the live wire to cut off the supply when it melts."
@@ -524,10 +1006,22 @@
       "id": 41,
       "question": "A particle carrying a charge of \\(1.0\\times 10^{-8}\\,C\\) enters a magnetic field at \\(3.0\\times 10^2\\,m s^{-1}\\) at right angles to the field. If the force on this particle is \\(1.8\\times 10^{-8}\\,N\\), what is the magnitude of the field?",
       "options": [
-        { "id": "A", "text": "\\(6.0\\times 10^{-1}\\,T\\)" },
-        { "id": "B", "text": "\\(6.0\\times 10^{-2}\\,T\\)" },
-        { "id": "C", "text": "\\(6.0\\times 10^{-3}\\,T\\)" },
-        { "id": "D", "text": "\\(6.0\\times 10^{-4}\\,T\\)" }
+        {
+          "id": "A",
+          "text": "\\(6.0\\times 10^{-1}\\,T\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(6.0\\times 10^{-2}\\,T\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(6.0\\times 10^{-3}\\,T\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(6.0\\times 10^{-4}\\,T\\)"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Using \\(F=qvB\\): \\(B=\\frac{F}{qv}=\\frac{1.8\\times 10^{-8}}{(1.0\\times 10^{-8})(3.0\\times 10^2)}=6.0\\times 10^{-3}\\,T\\)."
@@ -536,10 +1030,22 @@
       "id": 42,
       "question": "Which of the following is the correct shape of the graph of capacitive reactance \\(X_c\\) versus frequency F for a pure capacitor in an a.c. circuit?",
       "options": [
-        { "id": "A", "text": "Graph A" },
-        { "id": "B", "text": "Graph B" },
-        { "id": "C", "text": "Graph C" },
-        { "id": "D", "text": "Graph D" }
+        {
+          "id": "A",
+          "text": "Graph A"
+        },
+        {
+          "id": "B",
+          "text": "Graph B"
+        },
+        {
+          "id": "C",
+          "text": "Graph C"
+        },
+        {
+          "id": "D",
+          "text": "Graph D"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Since \\(X_c=\\frac{1}{2\\pi f C}\\), \\(X_c\\) decreases as frequency increases, giving a falling hyperbola."
@@ -548,10 +1054,22 @@
       "id": 43,
       "question": "The current output form of an a.c. source is given as \\(I = 10\\sin \\omega t\\). The d.c. equivalent of the current is",
       "options": [
-        { "id": "A", "text": "5.0 A" },
-        { "id": "B", "text": "7.1 A" },
-        { "id": "C", "text": "10.0 A" },
-        { "id": "D", "text": "14.1 A" }
+        {
+          "id": "A",
+          "text": "5.0 A"
+        },
+        {
+          "id": "B",
+          "text": "7.1 A"
+        },
+        {
+          "id": "C",
+          "text": "10.0 A"
+        },
+        {
+          "id": "D",
+          "text": "14.1 A"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "DC equivalent (rms) \\(=\\frac{10}{\\sqrt{2}}\\approx 7.1\\,A\\)."
@@ -560,10 +1078,22 @@
       "id": 44,
       "question": "A conductor of length 1 m moves with a velocity of 50 m s^-1 at an angle of 30° to the direction of a uniform magnetic field of flux density 1.5 Wb m^-2. What is the e.m.f. induced in the conductor?",
       "options": [
-        { "id": "A", "text": "37.5 V" },
-        { "id": "B", "text": "50.5 V" },
-        { "id": "C", "text": "75.0 V" },
-        { "id": "D", "text": "80.5 V" }
+        {
+          "id": "A",
+          "text": "37.5 V"
+        },
+        {
+          "id": "B",
+          "text": "50.5 V"
+        },
+        {
+          "id": "C",
+          "text": "75.0 V"
+        },
+        {
+          "id": "D",
+          "text": "80.5 V"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "\\(\\mathcal{E}=Blv\\sin\\theta = 1.5\\times 1\\times 50\\times \\sin 30^\\circ=37.5\\,V\\)."
@@ -572,10 +1102,22 @@
       "id": 45,
       "question": "The process of detecting a pin mistakenly swallowed by a child is",
       "options": [
-        { "id": "A", "text": "Diagnosis" },
-        { "id": "B", "text": "Therapy" },
-        { "id": "C", "text": "Crystallography" },
-        { "id": "D", "text": "mammography" }
+        {
+          "id": "A",
+          "text": "Diagnosis"
+        },
+        {
+          "id": "B",
+          "text": "Therapy"
+        },
+        {
+          "id": "C",
+          "text": "Crystallography"
+        },
+        {
+          "id": "D",
+          "text": "mammography"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "X-ray detection is diagnostic."
@@ -584,10 +1126,22 @@
       "id": 46,
       "question": "Which of the following particles CANNOT be deflected by both electric and magnetic fields?",
       "options": [
-        { "id": "A", "text": "Gamma rays" },
-        { "id": "B", "text": "Alpha particles" },
-        { "id": "C", "text": "Wave particles" },
-        { "id": "D", "text": "Beta particles" }
+        {
+          "id": "A",
+          "text": "Gamma rays"
+        },
+        {
+          "id": "B",
+          "text": "Alpha particles"
+        },
+        {
+          "id": "C",
+          "text": "Wave particles"
+        },
+        {
+          "id": "D",
+          "text": "Beta particles"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Gamma rays are uncharged electromagnetic radiation."
@@ -596,10 +1150,22 @@
       "id": 47,
       "question": "A piece of radioactive material contains 1000 atoms. If its half-life is 20 seconds, the time taken for 125 atoms to remain is",
       "options": [
-        { "id": "A", "text": "20 seconds" },
-        { "id": "B", "text": "40 seconds" },
-        { "id": "C", "text": "60 seconds" },
-        { "id": "D", "text": "80 seconds" }
+        {
+          "id": "A",
+          "text": "20 seconds"
+        },
+        {
+          "id": "B",
+          "text": "40 seconds"
+        },
+        {
+          "id": "C",
+          "text": "60 seconds"
+        },
+        {
+          "id": "D",
+          "text": "80 seconds"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Three half-lives reduce 1000 → 500 → 250 → 125, so time = 3×20 = 60 s."
@@ -608,10 +1174,22 @@
       "id": 48,
       "question": "The p-n junction diodes can act as rectifiers because they",
       "options": [
-        { "id": "A", "text": "Conduct current when forward biased" },
-        { "id": "B", "text": "Conduct current when reverse-biased" },
-        { "id": "C", "text": "Block current when forward biased" },
-        { "id": "D", "text": "Conduct current in both directions" }
+        {
+          "id": "A",
+          "text": "Conduct current when forward biased"
+        },
+        {
+          "id": "B",
+          "text": "Conduct current when reverse-biased"
+        },
+        {
+          "id": "C",
+          "text": "Block current when forward biased"
+        },
+        {
+          "id": "D",
+          "text": "Conduct current in both directions"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "A diode conducts significantly only when forward biased, allowing one-way current flow."
@@ -620,10 +1198,22 @@
       "id": 49,
       "question": "If a reverse-biased voltage is applied across a p-n junction, the depletion layer width is",
       "options": [
-        { "id": "A", "text": "Increased" },
-        { "id": "B", "text": "Decreased" },
-        { "id": "C", "text": "Constant" },
-        { "id": "D", "text": "halved" }
+        {
+          "id": "A",
+          "text": "Increased"
+        },
+        {
+          "id": "B",
+          "text": "Decreased"
+        },
+        {
+          "id": "C",
+          "text": "Constant"
+        },
+        {
+          "id": "D",
+          "text": "halved"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Reverse bias increases the potential barrier and widens the depletion region."
@@ -632,10 +1222,22 @@
       "id": 50,
       "question": "I. Small size\nII. Low power requirement\nIII. Not easily damaged by high temperature\nIV. Highly durable\nWhich of the above are the advantages of semiconductors?",
       "options": [
-        { "id": "A", "text": "I, II and III only" },
-        { "id": "B", "text": "II, III and IV only" },
-        { "id": "C", "text": "I, II and IV only" },
-        { "id": "D", "text": "I, II, III and IV" }
+        {
+          "id": "A",
+          "text": "I, II and III only"
+        },
+        {
+          "id": "B",
+          "text": "II, III and IV only"
+        },
+        {
+          "id": "C",
+          "text": "I, II and IV only"
+        },
+        {
+          "id": "D",
+          "text": "I, II, III and IV"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Semiconductor devices are generally small, require low power, and are durable. However they can be sensitive to high temperature (performance degrades), so III is not an advantage."

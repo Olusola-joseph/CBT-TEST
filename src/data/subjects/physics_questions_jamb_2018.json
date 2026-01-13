@@ -6,27 +6,27 @@
   "figures": [
     {
       "id": "Phy2018_Q6_Circuit",
-      "file": "upload_original.png",
+      "file": "2018_Q6.png",
       "description": "Resistor circuit with a 3Ω resistor in series with a parallel combination of two 2Ω resistors, followed by a 4Ω resistor in series. Labeled Fig. 4."
     },
     {
       "id": "Phy2018_Q10_Pulley",
-      "file": "upload_original.png",
+      "file": "2018_Q10.png",
       "description": "A block-and-tackle pulley system supporting a load of 120.0N. The effort W is applied downwards."
     },
     {
       "id": "Phy2018_Q17_Friction",
-      "file": "upload_original.png",
+      "file": "2018_Q17.png",
       "description": "A system with a mass m1 on a horizontal table connected via a pulley to a hanging mass m2."
     },
     {
       "id": "Phy2018_Q19_Manometer",
-      "file": "upload_original.png",
+      "file": "2018_Q19.png",
       "description": "A U-tube manometer measuring pressure in chamber G. One arm height is labeled 3m (connected to G) and the open arm height is labeled 10m."
     },
     {
       "id": "Phy2018_Q27_Pendula",
-      "file": "upload_original.png",
+      "file": "2018_Q27.png",
       "description": "A set of simple pendulums suspended from a common string. P is the driver. T has the same length as P."
     },
     {
@@ -50,10 +50,22 @@
       "id": 1,
       "question": "A man walks 1 km due east and then 1km due north. His displacement is _____",
       "options": [
-        { "id": "A", "text": "√2km N 45° E" },
-        { "id": "B", "text": "1km N 30°E" },
-        { "id": "C", "text": "1km N 15° E" },
-        { "id": "D", "text": "√2 km N 60° E" }
+        {
+          "id": "A",
+          "text": "√2km N 45° E"
+        },
+        {
+          "id": "B",
+          "text": "1km N 30°E"
+        },
+        {
+          "id": "C",
+          "text": "1km N 15° E"
+        },
+        {
+          "id": "D",
+          "text": "√2 km N 60° E"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "The displacement is the vector sum of the two movements. \nMagnitude: \\(R = \\sqrt{1^2 + 1^2} = \\sqrt{2}\\,\\text{km}\\). \nDirection: \\(\\tan \\theta = \\frac{\\text{Opposite}}{\\text{Adjacent}} = \\frac{1}{1} = 1\\). \n\\(\\theta = \\tan^{-1}(1) = 45^\\circ\\). \nThe direction is North 45° East."
@@ -62,10 +74,22 @@
       "id": 2,
       "question": "The density of 400cm³ of palm oil was 0.9g before frying. If the density of the oil was 0.6g after frying, assuming no loss of oil to spilling, its new volume was",
       "options": [
-        { "id": "A", "text": "360cm³" },
-        { "id": "B", "text": "600cm³" },
-        { "id": "C", "text": "240cm³" },
-        { "id": "D", "text": "800cm³" }
+        {
+          "id": "A",
+          "text": "360cm³"
+        },
+        {
+          "id": "B",
+          "text": "600cm³"
+        },
+        {
+          "id": "C",
+          "text": "240cm³"
+        },
+        {
+          "id": "D",
+          "text": "800cm³"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "First, calculate the mass of the oil: \\(Mass = Density \\times Volume = 0.9 \\times 400 = 360\\,g\\). \nAssuming mass remains constant, the new volume is \\(V = \\frac{Mass}{New Density} = \\frac{360}{0.6} = 600\\,cm^3\\)."
@@ -74,10 +98,22 @@
       "id": 3,
       "question": "Which of the following is true of an electrical charge?",
       "options": [
-        { "id": "A", "text": "Positive charge means deficit electrons" },
-        { "id": "B", "text": "Negative charge means excess of electrons" },
-        { "id": "C", "text": "Electric current means movement of electrons" },
-        { "id": "D", "text": "All of the above" }
+        {
+          "id": "A",
+          "text": "Positive charge means deficit electrons"
+        },
+        {
+          "id": "B",
+          "text": "Negative charge means excess of electrons"
+        },
+        {
+          "id": "C",
+          "text": "Electric current means movement of electrons"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "All the statements are generally true in electrostatics and current electricity. A positive charge is created by the removal of electrons (deficit), a negative charge by the addition of electrons (excess), and current in metallic conductors is the flow of electrons."
@@ -86,10 +122,22 @@
       "id": 4,
       "question": "Natural radioactivity consists of the emission of -------.",
       "options": [
-        { "id": "A", "text": "α-particles and β-rays" },
-        { "id": "B", "text": "α-particles and X-rays" },
-        { "id": "C", "text": "α-particles, β-rays and g-rays" },
-        { "id": "D", "text": "γ-rays and X-rays" }
+        {
+          "id": "A",
+          "text": "α-particles and β-rays"
+        },
+        {
+          "id": "B",
+          "text": "α-particles and X-rays"
+        },
+        {
+          "id": "C",
+          "text": "α-particles, β-rays and g-rays"
+        },
+        {
+          "id": "D",
+          "text": "γ-rays and X-rays"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Natural radioactivity involves the spontaneous emission of alpha (α) particles, beta (β) particles, and gamma (γ) rays."
@@ -98,10 +146,22 @@
       "id": 5,
       "question": "Which of the following does NOT describe the image formed by a plane mirror?",
       "options": [
-        { "id": "A", "text": "Erect" },
-        { "id": "B", "text": "Laterally inverted" },
-        { "id": "C", "text": "Same distance from mirror as object" },
-        { "id": "D", "text": "Magnified" }
+        {
+          "id": "A",
+          "text": "Erect"
+        },
+        {
+          "id": "B",
+          "text": "Laterally inverted"
+        },
+        {
+          "id": "C",
+          "text": "Same distance from mirror as object"
+        },
+        {
+          "id": "D",
+          "text": "Magnified"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Images formed by plane mirrors are the same size as the object (magnification = 1). They are not magnified."
@@ -111,23 +171,48 @@
       "instruction": "Use Figure 4 (Phy2018_Q6_Circuit) to answer this question.",
       "question": "What is the resultant resistance of the circuit given above?",
       "options": [
-        { "id": "A", "text": "8Ω" },
-        { "id": "B", "text": "11Ω" },
-        { "id": "C", "text": "4Ω" },
-        { "id": "D", "text": "3.6Ω" }
+        {
+          "id": "A",
+          "text": "8Ω"
+        },
+        {
+          "id": "B",
+          "text": "11Ω"
+        },
+        {
+          "id": "C",
+          "text": "4Ω"
+        },
+        {
+          "id": "D",
+          "text": "3.6Ω"
+        }
       ],
       "correctAnswer": "A",
       "figureId": "Phy2018_Q6_Circuit",
-      "explanation": "The two 2Ω resistors are in parallel: \\(R_p = \\frac{2 \\times 2}{2 + 2} = \\frac{4}{4} = 1\\,\\Omega\\). \nThis combination is in series with the 3Ω and 4Ω resistors: \\(R_{total} = 3 + 1 + 4 = 8\\,\\Omega\\)."
+      "explanation": "The two 2Ω resistors are in parallel: \\(R_p = \\frac{2 \\times 2}{2 + 2} = \\frac{4}{4} = 1\\,\\Omega\\). \nThis combination is in series with the 3Ω and 4Ω resistors: \\(R_{total} = 3 + 1 + 4 = 8\\,\\Omega\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2018_Q6.png"
     },
     {
       "id": 7,
       "question": "Which of the following best describes the energy changes which take place when a steam engine drives a generator which lights a lamp?",
       "options": [
-        { "id": "A", "text": "Heat → Light → Sound → Kinetic" },
-        { "id": "B", "text": "Heat → Kinetic → Electricity → Heat and Light" },
-        { "id": "C", "text": "Kinetic → Light → Heat → Electricity" },
-        { "id": "D", "text": "Electricity → Kinetic → Heat → Light" }
+        {
+          "id": "A",
+          "text": "Heat → Light → Sound → Kinetic"
+        },
+        {
+          "id": "B",
+          "text": "Heat → Kinetic → Electricity → Heat and Light"
+        },
+        {
+          "id": "C",
+          "text": "Kinetic → Light → Heat → Electricity"
+        },
+        {
+          "id": "D",
+          "text": "Electricity → Kinetic → Heat → Light"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Steam engine converts Heat to Kinetic energy. Generator converts Kinetic to Electrical energy. Lamp converts Electrical energy to Heat and Light."
@@ -136,10 +221,22 @@
       "id": 8,
       "question": "Cathode rays are _____",
       "options": [
-        { "id": "A", "text": "High-energy electromagnetic waves" },
-        { "id": "B", "text": "protons" },
-        { "id": "C", "text": "neutrons" },
-        { "id": "D", "text": "streams of electrons" }
+        {
+          "id": "A",
+          "text": "High-energy electromagnetic waves"
+        },
+        {
+          "id": "B",
+          "text": "protons"
+        },
+        {
+          "id": "C",
+          "text": "neutrons"
+        },
+        {
+          "id": "D",
+          "text": "streams of electrons"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Cathode rays are beams of fast-moving electrons."
@@ -148,10 +245,22 @@
       "id": 9,
       "question": "A narrow beam of white light can be split into different colours by a glass prism. The correct explanation is that",
       "options": [
-        { "id": "A", "text": "white light is an electromagnetic wave" },
-        { "id": "B", "text": "the prism has all the colours of the white light" },
-        { "id": "C", "text": "different colours of white light travel with different speeds in glass" },
-        { "id": "D", "text": "white light has undergone total internal reflection in the prism." }
+        {
+          "id": "A",
+          "text": "white light is an electromagnetic wave"
+        },
+        {
+          "id": "B",
+          "text": "the prism has all the colours of the white light"
+        },
+        {
+          "id": "C",
+          "text": "different colours of white light travel with different speeds in glass"
+        },
+        {
+          "id": "D",
+          "text": "white light has undergone total internal reflection in the prism."
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Dispersion occurs because the refractive index of glass is different for different wavelengths (colors) of light. Since \\(n = c/v\\), different colors travel at different speeds in the glass, causing them to refract by different amounts."
@@ -161,23 +270,48 @@
       "instruction": "Use the diagram (Phy2018_Q10_Pulley) to answer this question.",
       "question": "Figure 2 represents a block-and-tackle pulley system on which an effort of W Newtons supports a load of 120.0N. If the efficiency of the machine is 40, then the value of W is",
       "options": [
-        { "id": "A", "text": "28.0 N" },
-        { "id": "B", "text": "48.0 N" },
-        { "id": "C", "text": "288.0 N" },
-        { "id": "D", "text": "50.0 N" }
+        {
+          "id": "A",
+          "text": "28.0 N"
+        },
+        {
+          "id": "B",
+          "text": "48.0 N"
+        },
+        {
+          "id": "C",
+          "text": "288.0 N"
+        },
+        {
+          "id": "D",
+          "text": "50.0 N"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2018_Q10_Pulley",
-      "explanation": "Assuming 'efficiency is 40' means 40% (0.4). The diagram appears to show a system where the Velocity Ratio (V.R.) is 6 (3 pulleys top, 3 bottom). \nEfficiency \\(E = \\frac{M.A.}{V.R.}\\) \n\\(0.4 = \\frac{\\text{Load}/\\text{Effort}}{6}\\) \n\\(2.4 = \\frac{120}{W}\\) \n\\(W = \\frac{120}{2.4} = 50\\,N\\)."
+      "explanation": "Assuming 'efficiency is 40' means 40% (0.4). The diagram appears to show a system where the Velocity Ratio (V.R.) is 6 (3 pulleys top, 3 bottom). \nEfficiency \\(E = \\frac{M.A.}{V.R.}\\) \n\\(0.4 = \\frac{\\text{Load}/\\text{Effort}}{6}\\) \n\\(2.4 = \\frac{120}{W}\\) \n\\(W = \\frac{120}{2.4} = 50\\,N\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2018_Q10.png"
     },
     {
       "id": 11,
       "question": "What type of reaction is represented by the following scheme? \\(^2_1X + ^2_1Y \\rightarrow ^3_2Z + ^1_0n + \\text{energy}\\)",
       "options": [
-        { "id": "A", "text": "Fusion reaction" },
-        { "id": "B", "text": "Fission reaction" },
-        { "id": "C", "text": "Chain reaction" },
-        { "id": "D", "text": "Radioactive decay" }
+        {
+          "id": "A",
+          "text": "Fusion reaction"
+        },
+        {
+          "id": "B",
+          "text": "Fission reaction"
+        },
+        {
+          "id": "C",
+          "text": "Chain reaction"
+        },
+        {
+          "id": "D",
+          "text": "Radioactive decay"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Two light nuclei (deuterium isotopes) combine to form a heavier nucleus (Helium-3) and a neutron. This process is nuclear fusion."
@@ -186,10 +320,22 @@
       "id": 12,
       "question": "The amount of heat needed to raise the temperature of 10kg of copper by 1K is its _____",
       "options": [
-        { "id": "A", "text": "specific heat capacity" },
-        { "id": "B", "text": "latent heat" },
-        { "id": "C", "text": "heat capacity" },
-        { "id": "D", "text": "internal energy" }
+        {
+          "id": "A",
+          "text": "specific heat capacity"
+        },
+        {
+          "id": "B",
+          "text": "latent heat"
+        },
+        {
+          "id": "C",
+          "text": "heat capacity"
+        },
+        {
+          "id": "D",
+          "text": "internal energy"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Specific heat capacity is for 1 kg. The heat required for the *entire* mass of a body (10kg in this case) is its Heat Capacity (or thermal capacity)."
@@ -198,10 +344,22 @@
       "id": 13,
       "question": "The electrochemical equivalent of silver 0.0012g/C/ of 36.0g of silver is to be deposited by electrolysis on a surface by passing a steady current for 5.0 minutes, the current must be",
       "options": [
-        { "id": "A", "text": "6000A" },
-        { "id": "B", "text": "100A" },
-        { "id": "C", "text": "10A" },
-        { "id": "D", "text": "1A" }
+        {
+          "id": "A",
+          "text": "6000A"
+        },
+        {
+          "id": "B",
+          "text": "100A"
+        },
+        {
+          "id": "C",
+          "text": "10A"
+        },
+        {
+          "id": "D",
+          "text": "1A"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Mass \\(m = ZIt\\). \n\\(36.0 = 0.0012 \\times I \\times (5 \\times 60)\\) \n\\(36 = 0.0012 \\times I \\times 300\\) \n\\(36 = 0.36I\\) \n\\(I = 36 / 0.36 = 100\\,A\\)."
@@ -210,10 +368,22 @@
       "id": 14,
       "question": "Shadows and eclipses result from the",
       "options": [
-        { "id": "A", "text": "refraction of light" },
-        { "id": "B", "text": "reflection of light." },
-        { "id": "C", "text": "defraction of light" },
-        { "id": "D", "text": "rectilinear propagation of light" }
+        {
+          "id": "A",
+          "text": "refraction of light"
+        },
+        {
+          "id": "B",
+          "text": "reflection of light."
+        },
+        {
+          "id": "C",
+          "text": "defraction of light"
+        },
+        {
+          "id": "D",
+          "text": "rectilinear propagation of light"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Shadows and eclipses are formed because light travels in straight lines (rectilinear propagation), and cannot bend around opaque obstacles (at macroscopic scales)."
@@ -222,10 +392,22 @@
       "id": 15,
       "question": "Which of the following obeys Ohm’s Law?",
       "options": [
-        { "id": "A", "text": "All metals" },
-        { "id": "B", "text": "Diode only" },
-        { "id": "C", "text": "All electrolytes" },
-        { "id": "D", "text": "Glass" }
+        {
+          "id": "A",
+          "text": "All metals"
+        },
+        {
+          "id": "B",
+          "text": "Diode only"
+        },
+        {
+          "id": "C",
+          "text": "All electrolytes"
+        },
+        {
+          "id": "D",
+          "text": "Glass"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Ohm's law applies to ohmic conductors, which are primarily metals held at a constant physical condition (temperature)."
@@ -234,10 +416,22 @@
       "id": 16,
       "question": "Which of the following statements are TRUE OF ISOTOPES?\nI. Isotopes of an element have the same chemical properties because they have the same number of electrons\nII. Isotopes of elements are normally separated using physical properties\nIII. Isotopes of an element has the same number of protons in their nuclei.",
       "options": [
-        { "id": "A", "text": "I and II only" },
-        { "id": "B", "text": "I and III only" },
-        { "id": "C", "text": "II and III only" },
-        { "id": "D", "text": "I, II and III." }
+        {
+          "id": "A",
+          "text": "I and II only"
+        },
+        {
+          "id": "B",
+          "text": "I and III only"
+        },
+        {
+          "id": "C",
+          "text": "II and III only"
+        },
+        {
+          "id": "D",
+          "text": "I, II and III."
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Isotopes have the same atomic number (protons) and electron configuration, so their chemical properties are identical (I & III). They have different masses, so they are separated by physical methods like centrifugation or diffusion (II). All statements are true."
@@ -247,23 +441,48 @@
       "instruction": "Use the diagram (Phy2018_Q17_Friction) to answer this question.",
       "question": "In the diagram above, the hanging mass m is adjusted until m is on the verge of sliding. The coefficient of static friction between mass m and the table is",
       "options": [
-        { "id": "A", "text": "\\(\\frac{m_2}{m_1}\\)" },
-        { "id": "B", "text": "\\(\\frac{m_1 g}{m_2}\\)" },
-        { "id": "C", "text": "\\(\\frac{m_2}{m_1}\\)" },
-        { "id": "D", "text": "\\(\\frac{m_2 g}{m_1}\\)" }
+        {
+          "id": "A",
+          "text": "\\(\\frac{m_2}{m_1}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\frac{m_1 g}{m_2}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(\\frac{m_2}{m_1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\frac{m_2 g}{m_1}\\)"
+        }
       ],
       "correctAnswer": "A",
       "figureId": "Phy2018_Q17_Friction",
-      "explanation": "At the verge of sliding, the tension \\(T = m_2 g\\) equals the limiting frictional force \\(F_s\\). \n\\(F_s = \\mu R = \\mu m_1 g\\). \nSo, \\(m_2 g = \\mu m_1 g\\). \n\\(\\mu = \\frac{m_2}{m_1}\\). Note: Options A and C are identical in the source image, so A is valid."
+      "explanation": "At the verge of sliding, the tension \\(T = m_2 g\\) equals the limiting frictional force \\(F_s\\). \n\\(F_s = \\mu R = \\mu m_1 g\\). \nSo, \\(m_2 g = \\mu m_1 g\\). \n\\(\\mu = \\frac{m_2}{m_1}\\). Note: Options A and C are identical in the source image, so A is valid.",
+      "imagePath": "src/data/subjects/images/physics_images/2018_Q17.png"
     },
     {
       "id": 18,
       "question": "Which of the following may be used to explain a mirage?\nI. Layers of air near the road surface have varying refractive indices in hot weather\nII. Road surfaces sometimes become good reflectors in hot weather.\nIII. Light from the sky can be reflected upwards after coming close to and the road surface.",
       "options": [
-        { "id": "A", "text": "I and III only" },
-        { "id": "B", "text": "II and III only" },
-        { "id": "C", "text": "II only" },
-        { "id": "D", "text": "I, II and III" }
+        {
+          "id": "A",
+          "text": "I and III only"
+        },
+        {
+          "id": "B",
+          "text": "II and III only"
+        },
+        {
+          "id": "C",
+          "text": "II only"
+        },
+        {
+          "id": "D",
+          "text": "I, II and III"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Mirages are caused by the refraction of light through layers of air with different densities (and refractive indices) due to heat (I), leading to Total Internal Reflection which reflects the sky upwards (III). The road surface itself does not become a reflector."
@@ -273,23 +492,48 @@
       "instruction": "Use the diagram (Phy2018_Q19_Manometer) to answer this question.",
       "question": "In the diagram below, if the atmosphere pressure is 760mm, the pressure in the chamber G is",
       "options": [
-        { "id": "A", "text": "660mm" },
-        { "id": "B", "text": "830mm" },
-        { "id": "C", "text": "690mm" },
-        { "id": "D", "text": "860mm" }
+        {
+          "id": "A",
+          "text": "660mm"
+        },
+        {
+          "id": "B",
+          "text": "830mm"
+        },
+        {
+          "id": "C",
+          "text": "690mm"
+        },
+        {
+          "id": "D",
+          "text": "860mm"
+        }
       ],
       "correctAnswer": "B",
       "figureId": "Phy2018_Q19_Manometer",
-      "explanation": "The liquid level on the open side is higher (10 units) than on the gas side (3 units), meaning the gas pressure is higher than atmospheric pressure. \nAssuming the labels '10m' and '3m' correspond to a scale in cm (common typo in diagrams vs mm answers), the height difference \\(h = 10 - 3 = 7\\,cm = 70\\,mm\\). \n\\(P_{gas} = P_{atm} + h = 760\\,mm + 70\\,mm = 830\\,mm\\)."
+      "explanation": "The liquid level on the open side is higher (10 units) than on the gas side (3 units), meaning the gas pressure is higher than atmospheric pressure. \nAssuming the labels '10m' and '3m' correspond to a scale in cm (common typo in diagrams vs mm answers), the height difference \\(h = 10 - 3 = 7\\,cm = 70\\,mm\\). \n\\(P_{gas} = P_{atm} + h = 760\\,mm + 70\\,mm = 830\\,mm\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2018_Q19.png"
     },
     {
       "id": 20,
       "question": "Which of the following has the lowest internal resistance when new?",
       "options": [
-        { "id": "A", "text": "Leclanche cell" },
-        { "id": "B", "text": "Daniel cell" },
-        { "id": "C", "text": "Torch battery" },
-        { "id": "D", "text": "Accumulator" }
+        {
+          "id": "A",
+          "text": "Leclanche cell"
+        },
+        {
+          "id": "B",
+          "text": "Daniel cell"
+        },
+        {
+          "id": "C",
+          "text": "Torch battery"
+        },
+        {
+          "id": "D",
+          "text": "Accumulator"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Accumulators (like lead-acid batteries) are designed to deliver very high currents (e.g., for starting engines), which requires them to have very low internal resistance compared to dry cells or Leclanche cells."
@@ -298,10 +542,22 @@
       "id": 21,
       "question": "The pitch of an acoustic device can be increased by",
       "options": [
-        { "id": "A", "text": "decreasing the loudness" },
-        { "id": "B", "text": "increasing the amplitude" },
-        { "id": "C", "text": "increasing the frequency" },
-        { "id": "D", "text": "decreasing the intensity." }
+        {
+          "id": "A",
+          "text": "decreasing the loudness"
+        },
+        {
+          "id": "B",
+          "text": "increasing the amplitude"
+        },
+        {
+          "id": "C",
+          "text": "increasing the frequency"
+        },
+        {
+          "id": "D",
+          "text": "decreasing the intensity."
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Pitch is the subjective perception of the frequency of a sound. Increasing frequency increases the pitch."
@@ -310,10 +566,22 @@
       "id": 22,
       "question": "One of the features of the fission process is that",
       "options": [
-        { "id": "A", "text": "it leads to chain reaction" },
-        { "id": "B", "text": "its products are not radioactive" },
-        { "id": "C", "text": "neutrons are not released." },
-        { "id": "D", "text": "the sum of the masses of the reactants equals the sum of the masses of the products." }
+        {
+          "id": "A",
+          "text": "it leads to chain reaction"
+        },
+        {
+          "id": "B",
+          "text": "its products are not radioactive"
+        },
+        {
+          "id": "C",
+          "text": "neutrons are not released."
+        },
+        {
+          "id": "D",
+          "text": "the sum of the masses of the reactants equals the sum of the masses of the products."
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Nuclear fission releases neutrons which can strike other nuclei, causing further fission events, leading to a chain reaction. The products are usually radioactive, neutrons *are* released, and mass is converted to energy (so mass is not conserved)."
@@ -322,10 +590,22 @@
       "id": 23,
       "question": "The linear expansivity of brass is \\(2 \\times 10^{-5}C^{-1}\\). If the volume of a piece of brass is \\(15.00cm^3\\) at 0°C, what is the volume at 100°C?",
       "options": [
-        { "id": "A", "text": "16.03cm³" },
-        { "id": "B", "text": "15.09cm³" },
-        { "id": "C", "text": "16.00cm³" },
-        { "id": "D", "text": "15.03cm³" }
+        {
+          "id": "A",
+          "text": "16.03cm³"
+        },
+        {
+          "id": "B",
+          "text": "15.09cm³"
+        },
+        {
+          "id": "C",
+          "text": "16.00cm³"
+        },
+        {
+          "id": "D",
+          "text": "15.03cm³"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Volume expansivity \\(\\gamma = 3\\alpha = 3 \\times 2 \\times 10^{-5} = 6 \\times 10^{-5} K^{-1}\\). \n\\(V_{new} = V_0(1 + \\gamma \\Delta \\theta)\\) \n\\(V_{new} = 15(1 + 6 \\times 10^{-5} \times 100)\\) \n\\(V_{new} = 15(1 + 0.006) = 15(1.006) = 15.09\\,cm^3\\)."
@@ -334,10 +614,22 @@
       "id": 24,
       "question": "A lead bullet of mass 0.05kg is fired with a velocity of 200ms⁻¹ into a lead block of mass 0.95kg. Given that the lead block can move freely, the final kinetic energy after impact is",
       "options": [
-        { "id": "A", "text": "150 J" },
-        { "id": "B", "text": "100 J" },
-        { "id": "C", "text": "50 J" },
-        { "id": "D", "text": "200 J" }
+        {
+          "id": "A",
+          "text": "150 J"
+        },
+        {
+          "id": "B",
+          "text": "100 J"
+        },
+        {
+          "id": "C",
+          "text": "50 J"
+        },
+        {
+          "id": "D",
+          "text": "200 J"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Conservation of momentum (inelastic collision): \n\\(m_1 u_1 = (m_1 + m_2)v\\) \n\\(0.05 \\times 200 = (0.05 + 0.95)v\\) \n\\(10 = 1.0v \\Rightarrow v = 10\\,m/s\\). \nFinal K.E. = \\(\\frac{1}{2}(m_1+m_2)v^2 = 0.5 \\times 1.0 \\times 10^2 = 50\\,J\\)."
@@ -346,10 +638,22 @@
       "id": 25,
       "question": "In a series R-L-C circuit at resonance, the voltages across the resistor and the inductor are 20V and 40V respectively. What is the voltage across the capacitor?",
       "options": [
-        { "id": "A", "text": "30 V" },
-        { "id": "B", "text": "70 V" },
-        { "id": "C", "text": "50 V" },
-        { "id": "D", "text": "40 V" }
+        {
+          "id": "A",
+          "text": "30 V"
+        },
+        {
+          "id": "B",
+          "text": "70 V"
+        },
+        {
+          "id": "C",
+          "text": "50 V"
+        },
+        {
+          "id": "D",
+          "text": "40 V"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "At resonance in a series R-L-C circuit, the inductive reactance equals the capacitive reactance (\\(X_L = X_C\\)). Consequently, the voltage across the inductor equals the voltage across the capacitor (\\(V_L = V_C\\)). Since \\(V_L = 40V\\), \\(V_C\\) is also 40V."
@@ -358,10 +662,22 @@
       "id": 26,
       "question": "If the fraction of the atoms of a radioactive material left after 120 years is 1/64, what is the half-life of the material?",
       "options": [
-        { "id": "A", "text": "20 years" },
-        { "id": "B", "text": "10 years" },
-        { "id": "C", "text": "2 years" },
-        { "id": "D", "text": "24 years" }
+        {
+          "id": "A",
+          "text": "20 years"
+        },
+        {
+          "id": "B",
+          "text": "10 years"
+        },
+        {
+          "id": "C",
+          "text": "2 years"
+        },
+        {
+          "id": "D",
+          "text": "24 years"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Remaining fraction = \\(1/64 = (1/2)^6\\). This represents 6 half-lives. \nTotal time = 120 years. \n\\(6 \\times T_{1/2} = 120\\) \n\\(T_{1/2} = 20\\,years\\)."
@@ -371,23 +687,48 @@
       "instruction": "Use the diagram (Phy2018_Q27_Pendula) to answer this question.",
       "question": "In the diagram below, which of the simple pendula will resonate with P when set into oscillation?",
       "options": [
-        { "id": "A", "text": "U" },
-        { "id": "B", "text": "T" },
-        { "id": "C", "text": "R and T" },
-        { "id": "D", "text": "Q and R" }
+        {
+          "id": "A",
+          "text": "U"
+        },
+        {
+          "id": "B",
+          "text": "T"
+        },
+        {
+          "id": "C",
+          "text": "R and T"
+        },
+        {
+          "id": "D",
+          "text": "Q and R"
+        }
       ],
       "correctAnswer": "B",
       "figureId": "Phy2018_Q27_Pendula",
-      "explanation": "Resonance occurs between pendulums of the same effective length. Visually, pendulum T has the same length as pendulum P."
+      "explanation": "Resonance occurs between pendulums of the same effective length. Visually, pendulum T has the same length as pendulum P.",
+      "imagePath": "src/data/subjects/images/physics_images/2018_Q27.png"
     },
     {
       "id": 28,
       "question": "The time rate of loss of heat by a body is proportional to the",
       "options": [
-        { "id": "A", "text": "temperature of its surroundings" },
-        { "id": "B", "text": "temperature of the body" },
-        { "id": "C", "text": "difference in temperature between the body and its surroundings" },
-        { "id": "D", "text": "ratio of the temperature of the body to that of its surroundings." }
+        {
+          "id": "A",
+          "text": "temperature of its surroundings"
+        },
+        {
+          "id": "B",
+          "text": "temperature of the body"
+        },
+        {
+          "id": "C",
+          "text": "difference in temperature between the body and its surroundings"
+        },
+        {
+          "id": "D",
+          "text": "ratio of the temperature of the body to that of its surroundings."
+        }
       ],
       "correctAnswer": "C",
       "explanation": "According to Newton's Law of Cooling, the rate of heat loss is proportional to the temperature difference between the body and its surroundings."
@@ -396,10 +737,22 @@
       "id": 29,
       "question": "A positive charged rod X is brought near an uncharged metal sphere Y and is then touched by a finger with X still in place. When the finger is removed, the result is that Y has",
       "options": [
-        { "id": "A", "text": "no charge and a zero potential" },
-        { "id": "B", "text": "a positive charge and a zero potential." },
-        { "id": "C", "text": "a negative charge and a positive potential." },
-        { "id": "D", "text": "a negative charge and a negative potential." }
+        {
+          "id": "A",
+          "text": "no charge and a zero potential"
+        },
+        {
+          "id": "B",
+          "text": "a positive charge and a zero potential."
+        },
+        {
+          "id": "C",
+          "text": "a negative charge and a positive potential."
+        },
+        {
+          "id": "D",
+          "text": "a negative charge and a negative potential."
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Induction: Rod X (+) attracts electrons in Y to the near side. Earthing (finger) allows electrons to flow from the ground onto Y to neutralize the repelled positive charge on the far side. When finger is removed, Y has excess electrons (Negative charge). The potential of a negatively charged body is negative relative to earth."
@@ -408,10 +761,22 @@
       "id": 30,
       "question": "Electrical appliances in homes are normally earthed so that",
       "options": [
-        { "id": "A", "text": "a person touching the appliances is safe from electric shock." },
-        { "id": "B", "text": "both the a.c. and d.c. sources can be used." },
-        { "id": "C", "text": "the appliances are maintained at a higher p.d. than the earth." },
-        { "id": "D", "text": "the appliances are maintained at a lower p.d. than the earth." }
+        {
+          "id": "A",
+          "text": "a person touching the appliances is safe from electric shock."
+        },
+        {
+          "id": "B",
+          "text": "both the a.c. and d.c. sources can be used."
+        },
+        {
+          "id": "C",
+          "text": "the appliances are maintained at a higher p.d. than the earth."
+        },
+        {
+          "id": "D",
+          "text": "the appliances are maintained at a lower p.d. than the earth."
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Earthing connects the metal casing of appliances to the ground. If a fault causes the live wire to touch the casing, the large current flows to the earth (blowing the fuse) rather than through a person touching the appliance, preventing electric shock."
@@ -420,10 +785,22 @@
       "id": 31,
       "question": "The process whereby a liquid turns spontaneously into vapour is called",
       "options": [
-        { "id": "A", "text": "regelation" },
-        { "id": "B", "text": "evaporation" },
-        { "id": "C", "text": "boiling" },
-        { "id": "D", "text": "sublimation" }
+        {
+          "id": "A",
+          "text": "regelation"
+        },
+        {
+          "id": "B",
+          "text": "evaporation"
+        },
+        {
+          "id": "C",
+          "text": "boiling"
+        },
+        {
+          "id": "D",
+          "text": "sublimation"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Evaporation is the spontaneous process where liquid molecules at the surface gain enough energy to escape as vapor at any temperature."
@@ -433,10 +810,22 @@
       "instruction": "Use the diagrams (Phy2018_Q32_Transistor) to answer this question.",
       "question": "Which of the following diagrams represents correctly an n-p-n transistor?",
       "options": [
-        { "id": "A", "text": "A" },
-        { "id": "B", "text": "B" },
-        { "id": "C", "text": "C" },
-        { "id": "D", "text": "D" }
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2018_Q32_Transistor",
@@ -446,10 +835,22 @@
       "id": 33,
       "question": "The differences observed in solids, liquids and gases may be accounted for by",
       "options": [
-        { "id": "A", "text": "their relative masses." },
-        { "id": "B", "text": "their melting points." },
-        { "id": "C", "text": "the spacing and forces acting between the molecules." },
-        { "id": "D", "text": "the different molecules in each of them." }
+        {
+          "id": "A",
+          "text": "their relative masses."
+        },
+        {
+          "id": "B",
+          "text": "their melting points."
+        },
+        {
+          "id": "C",
+          "text": "the spacing and forces acting between the molecules."
+        },
+        {
+          "id": "D",
+          "text": "the different molecules in each of them."
+        }
       ],
       "correctAnswer": "C",
       "explanation": "The kinetic theory of matter explains the states of matter based on the intermolecular forces and the spacing between molecules (tightly packed/strong forces in solids, loose/weak in gases)."
@@ -458,10 +859,22 @@
       "id": 34,
       "question": "Convex mirrors are used as driving mirrors because images formed are",
       "options": [
-        { "id": "A", "text": "erect, virtual and diminished" },
-        { "id": "B", "text": "erect, real and diminished" },
-        { "id": "C", "text": "erect, virtual and magnified" },
-        { "id": "D", "text": "inverted, virtual and diminished." }
+        {
+          "id": "A",
+          "text": "erect, virtual and diminished"
+        },
+        {
+          "id": "B",
+          "text": "erect, real and diminished"
+        },
+        {
+          "id": "C",
+          "text": "erect, virtual and magnified"
+        },
+        {
+          "id": "D",
+          "text": "inverted, virtual and diminished."
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Convex mirrors always form virtual, erect, and diminished images. This property allows them to provide a wider field of view for drivers."
@@ -470,10 +883,22 @@
       "id": 35,
       "question": "Musical instruments playing the same note can be distinguished from one another owing to the differences in their",
       "options": [
-        { "id": "A", "text": "quality." },
-        { "id": "B", "text": "pitch." },
-        { "id": "C", "text": "intensity" },
-        { "id": "D", "text": "loudness" }
+        {
+          "id": "A",
+          "text": "quality."
+        },
+        {
+          "id": "B",
+          "text": "pitch."
+        },
+        {
+          "id": "C",
+          "text": "intensity"
+        },
+        {
+          "id": "D",
+          "text": "loudness"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "The quality (or timbre) of a sound depends on the number and relative intensities of overtones produced. This allows us to distinguish between different instruments playing the same note (pitch) and loudness."
@@ -483,10 +908,22 @@
       "instruction": "Use the diagram (Phy2018_Q36_Magnets) to answer this question.",
       "question": "In the diagram above, if the south-poles of two magnets stroke a steel bar, the polarities at T and V will respectively be",
       "options": [
-        { "id": "A", "text": "north and south." },
-        { "id": "B", "text": "south and south." },
-        { "id": "C", "text": "north and north." },
-        { "id": "D", "text": "south and north." }
+        {
+          "id": "A",
+          "text": "north and south."
+        },
+        {
+          "id": "B",
+          "text": "south and south."
+        },
+        {
+          "id": "C",
+          "text": "north and north."
+        },
+        {
+          "id": "D",
+          "text": "south and north."
+        }
       ],
       "correctAnswer": "C",
       "figureId": "Phy2018_Q36_Magnets",
@@ -496,10 +933,22 @@
       "id": 37,
       "question": "In homes, electrical appliances and lamps are connected in parallel because",
       "options": [
-        { "id": "A", "text": "less current will be used" },
-        { "id": "B", "text": "less voltage will be used" },
-        { "id": "C", "text": "parallel connection does not heat up the wires" },
-        { "id": "D", "text": "series connection uses high voltage" }
+        {
+          "id": "A",
+          "text": "less current will be used"
+        },
+        {
+          "id": "B",
+          "text": "less voltage will be used"
+        },
+        {
+          "id": "C",
+          "text": "parallel connection does not heat up the wires"
+        },
+        {
+          "id": "D",
+          "text": "series connection uses high voltage"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Appliances are connected in parallel so they all operate at the same rated mains voltage (e.g., 220V) and can be switched independently. The options provided are unusual. Option D is the most plausible by elimination: if connected in series, the voltage required to run all appliances simultaneously would need to be extremely high (sum of all voltages), or conversely, the available voltage would be split, leaving them underpowered."
@@ -508,10 +957,22 @@
       "id": 38,
       "question": "An object moves in a circular path of radius 0.5m with a speed of 1ms⁻¹. What is its angular velocity?",
       "options": [
-        { "id": "A", "text": "8rads⁻¹" },
-        { "id": "B", "text": "4rads⁻¹" },
-        { "id": "C", "text": "1rads⁻¹" },
-        { "id": "D", "text": "2rads⁻¹" }
+        {
+          "id": "A",
+          "text": "8rads⁻¹"
+        },
+        {
+          "id": "B",
+          "text": "4rads⁻¹"
+        },
+        {
+          "id": "C",
+          "text": "1rads⁻¹"
+        },
+        {
+          "id": "D",
+          "text": "2rads⁻¹"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Angular velocity \\(\\omega = v/r\\). \n\\(\\omega = 1 / 0.5 = 2\\,rads^{-1}\\)."
@@ -520,10 +981,22 @@
       "id": 39,
       "question": "What effort will a machine of efficiency 90% apply to lift a load of 180N if its efforts arm is twice as long as its load arm?",
       "options": [
-        { "id": "A", "text": "100N" },
-        { "id": "B", "text": "90N" },
-        { "id": "C", "text": "80N" },
-        { "id": "D", "text": "120N" }
+        {
+          "id": "A",
+          "text": "100N"
+        },
+        {
+          "id": "B",
+          "text": "90N"
+        },
+        {
+          "id": "C",
+          "text": "80N"
+        },
+        {
+          "id": "D",
+          "text": "120N"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Velocity Ratio (V.R.) = Effort Distance / Load Distance = 2. \nEfficiency = (M.A. / V.R.) × 100 \n\\(90 = (M.A. / 2) \\times 100 \\Rightarrow 0.9 = M.A. / 2 \\Rightarrow M.A. = 1.8\\). \n\\(M.A. = Load / Effort\\) \n\\(1.8 = 180 / Effort\\) \n\\(Effort = 180 / 1.8 = 100\\,N\\)."
@@ -533,10 +1006,22 @@
       "instruction": "Use the diagram (Phy2018_Q40_Capacitors) to answer this question.",
       "question": "Calculate the effective capacitance of the circuit above.",
       "options": [
-        { "id": "A", "text": "4µf" },
-        { "id": "B", "text": "3 µf" },
-        { "id": "C", "text": "2 µf" },
-        { "id": "D", "text": "1 µf." }
+        {
+          "id": "A",
+          "text": "4µf"
+        },
+        {
+          "id": "B",
+          "text": "3 µf"
+        },
+        {
+          "id": "C",
+          "text": "2 µf"
+        },
+        {
+          "id": "D",
+          "text": "1 µf."
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2018_Q40_Capacitors",
