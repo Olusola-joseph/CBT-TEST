@@ -84,7 +84,8 @@
       ],
       "correctAnswer": "C",
       "figureId": "Phy2015_Fig1_LensArrangement",
-      "explanation": "The diagram shows an objective lens forming an intermediate image and an eyepiece lens producing a final image for viewing—typical of an astronomical telescope setup."
+      "explanation": "The diagram shows an objective lens forming an intermediate image and an eyepiece lens producing a final image for viewing—typical of an astronomical telescope setup.",
+      "imagePath": "src/data/subjects/images/physics_images/2015_Q2.png"
     },
     {
       "id": 3,
@@ -134,7 +135,8 @@
       ],
       "correctAnswer": "D",
       "figureId": "Phy2015_Fig2_InclinedPlane_Forces",
-      "explanation": "At rest, component of weight down the plane is balanced by friction: \\(mg\\sin\\theta = F\\). Here \\(mg=6\\times 10=60\\,N\\). So \\(60\\sin\\theta = 30\\Rightarrow \\sin\\theta=\\tfrac{1}{2}\\Rightarrow \\theta=30^\\circ\\)."
+      "explanation": "At rest, component of weight down the plane is balanced by friction: \\(mg\\sin\\theta = F\\). Here \\(mg=6\\times 10=60\\,N\\). So \\(60\\sin\\theta = 30\\Rightarrow \\sin\\theta=\\tfrac{1}{2}\\Rightarrow \\theta=30^\\circ\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2015_Q4.png"
     },
     {
       "id": 5,
@@ -328,7 +330,8 @@
       ],
       "correctAnswer": "D",
       "figureId": "Phy2015_Fig3_ElectricField_Deflection",
-      "explanation": "A curved path in an electric field indicates the particle is charged. The direction of curvature shown is toward the positive plate, indicating a negatively charged particle: an electron."
+      "explanation": "A curved path in an electric field indicates the particle is charged. The direction of curvature shown is toward the positive plate, indicating a negatively charged particle: an electron.",
+      "imagePath": "src/data/subjects/images/physics_images/2015_Q12.png"
     },
     {
       "id": 13,
@@ -912,7 +915,8 @@
       ],
       "correctAnswer": null,
       "figureId": "Phy2015_Q36_SixCells_Diagram",
-      "explanation": "The cell-connection diagram is not sufficiently clear to determine which cells aid/oppose, so the effective e.m.f cannot be computed reliably from the upload."
+      "explanation": "The cell-connection diagram is not sufficiently clear to determine which cells aid/oppose, so the effective e.m.f cannot be computed reliably from the upload.",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q39&2015_Q36.png"
     },
     {
       "id": 37,

@@ -84,7 +84,8 @@
       ],
       "correctAnswer": "D",
       "figureId": "Phy2016_Q2_Transformer",
-      "explanation": "A transformer operates on alternating magnetic flux, so the induced emf in the secondary is alternating with time (i.e., varying)."
+      "explanation": "A transformer operates on alternating magnetic flux, so the induced emf in the secondary is alternating with time (i.e., varying).",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q42&Q43&2016_Q2.png"
     },
     {
       "id": 3,

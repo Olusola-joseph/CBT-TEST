@@ -885,7 +885,8 @@
       ],
       "correctAnswer": null,
       "figureId": "Phy2014_Q35_CapacitorNetwork",
-      "explanation": "The diagram is too low-resolution to trace the exact series/parallel connections confidently, so the effective capacitance cannot be computed reliably from the provided image."
+      "explanation": "The diagram is too low-resolution to trace the exact series/parallel connections confidently, so the effective capacitance cannot be computed reliably from the provided image.",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q35&2018_Q40.png"
     },
     {
       "id": 36,
@@ -1055,7 +1056,8 @@
       ],
       "correctAnswer": null,
       "figureId": "Phy2014_Q42_Q43_TransformerDiagram",
-      "explanation": "The diagram shows separate input and output windings, but the relative number of turns on each side is not clearly readable from the image, so it cannot be classified confidently as step-up or step-down. It is not an auto-transformer (windings appear separate), but between step-up and step-down the required turn ratio is unclear."
+      "explanation": "The diagram shows separate input and output windings, but the relative number of turns on each side is not clearly readable from the image, so it cannot be classified confidently as step-up or step-down. It is not an auto-transformer (windings appear separate), but between step-up and step-down the required turn ratio is unclear.",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q42&Q43&2016_Q2.png"
     },
     {
       "id": 43,
@@ -1081,7 +1083,8 @@
       ],
       "correctAnswer": "D",
       "figureId": "Phy2014_Q42_Q43_TransformerDiagram",
-      "explanation": "A transformer operates with alternating current; the induced emf in the secondary is alternating (time-varying)."
+      "explanation": "A transformer operates with alternating current; the induced emf in the secondary is alternating (time-varying).",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q42&Q43&2016_Q2.png"
     },
     {
       "id": 44,
