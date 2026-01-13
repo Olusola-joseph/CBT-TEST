@@ -829,6 +829,7 @@
       ],
       "correctAnswer": "D",
       "figureId": "Phy2018_Q32_Transistor",
+      "imagePath": "../data/subjects/images/physics_images/2018_ANSWER_OPTION_32.png",
       "explanation": "In an NPN transistor symbol, the arrow on the emitter leg points OUTward (NPN = Not Pointing iN). Diagram D shows the standard symbol with the arrow pointing out."
     },
     {

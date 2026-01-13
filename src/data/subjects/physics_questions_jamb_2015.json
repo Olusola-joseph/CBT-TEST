@@ -109,6 +109,7 @@
         }
       ],
       "correctAnswer": null,
+      "imagePath": "src/data/subjects/images/physics_images/2015_Q3.png",
       "explanation": "The resistor network diagram for Question 3 is not fully visible/legible in the provided image crop (only the answer options are visible alongside a partial sketch), so the total resistance cannot be computed from the upload."
     },
     {
