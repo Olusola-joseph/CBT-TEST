@@ -173,7 +173,9 @@ function renderQuestion(index) {
     const optionsContainer = document.getElementById('options-container');
     
     questionNumber.textContent = index + 1;
-    questionText.innerHTML = formatQuestionText(question.question, question.figureId, question.imagePath);
+    // Use answerOptionsImagePath if available, otherwise use imagePath
+    const imagePathToUse = question.answerOptionsImagePath || question.imagePath;
+    questionText.innerHTML = formatQuestionText(question.question, question.figureId, imagePathToUse);
     
     // Clear previous options
     optionsContainer.innerHTML = '';
@@ -225,6 +227,12 @@ function formatQuestionText(text, figureId = null, imagePath = null) {
         const questionNum = figureId ? extractQuestionNumber(figureId) : 'diagram';
         formattedText += `<br><img src="${imagePath}" alt="Question ${questionNum} Diagram" class="question-image" onerror="this.style.display='none';">`;
     } 
+    // Check for answerOptionsImagePath in the question object
+    else if(currentQuestions[currentQuestionIndex] && currentQuestions[currentQuestionIndex].answerOptionsImagePath) {
+        const imgPath = currentQuestions[currentQuestionIndex].answerOptionsImagePath;
+        const questionNum = currentQuestionIndex + 1;
+        formattedText += `<br><img src="${imgPath}" alt="Question ${questionNum} Diagram" class="question-image" onerror="this.style.display='none';">`;
+    }
     // Otherwise fallback to the old method
     else if(figureId && figureId.includes('Phy')) {
         // Extract year and question info from figureId (e.g., "Phy2010_Q3_VelocityTimeGraph")
@@ -358,9 +366,11 @@ function renderReviewQuestion(index) {
     const container = document.getElementById('review-container');
     
     // Build the question display with explanations and images
+    // Use answerOptionsImagePath if available, otherwise use imagePath
+    const imagePathToUse = question.answerOptionsImagePath || question.imagePath;
     let html = `
         <div class="review-item">
-            <h4>Question ${index + 1}: ${formatQuestionTextForReview(question.question, question.figureId, question.imagePath)}</h4>
+            <h4>Question ${index + 1}: ${formatQuestionTextForReview(question.question, question.figureId, imagePathToUse)}</h4>
     `;
     
     // Add options
@@ -391,8 +401,10 @@ function renderReviewQuestion(index) {
         let explanationText = question.explanation;
         
         // Check if there are images related to the explanation
-        if(question.imagePath) {
-            explanationText += `<br><img src="${question.imagePath}" alt="Explanation Diagram" class="explanation-image" onerror="this.style.display='none';">`;
+        // Use answerOptionsImagePath if available, otherwise use imagePath
+        const imagePathForExplanation = question.answerOptionsImagePath || question.imagePath;
+        if(imagePathForExplanation) {
+            explanationText += `<br><img src="${imagePathForExplanation}" alt="Explanation Diagram" class="explanation-image" onerror="this.style.display='none';">`;
         }
         
         html += `<div class="explanation"><strong>Explanation:</strong> ${explanationText}</div>`;
@@ -417,8 +429,30 @@ function renderReviewQuestion(index) {
 function formatQuestionTextForReview(text, figureId = null, imagePath = null) {
     let formattedText = text;
     
-    // We don't add images directly in the question text for review since we show them in the explanation
-    // But we can still return the formatted text
+    // Use the direct imagePath if available (from updated JSON)
+    if(imagePath) {
+        const questionNum = figureId ? extractQuestionNumber(figureId) : 'diagram';
+        formattedText += `<br><img src="${imagePath}" alt="Question ${questionNum} Diagram" class="question-image" onerror="this.style.display='none';">`;
+    } 
+    // Check for answerOptionsImagePath in the question object
+    else if(currentQuestions[currentQuestionIndex] && currentQuestions[currentQuestionIndex].answerOptionsImagePath) {
+        const imgPath = currentQuestions[currentQuestionIndex].answerOptionsImagePath;
+        const questionNum = currentQuestionIndex + 1;
+        formattedText += `<br><img src="${imgPath}" alt="Question ${questionNum} Diagram" class="question-image" onerror="this.style.display='none';">`;
+    }
+    // Otherwise fallback to the old method
+    else if(figureId && figureId.includes('Phy')) {
+        // Extract year and question info from figureId (e.g., "Phy2010_Q3_VelocityTimeGraph")
+        const match = figureId.match(/Phy(\d{4})_Q(\d+)/);
+        if(match) {
+            const year = match[1];
+            const questionNum = match[2];
+            const imgPath = `src/data/subjects/images/physics_images/${year}_Q${questionNum}.png`;
+            
+            formattedText += `<br><img src="${imgPath}" alt="Question ${questionNum} Diagram" class="question-image" onerror="this.style.display='none';">`;
+        }
+    }
+    
     return formattedText;
 }
 
