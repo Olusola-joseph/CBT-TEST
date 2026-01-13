@@ -28,6 +28,16 @@
       "id": "Phy2012_Q27_WaveDisplacementGraph",
       "file": "2012_Q27.png",
       "description": "Displacement vs wave direction (x) sinusoidal sketch with points O and F separated by distance x. Used in Question 27."
+    },
+    {
+      "id": "Phy2012_Q42_Figure",
+      "file": "2012_Q42.png",
+      "description": "Image for question 42 in 2012 physics exam"
+    },
+    {
+      "id": "Phy2012_Q39_Figure",
+      "file": "2012_Q39&2015_Q36.png",
+      "description": "Image for question 39 in 2012 physics exam"
     }
   ],
   "questions": [
@@ -976,7 +986,9 @@
         }
       ],
       "correctAnswer": null,
-      "explanation": "The connection diagram is not readable enough to determine how many cells are effectively in series/opposition, so the resultant e.m.f. cannot be determined reliably from the upload."
+      "explanation": "The connection diagram is not readable enough to determine how many cells are effectively in series/opposition, so the resultant e.m.f. cannot be determined reliably from the upload.",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q39&2015_Q36.png",
+      "figureId": "Phy2012_Q39_Figure"
     },
     {
       "id": 40,
@@ -1048,7 +1060,9 @@
         }
       ],
       "correctAnswer": "D",
-      "explanation": "Since \\(X_c=\\frac{1}{2\\pi f C}\\), \\(X_c\\) decreases as frequency increases, giving a falling hyperbola."
+      "explanation": "Since \\(X_c=\\frac{1}{2\\pi f C}\\), \\(X_c\\) decreases as frequency increases, giving a falling hyperbola.",
+      "imagePath": "src/data/subjects/images/physics_images/2012_Q42.png",
+      "figureId": "Phy2012_Q42_Figure"
     },
     {
       "id": 43,

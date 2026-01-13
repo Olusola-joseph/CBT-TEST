@@ -180,7 +180,8 @@
       ],
       "correctAnswer": "D",
       "figureId": "Phy2017_Q6_Transistor_IV_Graphs",
-      "explanation": "Transistor collector characteristic curves typically show current increasing with voltage initially (saturation) and then flattening out to a nearly constant value (active region). Graph D represents this behavior."
+      "explanation": "Transistor collector characteristic curves typically show current increasing with voltage initially (saturation) and then flattening out to a nearly constant value (active region). Graph D represents this behavior.",
+      "imagePath": "src/data/subjects/images/physics_images/2010_Q49&2017_Q6.png"
     },
     {
       "id": 7,

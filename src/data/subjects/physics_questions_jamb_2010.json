@@ -13,6 +13,26 @@
       "id": "Phy2010_Q7_UndulatingSurface",
       "file": "2010_Q7.png",
       "description": "Sketch of balls on an undulating surface labeled i to ix at various positions along crests and troughs. Used to identify stable equilibrium positions."
+    },
+    {
+      "id": "Phy2010_Q36_Figure",
+      "file": "2010_Q36.png",
+      "description": "Image for question 36 in 2010 physics exam"
+    },
+    {
+      "id": "Phy2010_Q38_Figure",
+      "file": "2010_Q38.png",
+      "description": "Image for question 38 in 2010 physics exam"
+    },
+    {
+      "id": "Phy2010_Q40_Figure",
+      "file": "2010_Q40&2018_Q36.png",
+      "description": "Image for question 40 in 2010 physics exam"
+    },
+    {
+      "id": "Phy2010_Q49_Figure",
+      "file": "2010_Q49&2017_Q6.png",
+      "description": "Image for question 49 in 2010 physics exam"
     }
   ],
   "questions": [
@@ -884,7 +904,9 @@
         }
       ],
       "correctAnswer": "C",
-      "explanation": "In a balanced metre bridge, \\(\\frac{R_1}{R_2}=\\frac{x}{100-x}\\). From the diagram, the left gap shows two 8 Ω resistors in parallel: \\(R_1 = 8\\parallel 8 = \\frac{8\\times 8}{8+8}=4\\,\\Omega\\). Right gap is 8 Ω: \\(R_2=8\\,\\Omega\\). Thus \\(\\frac{4}{8}=\\frac{x}{100-x}\\Rightarrow \\frac{1}{2}=\\frac{x}{100-x}\\Rightarrow 100-x=2x\\Rightarrow x=33.3\\,cm\\)."
+      "explanation": "In a balanced metre bridge, \\(\\frac{R_1}{R_2}=\\frac{x}{100-x}\\). From the diagram, the left gap shows two 8 Ω resistors in parallel: \\(R_1 = 8\\parallel 8 = \\frac{8\\times 8}{8+8}=4\\,\\Omega\\). Right gap is 8 Ω: \\(R_2=8\\,\\Omega\\). Thus \\(\\frac{4}{8}=\\frac{x}{100-x}\\Rightarrow \\frac{1}{2}=\\frac{x}{100-x}\\Rightarrow 100-x=2x\\Rightarrow x=33.3\\,cm\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2010_Q36.png",
+      "figureId": "Phy2010_Q36_Figure"
     },
     {
       "id": 37,
@@ -932,7 +954,9 @@
         }
       ],
       "correctAnswer": "C",
-      "explanation": "Power = 200 W = 0.2 kW. Time = 24 h. Energy = 0.2×24 = 4.8 kWh. Cost = 4.8×40 = N192.00. That matches option A, not C."
+      "explanation": "Power = 200 W = 0.2 kW. Time = 24 h. Energy = 0.2×24 = 4.8 kWh. Cost = 4.8×40 = N192.00. That matches option A, not C.",
+      "imagePath": "src/data/subjects/images/physics_images/2010_Q38.png",
+      "figureId": "Phy2010_Q38_Figure"
     },
     {
       "id": 39,
@@ -980,7 +1004,9 @@
         }
       ],
       "correctAnswer": "C",
-      "explanation": "In double-stroking with south poles from the center outward, the ends acquire the same polarity opposite to the stroking pole: both ends become north."
+      "explanation": "In double-stroking with south poles from the center outward, the ends acquire the same polarity opposite to the stroking pole: both ends become north.",
+      "imagePath": "src/data/subjects/images/physics_images/2010_Q40&2018_Q36.png",
+      "figureId": "Phy2010_Q40_Figure"
     },
     {
       "id": 41,
@@ -1196,7 +1222,9 @@
         }
       ],
       "correctAnswer": "D",
-      "explanation": "A typical transistor output characteristic shows current rising quickly then tending to saturate with increasing voltage (a curve that levels off). This corresponds to graph D."
+      "explanation": "A typical transistor output characteristic shows current rising quickly then tending to saturate with increasing voltage (a curve that levels off). This corresponds to graph D.",
+      "imagePath": "src/data/subjects/images/physics_images/2010_Q49&2017_Q6.png",
+      "figureId": "Phy2010_Q49_Figure"
     },
     {
       "id": 50,

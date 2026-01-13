@@ -927,7 +927,8 @@
       ],
       "correctAnswer": "C",
       "figureId": "Phy2018_Q36_Magnets",
-      "explanation": "In the method of magnetization by divided touch, the end of the bar where the stroking magnet *leaves* acquires the polarity opposite to that of the stroking pole. Here, South poles stroke outwards towards T and V. Therefore, both T and V will acquire North polarity."
+      "explanation": "In the method of magnetization by divided touch, the end of the bar where the stroking magnet *leaves* acquires the polarity opposite to that of the stroking pole. Here, South poles stroke outwards towards T and V. Therefore, both T and V will acquire North polarity.",
+      "imagePath": "src/data/subjects/images/physics_images/2010_Q40&2018_Q36.png"
     },
     {
       "id": 37,
@@ -1025,7 +1026,8 @@
       ],
       "correctAnswer": "D",
       "figureId": "Phy2018_Q40_Capacitors",
-      "explanation": "The circuit consists of three 2µF capacitors in parallel (on the left side ladder rungs), which act as a single block of \\(2+2+2 = 6\\mu F\\). This block is in series with the top 2µF capacitor and the bottom 3µF capacitor. \n\\(\\frac{1}{C_{eq}} = \\frac{1}{6} + \\frac{1}{2} + \\frac{1}{3}\\). \nLCM = 6: \\(\\frac{1 + 3 + 2}{6} = \\frac{6}{6} = 1\\). \n\\(C_{eq} = 1\\mu F\\)."
+      "explanation": "The circuit consists of three 2µF capacitors in parallel (on the left side ladder rungs), which act as a single block of \\(2+2+2 = 6\\mu F\\). This block is in series with the top 2µF capacitor and the bottom 3µF capacitor. \n\\(\\frac{1}{C_{eq}} = \\frac{1}{6} + \\frac{1}{2} + \\frac{1}{3}\\). \nLCM = 6: \\(\\frac{1 + 3 + 2}{6} = \\frac{6}{6} = 1\\). \n\\(C_{eq} = 1\\mu F\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2014_Q35&2018_Q40.png"
     }
   ]
 }

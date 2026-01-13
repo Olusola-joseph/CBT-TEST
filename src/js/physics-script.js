@@ -238,6 +238,15 @@ function formatQuestionText(text, figureId = null, imagePath = null) {
         }
     }
     
+    // Trigger MathJax rendering after a short delay
+    setTimeout(() => {
+        if (window.MathJax && MathJax.typeset) {
+            MathJax.typeset();
+        } else if (window.MathJax && MathJax.Hub) {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+    }, 100);
+    
     return formattedText;
 }
 
@@ -391,6 +400,15 @@ function renderReviewQuestion(index) {
     
     html += '</div>';
     container.innerHTML = html;
+    
+    // Trigger MathJax rendering after a short delay for explanations
+    setTimeout(() => {
+        if (window.MathJax && MathJax.typeset) {
+            MathJax.typeset();
+        } else if (window.MathJax && MathJax.Hub) {
+            MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+        }
+    }, 100);
     
     updateReviewProgress();
 }
