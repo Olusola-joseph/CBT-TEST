@@ -11,27 +11,27 @@
     },
     {
       "id": "Phy2016_Q8_Circuit_3ohm_6ohm_4A",
-      "file": "upload_2.png",
+      "file": "2016_Q8.png",
       "description": "Circuit containing a cell (internal resistance negligible) connected to two resistors 3Ω and 6Ω in parallel; total current marked 4.0 A. Used in Question 8."
     },
     {
       "id": "Phy2016_Q10_Plank_Pivot_O",
-      "file": "upload_2.png",
+      "file": "2016_Q10.png",
       "description": "Plank RS pivoted at O (centre of gravity) with weights P and Q hanging at different positions. Used in Question 10."
     },
     {
       "id": "Phy2016_Q16_Refraction_Block",
-      "file": "upload_3.png",
+      "file": "2016_Q16.png",
       "description": "Refraction diagram with angles marked 30° and 60° around a boundary and medium labeled M. Used in Question 16."
     },
     {
       "id": "Phy2016_Q21_AC_RL_VectorDiagram",
-      "file": "upload_5.png",
+      "file": "2016_Q21.png",
       "description": "Series a.c. circuit diagram with inductor L and resistor R showing Vr = 6V and VL = 8V (r.m.s). Used in Question 21."
     },
     {
       "id": "Phy2016_Q24_VectorTriangle_PQR",
-      "file": "upload_5.png",
+      "file": "2016_Q24.png",
       "description": "Vector triangle diagram with vectors P (vertical), Q (lower slant), and R (upper slant) forming a closed shape. Used in Question 24."
     }
   ],
@@ -40,10 +40,22 @@
       "id": 1,
       "question": "What is the least possible error encountered when taking measurement with a meter rule?",
       "options": [
-        { "id": "A", "text": "0.5 mm" },
-        { "id": "B", "text": "1.0 mm" },
-        { "id": "C", "text": "0.2 mm" },
-        { "id": "D", "text": "0.1 mm" }
+        {
+          "id": "A",
+          "text": "0.5 mm"
+        },
+        {
+          "id": "B",
+          "text": "1.0 mm"
+        },
+        {
+          "id": "C",
+          "text": "0.2 mm"
+        },
+        {
+          "id": "D",
+          "text": "0.1 mm"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "A metre rule has a smallest division of 1 mm. The least possible reading error is half the smallest division: \\(\\pm 0.5\\,\\text{mm}\\)."
@@ -53,10 +65,22 @@
       "instruction": "Use the transformer diagram (figure Phy2016_Q2_Transformer).",
       "question": "The electromotive force in the secondary winding is",
       "options": [
-        { "id": "A", "text": "stabilizing" },
-        { "id": "B", "text": "reducing" },
-        { "id": "C", "text": "increasing" },
-        { "id": "D", "text": "varying" }
+        {
+          "id": "A",
+          "text": "stabilizing"
+        },
+        {
+          "id": "B",
+          "text": "reducing"
+        },
+        {
+          "id": "C",
+          "text": "increasing"
+        },
+        {
+          "id": "D",
+          "text": "varying"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2016_Q2_Transformer",
@@ -66,10 +90,22 @@
       "id": 3,
       "question": "If a pump is capable of lifting 5000 kg of water through a vertical height of 60 in 15 mins, the power of the pump is",
       "options": [
-        { "id": "A", "text": "\\(3.3\\times 10^{3}\\,J s^{-1}\\)" },
-        { "id": "B", "text": "\\(2.5\\times 10^{4}\\,J s^{-1}\\)" },
-        { "id": "C", "text": "\\(2.5\\times 10^{5}\\,J s^{-1}\\)" },
-        { "id": "D", "text": "\\(3.3\\times 10^{2}\\,J s^{-1}\\)" }
+        {
+          "id": "A",
+          "text": "\\(3.3\\times 10^{3}\\,J s^{-1}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(2.5\\times 10^{4}\\,J s^{-1}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(2.5\\times 10^{5}\\,J s^{-1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(3.3\\times 10^{2}\\,J s^{-1}\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Work done \\(W=mgh\\). Taking \\(g\\approx 10\\,m s^{-2}\\): \\(W=5000\\times 10\\times 60=3.0\\times 10^6\\,J\\). Time \\(t=15\\,min=900\\,s\\). Power \\(P=W/t=\\frac{3.0\\times 10^6}{900}=3.33\\times 10^3\\,W\\approx 3.3\\times 10^3\\,J s^{-1}\\)."
@@ -78,10 +114,22 @@
       "id": 4,
       "question": "Calculate the temperature change when 500 J of heat is supplied to 100 g of water.",
       "options": [
-        { "id": "A", "text": "12.1°C" },
-        { "id": "B", "text": "2.1°C" },
-        { "id": "C", "text": "1.2°C" },
-        { "id": "D", "text": "0.1°C" }
+        {
+          "id": "A",
+          "text": "12.1°C"
+        },
+        {
+          "id": "B",
+          "text": "2.1°C"
+        },
+        {
+          "id": "C",
+          "text": "1.2°C"
+        },
+        {
+          "id": "D",
+          "text": "0.1°C"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Using \\(\\Delta T=\\frac{Q}{mc}\\) with \\(m=0.1\\,kg\\), \\(c=4200\\,J kg^{-1}K^{-1}\\): \\(\\Delta T=\\frac{500}{0.1\\times 4200}=1.19\\,K\\approx 1.2^{\\circ}C\\)."
@@ -90,10 +138,22 @@
       "id": 5,
       "question": "Which of the following particles CANNOT be deflected by both electric and magnetic fields?",
       "options": [
-        { "id": "A", "text": "Gamma rays" },
-        { "id": "B", "text": "Alpha particles" },
-        { "id": "C", "text": "Wave particles" },
-        { "id": "D", "text": "Beta particles" }
+        {
+          "id": "A",
+          "text": "Gamma rays"
+        },
+        {
+          "id": "B",
+          "text": "Alpha particles"
+        },
+        {
+          "id": "C",
+          "text": "Wave particles"
+        },
+        {
+          "id": "D",
+          "text": "Beta particles"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Gamma rays are uncharged electromagnetic radiation, so they are not deflected by electric or magnetic fields."
@@ -102,10 +162,22 @@
       "id": 6,
       "question": "Under which of the following conditions do gasses conduct electricity?",
       "options": [
-        { "id": "A", "text": "High pressure and low p.d" },
-        { "id": "B", "text": "Low pressure and high p.d" },
-        { "id": "C", "text": "Low pressure and low p.d" },
-        { "id": "D", "text": "High pressure and high p.d" }
+        {
+          "id": "A",
+          "text": "High pressure and low p.d"
+        },
+        {
+          "id": "B",
+          "text": "Low pressure and high p.d"
+        },
+        {
+          "id": "C",
+          "text": "Low pressure and low p.d"
+        },
+        {
+          "id": "D",
+          "text": "High pressure and high p.d"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Gas conduction requires ionization, which is achieved most readily at low pressure with sufficiently high potential difference."
@@ -114,10 +186,22 @@
       "id": 7,
       "question": "Dispersion occurs when white light passes through a glass prism because of the",
       "options": [
-        { "id": "A", "text": "defects in the glass" },
-        { "id": "B", "text": "high density of the glass" },
-        { "id": "C", "text": "different speeds of the colour in the glass" },
-        { "id": "D", "text": "different hidden colours in the glass" }
+        {
+          "id": "A",
+          "text": "defects in the glass"
+        },
+        {
+          "id": "B",
+          "text": "high density of the glass"
+        },
+        {
+          "id": "C",
+          "text": "different speeds of the colour in the glass"
+        },
+        {
+          "id": "D",
+          "text": "different hidden colours in the glass"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Different wavelengths travel at different speeds (different refractive indices) in glass, causing different refractions and hence dispersion."
@@ -127,23 +211,48 @@
       "instruction": "Use the circuit diagram (figure Phy2016_Q8_Circuit_3ohm_6ohm_4A).",
       "question": "Calculate the e.m.f of the cell in the above circuit if its internal resistance is negligible.",
       "options": [
-        { "id": "A", "text": "12 V" },
-        { "id": "B", "text": "36 V" },
-        { "id": "C", "text": "2 V" },
-        { "id": "D", "text": "8 V" }
+        {
+          "id": "A",
+          "text": "12 V"
+        },
+        {
+          "id": "B",
+          "text": "36 V"
+        },
+        {
+          "id": "C",
+          "text": "2 V"
+        },
+        {
+          "id": "D",
+          "text": "8 V"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2016_Q8_Circuit_3ohm_6ohm_4A",
-      "explanation": "The 3Ω and 6Ω resistors are in parallel: \\(\\frac{1}{R_{eq}}=\\frac{1}{3}+\\frac{1}{6}=\\frac{1}{2}\\Rightarrow R_{eq}=2\\,\\Omega\\). Total current is 4.0 A, so \\(E=IR_{eq}=4\\times 2=8\\,V\\)."
+      "explanation": "The 3Ω and 6Ω resistors are in parallel: \\(\\frac{1}{R_{eq}}=\\frac{1}{3}+\\frac{1}{6}=\\frac{1}{2}\\Rightarrow R_{eq}=2\\,\\Omega\\). Total current is 4.0 A, so \\(E=IR_{eq}=4\\times 2=8\\,V\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2016_Q8.png"
     },
     {
       "id": 9,
       "question": "An object of mass 80 kg is pulled on a horizontal rough ground by a force of 500 N. Find the coefficient of static friction. [\\(g\\approx 10\\,m s^{-2}\\)]",
       "options": [
-        { "id": "A", "text": "0.6" },
-        { "id": "B", "text": "0.4" },
-        { "id": "C", "text": "1.0" },
-        { "id": "D", "text": "0.8" }
+        {
+          "id": "A",
+          "text": "0.6"
+        },
+        {
+          "id": "B",
+          "text": "0.4"
+        },
+        {
+          "id": "C",
+          "text": "1.0"
+        },
+        {
+          "id": "D",
+          "text": "0.8"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "At limiting equilibrium, frictional force \\(F_f = \\mu_s N\\). On a horizontal surface, \\(N=mg=80\\times 10=800\\,N\\). If the pulling force is just balanced by maximum static friction, \\(500=\\mu_s\\times 800\\Rightarrow \\mu_s=\\frac{500}{800}=0.625\\). This is closest to 0.6 (A), not 0.4. Since only one answer is expected but no option equals 0.625, the nearest option is A."
@@ -153,23 +262,48 @@
       "instruction": "Use the diagram (figure Phy2016_Q10_Plank_Pivot_O).",
       "question": "The diagram above shows plank RS pivoted at its centre of gravity O and is in equilibrium with the weights P and Q. If a weight 2P is added to P, the plank will be in equilibrium again by",
       "options": [
-        { "id": "A", "text": "moving P nearer to O" },
-        { "id": "B", "text": "moving Q nearer to O" },
-        { "id": "C", "text": "adding a weight Q to Q" },
-        { "id": "D", "text": "moving P further away from O" }
+        {
+          "id": "A",
+          "text": "moving P nearer to O"
+        },
+        {
+          "id": "B",
+          "text": "moving Q nearer to O"
+        },
+        {
+          "id": "C",
+          "text": "adding a weight Q to Q"
+        },
+        {
+          "id": "D",
+          "text": "moving P further away from O"
+        }
       ],
       "correctAnswer": "A",
       "figureId": "Phy2016_Q10_Plank_Pivot_O",
-      "explanation": "Initial equilibrium implies moments about O balance: \\(P d_P = Q d_Q\\). Adding 2P makes left moment larger; to restore balance, reduce the left moment by reducing its lever arm, i.e., move P nearer to O."
+      "explanation": "Initial equilibrium implies moments about O balance: \\(P d_P = Q d_Q\\). Adding 2P makes left moment larger; to restore balance, reduce the left moment by reducing its lever arm, i.e., move P nearer to O.",
+      "imagePath": "src/data/subjects/images/physics_images/2016_Q10.png"
     },
     {
       "id": 11,
       "question": "A glass plate 0.9 cm thick has a refractive index of 1.50. How long does it take for a pulse of light to pass through the plate? [\\(c=3.0\\times 10^8\\,m s^{-1}\\)]",
       "options": [
-        { "id": "A", "text": "\\(3.0\\times 10^{-10}\\,s\\)" },
-        { "id": "B", "text": "\\(4.5\\times 10^{-11}\\,s\\)" },
-        { "id": "C", "text": "\\(3.0\\times 10^{-11}\\,s\\)" },
-        { "id": "D", "text": "\\(4.5\\times 10^{-10}\\,s\\)" }
+        {
+          "id": "A",
+          "text": "\\(3.0\\times 10^{-10}\\,s\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(4.5\\times 10^{-11}\\,s\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(3.0\\times 10^{-11}\\,s\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(4.5\\times 10^{-10}\\,s\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Speed in glass \\(v=\\frac{c}{n}=\\frac{3.0\\times 10^8}{1.5}=2.0\\times 10^8\\,m s^{-1}\\). Thickness \\(d=0.9\\,cm=9.0\\times 10^{-3}\\,m\\). Time \\(t=\\frac{d}{v}=\\frac{9.0\\times 10^{-3}}{2.0\\times 10^8}=4.5\\times 10^{-11}\\,s\\). This matches option B, not A."
@@ -178,10 +312,22 @@
       "id": 12,
       "question": "The main purpose of the transformer in an a.c radio set is to",
       "options": [
-        { "id": "A", "text": "increase power to the radio" },
-        { "id": "B", "text": "convert energy from a.c. to d.c" },
-        { "id": "C", "text": "step up the voltage" },
-        { "id": "D", "text": "step down the voltage" }
+        {
+          "id": "A",
+          "text": "increase power to the radio"
+        },
+        {
+          "id": "B",
+          "text": "convert energy from a.c. to d.c"
+        },
+        {
+          "id": "C",
+          "text": "step up the voltage"
+        },
+        {
+          "id": "D",
+          "text": "step down the voltage"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "In an a.c. radio set, the transformer is used to reduce the mains voltage to a lower value suitable for the circuit."
@@ -190,10 +336,22 @@
       "id": 13,
       "question": "The energy associated with the emitted photon when a mercury atom changes from one state to another is 3.3 eV. Calculate the frequency of the photon.",
       "options": [
-        { "id": "A", "text": "\\(3.2\\times 10^{-53}\\,Hz\\)" },
-        { "id": "B", "text": "\\(3.1\\times 10^{-53}\\,Hz\\)" },
-        { "id": "C", "text": "\\(1.3\\times 10^{-53}\\,Hz\\)" },
-        { "id": "D", "text": "\\(8.0\\times 10^{-53}\\,Hz\\)" }
+        {
+          "id": "A",
+          "text": "\\(3.2\\times 10^{-53}\\,Hz\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(3.1\\times 10^{-53}\\,Hz\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(1.3\\times 10^{-53}\\,Hz\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(8.0\\times 10^{-53}\\,Hz\\)"
+        }
       ],
       "correctAnswer": null,
       "explanation": "Convert energy: \\(E=3.3\\,eV=3.3\\times 1.6\\times 10^{-19}=5.28\\times 10^{-19}\\,J\\). Frequency \\(f=\\frac{E}{h}=\\frac{5.28\\times 10^{-19}}{6.63\\times 10^{-34}}\\approx 7.96\\times 10^{14}\\,Hz\\). The provided options are of order \\(10^{-53}\\,Hz\\), which is inconsistent; therefore none matches."
@@ -202,10 +360,22 @@
       "id": 14,
       "question": "\\(^{235}_{92}U + ^{1}_{0}n \\rightarrow ^{144}_{56}Ba + ^{90}_{36}Kr + 2X\\). In the reaction above, X is",
       "options": [
-        { "id": "A", "text": "electron" },
-        { "id": "B", "text": "neutron" },
-        { "id": "C", "text": "neutrino" },
-        { "id": "D", "text": "proton" }
+        {
+          "id": "A",
+          "text": "electron"
+        },
+        {
+          "id": "B",
+          "text": "neutron"
+        },
+        {
+          "id": "C",
+          "text": "neutrino"
+        },
+        {
+          "id": "D",
+          "text": "proton"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Conserve mass number: left \\(235+1=236\\). Right \\(144+90=234\\), so 2 units missing → two neutrons, hence \\(X\\) is a neutron."
@@ -214,10 +384,22 @@
       "id": 15,
       "question": "To protect a material from the influence of an external magnetic field, the material should be kept in a",
       "options": [
-        { "id": "A", "text": "soft iron ring" },
-        { "id": "B", "text": "loop of copper wire" },
-        { "id": "C", "text": "triangular zinc ring" },
-        { "id": "D", "text": "square steel ring" }
+        {
+          "id": "A",
+          "text": "soft iron ring"
+        },
+        {
+          "id": "B",
+          "text": "loop of copper wire"
+        },
+        {
+          "id": "C",
+          "text": "triangular zinc ring"
+        },
+        {
+          "id": "D",
+          "text": "square steel ring"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Soft iron provides magnetic shielding by offering a low-reluctance path for magnetic field lines."
@@ -227,23 +409,48 @@
       "instruction": "Use the diagram (figure Phy2016_Q16_Refraction_Block).",
       "question": "The refractive index of the medium M in the diagram above is",
       "options": [
-        { "id": "A", "text": "\\(\\frac{2}{\\sqrt{3}}\\)" },
-        { "id": "B", "text": "\\(\\sqrt{3}\\)" },
-        { "id": "C", "text": "\\(\\frac{1}{\\sqrt{3}}\\)" },
-        { "id": "D", "text": "\\(\\sqrt[3]{3}\\)" }
+        {
+          "id": "A",
+          "text": "\\(\\frac{2}{\\sqrt{3}}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\sqrt{3}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(\\frac{1}{\\sqrt{3}}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\sqrt[3]{3}\\)"
+        }
       ],
       "correctAnswer": "A",
       "figureId": "Phy2016_Q16_Refraction_Block",
-      "explanation": "From the diagram, the angle to the normal in air is 60° and in medium M is 30°. Using Snell’s law with air \\(n\\approx 1\\): \\(n_M = \\frac{\\sin 60^\\circ}{\\sin 30^\\circ}=\\frac{\\sqrt{3}/2}{1/2}=\\sqrt{3}\\). That would be option B, but the diagram labels are ambiguous (both 60° markings are visible). If instead the refracted angle is 60° in M and incident is 30° in air, then \\(n_M=\\frac{\\sin 30^\\circ}{\\sin 60^\\circ}=\\frac{1/2}{\\sqrt{3}/2}=\\frac{1}{\\sqrt{3}}\\) (option C). Because the angle labels are not unambiguous in the upload, a unique choice cannot be made."
+      "explanation": "From the diagram, the angle to the normal in air is 60° and in medium M is 30°. Using Snell’s law with air \\(n\\approx 1\\): \\(n_M = \\frac{\\sin 60^\\circ}{\\sin 30^\\circ}=\\frac{\\sqrt{3}/2}{1/2}=\\sqrt{3}\\). That would be option B, but the diagram labels are ambiguous (both 60° markings are visible). If instead the refracted angle is 60° in M and incident is 30° in air, then \\(n_M=\\frac{\\sin 30^\\circ}{\\sin 60^\\circ}=\\frac{1/2}{\\sqrt{3}/2}=\\frac{1}{\\sqrt{3}}\\) (option C). Because the angle labels are not unambiguous in the upload, a unique choice cannot be made.",
+      "imagePath": "src/data/subjects/images/physics_images/2016_Q16.png"
     },
     {
       "id": 17,
       "question": "Thermal equilibrium between two objects exists when",
       "options": [
-        { "id": "A", "text": "the heat capacities of both objects are the same" },
-        { "id": "B", "text": "the quantity of heat in both objects are the same" },
-        { "id": "C", "text": "the temperature of both objects are equal" },
-        { "id": "D", "text": "one object loses heat continuously to the other" }
+        {
+          "id": "A",
+          "text": "the heat capacities of both objects are the same"
+        },
+        {
+          "id": "B",
+          "text": "the quantity of heat in both objects are the same"
+        },
+        {
+          "id": "C",
+          "text": "the temperature of both objects are equal"
+        },
+        {
+          "id": "D",
+          "text": "one object loses heat continuously to the other"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Thermal equilibrium means no net heat flow, which occurs when both objects have the same temperature."
@@ -252,10 +459,22 @@
       "id": 18,
       "question": "Which of the following is a characteristic of stationary waves?",
       "options": [
-        { "id": "A", "text": "The antinode is a point of minimum displacement." },
-        { "id": "B", "text": "The distance between two successive nodes is one wavelength." },
-        { "id": "C", "text": "They can be transverse or longitudinal" },
-        { "id": "D", "text": "They are formed by two identical waves travelling in opposite directions." }
+        {
+          "id": "A",
+          "text": "The antinode is a point of minimum displacement."
+        },
+        {
+          "id": "B",
+          "text": "The distance between two successive nodes is one wavelength."
+        },
+        {
+          "id": "C",
+          "text": "They can be transverse or longitudinal"
+        },
+        {
+          "id": "D",
+          "text": "They are formed by two identical waves travelling in opposite directions."
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Stationary waves are produced by superposition of two waves of equal frequency and amplitude travelling in opposite directions."
@@ -264,10 +483,22 @@
       "id": 19,
       "question": "The height at which the atmosphere ceases to exist is about 80 km. If the atmospheric pressure at a height of 20 km above the ground level is",
       "options": [
-        { "id": "A", "text": "480 mmHg" },
-        { "id": "B", "text": "570 mmHg" },
-        { "id": "C", "text": "190 mmHg" },
-        { "id": "D", "text": "380 mmHg" }
+        {
+          "id": "A",
+          "text": "480 mmHg"
+        },
+        {
+          "id": "B",
+          "text": "570 mmHg"
+        },
+        {
+          "id": "C",
+          "text": "190 mmHg"
+        },
+        {
+          "id": "D",
+          "text": "380 mmHg"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The question is incomplete in the provided image: it gives a reference height (80 km) but does not provide the model/relationship needed (e.g., linear decrease assumption, sea-level pressure value) to compute pressure at 20 km unambiguously."
@@ -276,10 +507,22 @@
       "id": 20,
       "question": "A metal of mass 0.5 kg is heated to 100°C and then transferred to a well-lagged calorimeter of heat capacity 80 J K^-1 containing water of heat capacity ... The heat capacity of the metal is",
       "options": [
-        { "id": "A", "text": "92 J kg^-1" },
-        { "id": "B", "text": "286 J kg^-1 K^-1" },
-        { "id": "C", "text": "133 J kg^-1 K^-1" },
-        { "id": "D", "text": "887 J kg^-1 K^-1" }
+        {
+          "id": "A",
+          "text": "92 J kg^-1"
+        },
+        {
+          "id": "B",
+          "text": "286 J kg^-1 K^-1"
+        },
+        {
+          "id": "C",
+          "text": "133 J kg^-1 K^-1"
+        },
+        {
+          "id": "D",
+          "text": "887 J kg^-1 K^-1"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The question statement is cut off in the image (missing the water heat capacity value and likely initial/final temperatures), so the metal’s specific heat capacity cannot be determined."
@@ -289,23 +532,48 @@
       "instruction": "Use the series a.c. circuit diagram (figure Phy2016_Q21_AC_RL_VectorDiagram).",
       "question": "In the series a.c circuit shown below, the p.d across the inductor is 8 V r.m.s. The effective voltage is",
       "options": [
-        { "id": "A", "text": "10 V" },
-        { "id": "B", "text": "2 V" },
-        { "id": "C", "text": "14 V" },
-        { "id": "D", "text": "48 V" }
+        {
+          "id": "A",
+          "text": "10 V"
+        },
+        {
+          "id": "B",
+          "text": "2 V"
+        },
+        {
+          "id": "C",
+          "text": "14 V"
+        },
+        {
+          "id": "D",
+          "text": "48 V"
+        }
       ],
       "correctAnswer": "A",
       "figureId": "Phy2016_Q21_AC_RL_VectorDiagram",
-      "explanation": "From the diagram, \\(V_L=8\\,V\\) and \\(V_R=6\\,V\\). In a series RL circuit, \\(V=\\sqrt{V_R^2+V_L^2}=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\,V\\)."
+      "explanation": "From the diagram, \\(V_L=8\\,V\\) and \\(V_R=6\\,V\\). In a series RL circuit, \\(V=\\sqrt{V_R^2+V_L^2}=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\,V\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2016_Q21.png"
     },
     {
       "id": 22,
       "question": "In a closed organ pipe producing a musical note, an antinode will always be produced at",
       "options": [
-        { "id": "A", "text": "the closed end" },
-        { "id": "B", "text": "the middle" },
-        { "id": "C", "text": "the open end" },
-        { "id": "D", "text": "all the parts of between the ends of the pipe" }
+        {
+          "id": "A",
+          "text": "the closed end"
+        },
+        {
+          "id": "B",
+          "text": "the middle"
+        },
+        {
+          "id": "C",
+          "text": "the open end"
+        },
+        {
+          "id": "D",
+          "text": "all the parts of between the ends of the pipe"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "In a closed pipe, the closed end is a displacement node and the open end is a displacement antinode."
@@ -339,23 +607,48 @@
       "instruction": "Use the vector diagram (figure Phy2016_Q24_VectorTriangle_PQR).",
       "question": "In the diagram above, P, Q and R are vectors. Which of the following options gives the correct relationship between the vectors?",
       "options": [
-        { "id": "A", "text": "P = Q + R" },
-        { "id": "B", "text": "P = Q − R" },
-        { "id": "C", "text": "P = R − Q" },
-        { "id": "D", "text": "P + Q + R = 0" }
+        {
+          "id": "A",
+          "text": "P = Q + R"
+        },
+        {
+          "id": "B",
+          "text": "P = Q − R"
+        },
+        {
+          "id": "C",
+          "text": "P = R − Q"
+        },
+        {
+          "id": "D",
+          "text": "P + Q + R = 0"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2016_Q24_VectorTriangle_PQR",
-      "explanation": "The vectors are arranged head-to-tail in a closed triangle, so their vector sum is zero: \\(\\vec P+\\vec Q+\\vec R=0\\)."
+      "explanation": "The vectors are arranged head-to-tail in a closed triangle, so their vector sum is zero: \\(\\vec P+\\vec Q+\\vec R=0\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2016_Q24.png"
     },
     {
       "id": 25,
       "question": "If two parallel conductors carry currents flowing in the same direction, the conductors will",
       "options": [
-        { "id": "A", "text": "repel each other" },
-        { "id": "B", "text": "attract each other" },
-        { "id": "C", "text": "both move in the same direction" },
-        { "id": "D", "text": "have no effect on each other" }
+        {
+          "id": "A",
+          "text": "repel each other"
+        },
+        {
+          "id": "B",
+          "text": "attract each other"
+        },
+        {
+          "id": "C",
+          "text": "both move in the same direction"
+        },
+        {
+          "id": "D",
+          "text": "have no effect on each other"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Parallel currents in the same direction attract due to the magnetic force between the conductors."
@@ -364,10 +657,22 @@
       "id": 26,
       "question": "Which of the following correctly explain(s) why a green leaf appears green in a bright daylight?\nI. It absorbs only the green component of sunlight\nII. It absorbs all colours in sunlight except green\nIII. It reflects only the green component of sunlight",
       "options": [
-        { "id": "A", "text": "I only" },
-        { "id": "B", "text": "II and III only" },
-        { "id": "C", "text": "I and II only" },
-        { "id": "D", "text": "II only" }
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "II and III only"
+        },
+        {
+          "id": "C",
+          "text": "I and II only"
+        },
+        {
+          "id": "D",
+          "text": "II only"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "A leaf appears green because it reflects green light and absorbs most other colours; thus II and III are correct, I is false."
@@ -376,10 +681,22 @@
       "id": 27,
       "question": "Which of the following factors has no effect on the e.m.f of a primary cell?",
       "options": [
-        { "id": "A", "text": "nature of plate" },
-        { "id": "B", "text": "size of the cell" },
-        { "id": "C", "text": "temperature" },
-        { "id": "D", "text": "nature of the electrolyte" }
+        {
+          "id": "A",
+          "text": "nature of plate"
+        },
+        {
+          "id": "B",
+          "text": "size of the cell"
+        },
+        {
+          "id": "C",
+          "text": "temperature"
+        },
+        {
+          "id": "D",
+          "text": "nature of the electrolyte"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Cell emf depends on electrode materials, electrolyte, and temperature, but not on the physical size of the cell (size affects internal resistance/capacity)."
@@ -388,10 +705,22 @@
       "id": 28,
       "question": "When the bottom tip of a vibrating tuning fork is held in contact with a wooden box, a louder sound is heard. This phenomenon is known as",
       "options": [
-        { "id": "A", "text": "beats" },
-        { "id": "B", "text": "echoing" },
-        { "id": "C", "text": "reverberation" },
-        { "id": "D", "text": "resonance" }
+        {
+          "id": "A",
+          "text": "beats"
+        },
+        {
+          "id": "B",
+          "text": "echoing"
+        },
+        {
+          "id": "C",
+          "text": "reverberation"
+        },
+        {
+          "id": "D",
+          "text": "resonance"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "The box resonates with the tuning fork frequency, increasing amplitude and loudness."
@@ -400,10 +729,22 @@
       "id": 29,
       "question": "A particle of mass M which at rest splits up into two. If the mass and the velocity of one of the particles are m and v respectively, calculate the velocity of the second particle",
       "options": [
-        { "id": "A", "text": "\\(\\frac{mv}{M}\\)" },
-        { "id": "B", "text": "\\(\\frac{mv}{M-m}\\)" },
-        { "id": "C", "text": "\\(\\frac{mv}{M+m}\\)" },
-        { "id": "D", "text": "\\(\\frac{mv}{M-m}\\)" }
+        {
+          "id": "A",
+          "text": "\\(\\frac{mv}{M}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\frac{mv}{M-m}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(\\frac{mv}{M+m}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\frac{mv}{M-m}\\)"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Initial momentum is zero. After splitting, momenta are equal and opposite: \\(mv = (M-m)u\\). So \\(u=\\frac{mv}{M-m}\\)."
@@ -412,10 +753,22 @@
       "id": 30,
       "question": "The electrochemical equivalent of silver is 0.0012 g/C. If 36.0 g of silver is to be deposited by electrolysis on a surface by passing a steady current for 5.0 minutes, the current must be",
       "options": [
-        { "id": "A", "text": "6000 A" },
-        { "id": "B", "text": "100 A" },
-        { "id": "C", "text": "10 A" },
-        { "id": "D", "text": "1.0 A" }
+        {
+          "id": "A",
+          "text": "6000 A"
+        },
+        {
+          "id": "B",
+          "text": "100 A"
+        },
+        {
+          "id": "C",
+          "text": "10 A"
+        },
+        {
+          "id": "D",
+          "text": "1.0 A"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Use \\(m=zIt\\). Given \\(m=36.0\\,g\\), \\(z=0.0012\\,g/C\\), \\(t=5.0\\,min=300\\,s\\). \\(I=\\frac{m}{zt}=\\frac{36.0}{0.0012\\times 300}=\\frac{36.0}{0.36}=100\\,A\\)."
@@ -424,10 +777,22 @@
       "id": 31,
       "question": "The principle of operation of an induction coil is based on __",
       "options": [
-        { "id": "A", "text": "Ohm’s" },
-        { "id": "B", "text": "ampere’s law" },
-        { "id": "C", "text": "faraday’s law" },
-        { "id": "D", "text": "coulomb’s law" }
+        {
+          "id": "A",
+          "text": "Ohm’s"
+        },
+        {
+          "id": "B",
+          "text": "ampere’s law"
+        },
+        {
+          "id": "C",
+          "text": "faraday’s law"
+        },
+        {
+          "id": "D",
+          "text": "coulomb’s law"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Induction coils work by electromagnetic induction (Faraday’s law)."
@@ -436,10 +801,22 @@
       "id": 32,
       "question": "A radioactive sample initially contains N atoms. After three half-lives the number of atoms that have disintegrated is",
       "options": [
-        { "id": "A", "text": "\\(\\frac{7N}{8}\\)" },
-        { "id": "B", "text": "\\(\\frac{3N}{8}\\)" },
-        { "id": "C", "text": "\\(\\frac{5N}{8}\\)" },
-        { "id": "D", "text": "\\(\\frac{N}{8}\\)" }
+        {
+          "id": "A",
+          "text": "\\(\\frac{7N}{8}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\frac{3N}{8}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(\\frac{5N}{8}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\frac{N}{8}\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Remaining after 3 half-lives: \\(N\\left(\\tfrac{1}{2}\\right)^3=\\tfrac{N}{8}\\). Disintegrated: \\(N-\\tfrac{N}{8}=\\tfrac{7N}{8}\\)."
@@ -448,10 +825,22 @@
       "id": 33,
       "question": "Mercury is suitable as a barometric fluid because it",
       "options": [
-        { "id": "A", "text": "expands uniformly" },
-        { "id": "B", "text": "is several times denser than water" },
-        { "id": "C", "text": "is opaque" },
-        { "id": "D", "text": "is a good conductor of heat" }
+        {
+          "id": "A",
+          "text": "expands uniformly"
+        },
+        {
+          "id": "B",
+          "text": "is several times denser than water"
+        },
+        {
+          "id": "C",
+          "text": "is opaque"
+        },
+        {
+          "id": "D",
+          "text": "is a good conductor of heat"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "High density makes the barometer column short and practical."
@@ -460,7 +849,10 @@
       "id": 34,
       "question": "Which of the following features is NOT a characteristic of natural radioactivity?",
       "options": [
-        { "id": "A", "text": "radioactivity is a nuclear phenomenon" },
+        {
+          "id": "A",
+          "text": "radioactivity is a nuclear phenomenon"
+        },
         {
           "id": "B",
           "text": "radioactivity is exhibited only by the element of mass number greater than 206"
@@ -485,8 +877,14 @@
           "id": "A",
           "text": "Reluctance to start moving at rest and its reluctance to stop moving once it has begun move"
         },
-        { "id": "B", "text": "Reluctance to stop moving" },
-        { "id": "C", "text": "Readiness to start moving" },
+        {
+          "id": "B",
+          "text": "Reluctance to stop moving"
+        },
+        {
+          "id": "C",
+          "text": "Readiness to start moving"
+        },
         {
           "id": "D",
           "text": "Reluctance to start moving and its readiness to stop moving once it has begun to move"
@@ -499,10 +897,22 @@
       "id": 36,
       "question": "If the force on a charge of 0.2 coulomb in an electric field intensity the field is",
       "options": [
-        { "id": "A", "text": "0.8" },
-        { "id": "B", "text": "20.0 N/C" },
-        { "id": "C", "text": "0.8 N/C" },
-        { "id": "D", "text": "4.2 N/C" }
+        {
+          "id": "A",
+          "text": "0.8"
+        },
+        {
+          "id": "B",
+          "text": "20.0 N/C"
+        },
+        {
+          "id": "C",
+          "text": "0.8 N/C"
+        },
+        {
+          "id": "D",
+          "text": "4.2 N/C"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The question statement is incomplete in the image (missing the force value), so the field intensity cannot be calculated."
@@ -511,10 +921,22 @@
       "id": 37,
       "question": "The point beyond which a stretched spring does not return to its original length is called the",
       "options": [
-        { "id": "A", "text": "breaking point" },
-        { "id": "B", "text": "spring constant" },
-        { "id": "C", "text": "elastic limit" },
-        { "id": "D", "text": "elasticity point" }
+        {
+          "id": "A",
+          "text": "breaking point"
+        },
+        {
+          "id": "B",
+          "text": "spring constant"
+        },
+        {
+          "id": "C",
+          "text": "elastic limit"
+        },
+        {
+          "id": "D",
+          "text": "elasticity point"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Beyond the elastic limit, deformation becomes permanent and the spring does not return to original length."
@@ -523,10 +945,22 @@
       "id": 38,
       "question": "Which of the following statements is applicable to a real image formed by a concave mirror?\nI. It can be observed on a screen\nII. It is always inverted and in front of the mirror\nIII. It only seems to exist\nIV. It is formed by the actual converging of rays of light",
       "options": [
-        { "id": "A", "text": "I, II and III only" },
-        { "id": "B", "text": "I, II and IV only" },
-        { "id": "C", "text": "I and III only" },
-        { "id": "D", "text": "I and II only" }
+        {
+          "id": "A",
+          "text": "I, II and III only"
+        },
+        {
+          "id": "B",
+          "text": "I, II and IV only"
+        },
+        {
+          "id": "C",
+          "text": "I and III only"
+        },
+        {
+          "id": "D",
+          "text": "I and II only"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "A real image can be formed on a screen (I), is inverted and in front of the mirror (II), and results from actual convergence of rays (IV). III describes virtual images."
@@ -535,10 +969,22 @@
       "id": 39,
       "question": "Which of the following does not cause a reduction of the surface tension of water?",
       "options": [
-        { "id": "A", "text": "soap solution" },
-        { "id": "B", "text": "detergent" },
-        { "id": "C", "text": "alcohol" },
-        { "id": "D", "text": "grease" }
+        {
+          "id": "A",
+          "text": "soap solution"
+        },
+        {
+          "id": "B",
+          "text": "detergent"
+        },
+        {
+          "id": "C",
+          "text": "alcohol"
+        },
+        {
+          "id": "D",
+          "text": "grease"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Soap, detergents, and alcohol reduce water surface tension. Grease does not act as a surfactant in water to reduce its surface tension."
@@ -547,10 +993,22 @@
       "id": 40,
       "question": "In what range of temperature is the expansion of water anomalous?",
       "options": [
-        { "id": "A", "text": "+208°C to +212°C" },
-        { "id": "B", "text": "-80°C to -76°C" },
-        { "id": "C", "text": "0°C to 4°C" },
-        { "id": "D", "text": "-4°C to 0°C" }
+        {
+          "id": "A",
+          "text": "+208°C to +212°C"
+        },
+        {
+          "id": "B",
+          "text": "-80°C to -76°C"
+        },
+        {
+          "id": "C",
+          "text": "0°C to 4°C"
+        },
+        {
+          "id": "D",
+          "text": "-4°C to 0°C"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Water shows anomalous expansion between 0°C and 4°C (it contracts when heated from 0°C to 4°C)."

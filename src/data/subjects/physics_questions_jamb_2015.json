@@ -21,12 +21,12 @@
     },
     {
       "id": "Phy2015_Q13_StandingWaves_TubeOptions",
-      "file": "upload_3.png",
+      "file": "2015_Q13.png",
       "description": "Four small diagrams (A–D) of standing wave patterns in tubes; used to select when tube length equals one wavelength."
     },
     {
       "id": "Phy2015_Q26_MaxMin_Thermometer",
-      "file": "upload_6.png",
+      "file": "2015_Q26.png",
       "description": "Diagram of a maximum and minimum thermometer with regions labeled P, Q, R and marks X and Y."
     },
     {
@@ -40,10 +40,22 @@
       "id": 1,
       "question": "A piece of rubber 10 cm long stretches 6 mm when a load of 100 N is hung from it. What is the strain?",
       "options": [
-        { "id": "A", "text": "\\(6\\times 10^{-3}\\)" },
-        { "id": "B", "text": "6" },
-        { "id": "C", "text": "60" },
-        { "id": "D", "text": "\\(6.0\\times 10^{-3}\\)" }
+        {
+          "id": "A",
+          "text": "\\(6\\times 10^{-3}\\)"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "60"
+        },
+        {
+          "id": "D",
+          "text": "\\(6.0\\times 10^{-3}\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Strain \\(=\\frac{\\Delta L}{L}=\\frac{6\\,\\text{mm}}{10\\,\\text{cm}}=\\frac{0.6\\,\\text{cm}}{10\\,\\text{cm}}=0.06\\). The correct strain is 0.06, which is not among the options shown; the listed \\(6.0\\times 10^{-3}\\) equals 0.006. Therefore, there is a mismatch between the data and options in the image."
@@ -53,10 +65,22 @@
       "instruction": "Use the diagram (figure Phy2015_Fig1_LensArrangement).",
       "question": "The diagram above shows the lens arrangement in",
       "options": [
-        { "id": "A", "text": "a compound microscope" },
-        { "id": "B", "text": "a binocular" },
-        { "id": "C", "text": "an astronomical telescope" },
-        { "id": "D", "text": "a periscope" }
+        {
+          "id": "A",
+          "text": "a compound microscope"
+        },
+        {
+          "id": "B",
+          "text": "a binocular"
+        },
+        {
+          "id": "C",
+          "text": "an astronomical telescope"
+        },
+        {
+          "id": "D",
+          "text": "a periscope"
+        }
       ],
       "correctAnswer": "C",
       "figureId": "Phy2015_Fig1_LensArrangement",
@@ -66,10 +90,22 @@
       "id": 3,
       "question": "What is the total resistance in the below diagram?",
       "options": [
-        { "id": "A", "text": "5 ohms" },
-        { "id": "B", "text": "25 ohms" },
-        { "id": "C", "text": "15 ohms" },
-        { "id": "D", "text": "35 ohms" }
+        {
+          "id": "A",
+          "text": "5 ohms"
+        },
+        {
+          "id": "B",
+          "text": "25 ohms"
+        },
+        {
+          "id": "C",
+          "text": "15 ohms"
+        },
+        {
+          "id": "D",
+          "text": "35 ohms"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The resistor network diagram for Question 3 is not fully visible/legible in the provided image crop (only the answer options are visible alongside a partial sketch), so the total resistance cannot be computed from the upload."
@@ -79,10 +115,22 @@
       "instruction": "Use the diagram (figure Phy2015_Fig2_InclinedPlane_Forces).",
       "question": "A body of mass 6 kg rests on an inclined plane. The normal reaction R and the limiting frictional force is F as shown in the diagram (Fig. 2). If F is 30 N and g = 10 m s\\(^{-2}\\), then the angle of inclination θ is",
       "options": [
-        { "id": "A", "text": "15°" },
-        { "id": "B", "text": "60°" },
-        { "id": "C", "text": "45°" },
-        { "id": "D", "text": "30°" }
+        {
+          "id": "A",
+          "text": "15°"
+        },
+        {
+          "id": "B",
+          "text": "60°"
+        },
+        {
+          "id": "C",
+          "text": "45°"
+        },
+        {
+          "id": "D",
+          "text": "30°"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2015_Fig2_InclinedPlane_Forces",
@@ -92,10 +140,22 @@
       "id": 5,
       "question": "The speed of light in air is \\(3.0\\times 10^8\\,\\text{m s}^{-1}\\). Its speed in glass having index of refraction of 1.65 is",
       "options": [
-        { "id": "A", "text": "\\(1.82\\times 10^8\\,\\text{m s}^{-1}\\)" },
-        { "id": "B", "text": "\\(3.00\\times 10^8\\,\\text{m s}^{-1}\\)" },
-        { "id": "C", "text": "\\(4.95\\times 10^8\\,\\text{m s}^{-1}\\)" },
-        { "id": "D", "text": "\\(1.65\\times 10^8\\,\\text{m s}^{-1}\\)" }
+        {
+          "id": "A",
+          "text": "\\(1.82\\times 10^8\\,\\text{m s}^{-1}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(3.00\\times 10^8\\,\\text{m s}^{-1}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(4.95\\times 10^8\\,\\text{m s}^{-1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(1.65\\times 10^8\\,\\text{m s}^{-1}\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Refractive index \\(n=\\frac{c}{v}\\Rightarrow v=\\frac{c}{n}=\\frac{3.0\\times 10^8}{1.65}=1.818\\times 10^8\\,\\text{m s}^{-1}\\approx 1.82\\times 10^8\\,\\text{m s}^{-1}\\)."
@@ -104,10 +164,22 @@
       "id": 6,
       "question": "Longitudinal waves do not exhibit",
       "options": [
-        { "id": "A", "text": "refraction" },
-        { "id": "B", "text": "polarization" },
-        { "id": "C", "text": "diffraction" },
-        { "id": "D", "text": "reflection" }
+        {
+          "id": "A",
+          "text": "refraction"
+        },
+        {
+          "id": "B",
+          "text": "polarization"
+        },
+        {
+          "id": "C",
+          "text": "diffraction"
+        },
+        {
+          "id": "D",
+          "text": "reflection"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Polarization is a property of transverse waves; longitudinal waves cannot be polarized."
@@ -116,10 +188,22 @@
       "id": 7,
       "question": "A device that converts sound energy into electrical energy is",
       "options": [
-        { "id": "A", "text": "the horn of a motor car" },
-        { "id": "B", "text": "the telephone earpiece" },
-        { "id": "C", "text": "a loudspeaker" },
-        { "id": "D", "text": "a microphone" }
+        {
+          "id": "A",
+          "text": "the horn of a motor car"
+        },
+        {
+          "id": "B",
+          "text": "the telephone earpiece"
+        },
+        {
+          "id": "C",
+          "text": "a loudspeaker"
+        },
+        {
+          "id": "D",
+          "text": "a microphone"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "A microphone converts sound vibrations into electrical signals."
@@ -128,10 +212,22 @@
       "id": 8,
       "question": "A good calorimeter should be of",
       "options": [
-        { "id": "A", "text": "low specific heat capacity and low heat conductivity" },
-        { "id": "B", "text": "high specific heat capacity and low heat conductivity" },
-        { "id": "C", "text": "high specific heat capacity and low heat conductivity" },
-        { "id": "D", "text": "low specific heat capacity and high heat conductivity" }
+        {
+          "id": "A",
+          "text": "low specific heat capacity and low heat conductivity"
+        },
+        {
+          "id": "B",
+          "text": "high specific heat capacity and low heat conductivity"
+        },
+        {
+          "id": "C",
+          "text": "high specific heat capacity and low heat conductivity"
+        },
+        {
+          "id": "D",
+          "text": "low specific heat capacity and high heat conductivity"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "A calorimeter should absorb little heat itself (low heat capacity) and reduce heat exchange with surroundings (poor conductor)."
@@ -140,10 +236,22 @@
       "id": 9,
       "question": "Which of the following is most strongly deflected by a magnetic field?",
       "options": [
-        { "id": "A", "text": "β-particles" },
-        { "id": "B", "text": "γ-particles" },
-        { "id": "C", "text": "γ-rays" },
-        { "id": "D", "text": "x-rays" }
+        {
+          "id": "A",
+          "text": "β-particles"
+        },
+        {
+          "id": "B",
+          "text": "γ-particles"
+        },
+        {
+          "id": "C",
+          "text": "γ-rays"
+        },
+        {
+          "id": "D",
+          "text": "x-rays"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "β-particles are charged (electrons/positrons) with small mass, so they are strongly deflected. γ-rays and X-rays are uncharged electromagnetic waves and are not deflected."
@@ -152,10 +260,22 @@
       "id": 10,
       "question": "If a beaker is filled with water, it is observed that the surface of the water is not horizontal at the glass-water interface. This behaviour is due to",
       "options": [
-        { "id": "A", "text": "friction" },
-        { "id": "B", "text": "surface tension" },
-        { "id": "C", "text": "viscosity" },
-        { "id": "D", "text": "evaporation" }
+        {
+          "id": "A",
+          "text": "friction"
+        },
+        {
+          "id": "B",
+          "text": "surface tension"
+        },
+        {
+          "id": "C",
+          "text": "viscosity"
+        },
+        {
+          "id": "D",
+          "text": "evaporation"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "The curved meniscus results from surface tension and adhesion between water and glass."
@@ -164,10 +284,22 @@
       "id": 11,
       "question": "A dynamo primarily conducts",
       "options": [
-        { "id": "A", "text": "potential energy into kinetic energy" },
-        { "id": "B", "text": "electrical energy into kinetic energy" },
-        { "id": "C", "text": "mechanical energy into electrical energy" },
-        { "id": "D", "text": "kinetic energy into potential energy" }
+        {
+          "id": "A",
+          "text": "potential energy into kinetic energy"
+        },
+        {
+          "id": "B",
+          "text": "electrical energy into kinetic energy"
+        },
+        {
+          "id": "C",
+          "text": "mechanical energy into electrical energy"
+        },
+        {
+          "id": "D",
+          "text": "kinetic energy into potential energy"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "A dynamo (generator) converts mechanical energy to electrical energy by electromagnetic induction."
@@ -177,10 +309,22 @@
       "instruction": "Use the diagram (figure Phy2015_Fig3_ElectricField_Deflection).",
       "question": "A particle is injected perpendicularly into an electric field. It travels along a curved path as depicted in the figure 3. The particle is",
       "options": [
-        { "id": "A", "text": "a gamma ray" },
-        { "id": "B", "text": "a proton" },
-        { "id": "C", "text": "a neutron" },
-        { "id": "D", "text": "an electron" }
+        {
+          "id": "A",
+          "text": "a gamma ray"
+        },
+        {
+          "id": "B",
+          "text": "a proton"
+        },
+        {
+          "id": "C",
+          "text": "a neutron"
+        },
+        {
+          "id": "D",
+          "text": "an electron"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2015_Fig3_ElectricField_Deflection",
@@ -191,23 +335,48 @@
       "instruction": "Use the tube diagrams (figure Phy2015_Q13_StandingWaves_TubeOptions).",
       "question": "In which of the following diagrams is the length of the tube equal to one wavelength?",
       "options": [
-        { "id": "A", "text": "A" },
-        { "id": "B", "text": "B" },
-        { "id": "C", "text": "C" },
-        { "id": "D", "text": "D" }
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "B"
+        },
+        {
+          "id": "C",
+          "text": "C"
+        },
+        {
+          "id": "D",
+          "text": "D"
+        }
       ],
       "correctAnswer": "D",
       "figureId": "Phy2015_Q13_StandingWaves_TubeOptions",
-      "explanation": "A tube length equals one wavelength when the standing-wave pattern contains one complete cycle along the tube (two loops). Diagram D shows two loops filling the tube, corresponding to \\(L=\\lambda\\)."
+      "explanation": "A tube length equals one wavelength when the standing-wave pattern contains one complete cycle along the tube (two loops). Diagram D shows two loops filling the tube, corresponding to \\(L=\\lambda\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2015_Q13.png"
     },
     {
       "id": 14,
       "question": "A calibrated potentiometer is used to measure the e.m.f. of a cell because the",
       "options": [
-        { "id": "A", "text": "internal resistance of a cell is small compared with that of the potentiometer" },
-        { "id": "B", "text": "potentiometer takes no current from the cell" },
-        { "id": "C", "text": "potentiometer has a linear scale" },
-        { "id": "D", "text": "resistance of the potentiometer is less than that of a voltmeter" }
+        {
+          "id": "A",
+          "text": "internal resistance of a cell is small compared with that of the potentiometer"
+        },
+        {
+          "id": "B",
+          "text": "potentiometer takes no current from the cell"
+        },
+        {
+          "id": "C",
+          "text": "potentiometer has a linear scale"
+        },
+        {
+          "id": "D",
+          "text": "resistance of the potentiometer is less than that of a voltmeter"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "At balance point, a potentiometer measures emf without drawing current from the cell, avoiding internal resistance errors."
@@ -216,10 +385,22 @@
       "id": 15,
       "question": "Which of the following is a vector?",
       "options": [
-        { "id": "A", "text": "Electric charge" },
-        { "id": "B", "text": "Electric potential difference" },
-        { "id": "C", "text": "Electric field" },
-        { "id": "D", "text": "Electrical capacitance" }
+        {
+          "id": "A",
+          "text": "Electric charge"
+        },
+        {
+          "id": "B",
+          "text": "Electric potential difference"
+        },
+        {
+          "id": "C",
+          "text": "Electric field"
+        },
+        {
+          "id": "D",
+          "text": "Electrical capacitance"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Electric field has both magnitude and direction; the others are scalars."
@@ -228,10 +409,22 @@
       "id": 16,
       "question": "The photocell works on the principle of the",
       "options": [
-        { "id": "A", "text": "voltaic cell" },
-        { "id": "B", "text": "photographic plate" },
-        { "id": "C", "text": "emission of protons by incident electrons" },
-        { "id": "D", "text": "emission of electrons by incident radiation" }
+        {
+          "id": "A",
+          "text": "voltaic cell"
+        },
+        {
+          "id": "B",
+          "text": "photographic plate"
+        },
+        {
+          "id": "C",
+          "text": "emission of protons by incident electrons"
+        },
+        {
+          "id": "D",
+          "text": "emission of electrons by incident radiation"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "A photocell is based on the photoelectric effect: emission of electrons due to incident light."
@@ -240,10 +433,22 @@
       "id": 17,
       "question": "When an atom loses or gains a charge, it becomes",
       "options": [
-        { "id": "A", "text": "an ion" },
-        { "id": "B", "text": "an electron" },
-        { "id": "C", "text": "a neutron" },
-        { "id": "D", "text": "a proton" }
+        {
+          "id": "A",
+          "text": "an ion"
+        },
+        {
+          "id": "B",
+          "text": "an electron"
+        },
+        {
+          "id": "C",
+          "text": "a neutron"
+        },
+        {
+          "id": "D",
+          "text": "a proton"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Loss or gain of electrons produces a charged atom (ion)."
@@ -252,10 +457,22 @@
       "id": 18,
       "question": "Which of the following characteristics of a wave is used in the measurement of the depth of the sea?",
       "options": [
-        { "id": "A", "text": "Diffraction" },
-        { "id": "B", "text": "Reflection" },
-        { "id": "C", "text": "Refraction" },
-        { "id": "D", "text": "Interference" }
+        {
+          "id": "A",
+          "text": "Diffraction"
+        },
+        {
+          "id": "B",
+          "text": "Reflection"
+        },
+        {
+          "id": "C",
+          "text": "Refraction"
+        },
+        {
+          "id": "D",
+          "text": "Interference"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Echo sounding uses reflection of sound waves from the seabed."
@@ -264,10 +481,22 @@
       "id": 19,
       "question": "Which of the following are produced after a nuclear fusion process?\nI. One heavy nucleus\nII. Neutrons\nIII. Protons\nIV. Energy",
       "options": [
-        { "id": "A", "text": "I and II" },
-        { "id": "B", "text": "II and III" },
-        { "id": "C", "text": "I and IV" },
-        { "id": "D", "text": "II and IV" }
+        {
+          "id": "A",
+          "text": "I and II"
+        },
+        {
+          "id": "B",
+          "text": "II and III"
+        },
+        {
+          "id": "C",
+          "text": "I and IV"
+        },
+        {
+          "id": "D",
+          "text": "II and IV"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Fusion combines light nuclei to form a heavier nucleus and releases energy. Neutrons/protons may or may not appear depending on the reaction, but the general outcomes are a heavier nucleus and energy."
@@ -276,8 +505,14 @@
       "id": 20,
       "question": "Two similar kettles containing equal masses of boiling water are placed on a table. If the surface of one is highly polished and the surface of the other is covered with soot, which of the following observations is correct?",
       "options": [
-        { "id": "A", "text": "The two kettles will cool down at the same rate" },
-        { "id": "B", "text": "The polished kettle cools down more quickly by conduction" },
+        {
+          "id": "A",
+          "text": "The two kettles will cool down at the same rate"
+        },
+        {
+          "id": "B",
+          "text": "The polished kettle cools down more quickly by conduction"
+        },
         {
           "id": "C",
           "text": "The kettle covered with soot cools down more quickly because it is a good radiator of heat"
@@ -294,10 +529,22 @@
       "id": 21,
       "question": "Total eclipse of the sun occurs when the",
       "options": [
-        { "id": "A", "text": "moon is between the sun and the earth" },
-        { "id": "B", "text": "sun is between the moon and the earth" },
-        { "id": "C", "text": "the earth is between the moon and the sun" },
-        { "id": "D", "text": "ozone layer is threatened" }
+        {
+          "id": "A",
+          "text": "moon is between the sun and the earth"
+        },
+        {
+          "id": "B",
+          "text": "sun is between the moon and the earth"
+        },
+        {
+          "id": "C",
+          "text": "the earth is between the moon and the sun"
+        },
+        {
+          "id": "D",
+          "text": "ozone layer is threatened"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "A solar eclipse occurs when the moon comes between the sun and the earth."
@@ -306,10 +553,22 @@
       "id": 22,
       "question": "Which of the following pairs of colours gives the widest separation in the spectrum of white light?",
       "options": [
-        { "id": "A", "text": "Green and yellow" },
-        { "id": "B", "text": "Red and violet" },
-        { "id": "C", "text": "Red and indigo" },
-        { "id": "D", "text": "Yellow and violet" }
+        {
+          "id": "A",
+          "text": "Green and yellow"
+        },
+        {
+          "id": "B",
+          "text": "Red and violet"
+        },
+        {
+          "id": "C",
+          "text": "Red and indigo"
+        },
+        {
+          "id": "D",
+          "text": "Yellow and violet"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Red deviates least and violet most, giving maximum separation."
@@ -318,10 +577,22 @@
       "id": 23,
       "question": "Which of the following with respect to a body performing simple harmonic motion are in phase?",
       "options": [
-        { "id": "A", "text": "Displacement and velocity of the body" },
-        { "id": "B", "text": "Displacement and force on the body" },
-        { "id": "C", "text": "Velocity and acceleration of the body" },
-        { "id": "D", "text": "Force acting on the body and the acceleration" }
+        {
+          "id": "A",
+          "text": "Displacement and velocity of the body"
+        },
+        {
+          "id": "B",
+          "text": "Displacement and force on the body"
+        },
+        {
+          "id": "C",
+          "text": "Velocity and acceleration of the body"
+        },
+        {
+          "id": "D",
+          "text": "Force acting on the body and the acceleration"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "In SHM, \\(F=ma\\) and both are proportional to \\(-x\\), so force and acceleration are in phase. Displacement is 180° out of phase with acceleration/force, and velocity is 90° out of phase with displacement."
@@ -330,10 +601,22 @@
       "id": 24,
       "question": "A uniform metre rule weighing 0.5 V is to be pivoted on a knife-edge at the 30 cm-mark. Where will a force of 2 N be placed from the pivot to balance the metre rule?",
       "options": [
-        { "id": "A", "text": "95 cm" },
-        { "id": "B", "text": "5 cm" },
-        { "id": "C", "text": "20 cm" },
-        { "id": "D", "text": "25 cm" }
+        {
+          "id": "A",
+          "text": "95 cm"
+        },
+        {
+          "id": "B",
+          "text": "5 cm"
+        },
+        {
+          "id": "C",
+          "text": "20 cm"
+        },
+        {
+          "id": "D",
+          "text": "25 cm"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The question contains a unit/typo: the metre rule 'weighing 0.5 V' should be weight in newtons (likely 0.5 N) or mass (0.5 kg). Without a consistent weight value, the torque balance distance cannot be determined reliably from the provided text."
@@ -342,10 +625,22 @@
       "id": 25,
       "question": "A solid weighs 10.0 N in air, 6.0 N when fully immersed in water and 7.0 N when fully immersed in a certain liquid X. Calculate the relative density of the liquid.",
       "options": [
-        { "id": "A", "text": "3/4" },
-        { "id": "B", "text": "4/3" },
-        { "id": "C", "text": "5/3" },
-        { "id": "D", "text": "7/10" }
+        {
+          "id": "A",
+          "text": "3/4"
+        },
+        {
+          "id": "B",
+          "text": "4/3"
+        },
+        {
+          "id": "C",
+          "text": "5/3"
+        },
+        {
+          "id": "D",
+          "text": "7/10"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Upthrust in water = 10 − 6 = 4 N. Upthrust in liquid X = 10 − 7 = 3 N. Relative density \\(=\\frac{\\rho_X}{\\rho_{water}}=\\frac{\\text{upthrust in X}}{\\text{upthrust in water}}=\\frac{3}{4}\\)."
@@ -355,23 +650,48 @@
       "instruction": "Use the diagram (figure Phy2015_Q26_MaxMin_Thermometer).",
       "question": "The diagram above shows a maximum and minimum thermometer divided into three portions P, Q and r which of the following is true about the respective content of p, q and R?",
       "options": [
-        { "id": "A", "text": "Air, alcohol and mercury" },
-        { "id": "B", "text": "alcohol, mercury and alcohol" },
-        { "id": "C", "text": "mercury, alcohol and mercury" },
-        { "id": "D", "text": "Air, mercury and alcohol" }
+        {
+          "id": "A",
+          "text": "Air, alcohol and mercury"
+        },
+        {
+          "id": "B",
+          "text": "alcohol, mercury and alcohol"
+        },
+        {
+          "id": "C",
+          "text": "mercury, alcohol and mercury"
+        },
+        {
+          "id": "D",
+          "text": "Air, mercury and alcohol"
+        }
       ],
       "correctAnswer": null,
       "figureId": "Phy2015_Q26_MaxMin_Thermometer",
-      "explanation": "The thermometer diagram is too unclear to confidently identify which section corresponds to mercury/alcohol/air from the labels P, Q, R and the markers X and Y. Therefore the correct option cannot be determined from the upload."
+      "explanation": "The thermometer diagram is too unclear to confidently identify which section corresponds to mercury/alcohol/air from the labels P, Q, R and the markers X and Y. Therefore the correct option cannot be determined from the upload.",
+      "imagePath": "src/data/subjects/images/physics_images/2015_Q26.png"
     },
     {
       "id": 27,
       "question": "The process of energy production in the sun is",
       "options": [
-        { "id": "A", "text": "nuclear fission" },
-        { "id": "B", "text": "nuclear fusion" },
-        { "id": "C", "text": "electron collision" },
-        { "id": "D", "text": "radioactivity decay" }
+        {
+          "id": "A",
+          "text": "nuclear fission"
+        },
+        {
+          "id": "B",
+          "text": "nuclear fusion"
+        },
+        {
+          "id": "C",
+          "text": "electron collision"
+        },
+        {
+          "id": "D",
+          "text": "radioactivity decay"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "The sun produces energy mainly by nuclear fusion of hydrogen into helium."
@@ -380,10 +700,22 @@
       "id": 28,
       "question": "The particle responsible for nuclear fusion in a nuclear reactor is",
       "options": [
-        { "id": "A", "text": "electron" },
-        { "id": "B", "text": "photon" },
-        { "id": "C", "text": "proton" },
-        { "id": "D", "text": "neutron" }
+        {
+          "id": "A",
+          "text": "electron"
+        },
+        {
+          "id": "B",
+          "text": "photon"
+        },
+        {
+          "id": "C",
+          "text": "proton"
+        },
+        {
+          "id": "D",
+          "text": "neutron"
+        }
       ],
       "correctAnswer": null,
       "explanation": "Reactors operate by nuclear fission, not fusion. In fission reactors, neutrons initiate the chain reaction, but the question states fusion, creating a mismatch. Therefore a uniquely correct answer cannot be asserted from the given text."
@@ -392,10 +724,22 @@
       "id": 29,
       "question": "If the uncertainty in the measurement of the position of a particle is \\(5\\times 10^{-10}\\,m\\), the uncertainty in the momentum of the particle is",
       "options": [
-        { "id": "A", "text": "\\(1.32\\times 10^{-24}\\,N s\\)" },
-        { "id": "B", "text": "\\(3.30\\times 10^{-44}\\,N s\\)" },
-        { "id": "C", "text": "\\(1.32\\times 10^{-44}\\,N s\\)" },
-        { "id": "D", "text": "\\(3.30\\times 10^{-24}\\,N s\\)" }
+        {
+          "id": "A",
+          "text": "\\(1.32\\times 10^{-24}\\,N s\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(3.30\\times 10^{-44}\\,N s\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(1.32\\times 10^{-44}\\,N s\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(3.30\\times 10^{-24}\\,N s\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Heisenberg: \\(\\Delta x\\,\\Delta p \\ge \\frac{h}{4\\pi}\\). Using \\(h=6.6\\times 10^{-34}\\,J s\\): \\(\\Delta p \\approx \\frac{6.6\\times 10^{-34}}{4\\pi\\times 5\\times 10^{-10}}\\approx 1.05\\times 10^{-25}\\,N s\\). None matches exactly; if the paper uses \\(\\Delta x\\Delta p \\approx \\frac{h}{2\\pi}\\), then \\(\\Delta p\\approx \\frac{6.6\\times 10^{-34}}{2\\pi\\times 5\\times 10^{-10}}\\approx 2.1\\times 10^{-25}\\,N s\\). Options are ~10^-24; closest is D (3.30×10^-24) but the numerical mismatch suggests either different constants/rounding were intended."
@@ -404,10 +748,22 @@
       "id": 30,
       "question": "The change in volume when 450 kg of ice is completely melted is [density of ice = 900 kg m^-3, density of water = 1000 kg m^-3]",
       "options": [
-        { "id": "A", "text": "0.50 m" },
-        { "id": "B", "text": "0.45 m^3" },
-        { "id": "C", "text": "4.50 m^3" },
-        { "id": "D", "text": "0.05 m^3" }
+        {
+          "id": "A",
+          "text": "0.50 m"
+        },
+        {
+          "id": "B",
+          "text": "0.45 m^3"
+        },
+        {
+          "id": "C",
+          "text": "4.50 m^3"
+        },
+        {
+          "id": "D",
+          "text": "0.05 m^3"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Volume of ice: \\(V_i=\\frac{450}{900}=0.50\\,m^3\\). Volume of water: \\(V_w=\\frac{450}{1000}=0.45\\,m^3\\). Change \\(\\Delta V=V_i-V_w=0.05\\,m^3\\). That matches option D, not B."
@@ -416,10 +772,22 @@
       "id": 31,
       "question": "When impurities are added to semiconductor",
       "options": [
-        { "id": "A", "text": "decreases" },
-        { "id": "B", "text": "increases then decreases" },
-        { "id": "C", "text": "decreases" },
-        { "id": "D", "text": "remains constant" }
+        {
+          "id": "A",
+          "text": "decreases"
+        },
+        {
+          "id": "B",
+          "text": "increases then decreases"
+        },
+        {
+          "id": "C",
+          "text": "decreases"
+        },
+        {
+          "id": "D",
+          "text": "remains constant"
+        }
       ],
       "correctAnswer": null,
       "explanation": "The stem is incomplete in the image (it does not say what property changes). Without the missing words, no option can be chosen."
@@ -428,10 +796,22 @@
       "id": 32,
       "question": "The process through which free electrons leave the hot surface of hot metal is known as",
       "options": [
-        { "id": "A", "text": "photo emission" },
-        { "id": "B", "text": "thermionic emission" },
-        { "id": "C", "text": "photon emission" },
-        { "id": "D", "text": "electron emission" }
+        {
+          "id": "A",
+          "text": "photo emission"
+        },
+        {
+          "id": "B",
+          "text": "thermionic emission"
+        },
+        {
+          "id": "C",
+          "text": "photon emission"
+        },
+        {
+          "id": "D",
+          "text": "electron emission"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Emission of electrons from a heated metal surface is thermionic emission."
@@ -440,10 +820,22 @@
       "id": 33,
       "question": "The production of pure spectrum could easily be achieved using a",
       "options": [
-        { "id": "A", "text": "Triangular prism only" },
-        { "id": "B", "text": "Triangular prism with two concave lens" },
-        { "id": "C", "text": "Glass prism with a pin" },
-        { "id": "D", "text": "Triangular prism with two convex lens" }
+        {
+          "id": "A",
+          "text": "Triangular prism only"
+        },
+        {
+          "id": "B",
+          "text": "Triangular prism with two concave lens"
+        },
+        {
+          "id": "C",
+          "text": "Glass prism with a pin"
+        },
+        {
+          "id": "D",
+          "text": "Triangular prism with two convex lens"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "A pure spectrum is produced by using a collimator (convex lens) to form a parallel beam into the prism and a convex lens (telescope) to focus/observe the spectrum; hence prism with two convex lenses."
@@ -452,10 +844,22 @@
       "id": 34,
       "question": "A short chain is something attached to the back of a petrol tanker to",
       "options": [
-        { "id": "A", "text": "Conduct excess charges to the earth" },
-        { "id": "B", "text": "Ensure the balancing of the tanker" },
-        { "id": "C", "text": "Caution the driver when over speeding" },
-        { "id": "D", "text": "Generate more friction" }
+        {
+          "id": "A",
+          "text": "Conduct excess charges to the earth"
+        },
+        {
+          "id": "B",
+          "text": "Ensure the balancing of the tanker"
+        },
+        {
+          "id": "C",
+          "text": "Caution the driver when over speeding"
+        },
+        {
+          "id": "D",
+          "text": "Generate more friction"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "The chain grounds the tanker to discharge static electricity, preventing sparks."
@@ -464,10 +868,22 @@
       "id": 35,
       "question": "A perfect emitter or absorber of radiant energy is a",
       "options": [
-        { "id": "A", "text": "white body" },
-        { "id": "B", "text": "red body" },
-        { "id": "C", "text": "conductor" },
-        { "id": "D", "text": "black body" }
+        {
+          "id": "A",
+          "text": "white body"
+        },
+        {
+          "id": "B",
+          "text": "red body"
+        },
+        {
+          "id": "C",
+          "text": "conductor"
+        },
+        {
+          "id": "D",
+          "text": "black body"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "A black body is an ideal absorber and emitter."
@@ -477,10 +893,22 @@
       "instruction": "Use the diagram (figure Phy2015_Q36_SixCells_Diagram).",
       "question": "Six identical cells, each of e.m.f 2 V are connected as shown above. The effective e.m.f. of the cell is",
       "options": [
-        { "id": "A", "text": "4 V" },
-        { "id": "B", "text": "0 V" },
-        { "id": "C", "text": "6 V" },
-        { "id": "D", "text": "12 V" }
+        {
+          "id": "A",
+          "text": "4 V"
+        },
+        {
+          "id": "B",
+          "text": "0 V"
+        },
+        {
+          "id": "C",
+          "text": "6 V"
+        },
+        {
+          "id": "D",
+          "text": "12 V"
+        }
       ],
       "correctAnswer": null,
       "figureId": "Phy2015_Q36_SixCells_Diagram",
@@ -490,10 +918,22 @@
       "id": 37,
       "question": "If a pump is capable of lifting 5000 kg of water through a vertical height of 60 m in 50 mins, the power of the pump is",
       "options": [
-        { "id": "A", "text": "\\(2.5\\times 10^{5}\\,J s^{-1}\\)" },
-        { "id": "B", "text": "\\(3.3\\times 10^{3}\\,J s^{-1}\\)" },
-        { "id": "C", "text": "\\(2.5\\times 10^{4}\\,J s^{-1}\\)" },
-        { "id": "D", "text": "\\(3.3\\times 10^{2}\\,J s^{-1}\\)" }
+        {
+          "id": "A",
+          "text": "\\(2.5\\times 10^{5}\\,J s^{-1}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(3.3\\times 10^{3}\\,J s^{-1}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(2.5\\times 10^{4}\\,J s^{-1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(3.3\\times 10^{2}\\,J s^{-1}\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Work \\(W=mgh=5000\\times 10\\times 60=3.0\\times 10^6\\,J\\). Time \\(t=50\\,min=3000\\,s\\). Power \\(P=\\frac{3.0\\times 10^6}{3000}=1.0\\times 10^3\\,W\\). None of the options matches 1000 W; option B (3.3×10^3) and D (3.3×10^2) are not equal. This indicates an inconsistency between the printed data and options."
@@ -502,10 +942,22 @@
       "id": 38,
       "question": "The distance between two successive crest of a wave is 15 cm and the velocity is 300 m s^-1. Calculate the frequency.",
       "options": [
-        { "id": "A", "text": "\\(4.5\\times 10^{5}\\,Hz\\)" },
-        { "id": "B", "text": "\\(4.5\\times 10^{2}\\,Hz\\)" },
-        { "id": "C", "text": "\\(2.0\\times 10^{3}\\,Hz\\)" },
-        { "id": "D", "text": "\\(2.0\\times 10^{2}\\,Hz\\)" }
+        {
+          "id": "A",
+          "text": "\\(4.5\\times 10^{5}\\,Hz\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(4.5\\times 10^{2}\\,Hz\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(2.0\\times 10^{3}\\,Hz\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(2.0\\times 10^{2}\\,Hz\\)"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Wavelength \\(\\lambda=15\\,cm=0.15\\,m\\). Frequency \\(f=\\frac{v}{\\lambda}=\\frac{300}{0.15}=2000\\,Hz=2.0\\times 10^3\\,Hz\\)."
@@ -514,10 +966,22 @@
       "id": 39,
       "question": "An electric lamp marked 240 V, 60 Watts is left to operate for an hour. How much energy is generated by the filament?",
       "options": [
-        { "id": "A", "text": "\\(3.86\\times 10^{5}\\,J\\)" },
-        { "id": "B", "text": "\\(2.16\\times 10^{5}\\,J\\)" },
-        { "id": "C", "text": "\\(1.80\\times 10^{4}\\,J\\)" },
-        { "id": "D", "text": "\\(3.56\\times 10^{5}\\,J\\)" }
+        {
+          "id": "A",
+          "text": "\\(3.86\\times 10^{5}\\,J\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(2.16\\times 10^{5}\\,J\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(1.80\\times 10^{4}\\,J\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(3.56\\times 10^{5}\\,J\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Energy \\(E=Pt\\). \\(P=60\\,W\\), \\(t=1\\,h=3600\\,s\\). \\(E=60\\times 3600=216000\\,J=2.16\\times 10^5\\,J\\). That matches option B, not D."
@@ -526,10 +990,22 @@
       "id": 40,
       "question": "In comparing the camera and human eye, the film of the camera functions as the",
       "options": [
-        { "id": "A", "text": "Iris" },
-        { "id": "B", "text": "Pupil" },
-        { "id": "C", "text": "Retina" },
-        { "id": "D", "text": "Cornea" }
+        {
+          "id": "A",
+          "text": "Iris"
+        },
+        {
+          "id": "B",
+          "text": "Pupil"
+        },
+        {
+          "id": "C",
+          "text": "Retina"
+        },
+        {
+          "id": "D",
+          "text": "Cornea"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "The retina is the light-sensitive surface of the eye; camera film/sensor plays the same role."

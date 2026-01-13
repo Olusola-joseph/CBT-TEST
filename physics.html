@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics - CBT Exam Platform</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/physics_styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Physics - Computer-Based Test (CBT) Platform</h1>
+        </header>
+        
+        <main id="main-content">
+            <!-- Year Selection Screen -->
+            <section id="year-selection-screen" class="screen active">
+                <div class="year-selection-card">
+                    <h2>Select JAMB Year</h2>
+                    <p>Please choose the year of JAMB CBT test you would like to attempt:</p>
+                    <div id="year-container" class="year-grid">
+                        <!-- Year buttons will be populated dynamically -->
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Login Screen -->
+            <section id="login-screen" class="screen">
+                <div class="login-card">
+                    <h2>Student Login</h2>
+                    <form id="login-form" autocomplete="off">
+                        <div class="form-group">
+                            <label for="student-id">Student ID:</label>
+                            <input type="text" id="student-id" name="student-id" placeholder="Enter your Student ID" required autocomplete="off">
+                        </div>
+                        <div class="form-group">
+                            <label for="exam-code">Exam Code:</label>
+                            <input type="password" id="exam-code" name="exam-code" placeholder="Enter your Exam Code" required autocomplete="off">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Start Exam</button>
+                    </form>
+                </div>
+            </section>
+            
+            <!-- Exam Instructions Screen -->
+            <section id="instructions-screen" class="screen">
+                <div class="instructions-card">
+                    <div class="back-button-container">
+                        <button id="instructions-back-btn" class="btn btn-secondary">← Back to Year Selection</button>
+                    </div>
+                    <h2>Physics Exam Instructions</h2>
+                    <div class="instructions-list">
+                        <p><strong>Read carefully before starting the exam:</strong></p>
+                        <ul>
+                            <li>You have <span id="time-display">60</span> minutes to complete this exam</li>
+                            <li>Once you start, the timer will begin automatically</li>
+                            <li>You can navigate between questions using the buttons below</li>
+                            <li>All answers will be saved automatically</li>
+                            <li>Click "Submit Exam" when you're finished</li>
+                            <li>Diagram images will be displayed where available</li>
+                        </ul>
+                    <button id="start-exam-btn" class="btn btn-primary">Start Exam</button>
+                </div>
+            </section>
+            
+            <!-- Exam Screen -->
+            <section id="exam-screen" class="screen">
+                <div class="exam-container">
+                    <div class="exam-header">
+                        <div class="timer">
+                            <span id="timer">Time Left: <span id="minutes">60</span>:<span id="seconds">00</span></span>
+                        </div>
+                        <div class="exam-progress">
+                            <span id="progress">Question <span id="current-q">1</span> of <span id="total-q">20</span></span>
+                        </div>
+                    </div>
+                    
+                    <div class="question-container">
+                        <div class="question-header">
+                            <h3>Question <span id="q-number">1</span></h3>
+                        </div>
+                        <div class="question-body">
+                            <p id="question-text">Loading question...</p>
+                            <div class="options-container" id="options-container">
+                                <!-- Options will be populated dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="navigation-container">
+                        <button id="prev-btn" class="btn btn-secondary">Previous</button>
+                        <button id="next-btn" class="btn btn-primary">Next</button>
+                        <button id="submit-btn" class="btn btn-danger">Submit Exam</button>
+                    </div>
+                    
+                    <div class="question-list">
+                        <h4>Question List</h4>
+                        <div id="question-list-container">
+                            <!-- Question buttons will be populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Results Screen -->
+            <section id="results-screen" class="screen">
+                <div class="results-card">
+                    <h2>Exam Completed</h2>
+                    <div class="results-content">
+                        <p>Your score: <span id="score-display">0</span> / <span id="total-questions">0</span></p>
+                        <p>Percentage: <span id="percentage">0</span>%</p>
+                        <button id="review-btn" class="btn btn-secondary">Review Answers</button>
+                        <button id="restart-btn" class="btn btn-primary">Take Another Exam</button>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Review Screen -->
+            <section id="review-screen" class="screen">
+                <div class="review-container">
+                    <div class="review-header-bar">
+                        <h2>Review Answers</h2>
+                        <div class="review-progress">
+                            Question <span id="review-question-counter">1 / 10</span>
+                        </div>
+                    </div>
+                    
+                    <div id="review-container">
+                        <!-- Review content will be populated dynamically -->
+                    </div>
+                    
+                    <div class="review-navigation">
+                        <button id="review-prev-btn" class="btn btn-secondary">Previous</button>
+                        <button id="review-next-btn" class="btn btn-primary">Next</button>
+                        <button id="review-finish-btn" class="btn btn-primary">Finish Review</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <!-- Exam Submission Confirmation Modal -->
+    <div id="submit-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h3>Confirm Exam Submission</h3>
+            <p>Are you sure you want to submit your exam? You will not be able to make any changes after submission.</p>
+            <div class="modal-buttons">
+                <button id="confirm-submit" class="btn btn-danger">Yes, Submit</button>
+                <button id="cancel-submit" class="btn btn-secondary">Cancel</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/js/database.js"></script>
+    <script src="src/js/physics-script.js"></script>
+</body>
+</html>

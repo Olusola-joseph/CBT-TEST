@@ -6,17 +6,17 @@
   "figures": [
     {
       "id": "Phy2011_Q5_Vectors_6N_8N",
-      "file": "upload_1.png",
+      "file": "2011_Q5.png",
       "description": "Two perpendicular vectors of magnitudes 6.0 N (vertical) and 8.0 N (horizontal). Used in Question 5."
     },
     {
       "id": "Phy2011_Q8_Cone_Equilibrium",
-      "file": "upload_2.png",
+      "file": "2011_Q8.png",
       "description": "Three cone positions labeled X, Y, Z (on base, on tip, on side). Used to identify neutral equilibrium (Question 8)."
     },
     {
       "id": "Phy2011_Q34_ParallelResistors_2_4_12",
-      "file": "upload_8.png",
+      "file": "2011_Q34.png",
       "description": "Circuit diagram: three resistors 2Ω, 4Ω, 12Ω connected in parallel across a 12 V battery. Used in Question 34."
     }
   ],
@@ -25,10 +25,22 @@
       "id": 1,
       "question": "Which Question Paper Type of Physics is given to you?",
       "options": [
-        { "id": "A", "text": "Type A" },
-        { "id": "B", "text": "Type B" },
-        { "id": "C", "text": "Type C" },
-        { "id": "D", "text": "Type D" }
+        {
+          "id": "A",
+          "text": "Type A"
+        },
+        {
+          "id": "B",
+          "text": "Type B"
+        },
+        {
+          "id": "C",
+          "text": "Type C"
+        },
+        {
+          "id": "D",
+          "text": "Type D"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "The page header clearly shows \"PAPER TYPE: C\"."
@@ -37,10 +49,22 @@
       "id": 2,
       "question": "A carpenter on top of a roof 20.0 m high dropped a hammer of mass 1.5 kg and it fell freely to the ground. The kinetic energy of the hammer just before hitting the ground is ...... [\\(g = 10\\,\\text{m s}^{-2}\\)]",
       "options": [
-        { "id": "A", "text": "450 J" },
-        { "id": "B", "text": "600 J" },
-        { "id": "C", "text": "150 J" },
-        { "id": "D", "text": "300 J" }
+        {
+          "id": "A",
+          "text": "450 J"
+        },
+        {
+          "id": "B",
+          "text": "600 J"
+        },
+        {
+          "id": "C",
+          "text": "150 J"
+        },
+        {
+          "id": "D",
+          "text": "300 J"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Loss of potential energy becomes kinetic energy: \\(KE = mgh = 1.5\\times 10\\times 20 = 300\\,J\\). This corresponds to option D, not A."
@@ -49,10 +73,22 @@
       "id": 3,
       "question": "Two balls X and Y weighing 5 g and 50 kg respectively were thrown up vertically at the same time with a velocity of 100 m s\\(^{-1}\\). How will their positions be one second later?",
       "options": [
-        { "id": "A", "text": "X and Y will both be 500 m from the point of throw" },
-        { "id": "B", "text": "X and Y will be 500 m from each other" },
-        { "id": "C", "text": "Y will be 500 m ahead of X" },
-        { "id": "D", "text": "X will be 500 m ahead of Y" }
+        {
+          "id": "A",
+          "text": "X and Y will both be 500 m from the point of throw"
+        },
+        {
+          "id": "B",
+          "text": "X and Y will be 500 m from each other"
+        },
+        {
+          "id": "C",
+          "text": "Y will be 500 m ahead of X"
+        },
+        {
+          "id": "D",
+          "text": "X will be 500 m ahead of Y"
+        }
       ],
       "correctAnswer": null,
       "explanation": "From the image, all options mention 500 m, but with initial speed 100 m/s and \\(g=10\\,\\text{m s}^{-2}\\), displacement after 1 s is \\(s = ut - \\tfrac{1}{2}gt^2 = 100(1) - 5(1)^2 = 95\\,m\\). Both masses have the same motion (ignoring air resistance), so they are at the same position 95 m from the point of throw. None of the listed 500 m options matches this, indicating a mismatch/printing issue in the question/options as shown."
@@ -61,10 +97,22 @@
       "id": 4,
       "question": "A man standing on a lift that is descending does not feel any weight because",
       "options": [
-        { "id": "A", "text": "there is no gravitational pull on the man in the lift" },
-        { "id": "B", "text": "the inside of the lift is air tight" },
-        { "id": "C", "text": "the lift is in vacuum" },
-        { "id": "D", "text": "there is no reaction from the floor of the lift" }
+        {
+          "id": "A",
+          "text": "there is no gravitational pull on the man in the lift"
+        },
+        {
+          "id": "B",
+          "text": "the inside of the lift is air tight"
+        },
+        {
+          "id": "C",
+          "text": "the lift is in vacuum"
+        },
+        {
+          "id": "D",
+          "text": "there is no reaction from the floor of the lift"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "In free fall (or if descending with acceleration \\(g\\)), the normal reaction becomes zero, so apparent weight is zero."
@@ -74,23 +122,48 @@
       "instruction": "Use the diagram (figure Phy2011_Q5_Vectors_6N_8N).",
       "question": "The diagram above shows two vectors at right angles to each other. The value of the resultant vector is",
       "options": [
-        { "id": "A", "text": "13.0 N" },
-        { "id": "B", "text": "14.0 N" },
-        { "id": "C", "text": "10.0 N" },
-        { "id": "D", "text": "12.0 N" }
+        {
+          "id": "A",
+          "text": "13.0 N"
+        },
+        {
+          "id": "B",
+          "text": "14.0 N"
+        },
+        {
+          "id": "C",
+          "text": "10.0 N"
+        },
+        {
+          "id": "D",
+          "text": "12.0 N"
+        }
       ],
       "correctAnswer": "C",
       "figureId": "Phy2011_Q5_Vectors_6N_8N",
-      "explanation": "Resultant \\(R = \\sqrt{6^2 + 8^2} = \\sqrt{36+64} = \\sqrt{100} = 10\\,N\\)."
+      "explanation": "Resultant \\(R = \\sqrt{6^2 + 8^2} = \\sqrt{36+64} = \\sqrt{100} = 10\\,N\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2011_Q5.png"
     },
     {
       "id": 6,
       "question": "An object of mass 2 kg moves with a velocity of 10 m s\\(^{-1}\\) round a circle of radius 4 m. Calculate the centripetal force on the object.",
       "options": [
-        { "id": "A", "text": "40 N" },
-        { "id": "B", "text": "25 N" },
-        { "id": "C", "text": "100 N" },
-        { "id": "D", "text": "50 N" }
+        {
+          "id": "A",
+          "text": "40 N"
+        },
+        {
+          "id": "B",
+          "text": "25 N"
+        },
+        {
+          "id": "C",
+          "text": "100 N"
+        },
+        {
+          "id": "D",
+          "text": "50 N"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Centripetal force \\(F=\\frac{mv^2}{r}=\\frac{2\\times 10^2}{4}=\\frac{200}{4}=50\\,N\\). This is option D, not C."
@@ -99,10 +172,22 @@
       "id": 7,
       "question": "If it takes an object 3 s to fall freely to the ground from a certain height, what is the distance covered by the object? [\\(g = 10\\,\\text{m s}^{-2}\\)]",
       "options": [
-        { "id": "A", "text": "60 m" },
-        { "id": "B", "text": "90 m" },
-        { "id": "C", "text": "30 m" },
-        { "id": "D", "text": "45 m" }
+        {
+          "id": "A",
+          "text": "60 m"
+        },
+        {
+          "id": "B",
+          "text": "90 m"
+        },
+        {
+          "id": "C",
+          "text": "30 m"
+        },
+        {
+          "id": "D",
+          "text": "45 m"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "For free fall from rest: \\(s=\\tfrac{1}{2}gt^2=\\tfrac{1}{2}\\times 10\\times 3^2=5\\times 9=45\\,m\\). This is option D, not B."
@@ -112,14 +197,27 @@
       "instruction": "Use the diagram (figure Phy2011_Q8_Cone_Equilibrium).",
       "question": "The diagrams above show the positions of a cone. The position which can be described as neutral equilibrium is represented as",
       "options": [
-        { "id": "A", "text": "Y and X" },
-        { "id": "B", "text": "Z only" },
-        { "id": "C", "text": "X only" },
-        { "id": "D", "text": "Y and Z" }
+        {
+          "id": "A",
+          "text": "Y and X"
+        },
+        {
+          "id": "B",
+          "text": "Z only"
+        },
+        {
+          "id": "C",
+          "text": "X only"
+        },
+        {
+          "id": "D",
+          "text": "Y and Z"
+        }
       ],
       "correctAnswer": "B",
       "figureId": "Phy2011_Q8_Cone_Equilibrium",
-      "explanation": "Neutral equilibrium occurs when small displacement does not raise or lower the centre of gravity (the cone on its side). That is position Z."
+      "explanation": "Neutral equilibrium occurs when small displacement does not raise or lower the centre of gravity (the cone on its side). That is position Z.",
+      "imagePath": "src/data/subjects/images/physics_images/2011_Q8.png"
     },
     {
       "id": 9,
@@ -149,10 +247,22 @@
       "id": 10,
       "question": "I. Density of the liquid\nII. Depth below the surface of the liquid.\nIII. Surface area of the liquid\nIn which of the statement above will pressure be dependent?",
       "options": [
-        { "id": "A", "text": "I and III only" },
-        { "id": "B", "text": "I and II only" },
-        { "id": "C", "text": "II and III only" },
-        { "id": "D", "text": "I, II and III" }
+        {
+          "id": "A",
+          "text": "I and III only"
+        },
+        {
+          "id": "B",
+          "text": "I and II only"
+        },
+        {
+          "id": "C",
+          "text": "II and III only"
+        },
+        {
+          "id": "D",
+          "text": "I, II and III"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Hydrostatic pressure \\(p = \\rho g h\\) depends on density \\(\\rho\\) and depth \\(h\\), not surface area."
@@ -161,10 +271,22 @@
       "id": 11,
       "question": "I. High thermal capacity\nII. High sensitivity\nIII. Easy readability\nIV. Accuracy over a wide range of temperatures\nFrom the statements above, the qualities of a good thermometer are",
       "options": [
-        { "id": "A", "text": "II, III and IV" },
-        { "id": "B", "text": "I and II" },
-        { "id": "C", "text": "I, II, III and IV" },
-        { "id": "D", "text": "I, III and IV" }
+        {
+          "id": "A",
+          "text": "II, III and IV"
+        },
+        {
+          "id": "B",
+          "text": "I and II"
+        },
+        {
+          "id": "C",
+          "text": "I, II, III and IV"
+        },
+        {
+          "id": "D",
+          "text": "I, III and IV"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "A good thermometer should be sensitive, easy to read, and accurate over a wide range. High thermal capacity is undesirable because it reduces responsiveness."
@@ -173,10 +295,22 @@
       "id": 12,
       "question": "A machine is used to lift a load of 20 N through a height of 10 m. If the efficiency of the machine is 40%, how much work is done?",
       "options": [
-        { "id": "A", "text": "120 J" },
-        { "id": "B", "text": "80 J" },
-        { "id": "C", "text": "500 J" },
-        { "id": "D", "text": "300 J" }
+        {
+          "id": "A",
+          "text": "120 J"
+        },
+        {
+          "id": "B",
+          "text": "80 J"
+        },
+        {
+          "id": "C",
+          "text": "500 J"
+        },
+        {
+          "id": "D",
+          "text": "300 J"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Useful work output = \\(L\\times h = 20\\times 10=200\\,J\\). Efficiency \\(\\eta=\\frac{\\text{output}}{\\text{input}}\\Rightarrow \\text{input}=\\frac{200}{0.40}=500\\,J\\). The work done by the machine (input work) is 500 J (option C), not D."
@@ -185,10 +319,22 @@
       "id": 13,
       "question": "Which of the following could be effectively used to reduce friction?",
       "options": [
-        { "id": "A", "text": "Petrol" },
-        { "id": "B", "text": "Kerosene" },
-        { "id": "C", "text": "Grease" },
-        { "id": "D", "text": "Water" }
+        {
+          "id": "A",
+          "text": "Petrol"
+        },
+        {
+          "id": "B",
+          "text": "Kerosene"
+        },
+        {
+          "id": "C",
+          "text": "Grease"
+        },
+        {
+          "id": "D",
+          "text": "Water"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Grease acts as a lubricant, reducing friction between surfaces."
@@ -197,10 +343,22 @@
       "id": 14,
       "question": "A copper wire was subjected to a tensile stress of \\(7.7\\times 10^7\\,\\text{N m}^{-2}\\). Calculate the tensile strain of the wire. [Young modulus = \\(1.1\\times 10^{11}\\,\\text{N m}^{-2}\\)]",
       "options": [
-        { "id": "A", "text": "\\(2.2\\times 10^{-4}\\)" },
-        { "id": "B", "text": "\\(2.0\\times 10^{-5}\\)" },
-        { "id": "C", "text": "\\(7.0\\times 10^{-3}\\)" },
-        { "id": "D", "text": "\\(7.0\\times 10^{-4}\\)" }
+        {
+          "id": "A",
+          "text": "\\(2.2\\times 10^{-4}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(2.0\\times 10^{-5}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(7.0\\times 10^{-3}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(7.0\\times 10^{-4}\\)"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Strain \\(=\\frac{\\text{stress}}{Y}=\\frac{7.7\\times 10^7}{1.1\\times 10^{11}}=7.0\\times 10^{-4}\\) (approx)."
@@ -209,10 +367,22 @@
       "id": 15,
       "question": "An object weighs 22 kg in water 30 kg in air. What is the up thrust exerted by the liquid on the object? [\\(g=10\\,\\text{m s}^{-2}\\)]",
       "options": [
-        { "id": "A", "text": "80 N" },
-        { "id": "B", "text": "50 N" },
-        { "id": "C", "text": "520 N" },
-        { "id": "D", "text": "220 N" }
+        {
+          "id": "A",
+          "text": "80 N"
+        },
+        {
+          "id": "B",
+          "text": "50 N"
+        },
+        {
+          "id": "C",
+          "text": "520 N"
+        },
+        {
+          "id": "D",
+          "text": "220 N"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Upthrust = loss of weight in water = \\((30-22)g = 8\\times 10 = 80\\,N\\)."
@@ -221,10 +391,22 @@
       "id": 16,
       "question": "A block of aluminium is heated electrically by a 30 W heater. If the temperature rises by 100°C in 5 minutes, the heat capacity of the aluminium is",
       "options": [
-        { "id": "A", "text": "200 J K\\(^{-1}\\)" },
-        { "id": "B", "text": "900 J K\\(^{-1}\\)" },
-        { "id": "C", "text": "90 J K\\(^{-1}\\)" },
-        { "id": "D", "text": "100 J K\\(^{-1}\\)" }
+        {
+          "id": "A",
+          "text": "200 J K\\(^{-1}\\)"
+        },
+        {
+          "id": "B",
+          "text": "900 J K\\(^{-1}\\)"
+        },
+        {
+          "id": "C",
+          "text": "90 J K\\(^{-1}\\)"
+        },
+        {
+          "id": "D",
+          "text": "100 J K\\(^{-1}\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Energy supplied \\(Q = Pt = 30\\times (5\\times 60)=30\\times 300=9000\\,J\\). Heat capacity \\(C=\\frac{Q}{\\Delta T}=\\frac{9000}{100}=90\\,J K^{-1}\\). This is option C, not A."
@@ -233,10 +415,22 @@
       "id": 17,
       "question": "A perfect emitter or absorber of radiant energy is a",
       "options": [
-        { "id": "A", "text": "red body" },
-        { "id": "B", "text": "conductor" },
-        { "id": "C", "text": "black body" },
-        { "id": "D", "text": "white body" }
+        {
+          "id": "A",
+          "text": "red body"
+        },
+        {
+          "id": "B",
+          "text": "conductor"
+        },
+        {
+          "id": "C",
+          "text": "black body"
+        },
+        {
+          "id": "D",
+          "text": "white body"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "A black body is an ideal absorber and emitter of radiation."
@@ -245,10 +439,22 @@
       "id": 18,
       "question": "The phenomenon that shows that increase in pressure lowers the melting point can be observed in",
       "options": [
-        { "id": "A", "text": "regelation" },
-        { "id": "B", "text": "sublimation" },
-        { "id": "C", "text": "condensation" },
-        { "id": "D", "text": "coagulation" }
+        {
+          "id": "A",
+          "text": "regelation"
+        },
+        {
+          "id": "B",
+          "text": "sublimation"
+        },
+        {
+          "id": "C",
+          "text": "condensation"
+        },
+        {
+          "id": "D",
+          "text": "coagulation"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Regelation demonstrates melting under pressure and refreezing when pressure is removed (ice)."
@@ -257,10 +463,22 @@
       "id": 19,
       "question": "If the volume of a gas increases steadily as the temperature decreases at constant pressure, the gas obeys",
       "options": [
-        { "id": "A", "text": "Charles’ law" },
-        { "id": "B", "text": "Graham’s law" },
-        { "id": "C", "text": "Boyle’s law" },
-        { "id": "D", "text": "pressure law" }
+        {
+          "id": "A",
+          "text": "Charles’ law"
+        },
+        {
+          "id": "B",
+          "text": "Graham’s law"
+        },
+        {
+          "id": "C",
+          "text": "Boyle’s law"
+        },
+        {
+          "id": "D",
+          "text": "pressure law"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "At constant pressure, volume varies directly with absolute temperature (Charles’ law)."
@@ -269,10 +487,22 @@
       "id": 20,
       "question": "Steam burn is more severe than that of boiling water because",
       "options": [
-        { "id": "A", "text": "steam burn is dependent on relative humidity" },
-        { "id": "B", "text": "steam burn is independent of relative humidity" },
-        { "id": "C", "text": "steam possesses greater heat energy per unit mass" },
-        { "id": "D", "text": "water boils at a higher temperature" }
+        {
+          "id": "A",
+          "text": "steam burn is dependent on relative humidity"
+        },
+        {
+          "id": "B",
+          "text": "steam burn is independent of relative humidity"
+        },
+        {
+          "id": "C",
+          "text": "steam possesses greater heat energy per unit mass"
+        },
+        {
+          "id": "D",
+          "text": "water boils at a higher temperature"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Steam releases latent heat of condensation in addition to sensible heat, delivering more energy per unit mass."
@@ -281,10 +511,22 @@
       "id": 21,
       "question": "Which of the following types of waves needs a medium for propagation?",
       "options": [
-        { "id": "A", "text": "X-rays" },
-        { "id": "B", "text": "Sound waves" },
-        { "id": "C", "text": "Light waves" },
-        { "id": "D", "text": "Radio waves" }
+        {
+          "id": "A",
+          "text": "X-rays"
+        },
+        {
+          "id": "B",
+          "text": "Sound waves"
+        },
+        {
+          "id": "C",
+          "text": "Light waves"
+        },
+        {
+          "id": "D",
+          "text": "Radio waves"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Sound is a mechanical wave and requires a material medium."
@@ -293,10 +535,22 @@
       "id": 22,
       "question": "The ground is always cold at night because the",
       "options": [
-        { "id": "A", "text": "atmosphere reflects the sun’s energy at night" },
-        { "id": "B", "text": "atmosphere absorbs the sun’s energy at night" },
-        { "id": "C", "text": "earth radiates heat to the atmosphere at night" },
-        { "id": "D", "text": "sun no longer shines at night" }
+        {
+          "id": "A",
+          "text": "atmosphere reflects the sun’s energy at night"
+        },
+        {
+          "id": "B",
+          "text": "atmosphere absorbs the sun’s energy at night"
+        },
+        {
+          "id": "C",
+          "text": "earth radiates heat to the atmosphere at night"
+        },
+        {
+          "id": "D",
+          "text": "sun no longer shines at night"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "At night the ground loses heat mainly by radiation to the surroundings/sky, cooling down."
@@ -305,10 +559,22 @@
       "id": 23,
       "question": "A metal of volume 40 cm\\(^3\\) is heated from 30°C to 90°C, the increase in volume is .... [Linear expansivity of the metal = \\(2.0\\times 10^{-5}\\,K^{-1}\\)]",
       "options": [
-        { "id": "A", "text": "0.40 cm\\(^3\\)" },
-        { "id": "B", "text": "0.14 cm\\(^3\\)" },
-        { "id": "C", "text": "0.12 cm\\(^3\\)" },
-        { "id": "D", "text": "1.20 cm\\(^3\\)" }
+        {
+          "id": "A",
+          "text": "0.40 cm\\(^3\\)"
+        },
+        {
+          "id": "B",
+          "text": "0.14 cm\\(^3\\)"
+        },
+        {
+          "id": "C",
+          "text": "0.12 cm\\(^3\\)"
+        },
+        {
+          "id": "D",
+          "text": "1.20 cm\\(^3\\)"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Volume expansivity \\(\\beta\\approx 3\\alpha = 6.0\\times 10^{-5}\\,K^{-1}\\). \\(\\Delta T=60\\,K\\). \\(\\Delta V=\\beta V\\Delta T = (6.0\\times 10^{-5})(40)(60)=0.144\\,\\text{cm}^3\\). This matches option B, not C."
@@ -317,10 +583,22 @@
       "id": 24,
       "question": "I. Change of state\nII. Diffusion\nIII. Radiation\nIV. Osmosis\nWhich of the processes above can be explained using the kinetic theory?",
       "options": [
-        { "id": "A", "text": "I, II and IV" },
-        { "id": "B", "text": "I, II, III and IV" },
-        { "id": "C", "text": "I, II and III" },
-        { "id": "D", "text": "I, III and IV" }
+        {
+          "id": "A",
+          "text": "I, II and IV"
+        },
+        {
+          "id": "B",
+          "text": "I, II, III and IV"
+        },
+        {
+          "id": "C",
+          "text": "I, II and III"
+        },
+        {
+          "id": "D",
+          "text": "I, III and IV"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Kinetic theory explains particle motion effects such as change of state, diffusion, and osmosis; radiation is electromagnetic and not explained by kinetic theory of matter."
@@ -329,10 +607,22 @@
       "id": 25,
       "question": "When the human eye loses its power of accommodation, the defect is known as",
       "options": [
-        { "id": "A", "text": "long-sightedness" },
-        { "id": "B", "text": "short-sightedness" },
-        { "id": "C", "text": "presbyopia" },
-        { "id": "D", "text": "astigmatism" }
+        {
+          "id": "A",
+          "text": "long-sightedness"
+        },
+        {
+          "id": "B",
+          "text": "short-sightedness"
+        },
+        {
+          "id": "C",
+          "text": "presbyopia"
+        },
+        {
+          "id": "D",
+          "text": "astigmatism"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Presbyopia is age-related loss of accommodation."
@@ -341,10 +631,22 @@
       "id": 26,
       "question": "A length of wire has a frequency of 255 Hz when stretched by a force of 225 N. If the force increases to 324 N, what is the new frequency of vibration?",
       "options": [
-        { "id": "A", "text": "356 Hz" },
-        { "id": "B", "text": "306 Hz" },
-        { "id": "C", "text": "512 Hz" },
-        { "id": "D", "text": "488 Hz" }
+        {
+          "id": "A",
+          "text": "356 Hz"
+        },
+        {
+          "id": "B",
+          "text": "306 Hz"
+        },
+        {
+          "id": "C",
+          "text": "512 Hz"
+        },
+        {
+          "id": "D",
+          "text": "488 Hz"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "For a stretched string, \\(f\\propto \\sqrt{T}\\). \\(f_2=f_1\\sqrt{\\frac{T_2}{T_1}}=255\\sqrt{\\frac{324}{225}}=255\\sqrt{1.44}=255\\times 1.2=306\\,Hz\\)."
@@ -353,10 +655,22 @@
       "id": 27,
       "question": "A certain far-sighted person cannot see objects that are closer to the eye than 50 cm clearly. Determine the power of the converging lens which will enable him to see at 25 cm.",
       "options": [
-        { "id": "A", "text": "0.04 D" },
-        { "id": "B", "text": "0.06 D" },
-        { "id": "C", "text": "0.02 D" },
-        { "id": "D", "text": "0.03 D" }
+        {
+          "id": "A",
+          "text": "0.04 D"
+        },
+        {
+          "id": "B",
+          "text": "0.06 D"
+        },
+        {
+          "id": "C",
+          "text": "0.02 D"
+        },
+        {
+          "id": "D",
+          "text": "0.03 D"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Lens should form a virtual image at the near point (50 cm) of an object at 25 cm. Using sign convention: \\(u=-25\\,cm\\), \\(v=-50\\,cm\\). \\(\\frac{1}{f}=\\frac{1}{v}-\\frac{1}{u}=\\left(-\\frac{1}{50}\\right)-\\left(-\\frac{1}{25}\\right)=\\frac{1}{50}\\). So \\(f=50\\,cm=0.5\\,m\\), power \\(P=\\frac{1}{f}=2.0\\,D\\). This is not among options, indicating the options’ scale is inconsistent with the standard calculation."
@@ -365,10 +679,22 @@
       "id": 28,
       "question": "Which of the following electromagnetic waves has the highest frequency?",
       "options": [
-        { "id": "A", "text": "X-rays" },
-        { "id": "B", "text": "Ultra-violet rays" },
-        { "id": "C", "text": "Radio waves" },
-        { "id": "D", "text": "Infrared-rays" }
+        {
+          "id": "A",
+          "text": "X-rays"
+        },
+        {
+          "id": "B",
+          "text": "Ultra-violet rays"
+        },
+        {
+          "id": "C",
+          "text": "Radio waves"
+        },
+        {
+          "id": "D",
+          "text": "Infrared-rays"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Among the listed, X-rays have the highest frequency."
@@ -377,10 +703,22 @@
       "id": 29,
       "question": "When a red rose flower is observed in blue light, what colour does the observer see?",
       "options": [
-        { "id": "A", "text": "Yellow" },
-        { "id": "B", "text": "Red" },
-        { "id": "C", "text": "Blue" },
-        { "id": "D", "text": "Magenta" }
+        {
+          "id": "A",
+          "text": "Yellow"
+        },
+        {
+          "id": "B",
+          "text": "Red"
+        },
+        {
+          "id": "C",
+          "text": "Blue"
+        },
+        {
+          "id": "D",
+          "text": "Magenta"
+        }
       ],
       "correctAnswer": null,
       "explanation": "A red object reflects red light and absorbs other colours. Under blue illumination, there is essentially no red light to reflect, so it appears black/dark. 'Black' is not among the options shown, so the correct choice cannot be selected from the provided options."
@@ -389,10 +727,22 @@
       "id": 30,
       "question": "The eclipse of the sun occurs when the",
       "options": [
-        { "id": "A", "text": "moon’s umbra falls on some part of the earth" },
-        { "id": "B", "text": "moon is between the sun and the earth" },
-        { "id": "C", "text": "earth is between the sun and the moon" },
-        { "id": "D", "text": "moon is not completely hidden in the earth’s shadow" }
+        {
+          "id": "A",
+          "text": "moon’s umbra falls on some part of the earth"
+        },
+        {
+          "id": "B",
+          "text": "moon is between the sun and the earth"
+        },
+        {
+          "id": "C",
+          "text": "earth is between the sun and the moon"
+        },
+        {
+          "id": "D",
+          "text": "moon is not completely hidden in the earth’s shadow"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "A solar eclipse occurs when the Moon lies between the Earth and the Sun (so the Moon’s shadow falls on Earth)."
@@ -401,10 +751,22 @@
       "id": 31,
       "question": "A cannon is fired from town X. After how long is the sound heard at a town Y 4.95 km away? [velocity of sound in air = 333 m s\\(^{-1}\\)]",
       "options": [
-        { "id": "A", "text": "15 s" },
-        { "id": "B", "text": "0 s" },
-        { "id": "C", "text": "10 s" },
-        { "id": "D", "text": "12 s" }
+        {
+          "id": "A",
+          "text": "15 s"
+        },
+        {
+          "id": "B",
+          "text": "0 s"
+        },
+        {
+          "id": "C",
+          "text": "10 s"
+        },
+        {
+          "id": "D",
+          "text": "12 s"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Distance \\(=4.95\\,km=4950\\,m\\). Time \\(t=\\frac{d}{v}=\\frac{4950}{333}\\approx 14.9\\,s\\). This matches option A (15 s), not D."
@@ -413,10 +775,22 @@
       "id": 32,
       "question": "An image in a convex lens is upright magnified 3 times. If the focal length of the lens is 15 cm, what is the object distance?",
       "options": [
-        { "id": "A", "text": "14 cm" },
-        { "id": "B", "text": "10 cm" },
-        { "id": "C", "text": "25 cm" },
-        { "id": "D", "text": "26 cm" }
+        {
+          "id": "A",
+          "text": "14 cm"
+        },
+        {
+          "id": "B",
+          "text": "10 cm"
+        },
+        {
+          "id": "C",
+          "text": "25 cm"
+        },
+        {
+          "id": "D",
+          "text": "26 cm"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Upright magnified implies virtual image: magnification \\(m=+3\\) and \\(m=\\frac{v}{u}\\Rightarrow v=3u\\) (both negative). Lens formula: \\(\\frac{1}{f}=\\frac{1}{v}-\\frac{1}{u}\\). Substitute \\(v=3u\\): \\(\\frac{1}{f}=\\frac{1}{3u}-\\frac{1}{u}=-\\frac{2}{3u}\\). With \\(f=+15\\,cm\\): \\(\\frac{1}{15}=-\\frac{2}{3u}\\Rightarrow u=-10\\,cm\\). Object distance magnitude = 10 cm (option B)."
@@ -425,10 +799,22 @@
       "id": 33,
       "question": "The capacitance of a parallel plate capacitor is 20 μF in air and 60 μF in the presence of a dielectric. What is the dielectric constant?",
       "options": [
-        { "id": "A", "text": "2.0" },
-        { "id": "B", "text": "0.3" },
-        { "id": "C", "text": "6.0" },
-        { "id": "D", "text": "3.0" }
+        {
+          "id": "A",
+          "text": "2.0"
+        },
+        {
+          "id": "B",
+          "text": "0.3"
+        },
+        {
+          "id": "C",
+          "text": "6.0"
+        },
+        {
+          "id": "D",
+          "text": "3.0"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Dielectric constant \\(k=\\frac{C_{dielectric}}{C_{air}}=\\frac{60}{20}=3\\)."
@@ -438,23 +824,48 @@
       "instruction": "Use the circuit (figure Phy2011_Q34_ParallelResistors_2_4_12).",
       "question": "In the circuit below, three resistors 2 Ω, 4 Ω and 12 Ω are connected in parallel and a 12 V battery is connected across the combination. The current flowing through the 12 Ω resistor is",
       "options": [
-        { "id": "A", "text": "9.6 A" },
-        { "id": "B", "text": "14.4 A" },
-        { "id": "C", "text": "1.0 A" },
-        { "id": "D", "text": "3.2 A" }
+        {
+          "id": "A",
+          "text": "9.6 A"
+        },
+        {
+          "id": "B",
+          "text": "14.4 A"
+        },
+        {
+          "id": "C",
+          "text": "1.0 A"
+        },
+        {
+          "id": "D",
+          "text": "3.2 A"
+        }
       ],
       "correctAnswer": "C",
       "figureId": "Phy2011_Q34_ParallelResistors_2_4_12",
-      "explanation": "In parallel, each resistor has 12 V across it. Current through 12 Ω: \\(I=\\frac{V}{R}=\\frac{12}{12}=1.0\\,A\\)."
+      "explanation": "In parallel, each resistor has 12 V across it. Current through 12 Ω: \\(I=\\frac{V}{R}=\\frac{12}{12}=1.0\\,A\\).",
+      "imagePath": "src/data/subjects/images/physics_images/2011_Q34.png"
     },
     {
       "id": 35,
       "question": "If the charge of electricity per kWh is N4, what is the cost of operating an electrical appliance rated 2.50 V, 2 A for 6 hours?",
       "options": [
-        { "id": "A", "text": "N24" },
-        { "id": "B", "text": "N0.12" },
-        { "id": "C", "text": "N12" },
-        { "id": "D", "text": "N16" }
+        {
+          "id": "A",
+          "text": "N24"
+        },
+        {
+          "id": "B",
+          "text": "N0.12"
+        },
+        {
+          "id": "C",
+          "text": "N12"
+        },
+        {
+          "id": "D",
+          "text": "N16"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Power \\(P=VI=2.5\\times 2=5\\,W=0.005\\,kW\\). Energy in 6 h: \\(E=0.005\\times 6=0.03\\,kWh\\). Cost: \\(0.03\\times 4=0.12\\) Naira."
@@ -463,10 +874,22 @@
       "id": 36,
       "question": "The correct expression for the potential at a point, distance r from a charge q, in an electric field is",
       "options": [
-        { "id": "A", "text": "\\(\\frac{q}{4\\pi\\varepsilon_0 r^2}\\)" },
-        { "id": "B", "text": "\\(\\frac{q}{4\\pi\\varepsilon_0 r}\\)" },
-        { "id": "C", "text": "\\(\\frac{q^2}{4\\pi\\varepsilon_0 r^2}\\)" },
-        { "id": "D", "text": "\\(\\frac{q^2}{4\\pi\\varepsilon_0 r}\\)" }
+        {
+          "id": "A",
+          "text": "\\(\\frac{q}{4\\pi\\varepsilon_0 r^2}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\frac{q}{4\\pi\\varepsilon_0 r}\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(\\frac{q^2}{4\\pi\\varepsilon_0 r^2}\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\frac{q^2}{4\\pi\\varepsilon_0 r}\\)"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Electric potential due to a point charge: \\(V=\\frac{1}{4\\pi\\varepsilon_0}\\frac{q}{r}\\)."
@@ -475,10 +898,22 @@
       "id": 37,
       "question": "Three similar cells each of e.m.f 2 V and internal resistance 2 Ω are connected in parallel, the total e.m.f and total internal resistance are respectively",
       "options": [
-        { "id": "A", "text": "6 V, 0.7 Ω" },
-        { "id": "B", "text": "6 V, 6.0 Ω" },
-        { "id": "C", "text": "2 V, 0.7 Ω" },
-        { "id": "D", "text": "2 V, 6.0 Ω" }
+        {
+          "id": "A",
+          "text": "6 V, 0.7 Ω"
+        },
+        {
+          "id": "B",
+          "text": "6 V, 6.0 Ω"
+        },
+        {
+          "id": "C",
+          "text": "2 V, 0.7 Ω"
+        },
+        {
+          "id": "D",
+          "text": "2 V, 6.0 Ω"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "For identical cells in parallel, emf remains 2 V. Equivalent internal resistance \\(r_{eq}=\\frac{r}{n}=\\frac{2}{3}=0.67\\,\\Omega\\approx 0.7\\,\\Omega\\)."
@@ -487,10 +922,22 @@
       "id": 38,
       "question": "In homes, electrical appliances and lamps are connected in parallel because",
       "options": [
-        { "id": "A", "text": "less voltage will be used" },
-        { "id": "B", "text": "parallel connection does not heat up the wires" },
-        { "id": "C", "text": "series connection uses high voltage" },
-        { "id": "D", "text": "less current will be used" }
+        {
+          "id": "A",
+          "text": "less voltage will be used"
+        },
+        {
+          "id": "B",
+          "text": "parallel connection does not heat up the wires"
+        },
+        {
+          "id": "C",
+          "text": "series connection uses high voltage"
+        },
+        {
+          "id": "D",
+          "text": "less current will be used"
+        }
       ],
       "correctAnswer": null,
       "explanation": "Domestic wiring is in parallel so each appliance receives the full mains voltage and can operate independently. None of the listed options states this, so the correct choice cannot be selected from the provided options."
@@ -499,10 +946,22 @@
       "id": 39,
       "question": "Two resistors 5 Ω and 10 Ω are arranged first in series and later in parallel to a 24 V source. The ratio of total power dissipated in the series and parallel arrangement respectively is",
       "options": [
-        { "id": "A", "text": "3:5" },
-        { "id": "B", "text": "5:3" },
-        { "id": "C", "text": "1:50" },
-        { "id": "D", "text": "50:1" }
+        {
+          "id": "A",
+          "text": "3:5"
+        },
+        {
+          "id": "B",
+          "text": "5:3"
+        },
+        {
+          "id": "C",
+          "text": "1:50"
+        },
+        {
+          "id": "D",
+          "text": "50:1"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Series: \\(R_s=5+10=15\\,\\Omega\\). \\(P_s=\\frac{V^2}{R_s}=\\frac{24^2}{15}=\\frac{576}{15}=38.4\\,W\\). Parallel: \\(R_p=\\frac{5\\times 10}{5+10}=\\frac{50}{15}=3.33\\,\\Omega\\). \\(P_p=\\frac{576}{3.33}=172.8\\,W\\). Ratio \\(P_s:P_p=38.4:172.8=1:4.5\\approx 2:9\\). This does not match any option; if computed exactly: \\(38.4:172.8=4:18=2:9\\), none listed."
@@ -511,10 +970,22 @@
       "id": 40,
       "question": "Which of the following will be applied when a metal X is purified by electrolysis?",
       "options": [
-        { "id": "A", "text": "Y is the anode and very high current is used" },
-        { "id": "B", "text": "X is the anode and very high current is used" },
-        { "id": "C", "text": "X is the cathode and Y is the anode" },
-        { "id": "D", "text": "Y is the cathode and X is the anode" }
+        {
+          "id": "A",
+          "text": "Y is the anode and very high current is used"
+        },
+        {
+          "id": "B",
+          "text": "X is the anode and very high current is used"
+        },
+        {
+          "id": "C",
+          "text": "X is the cathode and Y is the anode"
+        },
+        {
+          "id": "D",
+          "text": "Y is the cathode and X is the anode"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "In electrolytic refining, the impure metal is the anode and pure metal is deposited on the cathode. So X (metal to be purified) is anode, and Y is cathode."
@@ -523,10 +994,22 @@
       "id": 41,
       "question": "A radioactive isotope has a decay constant of \\(10^{-5}\\,\\text{s}^{-1}\\). Calculate its half-life.",
       "options": [
-        { "id": "A", "text": "\\(6.93\\times 10^{4}\\,s\\)" },
-        { "id": "B", "text": "\\(6.93\\times 10^{-6}\\,s\\)" },
-        { "id": "C", "text": "\\(6.93\\times 10^{-5}\\,s\\)" },
-        { "id": "D", "text": "\\(6.93\\times 10^{5}\\,s\\)" }
+        {
+          "id": "A",
+          "text": "\\(6.93\\times 10^{4}\\,s\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(6.93\\times 10^{-6}\\,s\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(6.93\\times 10^{-5}\\,s\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(6.93\\times 10^{5}\\,s\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Half-life \\(t_{1/2}=\\frac{\\ln 2}{\\lambda}=\\frac{0.693}{10^{-5}}=6.93\\times 10^4\\,s\\)."
@@ -535,10 +1018,22 @@
       "id": 42,
       "question": "Which of the following is a property of steel?",
       "options": [
-        { "id": "A", "text": "It can easily be magnetized and demagnetized" },
-        { "id": "B", "text": "It cannot retain its magnetism longer than iron" },
-        { "id": "C", "text": "It can be used for making temporary magnets" },
-        { "id": "D", "text": "It can be used for making permanent magnets" }
+        {
+          "id": "A",
+          "text": "It can easily be magnetized and demagnetized"
+        },
+        {
+          "id": "B",
+          "text": "It cannot retain its magnetism longer than iron"
+        },
+        {
+          "id": "C",
+          "text": "It can be used for making temporary magnets"
+        },
+        {
+          "id": "D",
+          "text": "It can be used for making permanent magnets"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "Steel has higher retentivity than soft iron and is used for permanent magnets."
@@ -547,10 +1042,22 @@
       "id": 43,
       "question": "If the threshold frequency for tungsten is \\(1.3\\times 10^{15}\\,Hz\\), what is its work function? [\\(h = 6.6\\times 10^{-34}\\,J\\,s\\)]",
       "options": [
-        { "id": "A", "text": "\\(8.85\\times 10^{-18}\\,J\\)" },
-        { "id": "B", "text": "\\(8.58\\times 10^{-19}\\,J\\)" },
-        { "id": "C", "text": "\\(8.58\\times 10^{-15}\\,J\\)" },
-        { "id": "D", "text": "\\(8.58\\times 10^{-17}\\,J\\)" }
+        {
+          "id": "A",
+          "text": "\\(8.85\\times 10^{-18}\\,J\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(8.58\\times 10^{-19}\\,J\\)"
+        },
+        {
+          "id": "C",
+          "text": "\\(8.58\\times 10^{-15}\\,J\\)"
+        },
+        {
+          "id": "D",
+          "text": "\\(8.58\\times 10^{-17}\\,J\\)"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Work function \\(\\phi = hf_0 = (6.6\\times 10^{-34})(1.3\\times 10^{15})=8.58\\times 10^{-19}\\,J\\)."
@@ -559,10 +1066,22 @@
       "id": 44,
       "question": "In an a.c. circuit, the ratio of r.m.s value to peak value of current is",
       "options": [
-        { "id": "A", "text": "\\(\\frac{1}{\\sqrt{2}}\\)" },
-        { "id": "B", "text": "\\(\\sqrt{2}\\)" },
-        { "id": "C", "text": "2" },
-        { "id": "D", "text": "\\(\\frac{1}{2}\\)" }
+        {
+          "id": "A",
+          "text": "\\(\\frac{1}{\\sqrt{2}}\\)"
+        },
+        {
+          "id": "B",
+          "text": "\\(\\sqrt{2}\\)"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "\\(\\frac{1}{2}\\)"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "For a sinusoidal current, \\(I_{rms}=\\frac{I_0}{\\sqrt{2}}\\), so \\(\\frac{I_{rms}}{I_0}=\\frac{1}{\\sqrt{2}}\\)."
@@ -571,10 +1090,22 @@
       "id": 45,
       "question": "Two inductors of inductances 4 H and 8 H are arranged in series and a current of 10 A is passed through them. What is the energy stored in them?",
       "options": [
-        { "id": "A", "text": "250 J" },
-        { "id": "B", "text": "500 J" },
-        { "id": "C", "text": "50 J" },
-        { "id": "D", "text": "133 J" }
+        {
+          "id": "A",
+          "text": "250 J"
+        },
+        {
+          "id": "B",
+          "text": "500 J"
+        },
+        {
+          "id": "C",
+          "text": "50 J"
+        },
+        {
+          "id": "D",
+          "text": "133 J"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Series inductance: \\(L=4+8=12\\,H\\). Energy \\(U=\\tfrac{1}{2}LI^2=\\tfrac{1}{2}(12)(10^2)=6\\times 100=600\\,J\\). Not in options; closest is 500 J (B), but exact is 600 J from the given data."
@@ -583,10 +1114,22 @@
       "id": 46,
       "question": "Under which of the following conditions do gasses conduct electricity?",
       "options": [
-        { "id": "A", "text": "high pressure and high p.d" },
-        { "id": "B", "text": "low pressure and low p.d" },
-        { "id": "C", "text": "low pressure and high p.d" },
-        { "id": "D", "text": "high pressure and low p.d" }
+        {
+          "id": "A",
+          "text": "high pressure and high p.d"
+        },
+        {
+          "id": "B",
+          "text": "low pressure and low p.d"
+        },
+        {
+          "id": "C",
+          "text": "low pressure and high p.d"
+        },
+        {
+          "id": "D",
+          "text": "high pressure and low p.d"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Gases conduct electricity when ionized, typically at low pressure with sufficiently high potential difference."
@@ -595,10 +1138,22 @@
       "id": 47,
       "question": "In measuring high frequency a.c., the instrument used is the",
       "options": [
-        { "id": "A", "text": "hot wire ammeter" },
-        { "id": "B", "text": "d.c. ammeter" },
-        { "id": "C", "text": "moving coil ammeter" },
-        { "id": "D", "text": "moving iron ammeter" }
+        {
+          "id": "A",
+          "text": "hot wire ammeter"
+        },
+        {
+          "id": "B",
+          "text": "d.c. ammeter"
+        },
+        {
+          "id": "C",
+          "text": "moving coil ammeter"
+        },
+        {
+          "id": "D",
+          "text": "moving iron ammeter"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Hot-wire ammeters respond to heating effect and can measure high-frequency a.c."
@@ -607,10 +1162,22 @@
       "id": 48,
       "question": "The bond between silicon and germanium is",
       "options": [
-        { "id": "A", "text": "electrovalent" },
-        { "id": "B", "text": "covalent" },
-        { "id": "C", "text": "ionic" },
-        { "id": "D", "text": "dative" }
+        {
+          "id": "A",
+          "text": "electrovalent"
+        },
+        {
+          "id": "B",
+          "text": "covalent"
+        },
+        {
+          "id": "C",
+          "text": "ionic"
+        },
+        {
+          "id": "D",
+          "text": "dative"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Si and Ge are Group 14 elements and bond predominantly by sharing electrons (covalent bonding)."
@@ -619,10 +1186,22 @@
       "id": 49,
       "question": "Which of the following materials has an increase in resistance with temperature?",
       "options": [
-        { "id": "A", "text": "Electrolyte" },
-        { "id": "B", "text": "Water" },
-        { "id": "C", "text": "Metals" },
-        { "id": "D", "text": "Wood" }
+        {
+          "id": "A",
+          "text": "Electrolyte"
+        },
+        {
+          "id": "B",
+          "text": "Water"
+        },
+        {
+          "id": "C",
+          "text": "Metals"
+        },
+        {
+          "id": "D",
+          "text": "Wood"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Metals generally have a positive temperature coefficient of resistance; resistance increases with temperature."
@@ -631,10 +1210,22 @@
       "id": 50,
       "question": "The electrical properties of germination can be altered drastically by the addition of",
       "options": [
-        { "id": "A", "text": "doping" },
-        { "id": "B", "text": "saturation" },
-        { "id": "C", "text": "bonding" },
-        { "id": "D", "text": "amplification" }
+        {
+          "id": "A",
+          "text": "doping"
+        },
+        {
+          "id": "B",
+          "text": "saturation"
+        },
+        {
+          "id": "C",
+          "text": "bonding"
+        },
+        {
+          "id": "D",
+          "text": "amplification"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "Semiconductor electrical properties are altered by adding impurities (doping)."
