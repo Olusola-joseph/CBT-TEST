@@ -404,7 +404,6 @@
     },
     {
       "id": 16,
-      "instruction": "Use the vector diagram options (figure Phy2017_Q16_RL_AC_VectorOptions).",
       "question": "Which of the following graphs shows the correct vector diagram for the circuit above?",
       "options": [
         {
@@ -425,9 +424,9 @@
         }
       ],
       "correctAnswer": "A",
-      "figureId": "Phy2017_Q16_RL_AC_VectorOptions",
       "explanation": "For a series R-L circuit, the voltage across the resistor (\\(V_R\\)) is in phase with the current, while the voltage across the inductor (\\(V_L\\)) leads the current by 90°. The vector diagram A correctly shows \\(V_R\\) horizontally and \\(V_L\\) vertically upwards.",
-      "imagePath": "src/data/subjects/images/physics_images/2017_ANSWER_OPTION_16.png"
+      "questionImagePath": "src/data/subjects/images/physics_images/2017_Q16.png",
+      "answerOptionsImagePath": "src/data/subjects/images/physics_images/2017_ANSWER_OPTION_16.png"
     },
     {
       "id": 17,

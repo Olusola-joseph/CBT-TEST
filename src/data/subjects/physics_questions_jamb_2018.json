@@ -807,7 +807,6 @@
     },
     {
       "id": 32,
-      "instruction": "Use the diagrams (Phy2018_Q32_Transistor) to answer this question.",
       "question": "Which of the following diagrams represents correctly an n-p-n transistor?",
       "options": [
         {
@@ -828,9 +827,8 @@
         }
       ],
       "correctAnswer": "D",
-      "figureId": "Phy2018_Q32_Transistor",
-      "imagePath": "../data/subjects/images/physics_images/2018_ANSWER_OPTION_32.png",
-      "explanation": "In an NPN transistor symbol, the arrow on the emitter leg points OUTward (NPN = Not Pointing iN). Diagram D shows the standard symbol with the arrow pointing out."
+      "explanation": "In an NPN transistor symbol, the arrow on the emitter leg points OUTward (NPN = Not Pointing iN). Diagram D shows the standard symbol with the arrow pointing out.",
+      "answerOptionsImagePath": "src/data/subjects/images/physics_images/2018_ANSWER_OPTION_32.png"
     },
     {
       "id": 33,
